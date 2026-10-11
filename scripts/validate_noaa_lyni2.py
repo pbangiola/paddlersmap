@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Small, read-only NOAA NWPS graph diagnostic starting at LYNI2.
 
+Runs automatically in Actions when this diagnostic is updated.
+
 Walk both directions for a bounded number of hops; save raw responses so we can
 identify actual relationship fields before changing the production crawler.
 """
