@@ -2049,12 +2049,13 @@
         "source_url": "https://www.openstreetmap.org/node/12396073908",
         "verification": "unverified",
         "access": "yes",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": "yes",
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag",
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
         "source_ids": [
           "osm-node-12396073908"
         ],
@@ -4042,11 +4043,12 @@
         "source_url": "https://www.openstreetmap.org/node/2512379994",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-2512379994"
@@ -5065,11 +5067,12 @@
         "source_url": "https://www.openstreetmap.org/node/3766363029",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-3766363029"
@@ -5778,12 +5781,13 @@
         "source_url": "https://www.openstreetmap.org/node/4346138933",
         "verification": "unverified",
         "access": "yes",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag",
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
         "source_ids": [
           "osm-node-4346138933"
         ],
@@ -5902,11 +5906,12 @@
         "source_url": "https://www.openstreetmap.org/node/4730613725",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-4730613725"
@@ -6088,11 +6093,12 @@
         "source_url": "https://www.openstreetmap.org/node/5695398656",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-5695398656"
@@ -6336,11 +6342,12 @@
         "source_url": "https://www.openstreetmap.org/node/6486836549",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-6486836549"
@@ -7702,11 +7709,12 @@
         "source_url": "https://www.openstreetmap.org/node/10101792134",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-10101792134"
@@ -7733,11 +7741,12 @@
         "source_url": "https://www.openstreetmap.org/node/10101832721",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-10101832721"
@@ -9438,11 +9447,12 @@
         "source_url": "https://www.openstreetmap.org/node/13424698838",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-13424698838"
@@ -12850,11 +12860,12 @@
         "source_url": "https://www.openstreetmap.org/way/243875312",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-243875312"
@@ -13135,11 +13146,12 @@
         "source_url": "https://www.openstreetmap.org/way/373112817",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-373112817"
@@ -13166,11 +13178,12 @@
         "source_url": "https://www.openstreetmap.org/way/373112818",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-373112818"
@@ -13538,11 +13551,12 @@
         "source_url": "https://www.openstreetmap.org/way/539891558",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-539891558"
@@ -13600,11 +13614,12 @@
         "source_url": "https://www.openstreetmap.org/way/598401729",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-598401729"
@@ -13631,11 +13646,12 @@
         "source_url": "https://www.openstreetmap.org/way/598401767",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-598401767"
@@ -13662,11 +13678,12 @@
         "source_url": "https://www.openstreetmap.org/way/598403487",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-598403487"
@@ -13786,12 +13803,13 @@
         "source_url": "https://www.openstreetmap.org/way/691309541",
         "verification": "unverified",
         "access": "yes",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag",
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
         "source_ids": [
           "osm-way-691309541"
         ],
@@ -41085,11 +41103,12 @@
         "source_url": "https://www.openstreetmap.org/node/5760405114",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-node-5760405114"
@@ -44220,11 +44239,12 @@
         "source_url": "https://www.openstreetmap.org/way/607932131",
         "verification": "unverified",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag",
         "source_ids": [
           "osm-way-607932131"
@@ -47736,6 +47756,198 @@
         ],
         "source_urls": [
           "https://www.openstreetmap.org/way/1566343386"
+        ],
+        "merged_records": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95375226764706,
+          42.26050720588235
+        ]
+      },
+      "properties": {
+        "id": "osm-way-695355714",
+        "name": "Bay Hill, Gregg's Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/695355714",
+        "verification": "unverified",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
+        "source_ids": [
+          "osm-way-695355714"
+        ],
+        "source_urls": [
+          "https://www.openstreetmap.org/way/695355714"
+        ],
+        "merged_records": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9529665,
+          42.24824370967742
+        ]
+      },
+      "properties": {
+        "id": "osm-way-698302423",
+        "name": "Gregg's Landing South",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/698302423",
+        "verification": "unverified",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
+        "source_ids": [
+          "osm-way-698302423"
+        ],
+        "source_urls": [
+          "https://www.openstreetmap.org/way/698302423"
+        ],
+        "merged_records": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9703927952381,
+          42.25821874047619
+        ]
+      },
+      "properties": {
+        "id": "osm-way-698304333",
+        "name": "Gregg's Landing North",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/698304333",
+        "verification": "unverified",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
+        "source_ids": [
+          "osm-way-698304333"
+        ],
+        "source_urls": [
+          "https://www.openstreetmap.org/way/698304333"
+        ],
+        "merged_records": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.002441875,
+          42.250310575
+        ]
+      },
+      "properties": {
+        "id": "osm-way-479883416",
+        "name": "Diamond Lake Boat Launch",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/479883416",
+        "verification": "unverified",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": "park",
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
+        "source_ids": [
+          "osm-way-479883416"
+        ],
+        "source_urls": [
+          "https://www.openstreetmap.org/way/479883416"
+        ],
+        "merged_records": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9201949253521,
+          42.19273324577465
+        ]
+      },
+      "properties": {
+        "id": "osm-way-1322931479",
+        "name": "Crane's Landing Golf Club at Marriott Lincolnshire Resort",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/1322931479",
+        "verification": "unverified",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": "golf_course",
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
+        "source_ids": [
+          "osm-way-1322931479"
+        ],
+        "source_urls": [
+          "https://www.openstreetmap.org/way/1322931479"
+        ],
+        "merged_records": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95436963333333,
+          42.1973841
+        ]
+      },
+      "properties": {
+        "id": "osm-way-245526824",
+        "name": "Noahs Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/245526824",
+        "verification": "unverified",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name",
+        "source_ids": [
+          "osm-way-245526824"
+        ],
+        "source_urls": [
+          "https://www.openstreetmap.org/way/245526824"
         ],
         "merged_records": 1
       }
