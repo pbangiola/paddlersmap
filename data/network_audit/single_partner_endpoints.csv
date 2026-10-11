@@ -1,7 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
 BROW3,Sugar River at Brodhead,1,ALBW3,True,False
 BRRO1,Rocky River at Berea,1,BAKO1,True,False
+BRTA2,Bradley River near Tidewater near Homer,1,BRNA2,True,False
 BRTA3,Verde River at Bartlett Lake,1,VDTA3,True,False
 BRTN6,Schoharie Creek at Burtonsville,1,BKBN6,True,False
 BRTO3,Blue River below Tidbits Creek,1,BLUO3,True,False
@@ -96,10 +96,12 @@ EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
 ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,True,False
+EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 ELYW2,Twelvepole Creek at East Lynn Lake,1,ELSW2,True,False
+ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
 EMPL1,Mississippi River at Empire,1,WPHL1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
@@ -194,6 +196,7 @@ KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
 KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
 KLMC1,Klamath River near Klamath,1,ONSC1,True,False
+KMST2,Lavaca River at Komensky,1,BRLT2,True,False
 KNKA2,Knik River near Palmer,1,BDBA2,True,False
 KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
@@ -329,6 +332,7 @@ OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
+PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
@@ -431,7 +435,6 @@ SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
-SPNI3,White River (IN) at Spencer,1,CENI3,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
@@ -496,6 +499,7 @@ WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
+WLDW2,Little Kanawha River near Wildcat,1,BRNW2,True,False
 WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
