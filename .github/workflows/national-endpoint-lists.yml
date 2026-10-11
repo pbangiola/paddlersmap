@@ -1,0 +1,44 @@
+name: "NATIONAL - Endpoint worklists"
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/national-endpoint-lists.yml'
+permissions:
+  contents: write
+jobs:
+  lists:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data-live
+          fetch-depth: 0
+          sparse-checkout: |
+            data/noaa_gauges.geojson
+            data/noaa_graph_edges.geojson
+            data/noaa_graph_state.json
+            data/network_audit
+          sparse-checkout-cone-mode: false
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: app-code
+          sparse-checkout: scripts/national_endpoint_lists.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate national endpoint lists
+        run: |
+          python app-code/scripts/national_endpoint_lists.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/network_audit/
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish national unchecked and single-partner endpoint worklists"
+            git pull --rebase origin data-live
+            git push origin HEAD:data-live
+          fi
