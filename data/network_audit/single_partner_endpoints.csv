@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BKML1,Bayou Bartholomew at Beekman,1,JONL1,True,False
-BKPM1,Bucksport Tidal Gage (MLLW),1,BPRM1,True,False
-BKRA4,Black River at Black Rock,1,POCA4,True,False
-BKSV2,Back Creek (Bath Co. VA) near Sunrise (abv PSS),1,SUNV2,True,False
-BKTT2,Brushy Creek at FM 619 near Taylor,1,BSYT2,True,False
 BLAV2,Blackwater River near Rocky Mount,1,BCYV2,True,False
 BLBN1,Big Papillion Creek near Blair,1,KEBN1,True,False
 BLIS1,Black River (SC) at I-95 near Manning,1,KINS1,True,False
@@ -88,7 +83,6 @@ CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
-DCTN1,Missouri River at Decatur,1,BLAN1,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
 DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
 DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
@@ -146,8 +140,10 @@ GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
 GRMN3,Androscoggin River at Gorham,1,RMFM1,True,False
+GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GRVU1,Green River (WY-UT-CO) at GREEN RIVER,1,ACJU1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
+GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HAIV2,Russell Fork River at Haysi,1,BIGV2,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
@@ -207,7 +203,9 @@ LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
+LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
+LNTI4,Iowa River near Lone Tree (Tri-County Bridge),1,IOWI4,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
@@ -240,7 +238,6 @@ MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
 MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
-MKLN1,Missouri River near Maskell,1,MSJN1,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLUK2,Ohio River at McAlpine Upper,1,MLXK2,True,False
@@ -381,6 +378,7 @@ SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
+SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
@@ -417,6 +415,7 @@ TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
+UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULMM8,Missouri River near Ulm,1,GFLM8,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
@@ -427,6 +426,7 @@ VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
+WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WBMN2,Walker River below Mason WMA at RR Xing,1,WRYN2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
@@ -434,6 +434,7 @@ WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
+WETN4,Millstone River at Weston,1,BKWN4,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHPM5,Rainy River near Boat Landing at Wheelers Point,1,MNUM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
