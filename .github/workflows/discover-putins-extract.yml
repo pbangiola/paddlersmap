@@ -1,4 +1,4 @@
-name: Discover put-ins from OSM extracts
+name: ARCHIVE - Rebuild launches from OSM extracts
 on:
   workflow_dispatch:
     inputs:
