@@ -80,12 +80,14 @@ def fetch_one(item):
     low_stage = number(low)
     if low_stage is None: low_stage = threshold(combined, "lowWaterStage", "lowStage")
     flood = threshold(combined, "minor", "minorFloodStage", "floodStage", "flood")
+    normal = threshold(combined, "gaugeNormalThreshold", "normalThreshold", "normalStage", "normal")
     props = {
         "noaa_lid": str(lid), "site": str(first(combined, "usgsId") or lid),
         "name": first(combined, "name", "description") or str(lid),
         "state": first(first(combined, "state") or {}, "abbreviation") if isinstance(first(combined, "state"), dict) else first(combined, "state"),
         "source": "NOAA NWPS", "stage": stage, "stage_time": stage_time,
         "flood_stage_ft": flood, "low_water_stage_ft": low_stage,
+        "typical_stage_ft": normal,
         "action_stage_ft": threshold(combined, "action", "actionStage"),
         "moderate_flood_stage_ft": threshold(combined, "moderate", "moderateFloodStage"),
         "major_flood_stage_ft": threshold(combined, "major", "majorFloodStage"),
