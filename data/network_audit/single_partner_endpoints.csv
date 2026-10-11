@@ -1,11 +1,11 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BRHO3,Burnt River at Huntington,1,BBPO3,True,False
 BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
 BROW3,Sugar River at Brodhead,1,ALBW3,True,False
 BRRO1,Rocky River at Berea,1,BAKO1,True,False
 BRTA3,Verde River at Bartlett Lake,1,VDTA3,True,False
 BRTN6,Schoharie Creek at Burtonsville,1,BKBN6,True,False
 BRTO3,Blue River below Tidbits Creek,1,BLUO3,True,False
+BRUA2,Upper Bradley River near Nuka Glacier near Homer,1,BRIA2,True,False
 BRVG1,Nottely River near Blairsville,1,BLVG1,True,False
 BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
@@ -55,6 +55,8 @@ CNEI4,Cedar River near Conesville,1,CEBI4,True,False
 CNWM2,Susquehanna River at Conowingo Dam,1,MRTP1,True,False
 COGO3,Cow Creek above Azalea,1,GSVO3,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
+COMO2,Neosho River near Commerce,1,NSOK1,True,False
+CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
 CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
@@ -136,7 +138,6 @@ GBYW3,Fox River (North) at Green Bay,1,WRGW3,True,False
 GENF1,St. Johns River above Lake Harney,1,SNFF1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
-GLDI2,Mississippi River at Gladstone,1,KHBI2,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
@@ -165,6 +166,7 @@ HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
 HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
+ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
 INOO2,Verdigris River near Inola,1,CLRO2,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
@@ -205,7 +207,6 @@ LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
-LGRM7,Mississippi River at LaGrange,1,UINI2,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
@@ -248,6 +249,7 @@ MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
+MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
 MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
@@ -285,6 +287,7 @@ NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
+NEVN6,Neversink River at Godeffroy,1,BRGN6,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NGTC2,North Platte River near Northgate,1,SRAW4,True,False
@@ -307,6 +310,7 @@ NSHM8,Milk River at Nashua,1,GLWM8,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
 NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
 NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
+NVCN6,Neversink River below Claryville,1,NVRN6,True,False
 NWCL1,Tide Station (LIX) near Lakefront,1,SHBL1,True,False
 NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
 NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
@@ -319,7 +323,6 @@ OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 OLVL1,Comite River near Olive Branch,1,COML1,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
-OSWK1,Neosho River at Oswego,1,PPFK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
@@ -397,6 +400,7 @@ SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
 SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
+SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
 SCHA4,White River at St. Charles,1,CLDA4,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
