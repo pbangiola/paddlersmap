@@ -145,8 +145,20 @@ def main():
                 if lid(f.get("properties", {}))}
     graph = read(EDGES, {"type": "FeatureCollection", "features": []})
     state = read(STATE, {})
-    pending = deque(state["pending"] if "pending" in state else sorted(existing))
-    visited = set(state.get("visited", []))
+    visited = {str(x).upper() for x in state.get("visited", [])}
+    # Process single-partner loose ends first, then every unchecked national gauge.
+    # Keep previously queued stations first so interrupted runs resume reliably.
+    partner_counts = {}
+    for edge in graph.get("features", []):
+        p = edge.get("properties", {})
+        a, b = p.get("upstream"), p.get("downstream")
+        if a and b and a != b:
+            partner_counts.setdefault(a, set()).add(b)
+            partner_counts.setdefault(b, set()).add(a)
+    single = sorted(k for k, v in partner_counts.items() if len(v) == 1 and k not in visited)
+    national = sorted(set(existing) | set(partner_counts) - visited)
+    seed = list(state.get("pending", [])) + single + national
+    pending = deque(dict.fromkeys(str(x).upper() for x in seed if x and str(x).upper() not in visited))
     seen = set(pending) | visited
     links = set(tuple(e["properties"][k] for k in ("upstream", "downstream"))
                 for e in graph.get("features", []) if all(k in e.get("properties", {}) for k in ("upstream", "downstream")))
@@ -188,14 +200,21 @@ def main():
         # Persist after each station; workflow publishes after a bounded batch.
         save(STATE, {"pending": list(pending), "visited": sorted(visited), "lid_parser_v2": True})
         save(GAUGES, {"type": "FeatureCollection", "features": list(existing.values())})
+        old_edges = {(f.get("properties", {}).get("upstream"), f.get("properties", {}).get("downstream")): f
+                     for f in graph.get("features", [])}
         lines = []
         for a, b in sorted(links):
             fa, fb = existing.get(a), existing.get(b)
             if not fa or not fb:
                 continue
-            lines.append({"type": "Feature", "geometry": {"type": "LineString", "coordinates": [
+            prior = old_edges.get((a, b), {})
+            props = dict(prior.get("properties", {}))
+            props.update({"upstream": a, "downstream": b})
+            props.setdefault("segment_id", a + "_" + b)
+            props.setdefault("source", "NOAA NWPS riverflow")
+            lines.append({"type": "Feature", "geometry": prior.get("geometry") or {"type": "LineString", "coordinates": [
                 fa["geometry"]["coordinates"], fb["geometry"]["coordinates"]]},
-                "properties": {"upstream": a, "downstream": b, "source": "NOAA NWPS riverflow"}})
+                "properties": props})
         save(EDGES, {"type": "FeatureCollection", "features": lines})
         print(f"Gauge {current}: {processed} processed, {len(existing)} gauges, {len(links)} relationships, {len(pending)} queued", flush=True)
     if args.publish:
