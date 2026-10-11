@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BRAI4,East Nishnabotna River near Brayton 345th St--IFC,1,ATCI4,True,False
-BRAW2,Guyandotte River at Branchland,1,LOGW2,True,False
 BRFI1,South Fork Boise River at Pine (near Featherville),1,ANDI1,True,False
 BRHO3,Burnt River at Huntington,1,BBPO3,True,False
 BRKS2,Big Sioux River near Brookings,1,BSFS2,True,False
@@ -97,6 +95,7 @@ EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
 EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
+ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
@@ -152,6 +151,7 @@ HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HAIV2,Russell Fork River at Haysi,1,BIGV2,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
+HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HLST1,South Fork Forked Deer River near Halls,1,BLST1,True,False
@@ -282,6 +282,7 @@ NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
+NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NGTC2,North Platte River near Northgate,1,SRAW4,True,False
@@ -493,6 +494,7 @@ WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
 WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
+WPTK2,Salt River at West Point,1,SHPK2,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRRP1,Allegheny River at Warren,1,WHKP1,True,False
 WSTM6,Big Black River at West,1,BTAM6,True,False
