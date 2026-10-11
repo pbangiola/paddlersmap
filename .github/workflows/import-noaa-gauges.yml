@@ -1,4 +1,4 @@
-name: NOAA - Import national priority gauges
+name: MANUAL - Import national NOAA gauges
 on:
   workflow_dispatch:
   push:
