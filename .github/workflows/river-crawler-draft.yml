@@ -1,4 +1,4 @@
-name: DATA 2 - Discover river gauges and boat launches
+name: SCHEDULED - Discover river gauges and launches (hourly)
 on:
   workflow_dispatch:
   schedule:
