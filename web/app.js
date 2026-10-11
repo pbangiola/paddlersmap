@@ -113,18 +113,24 @@ function calibrate(data,reports){
   p.community_report_count=e?.count??0;
  }
 }
-function palette(p){
- const stage=finite(p.stage),minimum=finite(p.atlas_minimum_ft);
- const mean=finite(p.atlas_mean_ft),flood=finite(p.flood_stage_ft);
- if(stage!==null&&flood!==null&&stage>=flood)return '#d3232f';
- if(stage===null||!p.atlas_minimum_adequate||minimum===null||mean===null||flood===null||!(minimum<mean&&mean<flood))return '#88929b';
- const green=mean+0.25*(flood-mean);
- if(stage<=minimum)return '#24150c';
- if(stage<=mean)return blend('#24150c','#1768c5',(stage-minimum)/(mean-minimum));
- if(stage<=green)return blend('#1768c5','#159447',(stage-mean)/(green-mean));
- if(stage<flood)return blend('#159447','#d3232f',(stage-green)/(flood-green));
- return '#d3232f';
+// Signed, dimensionless position relative to published low / typical / flood stages.
+// -1 = low water, 0 = typical, +1 = flood. Null means no defensible calibration.
+function stagePosition(p){
+ const h=finite(p.stage),lo=finite(p.low_water_stage_ft??p.atlas_minimum_ft),
+   typical=finite(p.typical_stage_ft??p.normal_stage_ft??p.gauge_normal_threshold_ft),
+   flood=finite(p.flood_stage_ft);
+ if(h===null||typical===null)return null;
+ if(h===typical)return 0;
+ if(h<typical)return lo!==null&&lo<typical?Math.max(-1,(h-typical)/(typical-lo)):null;
+ return flood!==null&&flood>typical?Math.min(1,(h-typical)/(flood-typical)):null;
 }
+function stageColor(position){
+ if(position===null||!Number.isFinite(position))return '#88929b';
+ if(position<=0)return blend('#85512c','#0867d9',Math.max(0,1+position));
+ return position<=0.6?blend('#0867d9','#f0cf31',position/0.6):
+   blend('#f0cf31','#cf2929',(position-0.6)/0.4);
+}
+function palette(p){return stageColor(stagePosition(p));}
 function riverName(raw){
  const value=String(raw||'').trim();
  // Gauge descriptions typically look like "DES PLAINES RIVER AT RIVERSIDE, IL".
@@ -170,7 +176,7 @@ function applyRiverColorMode(){
   map.setPaintProperty(id,'line-color',['get',riverColorMode==='segments'?'segment_color':'stage_color']);
  }
  const label=document.getElementById('river-color-note');
- if(label)label.textContent=riverColorMode==='segments'?'Different colors identify gauge-associated segments; not water levels.':'Water stage colors require calibrated gauge readings; gray means unavailable.';
+ if(label)label.textContent=riverColorMode==='segments'?'Different colors identify gauge-associated segments; not water levels.':'Brown = low water, blue = typical, yellow = elevated, red = flood; gray = missing calibration.';
 }
 document.getElementById('river-color-mode')?.addEventListener('change',e=>{
  riverColorMode=e.target.value;
@@ -178,18 +184,18 @@ document.getElementById('river-color-mode')?.addEventListener('change',e=>{
 });
 function colorRiverNetwork(segments,gauges){
  const bySite=new Map(gauges.map(f=>[siteId(f.properties.site),f.properties]));
- const colorFor=id=>{const p=bySite.get(siteId(id));return p?palette(p):'#88929b';};
+ const positionFor=id=>{const p=bySite.get(siteId(id));return p?stagePosition(p):null;};
  for(const feature of segments.features){
   const p=feature.properties||(feature.properties={});
   const a=siteId(p.upstream_gauge||p.from_gauge||p.site),b=siteId(p.downstream_gauge||p.to_gauge||p.site);
-  const ca=colorFor(a),cb=colorFor(b);
+  const pa=positionFor(a),pb=positionFor(b);
   // Use the available endpoint when its partner lacks calibrated stage data.
   // Only a reach with no usable associated gauge stays gray.
   // Use two distinct bounding gauges when provided by the network builder.
   // A single nearest-gauge attribution is not evidence of two boundaries.
   const fraction=finite(p.gauge_fraction??p.fraction_from_upstream??p.relative_distance);
   const t=fraction===null?0.5:Math.max(0,Math.min(1,fraction));
-  p.stage_color=ca==='#88929b'?cb:cb==='#88929b'?ca:a===b?ca:blend(ca,cb,t);
+  p.stage_color=stageColor(pa===null?pb:pb===null?pa:a===b?pa:pa*(1-t)+pb*t);
   p.stage_color_method=a&&b&&a!==b?'two-gauge interpolation':a||b?'single associated gauge':'unavailable';
   p.stage_gauge_a=a;p.stage_gauge_b=b;
   p.segment_color=segmentColor(a||b);
@@ -251,13 +257,7 @@ map.on('load',async()=>{
   let colored=0;
   for(const f of valid){
    const p=f.properties||(f.properties={});
-   // NOAA fields: stage, flood_stage_ft, low_water_stage_ft.
-   // Without a defensible mean, color by flood and low thresholds only.
-   const stage=finite(p.stage),flood=finite(p.flood_stage_ft),low=finite(p.low_water_stage_ft);
-   p.noaa_color=stage===null?'#88929b':
-    flood!==null&&stage>=flood?'#d3232f':
-    low!==null&&stage<=low?'#24150c':
-    flood!==null?'#1768c5':'#88929b';
+   p.noaa_color=palette(p);
    if(p.noaa_color!=='#88929b')colored++;
   }
   for(const f of valid)f.properties.latitude=f.geometry.coordinates[1];
@@ -653,10 +653,7 @@ map.on('load',async()=>{
    const aa=a.slice(1).match(/../g),bb=b.slice(1).match(/../g);
    return '#'+aa.map((v,i)=>Math.round((parseInt(v,16)+parseInt(bb[i],16))/2).toString(16).padStart(2,'0')).join('');
   };
-  const gaugeColor=p=>{
-   const stage=finite(p.stage),flood=finite(p.flood_stage_ft),low=finite(p.low_water_stage_ft);
-   return stage===null?'#88929b':flood!==null&&stage>=flood?'#d3232f':low!==null&&stage<=low?'#24150c':flood!==null?'#1768c5':'#88929b';
-  };
+  const gaugeColor=p=>palette(p);
   for(const f of data.features||[]){
    const p=f.properties||{},m=String(p.name||'').trim().match(/^(.+?)\s+(?:at|near)\s+(.+)$/i),xy=f.geometry?.coordinates;
    if(!m||f.geometry?.type!=='Point'||!Array.isArray(xy)||!xy.slice(0,2).every(Number.isFinite))continue;
@@ -678,7 +675,7 @@ map.on('load',async()=>{
      const a=points[parent[pick]],b=points[pick];
      lines.push({type:'Feature',geometry:{type:'LineString',coordinates:[a.xy,b.xy]},
       properties:{water_body:name,from:a.p.name,to:b.p.name,distance_km:Math.round(min*10)/10,
-       stage_color:avgHex(gaugeColor(a.p),gaugeColor(b.p))}});
+       stage_color:stageColor((stagePosition(a.p)===null?stagePosition(b.p):stagePosition(b.p)===null?stagePosition(a.p):(stagePosition(a.p)+stagePosition(b.p))/2))}});
     }
     for(let j=0;j<points.length;j++)if(!used[j]){
      const d=haversine(points[pick].xy,points[j].xy);
