@@ -1,4 +1,4 @@
-name: MAP 2 - Import all EDNA watersheds once
+name: ONE-TIME - Reimport EDNA watersheds
 on:
   workflow_dispatch:
   push:
