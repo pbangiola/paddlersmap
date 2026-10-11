@@ -913,11 +913,12 @@
         "source_url": "https://www.openstreetmap.org/node/875345026",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -937,11 +938,12 @@
         "source_url": "https://www.openstreetmap.org/node/875350438",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -2931,11 +2933,12 @@
         "source_url": "https://www.openstreetmap.org/node/4334855203",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -12570,11 +12573,12 @@
         "source_url": "https://www.openstreetmap.org/way/1363170832",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -13026,11 +13030,12 @@
         "source_url": "https://www.openstreetmap.org/way/1482570405",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -36383,6 +36388,31 @@
         "name": "Noahs Landing",
         "source": "OpenStreetMap",
         "source_url": "https://www.openstreetmap.org/way/245526824",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8386723,
+          42.4864741
+        ]
+      },
+      "properties": {
+        "id": "osm-node-1633250820",
+        "name": "The Landings of Covenant Cove",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/node/1633250820",
         "verification": "candidate_review",
         "access": "unknown",
         "waterway": null,
