@@ -1,6 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BGSO2,Deep Fork River near Beggs,1,SDFO2,True,False
-BHLO1,Tuscarawas River at Beach City Dam Tailwater,1,BEHO1,True,False
+BIGG1,Big Haynes Creek at Lenora Road near Snellville,1,MBHG1,True,False
 BIUI1,Bear River at Idaho-Utah State Line,1,BRAI1,True,False
 BIVO3,Berry Creek  Ben Irving Reservoir,1,BCBO3,True,False
 BKML1,Bayou Bartholomew at Beekman,1,JONL1,True,False
@@ -53,6 +52,7 @@ CDET2,Rio Grande at Candelaria Crossing,1,PIOT2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
+CHIN7,N.E. Cape Fear River near Chinquapin,1,BGWN7,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
 CLLC1,Calleguas Creek at CSUCI Bridge,1,ASNC1,True,False
@@ -113,6 +113,7 @@ FDKM2,Monocacy River near Frederick at Interstate 70,1,FRMM2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
+FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
 FPKG1,Savannah River at Fort Pulaski (IN MLLW),1,SVDG1,True,False
@@ -140,7 +141,6 @@ HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HENK2,Ohio River at Henderson,1,EVVI3,True,False
-HENN1,North Platte River at WY-NE State Line nr Henry,1,MICN1,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
@@ -249,6 +249,7 @@ NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
+NGTC2,North Platte River near Northgate,1,SRAW4,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
@@ -282,6 +283,7 @@ PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
+PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PETW3,Wisconsin River at Petenwell Dam,1,WIRW3,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
