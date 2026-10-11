@@ -18,12 +18,8 @@ const gaugeToggle=document.getElementById('show-gauges');
 // Circle diameter is 25 meters on the ground; suppress subpixel symbols at broad zoom.
 // MapLibre uses 512-pixel world tiles: meters per pixel at equator = 78271.51696 / 2^zoom.
 // The circle is exactly 25m across (12.5m radius), corrected for each gauge latitude.
-const gaugeRadiusPixels=['max',2,['/', ['interpolate',['exponential',2],['zoom'],
-  0,12.5/78271.51696, 12,12.5/(78271.51696/4096),
-  16,12.5/(78271.51696/65536), 20,12.5/(78271.51696/1048576)],
-  ['max',0.1,['cos',['*',['coalesce',['get','latitude'],41],Math.PI/180]]]]];
-
-const gaugeVisibleZoom=9;
+const gaugeRadiusPixels=['interpolate',['exponential',2],['zoom'],0,2.5,6,3,9,3.5,12,4,14,6,16,13,18,50];
+const gaugeVisibleZoom=5;
 function applyGaugeScale(){
  const show=gaugeToggle.checked&&map.getZoom()>=gaugeVisibleZoom;
  for(const id of ['noaa-national-gauges','gauges','expanded-gauges'])setLayerVisibility(id,show);
@@ -117,7 +113,7 @@ function calibrate(data,reports){
 // -1 = low water, 0 = typical, +1 = flood. Null means no defensible calibration.
 function stagePosition(p){
  const h=finite(p.stage),lo=finite(p.low_water_stage_ft??p.atlas_minimum_ft),
-   typical=finite(p.typical_stage_ft??p.normal_stage_ft??p.gauge_normal_threshold_ft),
+   typical=finite(p.typical_stage_ft??p.normal_stage_ft??p.gauge_normal_threshold_ft??p.atlas_mean_ft),
    flood=finite(p.flood_stage_ft);
  if(h===null||typical===null)return null;
  if(h===typical)return 0;
@@ -130,7 +126,14 @@ function stageColor(position){
  return position<=0.6?blend('#0867d9','#f0cf31',position/0.6):
    blend('#f0cf31','#cf2929',(position-0.6)/0.4);
 }
-function palette(p){return stageColor(stagePosition(p));}
+function palette(p){
+ const position=stagePosition(p);
+ if(position!==null)return stageColor(position);
+ const h=finite(p.stage),lo=finite(p.low_water_stage_ft),flood=finite(p.flood_stage_ft);
+ if(h!==null&&flood!==null&&h>=flood)return '#cf2929';
+ if(h!==null&&lo!==null&&h<=lo)return '#85512c';
+ return '#88929b';
+}
 function riverName(raw){
  const value=String(raw||'').trim();
  // Gauge descriptions typically look like "DES PLAINES RIVER AT RIVERSIDE, IL".
@@ -195,7 +198,7 @@ function colorRiverNetwork(segments,gauges){
   // A single nearest-gauge attribution is not evidence of two boundaries.
   const fraction=finite(p.gauge_fraction??p.fraction_from_upstream??p.relative_distance);
   const t=fraction===null?0.5:Math.max(0,Math.min(1,fraction));
-  p.stage_color=stageColor(pa===null?pb:pb===null?pa:a===b?pa:pa*(1-t)+pb*t);
+  p.stage_color=pa===null&&pb===null?blend(palette(bySite.get(a)||{}),palette(bySite.get(b)||{}),t):stageColor(pa===null?pb:pb===null?pa:a===b?pa:pa*(1-t)+pb*t);
   p.stage_color_method=a&&b&&a!==b?'two-gauge interpolation':a||b?'single associated gauge':'unavailable';
   p.stage_gauge_a=a;p.stage_gauge_b=b;
   p.segment_color=segmentColor(a||b);
@@ -675,7 +678,7 @@ map.on('load',async()=>{
      const a=points[parent[pick]],b=points[pick];
      lines.push({type:'Feature',geometry:{type:'LineString',coordinates:[a.xy,b.xy]},
       properties:{water_body:name,from:a.p.name,to:b.p.name,distance_km:Math.round(min*10)/10,
-       stage_color:stageColor((stagePosition(a.p)===null?stagePosition(b.p):stagePosition(b.p)===null?stagePosition(a.p):(stagePosition(a.p)+stagePosition(b.p))/2))}});
+       stage_color:stagePosition(a.p)===null&&stagePosition(b.p)===null?avgHex(gaugeColor(a.p),gaugeColor(b.p)):stageColor(stagePosition(a.p)===null?stagePosition(b.p):stagePosition(b.p)===null?stagePosition(a.p):(stagePosition(a.p)+stagePosition(b.p))/2)}});
     }
     for(let j=0;j<points.length;j++)if(!used[j]){
      const d=haversine(points[pick].xy,points[j].xy);
