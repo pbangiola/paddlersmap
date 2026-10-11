@@ -1,4 +1,4 @@
-name: Adaptive atlas expansion
+name: SCHEDULED - Expand atlas coverage (daily)
 on:
   schedule:
     - cron: '23 9 * * *'
