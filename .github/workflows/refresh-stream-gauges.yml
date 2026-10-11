@@ -1,4 +1,4 @@
-name: Refresh stream gauges
+name: SCHEDULED - Refresh gauge readings (every 3 hours)
 on:
   schedule:
     - cron: '17 */3 * * *'
