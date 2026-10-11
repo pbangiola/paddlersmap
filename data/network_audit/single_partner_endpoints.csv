@@ -2,6 +2,7 @@ noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
 BKML1,Bayou Bartholomew at Beekman,1,JONL1,True,False
 BKPM1,Bucksport Tidal Gage (MLLW),1,BPRM1,True,False
 BKRA4,Black River at Black Rock,1,POCA4,True,False
+BKSV2,Back Creek (Bath Co. VA) near Sunrise (abv PSS),1,SUNV2,True,False
 BKTT2,Brushy Creek at FM 619 near Taylor,1,BSYT2,True,False
 BLAV2,Blackwater River near Rocky Mount,1,BCYV2,True,False
 BLBN1,Big Papillion Creek near Blair,1,KEBN1,True,False
@@ -30,6 +31,7 @@ BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
 BROW3,Sugar River at Brodhead,1,ALBW3,True,False
 BRRO1,Rocky River at Berea,1,BAKO1,True,False
 BRTA3,Verde River at Bartlett Lake,1,VDTA3,True,False
+BRTN6,Schoharie Creek at Burtonsville,1,BKBN6,True,False
 BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
 BSEI1,New York Canal Diversion at Boise,1,BDDI1,True,False
@@ -39,10 +41,12 @@ BTBC2,Big Thompson River (CO) below Lake Estes,1,BIMC2,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
 BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
 BUEC2,Blue River (CO) at Blue River,1,BLRC2,True,False
+BUNL1,Bundick Creek near DeRidder,1,BKDL1,True,False
 BUSP1,Central PA Dams  Bush Dam on Kettle Creek,1,COWP1,True,False
 BWMA1,Murder Creek (AL) at Brewton,1,BCNA1,True,False
 BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
 CAAT2,Nueces River at Calallen,1,CBVT2,True,False
+CAPL1,Tide Station (LCH) at Calcasieu Pass,1,LCLL1,True,False
 CARG1,Broad River in GA above Carlton,1,BELG1,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
@@ -64,6 +68,7 @@ CMBK2,Poor Fork Cumberland River at Cumberland,1,BXTK2,True,False
 CMDS1,Wateree River near Camden,1,WATS1,True,False
 CMGG1,Big Creek at GA 9 near Cumming,1,APHG1,True,False
 CMGN6,Chemung River at Chemung,1,CHEN6,True,False
+CMKT2,Devils River at Pafford Crossing near Comstock,1,BKCT2,True,False
 CMSM7,Missouri River near Chamois,1,JFFM7,True,False
 CMTL1,Comite River near Comite Joor Rd.,1,BAKL1,True,False
 CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
@@ -161,6 +166,7 @@ HTRM8,Missouri River below Holter Dam near Wolf Creek,1,HASM8,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
 HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
+IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
 INOO2,Verdigris River near Inola,1,CLRO2,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
@@ -172,6 +178,7 @@ JKFM7,Jacks Fork near Mountain View,1,ALYM7,True,False
 JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
 JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
 JMEI4,Floyd River at James,1,MRLI4,True,False
+JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
 JSLS2,James River near Hecla,1,CMBS2,True,False
 JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
@@ -223,6 +230,7 @@ MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
+MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
@@ -253,6 +261,7 @@ MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
+MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
@@ -300,7 +309,6 @@ PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGFM6,Pascagoula River at Graham Ferry,1,BKNM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,1,PCST2,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
-PICF1,Phillippi Creek at Pinecraft,1,BFRF1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
@@ -316,6 +324,7 @@ PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
+PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
@@ -408,6 +417,7 @@ TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
+ULMM8,Missouri River near Ulm,1,GFLM8,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
@@ -418,6 +428,7 @@ VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
+WBMN2,Walker River below Mason WMA at RR Xing,1,WRYN2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
