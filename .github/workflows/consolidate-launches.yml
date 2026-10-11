@@ -1,4 +1,4 @@
-name: Consolidate launch candidates
+name: ACTIVE - Consolidate launches (on data changes or manual)
 on:
   workflow_dispatch:
   push:
