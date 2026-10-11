@@ -1,4 +1,4 @@
-name: Crawl NOAA gauge connections
+name: MANUAL - Crawl NOAA gauge connection graph (not scheduled)
 on:
   workflow_dispatch:
 permissions:
