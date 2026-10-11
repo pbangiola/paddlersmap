@@ -1,36 +1,11 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ANTI1,Henrys Fork at St Anthony,0,,True,False
-ANTO1,Maumee River at Antwerp OH,2,DEFO1;NHVI3,True,False
-ANTO2,Kiamichi River near Antlers,0,,True,False
-ANTS2,Antelope Creek near Mission,0,,True,False
-ANTT1,Mill Creek at Antioch,0,,True,False
-ANVC1,Tide Station (Mendocino Co)  at Arena Cove,0,,True,False
-ANVN7,Valley River at Andrews,0,,True,False
-ANYW2,Anthony Creek above 4h/Anthony,0,,True,False
-AOBC1,Adobe Creek at El Camino Real,0,,True,False
-AODC1,Adobe Creek at East Meadow Drive,0,,True,False
-AOLC1,Arroyo De La Laguna - Hwy 84 at Sunol,2,ADLC1;NILC1,True,False
-AONI4,Onion Creek near Ames Hwy R38--IFC,0,,True,False
-AOPC1,Arroyo Las Positas at Livermore,2,ABDC1;AECC1,True,False
-AORC1,Las Animas Creek at O'Connell Ranch,0,,True,False
-APAM2,Severn River at Annapolis (IN MLLW),0,,True,False
-APAP1,Little Lehigh Creek at Allentown,1,ALLP1,True,False
-APBA2,Anchor River at Anchor Point,0,,True,False
-APCC1,Napa River near Napa,0,,True,False
-APCF1,Tide Station at Apalachicola (in MHHW),1,ABCF1,True,False
-APEI4,Drainage Ditch near Aplington IA 57 E--IFC,0,,True,False
-APEV2,Looney Creek at Buchanan,0,,True,False
-APHG1,Big Creek near Alpharetta,0,,True,False
-APLO3,Applegate River at Applegate Reservoir,0,,True,False
-APLW3,Fox River (North) at Appleton,0,,True,False
-APNC2,Roaring Fork River near Aspen,0,,True,False
 APPM5,Pomme De Terre River at Appleton,0,,True,False
 APPV2,Appomattox River near Tuggle,0,,True,False
 APRI2,Apple River near Hanover,0,,True,False
-APRO3,Applegate River near Applegate,0,,True,False
+APRO3,Applegate River near Applegate,2,APLO3;ARWO3,True,False
 APSN7,Swift Creek near Apex,0,,True,False
 APSV2,Unnamed Tributary at New Alexandria Storm Water Pumping Station - Downstream,0,,True,False
-APTA2,Anchor River near Anchor Point,0,,True,False
+APTA2,Anchor River near Anchor Point,1,APBA2,True,False
 APWI4,Gran Creek near Aplington IA 57 W--IFC,0,,True,False
 APXK2,Pond River (KY) above Apex,0,,True,False
 AQLT2,Brazos River near Aquilla,0,,True,False
@@ -106,7 +81,7 @@ ARTV2,Little Bull Run at Artemus Road,0,,True,False
 ARVA3,Aravaipa Creek near Mammoth,0,,True,False
 ARVV2,Slate River near Arvonia,0,,True,False
 ARVW4,Powder River (WY-MT) near Arvada,0,,True,False
-ARWO3,Applegate River near Wilderville,0,,True,False
+ARWO3,Applegate River near Wilderville,1,APRO3,True,False
 ASAC1,Ash Creek at Adin,0,,True,False
 ASBL1,Abita River at Abita Springs at Hwy 36,0,,True,False
 ASBM4,Au Sable River near Au Sable,0,,True,False
@@ -546,7 +521,7 @@ BERO3,Southeast Oregon Reservoirs at Beulah Reservoir/Agency Valley Dam,0,,True,
 BERS2,Bear in the Lodge Creek near Wanblee,0,,True,False
 BERU1,Bear River near Utah/Wyoming State Line,0,,True,False
 BERV2,Dry Marsh Run near Berryville,0,,True,False
-BERW3,Fox River (North) at Berlin,0,,True,False
+BERW3,Fox River (North) at Berlin,2,OSSW3;PCNW3,True,False
 BESA1,Valley Creek near Bessemer,0,,True,False
 BESM4,Black River near Bessemer,0,,True,False
 BESN7,Long Creek near Bessemer City 3 NE,0,,True,False
@@ -1655,7 +1630,7 @@ CECP1,Miller's Run at Cecil TWP,0,,True,False
 CEDF1,Cedar Creek (in MHHW),0,,True,False
 CEDG1,Sawhatchee Creek at Cedar Springs,0,,True,False
 CEDI1,Lower Cedar Creek above Divs Nr Mackay,0,,True,False
-CEDI4,Cedar River at Cedar Falls,2,ALOI4;JANI4,True,False
+CEDI4,Cedar River at Cedar Falls,3,ALOI4;JANI4;NHRI4,True,False
 CEDP1,Pine Creek at Cedar Run,0,,True,False
 CEDW3,Milwaukee River near Cedarburg,0,,True,False
 CELF1,Crescent Lake at Crescent City (in NAVD88),0,,True,False
@@ -1994,7 +1969,7 @@ CMAI4,Middle Raccoon River near Coon Rapids Hwy E63--IFC,0,,True,False
 CMAM5,South Branch Root River at Carimona,0,,True,False
 CMAN4,Delaware Bay at Cape May (IN MLLW),0,,True,False
 CMAP4,Rio Camuy near Bayaney,0,,True,False
-CMBI3,Maumee River at Columbia St. at Ft. Wayne,2,FTWI3;SJRI3,True,False
+CMBI3,Maumee River at Columbia St. at Ft. Wayne,3,FTWI3;FWAI3;SJRI3,True,False
 CMBK2,Poor Fork Cumberland River at Cumberland,0,,True,False
 CMBS2,James River near Columbia,0,,True,False
 CMCI1,Camas Creek (south-central Idaho) near Blaine,0,,True,False
@@ -2008,7 +1983,7 @@ CMDP1,Conemaugh River at Conemaugh Lake Tailwater,0,,True,False
 CMDS1,Wateree River near Camden,0,,True,False
 CMEC1,Carmel River near Carmel,0,,True,False
 CMGC1,Compton Creek at Greenleaf,0,,True,False
-CMGG1,Big Creek at GA 9 near Cumming,0,,True,False
+CMGG1,Big Creek at GA 9 near Cumming,1,APHG1,True,False
 CMGI2,Embarras River (IL) near Camargo,0,,True,False
 CMGN6,Chemung River at Chemung,0,,True,False
 CMGS1,Combahee River near Green Pond,0,,True,False
@@ -2194,7 +2169,7 @@ CPAT1,West Prong Little Pigeon River at Chimney Picnic Area,0,,True,False
 CPBC3,Long Island Sound at Westport Compo,0,,True,False
 CPBF1,Cooks Bayou at Parker Branch (in MHHW),0,,True,False
 CPBN6,Cohocton River above Campbell,0,,True,False
-CPBO1,Maumee River at Napoleon,0,,True,False
+CPBO1,Maumee River at Napoleon,2,DFNO1;GRRO1,True,False
 CPCA4,Cache River above Cotton Plant DCP,0,,True,False
 CPCC1,Carpinteria Creek near Carpinteria,0,,True,False
 CPCI2,Plum Creek (IL) near Crete,0,,True,False
@@ -2615,7 +2590,7 @@ DCNG1,Chattahoochee River near Cornelia,0,,True,False
 DCOC1,Dry Creek at Cooley Ranch Road,0,,True,False
 DCRA1,Choctawhatchee River near Daleville,0,,True,False
 DCRI2,Sangamon River at Decatur,0,,True,False
-DCRI3,St. Marys River at Decatur,0,,True,False
+DCRI3,St. Marys River at Decatur,2,PLMI3;SASI3,True,False
 DCRO1,Deer Creek at Deer Creek Lake,0,,True,False
 DCRS1,Dutchmans Creek near Winnsboro,0,,True,False
 DCRW1,Deadman Creek near Gould City,0,,True,False
@@ -2700,7 +2675,7 @@ DFCO1,Auglaize River near Defiance,0,,True,False
 DFCV2,Fall Creek at River Street in Danville,0,,True,False
 DFIV2,North Fork Clinch River at Duffield,0,,True,False
 DFMI4,Fourmile Creek at Des Moines Easton Blvd,2,ATNI4;PLHI4,True,False
-DFNO1,Maumee River near Defiance (Independence Dam),1,DEFO1,True,False
+DFNO1,Maumee River near Defiance (Independence Dam),2,CPBO1;DEFO1,True,False
 DFYG1,Ocmulgee River at GA 18 at Dames Ferry,2,JACG1;MACG1,True,False
 DGAC2,Dolores River near Gateway,0,,True,False
 DGAG1,Chestatee River near Dahlonega,0,,True,False
@@ -3264,7 +3239,7 @@ EMEI4,Indian Creek at Emerson (IFC),0,,True,False
 EMGT1,Yellow Creek at Ellis Mills,0,,True,False
 EMHI2,Salt Creek (IL) at Elmhurst,0,,True,False
 EMIU1,Emigration Creek near Salt Lake City,0,,True,False
-EMMC2,Roaring Fork River near Emma,0,,True,False
+EMMC2,Roaring Fork River near Emma,2,GWSC2;RMCC2,True,False
 EMMI1,Payette River at Emmett,0,,True,False
 EMNI4,Indian Creek above Emerson (IFC),0,,True,False
 EMOG1,Ichawaynochaway Creek near ElModel,0,,True,False
@@ -3906,7 +3881,7 @@ FVLP1,Loyalsock Creek at Forksville,0,,True,False
 FVLV2,Holmes Run at Fairview Lake,0,,True,False
 FVSC1,Franz Creek at Franz Valley School Rd,0,,True,False
 FVWS2,Big Sioux River at Fairview,2,CBSS2;HWDI4,True,False
-FWAI3,St. Marys River at Fort Wayne Main Street,0,,True,False
+FWAI3,St. Marys River at Fort Wayne Main Street,2,CMBI3;SASI3,True,False
 FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
 FWCO2,Wolf Creek near Fort Supply,0,,True,False
 FWHF1,Santa Fe River near Fort White (in NAVD88),2,POEF1;TREF1,True,False
@@ -3991,7 +3966,7 @@ GBTW2,Guyandotte River at R.D. Bailey Lake,0,,True,False
 GBYC2,Colorado River at Granby Reservoir,0,,True,False
 GBYN7,Tar River at Rock Springs,0,,True,False
 GBYT2,North Texas Lakes at Lake Granbury,2,DNNT2;GLRT2,True,False
-GBYW3,Fox River (North) at Green Bay,0,,True,False
+GBYW3,Fox River (North) at Green Bay,1,WRGW3,True,False
 GCAC1,Grayson Creek at Center Ave,0,,True,False
 GCAW4,Goose Creek near Acme,0,,True,False
 GCBC1,Green Creek (CA) near Bridgeport,0,,True,False
@@ -4012,7 +3987,7 @@ GCKN7,Goose Creek at Hwy 1524 nr Indian Trail,0,,True,False
 GCMA2,Greens Creek at Greens Creek Mine near Juneau,0,,True,False
 GCMW4,Granite Creek (WY) near Moose,0,,True,False
 GCOA2,Glacier River Tributary near Cordova,0,,True,False
-GCOC2,Colorado River below Glenwood Springs,0,,True,False
+GCOC2,Colorado River below Glenwood Springs,1,GWSC2,True,False
 GCOS2,Grace Coolidge Creek near Custer,0,,True,False
 GCPF1,Gamble Creek at County Road 675 Near Parrish,0,,True,False
 GCPN2,Galena Creek at Galena Creek St Park,0,,True,False
@@ -4335,7 +4310,7 @@ GRPM4,Plaster Creek at Grand Rapids - 28th Street,0,,True,False
 GRPP4,Rio Grande de Patillas blw Lago Patillas,0,,True,False
 GRQC1,Green Valley Creek at Martinelli Road,0,,True,False
 GRRA4,Little Red River at Greers Ferry Dam,0,,True,False
-GRRO1,Maumee River at Grand Rapids,0,,True,False
+GRRO1,Maumee River at Grand Rapids,2,CPBO1;WTVO1,True,False
 GRRT2,Tide Station (HGX) at Galveston Railroad Bridge,0,,True,False
 GRRW1,Grays River at Covered Bridge near Rosburg,0,,True,False
 GRRW4,Green River (WY-UT-CO) at Green River,0,,True,False
@@ -4450,7 +4425,7 @@ GWDM4,Escanaba River at Greenwood Diversion,0,,True,False
 GWGT2,Guadalupe River at CR 143 near Gonzales,0,,True,False
 GWLT2,Lagarto Creek below George West,0,,True,False
 GWNT2,Nueces River at George West,0,,True,False
-GWSC2,Roaring Fork River at Glenwood Springs,0,,True,False
+GWSC2,Roaring Fork River at Glenwood Springs,2,EMMC2;GCOC2,True,False
 GWTN6,Grout Brook near Fairhaven,0,,True,False
 GYAP4,Rio Guayanilla near Guayanilla,0,,True,False
 GYBW4,Bighorn River at Greybull,0,,True,False
@@ -4467,7 +4442,7 @@ HABW3,Black River (WI) at Hatfield Dam,0,,True,False
 HACF1,Haynes Creek below Burrell Dam,0,,True,False
 HACL1,Barataria Bay and Waterway at Hackberry Bay near Grand Isle,0,,True,False
 HACN4,Hackensack River at Hackensack (MLLW),0,,True,False
-HADT1,Hiwassee River above Apalachia Dam,0,,True,False
+HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HAGI1,Salmon Falls Creek near Hagerman,0,,True,False
 HAGS1,Waccamaw River at Hagley Landing,2,WPIS1;WYSS1,True,False
 HAGT2,Arroyo Colorado at Harlingen,0,,True,False
@@ -4626,7 +4601,7 @@ HEWM5,Wing River near Hewitt,0,,True,False
 HEWN7,Nantahala River near Hewitt,0,,True,False
 HEYI2,Little Kickapoo Creek near Heyworth,0,,True,False
 HEYO2,Eastern Oklahoma Lakes at Heyburn Lake,0,,True,False
-HFAI1,Henrys Fork near Ashton,0,,True,False
+HFAI1,Henrys Fork near Ashton,2,ANTI1;ISLI1,True,False
 HFCC1,Hot Creek at Flume Near Mammoth Lakes,0,,True,False
 HFDC3,Connecticut River at Hartford,0,,True,False
 HFDN7,Perquimans River at Raccoon Creek at Church St Near Hertford,0,,True,False
@@ -4681,7 +4656,7 @@ HIPN7,East Fork of Deep River near High Point,0,,True,False
 HISM7,St. Francis River near Holly Island,0,,True,False
 HIST2,Tide Station (HGX) at High Island,0,,True,False
 HIWC2,Lena Gulch (CO) at Golden,0,,True,False
-HIWN7,Hiwassee River above Hiwassee Dam,0,,True,False
+HIWN7,Hiwassee River above Hiwassee Dam,2,HADT1;TMVN7,True,False
 HJBT1,West Prong Little Pigeon River at Gatlinburg (Aquarium Bridge),0,,True,False
 HJFA4,James Fork near Hackett,0,,True,False
 HJMT2,Mayhaw Bayou at McCall Road,0,,True,False
@@ -5120,7 +5095,7 @@ IONI4,Little Cedar River near Ionia,0,,True,False
 IONM4,Grand River at Ionia,2,LWLM4;PORM4,True,False
 IOWI4,Iowa River at Iowa City,0,,True,False
 IPDF1,Indian River near Pineda Causeway (in MHHW),0,,True,False
-IPDI1,Eastern Idaho Reservoirs at Island Park,0,,True,False
+IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IPRT2,North Fork Buffalo Creek at NF Buffalo Cr. Reservoir,0,,True,False
 IPSM3,Ipswich River at Ipswich,0,,True,False
 IPWT2,Wichita River near Iowa Park,0,,True,False
@@ -5158,7 +5133,7 @@ ISHC1,Italian Slough Headwater near Byron,0,,True,False
 ISIN3,Isinglass River near Dover,0,,True,False
 ISKN6,Tioughnioga River at Itaska,0,,True,False
 ISKQ2,Iskut River below Johnson River-British Columbia,0,,True,False
-ISLI1,Henrys Fork near Island Park,0,,True,False
+ISLI1,Henrys Fork near Island Park,2,HFAI1;IPDI1,True,False
 ISNN7,Irvins Creek at Sam Newell Road,0,,True,False
 ISQW1,Issaquah Creek near Hobart,0,,True,False
 ISSW1,Issaquah Creek near Issaquah,0,,True,False
@@ -6737,7 +6712,7 @@ MELF1,St. Johns River near Melbourne,0,,True,False
 MELO1,Ohio River at Meldahl Dam,2,CCNO1;MYVK2,True,False
 MEMT1,Mississippi River at Memphis,0,,True,False
 MEMV1,Lake Memphremagog at Newport,0,,True,False
-MENI1,Snake River near Menan,2,LORI1;SIFI1,True,False
+MENI1,Snake River near Menan,3,LORI1;REXI1;SIFI1,True,False
 MENI2,Sinsinawa River near Menominee,0,,True,False
 MENN8,Apple Creek (ND) near Menoken,0,,True,False
 MENW3,Red Cedar River at Menomonie,0,,True,False
@@ -7037,7 +7012,7 @@ MNRT2,San Saba River at Menard,0,,True,False
 MNSO3,"Mill Creek (Marion Co., OR) at North Salem High School at Salem",0,,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNSW1,Wynoochee River near Montesano,0,,True,False
-MNSW3,Fox River (North) at Menasha-Jefferson Park,0,,True,False
+MNSW3,Fox River (North) at Menasha-Jefferson Park,2,OSKW3;STKW3,True,False
 MNTG1,Flint River at GA 26 near Montezuma,2,CLUG1;WWCG1,True,False
 MNTI2,Sangamon River at Monticello,0,,True,False
 MNTI3,Hart Ditch at Munster,0,,True,False
@@ -7664,7 +7639,7 @@ NHOF1,Tide Station at Marker 14 Near Homosassa,0,,True,False
 NHPN7,Haw River at Jordan Lake,0,,True,False
 NHPP1,Delaware River at New Hope-Lambertville Bridge,0,,True,False
 NHRI3,Wabash River at New Harmony,1,MCRI2,True,False
-NHRI4,Beaver Creek at New Hartford,0,,True,False
+NHRI4,Beaver Creek at New Hartford,2,CEDI4;PARI4,True,False
 NHSH1,North Halawa Stream near Quarantine Station,0,,True,False
 NHSO1,Nimishillen Creek at North Industry,0,,True,False
 NHVI3,Maumee River at New Haven,2,ANTO1;COMI3,True,False
@@ -7719,7 +7694,7 @@ NLSA2,Nelson Lagoon Tide Gauge at Nelson Lagoon (MLLW datum),0,,True,False
 NLSK1,Solomon River at Niles,0,,True,False
 NLSM8,Milk River at Nelson Reservoir,0,,True,False
 NLSW3,Lemonweir River at New Lisbon,0,,True,False
-NLVT1,Mill Creek near Nolensville,0,,True,False
+NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NLWW4,North Fork Little Wind River near Fort Washakie,0,,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NMCM7,Niangua River near Macks Creek,0,,True,False
@@ -7792,7 +7767,7 @@ NPOC1,San Luis Obispo Creek at Nipomo St. ,0,,True,False
 NPOF1,Big Slough Canal at Tropicare Blvd,0,,True,False
 NPPW4,North Platte River below Pathfinder Dam,0,,True,False
 NPRF1,Big Slough Canal at W Price Blvd,0,,True,False
-NPRN1,Keya Paha River near Naper,0,,True,False
+NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
 NPRN7,North Prong Falling Creek at Rockingham Rd,0,,True,False
 NPRO3,North Powder near North Powder,0,,True,False
 NPSF1,Tide Station at Naples,0,,True,False
@@ -8197,9 +8172,9 @@ OSGA4,Mississippi River at Osceola,0,,True,False
 OSGI4,Cedar River near Osage (IFC),2,AGRI4;CROI4,True,False
 OSGN6,Lake America at Oswego (NOS),0,,True,False
 OSHF1,Oldsmar Safety Harbor (In MHHW),0,,True,False
-OSHW3,Fox River (North) at Oshkosh-Lake Winnebago,0,,True,False
+OSHW3,Fox River (North) at Oshkosh-Lake Winnebago,2,OSSW3;STKW3,True,False
 OSJC1,Old River at Franks Tract NR Terminous Ca,0,,True,False
-OSKW3,Fox River (North) at Little Lake Buttes Des Morts,0,,True,False
+OSKW3,Fox River (North) at Little Lake Buttes Des Morts,2,APLW3;MNSW3,True,False
 OSLM5,Red River of the North at Oslo,2,DRTN8;EGFM5,True,False
 OSMK1,Marais Des Cygnes River at Osawatomie,0,,True,False
 OSNA2,West Fork Olsen Bay Creek near Cordova,0,,True,False
@@ -8207,7 +8182,7 @@ OSON6,Oswego River at Oswego,0,,True,False
 OSPI4,Spring Creek near Osage (IFC),0,,True,False
 OSRF1,South Creek at Oscar Scherer Park,0,,True,False
 OSRI4,Rock Creek near Osage (IFC),0,,True,False
-OSSW3,Fox River (North) at Oshkosh,0,,True,False
+OSSW3,Fox River (North) at Oshkosh,2,BERW3;OSHW3,True,False
 OSTL1,Whiskey Chitto Creek at HWY 399,0,,True,False
 OSWC1,Guadalupe River  Ostwald,0,,True,False
 OSWK1,Neosho River at Oswego,1,PPFK1,True,False
@@ -8285,7 +8260,7 @@ PAGH1,Paauau Gulch near Pahala,0,,True,False
 PAHC1,Pacheco Reservoir above Pacheco Reservoir,0,,True,False
 PAHI1,Pahsimeroi River at Ellis,0,,True,False
 PAHK2,Ohio River at Paducah,0,,True,False
-PAHS2,Keyapaha River near Keyapaha,0,,True,False
+PAHS2,Keyapaha River near Keyapaha,2,ANTS2;WEWS2,True,False
 PAJC1,Pajaro River at Watsonville,0,,True,False
 PAKI1,Pack River near Colburn,0,,True,False
 PAKU1,Paria River near Kanab,0,,True,False
@@ -8308,7 +8283,7 @@ PANP4,Rio Marin near Patillas,0,,True,False
 PANW2,Panther Creek above Panther,0,,True,False
 PARA1,Lost Creek (AL) near Oakman,0,,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
-PARI4,Beaver Creek near Parkersburg Hwy T47--IFC,0,,True,False
+PARI4,Beaver Creek near Parkersburg Hwy T47--IFC,2,APEI4;NHRI4,True,False
 PARM5,"Partridge River near Babbitt, Dunka Rd",0,,True,False
 PARN4,Saddle River at Paramus,0,,True,False
 PARN6,West Branch of the St. Regis River near Parishville,0,,True,False
@@ -8398,7 +8373,7 @@ PCMI4,Perry Creek near Millnerville,0,,True,False
 PCMW4,North Fork Powder River below Pass Creek at Mayoworth,0,,True,False
 PCNC1,Palm Canyon Creek at Palm Springs,0,,True,False
 PCNT2,Tide Gauge at Port O'Connor,0,,True,False
-PCNW3,Fox River (North) at Princeton,0,,True,False
+PCNW3,Fox River (North) at Princeton,2,BERW3;PDVW3,True,False
 PCOC1,San Francisco Bay  Port Chicago Tide Gage,0,,True,False
 PCOM4,West Fork Portage Creek near Oshtemo,0,,True,False
 PCON5,Pecos River above Pecos,0,,True,False
@@ -8454,7 +8429,7 @@ PDSW3,Wisconsin River below Prairie Du Sac Dam,0,,True,False
 PDTN7,Pee Dee River at NC730 below Lake Tillery,0,,True,False
 PDTO3,Umatilla River at Pendleton,0,,True,False
 PDUO3,Umatilla River above Pendleton,0,,True,False
-PDVW3,Fox River (North) at Pardeeville,0,,True,False
+PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEAM1,Pearce Brook near Houlton,0,,True,False
 PEAM7,Pearson Creek near Springfield,0,,True,False
 PEAN3,Peabody River at Gorham,0,,True,False
@@ -8651,7 +8626,7 @@ PLLQ3,Pembina River above Lorne Lake,0,,True,False
 PLMC2,East Plum Creek (CO) below Castle Rock,0,,True,False
 PLMF1,Fisheating Creek at Palmdale,0,,True,False
 PLMI2,Big Muddy River at Plumfield,0,,True,False
-PLMI3,St. Marys River at Pleasant Mills,0,,True,False
+PLMI3,St. Marys River at Pleasant Mills,2,DCRI3;WILO1,True,False
 PLMI4,Mud Creek near Pleasant Hill IA 163--IFC,0,,True,False
 PLMN3,Pemigewasset River at Plymouth,0,,True,False
 PLMT1,Obion River near Palmersville,0,,True,False
@@ -9271,7 +9246,7 @@ RERF1,Little Withlacoochee River at Rerdell (in NAVD88),0,,True,False
 RESA2,Resurrection River at Exit Glacier Road near Seward,0,,True,False
 RESV2,Jones Creek at Rescue Road,0,,True,False
 REVS2,South Fork Grand River at Hwy 79,0,,True,False
-REXI1,Henrys Fork near Rexburg,0,,True,False
+REXI1,Henrys Fork near Rexburg,2,ANTI1;MENI1,True,False
 REYG1,Spring Creek near Reynoldsville St. Park (SR 253),0,,True,False
 REYM5,Redeye River near Aldrich (221st Ave),0,,True,False
 REYN6,Reynolds Channel at Point Lookout (IN MLLW),0,,True,False
@@ -9280,7 +9255,7 @@ RFCN7,Little Rockfish Creek at Wallace,0,,True,False
 RFDG1,Ogeechee River near Rocky Ford,0,,True,False
 RFDI2,Rock River at Rockford (Fordam Dam),2,BYRI2;RABI2,True,False
 RFDN7,Rockfish Creek near Raeford,0,,True,False
-RFDO1,St. Marys River at Rockford,0,,True,False
+RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RFDS2,James River near Redfield,0,,True,False
 RFGA4,St. Francis River at Riverfront,0,,True,False
 RFKT1,Roaring Fork River above Gatlinburg,0,,True,False
@@ -9400,7 +9375,7 @@ RLYA2,Riley Creek at Parks Highway at Denali Park,0,,True,False
 RMBC1,Redwood Creek (Marin County) above Highway 1 Bridge at Muir Beach,0,,True,False
 RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,0,,True,False
 RMBN7,Tar River at US301 Bypass at Rocky Mount,0,,True,False
-RMCC2,Roaring Fork River below Aspen,0,,True,False
+RMCC2,Roaring Fork River below Aspen,2,APNC2;EMMC2,True,False
 RMCV2,Mudlick Creek in Roanoke,0,,True,False
 RMDV2,James River (VA) at Richmond-Westham,0,,True,False
 RMFM1,Androscoggin River at Rumford,0,,True,False
@@ -9470,7 +9445,7 @@ RONV2,Roanoke River at Roanoke,2,GNVV2;NIAV2,True,False
 RONW2,Greenbrier River at Ronceverte,2,ALDW2;CALW2,True,False
 ROOI3,St. Joseph River (OH/IN) near Fort Wayne,2,CDRI3;SJRI3,True,False
 ROPN7,Kendrick Creek at Roper,0,,True,False
-RORC2,Roaring Fork River above Aspen,0,,True,False
+RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,0,,True,False
 RORV2,Roanoke River at Roanoke River at Route 117 at Roanoke,0,,True,False
 ROSM5,Roseau River at Roseau,0,,True,False
@@ -9630,7 +9605,7 @@ RWHV2,Rapidan River at Wolftown-Hood Road,0,,True,False
 RWLG1,Chattahoochee River above Roswell,0,,True,False
 RWRN5,Rio Hondo at Rocky Arroyo Reservoir,0,,True,False
 RWRS2,Redwater River (SD) above Belle Fourche,0,,True,False
-RWSG1,Big Creek below Hog Wallow at Roswell,0,,True,False
+RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RWYN4,Rahway River at Rahway,0,,True,False
 RWYN6,Jamaica Bay at Rockaway Inlet (IN MLLW),0,,True,False
 RXYV2,Hazel River at Rixeyville,0,,True,False
@@ -9718,7 +9693,7 @@ SARM6,Coldwater River near Sarah,0,,True,False
 SARO1,Ohio River above Sardis,0,,True,False
 SARO3,Sardine Creek near Niagra,0,,True,False
 SASC2,South Platte River above Spinney Mountain Reservoir,2,ANTC2;SPYC2,True,False
-SASI3,St. Marys River near Fort Wayne,0,,True,False
+SASI3,St. Marys River near Fort Wayne,2,DCRI3;FWAI3,True,False
 SASO2,Little River (OK) near Sasakwa,0,,True,False
 SATA1,Satilpa Creek near Coffeeville,0,,True,False
 SATA2,Norton Sound at St Michael,0,,True,False
@@ -10100,7 +10075,7 @@ SHDC2,Dry Creek (CO) above Fort Collins,0,,True,False
 SHDP1,Shenango River at Shenango Dam Tailwater,0,,True,False
 SHDT1,South Fork Holston River above South Holston Dam,0,,True,False
 SHEA1,Aldridge Creek (AL) at Sherwood Drive in Huntsville,0,,True,False
-SHEC1,Napa River near St. Helena,0,,True,False
+SHEC1,Napa River near St. Helena,1,APCC1,True,False
 SHEF1,Shell Creek at CR 674,0,,True,False
 SHEL1,Shettleworth Bayou near Blanchard,0,,True,False
 SHEN1,Clear Creek near Shelby,0,,True,False
@@ -10315,7 +10290,7 @@ SLVK2,Kentucky River at Salvisa,0,,True,False
 SLVM4,Silver River near L`Anse,0,,True,False
 SLVN6,West Branch Delaware River at Stilesville,0,,True,False
 SLYP1,Aughwick Creek at Shirleysburg,0,,True,False
-SMAF1,Apalachicola River near Sumatra (in NGVD29),4,ABFF1;WAHF1;WWAF1;WWCF1,True,False
+SMAF1,Apalachicola River near Sumatra (in NGVD29),5,ABFF1;APCF1;WAHF1;WWAF1;WWCF1,True,False
 SMAG1,Rottenwood Creek at Interstate North Parkway near Smyrna,0,,True,False
 SMBA2,St. Michael Bay Tide Gauge at St. Michael (MHHW),0,,True,False
 SMBA3,Santa Maria River near Bagdad,0,,True,False
@@ -10732,7 +10707,7 @@ STKA2,Stikine River near Wrangell,0,,True,False
 STKN4,Delaware River at Stockton,0,,True,False
 STKN7,Meadow Branch near Stokes,0,,True,False
 STKW1,Lake Chelan at Purple Point near Stehekin,0,,True,False
-STKW3,Fox River (North) at Stockbridge,0,,True,False
+STKW3,Fox River (North) at Stockbridge,2,MNSW3;OSHW3,True,False
 STLM5,St. Croix River at Stillwater,0,,True,False
 STLT2,Guadalupe River at Sattler,0,,True,False
 STMC2,Yampa River at Steamboat Springs,0,,True,False
@@ -11192,7 +11167,7 @@ TMSC1,San Tomas Aquino Creek above Williams Road,0,,True,False
 TMSG1,Flint River near Thomaston,0,,True,False
 TMTF1,Hillsborough River at Tampa Dam,0,,True,False
 TMVC3,Connecticut River at Thompsonville,0,,True,False
-TMVN7,Valley River at Tomotla,0,,True,False
+TMVN7,Valley River at Tomotla,2,ANVN7;HIWN7,True,False
 TMYT2,Sabine River at I-10,0,,True,False
 TNAW1,Teanaway River near Cle Elum,0,,True,False
 TNCF1,Courtney Campbell Causeway Trail North (in MHHW),0,,True,False
@@ -11786,7 +11761,7 @@ WBMM4,Whetstone Brook at Altamont St. at Marquette,0,,True,False
 WBMN2,Walker River below Mason WMA at RR Xing,0,,True,False
 WBMN7,MF New River at Deerfield Road,0,,True,False
 WBNO1,West Branch Nimishillen Creek at North Canton,0,,True,False
-WBNT1,Mill Creek at Woodbine,0,,True,False
+WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBOI2,Waubonse Creek at Oswego,0,,True,False
 WBOL1,Mississippi River at West Bay Receiving Area Outlfow,0,,True,False
 WBOM5,Blue Earth River near Winnebago 1W,0,,True,False
@@ -11941,7 +11916,7 @@ WETC2,West Divide Creek near Raven,0,,True,False
 WETG1,Chattahoochee River at West Point Lake near West Point,0,,True,False
 WETN4,Millstone River at Weston,0,,True,False
 WETO2,North Canadian River near Wetumka,0,,True,False
-WEWS2,Keyapaha River at Wewala,0,,True,False
+WEWS2,Keyapaha River at Wewala,2,NPRN1;PAHS2,True,False
 WFAM1,Presumpscot River above West Falmouth,0,,True,False
 WFBM8,West Fork Bitterroot River near Conner,0,,True,False
 WFBO1,Wolf Creek (Summit) above Barberton,0,,True,False
@@ -12049,7 +12024,7 @@ WILM3,Hoosic River near Williamstown,0,,True,False
 WILM5,Mississippi River at Willow Beach,0,,True,False
 WILN2,Willow Creek at Allison Ranch,0,,True,False
 WILN6,Ellicott Creek below Williamsville,0,,True,False
-WILO1,St. Marys River at Willshire,0,,True,False
+WILO1,St. Marys River at Willshire,2,PLMI3;RFDO1,True,False
 WILP1,West Branch Susquehanna River at Williamsport,2,JRSP1;MCYP1,True,False
 WILW1,Willapa River at Willapa,0,,True,False
 WILW2,Tug Fork River at Williamson,0,,True,False
@@ -12284,7 +12259,7 @@ WRDW2,Waites Run near Wardensville,0,,True,False
 WREC1,White River at Road 168 near Earlimart,0,,True,False
 WREM8,West Rosebud Creek near Emerald Lake Campground,0,,True,False
 WRGF1,Cypress Creek at SR 54 Worthington Gardens,0,,True,False
-WRGW3,Fox River (North) at Rapid Croche,0,,True,False
+WRGW3,Fox River (North) at Rapid Croche,2,APLW3;GBYW3,True,False
 WRIH1,Wailuku River (Maui) at Wailuku River at Iao Valley Road,0,,True,False
 WRIS1,Wando River above Mount Pleasant (IN MLLW),0,,True,False
 WRKH1,Wailuku River nr Kaumana,0,,True,False
@@ -12413,7 +12388,7 @@ WTSO3,Wilson River at Sollie Smith Br at Tillamook,0,,True,False
 WTTO2,Illinois River (AR OK) near Watts,0,,True,False
 WTTP1,French Creek at Wattsburg,0,,True,False
 WTTT2,Atascosa River at Whitsett,0,,True,False
-WTVO1,Maumee River at Waterville,0,,True,False
+WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WTVP1,Pine Creek near Waterville,0,,True,False
 WTWF1,Tide Gauge at Sweetwater Creek,0,,True,False
 WTWS2,Whitewood Creek above Whitewood,0,,True,False
