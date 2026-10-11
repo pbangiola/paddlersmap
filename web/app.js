@@ -16,8 +16,14 @@ const reportTypes=['Too shallow','Too high / strong current','Navigable'];
 const status=document.getElementById('status');
 const gaugeToggle=document.getElementById('show-gauges');
 // Circle diameter is 25 meters on the ground; suppress subpixel symbols at broad zoom.
-const gaugeRadiusPixels=['*',['interpolate',['exponential',2],['zoom'],0,12.5/156543.03392,12,12.5/38.2185,16,12.5/2.38866],['/',1,['max',0.1,['cos',['*',['get','latitude'],Math.PI/180]]]]];
-const gaugeVisibleZoom=12;
+// MapLibre uses 512-pixel world tiles: meters per pixel at equator = 78271.51696 / 2^zoom.
+// The circle is exactly 25m across (12.5m radius), corrected for each gauge latitude.
+const gaugeRadiusPixels=['/', ['interpolate',['exponential',2],['zoom'],
+  0,12.5/78271.51696, 12,12.5/(78271.51696/4096),
+  16,12.5/(78271.51696/65536), 20,12.5/(78271.51696/1048576)],
+  ['max',0.1,['cos',['*',['get','latitude'],Math.PI/180]]]];
+
+const gaugeVisibleZoom=14;
 function applyGaugeScale(){
  const show=gaugeToggle.checked&&map.getZoom()>=gaugeVisibleZoom;
  for(const id of ['noaa-national-gauges','gauges','expanded-gauges'])setLayerVisibility(id,show);
@@ -260,7 +266,7 @@ map.on('load',async()=>{
   map.addSource('noaa-national-gauges',{type:'geojson',data:{type:'FeatureCollection',features:valid}});
   map.addLayer({id:'noaa-national-gauges',type:'circle',source:'noaa-national-gauges',
    paint:{'circle-radius':gaugeRadiusPixels,
-    'circle-color':['get','noaa_color'],'circle-stroke-color':'#ffffff','circle-stroke-width':1,'circle-opacity':0.9}});
+    'circle-color':['get','noaa_color'],'circle-stroke-color':'#ffffff','circle-stroke-width':0,'circle-opacity':0.9}});
   applyGaugeScale();
   map.on('click','noaa-national-gauges',event=>{
    if(reportButton.getAttribute('aria-pressed')==='true')return;
@@ -479,7 +485,7 @@ map.on('load',async()=>{
   for(const f of data.features)f.properties.latitude=f.geometry.coordinates[1];
   map.addSource('gauges',{type:'geojson',data});
   map.addLayer({id:'gauges',type:'circle',source:'gauges',paint:{
-   'circle-radius':gaugeRadiusPixels,'circle-color':['get','level_color'],'circle-stroke-color':'white','circle-stroke-width':1.5
+   'circle-radius':gaugeRadiusPixels,'circle-color':['get','level_color'],'circle-stroke-color':'white','circle-stroke-width':0
   }});
   applyGaugeScale();
   // Legacy gauge-linked river network superseded by the national vector tiles.
@@ -526,7 +532,7 @@ map.on('load',async()=>{
      for(const f of newStations)f.properties.latitude=f.geometry.coordinates[1];
      map.addSource('expanded-gauges',{type:'geojson',data:{type:'FeatureCollection',features:newStations}});
      map.addLayer({id:'expanded-gauges',type:'circle',source:'expanded-gauges',
-      paint:{'circle-radius':gaugeRadiusPixels,'circle-color':'#88929b','circle-stroke-color':'white','circle-stroke-width':1}},'gauges');
+      paint:{'circle-radius':gaugeRadiusPixels,'circle-color':'#88929b','circle-stroke-color':'white','circle-stroke-width':0}},'gauges');
      applyGaugeScale();
     }
    }
