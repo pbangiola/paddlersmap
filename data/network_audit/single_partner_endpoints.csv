@@ -13,21 +13,24 @@ AXPC1,Altamont Creek - Pasatiempo Street,1,ABDC1,True,False
 AYMC1,Arroyo Mocho - Pleasanton,1,AECC1,True,False
 BATN6,New York Harbor at The Battery (IN MLLW),1,PKMN6,True,False
 BBST2,Buffalo Bayou at Shepherd Drive,1,PPTT2,True,False
+BCBW1,Pend Oreille River below Box Canyon Dam Auxiliary Station,1,BCAW1,True,False
 BCCT2,Barton Creek above Barton Springs,1,ABTT2,True,False
 BCRT2,West Central Texas Lakes at Brady Creek Reservoir,1,LKCT2,True,False
 BGSO2,Deep Fork River near Beggs,1,SDFO2,True,False
 BKPM1,Bucksport Tidal Gage (MLLW),1,BPRM1,True,False
 BLIS1,Black River (SC) at I-95 near Manning,1,KINS1,True,False
-BLIT2,Colorado River (TX) near Ballinger,1,STYT2,True,False
 BLSI1,Big Lost River above Abv Sinks nr Howe,1,LINI1,True,False
 BMDA4,Ouachita River at Blakely Mtn Dam,1,RDTA4,True,False
 BOYM5,Boy River near Boy River,1,GNDM5,True,False
 BRKI3,Whitewater River at Brookville,1,BOOI3,True,False
 BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
 BROW3,Sugar River at Brodhead,1,ALBW3,True,False
+BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 CBAO3,Columbia River at Port Westward near Clatskanie 5N,1,LOPW1,True,False
+CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 CLFI3,Ohio River at Clifty Creek,1,MKLK2,True,False
+CLRA4,White River at Calico Rock,1,ALLA4,True,False
 CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
@@ -54,16 +57,20 @@ FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
 FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
 GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GCKK1,Arkansas River at Garden City,1,DRFK1,True,False
+GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GRVU1,Green River (WY-UT-CO) at GREEN RIVER,1,ACJU1,True,False
+GUSC2,Gunnison River near Gunnison,1,ALEC2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
+HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 IMAI3,White River (IN) at Indianapolis Museum of Art,1,RRPI3,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
+KERC2,South Platte River near Kersey,1,LUPC2,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
@@ -80,9 +87,11 @@ LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
 MCGL1,Atchafalaya River at Morgan City,1,BSRL1,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
+MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
 MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MLGN5,Pecos River 3 miles ESE of Malaga,1,CPDN5,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
+MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
@@ -111,17 +120,22 @@ RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
+RELT2,Colorado River (TX) at Robert Lee,1,BLIT2,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
+SCHA4,White River at St. Charles,1,CLDA4,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
+SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
+SWNM6,Tallahatchie River near Swan Lake,1,LOGM6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
+TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
