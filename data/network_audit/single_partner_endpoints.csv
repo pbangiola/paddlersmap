@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BLRI1,North Fork Big Lost River at Wild Horse,1,HWRI1,True,False
-BLSI1,Big Lost River above Abv Sinks nr Howe,1,LINI1,True,False
 BMAN7,Flat River at Bahama,1,BAHN7,True,False
 BMBP1,Susquehanna River at Bloomsburg,1,WBRP1,True,False
 BMDA4,Ouachita River at Blakely Mtn Dam,1,RDTA4,True,False
@@ -42,6 +40,7 @@ CAAT2,Nueces River at Calallen,1,CBVT2,True,False
 CAPL1,Tide Station (LCH) at Calcasieu Pass,1,LCLL1,True,False
 CARG1,Broad River in GA above Carlton,1,BELG1,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
+CBEM2,North Branch Potomac River at Cumberland,1,LUKM2,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
 CBMM8,Big Muddy Creek near Culbertson,1,BGCM8,True,False
 CBNK1,Chikaskia River near Corbin,1,BLKO2,True,False
@@ -55,6 +54,7 @@ CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
 CLGL1,Bayou Lafourche (NE LA) near Crew Lake,1,BLFL1,True,False
+CLIW3,Turtle Creek near Clinton,1,BLOW3,True,False
 CLLC1,Calleguas Creek at CSUCI Bridge,1,ASNC1,True,False
 CLLI4,Middle Raccoon River Tributary near Carroll,1,CMOI4,True,False
 CLLM4,Sturgeon River near Chassell,1,ALSM4,True,False
@@ -285,6 +285,7 @@ NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
 NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
 NWCL1,Tide Station (LIX) near Lakefront,1,SHBL1,True,False
 NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
+NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
@@ -324,6 +325,7 @@ PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
+PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
@@ -356,6 +358,7 @@ RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
+SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SCHA4,White River at St. Charles,1,CLDA4,True,False
@@ -396,6 +399,7 @@ STEN7,Stewart Creek at State St.,1,SMON7,True,False
 STHN7,Cape Fear River at Southport,1,WLON7,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
+STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
@@ -423,7 +427,9 @@ UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
+VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VICT2,Guadalupe River at Victoria,1,CUET2,True,False
+VLIK2,Licking River above Visalia,1,BTLK2,True,False
 VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
