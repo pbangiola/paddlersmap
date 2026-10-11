@@ -1,6 +1,8 @@
 name: MANUAL - Crawl NOAA gauge connection graph (not scheduled)
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
 permissions:
   contents: write
 concurrency:
@@ -9,7 +11,7 @@ concurrency:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 355
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,4 +30,4 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python -u app-code/scripts/crawl_noaa_graph.py --batch 25 --delay 0.3 --max-seconds 20700 --publish
+          python -u app-code/scripts/crawl_noaa_graph.py --batch 25 --delay 0.3 --max-seconds 3000 --publish
