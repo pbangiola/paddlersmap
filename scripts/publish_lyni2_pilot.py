@@ -49,7 +49,7 @@ def main():
         metadata[current]=meta
         upstream=[lid(x) for x in flow.get("upstream",[]) if lid(x)]
         downstream=[lid(x) for x in flow.get("downstream",[]) if lid(x)]
-        for chain in (list(reversed(upstream))+[current],[current]+downstream):
+        for chain in (upstream+[current],[current]+downstream):
             chain=list(dict.fromkeys(chain))
             for a,b in sorted(edges):
         if a not in byid or b not in byid or a not in metadata or b not in metadata:continue
