@@ -193,6 +193,10 @@ def main():
             print("Transient error:", current, exc, flush=True)
             pending.appendleft(current)
             break
+        if not isinstance(metadata, dict) or not isinstance(relationship, dict):
+            print("Unavailable station metadata/riverflow; leave for later:", current, flush=True)
+            pending.append(current)
+            continue
         record = feature(metadata, existing.get(current))
         if record:
             existing[current] = record
@@ -208,10 +212,6 @@ def main():
             if other != current and other not in seen:
                 pending.append(other)
                 seen.add(other)
-        if not isinstance(metadata, dict) or not isinstance(relationship, dict):
-            print("No complete station response; retaining for retry:", current, flush=True)
-            pending.append(current)
-            continue
         visited.add(current)
         processed += 1
         # Persist after each station; workflow publishes after a bounded batch.
