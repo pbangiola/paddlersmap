@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BCLV2,Beaver Creek (VA) above Beaver Creek Dam (HW) near Bristol 3ENE,1,BCBV2,True,False
 BCRT2,West Central Texas Lakes at Brady Creek Reservoir,1,LKCT2,True,False
 BDOW3,Bad River (WI) at Odanah,1,ODAW3,True,False
 BEAP1,Beaver River near Beaver Falls,1,WPMP1,True,False
@@ -9,6 +8,7 @@ BIVO3,Berry Creek  Ben Irving Reservoir,1,BCBO3,True,False
 BKML1,Bayou Bartholomew at Beekman,1,JONL1,True,False
 BKPM1,Bucksport Tidal Gage (MLLW),1,BPRM1,True,False
 BKRA4,Black River at Black Rock,1,POCA4,True,False
+BKTT2,Brushy Creek at FM 619 near Taylor,1,BSYT2,True,False
 BLIS1,Black River (SC) at I-95 near Manning,1,KINS1,True,False
 BLRI1,North Fork Big Lost River at Wild Horse,1,HWRI1,True,False
 BLSI1,Big Lost River above Abv Sinks nr Howe,1,LINI1,True,False
@@ -36,6 +36,8 @@ BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
 BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
+BUSP1,Central PA Dams  Bush Dam on Kettle Creek,1,COWP1,True,False
+BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
 CAAT2,Nueces River at Calallen,1,CBVT2,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
@@ -57,7 +59,6 @@ CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
 CNEI4,Cedar River near Conesville,1,CEBI4,True,False
 COGO3,Cow Creek above Azalea,1,GSVO3,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
-COWP1,Central PA Dams  Cowanesque Dam on Cowanseque River,1,CRWP1,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
@@ -67,6 +68,8 @@ CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
 DCTN1,Missouri River at Decatur,1,BLAN1,True,False
 DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
+DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
+DLPI3,Tippecanoe River near Delphi,1,OADI3,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
@@ -108,6 +111,7 @@ GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GRMN3,Androscoggin River at Gorham,1,RMFM1,True,False
 GRVU1,Green River (WY-UT-CO) at GREEN RIVER,1,ACJU1,True,False
+GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
@@ -166,6 +170,7 @@ LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
+MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
 MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
@@ -213,7 +218,6 @@ OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 OSWK1,Neosho River at Oswego,1,PPFK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
-OVTN1,Platte River near Overton,1,ODSN1,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
@@ -281,6 +285,7 @@ SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
+SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
