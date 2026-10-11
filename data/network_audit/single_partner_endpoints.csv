@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BRTA3,Verde River at Bartlett Lake,1,VDTA3,True,False
-BRTN6,Schoharie Creek at Burtonsville,1,BKBN6,True,False
-BRTO3,Blue River below Tidbits Creek,1,BLUO3,True,False
-BRUA2,Upper Bradley River near Nuka Glacier near Homer,1,BRIA2,True,False
-BRVG1,Nottely River near Blairsville,1,BLVG1,True,False
 BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
 BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
@@ -104,6 +99,7 @@ EMPL1,Mississippi River at Empire,1,WPHL1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 EPRT2,Rio Grande at El Paso (Courchesne Bridge),1,RGAT2,True,False
+ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 ESSV1,Winooski River at Essex Junction,1,WTBV1,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
@@ -199,6 +195,7 @@ KMST2,Lavaca River at Komensky,1,BRLT2,True,False
 KNKA2,Knik River near Palmer,1,BDBA2,True,False
 KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
+LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
 LAUF1,Myakka River Near Laurel,1,BOWF1,True,False
 LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
@@ -218,6 +215,7 @@ LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
+LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
@@ -347,11 +345,13 @@ PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
+PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
 PKTO1,Scioto River at Piketon,1,HIGO1,True,False
 PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
+PLGN7,Catawba River near Pleasant Gardens,1,BRWN7,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLRM8,Poplar River near Poplar,1,BDPM8,True,False
 PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
@@ -396,6 +396,7 @@ ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
+RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVRN1,Republican River at Riverton,1,REPN1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
@@ -456,7 +457,6 @@ TISC1,Sacramento River at Tisdale Weir,1,CLUC1,True,False
 TKSN4,Delaware River at Tocks Island,1,BVDN4,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
-TOMN7,Black River near Tomahawk,1,BCUN7,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
 TORW2,Coal River (WV) at Tornado,1,ASHW2,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
@@ -491,6 +491,7 @@ WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
+WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
 WETN4,Millstone River at Weston,1,BKWN4,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
