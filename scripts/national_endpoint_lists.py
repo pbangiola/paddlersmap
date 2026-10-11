@@ -26,7 +26,7 @@ for f in edges:
 # "Unchecked" means not in the persistent visited set; an existing gauge
 # point alone is not evidence its riverflow endpoint was checked.
 unchecked=(pending|set(partners)|set(known))-visited
-single={x for x,v in partners.items() if len(v)==1}
+single={x for x,v in partners.items() if len(v)==1 and x not in visited}
 def rows(ids):
     return [{"noaa_lid":x,"name":known.get(x,{}).get("name") or "",
              "partner_count":len(partners[x]),"partner_ids":";".join(sorted(partners[x])),
