@@ -51,8 +51,7 @@ def main():
         downstream=[lid(x) for x in flow.get("downstream",[]) if lid(x)]
         for chain in (upstream+[current],[current]+downstream):
             chain=list(dict.fromkeys(chain))
-            for a,b in sorted(edges):
-        if a not in byid or b not in byid or a not in metadata or b not in metadata:continue
+            for a,b in zip(chain,chain[1:]):
                 if a!=b:edges.add((a,b))
         # Both banks of the name transition are eligible for recursion.
         # Queue the nearest nodes first, preserving a bounded station budget.
@@ -94,7 +93,8 @@ def main():
         if t<=.25:return blend("#85512c","#0867d9",t/.25)
         if t<=.625:return blend("#0867d9","#f0cf31",(t-.25)/.375)
         return blend("#f0cf31","#cf2929",(t-.625)/.375)
-    for a,b in zip(chain,chain[1:]):
+    for a,b in sorted(edges):
+        if a not in metadata or b not in metadata:continue
         pa,pb=byid[a]["properties"],byid[b]["properties"]
         ca,cb=color(pa),color(pb)
         c=blend(ca,cb,.5) if ca!="#88929b" and cb!="#88929b" else ca if cb=="#88929b" else cb
