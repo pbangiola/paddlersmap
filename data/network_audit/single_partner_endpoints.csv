@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ALBC1,Alhambra Creek at D Street,1,AHCC1,True,False
-ALCF1,Alligator Creek Below Belcher Rd at Clearwater,1,PIAF1,True,False
 ALMW3,Mississippi River below Lock and Dam 4 - Alma,1,WABM5,True,False
 ALQC1,Alamo Canal near Pleasanton,1,AYLC1,True,False
 APCF1,Tide Station at Apalachicola (in MHHW),1,ABCF1,True,False
@@ -13,6 +11,7 @@ ATKG1,Satilla River at Atkinson,1,ABAG1,True,False
 AURO3,Pudding River at Aurora,1,PUWO3,True,False
 AXPC1,Altamont Creek - Pasatiempo Street,1,ABDC1,True,False
 AYMC1,Arroyo Mocho - Pleasanton,1,AECC1,True,False
+BATN6,New York Harbor at The Battery (IN MLLW),1,PKMN6,True,False
 BBST2,Buffalo Bayou at Shepherd Drive,1,PPTT2,True,False
 BCCT2,Barton Creek above Barton Springs,1,ABTT2,True,False
 BCRT2,West Central Texas Lakes at Brady Creek Reservoir,1,LKCT2,True,False
@@ -25,6 +24,8 @@ BMDA4,Ouachita River at Blakely Mtn Dam,1,RDTA4,True,False
 BOYM5,Boy River near Boy River,1,GNDM5,True,False
 BRKI3,Whitewater River at Brookville,1,BOOI3,True,False
 BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
+BROW3,Sugar River at Brodhead,1,ALBW3,True,False
+CBAO3,Columbia River at Port Westward near Clatskanie 5N,1,LOPW1,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 CLFI3,Ohio River at Clifty Creek,1,MKLK2,True,False
 CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
@@ -33,27 +34,33 @@ CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 DAYI2,Fox River at Dayton,1,YKVI2,True,False
+DERS2,Big Sioux River near Dell Rapids,1,SFLS2,True,False
 DFNO1,Maumee River near Defiance (Independence Dam),1,DEFO1,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
+DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DSNT2,Red River at Lake Texoma near Denison,1,DSTT2,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 EDGS2,Cheyenne River at Edgemont,1,AACS2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
-EDYI4,Des Moines River near Eddyville,1,TRCI4,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FTWF1,Santa Fe River near Hildreth (in NAVD88),1,TREF1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
+FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
 FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
+GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GCKK1,Arkansas River at Garden City,1,DRFK1,True,False
+GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GRVU1,Green River (WY-UT-CO) at GREEN RIVER,1,ACJU1,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
+HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 IMAI3,White River (IN) at Indianapolis Museum of Art,1,RRPI3,True,False
+IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
@@ -65,6 +72,8 @@ LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LFIS2,Missouri River at La Framboise Island,1,PIRS2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
+LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
+LONW2,Kanawha River at London Locks,1,KANW2,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
@@ -85,6 +94,7 @@ MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NHRI3,Wabash River at New Harmony,1,MCRI2,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
+NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
@@ -98,19 +108,24 @@ PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 QSAC1,San Antonio Creek at Indian Creek Road,1,ACSC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
 RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
-RCKF1,Suwannee River at Rock Bluff  near Bell - CR 340 (in NAVD88),1,BFDF1,True,False
+RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
+ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
+SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
+SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
+TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
+WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WELW2,Ohio River at Wellsburg,1,SBVO1,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
