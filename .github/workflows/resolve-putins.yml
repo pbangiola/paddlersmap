@@ -1,4 +1,4 @@
-name: Resolve put-ins
+name: MANUAL - Resolve launch catalog locations
 on:
   workflow_dispatch:
 permissions:
