@@ -1,0 +1,29 @@
+name: "VALIDATION - LYNI2 upstream and downstream NOAA graph (on script changes / manual)"
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/validate_noaa_lyni2.py'
+      - '.github/workflows/validate-noaa-lyni2.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate LYNI2 and save NOAA response samples
+        run: python3 scripts/validate_noaa_lyni2.py --hops 6 --max-stations 30
+      - name: Upload diagnostic report and raw responses
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: noaa-lyni2-validation
+          path: noaa_lyni2_validation/
+          if-no-files-found: warn
+          retention-days: 14
