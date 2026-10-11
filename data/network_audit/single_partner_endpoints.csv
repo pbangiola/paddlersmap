@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BNGM1,Kennebec River at Bingham,1,SKOM1,True,False
-BNNS2,Boxelder Creek near Nemo,1,BNRS2,True,False
 BOBN8,Maple River (ND) near Hope,1,ENDN8,True,False
 BOGW1,Bogachiel River near La Push,1,BGFW1,True,False
 BONO3,Columbia River at Bonneville Dam,1,VAPW1,True,False
@@ -83,6 +81,7 @@ CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
 CVGV2,Jackson River at Covington,1,FLGV2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
+CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
 DANA4,Petit Jean River at Danville,1,BMTA4,True,False
 DARL1,Amite River near Darlington,1,GVLL1,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
@@ -103,6 +102,7 @@ DURW3,Chippewa River (WI) at Durand,1,ECLW3,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
 EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
+EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
@@ -157,7 +157,6 @@ HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HAIV2,Russell Fork River at Haysi,1,BIGV2,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
-HENK2,Ohio River at Henderson,1,EVVI3,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HLST1,South Fork Forked Deer River near Halls,1,BLST1,True,False
@@ -178,6 +177,7 @@ IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
 JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
+JCCF1,Jumper Creek Canal ,1,BNLF1,True,False
 JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JKFM7,Jacks Fork near Mountain View,1,ALYM7,True,False
@@ -225,6 +225,7 @@ LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPRN1,Platte River at La Platte,1,LOUN1,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
+LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
 LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
@@ -242,6 +243,7 @@ MBNC2,Middle Boulder Creek (CO) at Nederland,1,BLFC2,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
+MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
@@ -271,6 +273,7 @@ MSLN5,Rio Grande near Mesilla,1,LBDN5,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
+MTVI3,Ohio River at Mount Vernon,1,HENK2,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
@@ -362,6 +365,7 @@ REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
+RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
