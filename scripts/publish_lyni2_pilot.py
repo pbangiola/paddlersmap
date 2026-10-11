@@ -36,6 +36,8 @@ def main():
     discovered={"LYNI2"}
     metadata={}
     edges=set()
+    edge_order=[]
+    relations={}
     # Each station's NOAA ordered list is a local path. Explore in BOTH
     # directions and follow a changed stream name instead of stopping at it.
     while queue and len(metadata)<args.max_stations:
@@ -49,10 +51,13 @@ def main():
         metadata[current]=meta
         upstream=[lid(x) for x in flow.get("upstream",[]) if lid(x)]
         downstream=[lid(x) for x in flow.get("downstream",[]) if lid(x)]
+        relations[current]={"up":set(upstream),"down":set(downstream)}
         for chain in (upstream+[current],[current]+downstream):
             chain=list(dict.fromkeys(chain))
             for a,b in zip(chain,chain[1:]):
-                if a!=b:edges.add((a,b))
+                if a!=b and (a,b) not in edges:
+                    edges.add((a,b))
+                    edge_order.append((a,b))
         # Both banks of the name transition are eligible for recursion.
         # Queue the nearest nodes first, preserving a bounded station budget.
         candidates=list(reversed(upstream))+downstream
@@ -93,13 +98,51 @@ def main():
         if t<=.25:return blend("#85512c","#0867d9",t/.25)
         if t<=.625:return blend("#0867d9","#f0cf31",(t-.25)/.375)
         return blend("#f0cf31","#cf2929",(t-.625)/.375)
+    # Resolve names in explicit priority order. The final fallback uses the
+    # most recently discovered ADJACENT segment with an assigned name.
+    def named(gauge):
+        return stream_name(metadata[gauge]) if gauge in metadata else ""
+    def terminal(gauge):
+        r=relations.get(gauge)
+        return bool(r) and (not r["up"] or not r["down"])
+    def reciprocal(a,b):
+        return b in relations.get(a,{}).get("down",set()) and a in relations.get(b,{}).get("up",set())
+    assigned={}
+    reasons={}
+    for a,b in edge_order:
+        if a not in metadata or b not in metadata:continue
+        na,nb=named(a),named(b)
+        if na and na==nb:
+            assigned[(a,b)]=na;reasons[(a,b)]="matching gauge names"
+        elif terminal(a)!=terminal(b):
+            endpoint=a if terminal(a) else b
+            assigned[(a,b)]=named(endpoint);reasons[(a,b)]="terminal gauge"
+        elif not reciprocal(a,b):
+            # The gauge explicitly reporting the connection supplies the name.
+            if b in relations.get(a,{}).get("down",set()):
+                assigned[(a,b)]=na;reasons[(a,b)]="reporting gauge"
+            elif a in relations.get(b,{}).get("up",set()):
+                assigned[(a,b)]=nb;reasons[(a,b)]="reporting gauge"
+    # Inherit the name of the most recently ADDED adjacent named segment.
+    # Repeat to allow names to propagate through a run of ambiguous segments.
+    for _ in edge_order:
+        changed=False
+        for a,b in edge_order:
+            if (a,b) in assigned or a not in metadata or b not in metadata:continue
+            candidates=[e for e in edge_order if e in assigned and (a in e or b in e)]
+            if candidates:
+                parent=candidates[-1]
+                assigned[(a,b)]=assigned[parent]
+                reasons[(a,b)]="most recently added adjacent segment"
+                changed=True
+        if not changed:break
     for a,b in sorted(edges):
         if a not in metadata or b not in metadata:continue
         pa,pb=byid[a]["properties"],byid[b]["properties"]
         ca,cb=color(pa),color(pb)
         c=blend(ca,cb,.5) if ca!="#88929b" and cb!="#88929b" else ca if cb=="#88929b" else cb
         graph["features"].append({"type":"Feature","geometry":{"type":"LineString","coordinates":[byid[a]["geometry"]["coordinates"],byid[b]["geometry"]["coordinates"]]},
-         "properties":{"upstream":a,"downstream":b,"stage_color":c,"pilot":"LYNI2","source":"NOAA NWPS ordered riverflow","geometry_note":"straight gauge-to-gauge chord; not traced waterway"}})
+         "properties":{"segment_id":a+"_"+b,"river_name":assigned.get((a,b)) or "Unidentified waterway","river_name_method":reasons.get((a,b),"unresolved"),"upstream":a,"downstream":b,"stage_color":c,"pilot":"LYNI2","source":"NOAA NWPS ordered riverflow","geometry_note":"straight gauge-to-gauge chord; not traced waterway"}})
     (DATA/"noaa_graph_edges.geojson").write_text(json.dumps(graph,separators=(",",":")))
     print("Published",len(chain),"gauges and",sum(1 for f in graph["features"] if f.get("properties",{}).get("pilot")=="LYNI2"),"pilot segments")
 if __name__=="__main__":main()
