@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BMDA4,Ouachita River at Blakely Mtn Dam,1,RDTA4,True,False
-BMPN7,Swannanoa River at Black Mountain Park,1,WRNN7,True,False
 BNGM1,Kennebec River at Bingham,1,SKOM1,True,False
 BNNS2,Boxelder Creek near Nemo,1,BNRS2,True,False
 BOBN8,Maple River (ND) near Hope,1,ENDN8,True,False
@@ -85,6 +83,8 @@ CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
 CVGV2,Jackson River at Covington,1,FLGV2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
+DANA4,Petit Jean River at Danville,1,BMTA4,True,False
+DARL1,Amite River near Darlington,1,GVLL1,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
@@ -113,6 +113,7 @@ EMPL1,Mississippi River at Empire,1,WPHL1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
+ESSV1,Winooski River at Essex Junction,1,WTBV1,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FARS2,Rapid Creek near Farmingdale,1,RCVS2,True,False
@@ -131,6 +132,7 @@ FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRMN5,San Juan River at Farmington,1,ARFN5,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
+FSLL1,Amite River at French Settlement,1,PVLL1,True,False
 FTWF1,Santa Fe River near Hildreth (in NAVD88),1,TREF1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
 FVLP1,Loyalsock Creek at Forksville,1,HLLP1,True,False
@@ -225,6 +227,7 @@ LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
+LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
 LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
 LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
 LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
@@ -290,6 +293,7 @@ NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
 NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
 NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
+NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
@@ -303,6 +307,7 @@ OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
+OLVL1,Comite River near Olive Branch,1,COML1,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
 OSWK1,Neosho River at Oswego,1,PPFK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
@@ -331,6 +336,7 @@ PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLRM8,Poplar River near Poplar,1,BDPM8,True,False
+PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
@@ -431,6 +437,7 @@ TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
+TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
