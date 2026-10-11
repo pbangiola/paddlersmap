@@ -1,4 +1,4 @@
-name: Test river identity pipeline
+name: QA - River identity tests
 
 on:
   workflow_dispatch:
