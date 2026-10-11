@@ -150,6 +150,11 @@ def main():
     seen = set(pending) | visited
     links = set(tuple(e["properties"][k] for k in ("upstream", "downstream"))
                 for e in graph.get("features", []) if all(k in e.get("properties", {}) for k in ("upstream", "downstream")))
+    if not graph.get('features') and visited and not state.get('lid_parser_v2'):
+        print('Revisiting gauges after uppercase LID parser fix', flush=True)
+        pending = deque(sorted(set(existing) | set(pending) | visited))
+        visited = set()
+        seen = set(pending)
     processed = 0
     start = time.monotonic()
     while pending and time.monotonic() - start < args.max_seconds:
@@ -181,7 +186,7 @@ def main():
         visited.add(current)
         processed += 1
         # Persist after each station; workflow publishes after a bounded batch.
-        save(STATE, {"pending": list(pending), "visited": sorted(visited)})
+        save(STATE, {"pending": list(pending), "visited": sorted(visited), "lid_parser_v2": True})
         save(GAUGES, {"type": "FeatureCollection", "features": list(existing.values())})
         lines = []
         for a, b in sorted(links):
