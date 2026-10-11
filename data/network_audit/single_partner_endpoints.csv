@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BCWT2,Boggy Creek at Webberville Road,1,BCMT2,True,False
 BDOW3,Bad River (WI) at Odanah,1,ODAW3,True,False
 BEAP1,Beaver River near Beaver Falls,1,WPMP1,True,False
 BGDI3,Wabash River near Battleground,1,AMRI3,True,False
@@ -9,6 +8,7 @@ BKML1,Bayou Bartholomew at Beekman,1,JONL1,True,False
 BKPM1,Bucksport Tidal Gage (MLLW),1,BPRM1,True,False
 BKRA4,Black River at Black Rock,1,POCA4,True,False
 BKTT2,Brushy Creek at FM 619 near Taylor,1,BSYT2,True,False
+BLAV2,Blackwater River near Rocky Mount,1,BCYV2,True,False
 BLIS1,Black River (SC) at I-95 near Manning,1,KINS1,True,False
 BLRI1,North Fork Big Lost River at Wild Horse,1,HWRI1,True,False
 BLSI1,Big Lost River above Abv Sinks nr Howe,1,LINI1,True,False
@@ -30,6 +30,7 @@ BRKS2,Big Sioux River near Brookings,1,BSFS2,True,False
 BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
 BROW3,Sugar River at Brodhead,1,ALBW3,True,False
 BRRO1,Rocky River at Berea,1,BAKO1,True,False
+BRTA3,Verde River at Bartlett Lake,1,VDTA3,True,False
 BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
 BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
@@ -65,6 +66,7 @@ CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
+CVGV2,Jackson River at Covington,1,FLGV2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
@@ -91,6 +93,7 @@ EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 EVDT2,Neches River at Evadale,1,TBFT2,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 FCEW3,Popple River at Fence,1,BRKW3,True,False
+FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
@@ -173,6 +176,7 @@ LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
+MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
@@ -202,8 +206,8 @@ NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
-NHRI3,Wabash River at New Harmony,1,MCRI2,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
+NIXN2,Truckee River near Nixon,1,WADN2,True,False
 NKJT1,Tennessee River above Nickajack Dam (Jasper 5S),1,CHAT1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
@@ -270,9 +274,11 @@ ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
+SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
 SARO1,Ohio River above Sardis,1,RNOO1,True,False
+SBPT2,near Sabine Pass,1,COWT2,True,False
 SCHA4,White River at St. Charles,1,CLDA4,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
@@ -303,13 +309,16 @@ SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
+STHN7,Cape Fear River at Southport,1,WLON7,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
+STPC1,Stampede Reservoir,1,BCVC1,True,False
 SWNM6,Tallahatchie River near Swan Lake,1,LOGM6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
+TOMN7,Black River near Tomahawk,1,BCUN7,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
 TORW2,Coal River (WV) at Tornado,1,ASHW2,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
@@ -337,9 +346,11 @@ WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
+WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
+WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRRP1,Allegheny River at Warren,1,WHKP1,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
@@ -347,6 +358,7 @@ WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
 WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
 WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
+WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 ZAYL1,Comite River near Zachary,1,BAKL1,True,False
