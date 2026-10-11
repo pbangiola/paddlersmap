@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BFRW4,Belle Fourche River below Moorcroft,1,KEYW4,True,False
 BGDI3,Wabash River near Battleground,1,AMRI3,True,False
 BGSO2,Deep Fork River near Beggs,1,SDFO2,True,False
 BHLO1,Tuscarawas River at Beach City Dam Tailwater,1,BEHO1,True,False
@@ -48,6 +47,7 @@ CAAT2,Nueces River at Calallen,1,CBVT2,True,False
 CARG1,Broad River in GA above Carlton,1,BELG1,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
+CBMM8,Big Muddy Creek near Culbertson,1,BGCM8,True,False
 CDET2,Rio Grande at Candelaria Crossing,1,PIOT2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
@@ -99,6 +99,7 @@ ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
+ELYW2,Twelvepole Creek at East Lynn Lake,1,ELSW2,True,False
 EMPL1,Mississippi River at Empire,1,WPHL1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
@@ -124,7 +125,6 @@ FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
 GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
 GBYW3,Fox River (North) at Green Bay,1,WRGW3,True,False
-GDHT2,Guadalupe River at Hwy 183 near Hochheim,1,GNLT2,True,False
 GENF1,St. Johns River above Lake Harney,1,SNFF1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
@@ -273,6 +273,7 @@ PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
+PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PETW3,Wisconsin River at Petenwell Dam,1,WIRW3,True,False
@@ -280,6 +281,7 @@ PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGFM6,Pascagoula River at Graham Ferry,1,BKNM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,1,PCST2,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
+PICF1,Phillippi Creek at Pinecraft,1,BFRF1,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
 PKTO1,Scioto River at Piketon,1,HIGO1,True,False
@@ -346,6 +348,7 @@ SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
+SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
@@ -385,6 +388,7 @@ UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
+VICT2,Guadalupe River at Victoria,1,CUET2,True,False
 VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
