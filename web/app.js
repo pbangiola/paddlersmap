@@ -8,14 +8,31 @@ const REPO='pbangiola/southern-lake-michigan-flow';
 const reportTypes=['Too shallow','Too high / strong current','Navigable'];
 const status=document.getElementById('status');
 const gaugeToggle=document.getElementById('show-gauges');
+// Circle diameter is 25 meters on the ground; suppress subpixel symbols at broad zoom.
+const gaugeRadiusPixels=['*',12.5, ['/', ['^',2,['zoom']], 156543.03392], ['/',1,['cos',['*',['get','latitude'],Math.PI/180]]]];
+const gaugeVisibleZoom=12;
+function applyGaugeScale(){
+ const show=gaugeToggle.checked&&map.getZoom()>=gaugeVisibleZoom;
+ for(const id of ['noaa-national-gauges','gauges','expanded-gauges'])setLayerVisibility(id,show);
+}
+function mapDiagonalMiles(){
+ const b=map.getBounds(),a=b.getSouthWest(),c=b.getNorthEast();
+ const rad=Math.PI/180,dLat=(c.lat-a.lat)*rad,dLon=(c.lng-a.lng)*rad;
+ const h=Math.sin(dLat/2)**2+Math.cos(a.lat*rad)*Math.cos(c.lat*rad)*Math.sin(dLon/2)**2;
+ return 3958.7613*2*Math.asin(Math.min(1,Math.sqrt(h)));
+}
+function launchesInRange(){return mapDiagonalMiles()<100;}
+map.on('zoomend',applyGaugeScale);
+map.on('load',applyGaugeScale);
+
 const riverToggle=document.getElementById('show-rivers');
 const legend=document.getElementById('map-legend');
 function setLayerVisibility(id,visible){if(map.getLayer(id))map.setLayoutProperty(id,'visibility',visible?'visible':'none');}
 window.addEventListener('resize',()=>map.resize());
 gaugeToggle.addEventListener('change',()=>{
- setLayerVisibility('noaa-national-gauges',gaugeToggle.checked);
- if(map.getLayer('gauges'))map.setLayoutProperty('gauges','visibility',gaugeToggle.checked?'visible':'none');
- setLayerVisibility('expanded-gauges',gaugeToggle.checked);
+ applyGaugeScale();
+ applyGaugeScale();
+ applyGaugeScale();
 });
 const reportButton=document.getElementById('report-condition');
 const reportDialog=document.getElementById('report-dialog');
@@ -232,11 +249,12 @@ map.on('load',async()=>{
     flood!==null?'#1768c5':'#88929b';
    if(p.noaa_color!=='#88929b')colored++;
   }
+  for(const f of valid)f.properties.latitude=f.geometry.coordinates[1];
   map.addSource('noaa-national-gauges',{type:'geojson',data:{type:'FeatureCollection',features:valid}});
   map.addLayer({id:'noaa-national-gauges',type:'circle',source:'noaa-national-gauges',
-   paint:{'circle-radius':['interpolate',['linear'],['zoom'],3,3,7,4.5,11,6],
+   paint:{'circle-radius':gaugeRadiusPixels,
     'circle-color':['get','noaa_color'],'circle-stroke-color':'#ffffff','circle-stroke-width':1,'circle-opacity':0.9}});
-  setLayerVisibility('noaa-national-gauges',gaugeToggle.checked);
+  applyGaugeScale();
   map.on('click','noaa-national-gauges',event=>{
    if(reportButton.getAttribute('aria-pressed')==='true')return;
    const p=event.features[0].properties||{};
@@ -294,7 +312,7 @@ let launchDomMarkers=[];
 function renderLaunchDomMarkers(){
  for(const marker of launchDomMarkers)marker.remove();
  launchDomMarkers=[];
- if(!putinToggle.checked)return;
+ if(!putinToggle.checked||!launchesInRange())return;
  const bounds=map.getBounds(),cellSize=44,groups=new Map();
  for(const feature of putinFeatures){
   const xy=feature.geometry?.coordinates;
@@ -346,6 +364,8 @@ function qualifiesPutin(f){
  if(mode==='named')return Boolean(p.name)&&!/^osm-(node|way)-/i.test(p.name);
  return true;
 }
+map.on('moveend',renderLaunchDomMarkers);
+map.on('resize',renderLaunchDomMarkers);
 function updatePutins(){
  const filtered=putinFeatures.filter(qualifiesPutin);
  if(map.getSource('putins'))map.getSource('putins').setData({type:'FeatureCollection',features:filtered});
@@ -449,11 +469,12 @@ map.on('load',async()=>{
   try{communityReports=await loadReports();}catch(e){console.warn(e);}
   calibrate(data,communityReports);
   for(const f of gaugeFeatures)f.properties.level_color=palette(f.properties);
+  for(const f of data.features)f.properties.latitude=f.geometry.coordinates[1];
   map.addSource('gauges',{type:'geojson',data});
   map.addLayer({id:'gauges',type:'circle',source:'gauges',paint:{
-   'circle-radius':7,'circle-color':['get','level_color'],'circle-stroke-color':'white','circle-stroke-width':1.5
+   'circle-radius':gaugeRadiusPixels,'circle-color':['get','level_color'],'circle-stroke-color':'white','circle-stroke-width':1.5
   }});
-  map.setLayoutProperty('gauges','visibility',gaugeToggle.checked?'visible':'none');
+  applyGaugeScale();
   // Legacy gauge-linked river network superseded by the national vector tiles.
   // Published 3DHP review layer: authoritative river identities with nearby
   // gauge-stage association. Separate from the legacy network pending QA.
@@ -495,10 +516,11 @@ map.on('load',async()=>{
     const known=new Set(gaugeFeatures.map(f=>String(f.properties?.site)));
     const newStations=(stations.features||[]).filter(f=>!known.has(String(f.properties?.site)));
     if(newStations.length){
+     for(const f of newStations)f.properties.latitude=f.geometry.coordinates[1];
      map.addSource('expanded-gauges',{type:'geojson',data:{type:'FeatureCollection',features:newStations}});
      map.addLayer({id:'expanded-gauges',type:'circle',source:'expanded-gauges',
-      paint:{'circle-radius':3,'circle-color':'#88929b','circle-stroke-color':'white','circle-stroke-width':1}},'gauges');
-     setLayerVisibility('expanded-gauges',gaugeToggle.checked);
+      paint:{'circle-radius':gaugeRadiusPixels,'circle-color':'#88929b','circle-stroke-color':'white','circle-stroke-width':1}},'gauges');
+     applyGaugeScale();
     }
    }
   }catch(error){console.warn('Optional atlas expansion unavailable:',error);}
