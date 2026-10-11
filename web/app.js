@@ -111,25 +111,23 @@ function calibrate(data,reports){
 }
 // Signed, dimensionless position relative to published low / typical / flood stages.
 // -1 = low water, 0 = typical, +1 = flood. Null means no defensible calibration.
+// 0=low brown, 0.25=blue, 0.625=yellow, 1=flood red.
 function stagePosition(p){
- const h=finite(p.stage),lo=finite(p.low_water_stage_ft??p.atlas_minimum_ft),
-   typical=finite(p.typical_stage_ft??p.normal_stage_ft??p.gauge_normal_threshold_ft??p.atlas_mean_ft),
-   flood=finite(p.flood_stage_ft);
- if(h===null||typical===null)return null;
- if(h===typical)return 0;
- if(h<typical)return lo!==null&&lo<typical?Math.max(-1,(h-typical)/(typical-lo)):null;
- return flood!==null&&flood>typical?Math.min(1,(h-typical)/(flood-typical)):null;
+ const h=finite(p.stage??p.current_stage_ft),lo=finite(p.low_water_stage_ft??p.atlas_minimum_ft),
+       flood=finite(p.flood_stage_ft);
+ if(h===null||lo===null||flood===null||flood<=lo)return null;
+ return Math.max(0,Math.min(1,(h-lo)/(flood-lo)));
 }
 function stageColor(position){
  if(position===null||!Number.isFinite(position))return '#88929b';
- if(position<=0)return blend('#85512c','#0867d9',Math.max(0,1+position));
- return position<=0.6?blend('#0867d9','#f0cf31',position/0.6):
-   blend('#f0cf31','#cf2929',(position-0.6)/0.4);
+ if(position<=0.25)return blend('#85512c','#0867d9',position/0.25);
+ if(position<=0.625)return blend('#0867d9','#f0cf31',(position-0.25)/0.375);
+ return blend('#f0cf31','#cf2929',(position-0.625)/0.375);
 }
 function palette(p){
- const position=stagePosition(p);
- if(position!==null)return stageColor(position);
- const h=finite(p.stage),lo=finite(p.low_water_stage_ft),flood=finite(p.flood_stage_ft);
+ const pos=stagePosition(p);
+ if(pos!==null)return stageColor(pos);
+ const h=finite(p.stage??p.current_stage_ft),lo=finite(p.low_water_stage_ft),flood=finite(p.flood_stage_ft);
  if(h!==null&&flood!==null&&h>=flood)return '#cf2929';
  if(h!==null&&lo!==null&&h<=lo)return '#85512c';
  return '#88929b';
@@ -174,12 +172,12 @@ function segmentColor(raw){
 }
 let riverColorMode='stage';
 function applyRiverColorMode(){
- for(const id of ['river-segments','river-3dhp-review']){
+ for(const id of ['river-segments','river-3dhp-review','noaa-riverflow-edges']){
   if(!map.getLayer(id))continue;
   map.setPaintProperty(id,'line-color',['get',riverColorMode==='segments'?'segment_color':'stage_color']);
  }
  const label=document.getElementById('river-color-note');
- if(label)label.textContent=riverColorMode==='segments'?'Different colors identify gauge-associated segments; not water levels.':'Brown = low water, blue = typical, yellow = elevated, red = flood; gray = missing calibration.';
+ if(label)label.textContent=riverColorMode==='segments'?'Different colors identify gauge-associated segments; not water levels.':'Brown = low, blue = 25% from low to flood, yellow = elevated, red = flood; gray = missing thresholds.';
 }
 document.getElementById('river-color-mode')?.addEventListener('change',e=>{
  riverColorMode=e.target.value;
@@ -712,7 +710,7 @@ map.on('load',async()=>{
   if(graph.type!=='FeatureCollection'||!Array.isArray(graph.features))return;
   map.addSource('noaa-riverflow-edges',{type:'geojson',data:graph});
   map.addLayer({id:'noaa-riverflow-edges',type:'line',source:'noaa-riverflow-edges',
-   paint:{'line-color':'#237cbb','line-width':['interpolate',['linear'],['zoom'],5,0.5,12,2],'line-opacity':0.75}});
+   paint:{'line-color':['get','stage_color'],'line-width':['interpolate',['linear'],['zoom'],5,0.5,12,2],'line-opacity':0.75}});
   console.info('NOAA directed graph loaded:',graph.features.length,'edges');
  }catch(error){console.warn('NOAA graph unavailable:',error);}
 });
