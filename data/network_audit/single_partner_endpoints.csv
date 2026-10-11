@@ -41,6 +41,7 @@ CLLC1,Calleguas Creek at CSUCI Bridge,1,ASNC1,True,False
 CLLM4,Sturgeon River near Chassell,1,ALSM4,True,False
 CLVO2,Canadian River near Calvin,1,KCRO2,True,False
 CMGG1,Big Creek at GA 9 near Cumming,1,APHG1,True,False
+CMGN6,Chemung River at Chemung,1,CHEN6,True,False
 CMSM7,Missouri River near Chamois,1,JFFM7,True,False
 CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
 CNEI4,Cedar River near Conesville,1,CEBI4,True,False
@@ -61,6 +62,8 @@ DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
+DURW3,Chippewa River (WI) at Durand,1,ECLW3,True,False
+DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
 EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
@@ -184,6 +187,7 @@ OSWK1,Neosho River at Oswego,1,PPFK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OVTN1,Platte River near Overton,1,ODSN1,True,False
+OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
@@ -192,12 +196,12 @@ PERM8,Flathead River at Perma,1,FPOM8,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PETW3,Wisconsin River at Petenwell Dam,1,WIRW3,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
+PGFT2,Pecos River 9 miles WNW of Grandfalls,1,PCST2,True,False
 PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
-PPCN5,Pecos River 6 miles ESE of Malaga at Pierce Canyon Crossing,1,MLGN5,True,False
 PTRI3,White River (IN) at Petersburg,1,PETI3,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
@@ -212,9 +216,11 @@ REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
 RELT2,Colorado River (TX) at Robert Lee,1,BLIT2,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RGDT2,Rio Grande at Rio Grande City,1,RRGT2,True,False
+RHRN6,Genesee River at Rochester,1,AVON6,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
+ROSN7,French Broad River at Rosman,1,BLAN7,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
@@ -251,6 +257,7 @@ SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
+TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
 TORW2,Coal River (WV) at Tornado,1,ASHW2,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
@@ -264,6 +271,7 @@ UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
+WBOT1,Tennessee River above Watts Bar Dam,1,KGTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
@@ -272,6 +280,7 @@ WHPM5,Rainy River near Boat Landing at Wheelers Point,1,MNUM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
+WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
 WPTM8,Missouri River near Wolf Point,1,FPKM8,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
