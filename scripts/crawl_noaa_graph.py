@@ -125,6 +125,9 @@ def feature(meta, previous=None):
 
 
 def commit(paths):
+    # Refresh both live worklists from the same checkpointed state.
+    subprocess.run(["python", "app-code/scripts/national_endpoint_lists.py"], check=True)
+    paths = list(paths) + [DATA / "network_audit"]
     subprocess.run(["git", "add", *map(str, paths)], check=True)
     changed = subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0
     if changed:
