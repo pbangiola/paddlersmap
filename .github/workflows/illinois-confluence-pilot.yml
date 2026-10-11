@@ -1,4 +1,4 @@
-name: MAP 1 - Build Illinois river network (one time)
+name: ONE-TIME - Rebuild Illinois confluence pilot
 on:
   workflow_dispatch:
   push:
