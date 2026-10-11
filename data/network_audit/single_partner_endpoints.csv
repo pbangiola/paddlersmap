@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BLIS1,Black River (SC) at I-95 near Manning,1,KINS1,True,False
 BLRI1,North Fork Big Lost River at Wild Horse,1,HWRI1,True,False
 BLSI1,Big Lost River above Abv Sinks nr Howe,1,LINI1,True,False
 BMAN7,Flat River at Bahama,1,BAHN7,True,False
@@ -36,6 +35,7 @@ BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
 BUEC2,Blue River (CO) at Blue River,1,BLRC2,True,False
 BUNL1,Bundick Creek near DeRidder,1,BKDL1,True,False
 BUSP1,Central PA Dams  Bush Dam on Kettle Creek,1,COWP1,True,False
+BWLV2,Mattaponi River at Bowling Green,1,BLHV2,True,False
 BWMA1,Murder Creek (AL) at Brewton,1,BCNA1,True,False
 BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
 CAAT2,Nueces River at Calallen,1,CBVT2,True,False
@@ -44,6 +44,7 @@ CARG1,Broad River in GA above Carlton,1,BELG1,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
 CBMM8,Big Muddy Creek near Culbertson,1,BGCM8,True,False
+CBNK1,Chikaskia River near Corbin,1,BLKO2,True,False
 CDET2,Rio Grande at Candelaria Crossing,1,PIOT2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
@@ -53,6 +54,7 @@ CHIN7,N.E. Cape Fear River near Chinquapin,1,BGWN7,True,False
 CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
+CLGL1,Bayou Lafourche (NE LA) near Crew Lake,1,BLFL1,True,False
 CLLC1,Calleguas Creek at CSUCI Bridge,1,ASNC1,True,False
 CLLI4,Middle Raccoon River Tributary near Carroll,1,CMOI4,True,False
 CLLM4,Sturgeon River near Chassell,1,ALSM4,True,False
@@ -165,6 +167,7 @@ IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
+JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
 JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JKFM7,Jacks Fork near Mountain View,1,ALYM7,True,False
@@ -223,6 +226,7 @@ MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MAOO3,Malheur River near Ontario,1,VALO3,True,False
 MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
 MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
+MBNC2,Middle Boulder Creek (CO) at Nederland,1,BLFC2,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
@@ -335,7 +339,6 @@ RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
 RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
 REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
-RELT2,Colorado River (TX) at Robert Lee,1,BLIT2,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
@@ -415,6 +418,7 @@ TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
+ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
