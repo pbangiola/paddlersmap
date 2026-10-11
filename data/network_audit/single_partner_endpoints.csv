@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ARLW1,Stillaguamish River at Arlington,1,ARGW1,True,False
-ARPN1,Muddy Creek at Arapahoe,1,ARAN1,True,False
-ARPV2,Appomattox River at Pocahontas,1,MTCV2,True,False
 ARWO3,Applegate River near Wilderville,1,APRO3,True,False
 ASPS1,Ashley River near North Charleston (IN MLLW),1,ARDS1,True,False
 ASTN6,Canisteo River at Addison,1,WCRN6,True,False
@@ -32,6 +29,7 @@ BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
+BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
 CBAO3,Columbia River at Port Westward near Clatskanie 5N,1,LOPW1,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
@@ -50,6 +48,7 @@ COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True
 COWP1,Central PA Dams  Cowanesque Dam on Cowanseque River,1,CRWP1,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
+CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 DAYI2,Fox River at Dayton,1,YKVI2,True,False
@@ -88,7 +87,6 @@ GTTI4,Mississippi River below Lock and Dam 10 - Guttenberg,1,CLAI4,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HENK2,Ohio River at Henderson,1,EVVI3,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
-HKMK2,Mississippi River at Hickman,1,WKLK2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
@@ -161,12 +159,17 @@ OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
+OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 OSWK1,Neosho River at Oswego,1,PPFK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
+PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
+PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
+PERM8,Flathead River at Perma,1,FPOM8,True,False
 PETW3,Wisconsin River at Petenwell Dam,1,WIRW3,True,False
+PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
@@ -192,7 +195,6 @@ RRVL1,Mississippi River at Reserve,1,DONL1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
-SAVM5,Minnesota River at Savage,1,JDNM5,True,False
 SCHA4,White River at St. Charles,1,CLDA4,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
@@ -202,7 +204,9 @@ SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
 SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
+SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
+SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
