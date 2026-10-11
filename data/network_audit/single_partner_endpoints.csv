@@ -1,8 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BOBN8,Maple River (ND) near Hope,1,ENDN8,True,False
-BOGW1,Bogachiel River near La Push,1,BGFW1,True,False
-BONO3,Columbia River at Bonneville Dam,1,VAPW1,True,False
 BOON6,Black River at Boonville,1,ARTN6,True,False
+BOTN4,Rockaway River at Boonton above reservoir,1,BOON4,True,False
 BOYM5,Boy River near Boy River,1,GNDM5,True,False
 BPNW4,New Fork River near Big Piney,1,BKBW4,True,False
 BPRO1,Big Creek near Brooklyn (Brookpark Road),1,BIKO1,True,False
@@ -21,7 +19,6 @@ BRTO3,Blue River below Tidbits Creek,1,BLUO3,True,False
 BRVG1,Nottely River near Blairsville,1,BLVG1,True,False
 BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
-BSEI1,New York Canal Diversion at Boise,1,BDDI1,True,False
 BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 BTBC2,Big Thompson River (CO) below Lake Estes,1,BIMC2,True,False
@@ -52,7 +49,6 @@ CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
 CLDG1,Ochlockonee River near Coolidge,1,TMLG1,True,False
 CLGL1,Bayou Lafourche (NE LA) near Crew Lake,1,BLFL1,True,False
-CLIW3,Turtle Creek near Clinton,1,BLOW3,True,False
 CLLC1,Calleguas Creek at CSUCI Bridge,1,ASNC1,True,False
 CLLI4,Middle Raccoon River Tributary near Carroll,1,CMOI4,True,False
 CLLM4,Sturgeon River near Chassell,1,ALSM4,True,False
@@ -76,6 +72,7 @@ CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSHO1,Muskingum River below Coshocton,1,DREO1,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
+CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
 CVGV2,Jackson River at Covington,1,FLGV2,True,False
@@ -86,6 +83,7 @@ DANA4,Petit Jean River at Danville,1,BMTA4,True,False
 DARL1,Amite River near Darlington,1,GVLL1,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
+DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
 DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
 DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
@@ -232,6 +230,7 @@ LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
 LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
 LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
 LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
+LYCP1,Lycoming Creek near Williamsport,1,HEPP1,True,False
 LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
 LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
@@ -239,9 +238,9 @@ MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MAOO3,Malheur River near Ontario,1,VALO3,True,False
 MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
 MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
-MBNC2,Middle Boulder Creek (CO) at Nederland,1,BLFC2,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
+MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
@@ -293,6 +292,7 @@ NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
+NOMT1,Obion River near Martin,1,OBNT1,True,False
 NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
 NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
@@ -307,6 +307,7 @@ NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
 NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
+OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
@@ -355,6 +356,7 @@ RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
 RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
+RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
 RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
@@ -369,6 +371,7 @@ RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
+RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
 ROSN7,French Broad River at Rosman,1,BLAN7,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
