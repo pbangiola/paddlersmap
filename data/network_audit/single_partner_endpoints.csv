@@ -33,6 +33,7 @@ BRRO1,Rocky River at Berea,1,BAKO1,True,False
 BRTA3,Verde River at Bartlett Lake,1,VDTA3,True,False
 BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
+BSEI1,New York Canal Diversion at Boise,1,BDDI1,True,False
 BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
@@ -45,6 +46,7 @@ CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
 CDET2,Rio Grande at Candelaria Crossing,1,PIOT2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
+CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
@@ -79,6 +81,7 @@ DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
+DUBW4,Wind River near Dubois,1,WRCW4,True,False
 DURW3,Chippewa River (WI) at Durand,1,ECLW3,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
@@ -92,7 +95,9 @@ EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 EVDT2,Neches River at Evadale,1,TBFT2,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
+EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FCEW3,Popple River at Fence,1,BRKW3,True,False
+FDKM2,Monocacy River near Frederick at Interstate 70,1,FRMM2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
@@ -146,6 +151,7 @@ JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
+KNKA2,Knik River near Palmer,1,BDBA2,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
 LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
 LAWM3,Merrimack River at Lawrence,1,BATM3,True,False
@@ -189,6 +195,7 @@ MLII2,Rock River at Moline,1,JOSI2,True,False
 MLUK2,Ohio River at McAlpine Upper,1,MLXK2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
+MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
@@ -273,6 +280,7 @@ ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
+RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
@@ -317,6 +325,7 @@ SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
+TISC1,Sacramento River at Tisdale Weir,1,CLUC1,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
 TOMN7,Black River near Tomahawk,1,BCUN7,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
@@ -340,7 +349,8 @@ WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
-WELW2,Ohio River at Wellsburg,1,SBVO1,True,False
+WDRW4,Wind River at Riverton,1,KINW4,True,False
+WHLW2,Ohio River at Pike Island Lock and Dam,1,WELW2,True,False
 WHPM5,Rainy River near Boat Landing at Wheelers Point,1,MNUM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
