@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ARWO3,Applegate River near Wilderville,1,APRO3,True,False
 ASPS1,Ashley River near North Charleston (IN MLLW),1,ARDS1,True,False
 ASTN6,Canisteo River at Addison,1,WCRN6,True,False
 ATHC2,Anthracite Creek near Somerset ,1,ACSC2,True,False
@@ -21,12 +20,14 @@ BLRI1,North Fork Big Lost River at Wild Horse,1,HWRI1,True,False
 BLSI1,Big Lost River above Abv Sinks nr Howe,1,LINI1,True,False
 BMDA4,Ouachita River at Blakely Mtn Dam,1,RDTA4,True,False
 BOBN8,Maple River (ND) near Hope,1,ENDN8,True,False
+BOON6,Black River at Boonville,1,ARTN6,True,False
 BOYM5,Boy River near Boy River,1,GNDM5,True,False
 BRFI1,South Fork Boise River at Pine (near Featherville),1,ANDI1,True,False
 BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
 BROW3,Sugar River at Brodhead,1,ALBW3,True,False
 BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
+BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
 BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
@@ -37,7 +38,6 @@ CDET2,Rio Grande at Candelaria Crossing,1,PIOT2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
-CLFI3,Ohio River at Clifty Creek,1,MKLK2,True,False
 CLLM4,Sturgeon River near Chassell,1,ALSM4,True,False
 CLRA4,White River at Calico Rock,1,ALLA4,True,False
 CLVO2,Canadian River near Calvin,1,KCRO2,True,False
@@ -117,6 +117,7 @@ LGRM7,Mississippi River at LaGrange,1,UINI2,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
+LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LRDN7,Broad River in NC/SC at Lake Lure Dam,1,LRBN7,True,False
@@ -134,15 +135,18 @@ MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLGN5,Pecos River 3 miles ESE of Malaga,1,CPDN5,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
+MLUK2,Ohio River at McAlpine Upper,1,MLXK2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
 MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
+MRNN6,Esopus Creek at Mount Marion,1,ASEN6,True,False
 MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
 MSLN5,Rio Grande near Mesilla,1,LBDN5,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
+MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
@@ -153,6 +157,7 @@ NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
+NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
 NWCL1,Tide Station (LIX) near Lakefront,1,SHBL1,True,False
 NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
@@ -174,6 +179,7 @@ PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
+PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PTRI3,White River (IN) at Petersburg,1,PETI3,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
@@ -181,6 +187,7 @@ RBNM4,Grand River at Robinson Township,1,EASM4,True,False
 RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
+RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
 REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
 RELT2,Colorado River (TX) at Robert Lee,1,BLIT2,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
@@ -195,6 +202,7 @@ RRVL1,Mississippi River at Reserve,1,DONL1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
+SARO1,Ohio River above Sardis,1,RNOO1,True,False
 SCHA4,White River at St. Charles,1,CLDA4,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
@@ -213,11 +221,13 @@ SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
+STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 SWNM6,Tallahatchie River near Swan Lake,1,LOGM6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
+TORW2,Coal River (WV) at Tornado,1,ASHW2,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
@@ -230,6 +240,7 @@ WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
+WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WELW2,Ohio River at Wellsburg,1,SBVO1,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
