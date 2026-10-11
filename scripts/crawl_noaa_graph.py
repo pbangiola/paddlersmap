@@ -62,7 +62,7 @@ def lid(item):
     if isinstance(item, str):
         return item.strip().upper()
     if isinstance(item, dict):
-        for key in ("lid", "identifier", "noaa_lid", "nwsLid", "nws_lid"):
+        for key in ("lid", "LID", "identifier", "noaa_lid", "nwsLid", "nws_lid"):
             if item.get(key):
                 return str(item[key]).strip().upper()
         for key in ("gauge", "station"):
