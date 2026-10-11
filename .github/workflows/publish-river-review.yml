@@ -1,4 +1,4 @@
-name: Publish gauge-linked 3DHP review layer
+name: MANUAL - Publish gauge-linked 3DHP review
 
 on:
   workflow_dispatch:
