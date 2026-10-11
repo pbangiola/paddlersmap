@@ -71,6 +71,7 @@ def main():
     state=json.loads(statepath.read_text()) if statepath.exists() else {"cursor":0}
     cursor=state.get("cursor",0);boxes=[]
     retry_boxes=list(state.get("retry_boxes",[]))
+    retry_sources=dict(state.get("retry_sources",{}))
     if args.illinois_basin:
         # Approximate Illinois River drainage search extent; features still need HUC validation.
         cells=[[-93+x*.5,37+y*.5,-92.5+x*.5,37.5+y*.5] for y in range(14) for x in range(14)]
@@ -94,12 +95,17 @@ def main():
         if len(boxes)>=args.max_boxes:break
     output=Path(args.output);output.mkdir(parents=True,exist_ok=True)
     failures=[]
+    active_retry={}
     for name,fn in (("gauges",discover_gauges),("launches",discover_launches)):
         path=output/(name+"_candidates.geojson");existing=load(path);found=[]
         for bb in boxes:
+            tile=json.dumps(bb,separators=(",",":"))
+            required=retry_sources.get(tile)
+            if required is not None and name not in required:continue
             try:found.extend(fn(bb))
             except Exception as error:
                 failures.append({"source":name,"bbox":bb,"error":str(error)})
+                active_retry.setdefault(tile,[]).append(name)
                 print(f"{name} discovery deferred for {bb}: {error}")
         save(path,merge(existing,found))
         print(name,len(found),"newly observed",len(load(path)["features"]),"total candidates")
@@ -111,6 +117,7 @@ def main():
     # in the retry queue and do not discard earlier retry failures.
     failed={tuple(x["bbox"]) for x in failures}
     state["retry_boxes"]=[list(bb) for bb in dict.fromkeys(tuple(bb) for bb in boxes if tuple(bb) in failed)]
+    state["retry_sources"]=active_retry
     state["cursor"]=min(total,cursor+consumed)
     state["failed_request_count"]=len(failures)
     state["complete"]=state["cursor"]>=total and not state["retry_boxes"]
