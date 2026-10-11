@@ -1,5 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BCRT2,West Central Texas Lakes at Brady Creek Reservoir,1,LKCT2,True,False
+BCWT2,Boggy Creek at Webberville Road,1,BCMT2,True,False
 BDOW3,Bad River (WI) at Odanah,1,ODAW3,True,False
 BEAP1,Beaver River near Beaver Falls,1,WPMP1,True,False
 BGDI3,Wabash River near Battleground,1,AMRI3,True,False
@@ -37,6 +37,7 @@ BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
 BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
 BUSP1,Central PA Dams  Bush Dam on Kettle Creek,1,COWP1,True,False
+BWMA1,Murder Creek (AL) at Brewton,1,BCNA1,True,False
 BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
 CAAT2,Nueces River at Calallen,1,CBVT2,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
@@ -61,6 +62,7 @@ COGO3,Cow Creek above Azalea,1,GSVO3,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
+CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
@@ -83,6 +85,7 @@ EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
+EMPL1,Mississippi River at Empire,1,WPHL1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 EVDT2,Neches River at Evadale,1,TBFT2,True,False
@@ -194,17 +197,20 @@ MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
+NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NHRI3,Wabash River at New Harmony,1,MCRI2,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
+NKJT1,Tennessee River above Nickajack Dam (Jasper 5S),1,CHAT1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
+NSHM8,Milk River at Nashua,1,GLWM8,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
 NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
 NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
@@ -228,6 +234,7 @@ PERM8,Flathead River at Perma,1,FPOM8,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PETW3,Wisconsin River at Petenwell Dam,1,WIRW3,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
+PGFM6,Pascagoula River at Graham Ferry,1,BKNM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,1,PCST2,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
@@ -262,7 +269,6 @@ ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
-RRVL1,Mississippi River at Reserve,1,DONL1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
@@ -322,7 +328,6 @@ VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
-WBOT1,Tennessee River above Watts Bar Dam,1,KGTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
