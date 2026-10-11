@@ -45,6 +45,7 @@ const reportButton=document.getElementById('report-condition');
 const reportDialog=document.getElementById('report-dialog');
 const reportForm=document.getElementById('report-form');
 let gaugeFeatures=[], communityReports=[], reportPoint=null, routeCount=0;
+const positive=v=>{const n=Number(v);return v!==null&&v!==undefined&&v!==''&&Number.isFinite(n)&&n>0?n:null;};
 const finite=v=>v!==null&&v!==undefined&&v!==''&&Number.isFinite(Number(v))?Number(v):null;
 const fmt=v=>Number(v).toFixed(6);
 const siteId=v=>String(v??'').replace(/^USGS-/i,'').trim();
@@ -114,7 +115,7 @@ function calibrate(data,reports){
 // 0=low brown, 0.25=blue, 0.625=yellow, 1=flood red.
 function stagePosition(p){
  const h=finite(p.stage??p.current_stage_ft),lo=finite(p.low_water_stage_ft??p.atlas_minimum_ft),
-       flood=finite(p.flood_stage_ft);
+       flood=positive(p.flood_stage_ft);
  if(h===null||lo===null||flood===null||flood<=lo)return null;
  return Math.max(0,Math.min(1,(h-lo)/(flood-lo)));
 }
@@ -127,10 +128,13 @@ function stageColor(position){
 function palette(p){
  const pos=stagePosition(p);
  if(pos!==null)return stageColor(pos);
- const h=finite(p.stage??p.current_stage_ft),lo=finite(p.low_water_stage_ft),flood=finite(p.flood_stage_ft);
- if(h!==null&&flood!==null&&h>=flood)return '#cf2929';
- if(h!==null&&lo!==null&&h<=lo)return '#85512c';
- return '#88929b';
+ const h=finite(p.stage??p.current_stage_ft),lo=finite(p.low_water_stage_ft??p.atlas_minimum_ft),flood=positive(p.flood_stage_ft);
+ if(h===null||lo===null)return '#88929b';
+ if(flood===null||flood<=lo){
+  const mean=finite(p.atlas_mean_ft??p.typical_stage_ft),upper=mean!==null&&mean>lo?mean:lo+3;
+  return blend('#85512c','#0867d9',Math.max(0,Math.min(1,(h-lo)/(upper-lo))));
+ }
+ return h>=flood?'#cf2929':h<=lo?'#85512c':'#88929b';
 }
 function riverName(raw){
  const value=String(raw||'').trim();
@@ -140,7 +144,7 @@ function riverName(raw){
 }
 let riverNames=[],riverMode='all',focusRiver='';
 function applyRiverFilters(){
- for(const id of ['river-3dhp-review',...(window.ednaWatershedLayerIds||[])]){
+ for(const id of ['river-3dhp-review','noaa-name-graph','noaa-riverflow-edges',...(window.ednaWatershedLayerIds||[])]){
   if(!map.getLayer(id))continue;
   setLayerVisibility(id,riverToggle.checked&&riverMode!=='none');
   if(id!=='edna-national-rivers')map.setFilter(id,riverMode==='only'?['==',['get','filter_river'],focusRiver]:riverMode==='exclude'?['!=',['get','filter_river'],focusRiver]:null);
@@ -172,9 +176,9 @@ function segmentColor(raw){
 }
 let riverColorMode='stage';
 function applyRiverColorMode(){
- for(const id of ['river-segments','river-3dhp-review','noaa-riverflow-edges']){
+ for(const id of ['noaa-riverflow-edges']){
   if(!map.getLayer(id))continue;
-  map.setPaintProperty(id,'line-color',['get',riverColorMode==='segments'?'segment_color':'stage_color']);
+  map.setPaintProperty(id,'line-color',['coalesce',['get',riverColorMode==='segments'?'segment_color':'stage_color'],'#527d94']);
  }
  const label=document.getElementById('river-color-note');
  if(label)label.textContent=riverColorMode==='segments'?'Different colors identify gauge-associated segments; not water levels.':'Brown = low, blue = 25% from low to flood, yellow = elevated, red = flood; gray = missing thresholds.';
@@ -499,7 +503,7 @@ map.on('load',async()=>{
     registerRivers(candidate.features.map(f=>f.properties.river_name));
     map.addSource('river-3dhp-review',{type:'geojson',data:candidate});
     map.addLayer({id:'river-3dhp-review',type:'line',source:'river-3dhp-review',
-      paint:{'line-color':['get','stage_color'],'line-width':['interpolate',['linear'],['zoom'],6,1.7,10,3.5,13,5],
+      paint:{'line-color':'#527d94','line-width':['interpolate',['linear'],['zoom'],6,1.7,10,3.5,13,5],
       'line-opacity':0.9}},'gauges');
     setLayerVisibility('river-3dhp-review',riverToggle.checked);
     applyRiverFilters();
@@ -662,6 +666,8 @@ map.on('load',async()=>{
    if(!groups.has(key))groups.set(key,[]);
    groups.get(key).push({xy,p});
   }
+  const prettyName=n=>n.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase());
+  registerRivers([...groups.keys()].map(prettyName));
   const lines=[];
   for(const [name,points] of groups){
    if(points.length<2)continue;
@@ -675,7 +681,7 @@ map.on('load',async()=>{
     if(parent[pick]>=0&&min<=150){
      const a=points[parent[pick]],b=points[pick];
      lines.push({type:'Feature',geometry:{type:'LineString',coordinates:[a.xy,b.xy]},
-      properties:{water_body:name,from:a.p.name,to:b.p.name,distance_km:Math.round(min*10)/10,
+      properties:{water_body:name,filter_river:prettyName(name),from:a.p.name,to:b.p.name,distance_km:Math.round(min*10)/10,
        stage_color:stagePosition(a.p)===null&&stagePosition(b.p)===null?avgHex(gaugeColor(a.p),gaugeColor(b.p)):stageColor(stagePosition(a.p)===null?stagePosition(b.p):stagePosition(b.p)===null?stagePosition(a.p):(stagePosition(a.p)+stagePosition(b.p))/2)}});
     }
     for(let j=0;j<points.length;j++)if(!used[j]){
@@ -688,7 +694,8 @@ map.on('load',async()=>{
   map.addLayer({id:'noaa-name-graph',type:'line',source:'noaa-name-graph',
    paint:{'line-color':['get','stage_color'],'line-width':['interpolate',['linear'],['zoom'],3,2,9,4],'line-opacity':0.85}},
    map.getLayer('noaa-national-gauges')?'noaa-national-gauges':undefined);
-  setLayerVisibility('noaa-name-graph',document.getElementById('show-name-graph')?.checked!==false);
+  setLayerVisibility('noaa-name-graph',document.getElementById('show-name-graph')?.checked!==false&&riverToggle.checked);
+  applyRiverFilters();
   document.getElementById('show-name-graph')?.addEventListener('change',e=>setLayerVisibility('noaa-name-graph',e.target.checked));
   map.on('click','noaa-name-graph',e=>{
    if(reportButton.getAttribute('aria-pressed')==='true')return;
@@ -708,9 +715,18 @@ map.on('load',async()=>{
   if(!response.ok)return;
   const graph=await response.json();
   if(graph.type!=='FeatureCollection'||!Array.isArray(graph.features))return;
+  const gr=await fetchLiveData('noaa_gauges.geojson'),gd=gr.ok?await gr.json():{features:[]};
+  const names=new Map((gd.features||[]).map(f=>[String(f.properties?.noaa_lid||'').toUpperCase(),riverName(f.properties?.name)]));
+  for(const f of graph.features){
+   const p=f.properties||(f.properties={}),a=names.get(String(p.upstream||'').toUpperCase()),b=names.get(String(p.downstream||'').toUpperCase());
+   p.filter_river=p.river_name&&p.river_name!=='Unidentified waterway'?p.river_name:(a&&a!=='Unidentified waterway'?a:b)||'Unidentified waterway';
+  }
+  registerRivers(graph.features.map(f=>f.properties.filter_river));
   map.addSource('noaa-riverflow-edges',{type:'geojson',data:graph});
   map.addLayer({id:'noaa-riverflow-edges',type:'line',source:'noaa-riverflow-edges',
    paint:{'line-color':['get','stage_color'],'line-width':['interpolate',['linear'],['zoom'],5,0.5,12,2],'line-opacity':0.75}});
-  console.info('NOAA directed graph loaded:',graph.features.length,'edges');
+  applyRiverFilters();
+  applyRiverColorMode();
+  console.info('NOAA directed graph loaded:,graph.features.length,'edges');
  }catch(error){console.warn('NOAA graph unavailable:',error);}
 });
