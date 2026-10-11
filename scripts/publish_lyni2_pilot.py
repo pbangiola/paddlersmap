@@ -29,7 +29,7 @@ def stream_name(meta):
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument("--max-stations",type=int,default=50)
+    parser.add_argument("--max-stations",type=int,default=500)
     args=parser.parse_args()
     if not 2<=args.max_stations<=500:parser.error("max-stations must be 2..500")
     queue=deque(["LYNI2"])
