@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BROW3,Sugar River at Brodhead,1,ALBW3,True,False
-BRRO1,Rocky River at Berea,1,BAKO1,True,False
-BRTA2,Bradley River near Tidewater near Homer,1,BRNA2,True,False
 BRTA3,Verde River at Bartlett Lake,1,VDTA3,True,False
 BRTN6,Schoharie Creek at Burtonsville,1,BKBN6,True,False
 BRTO3,Blue River below Tidbits Creek,1,BLUO3,True,False
@@ -64,6 +61,7 @@ CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSHO1,Muskingum River below Coshocton,1,DREO1,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
+CSNO1,West Branch Rocky River at West View,1,BRRO1,True,False
 CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
@@ -160,6 +158,7 @@ HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
+HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
@@ -213,6 +212,7 @@ LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
+LITW2,Tug Fork River at Litwar,1,BRSW2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
@@ -494,11 +494,11 @@ WDRW4,Wind River at Riverton,1,KINW4,True,False
 WETN4,Millstone River at Weston,1,BKWN4,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
-WHPM5,Rainy River near Boat Landing at Wheelers Point,1,MNUM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
+WLCW2,Tug Fork River at Welch,1,BRSW2,True,False
 WLDW2,Little Kanawha River near Wildcat,1,BRNW2,True,False
 WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
