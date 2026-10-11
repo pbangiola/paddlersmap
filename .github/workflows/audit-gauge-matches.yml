@@ -1,4 +1,4 @@
-name: Audit NOAA gauge to EDNA river matching
+name: QA - Gauge-to-river matching audit
 on:
   workflow_dispatch:
   push:
