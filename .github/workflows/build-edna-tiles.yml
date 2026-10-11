@@ -1,4 +1,4 @@
-name: MAP 3 - Build nationwide river vector tiles
+name: REBUILD - Nationwide EDNA vector tiles
 on:
   workflow_dispatch:
   push:
