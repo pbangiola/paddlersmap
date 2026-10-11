@@ -18,12 +18,12 @@ const gaugeToggle=document.getElementById('show-gauges');
 // Circle diameter is 25 meters on the ground; suppress subpixel symbols at broad zoom.
 // MapLibre uses 512-pixel world tiles: meters per pixel at equator = 78271.51696 / 2^zoom.
 // The circle is exactly 25m across (12.5m radius), corrected for each gauge latitude.
-const gaugeRadiusPixels=['/', ['interpolate',['exponential',2],['zoom'],
+const gaugeRadiusPixels=['max',2,['/', ['interpolate',['exponential',2],['zoom'],
   0,12.5/78271.51696, 12,12.5/(78271.51696/4096),
   16,12.5/(78271.51696/65536), 20,12.5/(78271.51696/1048576)],
-  ['max',0.1,['cos',['*',['get','latitude'],Math.PI/180]]]];
+  ['max',0.1,['cos',['*',['coalesce',['get','latitude'],41],Math.PI/180]]]]];
 
-const gaugeVisibleZoom=14;
+const gaugeVisibleZoom=9;
 function applyGaugeScale(){
  const show=gaugeToggle.checked&&map.getZoom()>=gaugeVisibleZoom;
  for(const id of ['noaa-national-gauges','gauges','expanded-gauges'])setLayerVisibility(id,show);
@@ -43,8 +43,6 @@ const legend=document.getElementById('map-legend');
 function setLayerVisibility(id,visible){if(map.getLayer(id))map.setLayoutProperty(id,'visibility',visible?'visible':'none');}
 window.addEventListener('resize',()=>map.resize());
 gaugeToggle.addEventListener('change',()=>{
- applyGaugeScale();
- applyGaugeScale();
  applyGaugeScale();
 });
 const reportButton=document.getElementById('report-condition');
@@ -326,7 +324,7 @@ function renderLaunchDomMarkers(){
  for(const marker of launchDomMarkers)marker.remove();
  launchDomMarkers=[];
  if(!putinToggle.checked||!launchesInRange())return;
- const bounds=map.getBounds(),cellSize=44,groups=new Map();
+ const bounds=map.getBounds(),cellSize=24,groups=new Map();
  for(const feature of putinFeatures){
   const xy=feature.geometry?.coordinates;
   if(feature.geometry?.type!=='Point'||!Array.isArray(xy)||!bounds.contains(xy)||!qualifiesPutin(feature))continue;
@@ -342,10 +340,10 @@ function renderLaunchDomMarkers(){
   el.title=count===1?(group.features[0].properties?.name||'Launch candidate')+(verified?' (verified)':' (unverified)'):count+' nearby launch candidates';
   el.setAttribute('aria-label',el.title);
   if(count===1){
-   el.style.cssText='width:19px;height:19px;padding:0;margin:0;border:1.5px solid white;border-radius:50%;background:'+(verified?'#168447':'#e0ad24')+' url(https://static.thenounproject.com/png/canoe-paddles-icon-731096-512.png) center/13px 13px no-repeat;box-shadow:0 1px 4px #0008;cursor:pointer;';
+   el.style.cssText='width:11px;height:11px;padding:0;margin:0;border:1px solid white;border-radius:50%;background:'+(verified?'#168447':'#e0ad24')+' url(https://static.thenounproject.com/png/canoe-paddles-icon-731096-512.png) center/8px 8px no-repeat;box-shadow:0 1px 4px #0008;cursor:pointer;';
   }else{
    el.textContent=String(count);
-   el.style.cssText='width:27px;height:27px;padding:0;margin:0;border:2px solid white;border-radius:50%;background:#e0ad24;color:#17252c;font:bold 11px system-ui;box-shadow:0 1px 5px #0008;cursor:pointer;';
+   el.style.cssText='width:16px;height:16px;padding:0;margin:0;border:1px solid white;border-radius:50%;background:#e0ad24;color:#17252c;font:bold 9px system-ui;box-shadow:0 1px 5px #0008;cursor:pointer;';
   }
   el.addEventListener('click',event=>{
    event.stopPropagation();
