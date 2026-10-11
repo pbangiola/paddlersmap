@@ -72,6 +72,7 @@ def main():
     cursor=state.get("cursor",0);boxes=[]
     retry_boxes=list(state.get("retry_boxes",[]))
     retry_sources=dict(state.get("retry_sources",{}))
+    previous_retry=[list(bb) for bb in retry_boxes]
     if args.illinois_basin:
         # Approximate Illinois River drainage search extent; features still need HUC validation.
         cells=[[-93+x*.5,37+y*.5,-92.5+x*.5,37.5+y*.5] for y in range(14) for x in range(14)]
@@ -116,7 +117,13 @@ def main():
     # A tile is complete only after both sources succeed. Keep every failed tile
     # in the retry queue and do not discard earlier retry failures.
     failed={tuple(x["bbox"]) for x in failures}
-    state["retry_boxes"]=[list(bb) for bb in dict.fromkeys(tuple(bb) for bb in boxes if tuple(bb) in failed)]
+    # Preserve retries not attempted in this bounded batch.
+    attempted={tuple(bb) for bb in boxes}
+    unattempted=[bb for bb in previous_retry if tuple(bb) not in attempted]
+    state["retry_boxes"]=unattempted+[list(bb) for bb in dict.fromkeys(tuple(bb) for bb in boxes if tuple(bb) in failed)]
+    for bb in unattempted:
+        tile=json.dumps(bb,separators=(",",":"))
+        if tile in retry_sources: active_retry[tile]=retry_sources[tile]
     state["retry_sources"]=active_retry
     state["cursor"]=min(total,cursor+consumed)
     state["failed_request_count"]=len(failures)
