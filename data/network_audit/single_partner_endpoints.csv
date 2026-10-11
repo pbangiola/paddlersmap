@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BLAV2,Blackwater River near Rocky Mount,1,BCYV2,True,False
-BLBN1,Big Papillion Creek near Blair,1,KEBN1,True,False
 BLIS1,Black River (SC) at I-95 near Manning,1,KINS1,True,False
 BLRI1,North Fork Big Lost River at Wild Horse,1,HWRI1,True,False
 BLSI1,Big Lost River above Abv Sinks nr Howe,1,LINI1,True,False
@@ -158,7 +156,6 @@ HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
 HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
-HTRM8,Missouri River below Holter Dam near Wolf Creek,1,HASM8,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
 HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
@@ -202,6 +199,7 @@ LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
+LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
@@ -223,6 +221,7 @@ LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MAOO3,Malheur River near Ontario,1,VALO3,True,False
+MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
 MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
@@ -416,7 +415,6 @@ TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
-ULMM8,Missouri River near Ulm,1,GFLM8,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
@@ -435,6 +433,7 @@ WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
 WETN4,Millstone River at Weston,1,BKWN4,True,False
+WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHPM5,Rainy River near Boat Landing at Wheelers Point,1,MNUM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
@@ -458,5 +457,6 @@ WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
+YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZAYL1,Comite River near Zachary,1,BAKL1,True,False
