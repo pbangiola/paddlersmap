@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BDOW3,Bad River (WI) at Odanah,1,ODAW3,True,False
-BEAP1,Beaver River near Beaver Falls,1,WPMP1,True,False
 BGDI3,Wabash River near Battleground,1,AMRI3,True,False
 BGSO2,Deep Fork River near Beggs,1,SDFO2,True,False
 BIVO3,Berry Creek  Ben Irving Reservoir,1,BCBO3,True,False
@@ -78,6 +76,7 @@ DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
 DLPI3,Tippecanoe River near Delphi,1,OADI3,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
+DOVT1,Cumberland River at Dover,1,CKVT1,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
@@ -127,8 +126,10 @@ HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HENK2,Ohio River at Henderson,1,EVVI3,True,False
+HENN1,North Platte River at WY-NE State Line nr Henry,1,MICN1,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
+HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
@@ -167,7 +168,6 @@ LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
-LOLT2,Trinity River near Long Lake (Oakwood),1,TDDT2,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
@@ -178,8 +178,10 @@ LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
 LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
 LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
+LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
 LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
+MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
@@ -254,8 +256,10 @@ PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
+PLRM8,Poplar River near Poplar,1,BDPM8,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
+PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
@@ -267,6 +271,7 @@ RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
+RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
 REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
 RELT2,Colorado River (TX) at Robert Lee,1,BLIT2,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
@@ -326,6 +331,7 @@ TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TISC1,Sacramento River at Tisdale Weir,1,CLUC1,True,False
+TKSN4,Delaware River at Tocks Island,1,BVDN4,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
 TOMN7,Black River near Tomahawk,1,BCUN7,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
