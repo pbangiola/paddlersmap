@@ -1,8 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-AGCW1,Asotin Creek above George Creek,1,ACAW1,True,False
-AGSI4,Skunk River at Augusta,1,MERI4,True,False
+AGSM5,Polk JD25 near Angus (150th St NW),1,AGNM5,True,False
+ALCF1,Alligator Creek Below Belcher Rd at Clearwater,1,PIAF1,True,False
 ALQC1,Alamo Canal near Pleasanton,1,AYLC1,True,False
 APCF1,Tide Station at Apalachicola (in MHHW),1,ABCF1,True,False
+ARKK1,Walnut River at Arkansas City,1,WFDK1,True,False
 ASHU1,Ashley Creek above Vernal,1,ACJU1,True,False
 ATHC2,Anthracite Creek near Somerset ,1,ACSC2,True,False
 ATKG1,Satilla River at Atkinson,1,ABAG1,True,False
@@ -32,6 +33,7 @@ DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DSNT2,Red River at Lake Texoma near Denison,1,DSTT2,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 EDGS2,Cheyenne River at Edgemont,1,AACS2,True,False
+EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 EDYI4,Des Moines River near Eddyville,1,TRCI4,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
@@ -50,11 +52,14 @@ JACM4,Grand River at Jackson,1,ETNM4,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
+KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
+LANM5,Cedar River near Lansing,1,ASTM5,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LFIS2,Missouri River at La Framboise Island,1,PIRS2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
+LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
@@ -62,6 +67,7 @@ MCGL1,Atchafalaya River at Morgan City,1,BSRL1,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MLGN5,Pecos River 3 miles ESE of Malaga,1,CPDN5,True,False
+MLII2,Rock River at Moline,1,JOSI2,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
@@ -76,7 +82,9 @@ OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 PETI3,White River (IN) above Petersburg,1,SHLI3,True,False
+PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
+PLOI4,Cedar River at Palo,1,VINI4,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 QSAC1,San Antonio Creek at Indian Creek Road,1,ACSC1,True,False
@@ -86,12 +94,16 @@ RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
+SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
+TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
+TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WELW2,Ohio River at Wellsburg,1,SBVO1,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
+WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRRP1,Allegheny River at Warren,1,WHKP1,True,False
