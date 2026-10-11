@@ -1,4 +1,4 @@
-name: Compact statewide river review layer
+name: MANUAL - Compact statewide river review
 
 on:
   workflow_dispatch:
