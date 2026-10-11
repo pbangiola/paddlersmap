@@ -1,4 +1,4 @@
-name: Discover regional put-ins
+name: SCHEDULED - Discover regional launches (Tue and Fri)
 on:
   schedule:
     - cron: '41 11 * * 2,5'
