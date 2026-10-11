@@ -178,12 +178,14 @@ def main():
         seen = set(pending)
     processed = 0
     start = time.monotonic()
+    attempted = set()
     while pending and time.monotonic() - start < args.max_seconds:
         if processed and processed % args.batch == 0 and args.publish:
             commit([STATE, GAUGES, EDGES])
         current = pending.popleft()
-        if current in visited:
+        if current in visited or current in attempted:
             continue
+        attempted.add(current)
         try:
             metadata = get(urllib.parse.quote(current, safe=""))
             time.sleep(args.delay)
