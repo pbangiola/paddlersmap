@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BIUI1,Bear River at Idaho-Utah State Line,1,BRAI1,True,False
-BIVO3,Berry Creek  Ben Irving Reservoir,1,BCBO3,True,False
 BKML1,Bayou Bartholomew at Beekman,1,JONL1,True,False
 BKPM1,Bucksport Tidal Gage (MLLW),1,BPRM1,True,False
 BKRA4,Black River at Black Rock,1,POCA4,True,False
@@ -37,6 +35,7 @@ BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
 BSEI1,New York Canal Diversion at Boise,1,BDDI1,True,False
 BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
+BTBC2,Big Thompson River (CO) below Lake Estes,1,BIMC2,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
 BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
 BUEC2,Blue River (CO) at Blue River,1,BLRC2,True,False
@@ -52,6 +51,7 @@ CDET2,Rio Grande at Candelaria Crossing,1,PIOT2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
+CHEN7,Little Tennessee River at Cheoah Dam,1,FONN7,True,False
 CHIN7,N.E. Cape Fear River near Chinquapin,1,BGWN7,True,False
 CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
@@ -81,6 +81,7 @@ CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CVGV2,Jackson River at Covington,1,FLGV2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
+DARM8,Bitterroot River near Darby,1,VICM8,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
 DCTN1,Missouri River at Decatur,1,BLAN1,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
@@ -88,6 +89,7 @@ DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
 DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
 DLPI3,Tippecanoe River near Delphi,1,OADI3,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
+DNVI2,Vermilion River (E-IL) near Danville,1,BISI2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
@@ -120,6 +122,7 @@ FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
 FPKG1,Savannah River at Fort Pulaski (IN MLLW),1,SVDG1,True,False
+FRKM1,Kennebec River at The Forks,1,BINM1,True,False
 FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRMN5,San Juan River at Farmington,1,ARFN5,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
@@ -141,6 +144,7 @@ GRMN3,Androscoggin River at Gorham,1,RMFM1,True,False
 GRVU1,Green River (WY-UT-CO) at GREEN RIVER,1,ACJU1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
+HAIV2,Russell Fork River at Haysi,1,BIGV2,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HENK2,Ohio River at Henderson,1,EVVI3,True,False
@@ -172,6 +176,7 @@ JSLS2,James River near Hecla,1,CMBS2,True,False
 JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
 JYBT2,Neches River at Downtown Beaumont,1,BEAT2,True,False
+JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
 KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
@@ -291,7 +296,6 @@ PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
-PETW3,Wisconsin River at Petenwell Dam,1,WIRW3,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGFM6,Pascagoula River at Graham Ferry,1,BKNM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,1,PCST2,True,False
@@ -440,6 +444,7 @@ WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
 WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
+YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZAYL1,Comite River near Zachary,1,BAKL1,True,False
