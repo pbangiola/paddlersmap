@@ -138,19 +138,23 @@ def main():
     parser.add_argument("--batch", type=int, default=25)
     parser.add_argument("--delay", type=float, default=0.3)
     parser.add_argument("--publish", action="store_true")
+    parser.add_argument("--max-seconds", type=int, default=18000)
     args = parser.parse_args()
     original = read(GAUGES, {"type": "FeatureCollection", "features": []})
     existing = {lid(f.get("properties", {})): f for f in original.get("features", [])
                 if lid(f.get("properties", {}))}
     graph = read(EDGES, {"type": "FeatureCollection", "features": []})
     state = read(STATE, {})
-    pending = deque(state.get("pending") or sorted(existing))
+    pending = deque(state["pending"] if "pending" in state else sorted(existing))
     visited = set(state.get("visited", []))
     seen = set(pending) | visited
     links = set(tuple(e["properties"][k] for k in ("upstream", "downstream"))
                 for e in graph.get("features", []) if all(k in e.get("properties", {}) for k in ("upstream", "downstream")))
     processed = 0
-    while pending and processed < args.batch:
+    start = time.monotonic()
+    while pending and time.monotonic() - start < args.max_seconds:
+        if processed and processed % args.batch == 0 and args.publish:
+            commit([STATE, GAUGES, EDGES])
         current = pending.popleft()
         if current in visited:
             continue
@@ -188,10 +192,10 @@ def main():
                 fa["geometry"]["coordinates"], fb["geometry"]["coordinates"]]},
                 "properties": {"upstream": a, "downstream": b, "source": "NOAA NWPS riverflow"}})
         save(EDGES, {"type": "FeatureCollection", "features": lines})
-        print(f"Gauge {current}: {processed}/{args.batch} processed, {len(existing)} gauges, {len(links)} relationships, {len(pending)} queued", flush=True)
+        print(f"Gauge {current}: {processed} processed, {len(existing)} gauges, {len(links)} relationships, {len(pending)} queued", flush=True)
     if args.publish:
         commit([STATE, GAUGES, EDGES])
-    print(f"Batch finished: processed={processed}, queued={len(pending)}")
+    print(f"Crawl stopped: processed={processed}, queued={len(pending)}, complete={not pending}")
 
 
 if __name__ == "__main__":
