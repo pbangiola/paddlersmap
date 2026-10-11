@@ -70,16 +70,19 @@ def main():
     statepath=Path(args.state)
     state=json.loads(statepath.read_text()) if statepath.exists() else {"cursor":0}
     cursor=state.get("cursor",0);boxes=[]
+    retry_boxes=list(state.get("retry_boxes",[]))
     if args.illinois_basin:
         # Approximate Illinois River drainage search extent; features still need HUC validation.
         cells=[[-93+x*.5,37+y*.5,-92.5+x*.5,37.5+y*.5] for y in range(14) for x in range(14)]
-        boxes=cells[cursor:cursor+args.max_boxes]
-        consumed=len(boxes)
+        fresh=cells[cursor:cursor+args.max_boxes]
+        boxes=(retry_boxes[:args.max_boxes] + fresh)[:args.max_boxes*2]
+        consumed=len(fresh)
     elif args.nationwide:
         # Geographic coverage grid, not a connected river network. Includes lower 48 only.
         cells=[[-125+x,24+y,-124+x,25+y] for y in range(26) for x in range(59)]
-        boxes=cells[cursor:cursor+args.max_boxes]
-        consumed=len(boxes)
+        fresh=cells[cursor:cursor+args.max_boxes]
+        boxes=(retry_boxes[:args.max_boxes] + fresh)[:args.max_boxes*2]
+        consumed=len(fresh)
     # Fixed-size bounded batches avoid broad Overpass/NWIS queries.
     consumed=0 if not (args.nationwide or args.illinois_basin) else consumed
     for f in ([] if (args.nationwide or args.illinois_basin) else features[cursor:]):
@@ -103,9 +106,14 @@ def main():
     total=len(cells) if (args.nationwide or args.illinois_basin) else len(features)
     if failures:
         save(output/"failed_requests.json",failures)
-        raise SystemExit(f"{len(failures)} source requests failed; refusing to advance cursor")
+        print(f"{len(failures)} source requests deferred to retry queue",flush=True)
+    # A tile is complete only after both sources succeed. Keep every failed tile
+    # in the retry queue and do not discard earlier retry failures.
+    failed={tuple(x["bbox"]) for x in failures}
+    state["retry_boxes"]=[list(bb) for bb in dict.fromkeys(tuple(bb) for bb in boxes if tuple(bb) in failed)]
     state["cursor"]=min(total,cursor+consumed)
-    state["complete"]=state["cursor"]>=total
+    state["failed_request_count"]=len(failures)
+    state["complete"]=state["cursor"]>=total and not state["retry_boxes"]
     state["scope"]="Illinois River basin approximate discovery grid" if args.illinois_basin else "CONUS discovery grid" if args.nationwide else "river network review"
     # Completed scans remain complete; reset only when explicitly requested.
     save(statepath,state)
