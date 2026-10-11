@@ -1,33 +1,75 @@
 #!/usr/bin/env python3
 """Publish a small ordered NOAA riverflow pilot from LYNI2; preserve all other data."""
 import json
+import argparse
+from collections import deque
+import urllib.error
 import urllib.request
 from pathlib import Path
 
 BASE="https://api.water.noaa.gov/nwps/v1/gauges/"
 DATA=Path("data")
 HEAD={"User-Agent":"PaddlersMap/1.0 (LYNI2 pilot)"}
-def get(lid):
-    with urllib.request.urlopen(urllib.request.Request(BASE+lid,headers=HEAD),timeout=30) as r:return json.load(r)
+def get(lid,suffix=""):
+    with urllib.request.urlopen(urllib.request.Request(BASE+lid+suffix,headers=HEAD),timeout=30) as r:return json.load(r)
 def read(p):
     try:return json.loads(p.read_text())
     except (OSError,ValueError):return {"type":"FeatureCollection","features":[]}
-def lid(x):return str(x.get("LID") or x.get("lid") or "").upper()
+def lid(x):return str(x.get("LID") or x.get("lid") or "").upper() if isinstance(x,dict) else str(x).upper()
 def number(x):
     try:
         n=float(x)
         return n if -100<n<10000 else None
     except (ValueError,TypeError):return None
+def stream_name(meta):
+    name=str(meta.get("name") or "").upper()
+    for sep in (" AT "," NEAR "," ABOVE "," BELOW "):
+        if sep in name:return name.split(sep)[0].strip()
+    return name.strip()
+
 def main():
-    with urllib.request.urlopen(urllib.request.Request(BASE+"LYNI2/riverflow",headers=HEAD),timeout=30) as r:flow=json.load(r)
-    up=[lid(x) for x in flow.get("upstream",[])]
-    down=[lid(x) for x in flow.get("downstream",[])]
-    chain=list(dict.fromkeys(up+["LYNI2"]+down))
-    if len(chain)<5:raise RuntimeError("NOAA riverflow ordering missing; refusing to publish")
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--max-stations",type=int,default=50)
+    args=parser.parse_args()
+    if not 2<=args.max_stations<=500:parser.error("max-stations must be 2..500")
+    queue=deque(["LYNI2"])
+    discovered={"LYNI2"}
+    metadata={}
+    edges=set()
+    # Each station's NOAA ordered list is a local path. Explore in BOTH
+    # directions and follow a changed stream name instead of stopping at it.
+    while queue and len(metadata)<args.max_stations:
+        current=queue.popleft()
+        try:
+            meta=get(current)
+            flow=get(current,"/riverflow")
+        except (urllib.error.HTTPError,OSError,ValueError) as exc:
+            print("Skipping",current,exc,flush=True)
+            continue
+        metadata[current]=meta
+        upstream=[lid(x) for x in flow.get("upstream",[]) if lid(x)]
+        downstream=[lid(x) for x in flow.get("downstream",[]) if lid(x)]
+        for chain in (list(reversed(upstream))+[current],[current]+downstream):
+            chain=list(dict.fromkeys(chain))
+            for a,b in sorted(edges):
+        if a not in byid or b not in byid or a not in metadata or b not in metadata:continue
+                if a!=b:edges.add((a,b))
+        # Both banks of the name transition are eligible for recursion.
+        # Queue the nearest nodes first, preserving a bounded station budget.
+        candidates=list(reversed(upstream))+downstream
+        for other in candidates:
+            if other not in discovered:
+                discovered.add(other)
+                queue.append(other)
+        print(current,"name=",stream_name(meta),"queued=",len(queue),
+              "stations=",len(metadata),"relationships=",len(edges),flush=True)
+    chain=list(metadata)
+    if len(chain)<5:raise RuntimeError("Too few NOAA stations; refusing to publish")
+    print("Visited",len(chain),"stations; encountered names:",sorted({stream_name(m) for m in metadata.values()}))
     gauges=read(DATA/"noaa_gauges.geojson")
     byid={str(f.get("properties",{}).get("noaa_lid","")).upper():f for f in gauges["features"]}
     for station in chain:
-        meta=get(station)
+        meta=metadata[station]
         lat,lon=number(meta.get("latitude")),number(meta.get("longitude"))
         if lat is None or lon is None:raise RuntimeError("Missing coordinates for "+station)
         p=dict(byid.get(station,{}).get("properties",{}))
@@ -59,5 +101,5 @@ def main():
         graph["features"].append({"type":"Feature","geometry":{"type":"LineString","coordinates":[byid[a]["geometry"]["coordinates"],byid[b]["geometry"]["coordinates"]]},
          "properties":{"upstream":a,"downstream":b,"stage_color":c,"pilot":"LYNI2","source":"NOAA NWPS ordered riverflow","geometry_note":"straight gauge-to-gauge chord; not traced waterway"}})
     (DATA/"noaa_graph_edges.geojson").write_text(json.dumps(graph,separators=(",",":")))
-    print("Published",len(chain),"gauges and",len(chain)-1,"consecutive pilot segments")
+    print("Published",len(chain),"gauges and",sum(1 for f in graph["features"] if f.get("properties",{}).get("pilot")=="LYNI2"),"pilot segments")
 if __name__=="__main__":main()
