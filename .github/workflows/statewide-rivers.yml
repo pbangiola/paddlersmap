@@ -1,4 +1,4 @@
-name: Build authoritative statewide river network
+name: REBUILD - Authoritative statewide river network
 
 on:
   workflow_dispatch:
