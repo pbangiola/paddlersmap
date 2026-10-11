@@ -1,3 +1,19 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HARI2,Illinois River at Hardin,1,VALI2,False,True
-RUSI2,Des Plaines River near Russell,1,GUNI2,False,True
+APCF1,Tide Station at Apalachicola (in MHHW),1,ABCF1,True,False
+ATKG1,Satilla River at Atkinson,1,ABAG1,True,False
+AXPC1,Altamont Creek - Pasatiempo Street,1,ABDC1,True,False
+AYMC1,Arroyo Mocho - Pleasanton,1,AECC1,True,False
+BCRT2,West Central Texas Lakes at Brady Creek Reservoir,1,LKCT2,True,False
+COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
+CRGV2,Craig Creek at Parr,1,CCIV2,True,False
+DFNO1,Maumee River near Defiance (Independence Dam),1,DEFO1,True,False
+EDGS2,Cheyenne River at Edgemont,1,AACS2,True,False
+ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
+EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
+FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
+JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
+LFIS2,Missouri River at La Framboise Island,1,PIRS2,True,False
+LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
+LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
+NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
+SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
