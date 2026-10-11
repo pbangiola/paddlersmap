@@ -148,6 +148,12 @@ def main():
                 if lid(f.get("properties", {}))}
     graph = read(EDGES, {"type": "FeatureCollection", "features": []})
     state = read(STATE, {})
+    # Earlier crawler versions could mark stations visited while discarding the
+    # NOAA ordered riverflow lists. Recheck once with the proven ordered parser.
+    if not state.get("ordered_riverflow_v1"):
+        state["visited"] = []
+        state["pending"] = []
+        state["ordered_riverflow_v1"] = True
     visited = {str(x).upper() for x in state.get("visited", [])}
     # Process single-partner loose ends first, then every unchecked national gauge.
     # Keep previously queued stations first so interrupted runs resume reliably.
@@ -159,7 +165,7 @@ def main():
             partner_counts.setdefault(a, set()).add(b)
             partner_counts.setdefault(b, set()).add(a)
     single = sorted(k for k, v in partner_counts.items() if len(v) == 1 and k not in visited)
-    national = sorted(set(existing) | set(partner_counts) - visited)
+    national = sorted((set(existing) | set(partner_counts)) - visited)
     seed = list(state.get("pending", [])) + single + national
     pending = deque(dict.fromkeys(str(x).upper() for x in seed if x and str(x).upper() not in visited))
     seen = set(pending) | visited
@@ -190,18 +196,26 @@ def main():
         record = feature(metadata, existing.get(current))
         if record:
             existing[current] = record
-        for other, direction in neighbors(relationship):
-            if other == current:
-                continue
-            a, b = (other, current) if direction == "upstream" else (current, other)
-            links.add((a, b))
-            if other not in seen:
+        flow = relationship if isinstance(relationship, dict) else {}
+        up = [lid(v) for v in flow.get("upstream", []) if lid(v)]
+        down = [lid(v) for v in flow.get("downstream", []) if lid(v)]
+        for chain in (up + [current], [current] + down):
+            chain = list(dict.fromkeys(chain))
+            for a, b in zip(chain, chain[1:]):
+                if a != b:
+                    links.add((a, b))
+        for other in list(reversed(up)) + down:
+            if other != current and other not in seen:
                 pending.append(other)
                 seen.add(other)
+        if not isinstance(metadata, dict) or not isinstance(relationship, dict):
+            print("No complete station response; retaining for retry:", current, flush=True)
+            pending.append(current)
+            continue
         visited.add(current)
         processed += 1
         # Persist after each station; workflow publishes after a bounded batch.
-        save(STATE, {"pending": list(pending), "visited": sorted(visited), "lid_parser_v2": True})
+        save(STATE, {"pending": list(pending), "visited": sorted(visited), "lid_parser_v2": True, "ordered_riverflow_v1": True})
         save(GAUGES, {"type": "FeatureCollection", "features": list(existing.values())})
         old_edges = {(f.get("properties", {}).get("upstream"), f.get("properties", {}).get("downstream")): f
                      for f in graph.get("features", [])}
