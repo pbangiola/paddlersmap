@@ -1,7 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BRFI1,South Fork Boise River at Pine (near Featherville),1,ANDI1,True,False
 BRHO3,Burnt River at Huntington,1,BBPO3,True,False
-BRKS2,Big Sioux River near Brookings,1,BSFS2,True,False
 BRNK1,Salt Creek (KS) at Barnard,1,ADAK1,True,False
 BROW3,Sugar River at Brodhead,1,ALBW3,True,False
 BRRO1,Rocky River at Berea,1,BAKO1,True,False
@@ -116,6 +114,7 @@ FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
 FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
 FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
+FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
 FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
@@ -148,7 +147,6 @@ GRVU1,Green River (WY-UT-CO) at GREEN RIVER,1,ACJU1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
-HAIV2,Russell Fork River at Haysi,1,BIGV2,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
@@ -157,6 +155,7 @@ HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HLST1,South Fork Forked Deer River near Halls,1,BLST1,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
+HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
@@ -208,6 +207,7 @@ LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
 LGRM7,Mississippi River at LaGrange,1,UINI2,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
+LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
@@ -281,8 +281,10 @@ MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
+NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
+NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NGTC2,North Platte River near Northgate,1,SRAW4,True,False
@@ -334,6 +336,7 @@ PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGFM6,Pascagoula River at Graham Ferry,1,BKNM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,1,PCST2,True,False
+PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
@@ -349,6 +352,7 @@ PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,T
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
+PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
@@ -369,6 +373,7 @@ RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
 RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
 REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
+REGN8,Cannonball River at Regent,1,BREN8,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
