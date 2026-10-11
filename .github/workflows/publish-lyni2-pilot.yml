@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/publish-lyni2-pilot.yml'
+      - 'scripts/publish_lyni2_pilot.py'
 permissions:
   contents: write
 jobs:
