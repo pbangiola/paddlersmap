@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BPNW4,New Fork River near Big Piney,1,BKBW4,True,False
-BPRO1,Big Creek near Brooklyn (Brookpark Road),1,BIKO1,True,False
-BPST2,South Wichita River at Guthrie 6E,1,BENT2,True,False
 BRAI4,East Nishnabotna River near Brayton 345th St--IFC,1,ATCI4,True,False
 BRAW2,Guyandotte River at Branchland,1,LOGW2,True,False
 BRFI1,South Fork Boise River at Pine (near Featherville),1,ANDI1,True,False
@@ -18,12 +15,14 @@ BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
 BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
 BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
+BSZF1,Bear Creek at SR 52 Near Bayonet Point,1,BPBF1,True,False
 BTBC2,Big Thompson River (CO) below Lake Estes,1,BIMC2,True,False
 BTMK1,Cimarron River (KS) near Buttermilk 10WSW,1,BFFO2,True,False
 BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
 BUEC2,Blue River (CO) at Blue River,1,BLRC2,True,False
 BUNL1,Bundick Creek near DeRidder,1,BKDL1,True,False
 BUSP1,Central PA Dams  Bush Dam on Kettle Creek,1,COWP1,True,False
+BUXC1,Butano Creek - Cloverdale Road,1,BPXC1,True,False
 BWLV2,Mattaponi River at Bowling Green,1,BLHV2,True,False
 BWMA1,Murder Creek (AL) at Brewton,1,BCNA1,True,False
 BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
@@ -171,6 +170,7 @@ INOO2,Verdigris River near Inola,1,CLRO2,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
+JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
 JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
 JCCF1,Jumper Creek Canal ,1,BNLF1,True,False
@@ -215,7 +215,6 @@ LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
-LNTI4,Iowa River near Lone Tree (Tri-County Bridge),1,IOWI4,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
@@ -313,6 +312,7 @@ OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
+OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 OLVL1,Comite River near Olive Branch,1,COML1,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
@@ -357,6 +357,7 @@ PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
+RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
 RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
 RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
@@ -376,6 +377,7 @@ ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
 ROSN7,French Broad River at Rosman,1,BLAN7,True,False
+ROWI4,Iowa River near Rowan,1,IFAI4,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
@@ -467,9 +469,9 @@ VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
+WALN2,Walker River near Wabuska,1,WBMN2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
-WBMN2,Walker River below Mason WMA at RR Xing,1,WRYN2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
@@ -500,6 +502,7 @@ WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
 WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
 WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
+WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
