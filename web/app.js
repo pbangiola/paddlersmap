@@ -4,12 +4,19 @@ const USA_BOUNDS=[[-125,24],[-66,50]];
 const ILLINOIS_BOUNDS=[[-91.55,36.95],[-87.0,42.55]];
 window.addEventListener('DOMContentLoaded',()=>{document.getElementById('view-usa')?.addEventListener('click',()=>map.fitBounds(USA_BOUNDS,{padding:30}));document.getElementById('view-illinois')?.addEventListener('click',()=>map.fitBounds(ILLINOIS_BOUNDS,{padding:30,maxZoom:8}));document.getElementById('view-region')?.addEventListener('click',()=>map.fitBounds([[-88.7,40.9],[-85.4,43.2]],{padding:30}));});
 document.getElementById('print').onclick=()=>window.print();
-const REPO='pbangiola/southern-lake-michigan-flow';
+const REPO='pbangiola/paddlersmap';
+const LIVE_DATA='https://raw.githubusercontent.com/pbangiola/paddlersmap/data-live/data/';
+async function fetchLiveData(filename){
+ const url=LIVE_DATA+filename+'?v='+Date.now();
+ try{const response=await fetch(url,{cache:'no-store'});if(response.ok)return response;}
+ catch(error){console.warn('Live data unavailable, trying bundled snapshot:',error);}
+ return fetch('data/'+filename,{cache:'no-store'});
+}
 const reportTypes=['Too shallow','Too high / strong current','Navigable'];
 const status=document.getElementById('status');
 const gaugeToggle=document.getElementById('show-gauges');
 // Circle diameter is 25 meters on the ground; suppress subpixel symbols at broad zoom.
-const gaugeRadiusPixels=['*',12.5, ['/', ['^',2,['zoom']], 156543.03392], ['/',1,['cos',['*',['get','latitude'],Math.PI/180]]]];
+const gaugeRadiusPixels=['*',['interpolate',['exponential',2],['zoom'],0,12.5/156543.03392,12,12.5/38.2185,16,12.5/2.38866],['/',1,['max',0.1,['cos',['*',['get','latitude'],Math.PI/180]]]]];
 const gaugeVisibleZoom=12;
 function applyGaugeScale(){
  const show=gaugeToggle.checked&&map.getZoom()>=gaugeVisibleZoom;
@@ -232,7 +239,7 @@ map.on('load',async()=>{
 // Nationwide NOAA NWPS gauges, independent of regional USGS gauge loading.
 map.on('load',async()=>{
  try{
-  const response=await fetch('data/noaa_gauges.geojson',{cache:'no-store'});
+  const response=await fetchLiveData('noaa_gauges.geojson');
   if(!response.ok)throw new Error('NOAA gauges HTTP '+response.status);
   const data=await response.json();
   if(data.type!=='FeatureCollection'||!Array.isArray(data.features))throw new Error('Invalid NOAA gauge GeoJSON');
@@ -690,4 +697,18 @@ map.on('load',async()=>{
   });
   console.info('NOAA name-graph edges loaded:',lines.length);
  }catch(error){console.warn('NOAA name graph unavailable:',error);}
+});
+
+// Directed NOAA riverflow graph, loaded independently from the latest data branch.
+map.on('load',async()=>{
+ try{
+  const response=await fetchLiveData('noaa_graph_edges.geojson');
+  if(!response.ok)return;
+  const graph=await response.json();
+  if(graph.type!=='FeatureCollection'||!Array.isArray(graph.features))return;
+  map.addSource('noaa-riverflow-edges',{type:'geojson',data:graph});
+  map.addLayer({id:'noaa-riverflow-edges',type:'line',source:'noaa-riverflow-edges',
+   paint:{'line-color':'#237cbb','line-width':['interpolate',['linear'],['zoom'],5,0.5,12,2],'line-opacity':0.75}});
+  console.info('NOAA directed graph loaded:',graph.features.length,'edges');
+ }catch(error){console.warn('NOAA graph unavailable:',error);}
 });
