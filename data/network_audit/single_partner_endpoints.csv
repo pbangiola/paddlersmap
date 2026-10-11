@@ -1,19 +1,43 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
+AGCW1,Asotin Creek above George Creek,1,ACAW1,True,False
 APCF1,Tide Station at Apalachicola (in MHHW),1,ABCF1,True,False
 ATKG1,Satilla River at Atkinson,1,ABAG1,True,False
+AURO3,Pudding River at Aurora,1,PUWO3,True,False
 AXPC1,Altamont Creek - Pasatiempo Street,1,ABDC1,True,False
 AYMC1,Arroyo Mocho - Pleasanton,1,AECC1,True,False
+BCCT2,Barton Creek above Barton Springs,1,ABTT2,True,False
 BCRT2,West Central Texas Lakes at Brady Creek Reservoir,1,LKCT2,True,False
+BGSO2,Deep Fork River near Beggs,1,SDFO2,True,False
+BKPM1,Bucksport Tidal Gage (MLLW),1,BPRM1,True,False
+BRKI3,Whitewater River at Brookville,1,BOOI3,True,False
+CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 DFNO1,Maumee River near Defiance (Independence Dam),1,DEFO1,True,False
+DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
+DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 EDGS2,Cheyenne River at Edgemont,1,AACS2,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
+EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
+EMSP1,Ohio River at Emsworth Lock and Dam,1,EMXP1,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
+FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
+FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
+KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 LFIS2,Missouri River at La Framboise Island,1,PIRS2,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
+MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
+MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
+MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
+MSLN5,Rio Grande near Mesilla,1,LBDN5,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
+OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
+OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
+PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
+PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
+RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
+ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
