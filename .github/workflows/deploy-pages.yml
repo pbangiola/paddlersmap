@@ -1,4 +1,4 @@
-name: Deploy Paddlers Map (application changes only)
+name: ACTIVE - Deploy website (on app changes or manual)
 on:
   push:
     branches: [main]
