@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LSDO2,East Elm Creek at Lake Stanley Draper,0,,True,False
-LSDW1,Little Spokane River at Dartford,0,,True,False
-LSDW4,Little Snake River near Dixon,2,LSBW4;LSSW4,True,False
-LSEC1,Laguna de Santa Rosa near Sebastopol,1,CTIC1,True,False
-LSET2,Brazos River near Lubbock 4ESE,0,,True,False
-LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
-LSGM7,Little Sugar Creek near Pineville,0,,True,False
-LSGW4,Little Snake River below Gibson Blair Ditch nr Baggs,0,,True,False
-LSHA2,Little Susitna River at Parks Hwy Bridge near Houston,0,,True,False
-LSHN7,"Little Sugar Creek above Hillside Ave, in Myers Park",2,LSAN7;LSMN7,True,False
-LSKC1,Lower Silver Creek at San Antonio St,0,,True,False
-LSLC2,Big Thompson River (CO) near La Salle,0,,True,False
-LSLI2,Illinois River near La Salle,3,HNYI2;LNRI2;SRDI2,True,False
-LSLM5,Watonwan River near La Salle 3ESE,0,,True,False
-LSLN6,Tioughnioga River at Lisle,2,CRTN6;ISKN6,True,False
-LSLS2,Little Spearfish Creek near Lead,0,,True,False
-LSMG1,Little Stone Mountain Creek at Old Stone Mountain Road near Stone Mountain,0,,True,False
-LSMN6,Little Schoharie Creek near Middleburgh,0,,True,False
-LSMN7,"Little Sugar Creek above Medical Center Dr, 1 SSW Cherry",2,LSHN7;LSTN7,True,False
-LSMO3,Little N. Santiam River near Mehama,2,LNEO3;MEHO3,True,False
-LSNO3,Little Sandy River near Bull Run,0,,True,False
-LSNT2,Navidad River at Strane Park,0,,True,False
-LSOA2,[INACTIVE] Little Susitna River at Hatcher Pass Rd Bridge,0,,True,False
-LSON1,North Platte River at Lisco,3,BGPN1;BPTN1;LEWN1,True,False
-LSPT2,Las Moras Creek at Brackettville,0,,True,False
 LSPV2,Potomac River at Leesylvania State Park,0,,True,False
 LSRC1,Santa Rosa Creek (CA) at Cambria,0,,True,False
 LSRC2,Little Snake River near Slater,1,LSSW4,True,False
@@ -33,7 +8,7 @@ LSSI4,Little Sioux River above Spencer,2,MIFI4;SPII4,True,False
 LSSW4,Little Snake River near Savery,2,LSDW4;LSRC2,True,False
 LSTN7,"Little Sugar Creek below E 36th St, in North Davidson (NoDa)",1,LSMN7,True,False
 LSTO3,Lostine River above Lostine,0,,True,False
-LSUA2,Little Susitna River near Palmer,0,,True,False
+LSUA2,Little Susitna River near Palmer,2,LSHA2;LSOA2,True,False
 LSWT2,West Central Texas Lakes at Lake Sweetwater,2,ABIT2;EVST2,True,False
 LSXC1,Llagas Creek at Lake Silveira,2,BSVC1;XLSC1,True,False
 LSYW4,Little Snake River above Savery Creek nr Savery,0,,True,False
@@ -63,7 +38,7 @@ LTRT2,Pecos River near Langtry,0,,True,False
 LTSC1,Lagunitas Creek at Samuel P. Taylor State Park,0,,True,False
 LTTV2,Little River near DOSWELL,0,,True,False
 LTWT1,Big South Fork Cumberland River near Oneida at Leatherwood Ford,2,CFKT1;STRK2,True,False
-LTXT2,Navidad River at Lake Texana,3,CODT2;GNDT2;LMCT2,True,False
+LTXT2,Navidad River at Lake Texana,4,CODT2;GNDT2;LMCT2;LSNT2,True,False
 LUCI1,Boise River above Lucky Peak Dam,3,ANDI1;BDDI1;BTSI1,True,False
 LUCN7,Contentnea Creek near Lucama,1,HOKN7,True,False
 LUDN6,Salmon Creek near Ludlowville,0,,True,False
@@ -863,7 +838,7 @@ MRAF1,St Marks River at San Marcos State Park (in MHHW),0,,True,False
 MRAL1,Mississippi River at Alliance Refinery,2,MBCL1;WPHL1,True,False
 MRAP1,Tenmile Creek at Mariana,1,JFRP1,True,False
 MRAQ1,Milk River above Milk River AB,0,,True,False
-MRAT2,Navidad River near Morales,0,,True,False
+MRAT2,Navidad River near Morales,2,LSNT2;SPAT2,True,False
 MRAW1,Mad River at Ardenvoir,0,,True,False
 MRBA1,Mobile River at MOBILE RIVER AT BUCKS,0,,True,False
 MRBI1,Malad River near Bliss,0,,True,False
@@ -3346,7 +3321,7 @@ RWGC2,Rio Grande at Wagon Wheel Gap,0,,True,False
 RWHV2,Rapidan River at Wolftown-Hood Road,0,,True,False
 RWLG1,Chattahoochee River above Roswell,2,MGFG1;NCRG1,True,False
 RWRN5,Rio Hondo at Rocky Arroyo Reservoir,0,,True,False
-RWRS2,Redwater River (SD) above Belle Fourche,0,,True,False
+RWRS2,Redwater River (SD) above Belle Fourche,2,FRUS2;SPRS2,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RWYN4,Rahway River at Rahway,0,,True,False
 RWYN6,Jamaica Bay at Rockaway Inlet (IN MLLW),0,,True,False
@@ -3479,7 +3454,7 @@ SBLM6,Steele Bayou above at Low Water Bridge,0,,True,False
 SBMC2,St Charles River at Burnt Mill,0,,True,False
 SBMF1,Mickler at 16th Street Culvert in St Augustine Beach (in NAVD88),0,,True,False
 SBMI3,School Branch (IN) near Brownsburg,0,,True,False
-SBMT2,Navidad River at Sublime,0,,True,False
+SBMT2,Navidad River at Sublime,1,SPAT2,True,False
 SBNF1,Suwannee River near Benton (in NAVD88),2,FGOG1;WSPF1,True,False
 SBNG1,Brunswick River at Brunswick,0,,True,False
 SBNI3,St. Joseph River (MI/IN) at South Bend,2,EKMI3;NILM4,True,False
@@ -3731,7 +3706,7 @@ SFHC1,San Gabriel River below Santa Fe Dam,0,,True,False
 SFHG1,Snapfinger Creek at Thompson Mill Road near Lithonia,0,,True,False
 SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
 SFHO1,South Fork Licking River (OH) near Heath,2,BEEO1;NEAO1,True,False
-SFHS2,Spearfish Creek at Spearfish,0,,True,False
+SFHS2,Spearfish Creek at Spearfish,2,LSLS2;SPRS2,True,False
 SFIT2,Independence Creek 18 miles SSE of Sheffield,0,,True,False
 SFJO3,S. Fork John Day River near Dayville,0,,True,False
 SFKA2,South Fork Koyukuk River at the Dalton Highway near Coldfoot,0,,True,False
@@ -4184,7 +4159,7 @@ SPAM5,Mississippi River at St. Paul Ford Plant,0,,True,False
 SPAN7,Little River near Sparta,1,LBXN7,True,False
 SPAO2,Eastern Oklahoma Lakes at Spavinaw Dam,0,,True,False
 SPAQ8,Lodge Creek at Spangler Ditch,0,,True,False
-SPAT2,Navidad River near Speaks,0,,True,False
+SPAT2,Navidad River near Speaks,2,MRAT2;SBMT2,True,False
 SPAW3,La Crosse River at Sparta,5,ANOW3;BVCW3;FMCW3;LCRW3;LFMW3,True,False
 SPBN6,Salmon River at South Plattsburgh,0,,True,False
 SPBN7,Contentnea Creek at Speights Bridge,0,,True,False
@@ -4244,7 +4219,7 @@ SPQC1,Tule River near Springville,0,,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPRC1,Salinas River near Spreckels,2,CHLC1;SLGC1,True,False
 SPRO3,Mohawk River (OR) near Springfield,0,,True,False
-SPRS2,Spearfish Creek below Spearfish,0,,True,False
+SPRS2,Spearfish Creek below Spearfish,2,RWRS2;SFHS2,True,False
 SPRT2,Palo Duro Creek at Palo Duro Reservoir,0,,True,False
 SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPRW3,Eau Galle River above Spring Valley,0,,True,False
