@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KBLW2,Bullskin Run below Kabletown,0,,True,False
-KBMG1,Atlantic Coast at Kings Bay Pier (in MHHW),0,,True,False
-KBNM7,Little Blue River (MO) at Knobtown,0,,True,False
-KBPF1,Tide Gage at Kings Bay Park (In MHHW),0,,True,False
-KBPM7,at Blue Parkway,0,,True,False
-KBPS1,Kinley Creek B,0,,True,False
-KBRM7,Blue River at Blue Ridge Blvd Ext,2,KCCM7;STAK1,True,False
-KBYT2,West Central Texas Lakes above Kirby Lake,0,,True,False
-KCAI2,Kaskaskia River at Carlyle,2,CRLI2;NASI2,True,False
-KCAI3,Killbuck Creek (IN) near Anderson,0,,True,False
-KCBC1,Salinas River at King City Pedestrian Bridge,3,KCYC1;SDDC1;UCAC1,True,False
-KCCG1,Kinchafoonee Creek at Century Road Bridge,2,ABNG1;DSNG1,True,False
-KCCM7,Blue River at Bannister Road,2,KBRM7;KNYM7,True,False
-KCCN2,Kingston Creek (NV) near Austin,0,,True,False
-KCDM7,Missouri River at Kansas City,2,NAPM7;PKVM7,True,False
-KCGC1,San Lorenzo Creek (Monterey) at King City Golf Course,0,,True,False
-KCHA2,[INACTIVE] Kachemak Bay at Homer South,0,,True,False
-KCKI3,Kokomo Creek near Kokomo,0,,True,False
-KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
-KCKV2,Kerrs Creek near Lexington,0,,True,False
-KCLW4,Kirby Creek below Blue Springs Draw,0,,True,False
-KCMO3,Kellogg Creek near Milwaukie,0,,True,False
-KCPO3,Kelley Creek at 159th Ave near Portland,0,,True,False
-KCRC1,Crow Creek near Hayward,0,,True,False
-KCRO2,Canadian River near Konawa,2,CLVO2;PRCO2,True,False
 KCRW4,"Rock Creek above King Canyon Canal, near Arlington",0,,True,False
 KCSA2,Kwechak Creek at Bruno Road near Seward,0,,True,False
 KCSC1,Kern River at CANAL - BELOW S ALLEN ROAD,0,,True,False
@@ -209,7 +184,7 @@ KRZP1,Kreutz Creek at Strickler,0,,True,False
 KSBH1,Kauaula Stream at Kauaula Stream Below Diversion,0,,True,False
 KSBN4,Raritan Bay at Keansburg (IN MLLW),0,,True,False
 KSCM6,Yockanookany River near Kosciusko,0,,True,False
-KSDM7,Blue River at Stadium Drive,2,BVCM7;KSVM7,True,False
+KSDM7,Blue River at Stadium Drive,3,BVCM7;KBPM7;KSVM7,True,False
 KSFA2,Kasilof River near Kasilof,0,,True,False
 KSFH1,South Fork Kaukonahua Stream near Wahiawa,0,,True,False
 KSKA2,[INACTIVE] Kaskanak Creek near Igiugig,0,,True,False
@@ -593,7 +568,7 @@ LKBM5,South Branch Two Rivers River at Lake Bronson,2,HLLM5;LBRM5,True,False
 LKBM7,Osage River near Bagnell,2,LKSM7;TSCM7,True,False
 LKCI4,North Raccoon River near Lanesboro,3,BHLI4;EFWI4;SCRI4,True,False
 LKCM5,Mississippi River at Lake City,2,REDM5;WABM5,True,False
-LKCM7,Little Blue River (MO) near Lake City,0,,True,False
+LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
 LKCT2,West Central Texas Lakes at Lake Coleman,2,BCRT2;HORT2,True,False
 LKDM2,Unnamed Tributary below Northampton Lake Dam in Lake Arbor,0,,True,False
 LKDV2,Great Dismal Swamp Canal near Feeder Ditch East of Lake Drummond,0,,True,False
@@ -834,7 +809,7 @@ LRHQ3,Long River (MB) at Holmfield MB,0,,True,False
 LRIT2,Little River near Little River,2,BLET2;RLRT2,True,False
 LRKC1,Los Gatos Creek at Lark Avenue,2,LGTC1;VQIC1,True,False
 LRLL1,Bayou Lacombe below Lacombe,0,,True,False
-LRLM7,Little Blue River (MO) at Lees Summit Road - Independence,0,,True,False
+LRLM7,Little Blue River (MO) at Lees Summit Road - Independence,2,KBNM7;LKCM7,True,False
 LRLS1,Little River at Gordon Street in Laurens,0,,True,False
 LRLV2,Battle Run near Laurel Mills,0,,True,False
 LRNC1,Guadalupe River at Lake Ranch North,0,,True,False
@@ -862,7 +837,7 @@ LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LRYC1,Los Gatos Creek above Ryland Dam,2,DSEC1;LGLC1,True,False
 LRYK1,Neosho River at Le Roy,2,BRLK1;IOLK1,True,False
 LRYN7,Long Creek at Rhyne NC,0,,True,False
-LRZC1,San Lorenzo Creek (Alameda) above Hayward,2,CULC1;SLCC1,True,False
+LRZC1,San Lorenzo Creek (Alameda) above Hayward,3,CULC1;KCRC1;SLCC1,True,False
 LRZN7,Little River (NC) near Zebulon,0,,True,False
 LSAN7,Little Sugar Creek (NC) at Archdale Drive,0,,True,False
 LSBC1,Yolo Bypass at Lisbon,0,,True,False
@@ -5506,7 +5481,7 @@ SXVM8,Bighorn River at ST. Xavier Bridge,2,STXM8;TLBM8,True,False
 SXZF1,Sixmile Creek Near Bartow,0,,True,False
 SYCA3,Sycamore Creek near Ft McDowell,0,,True,False
 SYCF1,Sandy Creek at Sandy Creek Boat Ramp (in NAVD88),0,,True,False
-SYCO3,Johnson Creek near Sycamore,2,GREO3;MIWO3,True,False
+SYCO3,Johnson Creek near Sycamore,3,GREO3;KCPO3;MIWO3,True,False
 SYCT2,Sycamore Creek near Del Rio 12SE,0,,True,False
 SYDO2,Otter Creek (OK) near Snyder,0,,True,False
 SYDP1,Central PA Dams  Sayers Dam on Bald Eagle Creek,4,BCHP1;MSBP1;RTDP1;STVP1,True,False
@@ -6244,7 +6219,7 @@ VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 VNCL1,Mississippi River at Venice,1,MWBL1,True,False
 VNCN4,South Branch Rancocas Creek at Vincentown,0,,True,False
 VNCN7,Neuse River at Spring Garden,0,,True,False
-VNDI2,Kaskaskia River at Vandalia,3,CAYI2;CRLI2;CWDI2,True,False
+VNDI2,Kaskaskia River at Vandalia,4,CAYI2;CRLI2;CWDI2;KCAI2,True,False
 VNHM3,Vineyard Sound at Vineyard Haven,0,,True,False
 VNKS2,Vanocker Creek near Sturgis,0,,True,False
 VNLA3,Virgin River at Narrows,0,,True,False

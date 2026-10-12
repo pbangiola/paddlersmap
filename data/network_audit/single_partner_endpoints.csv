@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
 KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,True,False
 KEEW1,Yakima River at Keechelus Outflow,1,KACW1,True,False
@@ -51,6 +50,7 @@ LHUO2,Wildhorse Creek at Lake Humphreys,1,HVRO2,True,False
 LIES2,Grand River (SD) near Little Eagle,1,SHAS2,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LITW2,Tug Fork River at Litwar,1,BRSW2,True,False
+LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LKST2,Leon Creek at I-35S near San Antonio,1,LECT2,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
