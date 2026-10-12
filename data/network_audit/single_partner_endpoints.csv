@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BTTN6,Battenkill below Mill at Battenville,1,ARLV1,True,False
 BUNL1,Bundick Creek near DeRidder,1,BKDL1,True,False
 BUSP1,Central PA Dams  Bush Dam on Kettle Creek,1,COWP1,True,False
 BUXC1,Butano Creek - Cloverdale Road,1,BPXC1,True,False
@@ -21,6 +20,7 @@ CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 CHEN7,Little Tennessee River at Cheoah Dam,1,FONN7,True,False
 CHIN7,N.E. Cape Fear River near Chinquapin,1,BGWN7,True,False
 CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
+CHSO3,Sprague River near Chiloquin,1,BTYO3,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
 CLDG1,Ochlockonee River near Coolidge,1,TMLG1,True,False
@@ -141,6 +141,7 @@ HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
+HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
@@ -157,6 +158,7 @@ HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
 HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
+HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
 ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
 INOO2,Verdigris River near Inola,1,CLRO2,True,False
@@ -375,6 +377,7 @@ PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
+RAPM5,Blue Earth River near Rapidan,1,BUEM5,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
 RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
@@ -410,6 +413,7 @@ RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SACT2,Salado Creek at Loop 13,1,SSCT2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
+SANK1,Pawnee River near Sanford,1,ROZK1,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
 SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
@@ -464,6 +468,7 @@ TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
+TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
@@ -505,6 +510,7 @@ WETN4,Millstone River at Weston,1,BKWN4,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
+WHTG1,Chattahoochee River near Whitesburg,1,FBNG1,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
@@ -534,3 +540,4 @@ YNNS2,James River near Yankton,1,SCOS2,True,False
 YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZAYL1,Comite River near Zachary,1,BAKL1,True,False
+ZLPP1,Connoquenessing Creek at Zelienople,1,BTRP1,True,False
