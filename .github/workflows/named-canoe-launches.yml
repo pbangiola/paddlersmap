@@ -1,5 +1,10 @@
 name: Replace launches with OSM named canoe launches
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/named-canoe-launches.yml'
+      - 'scripts/fetch_named_canoe_launches.py'
   workflow_dispatch:
 permissions:
   contents: write
