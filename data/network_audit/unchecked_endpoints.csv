@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HARO3,Willamette River at Harrisburg,3,CORO3;EUGO3;MRGO3,True,False
-HARP1,Susquehanna River at Harrisburg,2,MRTP1;SBYP1,True,False
-HARV2,South River at Harriston,2,DOOV2;LYWV2,True,False
-HASH1,Hakalau Stream,0,,True,False
-HASM8,Missouri River below Hauser Dam near Helena,2,CYNM8;HTRM8,True,False
-HATM6,Leaf River at Hattiesburg,2,CLSM6;NAGM6,True,False
-HATS2,Hat Creek near Edgemont,0,,True,False
-HATU1,Sevier River near Hatch,0,,True,False
-HATW3,Black River (WI) near Hatfield,2,BRFW3;HABW3,True,False
-HAVC1,Hale Creek near Magdalena Avenue,0,,True,False
-HAVI2,Illinois River near Havana,2,BEAI2;PRAI2,True,False
-HAVI4,Richland Creek near Haven,0,,True,False
-HAVK1,Arkansas River near Haven,2,DRBK1;HCHK1,True,False
-HAVM8,Milk River at Fresno Reservoir near Havre,2,ERNM8;HVRM8,True,False
-HAWG1,Ocmulgee River at US 341 at Hawkinsville,2,ABBG1;MACG1,True,False
-HAWM5,Hawk Creek (MN) near Granite Falls 6SE,0,,True,False
-HAWN7,Haw River at Haw River,2,BYNN7;HWBN7,True,False
-HAWS2,Rapid Creek below Hawthorne Ditch at Rapid City,2,RCVS2;RCYS2,True,False
-HAWT2,West Central Texas Lakes at Lake Fort Phantom Hill,2,ABIT2;LSFT2,True,False
-HAYV2,Pound River below John Flannagan Lake,0,,True,False
-HAZI3,White River (IN) at Hazleton,2,HZNI3;PTRI3,True,False
-HAZK2,North Fork Kentucky River at Hazard,2,CFLK2;JKNK2,True,False
-HAZW4,North Fork Powder River near Hazelton,0,,True,False
-HBBM7,Hubble Creek above Dutchtown,0,,True,False
-HBCF1,Tide Gauge at Hancock Bridge (in MHHW),0,,True,False
 HBCM5,Bridge Creek near Houston,0,,True,False
 HBCM6,Bouie Creek at Hattiesburg-Glendale Avenue,0,,True,False
 HBCN1,Buffalo Creek near Haigler,0,,True,False
@@ -2657,7 +2632,7 @@ MRCM8,Marias River near Chester,0,,True,False
 MRCP1,Delaware River at Marcus Hook (IN MLLW),0,,True,False
 MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
 MRDM2,Monocacy River near Dickerson,0,,True,False
-MRDM5,Hawk Creek (MN) near Maynard,0,,True,False
+MRDM5,Hawk Creek (MN) near Maynard,1,HAWM5,True,False
 MRDM6,Okatibbee Creek at Okatibbee Reservoir,0,,True,False
 MRDM8,Big Hole River at Maiden Rock near Divide,2,MLRM8;WSVM8,True,False
 MRDN8,Maple River (ND) above Sheldon,2,ENDN8;MPLN8,True,False
@@ -5466,7 +5441,7 @@ SEIC1,Klamath River near Seiad Valley,2,IRGC1;ONSC1,True,False
 SEIM1,Atlantic Coast at Seavey Island (IN MLLW),0,,True,False
 SEIO2,North Canadian River near Seiling,2,CNLO2;WDGO2,True,False
 SEKC1,San Luisito Creek,0,,True,False
-SEKU1,Sevier River near Kingston,0,,True,False
+SEKU1,Sevier River near Kingston,2,HATU1;SRKU1,True,False
 SELA1,Alabama River at Selma,2,MRFA1;TYLA1,True,False
 SELC2,South Platte River near Lake George,2,CHSC2;HARC2,True,False
 SELF1,Lake Seminole Outlet Near Largo,0,,True,False
@@ -5563,7 +5538,7 @@ SGCF1,Tide Gauge at Crystal River (in MHHW),0,,True,False
 SGCM5,Shingle Creek at Queen Ave N,0,,True,False
 SGCM8,Sweet Grass Creek at Tronrud Bridge near Melville,0,,True,False
 SGCO3,Salmon River near Government Camp,0,,True,False
-SGDU1,Sevier River near Sigurd,0,,True,False
+SGDU1,Sevier River near Sigurd,1,SRKU1,True,False
 SGET2,Clear Creek near Sanger,0,,True,False
 SGFM7,James River (MO) near Springfield,2,JAMM7;PEAM7,True,False
 SGFO1,Mad River near Springfield,3,CJBO1;EAGO1;MRDO1,True,False
@@ -6097,7 +6072,7 @@ SRHF1,Suwannee River at Interstate 10 Bridge (in NAVD88),0,,True,False
 SRHM5,Shell River near Huntersville (CSAH24),0,,True,False
 SRIS1,Saluda River at I-20 near Columbia,0,,True,False
 SRKK2,Rock Lick Creek near Sharkey,0,,True,False
-SRKU1,Sevier River near East Fork nr Kingston,0,,True,False
+SRKU1,Sevier River near East Fork nr Kingston,2,SEKU1;SGDU1,True,False
 SRKW1,Skagit River at Rockport,0,,True,False
 SRLI4,Storm Lake at Storm Lake,0,,True,False
 SRLM8,Stillwater River at Lawrence Park at Kalispell,0,,True,False
@@ -7524,7 +7499,7 @@ WHSH1,Waiahole Stream above Kamehameha Hwy,0,,True,False
 WHSI3,White River (IN) at 16th Street in Indianapolis,2,IMAI3;IUPI3,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WHTG1,Chattahoochee River near Whitesburg,2,FBNG1;FRNG1,True,False
-WHTK2,North Fork Kentucky River at Whitesburg,0,,True,False
+WHTK2,North Fork Kentucky River at Whitesburg,1,HAZK2,True,False
 WHTL1,Bayou Cocodrie near Whiteville,0,,True,False
 WHTM4,White River above Whitehall,0,,True,False
 WHTN4,South Branch Rockaway River at Whitehouse Station,0,,True,False
