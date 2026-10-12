@@ -24,6 +24,7 @@ def main():
  p.add_argument("--snap-m",type=float,default=1000)
  p.add_argument("--port",type=int,default=8000)
  p.add_argument("--source",choices=("osm","google"),default="osm",help="Discovery provider")
+ p.add_argument("--step",type=float,default=0.2,help="Discovery grid spacing in degrees; use 0.5 for a cheaper national first pass")
  p.add_argument("--max-requests",type=int,default=100,help="Maximum Google Places API searches this invocation (billing applies); raise for unattended completion")
  a=p.parse_args();OUT.mkdir(parents=True,exist_ok=True)
  if a.task=="serve":
@@ -40,5 +41,5 @@ def main():
  else:
   if not a.bbox:p.error("discovery requires --bbox WEST SOUTH EAST NORTH")
   kind="launches" if a.task=="discover-launches" else "lakes"
-  run("discover_google_places.py" if a.source=="google" else "discover_osm_features.py","--bbox",*a.bbox,"--kind",kind,"--out",OUT/(kind+"_google_place_ids.geojson" if a.source=="google" else kind+"_candidates.geojson"),*(["--max-requests",a.max_requests] if a.source=="google" else []))
+  run("discover_google_places.py" if a.source=="google" else "discover_osm_features.py","--bbox",*a.bbox,"--kind",kind,"--step",a.step,"--out",OUT/(kind+"_google_place_ids.geojson" if a.source=="google" else kind+"_candidates.geojson"),*(["--max-requests",a.max_requests] if a.source=="google" else []))
 if __name__=="__main__":main()
