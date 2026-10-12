@@ -124,6 +124,7 @@ HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
+HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
@@ -389,6 +390,7 @@ NRWI4,North River near Norwalk,1,CSLI4,True,False
 NRWM3,Neponset River at Norwood,1,CANM3,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
+NSTN3,Connecticut River at North Stratford,1,DLTN3,True,False
 NTFV2,Catawba Creek near Howell Mills,1,CTWV2,True,False
 NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
@@ -414,6 +416,7 @@ OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
+OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
@@ -428,12 +431,14 @@ PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
 PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
+PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
+PEWT2,Peach Creek at Hwy 90 near Waelder,1,DLWT2,True,False
 PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
