@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
-LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
 LLGC1,Llagas Creek near Gilroy,1,BSVC1,True,False
 LLGN7,Pigeon River (NC) above (W Fork) Abv Lake Logan,1,RTRN7,True,False
@@ -114,7 +112,6 @@ MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
 MLKW1,Mill Creek (WA) near Walla Walla,1,FMBW1,True,False
 MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
-MLRT2,Llano River near Mason,1,JNCT2,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LKJV2,Occoquan River below Lake Jackson,0,,True,False
-LKLC1,Los Gatos Creek  Lake Elsman Diversion,0,,True,False
-LKLO1,Little Killbuck Creek near Lodi,0,,True,False
-LKML1,Mississippi River at Lake Providence,2,GEEM6;VCKM6,True,False
-LKMN5,Chicorica Creek at Lake Maloya,0,,True,False
-LKOT1,Lookout Creek at Wauhatchie,0,,True,False
-LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
-LKPC1,Lake Piru,0,,True,False
-LKPM4,Lake Huron at Lake Port,0,,True,False
-LKPT2,Lake Creek at Lake Creek Parkway near Cedar Park 5SE,0,,True,False
-LKRM2,Jones Falls above Lake Roland Dam,0,,True,False
-LKSM7,Osage River at Bagnell Dam,3,LKBM7;TKZM7;WRSM7,True,False
-LKSN7,Catawba River at Lookout Shoals Lake and Dam,2,CWAN7;OXFN7,True,False
-LKST2,Leon Creek at I-35S near San Antonio,2,LCFT2;LECT2,True,False
-LKTG1,Flat Creek below Lake Kedron Dam,0,,True,False
-LKWF1,Atlantic Ocean Tide Gauge at Lake Worth (in MHHW),0,,True,False
-LKWN5,Fourmile Draw 4 miles NNW of Lakewood,0,,True,False
-LKZM5,Zumbro River at Lake Zumbro,3,ALZM5;ONOM5;ZUMM5,True,False
-LLAF1,Lake Lena Run Near Auburndale,0,,True,False
-LLAT2,Llano River at Llano,0,,True,False
-LLBM2,Bear Branch above Lake Laurel,0,,True,False
-LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
-LLCI2,Long Run near Lemont,0,,True,False
-LLCM5,Rainy River above Namakan Lake at Squirrel Island,3,CNLM5;FFCQ6;RNYM5,True,False
-LLCQ6,Namakan River at Outlet of Lac La Croix,0,,True,False
 LLCS1,Lynches River at US 378 near Lake City,2,EFFS1;JSNS1,True,False
 LLDP1,Cheat River below Lake Lynn,2,GYLP1;LLPW2,True,False
 LLDT1,Nolichucky River near Lowland,2,DUGT1;NOLT1,True,False
@@ -254,7 +229,7 @@ LRTC1,Los Angeles River at Tujunga Avenue,2,LAWC1;PVCC1,True,False
 LRTL1,Larto Lake at Larto Lake,0,,True,False
 LRTN1,Beaver Creek at Loretto,0,,True,False
 LRTN7,Little River (NC) at Niagara Carthage Rd,0,,True,False
-LRTT2,Llano River at County Road 102,0,,True,False
+LRTT2,Llano River at County Road 102,2,LLAT2;MLRT2,True,False
 LRUT2,Leona River at CR 429A near Uvalde,0,,True,False
 LRVN7,"Little River at Merrill Ln, 3 S Penrose",0,,True,False
 LRWW1,Lewis River at Woodland,1,MERW1,True,False
@@ -961,7 +936,7 @@ MLPK2,Ohio River at McAlpine Lower,2,MLUK2;RVPK2,True,False
 MLRI3,Fall Creek (IN) at Millersville,2,FCSI3;FCTI3,True,False
 MLRM2," SOUTH FORK JABEZ BRANCH AT MILLERSVILLE, MD ",0,,True,False
 MLRM8,Big Hole River near Melrose,2,GNLM8;MRDM8,True,False
-MLRT2,Llano River near Mason,1,JNCT2,True,False
+MLRT2,Llano River near Mason,2,JNCT2;LRTT2,True,False
 MLRW2,Marlin Run at Marlinton,0,,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM2,Unicorn Branch near Millington,0,,True,False
