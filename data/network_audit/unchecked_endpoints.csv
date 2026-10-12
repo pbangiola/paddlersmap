@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
-CRSM2,Chesapeake Bay above Little Annemessex River at Crisfield MD (MLLW),0,,True,False
-CRSP4,Canal de Riego de Lajas Sabana Grande,0,,True,False
-CRSW2,Kanawha River at South Side Bridge,3,CHLW2;MMTW2;QUSW2,True,False
-CRSW4,Cheyenne River near Spencer,0,,True,False
-CRTC2,Ralston Creek (CO) at Carr St. in Arvada,2,CRPC2;DRBC2,True,False
-CRTM5,Little Cottonwood River near Courtland 2S,0,,True,False
-CRTM7,Mississippi River at Caruthersville,2,OSGA4;TPTM7,True,False
-CRTN1,Big Blue River near Crete,2,BEAN1;SWRN1,True,False
-CRTN6,Tioughnioga River at Cortland,0,,True,False
-CRTT2,Little Elkhart Creek at Houston County Lake,0,,True,False
-CRUA2,Colville River at Umiat,1,CCVA2,True,False
-CRVA2,Cordova at Cordova Tide Gage,0,,True,False
-CRVF1,Shoal River near Crestview,0,,True,False
-CRVI4,Iowa River above Coralville Dam,2,CTWI4;MROI4,True,False
-CRVN7,Cane River (NC) near Burnsville,0,,True,False
-CRVP1,West Branch Susquehanna River near Curwensville,2,CRWP1;HYEP1,True,False
-CRWA2,[INACTIVE] Chignik River below Chignik Lake,0,,True,False
-CRWI1,Crane Creek near Weiser,0,,True,False
-CRWI3,Sugar Creek (IN) at Crawfordsville,0,,True,False
-CRWI4,Crow Creek at Bettendorf,0,,True,False
-CRWL1,Bayou Plaquemine Brule at Crowley,0,,True,False
-CRWP1,Central PA Dams  Curwensville Dam on West Branch Susquehanna,3,COWP1;CRVP1;YRKP1,True,False
-CRWW1,Chehalis River at WWTP at Chehalis,2,ADNW1;CENW1,True,False
-CRXN6,Seneca River at Cross Lake Near Jordan,0,,True,False
 CRYM4,Paint River at Crystal Falls,0,,True,False
 CRZA3,Carrizo Creek near Show Low,0,,True,False
 CSAF1,Cypress Creek at SR 52 Near San Antonio,1,WRGF1,True,False
@@ -1063,7 +1038,7 @@ ESTO1,Little Beaver Creek at East Liverpool,0,,True,False
 ESTO3,Clackamas River near Estacada,2,COCO3;TLYO3,True,False
 ESVI4,West Fork Des Moines River at Estherville,2,EMTI4;JCKM5,True,False
 ESVM4,Saginaw River at Essexville Tidal Gauge,0,,True,False
-ESWL1,Bayou Plaquemine Brule at Estherwood,0,,True,False
+ESWL1,Bayou Plaquemine Brule at Estherwood,1,CRWL1,True,False
 ETAM6,Little Tallahatchie River at Etta,0,,True,False
 ETCI2,Tyler Creek at Elgin,0,,True,False
 ETGC2,East Toll Gate Creek (CO) at Aurora,0,,True,False
@@ -2831,7 +2806,7 @@ ISCN6,Ischua Creek at Ischua Valley CC,0,,True,False
 ISCN7,Island Creek Creek at Sidbury Road,0,,True,False
 ISHC1,Italian Slough Headwater near Byron,0,,True,False
 ISIN3,Isinglass River near Dover,0,,True,False
-ISKN6,Tioughnioga River at Itaska,0,,True,False
+ISKN6,Tioughnioga River at Itaska,1,LSLN6,True,False
 ISKQ2,Iskut River below Johnson River-British Columbia,0,,True,False
 ISLI1,Henrys Fork near Island Park,2,HFAI1;IPDI1,True,False
 ISNN7,Irvins Creek at Sam Newell Road,0,,True,False
@@ -3971,7 +3946,7 @@ LSKC1,Lower Silver Creek at San Antonio St,0,,True,False
 LSLC2,Big Thompson River (CO) near La Salle,0,,True,False
 LSLI2,Illinois River near La Salle,2,HNYI2;SRDI2,True,False
 LSLM5,Watonwan River near La Salle 3ESE,0,,True,False
-LSLN6,Tioughnioga River at Lisle,0,,True,False
+LSLN6,Tioughnioga River at Lisle,2,CRTN6;ISKN6,True,False
 LSLS2,Little Spearfish Creek near Lead,0,,True,False
 LSMG1,Little Stone Mountain Creek at Old Stone Mountain Road near Stone Mountain,0,,True,False
 LSMN6,Little Schoharie Creek near Middleburgh,0,,True,False
@@ -4488,7 +4463,7 @@ MHBC1,Cosumnes River at Michigan Bar,0,,True,False
 MHBT2,Tide Gauge at Enbridge Ingleside,0,,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
 MHDC3,Connecticut River at Middle Haddam,0,,True,False
-MHDF1,Shoal River near Mossy Head (CR 1087),0,,True,False
+MHDF1,Shoal River near Mossy Head (CR 1087),1,CRVF1,True,False
 MHDM8,Powder River (WY-MT) at Moorhead,2,ARVW4;LOCM8,True,False
 MHDP1,Mahoning Creek at Mahoning Dam Tailwater,0,,True,False
 MHDT1,Clinch River above Melton Hill Dam,3,CCLT1;MHTT1;SOLT1,True,False
@@ -5015,7 +4990,7 @@ MTWW3,Manitowoc River at Manitowoc,0,,True,False
 MTXA3,Truxton Wash at State Route 66,0,,True,False
 MTXV2,Appomattox River at Mattoax,3,FRMV2;MTCV2;SPMV2,True,False
 MTZF1,Tide Gauge at Matanzas Pass Bridgfe (in MHHW),0,,True,False
-MTZI3,Wabash River at Montezuma,3,CLNI3;CVGI3;TERI3,True,False
+MTZI3,Wabash River at Montezuma,4,CLNI3;CRWI3;CVGI3;TERI3,True,False
 MTZN5,Gallinas Creek above Montezuma,0,,True,False
 MUBN7,Mulberry Creek at Collettsville,0,,True,False
 MUCF1,Tide Gauge at Mullock Creek (in MHHW),0,,True,False
@@ -6066,7 +6041,7 @@ PCKV2,Polecat Creek near PENOLA,0,,True,False
 PCKW1,Peshastin Creek at Green Bridge Road,0,,True,False
 PCKW4,Piney Creek at Kearney,0,,True,False
 PCLF1,Tide Gauge near Pensacola (IN MHHW),0,,True,False
-PCLI3,Praire Creek (IN) near Lebanon,0,,True,False
+PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
 PCLM7,Mississippi River above Price Landing,2,BDPM7;COMM7,True,False
 PCMF1,Poley Creek at SR 60 Near Mulberry,0,,True,False
 PCMI4,Perry Creek near Millnerville,0,,True,False
@@ -7755,7 +7730,7 @@ SGRA2,Sagavanirktok River near Pump Station 3,0,,True,False
 SGRW1,Spokane River below Green St at Spokane,2,PTFI1;SPOW1,True,False
 SGSM2,St. George Creek at Straits Point (IN MLLW),0,,True,False
 SGTC1,Salinas River below Santa Margarita Lake,0,,True,False
-SGTI3,Sugar Creek (IN) near Thorntown,0,,True,False
+SGTI3,Sugar Creek (IN) near Thorntown,2,CRWI3;PCLI3,True,False
 SGVP1,Codorus Creek at Spring Grove,0,,True,False
 SGWN7,Watauga River near Sugar Grove,0,,True,False
 SGWO3,Glenn Creek at Wallace Road,0,,True,False
@@ -10040,7 +10015,7 @@ WSPF1,Suwannee River at White Springs (in NAVD88),2,LIKF1;SBNF1,True,False
 WSPI2,Salt Creek (IL) at Western Springs,0,,True,False
 WSPM5,Middle Fork Whitewater River near Whitewater State Park,0,,True,False
 WSPV2,York River near West Point (IN MLLW),0,,True,False
-WSRI1,Weiser River at Weiser,1,CAMI1,True,False
+WSRI1,Weiser River at Weiser,2,CAMI1;CRWI1,True,False
 WSRN6,Susquehanna River at Windsor,2,BAIN6;CKLN6,True,False
 WSSC1,Warm Springs Creek below Strawberry Creek,0,,True,False
 WSSN7,Walnut Creek (NC) at S. State St.,2,WAWN7;WRLN7,True,False

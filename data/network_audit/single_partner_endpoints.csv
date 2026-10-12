@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
-CRUA2,Colville River at Umiat,1,CCVA2,True,False
 CSAF1,Cypress Creek at SR 52 Near San Antonio,1,WRGF1,True,False
 CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSHO1,Muskingum River below Coshocton,1,DREO1,True,False
@@ -77,6 +75,7 @@ ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
+ESWL1,Bayou Plaquemine Brule at Estherwood,1,CRWL1,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FALP1,Conewago Creek near Falmouth,1,CCBP1,True,False
@@ -182,6 +181,7 @@ INCO1,Indian Creek at Macedonia,1,BWCO1,True,False
 INOO2,Verdigris River near Inola,1,CLRO2,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IRNM7,Big River at Irondale,1,RCHM7,True,False
+ISKN6,Tioughnioga River at Itaska,1,LSLN6,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 IWNC1,San Lorenzo River (CA) at Lomond Street Bridge,1,BTEC1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
@@ -316,6 +316,7 @@ MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
 MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
+MHDF1,Shoal River near Mossy Head (CR 1087),1,CRVF1,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
 MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
@@ -431,6 +432,7 @@ PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
+PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
@@ -704,7 +706,6 @@ WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSIN2,Walker River near Schurz,1,WBWN2,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
-WSRI1,Weiser River at Weiser,1,CAMI1,True,False
 WSTM6,Big Black River at West,1,BTAM6,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
