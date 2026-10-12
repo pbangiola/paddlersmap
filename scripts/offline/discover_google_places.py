@@ -5,8 +5,9 @@ from pathlib import Path
 
 URL="https://places.googleapis.com/v1/places:searchText"
 TERMS={"launches":["boat launch","canoe launch","kayak launch","public boat ramp","paddling access"],"lakes":["lake","reservoir"]}
-def request(key,query,lat,lon,radius):
+def request(key,query,lat,lon,radius,page_token=None):
  payload={"textQuery":query,"locationBias":{"circle":{"center":{"latitude":lat,"longitude":lon},"radius":radius}},"pageSize":20}
+ if page_token: payload["pageToken"]=page_token
  req=urllib.request.Request(URL,data=json.dumps(payload).encode(),headers={"Content-Type":"application/json","X-Goog-Api-Key":key,"X-Goog-FieldMask":"places.id,nextPageToken"},method="POST")
  for attempt in range(4):
   try:
@@ -50,6 +51,18 @@ def main():
      print(f"Reached request cap ({count}); {remaining} searches remain. Rerun to resume, or use --max-requests to raise the per-run limit.",flush=True);return
     obj=request(key,term,lat,lon,radius)
     ids.update(x["id"] for x in obj.get("places",[]) if x.get("id"))
+    # Exhaust the result pages for this search before checkpointing it.
+    # Google may cap the total returned results; this is not a completeness guarantee.
+    token=obj.get("nextPageToken")
+    while token:
+     if count+1>=a.max_requests:
+      print("Stopping before partial pagination: rerun with a larger per-run budget",flush=True)
+      return
+     time.sleep(2)
+     obj=request(key,term,lat,lon,radius,page_token=token)
+     ids.update(x["id"] for x in obj.get("places",[]) if x.get("id"))
+     token=obj.get("nextPageToken")
+     count+=1
     completed.add(task);state["completed"]=sorted(completed);state["ids"]=sorted(ids)
     checkpoint.write_text(json.dumps(state,indent=2)+"\n")
     out.write_text(json.dumps({"type":"FeatureCollection","metadata":{"source":"Google Places API (New)","note":"Place IDs only; no Google place content persisted. IDs are not verified launches.","completed_requests":len(completed)},"features":[{"type":"Feature","geometry":None,"properties":{"google_place_id":pid,"verification":"candidate_review"}} for pid in sorted(ids)]},indent=2)+"\n")
