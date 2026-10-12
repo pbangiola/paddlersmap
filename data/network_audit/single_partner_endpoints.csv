@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JSLS2,James River near Hecla,1,CMBS2,True,False
-JSPM5,Split Rock Creek below Jasper,1,PALS2,True,False
 JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JUAP4,Rio Jacaguas at Juana Diaz,1,JCGP4,True,False
 JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
@@ -177,6 +175,7 @@ MLRT2,Llano River near Mason,1,JNCT2,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
+MNAA2,Mendenhall River at Brotherhood Bridge at Auke Bay,1,MNEA2,True,False
 MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
 MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
 MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False

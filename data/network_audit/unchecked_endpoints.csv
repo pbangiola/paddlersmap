@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JPRI3,Patoka River near Jasper,2,CZCI3;WNSI3,True,False
-JRAF1,Jackson River (FL) at Ranch Road above Apalachicola (in MHHW),0,,True,False
-JRDA2,Jordan Creek near Juneau,0,,True,False
-JRKV2,James River (VA) at KANAWHA CANAL near Richmond,0,,True,False
-JRLK1,Neosho River at John Redmond Lake,2,BRLK1;NEOK1,True,False
-JRMI3,Wildcat Creek (IN) near Jerome,0,,True,False
-JRMM7,Gasconade River at Jerome,2,HZLM7;RIFM7,True,False
-JRMS2,James River near Mitchell,2,FORS2;SCOS2,True,False
-JRSC1,San Joaquin River at Jersey Point,0,,True,False
-JRSI2,Des Plaines River at Joliet,3,JOLI2;LEMI2;ROMI2,True,False
-JRSP1,West Branch Susquehanna River at Jersey Shore,2,LHVP1;WILP1,True,False
-JRSU1,Jordan River near 17th South,0,,True,False
-JRUM8,Judith River near abv Carr Ck nr Utica,0,,True,False
-JSBA2,Glacial Lake 2.5 mi N of Nugget Creek near Auke Bay,0,,True,False
-JSCM2,Jones Falls at Baltimore Streetcar Museum in Baltimore,0,,True,False
-JSFV2,James River (VA) at Jamestown/Scotland Ferry (IN MLLW),3,JLMV2;JPHV2;SWPV2,True,False
-JSKT1,Holston River at John Sevier Detention Resrvr near Rogersville,3,CRKT1;GATV2;SHKT1,True,False
-JSLS2,James River near Hecla,1,CMBS2,True,False
-JSMN7,Jack Smith Creek at New Bern,0,,True,False
-JSNM6,Pearl River at Ross Barnett Reservoir,3,FNGM6;HCFM6;RATM6,True,False
-JSNS1,Lynches River near Johnsonville,2,LLCS1;PDBS1,True,False
-JSPC1,East Fork San Luis Obispo Creek at Jesperson Rd. ,0,,True,False
-JSPM5,Split Rock Creek below Jasper,1,PALS2,True,False
-JSPT2,Angelina River at Lake Sam Rayburn,4,ATBT2;AYIT2;LUFT2;TBLT2,True,False
-JSPW2,Back Creek near Jones Springs,0,,True,False
 JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JTPM1,Jonesport (MLLW),0,,True,False
 JTRK1,Buckner Creek near Jetmore,2,HSNK1;HTBK1,True,False
@@ -338,7 +313,7 @@ LACV2,Accotink Creek at Lake Accotink near Springfield,0,,True,False
 LACW3,Mississippi River at La Crosse - Pool 8,3,BRWM5;LCRM5;LCRW3,True,False
 LADI4,Big Bear Creek at Ladora,0,,True,False
 LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
-LAFI3,Wabash River at Lafayette,4,CVGI3;DCDI3;IDPI3;LGNI3,True,False
+LAFI3,Wabash River at Lafayette,5,CVGI3;DCDI3;IDPI3;LGNI3;LYTI3,True,False
 LAFN4,East Branch Paulins Kill near Lafayette,0,,True,False
 LAFW3,Kickapoo River at La Farge,2,ONTW3;VIOW3,True,False
 LAGP4,Canal de Riego de Lajas Blw Lajas Filtration Plant,0,,True,False
@@ -1108,7 +1083,7 @@ LYOP4,Rio Loco near Yauco,0,,True,False
 LYOQ8,Battle Creek (North-central MT) at Lyons Ck at IB nr Willow Ck 23E,0,,True,False
 LYOS1,Lynches River at I-95,2,BISS1;EFFS1,True,False
 LYTF1,Tide Station at Long Key near Long Key Bight (in MHHW),0,,True,False
-LYTI3,Wildcat Creek (IN) near Lafayette,0,,True,False
+LYTI3,Wildcat Creek (IN) near Lafayette,2,LAFI3;OWCI3,True,False
 LYVP1,Bixler Run near Loysville,0,,True,False
 LYWV2,South Fork Shenandoah River near Lynnwood,2,HARV2;SFSV2,True,False
 MAAI4,West Nodaway River at Massena,0,,True,False
@@ -1668,16 +1643,16 @@ MMRW1,White River at Mud Mtn. Dam - Outflow,0,,True,False
 MMTW2,Kanawha River below Marmet Locks,2,CRSW2;LONW2,True,False
 MMVC1,Matadero Creek at Lambert Avenue,0,,True,False
 MMWT2,North Texas Lakes at Lake Mineral Wells,0,,True,False
-MNAA2,Mendenhall River at Brotherhood Bridge at Auke Bay,0,,True,False
+MNAA2,Mendenhall River at Brotherhood Bridge at Auke Bay,1,MNEA2,True,False
 MNAM5,Middle Fork Crow River near Manannah,0,,True,False
 MNAW2,Guyandotte River at Man,2,LOGW2;RDBW2,True,False
 MNAW3,Yahara River at Madison-Lake Monona,2,MCFW3;MDAW3,True,False
-MNBA2,Mendenhall River at Loop Road Bridge near Auke Bay,0,,True,False
+MNBA2,Mendenhall River at Loop Road Bridge near Auke Bay,2,MNDA2;MNEA2,True,False
 MNBM2,Manokin Branch near Princess Anne,0,,True,False
 MNBV2,Appomattox River at ROUTE 602 NEAR MANNBORO,0,,True,False
 MNCG1,Mountaintown Creek at GA 282 near Ellijay,0,,True,False
-MNDA2,Mendenhall River near Auke Bay,0,,True,False
-MNEA2,Mendenhall River Below Montana Creek near Auke Bay,0,,True,False
+MNDA2,Mendenhall River near Auke Bay,2,JSBA2;MNBA2,True,False
+MNEA2,Mendenhall River Below Montana Creek near Auke Bay,2,MNAA2;MNBA2,True,False
 MNEI4,Mosquito Creek near Neola (IFC),0,,True,False
 MNEL1,Bayou Dorcheat at Dixie Inn,0,,True,False
 MNFK2,North Fork Triplett Creek near Morehead,0,,True,False
@@ -2726,7 +2701,7 @@ OKFI2,Sangamon River near Oakford,2,CDLI2;PETI2,True,False
 OKGF1,Yellow River near Oak Grove,0,,True,False
 OKGM4,Little Muskegon River near Oak Grove,0,,True,False
 OKGW1,Osoyoos Lake at Oroville,0,,True,False
-OKKI3,Wildcat Creek (IN) at Kokomo,0,,True,False
+OKKI3,Wildcat Creek (IN) at Kokomo,2,JRMI3;OWCI3,True,False
 OKKW2,Monongahela River at Opekiska Lock and Dam,3,CFXW2;ENTW2;MGTW2,True,False
 OKLK2,Northern Ditch near Okolona,0,,True,False
 OKLM5,Lost River at Oklee,0,,True,False
@@ -2911,7 +2886,7 @@ OVTN1,Platte River near Overton,2,DARN1;ODSN1,True,False
 OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
 OWBK2,Ohio River at Owensboro,2,NBGI3;TELI3,True,False
 OWCF1,Tide Gauge at Owl Creek (in MHHW),0,,True,False
-OWCI3,Wildcat Creek (IN) at Owasco,0,,True,False
+OWCI3,Wildcat Creek (IN) at Owasco,2,LYTI3;OKKI3,True,False
 OWCN6,Owego Creek near Owego,0,,True,False
 OWFN7,Crabtree Creek at Old Wake Forest Road,2,ADRN7;CRBN7,True,False
 OWGI3,Tippecanoe River at Oswego,2,NWTI3;ORAI3,True,False
