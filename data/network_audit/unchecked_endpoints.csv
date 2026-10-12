@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HZNN8,Knife River (ND) near Hazen,1,KRBN8,True,False
-IACI4,South Branch Ralston Creek at Iowa City,0,,True,False
-IAMF1,Lake Iamonia Outfall at Meridian Road,0,,True,False
-IANP4,Rio Inabon at Real Abajo,0,,True,False
-IAOH1,Wailuku River (Maui) near Wailuku,0,,True,False
-IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
-IBOM5,St. Louis River near Skibo,1,FOBM5,True,False
-IBRN7,Briar Creek at Independence Blvd,2,BRIN7;SMRN7,True,False
-ICBI4,Indian Creek at Council Bluffs (IFC),0,,True,False
-ICCN2,Indian Creek,0,,True,False
-ICDA2,Igloo Creek at Denali Park Road at Denali Park,0,,True,False
-ICDC1,Indian Creek (CA) near Douglas City,0,,True,False
-ICEW1,Icicle Creek near Leavenworth,0,,True,False
-ICHG1,Ichawaynochaway Creek at GA-91  11 miles SW of Newton,2,EMOG1;HOPG1,True,False
-ICKM2,Unnamed Tributary near Beltsville / Virginia Manor Road,0,,True,False
-ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
-ICLK1,Indian Creek at State Line Rd.,0,,True,False
-ICNN6,Cayuga Inlet at Ithaca,0,,True,False
-ICRC1,Independence Creek below Independence Lake ,0,,True,False
-ICSC1,Indian Creek near Sunol,0,,True,False
-ICSF1,Ichetucknee River below Ichetucknee Springs State Park - US-27 (in NAVD88),0,,True,False
-ICYN6,Cayuga Lake at Ithaca,0,,True,False
-IDAC1,San Carlos Creek at IDRIA,0,,True,False
-IDAP1,Crooked Creek at Idaho,1,CRCP1,True,False
-IDBO2,Little River near Idabel,2,GLOO2;HRGA4,True,False
 IDBS2,Turtle Creek at Redfield,0,,True,False
 IDLM2,West Branch Herring Run at Idlewylde,0,,True,False
 IDNI4,Middle River near Indianola,0,,True,False
@@ -47,7 +22,7 @@ IIFC1,Indian Creek below Indian Falls,0,,True,False
 IKAA2,Ikalukrok Creek near Red Dog Mine,0,,True,False
 IKLT2,Colorado River (TX) at Inks Lake,2,BUDT2;GPLT2,True,False
 IKPA2,Ikpikpuk River below Fry Creek near Alaktak,0,,True,False
-ILAC1,Independence Lake near Truckee,0,,True,False
+ILAC1,Independence Lake near Truckee,1,ICRC1,True,False
 ILKF1,Lake Weohyakapka at Indian Lake Estates,0,,True,False
 ILNI2,Mississippi River at Illinois City,2,FAII4;MUSI4,True,False
 ILOM5,Island Lake Outflow,0,,True,False
@@ -3098,7 +3073,7 @@ OOLO2,Eastern Oklahoma Lakes at Oologah Lake,0,,True,False
 OOST2,Oso Creek near Corpus Christi,0,,True,False
 OPAH1,Opaeula Stream near Wahiawa,0,,True,False
 OPCN2,Ophir Creek near Steamboat,0,,True,False
-OPDK1,Indian Creek at Overland Park,0,,True,False
+OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
 OPDU1,Ogden River below Pineview Reservoir,0,,True,False
 OPKC1,Copeland Creek at Copeland Creek,0,,True,False
 OPLF1,Old Pass Lagoon at Destin (in MHHW),0,,True,False
@@ -6760,7 +6735,7 @@ WBOM5,Blue Earth River near Winnebago 1W,0,,True,False
 WBOT1,Tennessee River above Watts Bar Dam,2,KGTT1;WBTT1,True,False
 WBPM6,Bayou Pierre near Willows,0,,True,False
 WBRL1,Amite River Basin at Ward Creek at Government St.,0,,True,False
-WBRN7,West Branch Rocky River NC below mouth of South Prong River,0,,True,False
+WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,False
 WBRP1,Susquehanna River at Wilkes Barre,2,BMBP1;MHPP1,True,False
 WBRT2,Beals Creek 11 miles S of Westbrook,2,CMHT2;SILT2,True,False
 WBRW4,Green River (WY-UT-CO) at Warren Bridge,1,LABW4,True,False
