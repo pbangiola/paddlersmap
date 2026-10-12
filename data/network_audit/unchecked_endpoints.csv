@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DRRC2,Dolores River near Rico,1,DOLC2,True,False
-DRRN2,Carson River at Deer Run Road,3,CDYN2;FTCN2;STWN2,True,False
-DRRO3,Row River above Pitcher Creek near Dorena,1,DORO3,True,False
-DRST1,Obion River near Dresden,0,,True,False
-DRSW1,Dungeness River near Sequim,0,,True,False
-DRTA2,Deering Tide Gauge at Deering (MHHW datum),0,,True,False
-DRTN8,Red River of the North at Drayton,4,AGYM5;ALVM5;OSLM5;PBNN8,True,False
-DRUU1,"Duchesne River Above Uinta River near Randlett, UT",0,,True,False
-DRWC1,Dry Creek (Russian R.) below Warm Springs Dam NR Geyserville,0,,True,False
-DRWF1,Forked Creek at Donovan Rd,0,,True,False
-DRWI2,West Fork North Branch Chicago River at Deerfield,0,,True,False
-DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
-DRXP1,Lycoming Creek above Deer Crossing,2,RLBP1;RORP1,True,False
-DRYN6,Dry Brook at Arkville,0,,True,False
-DSAC1,Dry Creek (Napa) at Highway 29,0,,True,False
-DSBT2,Sabana River near DeLeon,0,,True,False
-DSCA4,White River at Des Arc,3,CLDA4;DBGA4;GEOA4,True,False
-DSCT2,South Side Canal near Dundee,0,,True,False
-DSCV2,Unnamed Tributary at Dulles Station near Herndon,0,,True,False
-DSEC1,Los Gatos Creek below Lake Elsman,0,,True,False
-DSHN1,Little Blue River near Deshler,2,DWEN1;HBON1,True,False
-DSHP1,Ohio River at Dashields Lock and Dam,2,EMSP1;MGYP1,True,False
-DSKI4,Boyer River near Denison K Ave--IFC,1,DNLI4,True,False
-DSLC1,Lyndon Canyon Creek at Beardsley,0,,True,False
-DSLM8,Tongue River near Decker,2,DKRM8;TRMW4,True,False
 DSMV2,Great Dismal Swamp Canal near Arbuckle Landing,0,,True,False
 DSNC1,Dry Creek near Snelling,0,,True,False
 DSNG1,Kinchafoonee Creek at 11 E of Dawson at Pinewood Rd in Lee County,0,,True,False
@@ -59,7 +34,7 @@ DUPO1,Blanchard River near Dupont,0,,True,False
 DUPT2,Guadalupe River near Bloomington,2,TIVT2;VICT2,True,False
 DURO2,Washita River near Dickson,2,PLVO2;TWRO2,True,False
 DURO3,Fanno Creek at Durham,0,,True,False
-DURU1,Duchesne River near Randlett,0,,True,False
+DURU1,Duchesne River near Randlett,2,DRUU1;GRVU1,True,False
 DURW3,Chippewa River (WI) at Durand,2,ECLW3;MENW3,True,False
 DUUA3,Gila River at Duncan,2,GLHA3;GVRN5,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
@@ -1455,7 +1430,7 @@ GRVA4,Fourche LaFave River near Gravelly,0,,True,False
 GRVC2,Gore Creek at Vail,0,,True,False
 GRVF1,Guana River near Ponte Vedra South (in NAVD88),0,,True,False
 GRVL1,Coastal Reference Monitoring System near Garyville,0,,True,False
-GRVU1,Green River (WY-UT-CO) at GREEN RIVER,2,ACJU1;GROU1,True,False
+GRVU1,Green River (WY-UT-CO) at GREEN RIVER,3,ACJU1;DURU1;GROU1,True,False
 GRWN4,Cohansey River at Greenwich (IN MLLW),0,,True,False
 GRWO3,Wapato Creek at SW Gaston Road,0,,True,False
 GRWS2,Missouri River near Greenwood,2,FRDS2;MRVN1,True,False
@@ -1473,7 +1448,7 @@ GSFN5,San Francisco River below Glenwood,0,,True,False
 GSGF1,Gator Slough Canal at Burnt Store Marina (In MHHW),0,,True,False
 GSHA1,Intracoastal Waterway at Gulf Shores,0,,True,False
 GSHI3,Elkhart River at Goshen,2,CPEI3;EKMI3,True,False
-GSJC1,Guadalupe River (CA) above Hwy 101 at San Jose,2,CAOC1;GUMC1,True,False
+GSJC1,Guadalupe River (CA) above Hwy 101 at San Jose,3,CAOC1;GUMC1;LGTC1,True,False
 GSLF1,Tide Station at the Gulf Specimen Marine Lab in Panacea (in MHHW),0,,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
 GSLU1,Great Salt Lake above Great Salt Lake,0,,True,False
@@ -2986,7 +2961,7 @@ LEPM5,South Fork Crow River near Lester Prairie 1SE,2,HCNM5;MAYM5,True,False
 LEPO2,Verdigris River near Lenapah,2,CFVK1;CLRO2,True,False
 LERI1,Lemhi River near Lemhi,0,,True,False
 LESA3,Leslie Creek near McNeal,0,,True,False
-LESC1,Los Gatos Creek at Lake Elsman,0,,True,False
+LESC1,Los Gatos Creek at Lake Elsman,2,DSEC1;WLMC1,True,False
 LESG1,Spring Creek near Leary at Chickasawhatchee Rd.,0,,True,False
 LESI1,Big Lost River at Leslie,4,ARCI1;CEDI1;MAKI1;MDII1,True,False
 LESN1,Platte River near Leshara,2,FREN1;VENN1,True,False
@@ -3021,7 +2996,7 @@ LGDW1,Snake River (WA) at Lower Granite,2,ANAW1;LGSW1,True,False
 LGDW4,Little Goose Creek below Colorado Colony Ditch,0,,True,False
 LGEM8,Lodge Creek below McRae Creek at International Boundary,0,,True,False
 LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
-LGLC1,Los Gatos Creek below Lexington Reservoir,0,,True,False
+LGLC1,Los Gatos Creek below Lexington Reservoir,2,LRYC1;VQIC1,True,False
 LGLF1,Tide Station at St Andrews State Park Pier (in MHHW),0,,True,False
 LGLI2,Little Grassy Creek at Little Grassy Lake near Marion 13WSW,0,,True,False
 LGLI4,Milford Creek at Lower Gar Lake Outlet,0,,True,False
@@ -3042,7 +3017,7 @@ LGRM7,Mississippi River at LaGrange,2,CANM7;UINI2,True,False
 LGRT1,Wolf River near La Grange,1,ROST1,True,False
 LGRT2,Colorado River (TX) above La Grange,2,CBST2;SMIT2,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
-LGTC1,Los Gatos Creek at Lincoln Avenue,0,,True,False
+LGTC1,Los Gatos Creek at Lincoln Avenue,2,GSJC1;LRKC1,True,False
 LGTO2,North Fork of the Red River near Lugert,2,ALTO2;HEAO2,True,False
 LGUP4,Lago Guayo at Damsite near Castaner,0,,True,False
 LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
@@ -3340,7 +3315,7 @@ LRHI3,Little  River near Huntington,0,,True,False
 LRHI4,Troublesome Creek near Lorah Troublesome Creek Rd--IFC,0,,True,False
 LRHQ3,Long River (MB) at Holmfield MB,0,,True,False
 LRIT2,Little River near Little River,2,BLET2;RLRT2,True,False
-LRKC1,Los Gatos Creek at Lark Avenue,0,,True,False
+LRKC1,Los Gatos Creek at Lark Avenue,2,LGTC1;VQIC1,True,False
 LRLL1,Bayou Lacombe below Lacombe,0,,True,False
 LRLM7,Little Blue River (MO) at Lees Summit Road - Independence,0,,True,False
 LRLS1,Little River at Gordon Street in Laurens,0,,True,False
@@ -3367,7 +3342,7 @@ LRUT2,Leona River at CR 429A near Uvalde,0,,True,False
 LRVN7,"Little River at Merrill Ln, 3 S Penrose",0,,True,False
 LRWW1,Lewis River at Woodland,1,MERW1,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
-LRYC1,Los Gatos Creek above Ryland Dam,0,,True,False
+LRYC1,Los Gatos Creek above Ryland Dam,2,DSEC1;LGLC1,True,False
 LRYK1,Neosho River at Le Roy,2,BRLK1;IOLK1,True,False
 LRYN7,Long Creek at Rhyne NC,0,,True,False
 LRZC1,San Lorenzo Creek (Alameda) above Hayward,2,CULC1;SLCC1,True,False
@@ -4527,7 +4502,7 @@ MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 MYPO3,South Fk Coquille River at Myrtle Point,2,COQO3;POWO3,True,False
 MYRG1,Yellow River at Gees Mill Road near Milstead,0,,True,False
 MYRK2,Shelby Creek at Myra,0,,True,False
-MYRU1,Duchesne River near Myton,0,,True,False
+MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 MYRW2,Mud River (WV) at Hamlin,0,,True,False
 MYST2,North Texas Lakes at Pat Mayse Lake,0,,True,False
 MYSU1,Sevier River near Marysvale,0,,True,False
@@ -4608,7 +4583,7 @@ NBOI2,Mississippi River at New Boston,2,KHBI2;MUSI4,True,False
 NBPC3,North Branch Park River at Hartford,0,,True,False
 NBPI2,North Branch Chicago River at Chicago (Pulaski Rd),2,NBGI2;NILI2,True,False
 NBRF1,St Marks River above Natural Bridge Road (in NAVD88),0,,True,False
-NBRI2,West Fork North Branch Chicago River at Northbrook,0,,True,False
+NBRI2,West Fork North Branch Chicago River at Northbrook,2,DRWI2;NILI2,True,False
 NBRM3,Blackstone River at Northbridge,0,,True,False
 NBRM4,Salt River near North Bradley,0,,True,False
 NBRO3,N Fk Bull Run River near Multnomah Falls,0,,True,False
@@ -4777,7 +4752,7 @@ NICF1,Thirtymile Creek Near Nichols,0,,True,False
 NICG1,Nickajack Creek at US Highway 78 and 278 near Mableton,0,,True,False
 NICS1,Lumber River near Nichols,2,FBLN7;GALS1,True,False
 NILC1,Alameda Creek near Niles,3,ALFC1;AOLC1;ASLC1,True,False
-NILI2,North Branch Chicago River at Niles,2,DRFI2;NBPI2,True,False
+NILI2,North Branch Chicago River at Niles,3,DRFI2;NBPI2;NBRI2,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NIMM5,Crow Wing River at Nimrod,0,,True,False
 NINA2,Ninilchik River at Ninilchik,0,,True,False
@@ -5080,7 +5055,7 @@ OBKI2,Salt Creek (IL) at Oak Brook,0,,True,False
 OBLA1,Tide Gauge near Mobile State Docks (IN MHHW),0,,True,False
 OBLI2,North Fork Embarras River near Oblong,0,,True,False
 OBNK1,Sappa Creek near Oberlin,1,NCRK1,True,False
-OBNT1,Obion River near Obion,2,BOGT1;NOMT1,True,False
+OBNT1,Obion River near Obion,3,BOGT1;DRST1;NOMT1,True,False
 OBRA2,O'Brien Creek at Taylor Highway near Eagle,0,,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OCAM8,Otter Creek at Ashland (Closed),0,,True,False
@@ -5521,7 +5496,7 @@ PCSS2,Pipestone Creek near Sherman,0,,True,False
 PCST2,Pecos River 2 miles NE of Pecos,2,ORLT2;PGFT2,True,False
 PCTG1,Proctor Creek near Atlanta,0,,True,False
 PCTN4,Stony Brook at Princeton,0,,True,False
-PCTT2,North Texas Lakes at Proctor Lake,2,DLLT2;HMLT2,True,False
+PCTT2,North Texas Lakes at Proctor Lake,3,DLLT2;DSBT2;HMLT2,True,False
 PCUF1,Pottsburg Creek at Beach Boulevard (US 90) (in MHHW),0,,True,False
 PCVF1,St George Island at Pilot's Cove (in MHHW),0,,True,False
 PCVK2,Bacon Creek at Priceville,0,,True,False
@@ -8763,7 +8738,7 @@ VNSC1,San Joaquin River at Vernalis,0,,True,False
 VNVM2,Gwynns Falls at Villa Nova,0,,True,False
 VOJC1,Ventura River at Camino Cielo,0,,True,False
 VONC1,Sacramento River at Verona,3,FMWC1;NCOC1;SACC1,True,False
-VQIC1,Los Gatos Creek above Vasona Reservoir,0,,True,False
+VQIC1,Los Gatos Creek above Vasona Reservoir,2,LGLC1;LRKC1,True,False
 VRBA1,Coosa River at Mitchell Dam,2,CLTA1;WPKA1,True,False
 VRBU1,Virgin River near Bloomington,0,,True,False
 VRCS2,Vermillion River near Chancellor,0,,True,False
@@ -9234,7 +9209,7 @@ WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WLLN7,Roanoke River at Williamston,0,,True,False
 WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
 WLLW4,Shoshone River below Willwood Dam,0,,True,False
-WLMC1,Los Gatos Creek at Williams Reservoir,0,,True,False
+WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
 WLMC3,Shetucket River at Willimantic,0,,True,False
 WLMI2,Kankakee River near Wilmington,2,KRDI2;MOMI2,True,False
 WLMM3,Shawsheen River at Wilmington,0,,True,False

@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DRRC2,Dolores River near Rico,1,DOLC2,True,False
-DRRO3,Row River above Pitcher Creek near Dorena,1,DORO3,True,False
-DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
-DSKI4,Boyer River near Denison K Ave--IFC,1,DNLI4,True,False
 DUBW4,Wind River near Dubois,1,WRCW4,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
@@ -351,6 +347,7 @@ MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
+MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 NACW1,Naches River near Naches,1,CLFW1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
@@ -723,6 +720,7 @@ WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
+WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
 WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
