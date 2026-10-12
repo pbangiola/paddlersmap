@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MDSM1,Kennebec River near Madison,2,BINM1;SKOM1,True,False
-MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
-MDSN4,Bound Brook at Middlesex,0,,True,False
-MDST2,Bedias Creek near Madisonville,0,,True,False
-MDTC2,Frying Pan River at Meredith,1,FPTC2,True,False
-MDTO1,Great Miami River at Middletown,3,FKNO1;GERO1;HAMO1,True,False
-MDVG1,Ogeechee River at Midville,2,GRGG1;RFDG1,True,False
-MDWK2,South Elkhorn Creek at Midway,0,,True,False
-MDYK2,Right Fork Beaver Creek near Muddy,0,,True,False
-MDYM8,Muddy Creek at Vaughn,2,MDNM8;VAUM8,True,False
-MDYS2,Medary Creek near Medary,0,,True,False
-MEAP1,Woodcock Creek at Woodcock Dam,2,BVLP1;WCDP1,True,False
-MECN1,Medicine Creek near Curtis,2,CABN1;SOMN1,True,False
-MECT2,Arroyo Colorado South of Mercedes,1,HAGT2,True,False
-MECV2,Mechums River near White Hall,0,,True,False
-MEDC1,San Mateo Creek below Lower Crystal Springs Reservoir NR San Mateo,0,,True,False
-MEDI1,Medicine Lodge Creek (ID) near Small,0,,True,False
-MEDM3,Charles River at Medway,1,DOVM3,True,False
-MEDN4,Southwest Branch Rancocas Creek at Medford,0,,True,False
-MEDP1,French Creek at Meadville,3,CBSP1;UTCP1;WCDP1,True,False
-MEEC1,Bear Creek at McKee Road,0,,True,False
-MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
-MEEW4,Greybull River at Meeteetse,0,,True,False
-MEHO3,N Santiam River at Mehama,3,BCLO3;LSMO3;NSGO3,True,False
-MEIF1,Indian River at Melbourne (in MHHW),0,,True,False
 MEIM6,Sowashee Creek at Meridian,0,,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
 MELO1,Ohio River at Meldahl Dam,2,CCNO1;MYVK2,True,False
@@ -1222,7 +1197,7 @@ NWHT1,Mississippi River Northwest TN Harbor,2,HKMK2;NMDM7,True,False
 NWKN4,Passaic River at Newark (IN MLLW),1,DDCN4,True,False
 NWKW3,Moore Creek at Norwalk,0,,True,False
 NWLM5,Middle Fork Crow River near New London 1S,0,,True,False
-NWMC1,San Joaquin River at Newman,2,PATC1;STVC1,True,False
+NWMC1,San Joaquin River at Newman,3,MEEC1;PATC1;STVC1,True,False
 NWMS2,North Fork Whetstone River near Milbank,0,,True,False
 NWMV2,Smith Creek near New Market,0,,True,False
 NWMW4,Nowood River near Manderson,0,,True,False
@@ -2901,7 +2876,7 @@ RVPK2,Ohio River at Riverview Park,2,CNNI3;MLPK2,True,False
 RVRI2,Des Plaines River at Riverside,4,BWDI2;LYNI2;RVFI2;WSPI2,True,False
 RVRN1,Republican River at Riverton,2,GUIN1;REPN1,True,False
 RVRN6,Schroon River at Riverbank,0,,True,False
-RVRT2,Trinity River at Riverside,2,CRKT2;LVDT2,True,False
+RVRT2,Trinity River at Riverside,3,CRKT2;LVDT2;MDST2,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
 RVSC1,Revolon Slough,0,,True,False
 RVST1,Obion River near Rives 6S,0,,True,False
