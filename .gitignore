@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 # Offline research outputs (do not publish or commit)
 /local/output/
+
+# Large offline national hydrography downloads
+/local/national_3dhp/
