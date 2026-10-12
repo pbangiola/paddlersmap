@@ -8,6 +8,8 @@ an *unclipped* bounding-box query; expand bounds to avoid artificial outlets.
 import argparse
 import json
 import time
+import random
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -16,21 +18,42 @@ URL='https://3dhp.nationalmap.gov/arcgis/rest/services/usgs_3dhp_all/FeatureServ
 FIELDS='OBJECTID,id3dhp,gnisidlabel,flowdirection,featuretypelabel,mainstemid,arbolatesum,hydrosequence'
 
 
-def request(params, retries=4):
-    query=urllib.parse.urlencode(params)
+def request(params, retries=10):
+    """Retry transient service failures without silently accepting truncated pages."""
+    query = urllib.parse.urlencode(params)
+    url = URL + '?' + query
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(URL+'?'+query,timeout=90) as response:
-                result=json.load(response)
+            with urllib.request.urlopen(url, timeout=90) as response:
+                result = json.load(response)
             if 'error' in result:
-                raise RuntimeError(f'USGS service error: {result["error"]}')
+                error = result['error']
+                code = error.get('code') if isinstance(error, dict) else None
+                if code in (408, 429, 500, 502, 503, 504):
+                    raise urllib.error.HTTPError(url, code, str(error), None, None)
+                raise RuntimeError(f'USGS service error: {error}')
             return result
-        except (OSError, ValueError) as exc:
-            if attempt==retries-1:
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (408, 429, 500, 502, 503, 504):
                 raise
-            time.sleep(2**attempt)
+            if attempt == retries - 1:
+                raise
+            retry_after = exc.headers.get('Retry-After') if exc.headers else None
+            try:
+                delay = min(120.0, float(retry_after)) if retry_after else None
+            except (TypeError, ValueError):
+                delay = None
+            if delay is None:
+                delay = min(120.0, 2.0 ** min(attempt + 1, 7)) + random.uniform(0, 1)
+            print(f'USGS HTTP {exc.code}; retry {attempt + 1}/{retries - 1} in {delay:.1f}s', flush=True)
+            time.sleep(delay)
+        except (OSError, ValueError) as exc:
+            if attempt == retries - 1:
+                raise
+            delay = min(120.0, 2.0 ** min(attempt + 1, 7)) + random.uniform(0, 1)
+            print(f'USGS request failed ({type(exc).__name__}); retry {attempt + 1}/{retries - 1} in {delay:.1f}s', flush=True)
+            time.sleep(delay)
     raise RuntimeError('unreachable')
-
 
 def download(bounds, page_size=1000, max_features=None):
     if len(bounds)!=4 or bounds[0]>=bounds[2] or bounds[1]>=bounds[3]:
