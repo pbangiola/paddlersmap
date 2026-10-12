@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CPCS1,Cooper River at HW-17 (IN MLLW),2,CHTS1;CPFS1,True,False
-CPCV2,Chesapeake Bay at Cape Charles Harbor at Cape Charles VA,0,,True,False
-CPDN5,Pecos River 2 miles E of Carlsbad below Dark Canyon,2,MLGN5;PBAN5,True,False
-CPDN7,Harvester Canal at Western on Pocosin Lakes NWR,0,,True,False
-CPEI3,North Branch Elkhart River at Cosperville,0,,True,False
-CPEL1,Lake Pontchartrain at City Park East Lagoon near Lake Vista,0,,True,False
-CPEM1,Atlantic Coast at Saco (IN MLLW),0,,True,False
-CPEN7,Walnut Creek (NC) at East Park St in Cary,0,,True,False
-CPFN7,Cape Fear River at Lock 1,2,CFEN7;WLON7,True,False
-CPFP4,Canal de Patillas at Forest Bay,0,,True,False
-CPFS1,Cooper River at North Charleston (IN MLLW),2,CPCS1;GOOS1,True,False
-CPGL1,Barataria Bay and Waterway at Caminada Pass,0,,True,False
-CPGM7,Mississippi River at Cape Girardeau,3,CHSI2;MOCM7;THBI2,True,False
-CPHP1,Yellow Breeches Creek near Camp Hill,0,,True,False
-CPHT1,Toccoa River (GA) / Ocoee River (TN) at Copperhill,0,,True,False
-CPKC2,Cherry Creek (CO) near Parker,2,EGDC2;FRKC2,True,False
-CPKF1,Rocky Creek at Gunn Hwy at Citrus Park,0,,True,False
-CPLL1,Lake Pontchartrain at City Park South Lagoon near Lake Vista,0,,True,False
-CPLO2,Eastern Oklahoma Lakes at Copan Lake,0,,True,False
-CPNK2,Kentucky River at Camp Nelson,2,HIBK2;VLVK2,True,False
-CPNN6,Canandaigua Outlet at Chapin,0,,True,False
-CPNT2,Tide Gauge at Copano Bay,0,,True,False
-CPOF1,Cow Pen Slough Near Central Pinelands North Lake,0,,True,False
-CPPM2,Paint Branch near White Oak,0,,True,False
-CPPN8,Sheyenne River near Cooperstown (Hwy 200),2,CPRN8;MVCN8,True,False
 CPPT2,North Sulphur River near Cooper,0,,True,False
 CPRN8,Sheyenne River near Cooperstown,2,BLDN8;CPPN8,True,False
 CPRW4,North Platte River at Casper,2,GLNW4;SINW4,True,False
@@ -120,7 +95,7 @@ CRPW1,Chehalis River at Porter,3,BLKW1;CMTW1;CROW1,True,False
 CRRA1,Tallapoosa River at Yates Dam,0,,True,False
 CRRI2,South Fork Saline River above Carrier Mills,0,,True,False
 CRRI4,Little Sioux River at Correctionville,2,CHKI4;TURI4,True,False
-CRRK2,Kentucky River above Kentucky Lock 1 at Carrollton,0,,True,False
+CRRK2,Kentucky River above Kentucky Lock 1 at Carrollton,1,LPTK2,True,False
 CRRM4,Cedar River at County Road 366,0,,True,False
 CRRS1,Coosawhatchie River near Ridgeland,0,,True,False
 CRRV2,Old Courthouse Spring Branch at Carrington Regional Park,0,,True,False
@@ -981,7 +956,7 @@ EKCS2,Elk Creek (SD) near Rapid City,0,,True,False
 EKCW3,Elk Creek (WI) near Elk Creek,0,,True,False
 EKDI4,Turkey River at Elkader,2,GRBI4;TENI4,True,False
 EKLA2,Eklutna Lake near Palmer,0,,True,False
-EKMI3,St. Joseph River (MI/IN) at Elkhart,3,MOTM4;SBNI3;SCOI3,True,False
+EKMI3,St. Joseph River (MI/IN) at Elkhart,4,GSHI3;MOTM4;SBNI3;SCOI3,True,False
 EKMM2,Big Elk Creek at Elk Mills,0,,True,False
 EKPF1,Tide Station at the Edward B. Knight Pier in Key West (in MHHW),0,,True,False
 EKTO3,Umpqua River near Elkton,0,,True,False
@@ -1377,7 +1352,7 @@ FFDN3,Pemigewasset River at Franklin Falls Dam,0,,True,False
 FFLT2,North Texas Lakes at Richland-Chambers Lake,2,LOLT2;RCET2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FFPM5,Pelican River near Fergus Falls (MN210),0,,True,False
-FFTK2,Kentucky River at Frankfort Lock,0,,True,False
+FFTK2,Kentucky River at Frankfort Lock,2,GSTK2;TYRK2,True,False
 FFXM7,Tarkio River near Fairfax,0,,True,False
 FFXV2,Unnamed Tributary near Fairfax Center,0,,True,False
 FFXW1,Carbon River near Fairfax,0,,True,False
@@ -1504,7 +1479,7 @@ FNNO3,Fanno Creek at 56th Ave - Portland,0,,True,False
 FOBC2,Fountain Creek at 8th Street at Pueblo,0,,True,False
 FOBM5,"St. Louis River Near Forbes, MN",0,,True,False
 FODI4,Des Moines River at Fort Dodge,2,FDDI4;STRI4,True,False
-FODK2,Kentucky River at Ford Lock,2,CYCK2;VLVK2,True,False
+FODK2,Kentucky River at Ford Lock,3,CHLK2;CYCK2;VLVK2,True,False
 FODN6,Mohawk River Above State Highway 30A at Fonda,0,,True,False
 FOFW4,Firehole River at Old Faithful (YNP),0,,True,False
 FOGF1,Prairie Creek Near Fort Ogden,0,,True,False
@@ -2172,7 +2147,7 @@ GSEV2,Guest River at Esserville,0,,True,False
 GSFN5,San Francisco River below Glenwood,0,,True,False
 GSGF1,Gator Slough Canal at Burnt Store Marina (In MHHW),0,,True,False
 GSHA1,Intracoastal Waterway at Gulf Shores,0,,True,False
-GSHI3,Elkhart River at Goshen,0,,True,False
+GSHI3,Elkhart River at Goshen,2,CPEI3;EKMI3,True,False
 GSJC1,Guadalupe River (CA) above Hwy 101 at San Jose,2,CAOC1;GUMC1,True,False
 GSLF1,Tide Station at the Gulf Specimen Marine Lab in Panacea (in MHHW),0,,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
@@ -2183,7 +2158,7 @@ GSRF1,Green Swamp Run Near Eva,0,,True,False
 GSRL1,Comite River at Greenwell Springs Rd. near Baton Rouge,0,,True,False
 GSRV2,Guest River at Riverview,0,,True,False
 GSST2,Brays Bayou at Gessner Drive,0,,True,False
-GSTK2,Kentucky River at Gest,0,,True,False
+GSTK2,Kentucky River at Gest,2,FFTK2;LPTK2,True,False
 GSTM5,Snake River (MN) at Grasston,0,,True,False
 GSTV2,Guest River at Coeburn,0,,True,False
 GSVO3,Cow Creek at GALESVILLE RES,2,AZAO3;COGO3,True,False
@@ -2462,7 +2437,7 @@ HHSF1,Halls River (In MHHW),0,,True,False
 HHSM6,Coldwater River near Coldwater River at Hernando,0,,True,False
 HHTM4,Sycamore Creek near Holt,0,,True,False
 HHWM8,Hungry Horse Reservoir  ,0,,True,False
-HIBK2,Kentucky River at High Bridge Lock,1,CPNK2,True,False
+HIBK2,Kentucky River at High Bridge Lock,2,CPNK2;SLVK2,True,False
 HIBT1,Stock Creek at Knoxville 8SSE at Martin Mill Road,0,,True,False
 HIBT2,Brazos River near Highbank,2,BBZT2;WBAT2,True,False
 HICM5,High Island Creek near Henderson,2,ARLM5;JDNM5,True,False
@@ -4010,7 +3985,7 @@ LPRN8,Little South Pembina River near Walhalla,0,,True,False
 LPSC2,La Plata River at State Line,0,,True,False
 LPTF1,Lake Talquin at Coe Landing Park (in NGVD29),0,,True,False
 LPTG1,Flat Creek at Lake Peachtree Tailrace,0,,True,False
-LPTK2,Kentucky River at Lockport,0,,True,False
+LPTK2,Kentucky River at Lockport,2,CRRK2;GSTK2,True,False
 LPTL1,Sabine River at Logansport,3,BEKT2;BKLT2;LMVT2,True,False
 LPTT2,Neches River at Lake Palestine,3,ATHT2;NCST2;TBLT2,True,False
 LPTW4,Little Powder River near Weston,0,,True,False
@@ -5785,14 +5760,14 @@ OBRA2,O'Brien Creek at Taylor Highway near Eagle,0,,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OCAM8,Otter Creek at Ashland (Closed),0,,True,False
 OCAN7,Pamlico Sound at Ocracoke (in MLLW),0,,True,False
-OCAT1,Ocoee Dam #1 Pool Benton 5S,0,,True,False
+OCAT1,Ocoee Dam #1 Pool Benton 5S,1,OCET1,True,False
 OCAW4,Owl Creek at Arapahoe Ranch,0,,True,False
 OCBA1,Little Claybank Creek near Ozark (US 231),0,,True,False
 OCBF1,Outer Clam Bay (in MHHW),0,,True,False
 OCCN7,Roanoke River above Occoneechee Creek at NC158,0,,True,False
 OCCO2,Crutcho Creek at SE 50th Street at Oklahoma City,0,,True,False
-OCCT1,Ocoee River above Ocoee Dam #3,0,,True,False
-OCET1,Toccoa River (GA) / Ocoee River (TN) near Emf (Archville 3S),0,,True,False
+OCCT1,Ocoee River above Ocoee Dam #3,2,CPHT1;OCET1,True,False
+OCET1,Toccoa River (GA) / Ocoee River (TN) near Emf (Archville 3S),2,OCAT1;OCCT1,True,False
 OCHO3,Ochoco Creek below Ochoco Reservoir,0,,True,False
 OCIC1,Old River at Coney Island,0,,True,False
 OCIM2,Atlantic Coast near OCEAN CITY INLET (IN MLLW),0,,True,False
@@ -7249,7 +7224,7 @@ ROEG1,Etowah River at GA 1 Loop near Rome,2,ERRG1;KGTG1,True,False
 ROFN7,Pamlico Sound at Rodanthe Ferry Terminal (in MLLW),0,,True,False
 ROHC1,Copeland Creek at Rohnert Park,0,,True,False
 ROHN6,Genesee River at Ford Street Rochester,0,,True,False
-ROKF1,Rocky Creek Near Sulphur Springs,0,,True,False
+ROKF1,Rocky Creek Near Sulphur Springs,2,BDKF1;CPKF1,True,False
 ROKI2,Rock River at Rockton,3,AFTW3;LATI2;SIRI2,True,False
 ROKM8,Rock Creek (South Central MT) near Red Lodge MT,0,,True,False
 ROKN7,Tar River at NC97 In Rocky Mount,0,,True,False
@@ -8111,7 +8086,7 @@ SLUC2,Culebra Creek at San Luis,0,,True,False
 SLUF1,St Lucie River in Palm City (in MHHW),0,,True,False
 SLUS1,Saluda River near Riverbanks Zoo,2,COLS1;MURS1,True,False
 SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
-SLVK2,Kentucky River at Salvisa,0,,True,False
+SLVK2,Kentucky River at Salvisa,2,HIBK2;TYRK2,True,False
 SLVM4,Silver River near L`Anse,0,,True,False
 SLVN6,West Branch Delaware River at Stilesville,2,CNNN6;HLEN6,True,False
 SLYP1,Aughwick Creek at Shirleysburg,0,,True,False
@@ -8719,7 +8694,7 @@ SYCT2,Sycamore Creek near Del Rio 12SE,0,,True,False
 SYDO2,Otter Creek (OK) near Snyder,0,,True,False
 SYDP1,Central PA Dams  Sayers Dam on Bald Eagle Creek,4,BCHP1;MSBP1;RTDP1;STVP1,True,False
 SYIC1,Sleepy Hollow Creek at RVFD Fire Station 20,0,,True,False
-SYLI3,North Branch Elkhart River at Sylvan Lake,0,,True,False
+SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 SYMA3,Sycamore Creek (AZ) above Verde River near Clarkdale,0,,True,False
 SYMT2,Brazos River at Seymour,2,AMTT2;SOUT2,True,False
 SYOT2,Wichita River at Lake Kemp,2,MBLT2;SEYT2,True,False
@@ -9228,7 +9203,7 @@ TYLN5,Canadian River near Taylor Springs,2,SNCN5;SPGN5,True,False
 TYLN7,Tryon Lake,0,,True,False
 TYLV2,Tye River near Lovingston,0,,True,False
 TYLW3,Tyler Forks River near Mellen,0,,True,False
-TYRK2,Kentucky River at Tyrone,0,,True,False
+TYRK2,Kentucky River at Tyrone,2,FFTK2;SLVK2,True,False
 TYRO1,Touby Run at Mansfield,0,,True,False
 TYSA3,Tyson Wash at Quartzsite,0,,True,False
 TYTF1,Little Withlacoochee River near Tarrytown (in NAVD88) ,0,,True,False

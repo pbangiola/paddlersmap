@@ -8,6 +8,7 @@ CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CRMV2,Cowpasture River at McClung,1,COWV2,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
+CRRK2,Kentucky River above Kentucky Lock 1 at Carrollton,1,LPTK2,True,False
 CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
 CRUA2,Colville River at Umiat,1,CCVA2,True,False
 CSAF1,Cypress Creek at SR 52 Near San Antonio,1,WRGF1,True,False
@@ -155,7 +156,6 @@ HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
-HIBK2,Kentucky River at High Bridge Lock,1,CPNK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
@@ -413,6 +413,7 @@ OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
 OBNK1,Sappa Creek near Oberlin,1,NCRK1,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
+OCAT1,Ocoee Dam #1 Pool Benton 5S,1,OCET1,True,False
 OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
@@ -611,6 +612,7 @@ SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SXRA2,Kenai River at Soldotna,1,KEYA2,True,False
+SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
