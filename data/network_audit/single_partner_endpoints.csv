@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
 CPWO1,Chippewa Creek (Cuyahoga) at Broadview Heights,1,CHPO1,True,False
 CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
@@ -129,6 +128,7 @@ GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
 GBYW3,Fox River (North) at Green Bay,1,WRGW3,True,False
 GDVM5,Shell Rock River (Northeast IA) near Gordonsville 1W,1,MANI4,True,False
 GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
+GERT1,Wolf River at Germantown,1,COTT1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GILN5,Gila River above Gila,1,RGRN5,True,False
@@ -157,6 +157,7 @@ HIBK2,Kentucky River at High Bridge Lock,1,CPNK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
+HNBP1,West Branch Brandywine Creek at Honeybrook,1,COTP1,True,False
 HNFT2,North Fork Guadalupe River near Hunt,1,HNTT2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
@@ -203,6 +204,7 @@ JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
 JMEI4,Floyd River at James,1,MRLI4,True,False
 JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
 JSLS2,James River near Hecla,1,CMBS2,True,False
+JSPM5,Split Rock Creek below Jasper,1,PALS2,True,False
 JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
@@ -243,6 +245,7 @@ LENW3,Little La Crosse River at Leon,1,CFMW3,True,False
 LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
 LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
+LGRT1,Wolf River near La Grange,1,ROST1,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
 LHMN7,Little Rockfish Creek at Lakeview Rd near Hope Mills,1,BVFN7,True,False
@@ -336,7 +339,9 @@ MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
+MODP1,West Branch Brandywine Creek at Modena,1,COTP1,True,False
 MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
+MOJV2,North Fork Shenandoah River near Mount Jackson,1,COOV2,True,False
 MOLO3,Molalla River at Shady Dell near Molalla 2ESE,1,CANO3,True,False
 MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
@@ -455,6 +460,7 @@ PNDP1,Clarion River at Piney Dam  Tailwater,1,COKP1,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
+POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
@@ -528,6 +534,7 @@ SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
+SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
@@ -569,6 +576,7 @@ SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
+SNOA2,Snow River near Seward,1,COOA2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
@@ -609,6 +617,7 @@ TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
+TLCT2,Sulphur River near Talco,1,COPT2,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
