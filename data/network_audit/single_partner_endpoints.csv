@@ -53,6 +53,7 @@ CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
 CVGV2,Jackson River at Covington,1,FLGV2,True,False
+CVLO2,Caney River near Collinsville,1,RAMO2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
@@ -81,6 +82,7 @@ DVDO2,Red River near Davidson,1,BKBT2,True,False
 EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
 EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
+EBWM5,North Fork Whitewater River near Elba,1,BVRM5,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
 ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,True,False
 EDNT2,Lavaca River near Edna,1,HTST2,True,False
@@ -186,6 +188,7 @@ JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
 JYBT2,Neches River at Downtown Beaumont,1,BEAT2,True,False
 JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
 KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
+KCTM7,Blue River at 12th Street,1,KSVM7,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
@@ -211,6 +214,7 @@ LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
+LHMN7,Little Rockfish Creek at Lakeview Rd near Hope Mills,1,BVFN7,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LITW2,Tug Fork River at Litwar,1,BRSW2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
@@ -278,6 +282,7 @@ MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
 MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
+MRGI2,Kishwaukee River at Marengo,1,BVDI2,True,False
 MRNF1,Tide Gauge at North Port Charlotte (In MHHW),1,SKHF1,True,False
 MRNN6,Esopus Creek at Mount Marion,1,ASEN6,True,False
 MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
@@ -373,6 +378,7 @@ PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
+PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
@@ -457,6 +463,7 @@ SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
+STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
 STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
@@ -498,6 +505,7 @@ VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
 VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
+VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN2,Walker River near Wabuska,1,WBMN2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
@@ -541,6 +549,7 @@ WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
+YPSA2,Yukon River at Pilot Station,1,NULA2,True,False
 YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZAYL1,Comite River near Zachary,1,BAKL1,True,False
