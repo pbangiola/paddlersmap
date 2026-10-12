@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CNCO3,Canyon Creek near Canyon City,1,CCTO3,True,False
-CNEI4,Cedar River near Conesville,1,CEBI4,True,False
 CNON6,Chenango River near Chenango Forks,1,GNEN6,True,False
 CNWM2,Susquehanna River at Conowingo Dam,1,MRTP1,True,False
 COGO3,Cow Creek above Azalea,1,GSVO3,True,False
@@ -292,6 +290,7 @@ MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
+MCKT2,East Fork Trinity River at McKinney,1,LVNT2,True,False
 MCLM6,Leaf River near McLain,1,NAGM6,True,False
 MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
@@ -315,6 +314,7 @@ MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MILN4,Passaic River near Millington,1,CAMN4,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
+MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
@@ -480,6 +480,7 @@ REGN8,Cannonball River at Regent,1,BREN8,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
+RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
 RIGA4,Right Hand Chute Little River at Rivervale,1,PNGA4,True,False
 RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
@@ -502,7 +503,6 @@ RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
-RVRN1,Republican River at Riverton,1,REPN1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
@@ -556,10 +556,10 @@ SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
-SNCN5,Canadian River near Sanchez,1,TYLN5,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
+SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
@@ -638,7 +638,6 @@ WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
-WBXM1,Saco River at West Buxton,1,CNWN3,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
