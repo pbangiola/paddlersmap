@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
-HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
-HGBT2,Greens Bayou near Houston,1,GBHT2,True,False
-HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
 HLKI1,Eastern Idaho Reservoirs at Henrys Lake,1,HENI1,True,False
@@ -225,6 +221,7 @@ MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
 MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
 MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
+MHDC3,Connecticut River at Middle Haddam,1,HFDC3,True,False
 MHDF1,Shoal River near Mossy Head (CR 1087),1,CRVF1,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
 MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False

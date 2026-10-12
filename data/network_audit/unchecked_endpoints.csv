@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HEYI2,Little Kickapoo Creek near Heyworth,0,,True,False
-HEYO2,Eastern Oklahoma Lakes at Heyburn Lake,0,,True,False
-HFAI1,Henrys Fork near Ashton,2,ANTI1;ISLI1,True,False
-HFCC1,Hot Creek at Flume Near Mammoth Lakes,0,,True,False
-HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
-HFDN7,Perquimans River at Raccoon Creek at Church St Near Hertford,0,,True,False
-HFDS1,Grove Creek at Holland Ford Rd.,0,,True,False
-HFDV2,Hogue Creek near Hayfield,0,,True,False
-HFEW2,Potomac River at Harpers Ferry,2,PORM2;SHEW2,True,False
-HFFT2,Luce Bayou near Huffman,0,,True,False
-HFLA1,Tallapoosa River near Heflin,0,,True,False
-HFMW4,Henrys Fork at Manila,0,,True,False
-HFOF1,Phillippi Canal at Hidden Forest,0,,True,False
-HFXN7,Roanoke River at Halifax,2,RRDN7;SCON7,True,False
-HFXT2,Blanco River above at Halifax Ranch near Kyle,2,KYET2;WMBT2,True,False
-HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
-HGBT2,Greens Bayou near Houston,1,GBHT2,True,False
-HGCI3,Grand Calumet River above Hammond (Columbia Ave),0,,True,False
-HGCV1,Rock River (VT) near Highgate Center,0,,True,False
-HGDM2,Unnamed Tributary above Heritage Glen Dam,0,,True,False
-HGLI3,Little Calumet River at Highland (Kennedy Avenue),2,GBSI3;HMMI3,True,False
-HGLO2,Eastern Oklahoma Lakes at Hugo Lake,0,,True,False
-HGLT2,Highland Bayou at FM 646 near Santa Fe,0,,True,False
-HGPC2,Harvard Gulch (CO) near Englewood,0,,True,False
-HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HGRN7,Yadkin River at High Rock Lake,2,BADN7;YADN7,True,False
 HGRN8,Goose River at Hillsboro,0,,True,False
 HGSP1,Conodoguinet Creek near Hogestown,0,,True,False
@@ -302,7 +277,7 @@ HSEF1,Tide Gauge at Homosassa Springs (In MHHW),0,,True,False
 HSGF1,Suwannee River at Hart Springs (in NAVD88),0,,True,False
 HSHF1,Halls River at Kingston Dr at Homosassa Springs (Stage Datum),0,,True,False
 HSIT2,Sims Bayou at Houston,0,,True,False
-HSJT2,San Jacinto River at Lake Houston,3,HMMT2;NCET2;SHLT2,True,False
+HSJT2,San Jacinto River at Lake Houston,4,HFFT2;HMMT2;NCET2;SHLT2,True,False
 HSKO2,Arkansas River near Haskell,2,MKGO2;TLSO2,True,False
 HSNK1,Buckner Creek at Hanston,2,BETK1;JTRK1,True,False
 HSPF1,Santa Fe River near High Springs (in NAVD88),2,POEF1;RRZF1,True,False
@@ -2187,7 +2162,7 @@ MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
 MHBC1,Cosumnes River at Michigan Bar,0,,True,False
 MHBT2,Tide Gauge at Enbridge Ingleside,0,,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
-MHDC3,Connecticut River at Middle Haddam,0,,True,False
+MHDC3,Connecticut River at Middle Haddam,1,HFDC3,True,False
 MHDF1,Shoal River near Mossy Head (CR 1087),1,CRVF1,True,False
 MHDM8,Powder River (WY-MT) at Moorhead,2,ARVW4;LOCM8,True,False
 MHDP1,Mahoning Creek at Mahoning Dam Tailwater,0,,True,False
