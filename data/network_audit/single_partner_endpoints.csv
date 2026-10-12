@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
-LOPO3,Reservoir at Lookout Point nr Lowell,1,DEXO3,True,False
-LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
-LOWM3,Merrimack River at Lowell,1,NSHN3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPBV2,"Little River near Peach Bottom, VA",1,LBXN7,True,False
 LPOL1,Tickfaw River at Liverpool,1,MONL1,True,False
@@ -238,6 +234,7 @@ OCTW3,Oconto River near Oconto,1,GILW3,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OGSN6,Oswegatchie River near Ogdensburg,1,HEUN6,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
+OKLM5,Lost River at Oklee,1,LOSM5,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 OLDO1,Little Miami River near Oldtown,1,LLMO1,True,False
@@ -292,6 +289,7 @@ PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
 PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
 PGKN7,Pinch Gut Creek at U.S. Highway 17,1,LFRN7,True,False
 PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
+PGVN7,Tar River at Greenville,1,TARN7,True,False
 PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
 PHCG1,Line Creek below GA 54 near Peachtree City,1,LMCG1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
@@ -474,6 +472,7 @@ SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
 SFLN2,Salmon Falls Creek near San Jacinto,1,HAGI1,True,False
+SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,1,SHLM8,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SGDU1,Sevier River near Sigurd,1,SRKU1,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
@@ -609,6 +608,7 @@ TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TRNP1,Shenango River near Transfer,1,JMSP1,True,False
 TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
+TRVN7,Tar River near Tar River,1,LOUN7,True,False
 TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSCK1,Saline River (KS) at Tescott,1,LINK1,True,False
