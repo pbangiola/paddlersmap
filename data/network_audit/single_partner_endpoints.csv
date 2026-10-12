@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LAUW1,Kettle River near Laurier,1,FRYW1,True,False
-LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
-LAWK1,Wakarusa River near Lawrence,1,CLIK1,True,False
-LAWM3,Merrimack River at Lawrence,1,BATM3,True,False
 LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
 LBSM8,Little Bighorn River at State Line near Wyola,1,HRDM8,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
@@ -385,6 +381,7 @@ PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
+PVCC1,Los Angeles River below Sepulveda Dam,1,LRTC1,True,False
 QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False

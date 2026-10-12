@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LAUF1,Myakka River Near Laurel,2,BOWF1;MKCF1,True,False
-LAUW1,Kettle River near Laurier,1,FRYW1,True,False
-LAVG1,Shoal Creek at Paper Mill Rd near Lawrenceville,0,,True,False
-LAVW2,Twelvepole Creek at Lavalette,2,HNTW2;WAYW2,True,False
-LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
-LAWC1,Los Angeles River below Wardlow Road,0,,True,False
-LAWG1,Pew Creek at Patterson Road near Lawrenceville,0,,True,False
-LAWI1,Lawyer Creek at Kamiah,0,,True,False
-LAWI2,Embarras River (IL) at Lawrenceville,2,MCRI2;STMI2,True,False
-LAWK1,Wakarusa River near Lawrence,1,CLIK1,True,False
-LAWM3,Merrimack River at Lawrence,1,BATM3,True,False
-LAWN4,North Branch Metedeconk River at Lakewood,0,,True,False
-LAWS1,Lawsons Fork Creek at Spartanburg,0,,True,False
-LAWV2,Meherrin River near Lawrenceville,2,EPOV2;SOHV2,True,False
-LBAF1,Lemon Bay Canal,0,,True,False
-LBBL1,Bayou Bodcau at Bayou Bodcau Lake,0,,True,False
-LBBO3,Little Butte Creek at Brownsboro,0,,True,False
-LBCI3,Little Buck Creek near Indianapolis,0,,True,False
-LBCW4,LaBarge Creek above Viola,0,,True,False
-LBDN5,Rio Grande below Leasburg Dam,2,MSLN5;RHBN5,True,False
-LBDV2,Unnamed Tributary at Lake Braddock in Burke,0,,True,False
-LBFF1,Lake Bradford at Camp Flastacowo (in NAVD88),0,,True,False
-LBFL1,Bogue Falaya River at Little Bogue Falaya at Holly Drive,0,,True,False
-LBFM2,Little Gunpowder Falls at Laurel Brook,0,,True,False
-LBFM7,Little Black River above Fairdealing,0,,True,False
 LBFM8,Little Blackfoot River near Garrison 1SE,0,,True,False
 LBFT2,Little Blanco River at FM32 near Fischer,0,,True,False
 LBGM6,Bogue Phalia near Leland,0,,True,False
@@ -550,7 +525,7 @@ LRRM8,Red Rock River at Lima Reservoir near Lima,2,CLKM8;RRLM8,True,False
 LRSF1,St Marks River at Leckinger (in NAVD88),0,,True,False
 LRST2,Larrison Creek at FM 1428 near Midway,0,,True,False
 LRSV2,Little River (VA) at Little River Reservoir,0,,True,False
-LRTC1,Los Angeles River at Tujunga Avenue,0,,True,False
+LRTC1,Los Angeles River at Tujunga Avenue,2,LAWC1;PVCC1,True,False
 LRTL1,Larto Lake at Larto Lake,0,,True,False
 LRTN1,Beaver Creek at Loretto,0,,True,False
 LRTN7,Little River (NC) at Niagara Carthage Rd,0,,True,False
@@ -3291,7 +3266,7 @@ PUNF1,Shell Creek Near Punta Gorda,2,PRKF1;SHEF1,True,False
 PUTC3,Quinebaug River at Putnam,0,,True,False
 PUWO3,Pudding River near Woodburn,3,ABQO3;AURO3;SCSO3,True,False
 PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
-PVCC1,Los Angeles River below Sepulveda Dam,0,,True,False
+PVCC1,Los Angeles River below Sepulveda Dam,1,LRTC1,True,False
 PVHC1,Pallet Creek,0,,True,False
 PVHM3,Atlantic Coast at Provincetown Harbor (IN MLLW),0,,True,False
 PVLK2,Cumberland River at Pineville,2,BBVK2;BXTK2,True,False
