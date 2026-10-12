@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
-COMO2,Neosho River near Commerce,1,NSOK1,True,False
-COMS1,Combahee River near Yemassee,1,CMGS1,True,False
 CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
 CPWO1,Chippewa Creek (Cuyahoga) at Broadview Heights,1,CHPO1,True,False
 CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
@@ -109,6 +106,7 @@ FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
 FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
+FOSM4,Flint River at Fosters,1,FLTM4,True,False
 FPKG1,Savannah River at Fort Pulaski (IN MLLW),1,SVDG1,True,False
 FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
 FRKM1,Kennebec River at The Forks,1,BINM1,True,False
@@ -148,6 +146,7 @@ GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
+GWGT2,Guadalupe River at CR 143 near Gonzales,1,SGGT2,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
@@ -158,6 +157,7 @@ HIBK2,Kentucky River at High Bridge Lock,1,CPNK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
+HNFT2,North Fork Guadalupe River near Hunt,1,HNTT2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
@@ -195,6 +195,7 @@ JCCF1,Jumper Creek Canal ,1,BNLF1,True,False
 JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JHNA4,Saline River near Johnsville,1,WARA4,True,False
+JHNP1,Clarion River at Johnsonburg,1,RDYP1,True,False
 JHSP1,Conemaugh River at Johnstown,1,SWDP1,True,False
 JKFM7,Jacks Fork near Mountain View,1,ALYM7,True,False
 JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
@@ -352,6 +353,7 @@ MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
+MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
@@ -449,6 +451,7 @@ PLOP4,Lago Loiza near Trujillo Alto,1,CAGP4,True,False
 PLRM8,Poplar River near Poplar,1,BDPM8,True,False
 PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
 PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
+PNDP1,Clarion River at Piney Dam  Tailwater,1,COKP1,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
@@ -577,6 +580,7 @@ SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
+SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
