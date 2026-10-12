@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HMOC1,Pilarcitos Creek below Stone Dam NR Hillsborough,0,,True,False
-HMOF1,Homosassa Springs at Homosassa Springs,0,,True,False
-HMPS1,Coosawhatchie River near Hampton,1,CRRS1,True,False
-HMPV2,Willow Springs Branch near Centreville (Hampton Forest Sec 4 Regional Pond),0,,True,False
-HMRN1,Omaha Creek at Homer,0,,True,False
-HMRP1,Yellow Creek at Homer City,0,,True,False
-HMRW1,Humptulips River below Blo Hwy 101 NR Humptulips,0,,True,False
-HMSA2,Harbor MT,0,,True,False
-HMTA1,Buttahatchee River Below Hamilton,0,,True,False
-HMZC2,Huerfano River near Redwing,0,,True,False
-HNBP1,West Branch Brandywine Creek at Honeybrook,1,COTP1,True,False
-HNDC2,South Platte River at Henderson,4,DNVC2;DRBC2;LUPC2;SACC2,True,False
-HNDM2,Paint Branch near Hillandale / Powder Mill Road,0,,True,False
-HNDM5,Wild Rice River (MN) at Hendrum,3,ADSM5;FLTM5;HILN8,True,False
-HNEP1,Dyberry Creek near Honesdale,0,,True,False
-HNEW2,Meadow River at Hines IFLOWS SG,0,,True,False
-HNFT2,North Fork Guadalupe River near Hunt,1,HNTT2,True,False
-HNKI4,West Nishnabotna River near Hancock,0,,True,False
-HNKM2,Potomac River at Hancock,0,,True,False
-HNKN2,Hanks Creek above Mary's River,0,,True,False
-HNLM5,Spring Creek (MN) near Hanley Falls 4NW,0,,True,False
-HNLT2,Little Cypress Creek (SE TX) at County Road 3114,0,,True,False
-HNNM7,Mississippi River at Hannibal,2,QLDI2;SVRM7,True,False
-HNNW2,New River below Hawks Nest,2,KANW2;THMW2,True,False
-HNOC3,Little River at Hanover,0,,True,False
 HNRA2,Nenana River at Healy,0,,True,False
 HNRF1,Tide Gauge at Hancock Creek (in MHHW),0,,True,False
 HNRN7,South Fork Catawba River near HENRY FORK,0,,True,False
@@ -131,7 +106,7 @@ HRDM8,Little Bighorn River near Hardin,0,,True,False
 HRDN2,Humboldt River at Dunphy,2,HBMN2;PALN2,True,False
 HREA2,Homer Tide Gauge at Homer Harbor Ramp 8 (MLLW datum),0,,True,False
 HREM2,Herring Run at Mount Pleasant in Baltimore,0,,True,False
-HREN2,Humboldt River near Elko,2,DEVN2;HRCN2,True,False
+HREN2,Humboldt River near Elko,3,DEVN2;HRCN2;MHSN2,True,False
 HRFK2,Rough River at Hartford,0,,True,False
 HRFT1,Pigeon River below Waterville NC near Hartford TN,0,,True,False
 HRFV2,Hughes River at F.T. Valley Road,0,,True,False
@@ -260,7 +235,7 @@ HWDN8,Sheyenne River at Harwood,4,AMEN8;HILN8;MAPN8;WSFN8,True,False
 HWDS1,Savannah River at Lake Hartwell,2,HRTG1;KEOS1,True,False
 HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
 HWLT2,Clear Fork Brazos River at Hawley,2,NGTT2;ROYT2,True,False
-HWNI4,West Nishnabotna River near Henderson (IFC),0,,True,False
+HWNI4,West Nishnabotna River near Henderson (IFC),2,HNKI4;RDPI4,True,False
 HWRI1,Big Lost River at Howell Ranch,2,BLRI1;MACI1,True,False
 HWRV2,Hardware River below BRIERY RUN NR SCOTTSVILLE,0,,True,False
 HWSH1,Halawa Stream (Oahu) near Honolulu,0,,True,False
@@ -2074,7 +2049,7 @@ MHOM6,Mississippi River at Tunica Mhoon Landing,2,HEEA4;MEMT1,True,False
 MHPP1,Susquehanna River at Meshoppen,2,TOWP1;WBRP1,True,False
 MHRV2,Mason Creek at Hanging Rock,0,,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
-MHSN2,Marys River above Hot Springs Creek nr Deeth,0,,True,False
+MHSN2,Marys River above Hot Springs Creek nr Deeth,2,HNKN2;HREN2,True,False
 MHTT1,Clinch River below Melton Hill Dam,2,KGTT1;MHDT1,True,False
 MHWO1,Walhonding River at Mohawk Dam Pool,4,LDVO1;MVEO1;NLLO1;PHLO1,True,False
 MHYI2,Fox River at McHenry (Stratton Lock and Dam) tailwater,2,ALGI2;JHNI2,True,False
@@ -2706,7 +2681,7 @@ NAHD2,Hickey Run at National Arboretum,0,,True,False
 NAHN7,Nahunta Swamp near Shine,0,,True,False
 NAKA2,[INACTIVE] Naknek River at Lake Camp,0,,True,False
 NALF1,North Prong Alafia River Near Nichols,0,,True,False
-NALW2,Meadow River at Nallen,0,,True,False
+NALW2,Meadow River at Nallen,1,HNEW2,True,False
 NAMO3,Malheur River at Namorf,0,,True,False
 NAMP4,Rio Guadiana near Guadiana,0,,True,False
 NANA1,Tombigbee River near Nanafalia,2,CLDA1;DLDA1,True,False
@@ -3581,7 +3556,7 @@ PAWL1,Paw Paw Bayou near Greenwood,0,,True,False
 PAWN7,Paw Creek at Wilkinson Blvd,0,,True,False
 PAWO2,Black Bear Creek at Pawnee,0,,True,False
 PAWR1,Blackstone River at Pawtucket,0,,True,False
-PAWW2,Potomac River at Paw Paw,0,,True,False
+PAWW2,Potomac River at Paw Paw,1,HNKM2,True,False
 PAXP4,Canal de Patillas above Guayama Filtration Plant,0,,True,False
 PAYF1,Payne Creek Near Bowling Green,0,,True,False
 PAYI1,North Fork Payette River at McCall,2,CSDI1;LFPI1,True,False
@@ -4480,7 +4455,7 @@ RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDNK1,Marais Des Cygnes River near Reading,0,,True,False
 RDOI4,East Nishnabotna River at Red Oak,2,COBI4;ELTI4,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
-RDPI4,West Nishnabotna River near Randolph,0,,True,False
+RDPI4,West Nishnabotna River near Randolph,1,HWNI4,True,False
 RDPN7,Atlantic Coast at Rodanthe Pier,0,,True,False
 RDRC1,Carmel River at Robles Del Rio,2,CMEC1;LPRC1,True,False
 RDRP1,Schuylkill River at Reading,2,BREP1;PTNP1,True,False

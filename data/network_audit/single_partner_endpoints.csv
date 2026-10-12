@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HMPS1,Coosawhatchie River near Hampton,1,CRRS1,True,False
-HNBP1,West Branch Brandywine Creek at Honeybrook,1,COTP1,True,False
-HNFT2,North Fork Guadalupe River near Hunt,1,HNTT2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
@@ -293,6 +290,7 @@ MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 NACW1,Naches River near Naches,1,CLFW1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
+NALW2,Meadow River at Nallen,1,HNEW2,True,False
 NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
@@ -389,6 +387,7 @@ PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PATP4,Rio Patillas near Patillas,1,PASP4,True,False
+PAWW2,Potomac River at Paw Paw,1,HNKM2,True,False
 PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
 PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
@@ -475,6 +474,7 @@ RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
+RDPI4,West Nishnabotna River near Randolph,1,HWNI4,True,False
 RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
 REEO3,Umpqua River at Reedsport,1,EKTO3,True,False
 REGN8,Cannonball River at Regent,1,BREN8,True,False
