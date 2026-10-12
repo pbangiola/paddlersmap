@@ -1,11 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
-MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
-MFLM8,Flatwillow Creek above Mosby,1,FLWM8,True,False
-MFNT2,San Antonio River near McFaddin,1,GLIT2,True,False
 MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
 MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
+MGNN7,Morgan Creek near White Cross,1,MGCN7,True,False
 MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
 MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
 MHBC1,Cosumnes River at Michigan Bar,1,MCNC1,True,False
@@ -125,6 +122,7 @@ NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
 NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
+NKSW1,Nooksack River at Ferndale,1,NREW1,True,False
 NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NLWW4,North Fork Little Wind River near Fort Washakie,1,FWRW4,True,False
@@ -279,8 +277,10 @@ PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
+PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
+PRLI1,South Fork Payette River at Lowman,1,MFPI1,True,False
 PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRLT2,Clear Creek above Telephone Road,1,HCCT2,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
@@ -457,6 +457,7 @@ SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
 SMCO2,Mill Creek (OK) near Sulphur,1,MCKO2,True,False
 SMCW4,Sybille Creek near Wheatland,1,GRIW4,True,False
+SMFV2,Middle Fork Holston River at Seven Mile Ford,1,MFHV2,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
@@ -705,6 +706,7 @@ WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 WVRV1,North Branch Winooski River at Wrightsville Detention Reservoir,1,WRTV1,True,False
 WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
+WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False

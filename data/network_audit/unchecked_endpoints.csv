@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MFDP1,Tioga River at Mansfield,0,,True,False
-MFDT2,Colorado River (TX) at Lake Marble Falls,2,GPLT2;MSDT2,True,False
-MFEM2,North Branch Patapsco River at Liberty Reservoir,0,,True,False
-MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
-MFGN5,Middle Fork Gila River near Gila Hot Springs,0,,True,False
-MFGP1,Pequea Creek above Martic Forge,0,,True,False
-MFHM4,Huron River near Milford,0,,True,False
-MFHV2,Middle Fork Holston River near Meadowview 4SE,0,,True,False
-MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
-MFLM8,Flatwillow Creek above Mosby,1,FLWM8,True,False
-MFNT2,San Antonio River near McFaddin,1,GLIT2,True,False
-MFNW1,Middle Fork Nooksack River near Deming,0,,True,False
-MFOO3,Mid Fork Willamette River above Hills Creek Res nr Oakridge,0,,True,False
-MFPC1,Middle Fork American River Above Middle Fork Power Plant,0,,True,False
-MFPI1,Middle Fork Payette River at Crouch,0,,True,False
-MFPW1,Mad River above Pine Flats,0,,True,False
-MFSC1,Mayfield Slough  Tidal Station,0,,True,False
-MFSO3,MID FORK WILLAMETTE R BELOW HILLS CREEK DAM NEAR OAKRIDGE,0,,True,False
-MFSW3,Menomonee River at Menomonee Falls,0,,True,False
-MFTC1,Middle Fork Feather River near Portola,0,,True,False
-MFVK2,Green River (KY) at Munfordville,2,GNSK2;MMCK2,True,False
-MFWA3,Frees Wash at Interstate 40,0,,True,False
-MGAN5,Black River 1 mile NE of Malaga,2,MLAN5;MLGN5,True,False
-MGCN2,Maggie Creek near Carlin,0,,True,False
-MGCN7,Morgan Creek near Chapel Hill,0,,True,False
 MGCO2,McGee Creek at McGee Creek Lake,0,,True,False
 MGCS1,Atlantic Intracoastal Waterway at Myrtle Beach,0,,True,False
 MGDV2,Maggodee Creek above Boones Mill,0,,True,False
@@ -37,7 +12,7 @@ MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
 MGMO2,Salt Fork of the Red River at Mangum,2,ESFO2;WLGT2,True,False
 MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
 MGNI3,Trail Creek at Michigan City Harbor,0,,True,False
-MGNN7,Morgan Creek near White Cross,0,,True,False
+MGNN7,Morgan Creek near White Cross,1,MGCN7,True,False
 MGOI3,Whiskey Run at Marengo,0,,True,False
 MGOI4,Indian Creek near Mingo,2,MXII4;RSSI4,True,False
 MGPN6,Mongaup River at Mongaup Valley,0,,True,False
@@ -942,7 +917,7 @@ NKLW1,Nooksack River near Lynden,0,,True,False
 NKMF1,Tide Gauge at Nokomis (In MHHW),0,,True,False
 NKOO1,North Fork Licking River (OH) at Newark (Ohio Street),2,NEAO1;NMSO1,True,False
 NKRN1,Maple Creek near Nickerson,0,,True,False
-NKSW1,Nooksack River at Ferndale,0,,True,False
+NKSW1,Nooksack River at Ferndale,1,NREW1,True,False
 NKTA2,Nikiski at Nikiski Tide Gage,0,,True,False
 NKTT1,Tennessee River below Nickajack Dam (Jasper 5S),2,NKJT1;SPTT1,True,False
 NLBN4,Greenwood Branch at New Lisbon,0,,True,False
@@ -1057,7 +1032,7 @@ NRCN1,North Fork Elkhorn River at Norfolk,0,,True,False
 NRCO2,Canadian River at Norman,2,PRCO2;TUCO2,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
 NRDA2,Nuyakuk River near Dillingham,0,,True,False
-NREW1,Nooksack River at Everson,0,,True,False
+NREW1,Nooksack River at Everson,2,NKSW1;NRKW1,True,False
 NREX1,Experimental Everson,0,,True,False
 NRFA3,New River Maricopa near New River,0,,True,False
 NRFF1,New River at Riverwalk Fort Lauderdale (in MHHW),0,,True,False
@@ -1067,7 +1042,7 @@ NRGN1,Niobrara River near Gordon 11S,0,,True,False
 NRHF1,Nassau River at US-17 (in MHHW),0,,True,False
 NRHN1,Niobrara River near Hay Springs 14S,0,,True,False
 NRHS1,New River near Hardeeville (IN MLLW),0,,True,False
-NRKW1,Nooksack River at North Cedarvillle,0,,True,False
+NRKW1,Nooksack River at North Cedarvillle,2,MFNW1;NREW1,True,False
 NRMO2,Little River (OK) at Lake Thunderbird,0,,True,False
 NRMT1,Duck River at Normandy Dam,0,,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
@@ -1202,7 +1177,7 @@ OAKA3,Oak Creek (AZ) at Sedona,1,OACA3,True,False
 OAKI2,Midlothian Creek at Oak Forest,0,,True,False
 OAKI3,Tippecanoe River below Oakdale Dam,2,MCXI3;OADI3,True,False
 OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
-OAKO3,Mid Fork Willamette River near Oakridge,2,HCRO3;JASO3,True,False
+OAKO3,Mid Fork Willamette River near Oakridge,3,HCRO3;JASO3;MFSO3,True,False
 OAKT1,Emory River at Oakdale,2,KGTT1;OBDT1,True,False
 OAKW3,Oak Creek at South Milwaukee,0,,True,False
 OARM6,Okatibbee Creek at Arundel,2,ENSM6;MEIM6,True,False
@@ -2071,7 +2046,7 @@ PRDA2,Prudhoe Bay Tide Gauge at Prudhoe Bay (MHHW datum),0,,True,False
 PRDI3,Pogues Run above Dam near I-70 in Eastern Marion County,0,,True,False
 PRDK2,Green River (KY) at Paradise,2,RCHK2;RCPK2,True,False
 PRDL1,Pearl River at Lock #2 Chamber,0,,True,False
-PRDP1,Pequea Creek at Paradise,0,,True,False
+PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
 PRDT2,Rio Grande 5 miles SE of Presidio,2,EMDT2;PRST2,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PREW3,Mississippi River at Prescott - Pool 3,3,HSTM5;PSCW3;RDWM5,True,False
@@ -2096,7 +2071,7 @@ PRKM6,Red Creek at Perkinston,0,,True,False
 PRKO2,Cimarron River near Perkins,2,GTRO2;RIPO2,True,False
 PRKQ3,Pembina River near Killarney MB,0,,True,False
 PRKT2,Concho River at Paint Rock,0,,True,False
-PRLI1,South Fork Payette River at Lowman,0,,True,False
+PRLI1,South Fork Payette River at Lowman,1,MFPI1,True,False
 PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRLM2,Patuxent River at Avondale Street in Laurel,2,BOWM2;PRNM2,True,False
 PRLO1,East Branch Rocky River at Strongsville,0,,True,False
@@ -2707,7 +2682,7 @@ ROMO3,Owyhee River at Rome,0,,True,False
 ROMT1,Big Creek near Rosemark,0,,True,False
 ROMW3,Bark River at Rome,0,,True,False
 RONN6,Rondout Creek at Rondout Rsvr,0,,True,False
-RONP1,Pequea Creek near Ronks,0,,True,False
+RONP1,Pequea Creek near Ronks,2,MFGP1;PRDP1,True,False
 RONV2,Roanoke River at Roanoke,2,GNVV2;NIAV2,True,False
 RONW2,Greenbrier River at Ronceverte,2,ALDW2;CALW2,True,False
 ROOI3,St. Joseph River (OH/IN) near Fort Wayne,3,CDRI3;NVLI3;SJRI3,True,False
@@ -3340,7 +3315,7 @@ SHBW4,Goose Creek at Sheridan,0,,True,False
 SHCT2,Rowlette Creek near Sachse,0,,True,False
 SHDC2,Dry Creek (CO) above Fort Collins,0,,True,False
 SHDP1,Shenango River at Shenango Dam Tailwater,0,,True,False
-SHDT1,South Fork Holston River above South Holston Dam,2,BOOT1;VSTV2,True,False
+SHDT1,South Fork Holston River above South Holston Dam,3,BOOT1;MFHV2;VSTV2,True,False
 SHEA1,Aldridge Creek (AL) at Sherwood Drive in Huntsville,2,FRYA1;TONA1,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
 SHEF1,Shell Creek at CR 674,2,CCGF1;PUNF1,True,False
@@ -3573,7 +3548,7 @@ SMFF1,Tide Station at St Augustine Municipal Marina (in MHHW),0,,True,False
 SMFG1,Whitewater Creek at Starrs Mill,0,,True,False
 SMFN5,Rio Grande near San Marcial,2,EBNN5;SNAN5,True,False
 SMFN7,Neuse River at Smithfield,2,CLYN7;GLDN7,True,False
-SMFV2,Middle Fork Holston River at Seven Mile Ford,0,,True,False
+SMFV2,Middle Fork Holston River at Seven Mile Ford,1,MFHV2,True,False
 SMFW2,Morgan Run near Morgan Run,0,,True,False
 SMGS1,Sampit River below Highway 17 near Georgetown,0,,True,False
 SMHC1,Santa Margarita River near Temecula,0,,True,False
@@ -4306,7 +4281,7 @@ TFMN7,Third Fork Creek at ML King Pkwy in Durham,0,,True,False
 TFPV2,Tract Fork near Pulaski,0,,True,False
 TFRN7,Third Fork Creek at Woodcroft Park,0,,True,False
 TGAO2,Canadian River near Taloga,2,BRIO2;CDNT2,True,False
-TGAP1,Central PA Dams  Tioga-Hammond Dam on Tioga River,3,STVP1;TGRP1;YGBP1,True,False
+TGAP1,Central PA Dams  Tioga-Hammond Dam on Tioga River,4,MFDP1;STVP1;TGRP1;YGBP1,True,False
 TGAW1,Touchet River at Gallaher Road,0,,True,False
 TGCO3,Tualatin River above Golf Course Rd near Cornelius,2,DLLO3;TRRO3,True,False
 TGJP1,Tioga River at Tioga Junction,3,LDYN6;LLYN6;TGRP1,True,False
@@ -5697,7 +5672,7 @@ WWPM5,Middle Fork Whitewater River at Whitewater State Park Group Camp,0,,True,F
 WWPU1,Weber River near Plain City,2,GATU1;OAWU1,True,False
 WWRM3,Swift River at West Ware,0,,True,False
 WWRN7,West Prong Roaring River at S.R. 1745 ,0,,True,False
-WWTW3,Menomonee River at Wauwatosa,0,,True,False
+WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 WWVT2,Walnut Creek at Webberville Road,0,,True,False
 WXKC1,Arroyo Simi above White Oak,0,,True,False
 WYAA2,Whittier AMHS Dock Tide Gauge at Whittier (MLLW datum),0,,True,False
