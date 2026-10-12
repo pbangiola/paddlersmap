@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
-CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
-CRRK2,Kentucky River above Kentucky Lock 1 at Carrollton,1,LPTK2,True,False
 CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
 CRUA2,Colville River at Umiat,1,CCVA2,True,False
 CSAF1,Cypress Creek at SR 52 Near San Antonio,1,WRGF1,True,False
@@ -155,6 +152,7 @@ HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
+HMPS1,Coosawhatchie River near Hampton,1,CRRS1,True,False
 HNBP1,West Branch Brandywine Creek at Honeybrook,1,COTP1,True,False
 HNFT2,North Fork Guadalupe River near Hunt,1,HNTT2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
@@ -316,6 +314,8 @@ MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
 MFNT2,San Antonio River near McFaddin,1,GLIT2,True,False
 MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
+MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
+MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
 MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
@@ -469,6 +469,7 @@ PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
+PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
@@ -579,6 +580,7 @@ SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
+SNAW1,Snohomish River at Snohomish,1,MROW1,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNOA2,Snow River near Seward,1,COOA2,True,False
@@ -617,6 +619,7 @@ SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SXRA2,Kenai River at Soldotna,1,KEYA2,True,False
 SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
+TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
@@ -661,6 +664,7 @@ VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 VNCL1,Mississippi River at Venice,1,MWBL1,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
+VSUV2,South River at Vesuvius,1,CRNV2,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
