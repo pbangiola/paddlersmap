@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
-FTOF1,Prairie Creek Upstream SR 31,1,FOGF1,True,False
-FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
-FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
-FTSC1,Eel River (CA) near Fort Seward,1,SCOC1,True,False
-FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
 FVLP1,Loyalsock Creek at Forksville,1,HLLP1,True,False
 FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
 FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
@@ -74,6 +68,7 @@ HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
 HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
 HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
+HTNM7,Little Osage River at Horton,1,FTNK1,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
 HWBN7,Haw River at NC-62,1,HAWN7,True,False
@@ -408,6 +403,7 @@ PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
+PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
@@ -598,6 +594,7 @@ SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
+SPDN1,Cedar River near Spalding,1,FULN1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
@@ -612,6 +609,7 @@ SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
+SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
@@ -714,6 +712,7 @@ WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False
+WDRW3,Yahara River at Windsor,1,MDAW3,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
 WDVO1,Portage River at Woodville,1,EOMO1,True,False
 WEJO1,Little Darby Creek near West Jefferson,1,DBVO1,True,False
@@ -724,6 +723,7 @@ WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
 WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
+WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
