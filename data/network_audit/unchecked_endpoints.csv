@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GOHC1,Guadalupe Creek near Hicks Road,0,,True,False
-GOHV2,Calfpasture River at Goshen,0,,True,False
-GOLI2,Ohio River at Golconda,2,SHNI2;SMLI2,True,False
-GOLI4,Boone River near Goldfield 225th St--IFC,1,GLDI4,True,False
-GOLN5,Mora River near Golondrinas,0,,True,False
-GOLN8,Sheyenne River at Gol Road near Kindred,2,KNDN8;LBNN8,True,False
-GOLP1,Fishing Creek at Goldsboro,0,,True,False
-GOOS1,Cooper River near Goose Creek,2,CPFS1;PINS1,True,False
-GORC2,Gore Creek near Minturn,3,CSSC2;EALC2;EAMC2,True,False
-GORN7,Ellerbe Creek (NC) near Gorman,0,,True,False
-GORO2,Illinois River (AR OK) at Gore,0,,True,False
-GORW1,Skagit River at Newhalem,0,,True,False
-GOSI1,Goose Creek (ID) near Oakley,0,,True,False
-GOSO3,Coast Fork Willamette River at Goshen,2,EUGO3;LONO3,True,False
-GOSW4,Gooseberry Creek near Dickie,0,,True,False
-GOVA2,Government Creek near Ketchikan,0,,True,False
-GOVK1,Hackberry Creek at Gove,0,,True,False
-GOWN6,Cattaraugus Creek at Gowanda,0,,True,False
-GPCK2,Gunpowder Creek near Union,0,,True,False
-GPDN1,Missouri River at Gavins Point Dam,2,SPGS2;YANS2,True,False
-GPEC1,Guadalupe Creek below Guadalupe Reservoir,0,,True,False
-GPEM4,River Raisin at GRAPE,0,,True,False
-GPET2,North Texas Lakes at Mountain Creek Lake,0,,True,False
-GPJN4,Pequannock River at Green Pond Junction,0,,True,False
-GPKI4,Crane Creek near Alpha (IFC),0,,True,False
 GPLM6,Mississippi Sound at Gulfport Lighthouse,0,,True,False
 GPLT2,Colorado River (TX) at Lake LBJ,2,IKLT2;MFDT2,True,False
 GPOA2,Gulkana River at Paxson Lake Outlet near Paxson,0,,True,False
@@ -127,7 +102,7 @@ GRUN3,Upper Ammonoosuc River near Groveton,0,,True,False
 GRUV2,Slate Creek at Grundy (Slate Creek 460/Levisa Fork),0,,True,False
 GRUW4,Gros Ventre River near Gros Ventre River above Upper Slide Lake,0,,True,False
 GRVA4,Fourche LaFave River near Gravelly,0,,True,False
-GRVC2,Gore Creek at Vail,0,,True,False
+GRVC2,Gore Creek at Vail,1,GORC2,True,False
 GRVF1,Guana River near Ponte Vedra South (in NAVD88),0,,True,False
 GRVL1,Coastal Reference Monitoring System near Garyville,0,,True,False
 GRVU1,Green River (WY-UT-CO) at GREEN RIVER,3,ACJU1;DURU1;GROU1,True,False
@@ -1105,7 +1080,7 @@ JPAM2,Foster Branch near Joppatowne,0,,True,False
 JPBF1,Atlantic Tide Station at Jacksonville Beach Pier (in MHHW),0,,True,False
 JPCF1,Tide Gauge at John's Pass,0,,True,False
 JPHV2,James River near Jordan Point below Hopewell (IN MLLW),0,,True,False
-JPLT2,North Texas Lakes at Joe Pool  Lake,0,,True,False
+JPLT2,North Texas Lakes at Joe Pool  Lake,2,GPET2;MNFT2,True,False
 JPPT1,Stones River below J Percy Priest Dam,0,,True,False
 JPRI3,Patoka River near Jasper,2,CZCI3;WNSI3,True,False
 JRAF1,Jackson River (FL) at Ranch Road above Apalachicola (in MHHW),0,,True,False
@@ -1609,7 +1584,7 @@ LCTN2,Lower Current Creek nr Currant,0,,True,False
 LCTT2,West Fork San Jacinto River at Lake Conroe,1,CFKT2,True,False
 LCTU1,Little Cottonwood Creek near Salt Lake City,0,,True,False
 LCUV2,Little Creek at US-1,0,,True,False
-LCVN5,Mora River at La Cueva,0,,True,False
+LCVN5,Mora River at La Cueva,1,GOLN5,True,False
 LCWA3,Little Colorado River near Winslow,2,CHWA3;LCCA3,True,False
 LCWN1,Logan Creek near Wakefield,0,,True,False
 LCWU1,Little Cottonwood Creek at Crestwood Park,0,,True,False
@@ -2789,7 +2764,7 @@ MNEA2,Mendenhall River Below Montana Creek near Auke Bay,0,,True,False
 MNEI4,Mosquito Creek near Neola (IFC),0,,True,False
 MNEL1,Bayou Dorcheat at Dixie Inn,0,,True,False
 MNFK2,North Fork Triplett Creek near Morehead,0,,True,False
-MNFT2,Walnut Creek near Mansfield,0,,True,False
+MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
 MNGI2,Fox River at Montgomery,3,BMCI2;SELI2;YKVI2,True,False
 MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
 MNGO1,Whetstone Creek at Mt. Gilead,0,,True,False
@@ -2859,7 +2834,7 @@ MONA2,[INACTIVE] Montana Creek at Parks Highway Bridge,0,,True,False
 MONA3,S Moccasin Wash at Moccasin,0,,True,False
 MONI3,Salt Creek (IN) at Monroe Lake,0,,True,False
 MONL1,Tickfaw River at Montpelier,0,,True,False
-MONM4,River Raisin at Monroe City,1,DNDM4,True,False
+MONM4,River Raisin at Monroe City,2,DNDM4;GPEM4,True,False
 MONN7,Deep River near Moncure,0,,True,False
 MONO1,St. Joseph River (OH/IN) at Montpelier,0,,True,False
 MONO3,North Fork John Day River near Monument,0,,True,False

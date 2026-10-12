@@ -1,10 +1,10 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GOLI4,Boone River near Goldfield 225th St--IFC,1,GLDI4,True,False
 GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
 GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
 GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRIC1,Feather River at Gridley,1,YWPC1,True,False
 GRMA3,Gila River near Maricopa,1,PRKA3,True,False
+GRVC2,Gore Creek at Vail,1,GORC2,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
 GTEL1,Barataria Bay and Waterway near Grand Terre Island,1,NGIL1,True,False
@@ -123,6 +123,7 @@ LCBT2,Wolf Creek at Lipscomb,1,GAWO2,True,False
 LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
 LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
 LCTT2,West Fork San Jacinto River at Lake Conroe,1,CFKT2,True,False
+LCVN5,Mora River at La Cueva,1,GOLN5,True,False
 LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LELI4,Winnebago River at Leland Hwy A38--IFC,1,FORI4,True,False
@@ -242,6 +243,7 @@ MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
+MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
 MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
 MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
 MNRO3,Long Tom River at Monroe,1,FRNO3,True,False
@@ -257,7 +259,6 @@ MODP1,West Branch Brandywine Creek at Modena,1,COTP1,True,False
 MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
 MOJV2,North Fork Shenandoah River near Mount Jackson,1,COOV2,True,False
 MOLO3,Molalla River at Shady Dell near Molalla 2ESE,1,CANO3,True,False
-MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPBV2,Bull Run near Manassas Park,1,CTHV2,True,False
 MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
