@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GUMN7,New River near Gum Branch,0,,True,False
-GUNI2,Des Plaines River near Gurnee,2,LDRI2;RUSI2,True,False
-GURP4,Rio Gurabo at Gurabo,0,,True,False
-GUSC2,Gunnison River near Gunnison,3,ALEC2;ALTC2;GBGC2,True,False
-GUSW4,North Platte River below Guernsey Reservoir,2,GLBW4;HENN1,True,False
-GUTC1,Guadalupe River (CA) at Trimble Road,0,,True,False
-GUTP4,Rio Gurabo below El Mango,0,,True,False
-GVAC1,San Joaquin River above Gravelly Ford,0,,True,False
-GVCC1,Grass Valley Creek near Lewiston,0,,True,False
-GVDA1,Tennessee River below Guntersville Dam,2,SCRA1;WHIA1,True,False
-GVDC1,Green Valley Creek at Diablo Road,0,,True,False
-GVHA1,Tennessee River above Guntersville Dam Headwater/Pool Elevation,0,,True,False
-GVKW4,Gros Ventre River at Kelly,0,,True,False
-GVLL1,Amite River at Grangeville,2,DARL1;MAGL1,True,False
-GVLN7,Green Mill Run at 14th St in Greenville,0,,True,False
-GVLS1,Reedy River at Greenville @ I-85,2,GRES1;SIMS1,True,False
-GVRC1,Corralitos Creek at Green Valley Rd,0,,True,False
-GVRN5,Gila River near Virden,2,DUUA3;RGRN5,True,False
-GVST1,Smith Fork at Temperance Hall,0,,True,False
-GVVN6,Mettawee River at Middle Granville,0,,True,False
-GVZW4,Gros Ventre River at Zenith,0,,True,False
-GWDA1,Shades Creek near Greenwood,0,,True,False
-GWDM4,Escanaba River at Greenwood Diversion,0,,True,False
-GWGT2,Guadalupe River at CR 143 near Gonzales,2,GNLT2;SGGT2,True,False
-GWLT2,Lagarto Creek below George West,0,,True,False
 GWNT2,Nueces River at George West,2,MTBT2;THET2,True,False
 GWSC2,Roaring Fork River at Glenwood Springs,2,EMMC2;GCOC2,True,False
 GWTN6,Grout Brook near Fairhaven,0,,True,False
@@ -803,7 +778,7 @@ JCIT2,Johnson Creek above Ingram,0,,True,False
 JCJO3,"Jackson Creek (Jackson County, OR) at Jacksonville",0,,True,False
 JCJS1,Jeffries Creek at James Jones Ave,0,,True,False
 JCKM5,West Fork Des Moines River at Jackson,2,ESVI4;WDOM5,True,False
-JCKN7,New River at Jacksonville (in MLLW),0,,True,False
+JCKN7,New River at Jacksonville (in MLLW),1,GUMN7,True,False
 JCLF1,Inundation Sensor at St. James City,0,,True,False
 JCMM7,Moreau River (MO) near Jefferson City,0,,True,False
 JCPF1,Saint Joes Creek at 62nd St Near Pinellas Park,0,,True,False
@@ -3321,7 +3296,7 @@ NNCT2,North Texas Lakes at Lake Nocona,0,,True,False
 NNEO2,Eastern Oklahoma Lakes at Lake Eucha,0,,True,False
 NNIS1,Broad River in NC/SC at NINETY NINE ISLANDS,0,,True,False
 NNKA2,Naknek River Tide Gauge at Naknek (MHHW datum),0,,True,False
-NNRN7,New River near Richlands,0,,True,False
+NNRN7,New River near Richlands,1,GUMN7,True,False
 NNRS1,Broad River in NC/SC at Ninety Nine Islands Dam,2,CARS1;CHFS1,True,False
 NOBF1,Withlacoochee River at Nobleton (in NAVD88),2,CRMF1;PNLF1,True,False
 NOBG1,No Business Creek at Lee Road near Snellville,0,,True,False
@@ -4236,7 +4211,7 @@ PLOF1,Tide Station at Lora Point (in MHHW),0,,True,False
 PLOI1,Palouse River near Potlatch,0,,True,False
 PLOI4,Cedar River at Palo,2,CIDI4;VINI4,True,False
 PLOL1,Pearl River at Lock #1 Chamber,0,,True,False
-PLOP4,Lago Loiza near Trujillo Alto,1,CAGP4,True,False
+PLOP4,Lago Loiza near Trujillo Alto,2,CAGP4;GURP4,True,False
 PLOT2,Brazos River near Palo Pinto,2,DNNT2;PSMT2,True,False
 PLPF1,Peace River at Platt,3,ARCF1;ARHF1;FOPF1,True,False
 PLPK2,Left Fork Peter Creek at Phelps,0,,True,False
@@ -5457,7 +5432,7 @@ SCPM7,S Fork Saline Creek above Perryville,0,,True,False
 SCPN7,Scuppernong River near Woodley,0,,True,False
 SCPV2,Swift Creek at Pocahontas State Park Pedestrian Bridge,0,,True,False
 SCQN7,Swift Creek Upstream of Queensferry Rd,0,,True,False
-SCRA1,Tennessee River near Scottsboro,3,CHAT1;GVDA1;SPTT1,True,False
+SCRA1,Tennessee River near Scottsboro,4,CHAT1;GVDA1;GVHA1;SPTT1,True,False
 SCRI3,Salt Creek (IN) at Valparaiso,0,,True,False
 SCRI4,North Raccoon River near Sac City,2,LKCI4;SARI4,True,False
 SCRM4,St Clair River at St Clair State Police Tidal Gage,0,,True,False
