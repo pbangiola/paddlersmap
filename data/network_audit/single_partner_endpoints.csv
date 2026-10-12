@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 ENVI1,Coeur d'Alene River at Enaville,1,CTLI1,True,False
 ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
@@ -98,6 +97,7 @@ HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
+HLSN7,Eno River at Hillsborough,1,HBSN7,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
 HMPS1,Coosawhatchie River near Hampton,1,CRRS1,True,False
 HNBP1,West Branch Brandywine Creek at Honeybrook,1,COTP1,True,False
@@ -406,6 +406,7 @@ OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 OWTM5,Straight River at Owatonna,1,FRBM5,True,False
+OXDM6,Yocona River near Oxford,1,ENDM6,True,False
 OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PACW1,Cowlitz River at Packwood,1,RAWW1,True,False
@@ -443,6 +444,7 @@ PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
+PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLOP4,Lago Loiza near Trujillo Alto,1,CAGP4,True,False
 PLRM8,Poplar River near Poplar,1,BDPM8,True,False
@@ -774,12 +776,10 @@ WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
 WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
-YAHC2,Yampa River near Hayden,1,CGGC2,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
-YPSA2,Yukon River at Pilot Station,1,NULA2,True,False
 YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZAYL1,Comite River near Zachary,1,BAKL1,True,False

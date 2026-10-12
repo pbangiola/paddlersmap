@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EMSP1,Ohio River at Emsworth Lock and Dam,2,DSHP1;EMXP1,True,False
-EMSS2,Belle Fourche River near Elm Springs,3,PLNS2;SBFS2;STUS2,True,False
-EMTI4,West Fork Des Moines River at Emmetsburg,2,ESVI4;HBTI4,True,False
-EMWN7,Pasquotank River near Mariners Wharf Park at Elizabeth City,0,,True,False
-EMXP1,Ohio River above Emsworth L/d  Pool,2,EMSP1;PTTP1,True,False
-EMYA2,Yukon River at Emmonak,0,,True,False
-EMYI3,Whitewater River near Economy,1,ALPI3,True,False
-ENBM6,Pearl River at Edinburg,2,CARM6;PLAM6,True,False
-ENBO2,North Boggy Creek (N OK) at Enid at Garriott Road,0,,True,False
-ENDM6,Yocona River at Enid Dam,0,,True,False
-ENDN8,Maple River (ND) near Enderlin,2,BOBN8;MRDN8,True,False
-ENGG1,Lookout Creek near New England,0,,True,False
-ENGO1,Stillwater River above Englewood,0,,True,False
-ENGP1,Blockhouse Creek near English Center,0,,True,False
-ENLN8,Red River of the North at Enloe,2,HICN8;WHNN8,True,False
-ENMC2,Elk River near Milner,0,,True,False
-ENNA2,Tanana River at Nenana,3,CHFA2;MHSA2;TAFA2,True,False
-ENNN7,Yadkin River at Enon,2,ELKN7;YADN7,True,False
-ENOI4,East Nodaway River at Highway 2 near Clarinda,0,,True,False
-ENON7,Eno River at Durham,0,,True,False
-ENRW1,Entiat River near Entiat,0,,True,False
-ENSA1,Village Creek (AL) at Avenue W in Ensley,0,,True,False
-ENSM6,Chickasawhay River at Enterprise,2,CKYM6;QTMM6,True,False
-ENTK1,Smoky Hill River at Enterprise,2,ABIK1;JUCK1,True,False
-ENTO1,Hocking River at Enterprise,2,ATHO1;LNSO1,True,False
 ENTW2,West Fork River at Enterprise,2,CLKW2;OKKW2,True,False
 ENVI1,Coeur d'Alene River at Enaville,1,CTLI1,True,False
 ENWC2,South Platte River at Englewood,2,CFDC2;DNVC2,True,False
@@ -1270,7 +1245,7 @@ HBRL1,Hurricane Creek (SE LA) at Baton Rouge,0,,True,False
 HBRN4,South Branch Raritan River at High Bridge,0,,True,False
 HBRT2,Brazos River at FM 485 Near Hearne,0,,True,False
 HBRV2,Chesapeake Bay near Pungoteague Creek at Harborton (IN MLLW),0,,True,False
-HBSN7,Eno River near Huckleberry Springs,0,,True,False
+HBSN7,Eno River near Huckleberry Springs,2,ENON7;HLSN7,True,False
 HBTI4,West Fork Des Moines River at Humboldt,2,EMTI4;FDDI4,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HBVF1,Holiday Bayou at Vamo,0,,True,False
@@ -1447,7 +1422,7 @@ HLRF1,Hillsborough River at Rowlett Park Dr,0,,True,False
 HLSF1,Horse Creek Near Limestone,2,ARHF1;HORF1,True,False
 HLSH1,Helemano Stream at Haleiwa,0,,True,False
 HLSK2,Cane Run Creek at Highlands,0,,True,False
-HLSN7,Eno River at Hillsborough,0,,True,False
+HLSN7,Eno River at Hillsborough,1,HBSN7,True,False
 HLST1,South Fork Forked Deer River near Halls,2,BLST1;BWVT1,True,False
 HLTM5,Thief River near Holt,2,AGDM5;TRRM5,True,False
 HLTT2,Helotes Creek at Helotes,0,,True,False
@@ -4984,7 +4959,7 @@ OWSN6,Owasco Lake near Auburn,0,,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 OWTM5,Straight River at Owatonna,1,FRBM5,True,False
 OWYO3,Owyhee River at Owyhee Dam,0,,True,False
-OXDM6,Yocona River near Oxford,0,,True,False
+OXDM6,Yocona River near Oxford,1,ENDM6,True,False
 OXDT2,Sandy Creek near Willow City,0,,True,False
 OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
 OXFK1,Arkansas River at Oxford,2,ARCK1;MULK1,True,False
@@ -5370,7 +5345,7 @@ PLKK1,110 Mile Creek at Pomona Lake,0,,True,False
 PLKM7,Lindley Creek near Polk,0,,True,False
 PLKT1,Richland Creek near Pulaski,0,,True,False
 PLLN7,Trent River at Pollocksville,2,BERN7;TRTN7,True,False
-PLLO1,Stillwater River near Pleasant Hill,0,,True,False
+PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLLP1,Pennypack Creek at Philadelphia,0,,True,False
 PLLQ3,Pembina River above Lorne Lake,2,BLNQ3;RLGQ3,True,False
 PLMC2,East Plum Creek (CO) below Castle Rock,0,,True,False
@@ -9229,7 +9204,7 @@ XSRC1,Salinas River near San Miguel,0,,True,False
 XTOC1,San Tomas Creek at SPRR,0,,True,False
 XXCC1,Kern River at CALLOWAY CANAL,0,,True,False
 YADN7,Yadkin River at Yadkin College,2,ENNN7;HGRN7,True,False
-YAHC2,Yampa River near Hayden,1,CGGC2,True,False
+YAHC2,Yampa River near Hayden,2,CGGC2;ENMC2,True,False
 YANS2,Missouri River at Yankton,2,GPDN1;MSJN1,True,False
 YARM1,Royal River at Yarmouth,0,,True,False
 YARW1,Lewis River at Yale Reservoir,0,,True,False
@@ -9273,7 +9248,7 @@ YOCK1,near Yocemento,0,,True,False
 YOKO3,Umatilla River near Yoakum,0,,True,False
 YORC1,York Creek at Highway 29,0,,True,False
 YPRC1,Coyote Perc Pond 10B,0,,True,False
-YPSA2,Yukon River at Pilot Station,1,NULA2,True,False
+YPSA2,Yukon River at Pilot Station,2,EMYA2;NULA2,True,False
 YRBA2,Yukon River near Stevens Village,3,BVRA2;CIRA2;TALA2,True,False
 YRBF1,Yellow River at Brown's Fishing Camp (in MHHW),0,,True,False
 YRCO3,Yaquina River near Chitwood,0,,True,False
