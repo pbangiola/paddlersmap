@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HLDF1,Withlacoochee River near Holder at SR 200 (in NAVD88),4,CRMF1;DNLF1;GUMF1;WIVF1,True,False
-HLDK2,Kentucky River at Heidelberg,2,JKNK2;WLWK2,True,False
-HLEA1,Cahaba River near Helena,0,,True,False
-HLEF1,Holley (In MHHW),0,,True,False
-HLEH1,Hanalei River near Hanalei,0,,True,False
-HLEN6,West Branch Delaware River at Hale Eddy,3,CCRN6;LDVN6;SLVN6,True,False
-HLGI3,Deep River (IN) at Hobart,0,,True,False
-HLGP1,West Branch Perkiomen Creek at Hillegass,0,,True,False
-HLHK2,South Fork Little River at Hopkinsville - 68/80,1,HLBK2,True,False
-HLHL1,Mississippi River at Harvey Lock,2,MBCL1;NORL1,True,False
-HLHN7,Intracoastal Waterway at Holden Beach,0,,True,False
-HLIF1,Atlantic Tide Gauge at Haulover Intracoastal (in MHHW),0,,True,False
-HLKI1,Eastern Idaho Reservoirs at Henrys Lake,1,HENI1,True,False
-HLKN7,Slocum Creek at Havelock (in MLLW),0,,True,False
-HLKW1,Yakima River at Horlick,2,UMTW1;YUMW1,True,False
-HLLM5,Two Rivers River at Hallock,0,,True,False
-HLLP1,Loyalsock Creek at Hillsgrove Town,2,BARP1;FVLP1,True,False
-HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
-HLOF1,Haulover Canal near Mims,0,,True,False
-HLRF1,Hillsborough River at Rowlett Park Dr,0,,True,False
-HLSF1,Horse Creek Near Limestone,2,ARHF1;HORF1,True,False
-HLSH1,Helemano Stream at Haleiwa,0,,True,False
-HLSK2,Cane Run Creek at Highlands,0,,True,False
-HLSN7,Eno River at Hillsborough,1,HBSN7,True,False
-HLST1,South Fork Forked Deer River near Halls,2,BLST1;BWVT1,True,False
 HLTM5,Thief River near Holt,2,AGDM5;TRRM5,True,False
 HLTT2,Helotes Creek at Helotes,0,,True,False
 HLUM3,Connecticut River at Holyoke - Upper,2,HLYM3;NHMM3,True,False
@@ -577,7 +552,7 @@ JIMC1,Russian River at Jimtown,1,GEYC1,True,False
 JKFM7,Jacks Fork near Mountain View,2,ALYM7;EMCM7,True,False
 JKNG1,Ocmulgee River at Jackson Lake,3,HPTG1;JACG1;SPGG1,True,False
 JKNK2,North Fork Kentucky River at Jackson,2,HAZK2;HLDK2,True,False
-JKNT1,South Fork Forked Deer River at Jackson,2,BLST1;BWVT1,True,False
+JKNT1,South Fork Forked Deer River at Jackson,3,BLST1;BWVT1;HLST1,True,False
 JKRF1,Curry Creek at Jackson Rd,0,,True,False
 JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
 JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
@@ -1046,7 +1021,7 @@ LBMN7,Lynn Branch at MacDonald Woods Park,0,,True,False
 LBNN8,Sheyenne River at Lisbon,2,FRSN8;GOLN8,True,False
 LBRG1,Ocmulgee River at Lumber City,2,ABBG1;CHRG1,True,False
 LBRI3,Little Blue River (IN) at Walkerville,0,,True,False
-LBRM5,South Branch Two Rivers River at Lake Bronson Dam,0,,True,False
+LBRM5,South Branch Two Rivers River at Lake Bronson Dam,2,LKBM5;TRPM5,True,False
 LBRM7,Reservoirs at Long Branch Reservoir,0,,True,False
 LBRN7,Lumber River at Lumberton,2,LMBN7;LUMN7,True,False
 LBSL1,Bayou Liberty near Slidell,0,,True,False
@@ -1297,7 +1272,7 @@ LIVT2,Long King Creek at Livingston,0,,True,False
 LJKF1,Lake Jackson at Miller Landing (in NAVD88),0,,True,False
 LJTF1,Lake Jackson near Lakeshore Drive (in NAVD88),0,,True,False
 LKAM2,Unnamed Tributary above Northampton Lake Dam in Lake Arbor,0,,True,False
-LKBM5,South Branch Two Rivers River at Lake Bronson,0,,True,False
+LKBM5,South Branch Two Rivers River at Lake Bronson,2,HLLM5;LBRM5,True,False
 LKBM7,Osage River near Bagnell,2,LKSM7;TSCM7,True,False
 LKCI4,North Raccoon River near Lanesboro,3,BHLI4;EFWI4;SCRI4,True,False
 LKCM5,Mississippi River at Lake City,2,REDM5;WABM5,True,False
@@ -2001,7 +1976,7 @@ MDOK2,Pond Creek (C KY) at Medora,0,,True,False
 MDOM7,near MENDON 1N,0,,True,False
 MDOO3,Meadow Creek below Dark Canyon,0,,True,False
 MDPM5,Root River near Mound Prairie,2,BRWM5;HUSM5,True,False
-MDRI3,Deep River (IN) near Merrillville,0,,True,False
+MDRI3,Deep River (IN) near Merrillville,1,HLGI3,True,False
 MDRM5,Mud River near Grygla (MN89),0,,True,False
 MDRN7,Muddy Creek at Robinhood Rd,0,,True,False
 MDRN8,Wild Rice River (ND) near Mantador,2,ABRN8;FWRN8,True,False
@@ -3649,10 +3624,10 @@ PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
 PBIV2,Peach Bottom Creek at Independence,0,,True,False
 PBIW3,Menominee River near Pembine,2,BANM4;VLCM4,True,False
 PBLI1,Portneuf River at Pebble ID,2,CHSI1;TOPI1,True,False
-PBNN8,Red River of the North at Pembina,3,DRTN8;EMRQ3;NCEN8,True,False
+PBNN8,Red River of the North at Pembina,4,DRTN8;EMRQ3;HLLM5;NCEN8,True,False
 PBOI1,Silver Creek (ID) near Picabo,0,,True,False
 PBPC1,Pacheco Creek below Pacheco Reservoir,0,,True,False
-PBPI3,Portage-Burns Waterway at Portage (Lake Michigan outlet),1,LAKI3,True,False
+PBPI3,Portage-Burns Waterway at Portage (Lake Michigan outlet),2,HLGI3;LAKI3,True,False
 PBPV2,Purcell Branch at Purcell Road,0,,True,False
 PBRC1,Pope Creek at Lake Berryessa,0,,True,False
 PBRM8,Jefferson River near Silver Star at Parsons Bridge,2,TFKM8;TWIM8,True,False
@@ -3906,7 +3881,7 @@ PKFI4,Flood Creek near Packard 130th St--IFC,0,,True,False
 PKGM5,Lake Pokegama Dam,1,DAYM5,True,False
 PKIP1,Lackawanna River at Parker St Bridge,2,ARHP1;OFRP1,True,False
 PKLN6,Platter Kill at Gilboa,0,,True,False
-PKMK2,Elkhorn Creek at Peaks Mill,4,DLPK2;FTSK2;GEOK2;GSTK2,True,False
+PKMK2,Elkhorn Creek at Peaks Mill,5,DLPK2;FTSK2;GEOK2;GSTK2;HLSK2,True,False
 PKMN6,Hudson River near Poughkeepsie,2,ALBN6;BATN6,True,False
 PKMS1,Reedy River at Parkins Mill Rd.,0,,True,False
 PKNO1,Blacklick Creek at Pickerington,0,,True,False
@@ -6490,7 +6465,7 @@ TMRM8,Two Medicine River near bl S Fork nr Browning,0,,True,False
 TMRN4,Toms River at Toms River,0,,True,False
 TMSC1,San Tomas Aquino Creek above Williams Road,1,EAMC1,True,False
 TMSG1,Flint River near Thomaston,0,,True,False
-TMTF1,Hillsborough River at Tampa Dam,2,FOWF1;HPLF1,True,False
+TMTF1,Hillsborough River at Tampa Dam,3,FOWF1;HLRF1;HPLF1,True,False
 TMVC3,Connecticut River at Thompsonville,2,HFDC3;SPGM3,True,False
 TMVN7,Valley River at Tomotla,2,ANVN7;HIWN7,True,False
 TMYT2,Sabine River at I-10,2,ORNT2;SIPT2,True,False
@@ -6622,7 +6597,7 @@ TRNT2,North Texas Lakes at Cedar Creek Lake,0,,True,False
 TROI4,South Chequest Creek near Troy Yak Blvd--IFC,0,,True,False
 TROO3,Trout Creek (OR) near Fields,0,,True,False
 TRPA2,[INACTIVE] Twentymile River near Portage,0,,True,False
-TRPM5,South Branch Two Rivers River at Pelan (MN11),0,,True,False
+TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
 TRRM4,Trap Rock River near Lake Linden,0,,True,False
 TRRM5,Thief River near Thief River Falls,3,AGPM5;HLTM5;TRFM5,True,False
 TRRN2,Truckee River at Reno,2,MOGN2;VISN2,True,False
