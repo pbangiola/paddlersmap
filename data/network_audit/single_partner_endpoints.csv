@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
-ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
 ESWL1,Bayou Plaquemine Brule at Estherwood,1,CRWL1,True,False
 ETNG1,Conasauga River at GA 286 near Eton,1,TLNG1,True,False
@@ -76,6 +74,7 @@ GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
 GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
+GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
 GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
@@ -227,6 +226,7 @@ LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
 LTXT2,Navidad River at Lake Texana,1,CODT2,True,False
+LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
 LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ERLK2,Dry Creek near Erlanger,0,,True,False
-ERLN1,Pawnee Lake,0,,True,False
-ERMF1,Tide Gauge at Estero River Mouth (in MHHW),0,,True,False
-ERMT2,Village Creek near Everman,0,,True,False
-ERNF1,North Branch Estero River at Estero,0,,True,False
-ERNM8,Milk River at Eastern Crossing nr Rudyard,2,HAVM8;PDBM8,True,False
-EROM3,Millers River at Erving,0,,True,False
-ERPF1,Estero River Pelican Sound,0,,True,False
-ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
-ERRN3,Androscoggin River at Errol,2,DIAN3;GRMN3,True,False
-ERSF1,South Branch Estero River at Estero,0,,True,False
-ERSI3,Eagle Creek (IN) at Raymond Street in Indianapolis,2,INSI3;STTI3,True,False
-ERVM5,Elk River near Big Lake,1,BGKM5,True,False
-ERVW2,East River at Willowton,0,,True,False
-ERWN6,Tioga River near Erwins,0,,True,False
-ESCF1,East Side Creek near Lake Ingraham,0,,True,False
-ESCO2,Skeleton Creek at Enid,0,,True,False
-ESCU1,Escalante River near Escalante,0,,True,False
-ESDN6,Ouleout Creek at East Sidney Dam,0,,True,False
-ESFO2,Salt Fork of the Red River near Elmer,0,,True,False
-ESGF1,Estero River at Sunny Grove Park (in MHHW),0,,True,False
-ESIM6,Mississippi Sound at East Ship Island near Biloxi,0,,True,False
-ESIN6,Ouleout Creek below East Sidney Dam,0,,True,False
-ESKI4,South Skunk River near Ames Hwy E18,2,MCPI4;RNSI4,True,False
-ESLF1,East Lake Outfall at E Chelsea St Near Tampa,0,,True,False
 ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
 ESPN5,Rio Grande at Espanola,2,CMTN5;OTWN5,True,False
 ESPP4,"Esperanza, Vieques Tide Gauge (in MLLW)",0,,True,False
@@ -904,7 +879,7 @@ GPLT2,Colorado River (TX) at Lake LBJ,2,IKLT2;MFDT2,True,False
 GPOA2,Gulkana River at Paxson Lake Outlet near Paxson,0,,True,False
 GPOM5,Rainy River above Gold Portage Outlet nr Kabetogama,0,,True,False
 GPRO3,Quartzville Creek at Green Peter Reservoir,0,,True,False
-GPRT2,West Fork Trinity River at Grand Prairie,2,DALT2;FWOT2,True,False
+GPRT2,West Fork Trinity River at Grand Prairie,3,DALT2;FWOT2;LART2,True,False
 GPSC2,Eagle River at Gypsum,0,,True,False
 GPTC1,Garrapata Creek above Highway 1,0,,True,False
 GPUW1,Green River (WA) at Purification Plant,2,AUBW1;HAHW1,True,False
@@ -935,7 +910,7 @@ GREL1,Red River at Grand Ecore,2,AEXL1;CSHL1,True,False
 GREM6,Yazoo River at Greenwood,3,BELM6;MOGM6;YWGM6,True,False
 GREO3,Johnson Creek at Gresham,0,,True,False
 GRES1,Reedy River at Westfield St,0,,True,False
-GRET2,Salt Fork of the Red River at Greenbelt Lake,0,,True,False
+GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
 GREW4,Greys River near Alpine,0,,True,False
 GRFC1,Arroyo Seco (Monterey) below Reliz Creek near Soledad,2,CHLC1;SOLC1,True,False
 GRFG1,Flint River near Griffin,2,MOLG1;WSEG1,True,False
@@ -2350,7 +2325,7 @@ LAQM5,Lac Qui Parle Reservoir at Lac Qui Parle Dam Pool,0,,True,False
 LARI4,Mill Creek (NW IA) near Larrabee,0,,True,False
 LARO1,Scioto River at Larue,2,KNTO1;PRGO1,True,False
 LARP4,Rio Guajataca at Lares,0,,True,False
-LART2,North Texas Lakes at Lake Arlington,0,,True,False
+LART2,North Texas Lakes at Lake Arlington,2,ERMT2;GPRT2,True,False
 LAST1,East Fork Stones River near Lascassas,0,,True,False
 LATI2,Rock River at Latham Park,2,RABI2;ROKI2,True,False
 LATN1,Antelope Creek at Lincoln (27th Street),0,,True,False
@@ -2505,7 +2480,7 @@ LDVN6,Delaware River at Lordville,3,CCRN6;HKCN6;HLEN6,True,False
 LDVO1,Black Fork Mohican River at Loudonville,2,MEPO1;MHWO1,True,False
 LDWN6,Little Delaware River above Delhi,0,,True,False
 LDXC1,Kaweah River at Lemoncove Ditch,0,,True,False
-LDYN6,Tioga River at Lindley,0,,True,False
+LDYN6,Tioga River at Lindley,2,ERWN6;TGJP1,True,False
 LEAO1,Mahoning River at Leavittsburg,2,PRIO1;WRNO1,True,False
 LEAT2,Mill Creek (E TX) at Brownlea Road,0,,True,False
 LEBT2,Little Bernard Creek at I-10 near Sealy,0,,True,False
@@ -3019,7 +2994,7 @@ LVEW4,Bighorn River near Kane,2,BHRM8;GYBW4,True,False
 LVGA4,Ditch Bayou below Lake Village at Lake Chicot,0,,True,False
 LVKC1,Arroyo Valle near Livermore,2,AVPC1;DVAC1,True,False
 LVLO1,Tuscarawas River at Leesville Dam Tailwater,0,,True,False
-LVLO2,Skeleton Creek near Lovell,0,,True,False
+LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVLP1,French Creek above Lowville,0,,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
 LVMK2,Green River (KY) above Livermore,3,CALK2;DUNK2;RCPK2,True,False
@@ -3442,7 +3417,7 @@ MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MGIP4,Magueyes Island Tide Gauge (in MLLW),0,,True,False
 MGLT1,Obion River near Mengelwood,0,,True,False
 MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
-MGMO2,Salt Fork of the Red River at Mangum,0,,True,False
+MGMO2,Salt Fork of the Red River at Mangum,2,ESFO2;WLGT2,True,False
 MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
 MGNI3,Trail Creek at Michigan City Harbor,0,,True,False
 MGNN7,Morgan Creek near White Cross,0,,True,False
@@ -7714,14 +7689,14 @@ TFMN7,Third Fork Creek at ML King Pkwy in Durham,0,,True,False
 TFPV2,Tract Fork near Pulaski,0,,True,False
 TFRN7,Third Fork Creek at Woodcroft Park,0,,True,False
 TGAO2,Canadian River near Taloga,2,BRIO2;CDNT2,True,False
-TGAP1,Central PA Dams  Tioga-Hammond Dam on Tioga River,2,STVP1;YGBP1,True,False
+TGAP1,Central PA Dams  Tioga-Hammond Dam on Tioga River,3,STVP1;TGRP1;YGBP1,True,False
 TGAW1,Touchet River at Gallaher Road,0,,True,False
 TGCO3,Tualatin River above Golf Course Rd near Cornelius,2,DLLO3;TRRO3,True,False
-TGJP1,Tioga River at Tioga Junction,0,,True,False
+TGJP1,Tioga River at Tioga Junction,2,LDYN6;TGRP1,True,False
 TGLW2,Tygart Valley River at Tygart Lake,0,,True,False
 TGOW2,Tygart Valley River below Tygart Lake,2,CFXW2;PHIW2,True,False
 TGRM7,Hinkson Creek at Columbia,0,,True,False
-TGRP1,Tioga River at Tioga,0,,True,False
+TGRP1,Tioga River at Tioga,2,TGAP1;TGJP1,True,False
 THAC1,N. Fork Trinity River near Helena,0,,True,False
 THAN6,Thatcher Brook at Gowanda,0,,True,False
 THAV2,Thalia Creek at Route 58 in Thalia,0,,True,False
@@ -8768,7 +8743,7 @@ WLFM6,Wolf Lake at Wolf Lake at Highway 149,0,,True,False
 WLFO1,Massies Creek at Wilberforce,0,,True,False
 WLFS2,Wolf Creek (SD) near Freeman,0,,True,False
 WLFW4,Wolf Creek near Sheridan,0,,True,False
-WLGT2,Salt Fork of the Red River at Wellington,0,,True,False
+WLGT2,Salt Fork of the Red River at Wellington,2,GRET2;MGMO2,True,False
 WLGW2,Ohio River at Wheeling,2,MOUW2;WHLW2,True,False
 WLHN2,Walker River at Walker Lake,0,,True,False
 WLHN8,Pembina River at Walhalla,2,NCEN8;WNDQ3,True,False
