@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CKDT2,Coleto Creek at Coleto Creek Reservoir,1,CCVT2,True,False
-CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
 CLDG1,Ochlockonee River near Coolidge,1,TMLG1,True,False
 CLFA3,Colorado River at Lees Ferry,1,CGCA3,True,False
 CLGL1,Bayou Lafourche (NE LA) near Crew Lake,1,BLFL1,True,False
@@ -322,6 +320,7 @@ MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
 MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
 MOLO3,Molalla River at Shady Dell near Molalla 2ESE,1,CANO3,True,False
 MONM4,River Raisin at Monroe City,1,DNDM4,True,False
+MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
 MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
@@ -411,7 +410,6 @@ PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
-PGFM6,Pascagoula River at Graham Ferry,1,BKNM6,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
@@ -605,6 +603,7 @@ VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
 VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
+VNCL1,Mississippi River at Venice,1,MWBL1,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN2,Walker River near Wabuska,1,WBMN2,True,False
