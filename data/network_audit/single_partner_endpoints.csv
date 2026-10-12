@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
-JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JHNA4,Saline River near Johnsville,1,WARA4,True,False
 JHNP1,Clarion River at Johnsonburg,1,RDYP1,True,False
 JHSP1,Conemaugh River at Johnstown,1,SWDP1,True,False
@@ -187,6 +185,7 @@ MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
 MLKW1,Mill Creek (WA) near Walla Walla,1,FMBW1,True,False
 MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
+MLRT2,Llano River near Mason,1,JNCT2,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
@@ -265,7 +264,6 @@ NFPV2,NF Pound River above Pound,1,PICV2,True,False
 NFSI3,North Fork Salt Creek (IN) at Nashville,1,MONI3,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
-NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
 NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
@@ -743,6 +741,7 @@ WHTK2,North Fork Kentucky River at Whitesburg,1,HAZK2,True,False
 WIHN6,Lake Champlain near Whitehall,1,PHCN6,True,False
 WILM3,Hoosic River near Williamstown,1,EAGN6,True,False
 WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
+WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WIVF1,Withlacoochee River at Inverness (in NAVD88),1,HLDF1,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False

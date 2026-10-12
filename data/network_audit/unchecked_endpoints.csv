@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JCRF1,Tide Station at Jewfish Creek on Florida Bay (in MHHW),0,,True,False
-JCRI3,Judy Creek(Northern IN) near South Bend,0,,True,False
-JCRV2,Johns Creek at New Castle,0,,True,False
-JCSF1,Julington Creek at St. Johns River Entrance (in MHHW),0,,True,False
-JCSN7,Jacob Swamp at Alamac Road near Lumberton,0,,True,False
-JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
-JCTT2,North Llano River near Junction,0,,True,False
-JCYC3,Quinebaug River below Jewett City,0,,True,False
-JDAI4,Jordan Creek at West Des Moines,0,,True,False
-JDNM5,Minnesota River at Jordan,3,HENM5;HICM5;SAVM5,True,False
-JDRM8,Judith River near Winifred near mouth,0,,True,False
-JDWP1,Dyberry Creek near Jadwin Reservoir,0,,True,False
-JDYA2,Judy Creek near Nuiqsut,0,,True,False
-JECN5,Jemez River below Jemez Dam,0,,True,False
-JEFN7,Little Buffalo Creek near Jefferson,0,,True,False
-JEFT2,Black Cypress Bayou near Jefferson,0,,True,False
-JEMP1,Pine Creek at Jersey Mills,2,CEDP1;PDAP1,True,False
-JENN4,West Branch Wading River at Jenkins,0,,True,False
-JERW3,Tomahawk River below Jersey Dam,0,,True,False
-JESU1,Green River at Jensen,4,GROU1;GRVU1;GRZU1;YDLC2,True,False
-JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
-JEZN5,Jemez River above Jemez Pueblo,0,,True,False
-JFET2,Big Cypress Creek above Jefferson,2,BGKT2;PBGT2,True,False
-JFFM7,Missouri River at Jefferson City,2,BOZM7;CMSM7,True,False
-JFFO3,Santiam River at Jefferson,3,NSGO3;SLMO3;WTLO3,True,False
 JFFT2,Little Cypress Creek near Jefferson,0,,True,False
 JFFW3,Rock River at Jefferson,2,FATW3;WATW3,True,False
 JFON7,Jacob Fork below Old NC 18 in Shoups Ford,0,,True,False
@@ -66,7 +41,7 @@ JNAF1,Alapaha River near Jennings (in NAVD88),2,ELLF1;STNG1,True,False
 JNCK1,Lyon Creek near Junction City,0,,True,False
 JNCM6,Cypress Creek near Janice,0,,True,False
 JNCT1,Jennings Creek at Whitleyville,0,,True,False
-JNCT2,Llano River near Junction,0,,True,False
+JNCT2,Llano River near Junction,2,JCTT2;MLRT2,True,False
 JNEA2,Gastineau Channel Tide Gauge at Juneau (MLLW datum),0,,True,False
 JNEL1,Black River at Jonesville L&D,6,ACML1;BJNL1;COLL1;CYNL1;HRBL1;NECL1,True,False
 JNHF1,Lake George at Juniper Hunt Club,0,,True,False
@@ -1736,7 +1711,7 @@ MLPK2,Ohio River at McAlpine Lower,2,MLUK2;RVPK2,True,False
 MLRI3,Fall Creek (IN) at Millersville,2,FCSI3;FCTI3,True,False
 MLRM2," SOUTH FORK JABEZ BRANCH AT MILLERSVILLE, MD ",0,,True,False
 MLRM8,Big Hole River near Melrose,2,GNLM8;MRDM8,True,False
-MLRT2,Llano River near Mason,0,,True,False
+MLRT2,Llano River near Mason,1,JNCT2,True,False
 MLRW2,Marlin Run at Marlinton,0,,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM2,Unicorn Branch near Millington,0,,True,False
@@ -2445,7 +2420,7 @@ NICG1,Nickajack Creek at US Highway 78 and 278 near Mableton,0,,True,False
 NICS1,Lumber River near Nichols,2,FBLN7;GALS1,True,False
 NILC1,Alameda Creek near Niles,3,ALFC1;AOLC1;ASLC1,True,False
 NILI2,North Branch Chicago River at Niles,4,DRFI2;HIPI2;NBPI2;NBRI2,True,False
-NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
+NILM4,St. Joseph River (MI/IN) at Niles,2,JCRI3;SBNI3,True,False
 NIMM5,Crow Wing River at Nimrod,0,,True,False
 NINA2,Ninilchik River at Ninilchik,0,,True,False
 NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
@@ -4304,7 +4279,7 @@ RRUV2,Rapidan River At U.S. 15,0,,True,False
 RRVA2,Robe River near Valdez,0,,True,False
 RRVI1,Raft River above One Mile Creek,0,,True,False
 RRVL1,Mississippi River at Reserve,2,BCNL1;DONL1,True,False
-RRVW3,Tomahawk River above Rice Reservoir,0,,True,False
+RRVW3,Tomahawk River above Rice Reservoir,2,JERW3;WILW3,True,False
 RRWL1,Red River 6.5 Miles Below the Confluence of the Black,0,,True,False
 RRZF1,Santa Fe River at River Rise near High Springs (in NAVD88),2,HSPF1;OLPF1,True,False
 RSAM6,Homochitto River at Rosetta,1,EDDM6,True,False
@@ -5891,7 +5866,7 @@ TJCC1,Big Tujunga Creek below Hansen Dam,0,,True,False
 TJDO1,Sunday Creek at Tom Jenkins Dam (Burr Oak Lake),0,,True,False
 TJLO1,Sunday Creek at Tom Jenkins Dam,0,,True,False
 TJOO2,Joe Creek at Tulsa 6SSE / 61st St.,0,,True,False
-TKDW3,Wisconsin River below Tomahawk Dam,2,GRFW3;KNGW3,True,False
+TKDW3,Wisconsin River below Tomahawk Dam,3,GRFW3;JERW3;KNGW3,True,False
 TKLT2,Spring Creek (Concho River Basin) above Tankersley,0,,True,False
 TKMM2,Northwest Branch Anacostia River at Adelphi Mill,0,,True,False
 TKPM2,Sligo Creek near Takoma Park,0,,True,False
@@ -6820,7 +6795,7 @@ WILO1,St. Marys River at Willshire,2,PLMI3;RFDO1,True,False
 WILP1,West Branch Susquehanna River at Williamsport,2,JRSP1;MCYP1,True,False
 WILW1,Willapa River at Willapa,0,,True,False
 WILW2,Tug Fork River at Williamson,0,,True,False
-WILW3,Tomahawk River at Willow Reservoir,0,,True,False
+WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WIMD1,Christina River at Wilmington (IN MLLW),0,,True,False
 WIMF1,Little Manatee River near Wimauma at US 301,0,,True,False
 WINM3,Priest Brook at Winchendon,0,,True,False
