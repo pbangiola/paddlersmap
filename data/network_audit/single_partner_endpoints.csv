@@ -2,6 +2,7 @@ noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
 CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHSO3,Sprague River near Chiloquin,1,BTYO3,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
+CIBW1,Columbia River at International Boundary,1,GCDW1,True,False
 CICT2,Cibolo Creek near Boerne,1,BVST2,True,False
 CKDT2,Coleto Creek at Coleto Creek Reservoir,1,CCVT2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
@@ -111,6 +112,7 @@ FCLN7,Cross Creek at Langdon St,1,CCBN7,True,False
 FDKM2,Monocacy River near Frederick at Interstate 70,1,FRMM2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
+FINI3,Big Raccoon Creek near Fincastle,1,CHLI3,True,False
 FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
 FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
@@ -207,6 +209,7 @@ JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
 KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
 KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
+KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
@@ -304,8 +307,10 @@ MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
+MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
+MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTI2,Sangamon River at Monticello,1,RVTI2,True,False
@@ -427,6 +432,7 @@ PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,T
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
+PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
@@ -494,6 +500,7 @@ SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
+SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
@@ -574,10 +581,12 @@ TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
+TURI4,Little Sioux River near Turin,1,CRRI4,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
+UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
