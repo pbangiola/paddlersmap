@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-COGO3,Cow Creek above Azalea,1,GSVO3,True,False
-COGW2,Gauley River at Camden-On-Gauley,1,CRAW2,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
 COMO2,Neosho River near Commerce,1,NSOK1,True,False
 COMS1,Combahee River near Yemassee,1,CMGS1,True,False
@@ -42,6 +40,7 @@ DARM8,Bitterroot River near Darby,1,VICM8,True,False
 DARV2,Cranes Nest River at Darwin,1,CNRV2,True,False
 DAVW2,Blackwater River (WV) above Davis,1,BWRW2,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
+DDMN6,Mohawk River at Delta Dam,1,UCAN6,True,False
 DDVC1,Canoas Creek at Dow Drive,1,CAOC1,True,False
 DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
@@ -83,6 +82,7 @@ ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
 EMPL1,Mississippi River at Empire,1,WPHL1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
+ENVI1,Coeur d'Alene River at Enaville,1,CTLI1,True,False
 ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
@@ -131,7 +131,6 @@ GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
 GBYW3,Fox River (North) at Green Bay,1,WRGW3,True,False
 GDVM5,Shell Rock River (Northeast IA) near Gordonsville 1W,1,MANI4,True,False
 GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
-GENF1,St. Johns River above Lake Harney,1,SNFF1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GILN5,Gila River above Gila,1,RGRN5,True,False
@@ -253,6 +252,7 @@ LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
 LLGC1,Llagas Creek near Gilroy,1,BSVC1,True,False
 LLGN7,Pigeon River (NC) above (W Fork) Abv Lake Logan,1,RTRN7,True,False
+LLKW1,Spokane River at Long Lake Dam,1,SPOW1,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
@@ -271,6 +271,7 @@ LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
+LTXT2,Navidad River at Lake Texana,1,CODT2,True,False
 LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
 LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
@@ -306,6 +307,7 @@ MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
+MELF1,St. Johns River near Melbourne,1,COCF1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
@@ -595,6 +597,7 @@ SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
+SXRA2,Kenai River at Soldotna,1,KEYA2,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
@@ -603,6 +606,7 @@ TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
+TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
