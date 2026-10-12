@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BSCI4,Ioway Creek near Story City 120th St--IFC,1,ESQI4,True,False
-BSCM6,Big Sunflower River at Clarksdale,1,LBSM6,True,False
-BSGV2,Powell River at Big Stone Gap,1,JNSV2,True,False
 BSTL1,Boeuf River at AR/MS State Line,1,BMRL1,True,False
 BSZF1,Bear Creek at SR 52 Near Bayonet Point,1,BPBF1,True,False
 BTBC2,Big Thompson River (CO) below Lake Estes,1,BIMC2,True,False
@@ -146,6 +143,7 @@ GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
+HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
@@ -265,6 +263,7 @@ MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
+MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
 MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
@@ -406,7 +405,6 @@ SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
-SCHA4,White River at St. Charles,1,CLDA4,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
@@ -443,7 +441,6 @@ SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
-STHN7,Cape Fear River at Southport,1,WLON7,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
@@ -454,7 +451,6 @@ TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TISC1,Sacramento River at Tisdale Weir,1,CLUC1,True,False
-TKSN4,Delaware River at Tocks Island,1,BVDN4,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
@@ -467,6 +463,7 @@ TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
+TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
