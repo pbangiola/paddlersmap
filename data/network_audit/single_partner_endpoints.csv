@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LLYP4,Rio Yauco above Diversion Monserrate,1,LLUP4,True,False
-LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
 LNCN1,Holmes Lake,1,LATN1,True,False
@@ -216,6 +214,7 @@ NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
+NRWC1,Santa Ynez River at Narrows,1,LLYC1,True,False
 NRWI4,North River near Norwalk,1,CSLI4,True,False
 NRWM3,Neponset River at Norwood,1,CANM3,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
@@ -402,7 +401,6 @@ RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
-RKVI4,Rock River at Rock Valley,1,RAPI4,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
