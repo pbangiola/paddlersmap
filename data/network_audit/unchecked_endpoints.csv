@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CXLC1,East Fork Russian River near Calpella,0,,True,False
-CXLM2,Cooperative Oxford Laboratory (IN MLLW),0,,True,False
-CXMC1,Coyote Creek  Metcalf,0,,True,False
-CXVC1,Canada Larga Creek,0,,True,False
-CYBC1,Cuyama River at Buckhorn,0,,True,False
-CYCK1,Republican River at Clay Center,2,CNKK1;MLFK1,True,False
-CYCK2,Red River at Clay City,2,FODK2;RAVK2,True,False
-CYDO2,Eastern Oklahoma Lakes at Sardis Lake,0,,True,False
-CYEC1,Coyote Creek at Edenvale,0,,True,False
-CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
-CYHC1,Castaic Canyon Creek,0,,True,False
-CYLO2,Little Washita River near Cyril,1,CMTO2,True,False
-CYNG1,Chattooga River at Hwy 76,1,BURG1,True,False
-CYNK2,South Fork Licking River at Cynthiana,2,CREK2;HYSK2,True,False
-CYNL1,Tensas River at Clayton,2,COGL1;JNEL1,True,False
-CYNM8,Missouri River at Canyon Ferry Reservoir,2,HASM8;TOSM8,True,False
-CYNS2,Rapid Creek above Canyon Lake near Rapid City,2,RAVS2;RCYS2,True,False
-CYQC1,Coyote Creek below Percolation Pond,0,,True,False
-CYST2,Crystal Creek at FM 1314 near Conroe,0,,True,False
-CYTC1,Coyote Creek at Madrone,0,,True,False
-CYTF1,Tide Gauge at Crystal River (in MHHW),0,,True,False
-CYTS2,Wolf Creek (SD) near Clayton,0,,True,False
-CYWC1,Coyote Creek at Piercy Rd,0,,True,False
-CYXF1,Tide Gauge at Crystal River,0,,True,False
-CYYC1,Coyote Creek at E William Street,0,,True,False
 CZCI3,Patoka River near Cuzco,0,,True,False
 CZKF1,Tide Gauge at Chassahowitzka (in MHHW),0,,True,False
 CZRN6,Great Chazy River at Perry Mills,0,,True,False
@@ -2148,7 +2123,7 @@ HGLI3,Little Calumet River at Highland (Kennedy Avenue),0,,True,False
 HGLO2,Eastern Oklahoma Lakes at Hugo Lake,0,,True,False
 HGLT2,Highland Bayou at FM 646 near Santa Fe,0,,True,False
 HGPC2,Harvard Gulch (CO) near Englewood,0,,True,False
-HGRK2,Red River near Hazel Green,0,,True,False
+HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HGRN7,Yadkin River at High Rock Lake,2,BADN7;YADN7,True,False
 HGRN8,Goose River at Hillsboro,0,,True,False
 HGSP1,Conodoguinet Creek near Hogestown,0,,True,False
@@ -5206,7 +5181,7 @@ NKTT1,Tennessee River below Nickajack Dam (Jasper 5S),2,NKJT1;SPTT1,True,False
 NLBN4,Greenwood Branch at New Lisbon,0,,True,False
 NLDM7,Salt River (MO) at New London,2,CPZM7;CTZM7,True,False
 NLGI2,Illinois River at LaGrange Lock and Dam,2,BEAI2;MROI2,True,False
-NLGL1,Tensas River near Newlight,0,,True,False
+NLGL1,Tensas River near Newlight,2,CYNL1;TDGL1,True,False
 NLHC3,Long Island Sound near New London Harbor (IN MLLW),0,,True,False
 NLIH1,Honolii Stream near Papaikou,0,,True,False
 NLIN1,Elkhorn River at Neligh,2,EWIN1;TLDN1,True,False
@@ -6386,7 +6361,7 @@ PRRP1,Pohopoco Creek below Beltzville Lake at Parryville,0,,True,False
 PRRW2,Price Run above Smithfield,0,,True,False
 PRRW4,East Fork Big Goose Creek at Park Reservoir near Big Horn,0,,True,False
 PRSG1,Kinchafoonee Creek at Preston (SR 41),0,,True,False
-PRSK2,Stoner Creek at Paris,0,,True,False
+PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
 PRSL1,Gulf Intracoastal Waterway at Paris Road Bridge near Michoud,0,,True,False
 PRSN1,South Loup River at Pressey,2,ARSN1;RVNN1,True,False
 PRSS1,Pacolet River near Saratt,0,,True,False
@@ -8479,7 +8454,7 @@ TBRT2,West Central Texas Lakes at Twin Buttes Reservoir,2,NAST2;SAGT2,True,False
 TBRV2,Toms Branch Back Creek above Toms Branch Dam,0,,True,False
 TBSC1,Tule River below Success Dam,0,,True,False
 TBSF1,Scottsmoor Turnbull Creek Boat Ramp (in MHHW),0,,True,False
-TBTL1,Tensas Bayou at Transylvania,0,,True,False
+TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
 TBVM7,Osage River near Taberville,0,,True,False
 TCAW4,Teton Creek near Driggs,0,,True,False
 TCBM2,Chesapeake Bay at Tolchester Beach (IN MLLW),0,,True,False
@@ -8532,7 +8507,7 @@ TDBC1,Ellsworth Barranca,0,,True,False
 TDDC2,Trinidad Lake near Trinidad,0,,True,False
 TDDT2,Trinity River at Trinidad,2,LOLT2;RSRT2,True,False
 TDFS2,Spring Creek near Hill City,0,,True,False
-TDGL1,Tensas River at Tendal,0,,True,False
+TDGL1,Tensas River at Tendal,2,NLGL1;TBTL1,True,False
 TEAI1,Teton River (ID) near St. Anthony,0,,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TECM4,River Raisin near Tecumseh,2,ADRM4;MCHM4,True,False
@@ -8813,7 +8788,7 @@ TRLN7,Walnut Creek at Trailwood Drive,2,JHSN7;WAWN7,True,False
 TRLO2,Red River near Terral,2,BKBT2;COUO2,True,False
 TRLP1,Lycoming Creek near Trout Run (Camp Susque),2,BODP1;HEPP1,True,False
 TRLV2,Thornton River at Laurel Mills Road,0,,True,False
-TRMF1,Twin Rivers Marina (In MHHW),0,,True,False
+TRMF1,Twin Rivers Marina (In MHHW),2,CKBF1;CYXF1,True,False
 TRMW4,Tongue River at Monarch (closed),2,DAYW4;DSLM8,True,False
 TRNC1,Trinity River near Helena 1SSE,0,,True,False
 TRNI4,Monona-Harrison Ditch near Turin,0,,True,False
@@ -9624,7 +9599,7 @@ WLHN2,Walker River at Walker Lake,0,,True,False
 WLHN8,Pembina River at Walhalla,2,NCEN8;WNDQ3,True,False
 WLKC1,Sacramento River below Wilkins Slough,0,,True,False
 WLKF1,Walker Creek Near Sarasota,0,,True,False
-WLKM4,Michigamme River near Witch Lake,2,BNGM4;CRFM4,True,False
+WLKM4,Michigamme River near Witch Lake,3,BNGM4;CRFM4;CYFM4,True,False
 WLKN7,Yadkin River at W. Kerr Scott Reservoir,0,,True,False
 WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLI3,East Fork White River at Williams,2,BFRI3;SHLI3,True,False

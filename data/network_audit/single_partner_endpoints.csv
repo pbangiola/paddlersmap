@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
-CYLO2,Little Washita River near Cyril,1,CMTO2,True,False
-CYNG1,Chattooga River at Hwy 76,1,BURG1,True,False
 DAEV2,Tinker Creek near Daleville,1,CLOV2,True,False
 DANA4,Petit Jean River at Danville,1,BMTA4,True,False
 DARL1,Amite River near Darlington,1,GVLL1,True,False
@@ -137,6 +134,7 @@ HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
+HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
@@ -468,6 +466,7 @@ PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
+PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
@@ -628,6 +627,7 @@ TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
 TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
+TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
