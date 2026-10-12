@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
-ECBL1,Champagne Bay near Grand Isle,0,,True,False
-ECCC1,Elizabeth Canyon Creek,0,,True,False
-ECCF1,Econlockhatchee River near Chuluota,0,,True,False
-ECCI3,Eagle Creek (IN) at Clermont,0,,True,False
-ECCU1,East Canyon Creek near Morgan,0,,True,False
-ECDF1,Econfina Creek near Deer Point Lake (in NAVD88),0,,True,False
-ECDO3,Elk creek near Drain,0,,True,False
-ECHA2,Emma Creek near Healy,0,,True,False
-ECHM2,Hudson Branch near Rogers Avenue at Ellicott City,0,,True,False
-ECHS2,South Canyon near Rapid City,0,,True,False
-ECHW1,Elochoman River above Cathlamet,0,,True,False
-ECLI4,Elliott Creek at Lawton,0,,True,False
-ECLK1,Elk River (KS) above Elk City Lake,0,,True,False
-ECLN6,Oneida River at Brewerton Lock E-23,0,,True,False
-ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,True,False
-ECLW3,Chippewa River (WI) at Eau Claire,3,CHFW3;DURW3;FLCW3,True,False
-ECMA3,Eagle Creek near Morenci,0,,True,False
-ECMF1,English Creek at SR 60 Near Mulberry,0,,True,False
-ECMP1,Little Conemaugh River at East Conemaugh,0,,True,False
-ECNF1,Econlockhatchee River near Oviedo,0,,True,False
-ECOF1,Econfina River near Perry (CR 655),0,,True,False
-ECPU1,East Canyon Creek near Park City,0,,True,False
-ECPV2,Easy Creek at Prince William Parkway,0,,True,False
-ECRI3,Eagle Creek (IN) at Eagle Creek Reservoir,0,,True,False
 ECRN7,Ellerbe Creek (NC) at Club Blvd in Durham,0,,True,False
 ECRW4,Encampment River at Mouth near Encampment,0,,True,False
 ECTG1,Etowah River  Downstream I-575 at Canton,3,BRTG1;CNNG1;DWSG1,True,False
@@ -137,7 +112,7 @@ EKPF1,Tide Station at the Edward B. Knight Pier in Key West (in MHHW),0,,True,Fa
 EKTO3,Umpqua River near Elkton,0,,True,False
 EKVN7,Elk Creek (NC) at Elkville,0,,True,False
 EKWN1,West Papillion Creek at Elkhorn,0,,True,False
-ELAK1,Elk River near Elk City,0,,True,False
+ELAK1,Elk River near Elk City,2,ECLK1;ELFK1,True,False
 ELBA1,Pea River at Elba (US 84),3,BIGA1;FOLA1;SSNA1,True,False
 ELCC2,"Elkhead Creek near Craig, CO",0,,True,False
 ELCF1,Tide Gauge at Bokeelia (in MHHW),0,,True,False
@@ -149,7 +124,7 @@ ELDO2,Baron Fork at Eldon,0,,True,False
 ELEW1,Puyallup River near Electron,0,,True,False
 ELFA2,Cross Sound Tide Gauge at Elfin Cove (MLLW datum),0,,True,False
 ELFF1,Anclote River near Elfers at Little Road,3,ACOF1;AECF1;ANOF1,True,False
-ELFK1,Elk River (KS) at Elk Falls,0,,True,False
+ELFK1,Elk River (KS) at Elk Falls,1,ELAK1,True,False
 ELGI2,Fox River at Elgin,2,AFBI2;SELI2,True,False
 ELGV2,Eastern Branch Elizabeth River at Grandy Village (IN MLLW),0,,True,False
 ELHC2,Elkhead Creek near Hayden,0,,True,False
@@ -310,7 +285,7 @@ ERPF1,Estero River Pelican Sound,0,,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERRN3,Androscoggin River at Errol,2,DIAN3;GRMN3,True,False
 ERSF1,South Branch Estero River at Estero,0,,True,False
-ERSI3,Eagle Creek (IN) at Raymond Street in Indianapolis,0,,True,False
+ERSI3,Eagle Creek (IN) at Raymond Street in Indianapolis,2,INSI3;STTI3,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 ERVW2,East River at Willowton,0,,True,False
 ERWN6,Tioga River near Erwins,0,,True,False
@@ -346,13 +321,13 @@ ETMW2,Elk Twomile Creek at Charleston,0,,True,False
 ETNG1,Conasauga River at GA 286 near Eton,1,TLNG1,True,False
 ETNM4,Grand River at Eaton Rapids,2,DMDM4;JACM4,True,False
 ETNP1,Little Pine Creek near Etna,0,,True,False
-ETPI3,Eagle Creek (IN) near Traders Point,0,,True,False
+ETPI3,Eagle Creek (IN) near Traders Point,2,ECRI3;ZONI3,True,False
 ETRI4,East Tarkio Creek near Stanton,0,,True,False
 ETRN6,Clyde River at Mays Point Lock E-25,0,,True,False
 ETTC1,Mattole River near Ettersburg,0,,True,False
 ETWC1,Eaton Wash at Loftus,0,,True,False
 ETWG1,Etowah River at Allatoona Dam above Cartersville,2,CTVG1;CVLG1,True,False
-EUCN6,Oneida River near Euclid,0,,True,False
+EUCN6,Oneida River near Euclid,1,ECLN6,True,False
 EUCO1,Euclid Creek at South Euclid,0,,True,False
 EUDM5,RLWD Ditch 15 near Euclid (110th St SW),0,,True,False
 EUFO2,Eastern Oklahoma Lakes at Eufala Lake,0,,True,False
@@ -2013,7 +1988,7 @@ IDNI4,Middle River near Indianola,0,,True,False
 IDOC2,Clear Creek (CO) near Lawson,2,CWCC2;GLDC2,True,False
 IDPI3,Wabash River at Independence,0,,True,False
 IDPI4,Wapsipinicon River at Independence,2,ANSI4;DKTI4,True,False
-IDPK1,Verdigris River at Independence,2,ATOK1;CFVK1,True,False
+IDPK1,Verdigris River at Independence,3,ATOK1;CFVK1;ECLK1,True,False
 IDPW3,Trempealeau River at Independence,2,ARCW3;WHIW3,True,False
 IDRA2,Smith Creek near Deering,0,,True,False
 IDRC1,Clear Creek (San Benito Co.) near Idria,0,,True,False
@@ -2062,7 +2037,7 @@ INLO2,Eastern Oklahoma Lakes at Newt Graham Lock and Dam 18,0,,True,False
 INOO2,Verdigris River near Inola,2,CLRO2;CTOO2,True,False
 INRD1,Indian River near Indian River Inlet (IN MLLW),0,,True,False
 INRN6,Indian River below Indian Lake,0,,True,False
-INSI3,Eagle Creek (IN) at Speedway,0,,True,False
+INSI3,Eagle Creek (IN) at Speedway,2,ECCI3;ERSI3,True,False
 INTG1,Intrenchment Creek at Constitution Road near Atlanta,0,,True,False
 IOCI4,Old Mans Creek near Iowa City,0,,True,False
 IOLK1,Neosho River at Iola,2,CNUK1;LRYK1,True,False
@@ -6157,7 +6132,7 @@ RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RCWW2,Cranberry River below Richwood,0,,True,False
 RCYC2,Crystal River near Redstone,0,,True,False
 RCYF1,St. Johns River at Racy Point (in MHHW),2,BKBF1;PALF1,True,False
-RCYS2,Rapid Creek at Founders Park,2,CYNS2;HAWS2,True,False
+RCYS2,Rapid Creek at Founders Park,3,CYNS2;ECHS2;HAWS2,True,False
 RDBC1,Sacramento River at Red Bluff Diversion Dam,2,BDBC1;TEHC1,True,False
 RDBG1,Coosawattee River near Pine Chapel / Redbud,3,CATG1;CTRG1;PING1,True,False
 RDBN4,Swimming River at Red Bank,0,,True,False
@@ -6392,7 +6367,7 @@ ROCN2,Rock Creek above Battle Mountain,0,,True,False
 ROCO1,Rock Creek at Tiffin,0,,True,False
 ROCW2,Big Sandy Creek at Rockville,0,,True,False
 RODF1,Ocklawaha River below Kirkpatrick Dam (in NAVD88),0,,True,False
-RODN6,Oneida Lake at Brewerton,0,,True,False
+RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
 RODW1,Skagit River  Ross Reservoir,0,,True,False
 ROEF1,Upper Blackwater River,0,,True,False
 ROEG1,Etowah River at GA 1 Loop near Rome,2,ERRG1;KGTG1,True,False
@@ -7713,7 +7688,7 @@ STRS1,Rocky River SC near Starr,0,,True,False
 STRW3,Big Eau Pleine River near Stratford,0,,True,False
 STSN7,"Steele Creek at Carowinds Blvd, 2.5 SSE Steele Creek",0,,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
-STTI3,White River (IN) at Stout Power Plant,2,INDI3;SOUI3,True,False
+STTI3,White River (IN) at Stout Power Plant,3,ERSI3;INDI3;SOUI3,True,False
 STTM7,Osage River near St. Thomas,2,MOAM7;TSCM7,True,False
 STTN1,Republican River at Stratton,3,BEKN1;BENN1;CULN1,True,False
 STTN4,South Branch Raritan River at Stanton,0,,True,False
@@ -9544,7 +9519,7 @@ ZLPP1,Connoquenessing Creek at Zelienople,1,BTRP1,True,False
 ZMBO1,Zimber Ditch at North Canton,0,,True,False
 ZNRC1,New River near New River Westmorland,0,,True,False
 ZOLO3,Zollner Creek near Mt Angel,0,,True,False
-ZONI3,Eagle Creek (IN) at Zionsville,0,,True,False
+ZONI3,Eagle Creek (IN) at Zionsville,1,ETPI3,True,False
 ZOOM8,Canyon Creek at Billings (Zoo Montana),0,,True,False
 ZPAM5,North Fork Zumbro River near Mazeppa,0,,True,False
 ZPHF1,Hillsborough River near Zephyrhills at State Park,0,,True,False

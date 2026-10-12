@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
-ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,True,False
 EDEN8,Edmore Coulee near Edmore,1,DLBN8,True,False
 EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
@@ -9,6 +7,7 @@ EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
 EGCO2,Boggy Creek (N OK) at Enid at 30th Street,1,EBCO2,True,False
 EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
 EGPA4,Cache River near Egypt,1,PTTA4,True,False
+ELFK1,Elk River (KS) at Elk Falls,1,ELAK1,True,False
 ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELKM2,Patapsco River near Elkridge below Patapsco Valley State Park,1,ERDM2,True,False
 ELRP1,Allegheny River at Eldred,1,OLNN6,True,False
@@ -25,6 +24,7 @@ ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
 ESWL1,Bayou Plaquemine Brule at Estherwood,1,CRWL1,True,False
 ETNG1,Conasauga River at GA 286 near Eton,1,TLNG1,True,False
+EUCN6,Oneida River near Euclid,1,ECLN6,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FALP1,Conewago Creek near Falmouth,1,CCBP1,True,False
@@ -518,6 +518,7 @@ RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,1,WTRA1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBV2,Maury River at Rockbridge Baths,1,BVSV2,True,False
+RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
 ROHC1,Copeland Creek at Rohnert Park,1,CTIC1,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
@@ -776,3 +777,4 @@ YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZAYL1,Comite River near Zachary,1,BAKL1,True,False
 ZLPP1,Connoquenessing Creek at Zelienople,1,BTRP1,True,False
+ZONI3,Eagle Creek (IN) at Zionsville,1,ETPI3,True,False
