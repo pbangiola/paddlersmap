@@ -10,8 +10,10 @@ CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHSO3,Sprague River near Chiloquin,1,BTYO3,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CICT2,Cibolo Creek near Boerne,1,BVST2,True,False
+CKDT2,Coleto Creek at Coleto Creek Reservoir,1,CCVT2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
 CLDG1,Ochlockonee River near Coolidge,1,TMLG1,True,False
+CLFA3,Colorado River at Lees Ferry,1,CGCA3,True,False
 CLGL1,Bayou Lafourche (NE LA) near Crew Lake,1,BLFL1,True,False
 CLLC1,Calleguas Creek at CSUCI Bridge,1,ASNC1,True,False
 CLLI4,Middle Raccoon River Tributary near Carroll,1,CMOI4,True,False
@@ -24,6 +26,7 @@ CMGN6,Chemung River at Chemung,1,CHEN6,True,False
 CMKT2,Devils River at Pafford Crossing near Comstock,1,BKCT2,True,False
 CMTL1,Comite River near Comite Joor Rd.,1,BAKL1,True,False
 CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
+CNCO3,Canyon Creek near Canyon City,1,CCTO3,True,False
 CNEI4,Cedar River near Conesville,1,CEBI4,True,False
 CNWM2,Susquehanna River at Conowingo Dam,1,MRTP1,True,False
 COGO3,Cow Creek above Azalea,1,GSVO3,True,False
@@ -38,6 +41,7 @@ CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
+CRUA2,Colville River at Umiat,1,CCVA2,True,False
 CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSHO1,Muskingum River below Coshocton,1,DREO1,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
@@ -88,6 +92,7 @@ EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
+EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
 ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 ELYW2,Twelvepole Creek at East Lynn Lake,1,ELSW2,True,False
@@ -431,6 +436,7 @@ RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
 RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
 RCMM4,Kalamazoo River near New Richmond,1,CMSM4,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
+RCSN6,Erie Canal above Rochester,1,MCDN6,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
@@ -440,6 +446,7 @@ REGN8,Cannonball River at Regent,1,BREN8,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
+RIGA4,Right Hand Chute Little River at Rivervale,1,PNGA4,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
@@ -470,6 +477,7 @@ SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
+SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
@@ -482,6 +490,7 @@ SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
+SHLI2,Little Calumet River at South Holland,1,THNI2,True,False
 SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
 SHLT2,San Jacinto River near Sheldon,1,HSJT2,True,False
 SHLV2,South Fork Holston River at Riverside nr Chilhowie,1,VSTV2,True,False
@@ -585,6 +594,7 @@ WLDW2,Little Kanawha River near Wildcat,1,BRNW2,True,False
 WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
+WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
