@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
-LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
-LWLK1,White Rock Creek below Lovewell Reservoir,1,LOVK1,True,False
-LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
 LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
 LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
 LYCP1,Lycoming Creek near Williamsport,1,HEPP1,True,False
@@ -342,6 +338,7 @@ RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
 RAYN1,Branched Oak Reservoir,1,LOKN1,True,False
 RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
+RBPF1,Braden Point (in MHHW),1,LWDF1,True,False
 RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
 RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
 RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
@@ -698,6 +695,7 @@ WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
 WMYF1,Cow Pen Slough at WM-49,1,KGAF1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WNCW3,Wolf River (WI) near Lake Poygan,1,NEWW3,True,False
+WODI1,Little Wood River near Carey,1,LWRI1,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False

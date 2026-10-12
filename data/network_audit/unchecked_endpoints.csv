@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LVSS2,Little Vermillion River near Salem,0,,True,False
-LVTV2,Piney Run (VA) near Lovettsville,0,,True,False
-LVWC1,Los Osos Creek at Los Osos,0,,True,False
-LWAF1,Little Wekiva River near ALTAMONTE SPRINGS 2N,0,,True,False
-LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
-LWCA2,[INACTIVE] Little Willow Creek near Kashwitna,0,,True,False
-LWCC1,Guadalupe River  Lower Cavanee,0,,True,False
-LWCI3,Little Wea Creek at South Raub,0,,True,False
-LWCN2,Las Vegas Wash below Flamingo Wash Confluence,0,,True,False
-LWCO1,Leatherwood Creek near Kipling,0,,True,False
-LWCT2,Willow Creek near Tomball,0,,True,False
-LWDC1,San Antonio River (Monterey) near Lockwood,0,,True,False
-LWDF1,Ward Lake Near Bradenton,0,,True,False
-LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
-LWGT2,Little Walnut Creek (TX) at Georgian Drive near Austin 7N,0,,True,False
-LWLA2,Lowell Creek at Seward,0,,True,False
-LWLK1,White Rock Creek below Lovewell Reservoir,1,LOVK1,True,False
-LWLM4,Grand River at Lowell,2,ADAM4;IONM4,True,False
-LWLW4,"Lake Creek below Willow Lake, near Cora",0,,True,False
-LWOF1,Lake Worrell Outfall Near New Port Richey,0,,True,False
-LWOI1,Little Wood River above High 5 Creek,0,,True,False
-LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
-LWRI1,Eastern Idaho Reservoirs at Little Wood Reservoir,0,,True,False
-LWRK1,Kansas River at Lawrence,2,DSOK1;LCPK1,True,False
-LWRS2,Little White River below White River,2,OACS2;RSBS2,True,False
 LWSD1,Delaware Bay at Lewes (IN MLLW),0,,True,False
 LWSN6,Rondout Creek Near Lowes Corner,0,,True,False
 LWSP1,Juniata River at Lewistown,2,MPLP1;NPTP1,True,False
@@ -2740,7 +2715,7 @@ RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
 RBOC1,Rubio Wash at Glendon,0,,True,False
 RBPC2,Rio Blanco Near Blanco Dam,0,,True,False
-RBPF1,Braden Point (in MHHW),0,,True,False
+RBPF1,Braden Point (in MHHW),1,LWDF1,True,False
 RBPS1,Rocky  Branch (SC) at Pickens Street,0,,True,False
 RBRN7,Rocky Branch at Pullen Park in Raleigh,0,,True,False
 RBRU1,Red Butte Creek above 16th East,0,,True,False
@@ -4132,7 +4107,7 @@ SPLN1,Middle Loup River near St. Paul,0,,True,False
 SPMT2,Palo Duro Creek at Spearman,0,,True,False
 SPMV2,Appomattox River near Stony Point Mills,2,FRMV2;MTXV2,True,False
 SPNI3,White River (IN) at Spencer,2,CENI3;ELLI3,True,False
-SPNT2,Spring Creek near Spring,0,,True,False
+SPNT2,Spring Creek near Spring,2,HMMT2;LWCT2,True,False
 SPNW2,Bluestone River near Spanishburg,2,BRVV2;PIPW2,True,False
 SPOF1,Tide Station at Saprito Pier,0,,True,False
 SPOI4,Ocheyedan River near Spencer,0,,True,False
@@ -5827,7 +5802,7 @@ WNYM7,Niangua River near Windyville,0,,True,False
 WNYN6,Hackensack River at West Nyack,0,,True,False
 WOCT2,White Oak Creek near Talco,0,,True,False
 WODG1,Little River at GA 5 near Woodstock,0,,True,False
-WODI1,Little Wood River near Carey,0,,True,False
+WODI1,Little Wood River near Carey,1,LWRI1,True,False
 WODK1,S F Solomon River at Woodston,2,OSBK1;STCK1,True,False
 WODN7,Waccamaw River at Dock Road,2,FREN7;WHSN7,True,False
 WODR1,Pawcatuck above Wood River Junction,0,,True,False
