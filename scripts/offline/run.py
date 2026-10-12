@@ -23,6 +23,7 @@ def main():
  p.add_argument("--bbox",nargs=4,type=float,metavar=("WEST","SOUTH","EAST","NORTH"))
  p.add_argument("--snap-m",type=float,default=1000)
  p.add_argument("--port",type=int,default=8000)
+ p.add_argument("--source",choices=("osm","google"),default="osm",help="Discovery provider")
  a=p.parse_args();OUT.mkdir(parents=True,exist_ok=True)
  if a.task=="serve":
   print(f"Open http://localhost:{a.port}/ in your browser; Ctrl+C stops the server",flush=True)
@@ -38,5 +39,5 @@ def main():
  else:
   if not a.bbox:p.error("discovery requires --bbox WEST SOUTH EAST NORTH")
   kind="launches" if a.task=="discover-launches" else "lakes"
-  run("discover_osm_features.py","--bbox",*a.bbox,"--kind",kind,"--out",OUT/(kind+"_candidates.geojson"))
+  run("discover_google_places.py" if a.source=="google" else "discover_osm_features.py","--bbox",*a.bbox,"--kind",kind,"--out",OUT/(kind+"_google_place_ids.geojson" if a.source=="google" else kind+"_candidates.geojson"))
 if __name__=="__main__":main()
