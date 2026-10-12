@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KTRC1,Kaweah River at Three Rivers,0,,True,False
-KTRG1,Two Run Creek near Kingston,0,,True,False
-KTRM5,Kettle River near Willow River,2,KTLM5;SANM5,True,False
-KTSI3,Kankakee River near Kouts,2,DBRI3;SLBI3,True,False
-KTTP1,Allegheny River at Kittanning Lock and Dam,2,CLNP1;MOSP1,True,False
-KUCN6,Johnson Creek (NY) at Kuckville,0,,True,False
-KULA2,Kulukak River near Togiak,0,,True,False
-KUPA2,Kuparuk River near Deadhorse,0,,True,False
-KUSH1,Kahaluu Stream near Kaneohe,0,,True,False
-KUTA2,Kuskokwim River at Tuluksak,2,BETA2;CJXA2,True,False
-KVKA2,Beaufort Sea at Kaktovik,0,,True,False
-KVTA2,Kivalina Tide Gauge at Kivalina (MHHW datum),0,,True,False
-KWDC1,Sonoma Creek at Kenwood,0,,True,False
-KWGA2,Kwigillingok Tide Gauge at Kwigillingok (MHHW datum),0,,True,False
-KWGH1,Kawela Gulch near Kawela,0,,True,False
-KWHT2,Hondo Creek at SH 173 near Hondo,0,,True,False
-KWKA2,[INACTIVE] Kokwok River above Nushagak River near Ekwok,0,,True,False
-KWKH1,Kawaikoi Stream near Waimea,0,,True,False
-KWPM7,Brush Creek at Ward Parkway - Kansas City,0,,True,False
-KWRC1,Kaweah River at McKay Point,0,,True,False
-KWSH1,Kawainui Stream near Kamuela,0,,True,False
-KWWH1,Kawa Stream near Kaneohe,0,,True,False
-KYDK2,Tennessee River at Kentucky Lake Pool,2,NJNT1;PAHK2,True,False
-KYET2,Blanco River near Kyle,2,BSMT2;HFXT2,True,False
-KYTK2,Tennessee River at Kentucky Lake Tailwater,0,,True,False
 KYWF1,Tide Station at the Western Tip of Key West (in MHHW),0,,True,False
 KZTA2,Kotzebue Sound Tide Gauge at Kotzebue (MHHW datum),0,,True,False
 LAAC1,Los Angeles River at Arroyo Seco,0,,True,False
@@ -5616,7 +5591,7 @@ TOWV1,West River below Townshend Lake,0,,True,False
 TOXP4,Lago Toa Vaca at Damsite,0,,True,False
 TPAK1,Kansas River at Topeka,2,BVUK1;LCPK1,True,False
 TPBN7,Intracoastal Waterway at North Topsail Beach (in MLLW),0,,True,False
-TPHT2,Hondo Creek near Tarpley,0,,True,False
+TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
 TPIC2,Taylor Park Reservoir,0,,True,False
 TPJF1,Tiger Point (in MHHW),0,,True,False
 TPKN6,Tremper Kill near Andes,0,,True,False
