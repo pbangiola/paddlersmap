@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FOSO3,Reservoir at Foster nr Sweet Home,0,,True,False
-FOWF1,Hillsborough River at Fowler Avenue,2,SULF1;TMTF1,True,False
-FOXN1,Fox Creek near Curtis,0,,True,False
-FOXN6,Fox Creek near Schoharie,0,,True,False
-FOXN8,Souris River near Foxholm,2,DARN8;MINN8,True,False
-FOXR1,Narragansett Bay at Providence Fox Point (IN MLLW),0,,True,False
-FOYM8,Flathead River at Foys Bend near Kalispell,0,,True,False
-FPBF1,Pensacola Bay at Fort Pickens (in MHHW),0,,True,False
-FPHA1,Chattahoochee River at Fort Gaines,0,,True,False
-FPHT1,South Fork Holston River above Fort Patrick Henry Dam,2,BOOT1;SHKT1,True,False
-FPKG1,Savannah River at Fort Pulaski (IN MLLW),1,SVDG1,True,False
-FPKM8,Missouri River at Fort Peck Reservoir,2,LDKM8;WPTM8,True,False
-FPOC1,Sacramento River at Freeport,2,RVBC1;SACC1,True,False
-FPOM8,Flathead River near Polson,3,ARLM8;CFMM8;PERM8,True,False
-FPPM4,Lake Erie at Fermi Tidal Gauge,0,,True,False
-FPST2,Tide Station (HGX) at Freeport,0,,True,False
-FPTC2,Frying Pan River near Thomasville,0,,True,False
-FQCS1,French Quarter Creek near Huger,0,,True,False
-FQGT2,Rio Grande near Fort Quitman,2,CDET2;RGAT2,True,False
-FRAA2,Funny River 1.3 miles above Kenai River near Sterling,0,,True,False
-FRAI1,Fall River (WY-ID) near Ashton,2,CHEI1;FALI1,True,False
-FRAI4,Des Moines River at Fraser Kale Rd--IFC,2,BODI4;STRI4,True,False
-FRAO1,Wakatomika Creek at Frazeysburg,0,,True,False
-FRAT1,Harpeth River at Franklin,2,HBFT1;MDNT1,True,False
-FRAW4,Pine Creek above Fremont Lake,0,,True,False
 FRBM5,Straight River near Faribault,2,NRFM5;OWTM5,True,False
 FRBN1,Little Blue River near Fairbury,2,HBGK1;HBON1,True,False
 FRBT2,Pedernales River at Fredericksburg,0,,True,False
@@ -528,7 +503,7 @@ GPLM6,Mississippi Sound at Gulfport Lighthouse,0,,True,False
 GPLT2,Colorado River (TX) at Lake LBJ,2,IKLT2;MFDT2,True,False
 GPOA2,Gulkana River at Paxson Lake Outlet near Paxson,0,,True,False
 GPOM5,Rainy River above Gold Portage Outlet nr Kabetogama,0,,True,False
-GPRO3,Quartzville Creek at Green Peter Reservoir,0,,True,False
+GPRO3,Quartzville Creek at Green Peter Reservoir,2,FOSO3;QCCO3,True,False
 GPRT2,West Fork Trinity River at Grand Prairie,3,DALT2;FWOT2;LART2,True,False
 GPSC2,Eagle River at Gypsum,0,,True,False
 GPTC1,Garrapata Creek above Highway 1,0,,True,False
@@ -1194,7 +1169,7 @@ HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HRVV2,Holmes Run at Van Dorn Street,0,,True,False
 HRWA2,Harding River near Wrangell,0,,True,False
 HRWM3,Herring River at North Harwich,0,,True,False
-HRZF1,Hillsborough River Below Crystal Springs Near Zephyrhills,0,,True,False
+HRZF1,Hillsborough River Below Crystal Springs Near Zephyrhills,2,ZPHF1;ZPRF1,True,False
 HSAF1,Homosassa River Tide Gauge at Homosassa,0,,True,False
 HSBF1,Tide Gauge at Horseshoe Point (in MHHW),0,,True,False
 HSBK2,Caney Creek (KY) at Horse Branch,0,,True,False
@@ -2986,7 +2961,7 @@ MDSM1,Kennebec River near Madison,2,BINM1;SKOM1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MDSN4,Bound Brook at Middlesex,0,,True,False
 MDST2,Bedias Creek near Madisonville,0,,True,False
-MDTC2,Frying Pan River at Meredith,0,,True,False
+MDTC2,Frying Pan River at Meredith,1,FPTC2,True,False
 MDTO1,Great Miami River at Middletown,2,FKNO1;HAMO1,True,False
 MDVG1,Ogeechee River at Midville,2,GRGG1;RFDG1,True,False
 MDWK2,South Elkhorn Creek at Midway,0,,True,False
@@ -3372,7 +3347,7 @@ MOOM2,Moores Run at Moravia Park in Baltimore,0,,True,False
 MOOV1,Mad River near Moretown,0,,True,False
 MOOV2,Lake Moomaw at Gathright Dam,3,BCVV2;CVGV2;FLGV2,True,False
 MORA4,Arkansas River at Morrilton,2,DARA4;TODA4,True,False
-MORF1,Hillsborough River at Morris Bridge,0,,True,False
+MORF1,Hillsborough River at Morris Bridge,2,FOWF1;ZPHF1,True,False
 MORI1,Mores Creek above Robie Creek,0,,True,False
 MORI2,Illinois River at Morris,4,CDII2;COLI2;MMOI2;SORI2,True,False
 MORM4,Little Muskegon River at Morley,0,,True,False
@@ -5317,7 +5292,7 @@ QBMC1,Kern River above BERENDA MESA PIPELINE TURNOUT,0,,True,False
 QBNM4,Quaker Brook at M-66 near Nashville,0,,True,False
 QCBP1,Quittapahilla Creek near Bellegrove,0,,True,False
 QCCF1,Quincy Creek at Quincy - SR 267 (in NAVD88),0,,True,False
-QCCO3,Quartzville Creek near Cascadia,0,,True,False
+QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCDN7,Queen Creek at QUEENS CREEK DAM,0,,True,False
 QCDV2,Quantico Creek at Dumfries,0,,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
@@ -8544,7 +8519,7 @@ WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
 WRAW1,White River at R St. Auburn,0,,True,False
 WRBM2,Winters Run near Bel Air,0,,True,False
 WRBS1,Waccamaw River at SC Highway 22 near Red Bluff,2,ACWS1;LNGS1,True,False
-WRCF1,Withlacoochee-Hillsborough Overflow at US 98 Near Richland,0,,True,False
+WRCF1,Withlacoochee-Hillsborough Overflow at US 98 Near Richland,2,CUMF1;ZPRF1,True,False
 WRCI2,Rayse Creek above Waltonville,0,,True,False
 WRCN1,White River (WY) at Crawford,0,,True,False
 WRCS1,Wando River at Cainhoy (IN MLLW),0,,True,False
@@ -8872,8 +8847,8 @@ ZOLO3,Zollner Creek near Mt Angel,0,,True,False
 ZONI3,Eagle Creek (IN) at Zionsville,1,ETPI3,True,False
 ZOOM8,Canyon Creek at Billings (Zoo Montana),0,,True,False
 ZPAM5,North Fork Zumbro River near Mazeppa,0,,True,False
-ZPHF1,Hillsborough River near Zephyrhills at State Park,0,,True,False
-ZPRF1,Hillsborough River Above Crystal Springs Near Zephyrhills,0,,True,False
+ZPHF1,Hillsborough River near Zephyrhills at State Park,2,HRZF1;MORF1,True,False
+ZPRF1,Hillsborough River Above Crystal Springs Near Zephyrhills,2,HRZF1;WRCF1,True,False
 ZSRC1,South San Ramon Creek above Amador Valley Blvd,0,,True,False
 ZSRM2,Zekiah Swamp Run near Newtown,0,,True,False
 ZTNK2,Pennsylvania Run near Zoneton,0,,True,False

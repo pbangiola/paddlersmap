@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FPKG1,Savannah River at Fort Pulaski (IN MLLW),1,SVDG1,True,False
 FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
 FRKM1,Kennebec River at The Forks,1,BINM1,True,False
 FRKW3,Root River at Franklin,1,FAKW3,True,False
@@ -239,6 +238,7 @@ MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNN8,Heart River near Mandan,1,GLUN8,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
+MDTC2,Frying Pan River at Meredith,1,FPTC2,True,False
 MEDM3,Charles River at Medway,1,DOVM3,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
@@ -454,6 +454,7 @@ PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
+QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 RACW3,Root River at Racine,1,FAKW3,True,False
