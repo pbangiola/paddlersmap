@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MCPN4,Pequannock River at Macopin,2,CHAN4;RDLN4,True,False
-MCPN7,McAlpine Creek at Waste Water Treatment Plant,1,MCCN7,True,False
-MCPO2,Pennington Creek near Mill Creek,0,,True,False
-MCPU1,Mill Creek below Pack Creek near Moab,2,CRPU1;MCSU1,True,False
-MCQM4,Mill Creek (MI) at Quaker St. near Mottville,0,,True,False
-MCRG1,Turnpike Creek near McRae,0,,True,False
-MCRI2,Wabash River at Mount Carmel,5,HZNI3;LAWI2;NHRI3;PNTI3;VCNI3,True,False
-MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
-MCRM2,Maidens Choice Run at Wilhelm Park in Baltimore,0,,True,False
-MCRM4,Chippewa River near Midland,0,,True,False
-MCRO1,Mill Creek above Reading,1,EVNO1,True,False
-MCRP1,Little Mahoning Creek at McCormick,0,,True,False
-MCRT1,Mountain Creek (TN) near Red Bank,0,,True,False
-MCSM1,Machias River at Machias (in MLLW),0,,True,False
-MCSM8,Sun River near Mill Coulee Creek nr Sun River,0,,True,False
-MCSO1,Mill Creek at East Sharon Road,2,EVNO1;SPGO1,True,False
-MCSQ1,Lodge Creek at on Middle Ck at Sask border nr Elkwater 19SW,0,,True,False
-MCSS2,Marne Creek at Yankton,1,MCNS2,True,False
-MCST1,Duck River at Manchester,0,,True,False
-MCSU1,Mill Creek below Sheley Tunnel near Moab,2,MCMU1;MCPU1,True,False
-MCTN8,Mauvais Coulee Tributary No. 3 near Cando,0,,True,False
-MCTO3,"Mill Creek (Marion Co., OR) at Turner Road near Salem",0,,True,False
-MCTS1,McTier Creek near Monetta,0,,True,False
-MCUN6,Meads Creek above Taft Rd.,1,MCLN6,True,False
-MCVA2,Mineral Creek near Valdez,0,,True,False
 MCVT2,Cow Bayou near Mauriceville,2,BCVT2;ORFT2,True,False
 MCWF1,Phillippi Creek at Main C. Weir,0,,True,False
 MCWI4,Winnebago River at Mason City,3,MASI4;MCII4;MCKI4,True,False
@@ -401,7 +376,7 @@ MNRF1,Munson Slough at Roberts Avenue (in NAVD88),0,,True,False
 MNRN6,Manor Kill at West Conesville near Gilboa,0,,True,False
 MNRO3,Long Tom River at Monroe,1,FRNO3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
-MNSO3,"Mill Creek (Marion Co., OR) at North Salem High School at Salem",0,,True,False
+MNSO3,"Mill Creek (Marion Co., OR) at North Salem High School at Salem",1,MCTO3,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNSW1,Wynoochee River near Montesano,0,,True,False
 MNSW3,Fox River (North) at Menasha-Jefferson Park,2,OSKW3;STKW3,True,False
@@ -490,7 +465,7 @@ MOZW2,South Mill Creek near Mozer,0,,True,False
 MPBF1,Matlacha (in MHHW),0,,True,False
 MPBV2,Bull Run near Manassas Park,1,CTHV2,True,False
 MPCF1,Inundation Sensor at Boca Ciega Millenium Park (in AGL),0,,True,False
-MPCO2,Pennington Creek 5 miles NNE of Mill Creek,0,,True,False
+MPCO2,Pennington Creek 5 miles NNE of Mill Creek,1,MCPO2,True,False
 MPCW4,Middle Piney Creek above Forest Boundary,0,,True,False
 MPDH1,Manoa Stream at Manoa Palolo Drainage Canal,0,,True,False
 MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
@@ -638,7 +613,7 @@ MSSI1,Middle Fork Salmon River at Mouth,0,,True,False
 MSSI3,Northern Indiana Lakes at Mississinewa Lake,0,,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
 MSSN7,Hiwassee River above Mission Dam at Brasstown,0,,True,False
-MSSO3,"Mill Creek (Marion Co., OR) at Spenner Road near Sublimity",0,,True,False
+MSSO3,"Mill Creek (Marion Co., OR) at Spenner Road near Sublimity",1,MTTO3,True,False
 MSTK1,Wildcat Creek at Manhattan Seth Childs Rd,0,,True,False
 MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False
 MSVI4,Boyer River near Missouri Valley (IFC),1,LGNI4,True,False
@@ -697,7 +672,7 @@ MTST2,San Antonio River at Mitchell Street,0,,True,False
 MTTC3,Lake Maltby above Maltby Lake #2,0,,True,False
 MTTK1,Big Blue River at Tuttle Creek Lake,2,BLRK1;MNTK1,True,False
 MTTL1,Whisky Chitto Creek near Mittie,0,,True,False
-MTTO3,"Mill Creek (Marion Co., OR) at Turner",0,,True,False
+MTTO3,"Mill Creek (Marion Co., OR) at Turner",2,MCTO3;MSSO3,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MTVI3,Ohio River at Mount Vernon,2,HENK2;UNWK2,True,False
 MTVS2,Firesteel Creek near Mt. Vernon,0,,True,False
@@ -2859,7 +2834,7 @@ ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 ROYW3,Little Wolf River at Royalton,0,,True,False
 ROZK1,Pawnee River near Rozel,2,BTTK1;SANK1,True,False
 ROZM7,St. Francis River near Roselle,1,MLCM7,True,False
-RPCO2,Pennington Creek near Reagan,0,,True,False
+RPCO2,Pennington Creek near Reagan,1,MCPO2,True,False
 RPCV2,Peters Creek at Strauss Park,0,,True,False
 RPDM5,Le Sueur River near Rapidan,0,,True,False
 RPIL1,Bayou Anacoco near Rosepine,0,,True,False
