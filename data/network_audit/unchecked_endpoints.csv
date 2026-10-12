@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LWSD1,Delaware Bay at Lewes (IN MLLW),0,,True,False
-LWSN6,Rondout Creek Near Lowes Corner,0,,True,False
-LWSP1,Juniata River at Lewistown,2,MPLP1;NPTP1,True,False
-LWTT2,Rio Grande at World Trade Bridge,0,,True,False
-LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
-LWVI1,Little Weiser River near Indian Valley,0,,True,False
-LWVP1,Cowanesque River near Lawrenceville,0,,True,False
-LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
-LWWW1,Little White Salmon River at Willard Nat'l Fish Hatchery near Mill A,0,,True,False
-LWYM1,Lewy Lake at Princeton,0,,True,False
-LXCC1,Llagas Creek at Church Diversion,0,,True,False
-LXHC2,Arkansas River at La Junta,2,ARCC2;LMAC2,True,False
-LXRC1,Los Gatos Creek above Lexington Reservoir,0,,True,False
-LXRF1,Loxahatchee River above Jupiter 5NW (in MHHW),0,,True,False
-LXRN7,Tar River near Langley Crossroads,0,,True,False
-LYCP1,Lycoming Creek near Williamsport,1,HEPP1,True,False
-LYDK2,Goose Creek (C KY) near Lyndon,0,,True,False
-LYDM8,Lake Koocanusa near Libby,0,,True,False
-LYLK2,Cumberland River at Loyall,0,,True,False
-LYLP1,Loyalhanna Creek at Loyalhanna Dam Pool,2,LATP1;LHDP1,True,False
-LYMC3,Connecticut River at Old Lyme,0,,True,False
-LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
-LYNI2,Des Plaines River at Lyons,2,LEMI2;RVRI2,True,False
-LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
-LYNK1,Cow Creek (KS) at Lyons,1,HTCK1,True,False
 LYNM6,Lynch Creek at Jackson,0,,True,False
 LYNN6,Lake America at Golden Hill State Park,0,,True,False
 LYNP1,Tionesta Creek near Lynch,0,,True,False
@@ -4370,7 +4345,7 @@ STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STVF1,Shady Brook (in NAVD88),0,,True,False
 STVL1,Bayou Millhome near Stephensville,0,,True,False
 STVP1,Central PA Dams  Stevenson Dam on First Fork Sinnemahoning Creek,2,SYDP1;TGAP1,True,False
-STVW1,Columbia River at Stevenson,0,,True,False
+STVW1,Columbia River at Stevenson,1,LWWW1,True,False
 STWG1,Sweetwater Creek (E ATL) at Club Drive near Lilburn,0,,True,False
 STWN2,Carson River near Carson City,2,DRRN2;GRDN2,True,False
 STWT1,Caney Fork at Stonewall,0,,True,False

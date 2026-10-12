@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
-LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
-LYCP1,Lycoming Creek near Williamsport,1,HEPP1,True,False
-LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
-LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
-LYNK1,Cow Creek (KS) at Lyons,1,HTCK1,True,False
 MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
 MADM8,Madison River below Ennis Lake near McAllister,1,MRPM8,True,False
 MAKP1,Casselman River at Markleton,1,GNTM2,True,False
@@ -538,6 +532,7 @@ STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
+STVW1,Columbia River at Stevenson,1,LWWW1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
