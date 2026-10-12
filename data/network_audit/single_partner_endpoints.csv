@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-IRNM7,Big River at Irondale,1,RCHM7,True,False
-ISKN6,Tioughnioga River at Itaska,1,LSLN6,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 IWNC1,San Lorenzo River (CA) at Lomond Street Bridge,1,BTEC1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
@@ -776,6 +774,7 @@ WPTK2,Salt River at West Point,1,SHPK2,True,False
 WPTM6,Tchoutacabouffa River above White Plains,1,DIBM6,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
+WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False

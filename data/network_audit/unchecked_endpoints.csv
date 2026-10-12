@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-IREF1,Indian River near Eau Gallie Blvd (in MHHW),0,,True,False
-IRGC1,Klamath River below Iron Gate Dam,2,BOYO3;SEIC1,True,False
-IRIS2,Wild Irishman Gulch near Rapid City,0,,True,False
-IRLN1,Thomas Creek near Bennington,0,,True,False
-IRMS1,Lake Murray,2,CHAS1;MURS1,True,False
-IRNM7,Big River at Irondale,1,RCHM7,True,False
-IRNP1,Buffalo Creek (PA) at Iron Bridge,0,,True,False
-IRON6,Irondequoit Creek at Rochester,0,,True,False
-IROO1,Ohio River at Ironton,2,ASHK2;GNUK2,True,False
-IRQI2,Iroquois River at Iroquois,2,CHBI2;FSMI3,True,False
-IRRC2,Illinois River (CO) near Rand,0,,True,False
-IRRD1,Indian River at Rosedale Beach (IN MLLW),0,,True,False
-IRRS2,White River (NE-SD) near Interior,0,,True,False
-IRSF1,Indian River at Micco (in MHHW),0,,True,False
-IRSN7,"Irwin Creek at Statesville Ave, in Lincoln Heights",0,,True,False
-IRTF1,Indian River at Titusville (in MHHW),0,,True,False
-IRVA2,Indian River at Sitka,0,,True,False
-IRVN1,Little Papillion Creek near Irvington,0,,True,False
-IRWF1,Indian River at Wabasso (in MHHW),0,,True,False
-IRWN7,"Irwin Creek at Charlotte Water Treatment Plant, 1 S Reid Park",2,AWRN7;SMON7,True,False
-ISCN6,Ischua Creek at Ischua Valley CC,0,,True,False
-ISCN7,Island Creek Creek at Sidbury Road,0,,True,False
-ISHC1,Italian Slough Headwater near Byron,0,,True,False
-ISIN3,Isinglass River near Dover,0,,True,False
-ISKN6,Tioughnioga River at Itaska,1,LSLN6,True,False
 ISKQ2,Iskut River below Johnson River-British Columbia,0,,True,False
 ISLI1,Henrys Fork near Island Park,2,HFAI1;IPDI1,True,False
 ISNN7,Irvins Creek at Sam Newell Road,0,,True,False
@@ -308,7 +283,7 @@ KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,
 KDAA2,Kodiak at Kodiak Tide Gage,0,,True,False
 KDGC1,Guadalupe River at LAKE KITTRIDGE,0,,True,False
 KDKA2,Terror River at Mouth near Kodiak,0,,True,False
-KDKS2,White River (NE-SD) near Kadoka,2,BERS2;WHRS2,True,False
+KDKS2,White River (NE-SD) near Kadoka,3,BERS2;IRRS2;WHRS2,True,False
 KDLA2,Lower Ketchikan Lake above Ketchikan Lake Dam near Ketchikan,0,,True,False
 KDRL1,Calcasieu River near Kinder,3,CWOL1;DRKL1;OBCL1,True,False
 KEAN1,Platte River near Kearney,2,GRIN1;ODSN1,True,False
@@ -2439,7 +2414,7 @@ NEBI3,Brush Creek (IN) near Nebraska,0,,True,False
 NEBN1,Missouri River at Nebraska City,2,BRON1;PTMN1,True,False
 NEBN7,Linville River near Nebo,0,,True,False
 NEBO3,Willamette River at Newberg,2,SLMO3;WCFO3,True,False
-NEBS2,White River (NE-SD) near Nebraska-South Dakota State Line,0,,True,False
+NEBS2,White River (NE-SD) near Nebraska-South Dakota State Line,2,WOGS2;WRCN1,True,False
 NECL1,Boeuf River near Fort Necessity,2,ALGL1;JNEL1,True,False
 NECN7,Northeast Creek (NC) near Genlee,0,,True,False
 NEDN7,Northeast Creek (NC) at SS1182 near Lowes Grove,0,,True,False
@@ -2518,7 +2493,7 @@ NGKP4,Rio Blanco at Florida,0,,True,False
 NGLM2,North Glade Run near Swanton,0,,True,False
 NGRF1,Gordon River near Naples Airport (in MHHW),0,,True,False
 NGRN6,Northrup Creek at North Greece,0,,True,False
-NGTC2,North Platte River near Northgate,2,SRAW4;WDNC2,True,False
+NGTC2,North Platte River near Northgate,3,IRRC2;SRAW4;WDNC2,True,False
 NGTN4,East Branch Bass River at New Gretna,0,,True,False
 NGTT2,Clear Fork Brazos River at Nugent,2,ABYT2;HWLT2,True,False
 NHCN7,New Hope Creek near Blands,0,,True,False
@@ -2972,7 +2947,7 @@ OMCN1,Cole Creek at Blondo Street at Omaha,0,,True,False
 OMCN2,Owyhee River near Mountain City,0,,True,False
 OMHN1,Missouri River at Omaha,2,BLAN1;MOMN1,True,False
 OMIC1,Atherton Channel at Las Lomitas School,0,,True,False
-OMLN1,Little Papillion Creek at Ak-sar-ben at Omaha,0,,True,False
+OMLN1,Little Papillion Creek at Ak-sar-ben at Omaha,2,IRVN1;RABN1,True,False
 OMNM7,Cuivre River at Old Monroe,0,,True,False
 OMOT1,Cumberland River at Omohundro,2,NAST1;PNBT1,True,False
 OMRC1,Sacramento-San Joaquin Delta above Old And Middle Rivers Tidally Filtered Est,0,,True,False
@@ -3943,7 +3918,7 @@ QUTG1,Withlacoochee River near Quitman (US 84),3,HRAG1;PINF1;VDRG1,True,False
 RABF1,Rainbow River above Dunnellon (in NAVD88),0,,True,False
 RABI2,Rock River at Rockford (Auburn Street),2,LATI2;RFDI2,True,False
 RABI4,Chariton River at Rathbun Tail,2,MOLI4;RADI4,True,False
-RABN1,Big Papillion Creek at Q Street at Omaha,2,FCKN1;OMBN1,True,False
+RABN1,Big Papillion Creek at Q Street at Omaha,3,FCKN1;OMBN1;OMLN1,True,False
 RACC1,San Ramon Creek at San Ramon,0,,True,False
 RACI1,Rainey Creek at Swan Valley,0,,True,False
 RACW2,Ohio River at Racine Lock,2,BEVW2;POMO1,True,False
@@ -7083,7 +7058,7 @@ WODN7,Waccamaw River at Dock Road,2,FREN7;WHSN7,True,False
 WODR1,Pawcatuck above Wood River Junction,0,,True,False
 WODS1,Enoree River near Woodruff,0,,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
-WOGS2,White River (NE-SD) near Oglala,0,,True,False
+WOGS2,White River (NE-SD) near Oglala,2,IRRS2;NEBS2,True,False
 WOLM2,Dead Run Tributary at Woodlawn,0,,True,False
 WOLM4,Sturgeon River at Wolverine,0,,True,False
 WOLV2,Wolf Creek near Narrows,0,,True,False
@@ -7138,7 +7113,7 @@ WRBM2,Winters Run near Bel Air,0,,True,False
 WRBS1,Waccamaw River at SC Highway 22 near Red Bluff,2,ACWS1;LNGS1,True,False
 WRCF1,Withlacoochee-Hillsborough Overflow at US 98 Near Richland,2,CUMF1;ZPRF1,True,False
 WRCI2,Rayse Creek above Waltonville,0,,True,False
-WRCN1,White River (WY) at Crawford,0,,True,False
+WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
 WRCS1,Wando River at Cainhoy (IN MLLW),0,,True,False
 WRCW4,Wind River above Red Creek,3,CROW4;DUBW4;EFWW4,True,False
 WRDM5,Lake of the Woods at Warroad,0,,True,False
