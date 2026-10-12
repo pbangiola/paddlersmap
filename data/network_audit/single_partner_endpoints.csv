@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FNEC2,Fountain Creek at Colorado Springs,1,FHAC2,True,False
 FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
 FOLF1,Fenholloway River near Foley (US 27),1,FLYF1,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
@@ -47,6 +46,7 @@ GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNM7,James River (MO) at Galena,1,FINM7,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
+GNGT2,San Gabriel River at Granger Lake,1,WSGT2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
 GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
@@ -524,6 +524,7 @@ RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
+RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
