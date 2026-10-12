@@ -5,6 +5,7 @@ CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRCA3,Cataract Creek at Redlands Crossing,1,CCHA3,True,False
 CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
+CRMV2,Cowpasture River at McClung,1,COWV2,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
 CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
@@ -70,6 +71,7 @@ EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
 EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
+EGPA4,Cache River near Egypt,1,PTTA4,True,False
 ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELRP1,Allegheny River at Eldred,1,OLNN6,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
@@ -303,7 +305,6 @@ MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCKT2,East Fork Trinity River at McKinney,1,LVNT2,True,False
 MCLM6,Leaf River near McLain,1,NAGM6,True,False
 MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
-MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
 MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
 MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
@@ -312,6 +313,7 @@ MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
+MEMV1,Lake Memphremagog at Newport,1,COVV1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
@@ -551,7 +553,6 @@ SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHBN6,Chenango River at Sherburne,1,NWHN6,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
-SHLI2,Little Calumet River at South Holland,1,THNI2,True,False
 SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
 SHLO1,Black Fork Mohican River at Shelby,1,CHOO1,True,False
 SHLT2,San Jacinto River near Sheldon,1,HSJT2,True,False
