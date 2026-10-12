@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
 GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
 GDVM5,Shell Rock River (Northeast IA) near Gordonsville 1W,1,MANI4,True,False
@@ -39,6 +38,7 @@ HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
+HGBT2,Greens Bayou near Houston,1,GBHT2,True,False
 HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
@@ -235,6 +235,7 @@ MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
 MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
 MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
+MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
 MHDF1,Shoal River near Mossy Head (CR 1087),1,CRVF1,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
@@ -356,6 +357,7 @@ NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OAKA3,Oak Creek (AZ) at Sedona,1,OACA3,True,False
 OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
+OAWU1,Weber River near Oakley,1,WWPU1,True,False
 OBJI4,West Okoboji Lake near Milford,1,EWOI4,True,False
 OBNK1,Sappa Creek near Oberlin,1,NCRK1,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
@@ -629,6 +631,7 @@ STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
+SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
 SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
@@ -706,6 +709,7 @@ WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
+WBRW4,Green River (WY-UT-CO) at Warren Bridge,1,LABW4,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
