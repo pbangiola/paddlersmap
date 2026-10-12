@@ -2,9 +2,9 @@
   "layers": {
     "launches": {
       "next_tile": 7,
-      "delay_seconds": 91.32,
+      "delay_seconds": 120,
       "successes": 7,
-      "failures": 4
+      "failures": 5
     },
     "rivers": {
       "next_tile": 0,
@@ -13,9 +13,9 @@
       "failures": 1
     },
     "gauges": {
-      "next_tile": 62,
+      "next_tile": 85,
       "delay_seconds": 2,
-      "successes": 62,
+      "successes": 85,
       "failures": 1
     }
   },
@@ -694,12 +694,228 @@
       "features": 4,
       "added": 4,
       "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 7,
+      "seconds": 110.21,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "layer": "gauges",
+      "tile": 62,
+      "seconds": 0.33,
+      "bytes": 13922,
+      "features": 6,
+      "added": 6,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 63,
+      "seconds": 0.22,
+      "bytes": 3645,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 64,
+      "seconds": 0.27,
+      "bytes": 16005,
+      "features": 7,
+      "added": 7,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 65,
+      "seconds": 0.25,
+      "bytes": 14047,
+      "features": 6,
+      "added": 6,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 66,
+      "seconds": 0.22,
+      "bytes": 11969,
+      "features": 5,
+      "added": 5,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 67,
+      "seconds": 0.26,
+      "bytes": 7541,
+      "features": 3,
+      "added": 3,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 68,
+      "seconds": 0.28,
+      "bytes": 27838,
+      "features": 13,
+      "added": 13,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 69,
+      "seconds": 0.36,
+      "bytes": 54512,
+      "features": 26,
+      "added": 26,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 70,
+      "seconds": 0.32,
+      "bytes": 87068,
+      "features": 42,
+      "added": 42,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 71,
+      "seconds": 0.34,
+      "bytes": 122234,
+      "features": 59,
+      "added": 59,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 72,
+      "seconds": 0.31,
+      "bytes": 95842,
+      "features": 46,
+      "added": 46,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 73,
+      "seconds": 0.3,
+      "bytes": 46956,
+      "features": 22,
+      "added": 22,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 74,
+      "seconds": 0.22,
+      "bytes": 3489,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 75,
+      "seconds": 0.22,
+      "bytes": 1506,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 76,
+      "seconds": 0.27,
+      "bytes": 3598,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 77,
+      "seconds": 0.23,
+      "bytes": 11869,
+      "features": 5,
+      "added": 5,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 78,
+      "seconds": 0.3,
+      "bytes": 57556,
+      "features": 28,
+      "added": 28,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 79,
+      "seconds": 0.29,
+      "bytes": 15506,
+      "features": 7,
+      "added": 7,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 80,
+      "seconds": 0.34,
+      "bytes": 38852,
+      "features": 18,
+      "added": 18,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 81,
+      "seconds": 0.27,
+      "bytes": 27522,
+      "features": 13,
+      "added": 13,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 82,
+      "seconds": 0.27,
+      "bytes": 28129,
+      "features": 13,
+      "added": 13,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 83,
+      "seconds": 0.29,
+      "bytes": 39980,
+      "features": 19,
+      "added": 19,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 84,
+      "seconds": 0.39,
+      "bytes": 17601,
+      "features": 8,
+      "added": 8,
+      "result": "ok"
     }
   ],
   "last_run": {
     "requests": 24,
-    "bytes": 960400,
-    "elapsed_seconds": 75.7,
+    "bytes": 747187,
+    "elapsed_seconds": 167.8,
     "probe": false
   }
 }
