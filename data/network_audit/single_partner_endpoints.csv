@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
 HLKI1,Eastern Idaho Reservoirs at Henrys Lake,1,HENI1,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
@@ -82,6 +81,7 @@ JUDS2,Battle Creek (SD) above Keystone,1,RUSS2,True,False
 JYBT2,Neches River at Downtown Beaumont,1,BEAT2,True,False
 JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
 KALI4,English River at Kalona,1,DEPI4,True,False
+KASN6,West Canada Creek at Kast Bridge,1,HIKN6,True,False
 KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
 KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
@@ -322,6 +322,7 @@ NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NNRN7,New River near Richlands,1,GUMN7,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
 NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
+NOLK2,Nolin River at Nolin River Lake,1,WHMK2,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
 NONT1,Nonconnah Creek at Winchester Rd,1,FRST1,True,False
 NORN4,Maurice River at Norma,1,BVVN4,True,False
@@ -445,6 +446,7 @@ PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRPI1,Payette River at Payette,1,PLEI1,True,False
 PRSG1,Kinchafoonee Creek at Preston (SR 41),1,DSNG1,True,False
 PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
+PRTN8,Goose River near Portland,1,HGRN8,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False

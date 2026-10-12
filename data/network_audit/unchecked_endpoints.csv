@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HGRN7,Yadkin River at High Rock Lake,2,BADN7;YADN7,True,False
-HGRN8,Goose River at Hillsboro,0,,True,False
-HGSP1,Conodoguinet Creek near Hogestown,0,,True,False
-HGTT2,White Oak Bayou at Houston,0,,True,False
-HGVK2,Nolin River at Hodgenville,0,,True,False
-HGZM7,North Fork Salt River at Hagers Grove,0,,True,False
-HHCC1,Huer Huero Creek at Geneseo Road,0,,True,False
-HHDS2,Horsehead Creek at Oelrichs,0,,True,False
-HHDW1,Green River (WA) at Howard Hanson Reservoir,2,HAHW1;LTCW1,True,False
-HHSF1,Halls River (In MHHW),0,,True,False
-HHSM6,Coldwater River near Coldwater River at Hernando,0,,True,False
-HHTM4,Sycamore Creek near Holt,0,,True,False
-HHWM8,Hungry Horse Reservoir  ,0,,True,False
-HIBK2,Kentucky River at High Bridge Lock,3,CPNK2;EHMK2;SLVK2,True,False
-HIBT1,Stock Creek at Knoxville 8SSE at Martin Mill Road,0,,True,False
-HIBT2,Brazos River near Highbank,2,BBZT2;WBAT2,True,False
-HICM5,High Island Creek near Henderson,2,ARLM5;JDNM5,True,False
-HICN8,Red River of the North at Hickson,2,ENLN8;FGON8,True,False
-HICT2,North Bosque River at Hico,1,CTNT2,True,False
-HIGM5,Red Lake River at High Landing near Goodridge,2,RLFM5;RRDM5,True,False
-HIGO1,Scioto River at Higby,3,CHCO1;CPCO1;PKTO1,True,False
-HIKN6,West Canada Creek at Hinckley Dam,0,,True,False
-HILG1,Hillabahatchee Creek at Thaxton Road near Franklin,0,,True,False
-HILK1,Reservoirs at Hillsdale Lake,0,,True,False
-HILN8,Red River of the North at Halstad,4,GEGM5;HNDM5;HWDN8;TPNN8,True,False
 HILT1,Roaring River near Hilham,0,,True,False
 HINW2,New River at Hinton,3,GLLV2;KANW2;THMW2,True,False
 HIPI2,Skokie River at Highland Park,0,,True,False
@@ -747,7 +722,7 @@ KANK1,Smoky Hill River at Kanopolis Lake,2,ELWK1;LNSK1,True,False
 KANW2,Kanawha River at Kanawha Falls,3,HINW2;HNNW2;LONW2,True,False
 KAPF1,Alligator Creek at Kapok Park at Clearwater,2,AGCF1;PIAF1,True,False
 KARP1,West Branch Susquehanna River at Karthaus,2,HYEP1;ROVP1,True,False
-KASN6,West Canada Creek at Kast Bridge,0,,True,False
+KASN6,West Canada Creek at Kast Bridge,1,HIKN6,True,False
 KAWM5,Kawishiwi River near Ely,0,,True,False
 KAWO2,Eastern Oklahoma Lakes at Kaw Lake,0,,True,False
 KAYF1,Long Key Kayak Launch (in MHHW),0,,True,False
@@ -3111,7 +3086,7 @@ NOGL1,Mississippi River at Old River Low Sill Structure,0,,True,False
 NOHV2,Colliers Creek at Effinger,0,,True,False
 NOKF1,Donna Bay at US 41 at Nokomis (in MHHW),0,,True,False
 NOKM5,Nokasippi River near Ft. Ripley,0,,True,False
-NOLK2,Nolin River at Nolin River Lake,0,,True,False
+NOLK2,Nolin River at Nolin River Lake,1,WHMK2,True,False
 NOLQ6,"Whitefish River near Nolalu, ON",0,,True,False
 NOLT1,Nolichucky River at Nolichucky Dam HW near Greeneville 8SSW,2,EMBT1;LLDT1,True,False
 NOMC1,Sonoma Creek d/s miles N of Calabazas Creek,0,,True,False
@@ -4248,7 +4223,7 @@ PRTI3,East Arm Little Calumet River at Porter,0,,True,False
 PRTL1,Pearl River above Navigational Canal #3 near Sun,0,,True,False
 PRTN6,Genesee River at Portageville,2,MMDN6;WLLN6,True,False
 PRTN7,Little Tennessee River near Prentiss,0,,True,False
-PRTN8,Goose River near Portland,0,,True,False
+PRTN8,Goose River near Portland,1,HGRN8,True,False
 PRTO3,Willamette River at Portland,2,ORCO3;SHNO3,True,False
 PRTP4,Rio Portugues near Tibes,0,,True,False
 PRTV2,Chesapeake Bay at Port Isobel/Tangier Island (IN MLLW),0,,True,False
@@ -6605,7 +6580,7 @@ TPJF1,Tiger Point (in MHHW),0,,True,False
 TPKN6,Tremper Kill near Andes,0,,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TPLO1,Little Stillwater Creek at Tappan Dam Tailwater,0,,True,False
-TPNN8,Red River of the North near Thompson,3,CLXM5;EGFM5;HILN8,True,False
+TPNN8,Red River of the North near Thompson,4,CLXM5;EGFM5;HGRN8;HILN8,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,0,,True,False
 TPOM6,Town Creek at Tupelo,0,,True,False
 TPPF1,Tide Gauge at Tropical Point Park (In MHHW),0,,True,False
@@ -7350,7 +7325,7 @@ WHLN1,South Omaha Creek at Walthill,0,,True,False
 WHLR1,Atlantic Coast at Watch Hill Cove (IN MLLW),0,,True,False
 WHLW2,Ohio River at Pike Island Lock and Dam,2,WELW2;WLGW2,True,False
 WHLW4,North Platte River below Whalen Dam,0,,True,False
-WHMK2,Nolin River at White Mills,0,,True,False
+WHMK2,Nolin River at White Mills,2,HGVK2;NOLK2,True,False
 WHMM2,Whitemarsh Run at White Marsh,0,,True,False
 WHMS1,Enoree River at Whitmire,0,,True,False
 WHMV2,N Fork Holston River at White Mills 2N,0,,True,False
