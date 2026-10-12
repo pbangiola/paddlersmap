@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EKLA2,Eklutna Lake near Palmer,1,EFEA2,True,False
 ELFK1,Elk River (KS) at Elk Falls,1,ELAK1,True,False
 ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELKM2,Patapsco River near Elkridge below Patapsco Valley State Park,1,ERDM2,True,False
@@ -81,6 +80,7 @@ GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
+GLIO3,North Umpqua River near Glide,1,WINO3,True,False
 GLKA3,Gila River at Kelvin,1,CLDA3,True,False
 GLLT2,Elm Fork Trinity River at Gainesville,1,RRLT2,True,False
 GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
@@ -106,6 +106,7 @@ HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
+HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
 HMPS1,Coosawhatchie River near Hampton,1,CRRS1,True,False
@@ -480,6 +481,7 @@ PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PUNF1,Shell Creek Near Punta Gorda,1,SHEF1,True,False
+PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
@@ -498,6 +500,7 @@ RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
 RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
+REEO3,Umpqua River at Reedsport,1,EKTO3,True,False
 REGN8,Cannonball River at Regent,1,BREN8,True,False
 RERC2,Eagle River at Red Cliff,1,EAMC2,True,False
 REVS2,South Fork Grand River at Hwy 79,1,CSHS2,True,False
@@ -517,6 +520,7 @@ RLLI2,Salt Creek (IL) near Rowell,1,DEWI2,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,1,WTRA1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
+ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
 ROBV2,Maury River at Rockbridge Baths,1,BVSV2,True,False
 RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
 ROHC1,Copeland Creek at Rohnert Park,1,CTIC1,True,False
