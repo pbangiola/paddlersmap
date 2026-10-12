@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CCKF1,Curlew Creek at Evans Rd Near Dunedin,1,CCBF1,True,False
 CCTI3,Cicero Creek near State Road 19 in Tipton,1,CCAI3,True,False
 CDVI4,Cedar Creek near Lovilia Hwy H20--IFC,1,BSSI4,True,False
 CEMC1,East Fork Carson River near Markleeville,1,GRDN2,True,False
@@ -64,6 +63,7 @@ DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
 DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
 DKCN5,Dark Canyon 8 miles N of Whites City,1,DACN5,True,False
+DKNP1,Conneaut Creek at Dickonsburg,1,CCKO1,True,False
 DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
 DLPI3,Tippecanoe River near Delphi,1,OADI3,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
@@ -94,6 +94,7 @@ ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
 EMPL1,Mississippi River at Empire,1,WPHL1,True,False
 EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
+ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
@@ -332,7 +333,7 @@ NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NHVK2,Rolling Fork River at New Haven,1,BSNK2,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
-NKJT1,Tennessee River above Nickajack Dam (Jasper 5S),1,CHAT1,True,False
+NKTT1,Tennessee River below Nickajack Dam (Jasper 5S),1,NKJT1,True,False
 NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
@@ -347,6 +348,7 @@ NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
 NRWM3,Neponset River at Norwood,1,CANM3,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
+NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
 NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
 NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
@@ -500,6 +502,7 @@ SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
+SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
