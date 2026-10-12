@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GLBI4,Montgomery Creek near Gilbert V Ave--IFC,0,,True,False
-GLBW1,Skykomish River near Gold Bar,0,,True,False
-GLBW4,North Platte below Glendo Dam,0,,True,False
-GLCA3,Gila River near Calva,2,CLDA3;GLHA3,True,False
-GLCM3,Atlantic Coast at Gloucester (IN MLLW),0,,True,False
-GLDC2,Clear Creek (CO) at Golden,3,BHKC2;DRBC2;IDOC2,True,False
-GLDI2,Mississippi River at Gladstone,2,BRLI4;KHBI2,True,False
-GLDI4,Boone River near Goldfield,0,,True,False
-GLDN7,Neuse River near Goldsboro,3,KINN7;NSSN7;SMFN7,True,False
-GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
-GLDP1,Lehigh River at Glendon,1,BETP1,True,False
-GLDS1,Gilder Creek at Holland Rd,0,,True,False
-GLDW2,Dry Fork River at Gladwin,0,,True,False
-GLEV2,Glade Creek Tributary at Blue Ridge,0,,True,False
-GLEW2,Little Kanawha River at Glenville,2,BURW2;GRTW2,True,False
-GLEW4,North Platte River at Glendo Reservoir,0,,True,False
-GLFM6,Wolf River above Gulfport,0,,True,False
-GLGM2,Gwynns Falls at Glyndon,0,,True,False
-GLGM8,Gallatin River near Gallatin Gateway,2,GBSM8;LOGM8,True,False
-GLHA3,Gila River near Solomon,2,DUUA3;GLCA3,True,False
-GLIO3,North Umpqua River near Glide,1,WINO3,True,False
-GLIT2,San Antonio River at Goliad,2,MFNT2;SRRT2,True,False
-GLKA3,Gila River at Kelvin,1,CLDA3,True,False
-GLLM5,Gull Lake Dam,0,,True,False
-GLLT2,Elm Fork Trinity River at Gainesville,1,RRLT2,True,False
 GLLV2,New River at Glen Lyn,2,HINW2;RDFV2,True,False
 GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
 GLMM1,E. Branch of Penobscot Below Grand Lake Matagamon,0,,True,False
@@ -102,7 +77,7 @@ GOFN3,Merrimack River at Goffs Falls,2,FRJN3;NSHN3,True,False
 GOHC1,Guadalupe Creek near Hicks Road,0,,True,False
 GOHV2,Calfpasture River at Goshen,0,,True,False
 GOLI2,Ohio River at Golconda,2,SHNI2;SMLI2,True,False
-GOLI4,Boone River near Goldfield 225th St--IFC,0,,True,False
+GOLI4,Boone River near Goldfield 225th St--IFC,1,GLDI4,True,False
 GOLN5,Mora River near Golondrinas,0,,True,False
 GOLN8,Sheyenne River at Gol Road near Kindred,2,KNDN8;LBNN8,True,False
 GOLP1,Fishing Creek at Goldsboro,0,,True,False
@@ -303,7 +278,7 @@ GUMN7,New River near Gum Branch,0,,True,False
 GUNI2,Des Plaines River near Gurnee,2,LDRI2;RUSI2,True,False
 GURP4,Rio Gurabo at Gurabo,0,,True,False
 GUSC2,Gunnison River near Gunnison,3,ALEC2;ALTC2;GBGC2,True,False
-GUSW4,North Platte River below Guernsey Reservoir,0,,True,False
+GUSW4,North Platte River below Guernsey Reservoir,2,GLBW4;HENN1,True,False
 GUTC1,Guadalupe River (CA) at Trimble Road,0,,True,False
 GUTP4,Rio Gurabo below El Mango,0,,True,False
 GVAC1,San Joaquin River above Gravelly Ford,0,,True,False
@@ -489,9 +464,9 @@ HENI1,Henrys Fork near Lake,0,,True,False
 HENK2,Ohio River at Henderson,2,EVVI3;MTVI3,True,False
 HENL1,Amite River Basin at Henderson Bayou near Port Vincent,0,,True,False
 HENM5,Minnesota River at Henderson,2,JDNM5;SPTM5,True,False
-HENN1,North Platte River at WY-NE State Line nr Henry,2,MICN1;ORIW4,True,False
+HENN1,North Platte River at WY-NE State Line nr Henry,3,GUSW4;MICN1;ORIW4,True,False
 HENN3,Contoocook River at Henniker,0,,True,False
-HENW2,Dry Fork River at Hendricks,2,BWRW2;PSNW2,True,False
+HENW2,Dry Fork River at Hendricks,3,BWRW2;GLDW2;PSNW2,True,False
 HEPN7,"Pigeon River below Jonathans Ck, 4 NW Crabtree",0,,True,False
 HEPP1,Lycoming Creek at Hepburnville,2,LYCP1;TRLP1,True,False
 HERP1,Swatara Creek near Hershey,0,,True,False
@@ -1090,7 +1065,7 @@ JBGN2,Jarbidge River near Jarbidge,1,EFJI1,True,False
 JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
 JBLM6,Belhaven Creek at Laurel Street/Jackson,0,,True,False
 JBMO3,John Day River at Blue Mtn Hot Springs nr Prairie City,0,,True,False
-JBOW2,Cheat River at Job,0,,True,False
+JBOW2,Cheat River at Job,1,GLDW2,True,False
 JBPF1,Juno Beach Park Pier (in MHHW),0,,True,False
 JBRM6,Belhaven Creek at Riverside Drive/Jackson,0,,True,False
 JBTT2,Colorado River (TX) at Lake JB Thomas,2,CDCT2;JBGT2,True,False
@@ -1977,7 +1952,7 @@ LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
 LNCN1,Holmes Lake,0,,True,False
 LNCP1,Conestoga River at Lancaster,1,CNSP1,True,False
 LNDK1,Salt Creek (LNDK1) at Lyndon,0,,True,False
-LNDM6,Wolf River near Landon,0,,True,False
+LNDM6,Wolf River near Landon,1,GLFM6,True,False
 LNDN4,Lake Hopatcong at Landing,0,,True,False
 LNDN6,Great South Bay at Lindenhurst (IN MLLW),0,,True,False
 LNDN7,First Broad River at Lawndale,0,,True,False
@@ -3074,7 +3049,7 @@ MROI2,Illinois River at Meredosia,2,NLGI2;VALI2,True,False
 MROI3,Mississinewa River at Marion,0,,True,False
 MROI4,Iowa River at Marengo,2,BPLI4;CRVI4,True,False
 MROS1,Atlantic Coast at Myrtle Beach Springmaid Pier (IN MLLW),0,,True,False
-MROW1,Snohomish River near Monroe,2,CRNW1;SNAW1,True,False
+MROW1,Snohomish River near Monroe,3,CRNW1;GLBW1;SNAW1,True,False
 MRPF1,Whitaker Canal at Myrtle Park,0,,True,False
 MRPM4,Maple River at Maple Rapids,0,,True,False
 MRPM8,Madison River above Powerplant near McAllister,2,CMRM8;MADM8,True,False
@@ -4043,7 +4018,7 @@ ORII2,Edwards River near Orion,0,,True,False
 ORIN6,Orient Harbor at Orient (IN MLLW),0,,True,False
 ORIN7,Pamlico Sound at Oregon Inlet Marina (in MLLW),0,,True,False
 ORIV2,Town Branch near Fincastle,0,,True,False
-ORIW4,North Platte River near Orin,2,GLNW4;HENN1,True,False
+ORIW4,North Platte River near Orin,3,GLBW4;GLNW4;HENN1,True,False
 ORKF1,Ortega River at Argyle Forest Boulevard (in NAVD88),0,,True,False
 ORKN6,Oriskany Creek near Oriskany,0,,True,False
 ORLN7,Neuse River at Oriental (in MLLW),0,,True,False
@@ -6548,7 +6523,7 @@ SSRN5,South Seven Rivers 1 mile SE of Seven Rivers,0,,True,False
 SSRS1,South Saluda River near Cleveland,0,,True,False
 SSSF1,Sampson River at Sampson City (in NAVD88),2,LSSF1;WORF1,True,False
 SSSN7,Soules Swamp at Slippery Log Road,0,,True,False
-SSSW1,South Fork Skykomish River at Skykomish,0,,True,False
+SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
 SSTC1,San Joaquin River near Stevinson,0,,True,False
 SSTM7,Platte River at Sharps Station,2,AGYM7;PLCM7,True,False
 SSUW1,South Fork Skokomish River near Union,0,,True,False
@@ -7637,7 +7612,7 @@ WAYW2,Twelvepole Creek near Wayne,3,BFLW2;ELSW2;LAVW2,True,False
 WBAN7,EF New River at Bamboo Road,0,,True,False
 WBAT2,Brazos River at Waco,4,ACTT2;ALAT2;AQLT2;HIBT2,True,False
 WBAV2,Accotink Creek at Woodburn Road / Strathmeade Springs,0,,True,False
-WBCI4,Boone River near Webster City,2,CWFI4;STRI4,True,False
+WBCI4,Boone River near Webster City,3,CWFI4;GLDI4;STRI4,True,False
 WBCL1,Wilkinson Bay at Wilkinson Bayou Cutoff,0,,True,False
 WBCN7,Atlantic Coast at Banks Channel Wrightsville Beach,0,,True,False
 WBCT1,Browns Creek at Glendale Lane,0,,True,False

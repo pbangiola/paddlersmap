@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
-GLDP1,Lehigh River at Glendon,1,BETP1,True,False
-GLIO3,North Umpqua River near Glide,1,WINO3,True,False
-GLKA3,Gila River at Kelvin,1,CLDA3,True,False
-GLLT2,Elm Fork Trinity River at Gainesville,1,RRLT2,True,False
 GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNM7,James River (MO) at Galena,1,FINM7,True,False
@@ -14,6 +9,7 @@ GNGT2,San Gabriel River at Granger Lake,1,WSGT2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
 GNVT2,Cowleech Fork Sabine River at Greenville,1,PNTT2,True,False
+GOLI4,Boone River near Goldfield 225th St--IFC,1,GLDI4,True,False
 GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
 GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
 GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
@@ -83,6 +79,7 @@ JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
 JBGN2,Jarbidge River near Jarbidge,1,EFJI1,True,False
 JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
+JBOW2,Cheat River at Job,1,GLDW2,True,False
 JCCF1,Jumper Creek Canal ,1,BNLF1,True,False
 JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
@@ -164,6 +161,7 @@ LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
 LNCP1,Conestoga River at Lancaster,1,CNSP1,True,False
+LNDM6,Wolf River near Landon,1,GLFM6,True,False
 LNRK1,N F Solomon River at Lenora,1,GDEK1,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
@@ -622,6 +620,7 @@ SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
 SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
+SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
 SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
