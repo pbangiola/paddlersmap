@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
-MCHM4,River Raisin near Manchester,1,TECM4,True,False
-MCIN7,McAlpine Creek at Idlewild,1,MALN7,True,False
-MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCKT2,East Fork Trinity River at McKinney,1,LVNT2,True,False
 MCLM6,Leaf River near McLain,1,NAGM6,True,False
 MCPN7,McAlpine Creek at Waste Water Treatment Plant,1,MCCN7,True,False
@@ -67,7 +63,6 @@ MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
-MOAM5,Snake River (MN) at Mora,1,GSTM5,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
@@ -104,9 +99,11 @@ MTGK2,Johns Creek near Meta,1,DWYK2,True,False
 MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
+MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
 MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
+MVLO1,Lake Fork Mohican River above Mohicanville Dam,1,MCHO1,True,False
 MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MCGM5,Snake River (MN) near McGrath,0,,True,False
-MCGN7,MacGregor Downs Lake Upstream of SW Maynard Rd,0,,True,False
-MCGO3,Meacham Creek at Gibbon,0,,True,False
-MCGQ8,Lodge Creek near on Middle Ck nr Govenlock near Consul 14 WSW,0,,True,False
-MCGT1,Collins River near McMinnville,0,,True,False
-MCGT2,Middle Bosque River near McGregor,0,,True,False
-MCHA1,Blackwater Creek (AL) near Manchester,0,,True,False
-MCHI4,Maquoketa River at Manchester Hwy 20,2,FLNI4;MAQI4,True,False
-MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
-MCHL1,Lake Pontchartrain at Pass Manchac near HWY 51,0,,True,False
-MCHM4,River Raisin near Manchester,1,TECM4,True,False
-MCHO1,Lake Fork Mohican River below Mohicanville Dam,0,,True,False
-MCHS1,Manchester Creek near Rock Hill,0,,True,False
-MCII4,Winnebago River at Mason City S Illinois Ave--IFC,3,MCRI4;MCWI4;MSWI4,True,False
-MCIN7,McAlpine Creek at Idlewild,1,MALN7,True,False
-MCIT1,French Broad River at McCroskey Island,0,,True,False
-MCJF1,St Johns River at Mill Cove (in MHHW),0,,True,False
-MCKG1,Muckalee Creek near Leesburg (SR 195),0,,True,False
-MCKI4,Winnebago River near Mason City Killdeer Ave--IFC,2,FERI4;MCWI4,True,False
-MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
-MCKM4,Au Sable River near McKinley,2,CSVM4;MIOM4,True,False
-MCKM8,Big Hole River near Jackson at Miner Creek,2,BGKM8;SCRM8,True,False
-MCKN1,Driftwood Creek near McCook,0,,True,False
-MCKN6,Moose River at McKeever,0,,True,False
-MCKN7,"S Yadkin River below Foster Rd, 6 SW Mocksville",0,,True,False
 MCKO2,Mill Creek (OK) near Mill Creek,0,,True,False
 MCKO3,McKay Creek near Pendleton,0,,True,False
 MCKQ8,Battle Creek at McKinnon Ditch nr Consul 3NNE,0,,True,False
@@ -243,7 +218,7 @@ MHRV2,Mason Creek at Hanging Rock,0,,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
 MHSN2,Marys River above Hot Springs Creek nr Deeth,2,HNKN2;HREN2,True,False
 MHTT1,Clinch River below Melton Hill Dam,2,KGTT1;MHDT1,True,False
-MHWO1,Walhonding River at Mohawk Dam Pool,4,LDVO1;MVEO1;NLLO1;PHLO1,True,False
+MHWO1,Walhonding River at Mohawk Dam Pool,5,LDVO1;MCHO1;MVEO1;NLLO1;PHLO1,True,False
 MHYI2,Fox River at McHenry (Stratton Lock and Dam) tailwater,2,ALGI2;JHNI2,True,False
 MIAF1,Mickler at A Street Canal in St Augustine Beach (in NAVD88),0,,True,False
 MIAM7,Missouri River at Miami,2,GLZM7;WVYM7,True,False
@@ -329,7 +304,7 @@ MKLO3,McKenzie River below Leaburg Dam,3,GCVO3;MCZO3;VIDO3,True,False
 MKNA2,Moose Creek at Bridge near Kantishna,0,,True,False
 MKNV2,Nottoway River near MCKENNEY,0,,True,False
 MKNW1,Nisqually River at McKenna,0,,True,False
-MKRN1,Republican River at McCook,2,CBGN1;CULN1,True,False
+MKRN1,Republican River at McCook,3,CBGN1;CULN1;MCKN1,True,False
 MKSH1,Makiki Stream at King St.,0,,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MKTT2,Mathis Creek at US 190 near Kurten,0,,True,False
@@ -468,7 +443,7 @@ MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MNWH1,Manoa Stream at Woodlawn Drive,0,,True,False
 MNYC1,Mint Canyon,0,,True,False
 MNYP1,Muncy Creek at Muncy Creek,2,HUHP1;LAIP1,True,False
-MOAM5,Snake River (MN) at Mora,1,GSTM5,True,False
+MOAM5,Snake River (MN) at Mora,2,GSTM5;MCGM5,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOAN2,Muddy River near Moapa,0,,True,False
 MOBA4,Ouachita River at Moro Bay State Park,2,CALA4;FELA4,True,False
@@ -761,7 +736,7 @@ MTZI3,Wabash River at Montezuma,4,CLNI3;CRWI3;CVGI3;TERI3,True,False
 MTZN5,Gallinas Creek above Montezuma,0,,True,False
 MUBN7,Mulberry Creek at Collettsville,0,,True,False
 MUCF1,Tide Gauge at Mullock Creek (in MHHW),0,,True,False
-MUCG1,Muckalee Creek at Highway 30 near Americus,0,,True,False
+MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False
 MUCN7,Mud Creek (NC) at Erkwood Dr. 1 S Hendersonville,0,,True,False
 MUCO3,Murderers Creek near Dayville,0,,True,False
 MUCP1,Muddy Creek (PA) near Castle Fin,0,,True,False
@@ -773,7 +748,7 @@ MUDM3,Muddy River at Brookline,0,,True,False
 MUDN2,Muddy River near Glendale,0,,True,False
 MUDV2,Muddy Creek at Mount Clinton,0,,True,False
 MUDW1,Muddy River below Clear Creek,0,,True,False
-MUFG1,Muckalee Creek at Forrester Parkway Bridge,0,,True,False
+MUFG1,Muckalee Creek at Forrester Parkway Bridge,2,ABNG1;MCKG1,True,False
 MUGT1,W. Fk. Stones River near Murfreesboro,0,,True,False
 MUGT2,Mustang Bayou at SH 6 near Alvin,0,,True,False
 MUKW3,Mukwonago River at Mukwonago,0,,True,False
@@ -799,7 +774,7 @@ MVEO1,Kokosing River at Mt Vernon,2,FTNO1;MHWO1,True,False
 MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
 MVGN6,Mongaup River near Mongaup,0,,True,False
 MVHC1,Mojave River at Helendale,0,,True,False
-MVLO1,Lake Fork Mohican River above Mohicanville Dam,0,,True,False
+MVLO1,Lake Fork Mohican River above Mohicanville Dam,1,MCHO1,True,False
 MVNC1,Los Gatos Creek at Montevina,0,,True,False
 MVOM5,Minnesota River at Montevideo,6,APPM5;GTEM5;LQPM5;LQRM5;MLNM5;ORTM5,True,False
 MVRA3,Cerbat Wash at State Route 68 nr Verde Rd,0,,True,False
@@ -5920,7 +5895,7 @@ XSEC1,Sunnyvale East below Caribbean Drive,0,,True,False
 XSRC1,Salinas River near San Miguel,0,,True,False
 XTOC1,San Tomas Creek at SPRR,0,,True,False
 XXCC1,Kern River at CALLOWAY CANAL,0,,True,False
-YADN7,Yadkin River at Yadkin College,2,ENNN7;HGRN7,True,False
+YADN7,Yadkin River at Yadkin College,3,ENNN7;HGRN7;MCKN7,True,False
 YAHC2,Yampa River near Hayden,2,CGGC2;ENMC2,True,False
 YANS2,Missouri River at Yankton,2,GPDN1;MSJN1,True,False
 YARM1,Royal River at Yarmouth,0,,True,False
