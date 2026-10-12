@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HTRM8,Missouri River below Holter Dam near Wolf Creek,2,CASM8;HASM8,True,False
-HTSC2,Colorado River above Hot Sulphur Springs,4,CAWC2;CBGC2;FRWC2;KRMC2,True,False
-HTSS1,Black Creek (SC) above Hartsville,2,BCRS1;MCBS1,True,False
-HTST2,Lavaca River at Hallettsville,2,BRLT2;EDNT2,True,False
-HTVP1,Swatara Creek at Harper Tavern,2,HERP1;IWDP1,True,False
-HTWT2,East Fork Little Wichita River near Henrietta,0,,True,False
-HTZF1,Hillsborough River Near Tampa,0,,True,False
-HUBO2,Beaver Creek (OK) near Hulen,0,,True,False
-HUDI4,Black Hawk Creek at Hudson,0,,True,False
-HUFI3,Wabash River at Terre Haute Legacy Site,0,,True,False
-HUGA4,St. Francis River near Hughes,0,,True,False
-HUHP1,Muncy Creek at Hughesville,2,GLMP1;MNYP1,True,False
-HUHS1,Huger Creek near Huger,0,,True,False
-HUIC1,Huichica Creek at RCD Vineyard,0,,True,False
-HUJP1,Juniata River at Huntingdon,0,,True,False
-HULA2,[INACTIVE] Hulahula River near Kaktovik,0,,True,False
-HULO2,Eastern Oklahoma Lakes at Hulah Lake,0,,True,False
-HUMM4,Middle Branch Escanaba River at Humboldt,0,,True,False
-HUMT1,Middle Fork Forked Deer River near Humboldt 2W,0,,True,False
-HUNI3,Northern Indiana Lakes at J.E. Roush Lake Dam Near Huntington (IN),2,BLFI3;HNTI3,True,False
-HUNN4,Pequest River at Huntsville,0,,True,False
-HUNN7,Hunting Creek below E Houstonville Rd. 3 NNE Harmony,0,,True,False
-HURG1,Toccoa River near Dial,0,,True,False
-HURS2,James River at Huron,2,FORS2;RFDS2,True,False
-HURU1,Virgin River near Hurricane,0,,True,False
 HURW2,Hurricane Creek near Hurricane,0,,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HUSA4,Fourche LaFave River near Houston,1,NMLA4,True,False
@@ -1451,7 +1426,7 @@ LWRK1,Kansas River at Lawrence,2,DSOK1;LCPK1,True,False
 LWRS2,Little White River below White River,0,,True,False
 LWSD1,Delaware Bay at Lewes (IN MLLW),0,,True,False
 LWSN6,Rondout Creek Near Lowes Corner,0,,True,False
-LWSP1,Juniata River at Lewistown,0,,True,False
+LWSP1,Juniata River at Lewistown,2,MPLP1;NPTP1,True,False
 LWTT2,Rio Grande at World Trade Bridge,0,,True,False
 LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
 LWVI1,Little Weiser River near Indian Valley,0,,True,False
@@ -2173,7 +2148,7 @@ MPFC1,Mariposa Creek near Laughlin 4N,0,,True,False
 MPHT1,Fletcher Creek at Bartlett,0,,True,False
 MPLN8,Maple River (ND) near Mapleton (South of I-94),2,MAPN8;MRDN8,True,False
 MPLO3,Siuslaw River near Mapleton,0,,True,False
-MPLP1,Juniata River at Mapleton Depot,0,,True,False
+MPLP1,Juniata River at Mapleton Depot,2,HUJP1;LWSP1,True,False
 MPPV2,North Landing River at Munden Point Park,0,,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPSK1,Solomon River at Minneapolis,2,GLAK1;NLSK1,True,False
@@ -2844,7 +2819,7 @@ NPTC2,Arkansas River near Nepesta,3,ADLC2;CDMC2;FWLC2,True,False
 NPTD1,Christina River at Newport (IN MLLW),0,,True,False
 NPTN1,North Platte River at North Platte,4,BDYN1;BIRN1;KNGN1;SUTN1,True,False
 NPTO1,Loramie Creek near Newport,0,,True,False
-NPTP1,Juniata River at Newport,0,,True,False
+NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NPVI2,West Branch Du Page River at Naperville (Webster St),0,,True,False
 NPVI4,South Fork Iowa River near New Providence,5,BKSI4;BLII4;EDBI4;HTII4;MIWI4,True,False
 NPVL1,Bayou Lafourche above Napoleonville,0,,True,False
@@ -3850,7 +3825,7 @@ PPTN4,Ramapo River at Pompton Lakes,0,,True,False
 PPTT2,Buffalo Bayou at Piney Point Village,2,BBST2;WSBT2,True,False
 PPZF1,Popash Creek at Leetana Road,0,,True,False
 PQSM4,Presque Isle River near Tula,0,,True,False
-PQTN4,Pequest River at Pequest,0,,True,False
+PQTN4,Pequest River at Pequest,1,HUNN4,True,False
 PRAI2,Illinois River at Peoria Lock and Dam,2,HAVI2;PIAI2,True,False
 PRAI4,Buffalo Creek (IA) at Prairieburg,0,,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
@@ -3908,7 +3883,7 @@ PRMO1,West Creek above Parma,1,PARO1,True,False
 PRMP1,West Branch Lackawaxen River at Prompton,0,,True,False
 PRNA2,Prince Creek near Umiat,0,,True,False
 PRNM2,Patuxent River at 9th Street in Laurel,2,LPRM2;PRLM2,True,False
-PRNM4,Middle Branch Escanaba River near Princeton,0,,True,False
+PRNM4,Middle Branch Escanaba River near Princeton,1,HUMM4,True,False
 PRNM5,West Branch Rum River near Princeton 2WNW,0,,True,False
 PRNP4,Rio Portugues at Parque Ceremonial,0,,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
@@ -6091,7 +6066,7 @@ TENN6,Tenmile River near Gaylordsville,0,,True,False
 TENO2,Eastern Oklahoma Lakes at Tenkiller Lake,0,,True,False
 TERC2,Alamosa River above Terrace Reservoir,0,,True,False
 TERG1,Tallulah River at MATHIS-TERRORA DAM,0,,True,False
-TERI3,Wabash River at Terre Haute...US Hwy 150 Eastbound,3,CLNI3;HUTI2;MTZI3,True,False
+TERI3,Wabash River at Terre Haute...US Hwy 150 Eastbound,4,CLNI3;HUFI3;HUTI2;MTZI3,True,False
 TERN6,Shelter Island Sound at Shelter Island (IN MLLW),0,,True,False
 TESC1,Tres Pinos Creek near Tres Pinos,0,,True,False
 TEST9,18 miles NNE of Test Site 8,0,,True,False
@@ -6667,7 +6642,7 @@ VINF1,Reedy Creek near Vineland,0,,True,False
 VING1,Chattahoochee River at Atlanta,3,CHAG1;FBNG1;VIXG1,True,False
 VINI4,Cedar River at Vinton,3,ALOI4;LAPI4;PLOI4,True,False
 VIOW3,Kickapoo River at Viola,2,LAFW3;REAW3,True,False
-VIRU1,Virgin River near Virgin,0,,True,False
+VIRU1,Virgin River near Virgin,1,HURU1,True,False
 VISN2,Truckee River at Vista,2,TNTN2;TRRN2,True,False
 VIVW4,Reservoirs at Viva Naughton Reservoir,0,,True,False
 VIXG1,Chattahoochee River at US 41 at Atlanta,2,VING1;VNPG1,True,False
@@ -7332,7 +7307,7 @@ WRIS1,Wando River above Mount Pleasant (IN MLLW),0,,True,False
 WRKH1,Wailuku River nr Kaumana,0,,True,False
 WRKM8,West Fork Rock Creek near Red Lodge,0,,True,False
 WRLN7,Walnut Creek at Rose Ln in Raleigh,2,WALN7;WSSN7,True,False
-WRLO2,Beaver Creek (OK) at Waurika Lake,2,DLBO2;WAKO2,True,False
+WRLO2,Beaver Creek (OK) at Waurika Lake,3,DLBO2;HUBO2;WAKO2,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WRMC2,White River near Meeker,0,,True,False
 WRMI1,Warm Springs Creek (ID) near Ketchum,2,BWKI1;HALI1,True,False
