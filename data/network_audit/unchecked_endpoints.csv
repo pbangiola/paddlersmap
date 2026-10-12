@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GPLM6,Mississippi Sound at Gulfport Lighthouse,0,,True,False
-GPLT2,Colorado River (TX) at Lake LBJ,2,IKLT2;MFDT2,True,False
-GPOA2,Gulkana River at Paxson Lake Outlet near Paxson,0,,True,False
-GPOM5,Rainy River above Gold Portage Outlet nr Kabetogama,0,,True,False
-GPRO3,Quartzville Creek at Green Peter Reservoir,2,FOSO3;QCCO3,True,False
-GPRT2,West Fork Trinity River at Grand Prairie,3,DALT2;FWOT2;LART2,True,False
-GPSC2,Eagle River at Gypsum,0,,True,False
-GPTC1,Garrapata Creek above Highway 1,0,,True,False
-GPUW1,Green River (WA) at Purification Plant,2,AUBW1;HAHW1,True,False
-GPVT2,North Texas Lakes at Lake Grapevine,2,CART2;DCJT2,True,False
-GQIC1,Guadalupe Creek above Guadalupe Reservoir,0,,True,False
-GQQT2,North Texas Lakes at Squaw Creek Reservoir,0,,True,False
-GRAA1,Sipsey Fork near Grayson,0,,True,False
-GRAK2,Little Sandy River at Grayson Lake,0,,True,False
-GRAO3,Rogue River at Grants Pass,2,AGNO3;RYGO3,True,False
-GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
-GRAS2,North Fork Grand River (SD) near White Butte,0,,True,False
-GRBI4,Turkey River at Garber,3,DLDI4;EKDI4;ERCI4,True,False
-GRBN4,Green Brook at Plainfield,0,,True,False
-GRBN6,Oatka Creek at Garbutt,0,,True,False
-GRCA3,Granite Creek near Prescott,0,,True,False
-GRCC1,Garcia River at Eureka Hill Rd Near Point Arena,0,,True,False
-GRCP1,Two Lick Creek at Graceton,0,,True,False
-GRDB3,Grand River (NB) at Violette Bridge,0,,True,False
-GRDF1,Guana River below Guana River Dam (in MHHW),0,,True,False
 GRDL1,Amite River Basin at Grand Goudine on Hwy 934 near Duplessis,0,,True,False
 GRDM5,Watonwan River near Garden City,0,,True,False
 GRDN2,East Fork Carson River near Gardnerville,2,CEMC1;STWN2,True,False
@@ -89,7 +64,7 @@ GRRO1,Maumee River at Grand Rapids,2,CPBO1;WTVO1,True,False
 GRRT2,Tide Station (HGX) at Galveston Railroad Bridge,0,,True,False
 GRRW1,Grays River at Covered Bridge near Rosburg,0,,True,False
 GRRW4,Green River (WY-UT-CO) at Green River,2,GBFW4;GRZU1,True,False
-GRSA2,Gulkana River at Sourdough,0,,True,False
+GRSA2,Gulkana River at Sourdough,2,GPOA2;GULA2,True,False
 GRSM8,Grasshopper Creek at Bannack,0,,True,False
 GRSN7,Grassy Creek at NC 226 at Grassy Creek,0,,True,False
 GRST2,Navasota River above Groesbeck,2,BSAT2;LLST2,True,False
@@ -170,7 +145,7 @@ GUFC1,Guadalupe River (CA) at Fish Ladder at Masson Dam,0,,True,False
 GUFP1,Kinzua Creek above Guffey,0,,True,False
 GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
 GUIN1,Republican River at Guide Rock,2,HDYN1;RVRN1,True,False
-GULA2,Gulkana River at the Richardson Highway near Gulkana,0,,True,False
+GULA2,Gulkana River at the Richardson Highway near Gulkana,1,GRSA2,True,False
 GULF1,Tide Gauge on the Waccasassa River near Gulf Hammock (In MHHW),0,,True,False
 GUMC1,Guadalupe River (CA) at Montague Expressway,2,GSJC1;GUGC1,True,False
 GUMF1,Gum Springs (in NAVD88),0,,True,False
@@ -204,10 +179,10 @@ GWSC2,Roaring Fork River at Glenwood Springs,2,EMMC2;GCOC2,True,False
 GWTN6,Grout Brook near Fairhaven,0,,True,False
 GYAP4,Rio Guayanilla near Guayanilla,0,,True,False
 GYBW4,Bighorn River at Greybull,2,BHBW4;LVEW4,True,False
-GYLK2,Little Sandy River below Grayson Lake,0,,True,False
+GYLK2,Little Sandy River below Grayson Lake,2,GRAK2;LEOK2,True,False
 GYLP1,Monongahela River at Grays Landing Lock and Dam,3,LLDP1;MAXP1;PMRP1,True,False
 GYMM4,Manistee River near Grayling,0,,True,False
-GYNK2,Little Sandy River at Grayson,0,,True,False
+GYNK2,Little Sandy River at Grayson,1,LEOK2,True,False
 GYRA2,Yukon River at Galena,2,NULA2;RBYA2,True,False
 GYRC1,North Fork Yuba River below Goodyears Bar,0,,True,False
 GYSK1,Gypsum Creek below Gypsum,0,,True,False
@@ -1006,7 +981,7 @@ JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JEZN5,Jemez River above Jemez Pueblo,0,,True,False
 JFET2,Big Cypress Creek above Jefferson,2,BGKT2;PBGT2,True,False
 JFFM7,Missouri River at Jefferson City,2,BOZM7;CMSM7,True,False
-JFFO3,Santiam River at Jefferson,2,NSGO3;SLMO3,True,False
+JFFO3,Santiam River at Jefferson,3,NSGO3;SLMO3;WTLO3,True,False
 JFFT2,Little Cypress Creek near Jefferson,0,,True,False
 JFFW3,Rock River at Jefferson,2,FATW3;WATW3,True,False
 JFON7,Jacob Fork below Old NC 18 in Shoups Ford,0,,True,False
@@ -1627,7 +1602,7 @@ LEMI2,Des Plaines River near Lemont,2,JRSI2;LYNI2,True,False
 LENM2,McIntosh Run near Leonardtown,0,,True,False
 LENW3,Little La Crosse River at Leon,1,CFMW3,True,False
 LEOI1,Kootenai River at Leonia,2,BFEI1;KBDM8,True,False
-LEOK2,Little Sandy River at Leon,0,,True,False
+LEOK2,Little Sandy River at Leon,2,GYLK2;GYNK2,True,False
 LEOM3,North Nashua River at Leominster,0,,True,False
 LEOW3,Namekagon River at Leonards,0,,True,False
 LEPF1,Central Drainage Ditch at Lake Bradford Road (in NAVD88),0,,True,False
@@ -5835,7 +5810,7 @@ SGVP1,Codorus Creek at Spring Grove,0,,True,False
 SGWN7,Watauga River near Sugar Grove,2,FOSN7;WTGT1,True,False
 SGWO3,Glenn Creek at Wallace Road,0,,True,False
 SHAM8,Musselshell River near Shawmut,0,,True,False
-SHAS2,Shadehill Reservoir,2,CSHS2;LIES2,True,False
+SHAS2,Shadehill Reservoir,3,CSHS2;GRAS2;LIES2,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHAW1,Baker River at Concrete,0,,True,False
@@ -6402,7 +6377,7 @@ SSCT2,Salado Creek at NE Loop 410,2,BSWT2;SACT2,True,False
 SSDN6,Seneca River at State Ditch,0,,True,False
 SSDW3,Peshtigo River at Sandstone Dam,2,JOFW3;PFDW3,True,False
 SSFN7,Cashie River at Sans Souci Ferry,0,,True,False
-SSFO3,S. Santiam River near Foster,0,,True,False
+SSFO3,S. Santiam River near Foster,2,GPRO3;WTLO3,True,False
 SSFW1,South Fork Stillaguamish River at Jordan Rd. Bridge,2,ARLW1;GFLW1,True,False
 SSGC1,San Gabriel River (CA) at Parkway,0,,True,False
 SSIM5,Lake of the Woods at Spring Steel Island near Warroad,0,,True,False
@@ -8144,7 +8119,7 @@ WTHM3,Old Swamp River at Weymouth,0,,True,False
 WTHW1,Methow River at Winthrop,0,,True,False
 WTIC1,Whitewater River (CA) at Indio,0,,True,False
 WTIN7,Currituck Sound at Walnut Island near Grandy,0,,True,False
-WTLO3,S. Santiam River at Waterloo,0,,True,False
+WTLO3,S. Santiam River at Waterloo,2,JFFO3;SSFO3,True,False
 WTLW3,Whittlesey Creek near Ashland,0,,True,False
 WTMF1,Withlacoochee River near Madison (SR 6),0,,True,False
 WTNG1,Little  River near Washington,0,,True,False
@@ -8168,7 +8143,7 @@ WTVP1,Pine Creek near Waterville,0,,True,False
 WTWF1,Tide Gauge at Sweetwater Creek,0,,True,False
 WTWS2,Whitewood Creek above Whitewood,2,DWDS2;WNWS2,True,False
 WTXI1,Willow Creek (Eastern ID) below Tex Creek,0,,True,False
-WTYT2,North Texas Lakes at Whitney Lake,4,ALAT2;AQLT2;BUMT2;GLRT2,True,False
+WTYT2,North Texas Lakes at Whitney Lake,5,ALAT2;AQLT2;BUMT2;GLRT2;GQQT2,True,False
 WULA2,Wulik River below Tutak Creek near Kivalina,0,,True,False
 WUMW2,Meathouse Fork near West Union,0,,True,False
 WUNO1,Ohio Brush Creek near West Union,0,,True,False
