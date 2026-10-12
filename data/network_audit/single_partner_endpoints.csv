@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FEDV2,Rappahannock River at Fredericksburg,1,FDBV2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
 FILT2,Frio River at at Leakey,1,CNCT2,True,False
@@ -16,6 +15,7 @@ FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FLSL1,Tchefuncte River near Folsom,1,CUSL1,True,False
 FNEC2,Fountain Creek at Colorado Springs,1,FHAC2,True,False
 FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
+FOLF1,Fenholloway River near Foley (US 27),1,FLYF1,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
 FORM7,White River (MO) at Table Rock Lake,1,FCRM7,True,False
@@ -113,6 +113,7 @@ HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
 HYDP1,Wills Creek below Hyndman,1,CWCM2,True,False
 HYSK1,Big Creek near Hays,1,ELLK1,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
+IBOM5,St. Louis River near Skibo,1,FOBM5,True,False
 ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
 IDAP1,Crooked Creek at Idaho,1,CRCP1,True,False
 INCO1,Indian Creek at Macedonia,1,BWCO1,True,False
@@ -176,6 +177,7 @@ LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
 LCTT2,West Fork San Jacinto River at Lake Conroe,1,CFKT2,True,False
 LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
+LELI4,Winnebago River at Leland Hwy A38--IFC,1,FORI4,True,False
 LENW3,Little La Crosse River at Leon,1,CFMW3,True,False
 LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
 LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False

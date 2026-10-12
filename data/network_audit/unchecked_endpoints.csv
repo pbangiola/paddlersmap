@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FDLK2,Pond Creek (C KY) near Fairdale,0,,True,False
-FDLO1,Blanchard River above Findlay,2,FDYO1;MBLO1,True,False
-FDLP1,Stonycreek River at Ferndale,0,,True,False
-FDLR1,Branch River at Forestdale,0,,True,False
-FDTT1,Tennessee River below Ft. Loudoun Dam (Lenoir City 1E),2,FLDT1;KGTT1,True,False
-FDVN8,Forest River near Fordville,0,,True,False
-FDWM5,St. Louis River at Floodwood,2,FOBM5;SCNM5,True,False
-FDYO1,Blanchard River at Findlay,2,FDLO1;GILO1,True,False
-FECF1,Fellsmere Canal near Micco,0,,True,False
-FECO1,Eagle Creek above Findlay,0,,True,False
-FEDM5,Leech Lake Federal Dam,0,,True,False
-FEDV2,Rappahannock River at Fredericksburg,1,FDBV2,True,False
-FEEI2,Pecatonica River at Freeport,2,MTNW3;SIRI2,True,False
-FELA4,Ouachita River at Felsenthal Lock and Dam,2,MLUL1;MOBA4,True,False
-FEND1,Little Assawoman Bay at Fenwick Island (IN MLLW),0,,True,False
-FENF1,Fenholloway River near Perry (CR 590),0,,True,False
-FENW2,Cherry River near Fenwick,0,,True,False
-FERI4,Winnebago River at Fertile S 1st St--IFC,0,,True,False
-FERV1,Little Otter Creek at Ferrisburg,0,,True,False
-FESN7,Cape Creek at Fessenden Center in Buxton (in MLLW),0,,True,False
-FEWW4,Crow Creek at 19th Street Cheyenne,0,,True,False
-FFAL1,FRENCH FORK LITTLE RIVER AT ARCHIE,0,,True,False
-FFBF1,Tide Gauge at Four Freedoms Beach (In MHHW),0,,True,False
-FFCQ6,Rainy Lake Near Fort Frances,2,ATRQ6;RNYM5,True,False
-FFDN3,Pemigewasset River at Franklin Falls Dam,0,,True,False
 FFLT2,North Texas Lakes at Richland-Chambers Lake,3,DAWT2;LOLT2;RCET2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FFPM5,Pelican River near Fergus Falls (MN210),0,,True,False
@@ -116,7 +91,7 @@ FLWA1,Fowl River near Laurendine,0,,True,False
 FLWM8,Flatwillow Creek near Flatwillow,0,,True,False
 FLWT2,North Texas Lakes at Lake Worth,2,EAMT2;FWOT2,True,False
 FLXN6,Flax Pond at Old Field (IN MLLW),0,,True,False
-FLYF1,Fenholloway River at Foley,0,,True,False
+FLYF1,Fenholloway River at Foley,2,FENF1;FOLF1,True,False
 FLYO1,Lye Creek above Findlay,0,,True,False
 FLYP1,Peter's Creek at Venetia,0,,True,False
 FLZI4,Lizard Creek near Fort Dodge,0,,True,False
@@ -152,7 +127,7 @@ FNKM2,Beaver Run near Finksburg,0,,True,False
 FNNM7,Meramec River at Fenton,2,ARNM7;VLLM7,True,False
 FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
 FOBC2,Fountain Creek at 8th Street at Pueblo,0,,True,False
-FOBM5,"St. Louis River Near Forbes, MN",2,ERBM5;FDWM5,True,False
+FOBM5,"St. Louis River Near Forbes, MN",3,ERBM5;FDWM5;IBOM5,True,False
 FODI4,Des Moines River at Fort Dodge,2,FDDI4;STRI4,True,False
 FODK2,Kentucky River at Ford Lock,3,CHLK2;CYCK2;VLVK2,True,False
 FODN6,Mohawk River Above State Highway 30A at Fonda,0,,True,False
@@ -160,14 +135,14 @@ FOFW4,Firehole River at Old Faithful (YNP),0,,True,False
 FOGF1,Prairie Creek Near Fort Ogden,0,,True,False
 FOGG1,Chattahoochee River at W.F. George Lock and Dam,0,,True,False
 FOLA1,Pea River at Folsom Bridge (SR 167),2,ARTA1;ELBA1,True,False
-FOLF1,Fenholloway River near Foley (US 27),0,,True,False
+FOLF1,Fenholloway River near Foley (US 27),1,FLYF1,True,False
 FOMC2,South Platte River at Fort Morgan,2,BZNC2;WNAC2,True,False
 FOMF1,Four Mile Cove Ecological (In MHHW),0,,True,False
 FOMS1,Catawba River at Lake Wylie Dam,4,FCDS1;LOWN7;MOUN7;RHIS1,True,False
 FONN7,Little Tennessee River at FONTANA DAM TVA,2,CHEN7;TKSN7,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
-FORI4,Winnebago River near Forest City Hwy B14--IFC,0,,True,False
+FORI4,Winnebago River near Forest City Hwy B14--IFC,2,FERI4;LELI4,True,False
 FORM7,White River (MO) at Table Rock Lake,1,FCRM7,True,False
 FORS2,James River near Forestburg,2,HURS2;JRMS2,True,False
 FOSC2,Fossil Creek (CO) at Fort Collins,0,,True,False
@@ -1488,7 +1463,7 @@ IAMF1,Lake Iamonia Outfall at Meridian Road,0,,True,False
 IANP4,Rio Inabon at Real Abajo,0,,True,False
 IAOH1,Wailuku River (Maui) near Wailuku,0,,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
-IBOM5,St. Louis River near Skibo,0,,True,False
+IBOM5,St. Louis River near Skibo,1,FOBM5,True,False
 IBRN7,Briar Creek at Independence Blvd,2,BRIN7;SMRN7,True,False
 ICBI4,Indian Creek at Council Bluffs (IFC),0,,True,False
 ICCN2,Indian Creek,0,,True,False
@@ -2320,7 +2295,7 @@ LEEM5,Leech Lake,0,,True,False
 LEEV2,Goose Creek near Leesburg,0,,True,False
 LEGC1,South Fork Eel River near Leggett 1NW,0,,True,False
 LEKM6,Chickasawhay River at Leakesville,2,MRRM6;WYNM6,True,False
-LELI4,Winnebago River at Leland Hwy A38--IFC,0,,True,False
+LELI4,Winnebago River at Leland Hwy A38--IFC,1,FORI4,True,False
 LELN7,Hood Creek at U.S. 74 near Leland,0,,True,False
 LELO1,Tuscarawas River at Leesville Dam Pool,0,,True,False
 LEMI2,Des Plaines River near Lemont,2,JRSI2;LYNI2,True,False
@@ -2480,7 +2455,7 @@ LLAT2,Llano River at Llano,0,,True,False
 LLBM2,Bear Branch above Lake Laurel,0,,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLCI2,Long Run near Lemont,0,,True,False
-LLCM5,Rainy River above Namakan Lake at Squirrel Island,2,CNLM5;RNYM5,True,False
+LLCM5,Rainy River above Namakan Lake at Squirrel Island,3,CNLM5;FFCQ6;RNYM5,True,False
 LLCQ6,Namakan River at Outlet of Lac La Croix,0,,True,False
 LLCS1,Lynches River at US 378 near Lake City,2,EFFS1;JSNS1,True,False
 LLDP1,Cheat River below Lake Lynn,2,GYLP1;LLPW2,True,False
@@ -3045,12 +3020,12 @@ MCHL1,Lake Pontchartrain at Pass Manchac near HWY 51,0,,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCHO1,Lake Fork Mohican River below Mohicanville Dam,0,,True,False
 MCHS1,Manchester Creek near Rock Hill,0,,True,False
-MCII4,Winnebago River at Mason City S Illinois Ave--IFC,2,MCRI4;MSWI4,True,False
+MCII4,Winnebago River at Mason City S Illinois Ave--IFC,3,MCRI4;MCWI4;MSWI4,True,False
 MCIN7,McAlpine Creek at Idlewild,0,,True,False
 MCIT1,French Broad River at McCroskey Island,0,,True,False
 MCJF1,St Johns River at Mill Cove (in MHHW),0,,True,False
 MCKG1,Muckalee Creek near Leesburg (SR 195),0,,True,False
-MCKI4,Winnebago River near Mason City Killdeer Ave--IFC,0,,True,False
+MCKI4,Winnebago River near Mason City Killdeer Ave--IFC,2,FERI4;MCWI4,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCKM4,Au Sable River near McKinley,2,CSVM4;MIOM4,True,False
 MCKM8,Big Hole River near Jackson at Miner Creek,2,BGKM8;SCRM8,True,False
@@ -3109,7 +3084,7 @@ MCUN6,Meads Creek above Taft Rd.,0,,True,False
 MCVA2,Mineral Creek near Valdez,0,,True,False
 MCVT2,Cow Bayou near Mauriceville,2,BCVT2;ORFT2,True,False
 MCWF1,Phillippi Creek at Main C. Weir,0,,True,False
-MCWI4,Winnebago River at Mason City,0,,True,False
+MCWI4,Winnebago River at Mason City,2,MCII4;MCKI4,True,False
 MCWN7,Moravian Creek at Wilkesboro,0,,True,False
 MCXI3,Tippecanoe River at Oakdale Dam,2,OAKI3;TCNI3,True,False
 MCYF1,Tide Gauge at McKay Bay Entrance (in MHHW),0,,True,False
@@ -3769,7 +3744,7 @@ MTOA4,St. Francis River at Marked Tree,0,,True,False
 MTOC1,Mattole River near Petrolia,0,,True,False
 MTOC3,Lake Maltby above Maltby Lake #1,0,,True,False
 MTOK2,North Fork Licking River near Mount Olivet,0,,True,False
-MTON8,Forest River at Minto,0,,True,False
+MTON8,Forest River at Minto,2,DRTN8;FDVN8,True,False
 MTPT2,Tres Palacios River near Midfield,0,,True,False
 MTRC3,Lake Maltby above Maltby Lake #3,0,,True,False
 MTRF1,Tide Gauge on the Manatee River (In MHHW),0,,True,False
@@ -4675,7 +4650,7 @@ OTSM4,Flint River near Otisville,2,COLM4;FLTM4,True,False
 OTTC1,Deer Creek above Scott Road,0,,True,False
 OTTM7,Lamine River near Otterville,0,,True,False
 OTTN7,Little Tennessee River near Otto,0,,True,False
-OTTO1,Blanchard River at Ottawa,2,DUPO1;GILO1,True,False
+OTTO1,Blanchard River at Ottawa,3,DFCO1;DUPO1;GILO1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OTUI4,Turkey River at Osterdock (IFC),0,,True,False
 OTWI2,Illinois River at Ottawa,2,MMOI2;SRDI2,True,False
