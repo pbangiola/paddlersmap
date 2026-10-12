@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
-HBMT2,Brays Bayou at Houston,1,GSST2,True,False
-HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HCTW1,Hangman/Latah Creek near Tekoa,1,HAGW1,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
@@ -641,6 +638,7 @@ STPC1,Stampede Reservoir,1,BCVC1,True,False
 STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
 STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
+STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUDA2,Susitna River near Denali,1,SCTA2,True,False

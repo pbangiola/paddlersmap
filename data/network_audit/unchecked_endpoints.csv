@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HBCM5,Bridge Creek near Houston,0,,True,False
-HBCM6,Bouie Creek at Hattiesburg-Glendale Avenue,0,,True,False
-HBCN1,Buffalo Creek near Haigler,0,,True,False
-HBDM8,Madison River at Hebgen Dam near West Yellowstone,2,CMRM8;MDSM8,True,False
-HBFT1,Harpeth River below Franklin,2,BELT1;FRAT1,True,False
-HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
-HBGM6,Bouie Creek near Hattiesburg,0,,True,False
-HBGO1,Hellbranch Run at Harrisburg,0,,True,False
-HBKN7,Pamlico Sound near Hobucken (in MLLW),0,,True,False
-HBLN1,North Fork Big Nemaha River at Humboldt,0,,True,False
-HBMN2,Humboldt River at Battle Mountain,2,CMSN2;HRDN2,True,False
-HBMT2,Brays Bayou at Houston,1,GSST2,True,False
-HBON1,Little Blue River at Hebron,2,DSHN1;FRBN1,True,False
-HBPA1,Tallapoosa River at Horseshoe Bend,2,TLLA1;WDLA1,True,False
-HBPL1,Amite River Basin at Henderson Bayou Pump Station,0,,True,False
-HBPV2,Peak Creek (VA) below Hogans Branch,0,,True,False
-HBRA2,Herbert River near Auke Bay,0,,True,False
-HBRL1,Hurricane Creek (SE LA) at Baton Rouge,0,,True,False
-HBRN4,South Branch Raritan River at High Bridge,0,,True,False
-HBRT2,Brazos River at FM 485 Near Hearne,0,,True,False
-HBRV2,Chesapeake Bay near Pungoteague Creek at Harborton (IN MLLW),0,,True,False
-HBSN7,Eno River near Huckleberry Springs,2,ENON7;HLSN7,True,False
-HBTI4,West Fork Des Moines River at Humboldt,2,EMTI4;FDDI4,True,False
-HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
-HBVF1,Holiday Bayou at Vamo,0,,True,False
 HBYC1,Tide Station (Humboldt Co.) at NORTH SPIT,0,,True,False
 HCCA2,Hatchery Creek at Forest Service Road 23 near Coffman Cove,0,,True,False
 HCCI3,Haw Creek (IN) near Clifford,0,,True,False
@@ -461,7 +436,7 @@ HURW2,Hurricane Creek near Hurricane,0,,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HUSA4,Fourche LaFave River near Houston,1,NMLA4,True,False
 HUSH1,Haiku Stream near Heeia,0,,True,False
-HUSM5,South Fork Root River near Houston,0,,True,False
+HUSM5,South Fork Root River near Houston,2,HBCM5;MDPM5,True,False
 HUTC2,"Hunter Creek near Aspen, CO",0,,True,False
 HUTI2,Wabash River near Hutsonville,2,RVTI3;TERI3,True,False
 HUTW1,Hutchinson Creek near Acme,0,,True,False
@@ -2175,7 +2150,7 @@ MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDOK2,Pond Creek (C KY) at Medora,0,,True,False
 MDOM7,near MENDON 1N,0,,True,False
 MDOO3,Meadow Creek below Dark Canyon,0,,True,False
-MDPM5,Root River near Mound Prairie,0,,True,False
+MDPM5,Root River near Mound Prairie,2,BRWM5;HUSM5,True,False
 MDRI3,Deep River (IN) near Merrillville,0,,True,False
 MDRM5,Mud River near Grygla (MN89),0,,True,False
 MDRN7,Muddy Creek at Robinhood Rd,0,,True,False
@@ -6241,7 +6216,7 @@ STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STTI3,White River (IN) at Stout Power Plant,3,ERSI3;INDI3;SOUI3,True,False
 STTM7,Osage River near St. Thomas,2,MOAM7;TSCM7,True,False
 STTN1,Republican River at Stratton,3,BEKN1;BENN1;CULN1,True,False
-STTN4,South Branch Raritan River at Stanton,0,,True,False
+STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
 STTQ2,Stikine River at Telegraph Creek-British Columbia,0,,True,False
 STTW1,Stetattle Creek at Diablo,0,,True,False
 STUI4,Floyd River near Struble,2,ALTI4;LMRI4,True,False
