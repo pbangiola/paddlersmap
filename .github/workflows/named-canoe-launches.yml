@@ -1,0 +1,40 @@
+name: Replace launches with OSM named canoe launches
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: named-canoe-launch-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch name-matched launches
+        run: python scripts/fetch_named_canoe_launches.py
+      - name: Validate output
+        run: |
+          python - <<'PY'
+          import json
+          p='data/putins_named_canoe_launches.geojson'
+          fs=json.load(open(p))['features']
+          assert fs and all('canoe launch' in f['properties']['name'].lower() for f in fs)
+          assert len({(f['properties']['osm_type'],f['properties']['osm_id']) for f in fs})==len(fs)
+          print('Validated',len(fs),'named canoe launches')
+          PY
+      - name: Commit replacement inventory
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/putins_named_canoe_launches.geojson
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace launch inventory with OSM features named canoe launch"
+            git push
+          fi
