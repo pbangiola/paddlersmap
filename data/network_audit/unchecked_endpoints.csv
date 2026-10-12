@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LCHA1,Little Choctawhatchee River near Dothan,0,,True,False
-LCHL1,Calcasieu River at Saltwater Barrier,3,CGFL1;LCLL1;LCRL1,True,False
-LCHM2,Western Run at Mount Washington in Baltimore,0,,True,False
-LCHN7,Long Creek at NC Highway 210,0,,True,False
-LCII3,Lick Creek (IN) near Beech Grove,0,,True,False
-LCJA3,Little Colorado River near Joseph City,2,LCWA3;LHBA3,True,False
-LCJT2,North Texas Lakes at Lost Creek Reservoir,0,,True,False
-LCJU1,Little Cottonwood Creek at Jordan River,0,,True,False
-LCKA4,Saline River near Lockesburg,2,DIRA4;FLTA4,True,False
-LCKF1,Long Creek Near Myakka City,0,,True,False
-LCKM5,Loon Creek near Orleans,0,,True,False
-LCKT2,Lost Creek at Lost Creek Blvd,0,,True,False
-LCKW2,Peters Creek above Lockwood,0,,True,False
-LCLA2,Livengood Creek at Livengood,0,,True,False
-LCLA3,Little Colorado River above Lyman Lake,2,LCRA3;LCSA3,True,False
-LCLL1,Tide Station (LCH) at Lake Charles,2,CAPL1;LCHL1,True,False
-LCLN2,Lamoille Creek near Lamoille,0,,True,False
-LCLN7,Lower Creek at Lenoir,0,,True,False
-LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
-LCMI3,Little Calumet River at Munster,2,LCNI3;SHLI2,True,False
-LCMV2,Lewis Creek At Mill Street,0,,True,False
-LCNI3,Little Calumet River at Munster (Northcote Avenue),2,LCMI3;MNTI3,True,False
-LCNM3,Concord River at Lowell,0,,True,False
-LCNN1,Salt Creek at Lincoln (27th Street),2,LSCN1;SALN1,True,False
-LCOI4,Little Cedar River near Orchard (IFC),1,IONI4,True,False
 LCOL1,Big Cypress Creek at Mooringsport (Caddo Lake),2,BGKT2;SVPL1,True,False
 LCPK1,Kansas River at Lecompton,2,LWRK1;TPAK1,True,False
 LCPM8,Lake Creek (MT) near Power,0,,True,False
@@ -1107,9 +1082,9 @@ MJBV2,Chesapeake Bay near Mobjack Bay,0,,True,False
 MJHC1,Matilija Creek at Matilija Hot Springs,0,,True,False
 MJRC1,Mojave River at Afton,0,,True,False
 MJYP1,Little Chiques Creek at Mt. Joy,0,,True,False
-MKAF1,Myakka River at Myakka City,2,HRMF1;MYTF1,True,False
+MKAF1,Myakka River at Myakka City,3,HRMF1;MKCF1;MYTF1,True,False
 MKBK2,Licking River at McKinneysburg,2,BLSK2;FLMK2,True,False
-MKCF1,Myakka River at Myakka River State Park,2,HRMF1;LAUF1,True,False
+MKCF1,Myakka River at Myakka River State Park,3,HRMF1;LAUF1;MKAF1,True,False
 MKCI4,Keg Creek near Mineola (IFC),0,,True,False
 MKCN7,McKee Creek near Wilgrove,0,,True,False
 MKCS2,Medicine Knoll Creek near Canning,0,,True,False
@@ -1648,7 +1623,7 @@ MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 MYRW2,Mud River (WV) at Hamlin,0,,True,False
 MYST2,North Texas Lakes at Pat Mayse Lake,0,,True,False
 MYSU1,Sevier River near Marysvale,0,,True,False
-MYTF1,Myakka River at Wauchula Rd Near Myakka City,2,MKAF1;MYKF1,True,False
+MYTF1,Myakka River at Wauchula Rd Near Myakka City,3,LCKF1;MKAF1;MYKF1,True,False
 MYVK2,Ohio River at Maysville,2,MELO1;PORO1,True,False
 MYVM7,102 River at Maryville,2,BDFI4;RSDM7,True,False
 MYVT1,Little River (TN) near Maryville,2,ALCT1;TWNT1,True,False
@@ -6359,7 +6334,7 @@ WLMM7,Black River above Williamsville,2,LPRM7;PPBM7,True,False
 WLNM6,Hatchie River  Walnut,0,,True,False
 WLOG1,Willeo Creek at GA 120 near Roswell,0,,True,False
 WLON1,Elkhorn River near Winslow,2,WPNN1;WTRN1,True,False
-WLON7,Cape Fear River at Wilmington (IN MLLW),4,BCUN7;BGWN7;CPFN7;STHN7,True,False
+WLON7,Cape Fear River at Wilmington (IN MLLW),5,BCUN7;BGWN7;CPFN7;LCHN7;STHN7,True,False
 WLPN3,Connecticut River at North Walpole,2,MNTM3;WLBN3,True,False
 WLRG1,Wheeler Creek at Bill Cheek Road near Auburn,0,,True,False
 WLRI2,Weller Creek at Des Plaines,0,,True,False
