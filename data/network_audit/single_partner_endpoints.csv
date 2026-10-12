@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GIDA3,Gila River near Dome,1,GDTA3,True,False
-GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
 GLIO3,North Umpqua River near Glide,1,WINO3,True,False
@@ -28,7 +26,6 @@ GTEL1,Barataria Bay and Waterway near Grand Terre Island,1,NGIL1,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
-HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
@@ -370,6 +367,7 @@ OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OCAT1,Ocoee Dam #1 Pool Benton 5S,1,OCET1,True,False
 OCBA1,Little Claybank Creek near Ozark (US 231),1,DALA1,True,False
 OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
+OCTW3,Oconto River near Oconto,1,GILW3,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
@@ -645,6 +643,7 @@ SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
 SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
+SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
@@ -698,6 +697,7 @@ UCLO1,Euclid Creek at Cleveland,1,EUCO1,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
+UMAO3,Umatilla River at Umatilla,1,YOKO3,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
