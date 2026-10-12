@@ -1,13 +1,10 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
-HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
-HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
-HOGW4,Encampment River near Encampment,1,ECRW4,True,False
 HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
 HOMN8,Homme Reservoir near Park River,1,GRNN8,True,False
 HOPC1,Russian River near Hopland,1,HEAC1,True,False
 HOPN6,Sacandaga River at Hope,1,SACN6,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
+HOSC1,San Benito River at below Hospital Rd Bridge near Hollister,1,PIIC1,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
@@ -651,7 +648,6 @@ STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
 SUNM5,Sunrise River at Sunrise,1,PNCM5,True,False
-SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
@@ -754,6 +750,7 @@ WETA1,Coosa River at Wetumpka,1,WPKA1,True,False
 WETN4,Millstone River at Weston,1,BKWN4,True,False
 WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
+WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
 WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
@@ -811,6 +808,7 @@ WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 WVRV1,North Branch Winooski River at Wrightsville Detention Reservoir,1,WRTV1,True,False
 WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
+XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False

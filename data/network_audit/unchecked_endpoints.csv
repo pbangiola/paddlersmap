@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HNRA2,Nenana River at Healy,0,,True,False
-HNRF1,Tide Gauge at Hancock Creek (in MHHW),0,,True,False
-HNRN7,South Fork Catawba River near HENRY FORK,0,,True,False
-HNSA3,Havasu Creek near Supai,0,,True,False
-HNTI3,Wabash River at Huntington,2,HUNI3;WABI3,True,False
-HNTM3,West Branch Westfield River at Huntington,0,,True,False
-HNTN2,Hunter Creek near Reno,0,,True,False
-HNTN7,Hunting Creek at Morganton,0,,True,False
-HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
-HNTT2,Guadalupe River at Hunt,2,GRHT2;HNFT2,True,False
-HNTW2,Ohio River near Huntington,4,AIDO1;ASHK2;GALW2;LAVW2,True,False
-HNWH1,Hanawi Stream near Ke anae,0,,True,False
-HNYI2,Illinois River near Henry,2,CHLI2;LSLI2,True,False
-HNYN6,Honeoye Creek at Honeoye Falls,0,,True,False
-HNYT2,Yellow Bayou at St. John Road,0,,True,False
-HNZC1,Hernandez Reservoir  ,0,,True,False
-HODO3,Hood River near Hood River,0,,True,False
-HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
-HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
-HOGF1,Choctawhatchee Bay at Hogtown Bayou (in MHHW),0,,True,False
-HOGM4,South Branch Hog Creek near Allen,0,,True,False
-HOGM6,Big Sunflower River at Holly Bluff,2,ANGM6;SBSM6,True,False
-HOGN6,Hog Island Channel at Island Park (IN MLLW),0,,True,False
-HOGW4,Encampment River near Encampment,1,ECRW4,True,False
-HOHH1,Honouliuli Stream near Waipahu,0,,True,False
 HOHN4,Hohokus Brook at Ho-Ho-Kus,0,,True,False
 HOJW4,Hoback River near Jackson,0,,True,False
 HOKI4,West Fork Ditch near Hornick,0,,True,False
@@ -55,7 +30,7 @@ HORP4,Rio Guanajibo near Hormigueros,0,,True,False
 HORT1,Horse Creek near Savannah 2SE,0,,True,False
 HORT2,West Central Texas Lakes at Hords Creek Lake,2,LKCT2;OHIT2,True,False
 HORW1,Hoh River near Forks,0,,True,False
-HOSC1,San Benito River at below Hospital Rd Bridge near Hollister,0,,True,False
+HOSC1,San Benito River at below Hospital Rd Bridge near Hollister,1,PIIC1,True,False
 HOTI1,Bruneau River at Hot Springs,2,BRON2;EFBI1,True,False
 HOTS2,Fall River (SD) at Hot Springs,0,,True,False
 HOUC1,North Fork Cache Creek above Hough Springs,0,,True,False
@@ -1406,7 +1381,7 @@ LOWA1,Whitewater Creek at Lowry Mill  (CR 215),0,,True,False
 LOWA2,[INACTIVE] Lowe River near Valdez,0,,True,False
 LOWI1,Southwest Idaho Reservoirs at Lake Lowell,0,,True,False
 LOWM3,Merrimack River at Lowell,1,NSHN3,True,False
-LOWN7,"SF Catawba River below George Poston Park, 1 N Lowell",2,BESN7;FOMS1,True,False
+LOWN7,"SF Catawba River below George Poston Park, 1 N Lowell",3,BESN7;FOMS1;HNRN7,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPAC2,Low Pinos River above Vallecito Reservoir,0,,True,False
 LPBV2,"Little River near Peach Bottom, VA",0,,True,False
@@ -3789,7 +3764,7 @@ PIES2,Missouri River at Oahe Dam,3,BIWN8;EBSS2;PIRS2,True,False
 PIGN7,Pigeon House Creek at Cameron Village,0,,True,False
 PIGW3,Pigeon Creek (WI) near Pigeon Falls,0,,True,False
 PIHI1,Portneuf River at Pocatello,2,PNKI1;PTYI1,True,False
-PIIC1,San Benito River near Willow Creek School,0,,True,False
+PIIC1,San Benito River near Willow Creek School,2,HNZC1;HOSC1,True,False
 PIKI3,Northern Indiana Lakes at Pike Lake at Warsaw,0,,True,False
 PIKN4,Green Pond Brook below Picatinny Lake,0,,True,False
 PIKP1,Chartiers Run at Pike Street,2,CNBP1;WAHP1,True,False
@@ -6043,7 +6018,7 @@ SUNM6,Big Sunflower River at Sunflower,2,LCGM6;MRGM6,True,False
 SUNO1,Sunday Creek at Glouster,0,,True,False
 SUNS2,Sunday Gulch near Hill City,0,,True,False
 SUNV2,Back Creek (Bath Co. VA) at Sunrise (blw PSS),2,BKCV2;BKSV2,True,False
-SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
+SUPA3,Havasu Creek at Supai,2,CCHA3;HNSA3,True,False
 SUPF1,Courtney Campbell Sunset Point (in MHHW),0,,True,False
 SUPT2,Cibolo Creek at Sutherland Springs,2,FCTT2;HDWT2,True,False
 SURO3,South Umpqua River near Riddle,0,,True,False
@@ -6550,7 +6525,7 @@ TRPA2,[INACTIVE] Twentymile River near Portage,0,,True,False
 TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
 TRRM4,Trap Rock River near Lake Linden,0,,True,False
 TRRM5,Thief River near Thief River Falls,3,AGPM5;HLTM5;TRFM5,True,False
-TRRN2,Truckee River at Reno,2,MOGN2;VISN2,True,False
+TRRN2,Truckee River at Reno,3,HNTN2;MOGN2;VISN2,True,False
 TRRO3,Tualatin River at Rood Bridge near Hillsboro,2,FRMO3;TGCO3,True,False
 TRSA1,Cahaba River at Trusville,0,,True,False
 TRSC1,Tice Creek at Rossmoor Basin,0,,True,False
@@ -7178,7 +7153,7 @@ WFDR1,Blackstone River at Woonsocket Falls Dam,0,,True,False
 WFDT2,Cypress Creek near Westfield,2,CCGT2;HMMT2,True,False
 WFEA2,West Fork Eklutna River near Palmer,0,,True,False
 WFGN5,West Fork Gila River at Cliff Dwellings,0,,True,False
-WFHO3,West Fork Hood River near Dee,0,,True,False
+WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
 WFHT2,Holliday Creek at Wichita Falls,0,,True,False
 WFLC2,Williams Fork (CO) near Leal,0,,True,False
 WFLF1,Withlacoochee River at Floral City (in NAVD88),2,PNLF1;WYSF1,True,False
@@ -7717,7 +7692,7 @@ XLGC1,Line G3 - Fairlands Drive,0,,True,False
 XLSC1,Llagas Creek below Santa Teresa Blvd,2,LCXC1;LSXC1,True,False
 XMHC1,Mojave River at Hodge,0,,True,False
 XMWC1,Mark West Creek at Michele Way,0,,True,False
-XNGC1,San Benito River at Clear Creek Crossing,0,,True,False
+XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
 XPCC1,Mark West Creek at Porter Creek Rd,0,,True,False
 XPSC1,Pilarcitos Creek below Pilarcitos Lake Spillway,0,,True,False
 XRCC1,Kern River above ROSEDALE CANAL,0,,True,False
