@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
-MJRC1,Mojave River at Afton,1,MBRC1,True,False
-MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLBW4,Middle Fork Popo Agie River near Lander,1,LANW4,True,False
 MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
@@ -62,6 +59,7 @@ MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
 MTGK2,Johns Creek near Meta,1,DWYK2,True,False
 MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
+MTRF1,Tide Gauge on the Manatee River (In MHHW),1,RYEF1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False

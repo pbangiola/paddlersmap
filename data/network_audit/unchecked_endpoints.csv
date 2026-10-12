@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
-MIZF1,Mizell Outfall on Matanzas River (in MHHW),0,,True,False
-MJAP4,Canal de Riego de Lajas Abv Majinas Filtration Plant,0,,True,False
-MJBP4,Canal de Riego de Lajas Blw Majinas Filtration Plant,0,,True,False
-MJBV2,Chesapeake Bay near Mobjack Bay,0,,True,False
-MJHC1,Matilija Creek at Matilija Hot Springs,0,,True,False
-MJRC1,Mojave River at Afton,1,MBRC1,True,False
-MJYP1,Little Chiques Creek at Mt. Joy,0,,True,False
-MKAF1,Myakka River at Myakka City,3,HRMF1;MKCF1;MYTF1,True,False
-MKBK2,Licking River at McKinneysburg,2,BLSK2;FLMK2,True,False
-MKCF1,Myakka River at Myakka River State Park,3,HRMF1;LAUF1;MKAF1,True,False
-MKCI4,Keg Creek near Mineola (IFC),0,,True,False
-MKCN7,McKee Creek near Wilgrove,0,,True,False
-MKCS2,Medicine Knoll Creek near Canning,0,,True,False
-MKDC1,Marsh Creek at Dainty Ave,0,,True,False
-MKEA2,Mosquito Fork below Kechumstuk,0,,True,False
-MKGO2,Arkansas River near Muskogee,2,HSKO2;VBUA4,True,False
-MKHF1,Manatee River near Myakka Head at SR 64,0,,True,False
-MKHH1,Makaha Stream near Makaha,0,,True,False
-MKHI2,Calumet Union Drainage Canal at Markham,0,,True,False
-MKKC1,Montecito Creek near Montecito,0,,True,False
-MKLF1,Tide Station near Manatee Creek on Barnes Sound (in MHHW),0,,True,False
-MKLK2,Ohio River at Markland Lower,2,CCNO1;CLFI3,True,False
-MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
-MKLN1,Missouri River near Maskell,2,MRPN1;MSJN1,True,False
 MKLN6,Mine Kill near North Blenheim,0,,True,False
 MKLO3,McKenzie River below Leaburg Dam,3,GCVO3;MCZO3;VIDO3,True,False
 MKNA2,Moose Creek at Bridge near Kantishna,0,,True,False
@@ -409,7 +384,7 @@ MTCM6,Pearl River near Monticello,2,CLMM6;ROCM6,True,False
 MTCM8,Musselshell River at Martinsdale Supply Canal,0,,True,False
 MTCS1,Little River near Mt Carmel,0,,True,False
 MTCV2,Appomattox River at Matoaca,2,ARPV2;MTXV2,True,False
-MTDF1,Manatee River at Manatee Dam,0,,True,False
+MTDF1,Manatee River at Manatee Dam,2,MKHF1;RYEF1,True,False
 MTEC1,San Clemente Dam  ,0,,True,False
 MTGK2,Johns Creek near Meta,1,DWYK2,True,False
 MTGN4,Delaware River at Montague,2,MTMP1;TKSN4,True,False
@@ -439,7 +414,7 @@ MTOK2,North Fork Licking River near Mount Olivet,0,,True,False
 MTON8,Forest River at Minto,2,DRTN8;FDVN8,True,False
 MTPT2,Tres Palacios River near Midfield,0,,True,False
 MTRC3,Lake Maltby above Maltby Lake #3,0,,True,False
-MTRF1,Tide Gauge on the Manatee River (In MHHW),0,,True,False
+MTRF1,Tide Gauge on the Manatee River (In MHHW),1,RYEF1,True,False
 MTRK1,Smoky Hill River near Mentor,2,LNSK1;NCMK1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTSF1,Suwannee River at Manatee Springs (in NAVD88),2,FWBF1;WCXF1,True,False
@@ -2755,7 +2730,7 @@ RYAC1,San Francisco Bay  Coyote Creek,0,,True,False
 RYAN7,Ryan Creek below US220 at Greensboro,0,,True,False
 RYCS1,Rocky Creek at highway 25/72 near Greenwood,0,,True,False
 RYEA4,Saline River at Rye,2,BTNA4;WARA4,True,False
-RYEF1,Manatee River at Rye Bridge,0,,True,False
+RYEF1,Manatee River at Rye Bridge,2,MTDF1;MTRF1,True,False
 RYET2,Menard Creek near Rye,0,,True,False
 RYGO3,Rogue River below Gold Ray Dam,2,EGLO3;GRAO3,True,False
 RYLV2,Rabbit Branch at Royal Lake in Burke,0,,True,False
