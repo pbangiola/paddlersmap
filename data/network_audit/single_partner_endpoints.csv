@@ -1,10 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MADM8,Madison River below Ennis Lake near McAllister,1,MRPM8,True,False
-MAKP1,Casselman River at Markleton,1,GNTM2,True,False
-MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
-MALM5,Roseau River below South Fork near Malung,1,ROSM5,True,False
-MAOO3,Malheur River near Ontario,1,VALO3,True,False
 MARM4,Kalamazoo River at Marshall,1,BTCM4,True,False
+MATA2,Matanuska River at Palmer,1,MAGA2,True,False
 MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
 MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
 MBGW2,Opequon Creek near Martinsburg,1,BYVV2,True,False
@@ -14,9 +10,11 @@ MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
+MCIN7,McAlpine Creek at Idlewild,1,MALN7,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCKT2,East Fork Trinity River at McKinney,1,LVNT2,True,False
 MCLM6,Leaf River near McLain,1,NAGM6,True,False
+MCPN7,McAlpine Creek at Waste Water Treatment Plant,1,MCCN7,True,False
 MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
 MCRO1,Mill Creek above Reading,1,EVNO1,True,False
 MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
@@ -611,6 +609,7 @@ UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 UVBC1,Uvas Creek below Uvas Reservoir,1,LUVC1,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
+VASN7,Flat Creek near Iverness,1,MANN7,True,False
 VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
@@ -639,6 +638,7 @@ WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,F
 WBRW4,Green River (WY-UT-CO) at Warren Bridge,1,LABW4,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
+WCCP1,West Conewago Creek at East Berlin,1,MANP1,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WCIF1,Tide Gauge at Yankeetown (in MHHW),1,WIGF1,True,False
 WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False

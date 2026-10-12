@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MADM8,Madison River below Ennis Lake near McAllister,1,MRPM8,True,False
-MADN8,Sheyenne River near Maddock,0,,True,False
-MADO3,Malheur River near Drewsey,0,,True,False
-MADT2,Rio Grande at Anzalduas Reservior,2,PRGT2;RGLT2,True,False
-MAGA1,Magnolia River near Magnolia Springs,0,,True,False
-MAGA2,Matanuska River near Matanuska Glacier near Chickaloon,0,,True,False
-MAGI1,Eastern Idaho Reservoirs at Magic Dam,2,BWMI1;SCBI1,True,False
-MAGL1,Amite River at Magnolia,2,DENL1;GVLL1,True,False
-MAHF1,Tide Gauge at Mason Creek (In MHHW),0,,True,False
-MAHG1,Allatoona Creek at Stilesboro Road near Acworth,0,,True,False
-MAKC1,Marsh Creek at Brentwood,0,,True,False
-MAKF1,Tide Gauge at Madelaine Key (In MHHW),0,,True,False
-MAKI1,Big Lost River below Mackay Reservoir,3,ARCI1;LESI1;MACI1,True,False
-MAKP1,Casselman River at Markleton,1,GNTM2,True,False
-MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
-MALM5,Roseau River below South Fork near Malung,1,ROSM5,True,False
-MALM8,Milk River at Malta,2,DMRM8;SACM8,True,False
-MALN7,McAlpine Creek below Sardis Road,0,,True,False
-MANI1,Southwest Idaho Reservoirs at Mann Creek Reservoir,0,,True,False
-MANI3,Mill Creek (IN) at Cagles Mill,2,BOLI3;CAGI3,True,False
-MANI4,Shell Rock River near Plymouth IA 9--IFC,2,GDVM5;NRSI4,True,False
-MANN7,Little River at Manchester,0,,True,False
-MANP1,West Conewago Creek near Manchester,0,,True,False
-MAOO3,Malheur River near Ontario,1,VALO3,True,False
-MAPF1,Maple Creek Near Myakka City,0,,True,False
 MAPI4,Maple River at Mapleton,0,,True,False
 MAPN8,Maple River (ND) below Mapleton (North of I-94),3,AMEN8;HWDN8;MPLN8,True,False
 MAPS2,Maple River near Frederick,0,,True,False
@@ -35,7 +10,7 @@ MARN7,"French Broad River above Rollins Rd, 1 SE Marshall",2,AVLN7;HSPN7,True,Fa
 MASI4,Spring Creek near Mason City US 65,0,,True,False
 MASM1,Aroostook River at Masardis,0,,True,False
 MASN2,Walker River near Mason - Snyder Lane,3,EWMN2;WRYN2;WWHN2,True,False
-MATA2,Matanuska River at Palmer,0,,True,False
+MATA2,Matanuska River at Palmer,1,MAGA2,True,False
 MATF1,Matheny Creek Near South Tamiami Trail,0,,True,False
 MATM1,Mattawamkeag River at Mattawamkeag,0,,True,False
 MAUC1,Mad River above Ruth Reservoir,0,,True,False
@@ -103,7 +78,7 @@ MCCI1,Marsh Creek (Eastern ID) near McCammon,0,,True,False
 MCCI2,Mainstream Deep Tunnel at McCook Reservoir,0,,True,False
 MCCI4,Chelsea Creek at Mason City 19th St SW--IFC,0,,True,False
 MCCN5,Mogollon Creek above Cliff 14N,0,,True,False
-MCCN7,McAlpine Creek at Colony Rd,0,,True,False
+MCCN7,McAlpine Creek at Colony Rd,2,MALN7;MCPN7,True,False
 MCCO1,Muskingum River at McConnelsville,2,BEVO1;ZANO1,True,False
 MCDA2,Chena River below Moose Creek Dam near Fairbanks,2,CHFA2;CRHA2,True,False
 MCDI2,McDonald Creek near Mount Prospect,0,,True,False
@@ -138,7 +113,7 @@ MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCHO1,Lake Fork Mohican River below Mohicanville Dam,0,,True,False
 MCHS1,Manchester Creek near Rock Hill,0,,True,False
 MCII4,Winnebago River at Mason City S Illinois Ave--IFC,3,MCRI4;MCWI4;MSWI4,True,False
-MCIN7,McAlpine Creek at Idlewild,0,,True,False
+MCIN7,McAlpine Creek at Idlewild,1,MALN7,True,False
 MCIT1,French Broad River at McCroskey Island,0,,True,False
 MCJF1,St Johns River at Mill Cove (in MHHW),0,,True,False
 MCKG1,Muckalee Creek near Leesburg (SR 195),0,,True,False
@@ -175,7 +150,7 @@ MCPI4,South Skunk River near Ames McFarland Park,2,AMEI4;ESKI4,True,False
 MCPK2,Massac Creek above Paducah,0,,True,False
 MCPM8,Muddy Creek near Fairfield,0,,True,False
 MCPN4,Pequannock River at Macopin,2,CHAN4;RDLN4,True,False
-MCPN7,McAlpine Creek at Waste Water Treatment Plant,0,,True,False
+MCPN7,McAlpine Creek at Waste Water Treatment Plant,1,MCCN7,True,False
 MCPO2,Pennington Creek near Mill Creek,0,,True,False
 MCPU1,Mill Creek below Pack Creek near Moab,0,,True,False
 MCQM4,Mill Creek (MI) at Quaker St. near Mottville,0,,True,False
@@ -973,7 +948,7 @@ MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 MYRW2,Mud River (WV) at Hamlin,0,,True,False
 MYST2,North Texas Lakes at Pat Mayse Lake,0,,True,False
 MYSU1,Sevier River near Marysvale,0,,True,False
-MYTF1,Myakka River at Wauchula Rd Near Myakka City,3,LCKF1;MKAF1;MYKF1,True,False
+MYTF1,Myakka River at Wauchula Rd Near Myakka City,4,LCKF1;MAPF1;MKAF1;MYKF1,True,False
 MYVK2,Ohio River at Maysville,2,MELO1;PORO1,True,False
 MYVM7,102 River at Maryville,2,BDFI4;RSDM7,True,False
 MYVT1,Little River (TN) near Maryville,2,ALCT1;TWNT1,True,False
@@ -5089,7 +5064,7 @@ VAES2,Whitewood Creek above Vale,2,SBFS2;WNWS2,True,False
 VAKF1,Atlantic Ocean Tide Gauge at Virginia Key (in MHHW),0,,True,False
 VALA1,Valley Creek (AL) at Center Street,0,,True,False
 VALI2,Illinois River at Valley City,2,HARI2;MROI2,True,False
-VALO3,Malheur River at Vale,3,BEUO3;BYCO3;MAOO3,True,False
+VALO3,Malheur River at Vale,4,BEUO3;BYCO3;MAOO3;WARO3,True,False
 VALP4,Rio Valenciano near Juncos,0,,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VANI4,Raccoon River at Van Meter Hwy R16--IFC,0,,True,False
@@ -5097,7 +5072,7 @@ VANN7,Van Swamp near Hoke,0,,True,False
 VANO1,Tiffin River near Evansport,0,,True,False
 VAPW1,Columbia River at Vancouver,2,BONO3;SHNO3,True,False
 VASC1,Los Gatos Creek at Vasona Reservoir,0,,True,False
-VASN7,Flat Creek near Iverness,0,,True,False
+VASN7,Flat Creek near Iverness,1,MANN7,True,False
 VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VAUM8,Sun River near Vaughn,2,GFLM8;SSRM8,True,False
 VAVA3,Verde River near Camp Verde,0,,True,False
@@ -5270,7 +5245,7 @@ WAPN6,Wappingers Creek at Wappinger Falls,0,,True,False
 WAPP1,Wapwallopen Creek near Wapwallopen,0,,True,False
 WARA4,Saline River at Warren,2,JHNA4;RYEA4,True,False
 WARC1,Warthan Creek above Coalinga,0,,True,False
-WARO3,Malheur River below Warm Springs Reservoir,0,,True,False
+WARO3,Malheur River below Warm Springs Reservoir,2,MADO3;VALO3,True,False
 WARP1,East Fork Sinnemahoning Creek at Wharton Township,0,,True,False
 WART2,Waller Creek at Red River Street,0,,True,False
 WASD2,Washington Channel at SW Waterfront (IN MLLW),0,,True,False
@@ -5358,7 +5333,7 @@ WCCA1,Walnut Creek (AL) above Clanton,0,,True,False
 WCCL1,Barataria Bay and Waterway at West Closure CPX1 near Woodmere,0,,True,False
 WCCM7,Wilson Creek at Springfield,0,,True,False
 WCCN7,Williams Creek Upstream of Gregson Dr,0,,True,False
-WCCP1,West Conewago Creek at East Berlin,0,,True,False
+WCCP1,West Conewago Creek at East Berlin,1,MANP1,True,False
 WCCS1,Wildcat Creek below Rock Hill,0,,True,False
 WCCS2,Willow Creek near Crooks,0,,True,False
 WCCV2,Cedar Creek (VA) near Winchester,0,,True,False
