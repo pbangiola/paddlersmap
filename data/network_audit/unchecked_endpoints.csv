@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FRBM5,Straight River near Faribault,2,NRFM5;OWTM5,True,False
-FRBN1,Little Blue River near Fairbury,2,HBGK1;HBON1,True,False
-FRBT2,Pedernales River at Fredericksburg,0,,True,False
-FRCF1,Frog Creek at Buffalo Road Near Rubonia,0,,True,False
-FRCM5,Wells Creek (MN) near Frontenac,0,,True,False
-FRCM8,Frenchman Creek (MT) near Saco,0,,True,False
-FRDF1,Atlantic Coast at Fernandina Beach (in MHHW),0,,True,False
-FRDI3,Blue River (IN) at Fredericksburg,0,,True,False
-FRDI4,East Fork Wapsipinicon River near Frederika 120th St--IFC,0,,True,False
-FRDM2,Youghiogheny River at Friendsville,2,OAKM2;YGOP1,True,False
-FRDM4,Ford River near Hyde,0,,True,False
-FRDM8,Frenchman Creek (MT) at Frenchman Reservoir,0,,True,False
-FRDS2,Missouri River at Fort Randall Dam,3,CBLS2;GRWS2;OACS2,True,False
-FREG1,Settingdown Creek near Ball Ground,0,,True,False
-FREI3,White River (IN) at Edwardsport,3,BHDI3;EDWI3;NWBI3,True,False
-FREI4,Upper Iowa River near Freeport (IFC),0,,True,False
-FREM8,Frenchman Creek (MT) near Intl Boundary,0,,True,False
-FREN1,Platte River at Fremont,2,LESN1;NBDN1,True,False
-FREN4,Delaware River at Frenchtown,2,RGLN4;STKN4,True,False
-FREN7,Waccamaw River at Freeland,2,WODN7;WRPN7,True,False
-FREP1,Allegheny River at Freeport Lock and Dam,2,CLNP1;NATP1,True,False
-FREU1,Fremont River near Bicknell,0,,True,False
-FRGC2,Fraser River (CO) at Granby,0,,True,False
-FRGF1,Frog Creek at US 41 Near Rubonia,0,,True,False
-FRGM4,Shiawassee River near Fergus,0,,True,False
 FRGO2,Cimarron River (KS) near Forgan,2,BFFO2;EHTK1,True,False
 FRHF1,Fenholloway River near Hampton Springs (in MHHW),0,,True,False
 FRHT2,North Texas Lakes at Lake Ray Hubbard,2,CNLT2;LVNT2,True,False
@@ -38,7 +13,7 @@ FRKP1,Allegheny River at Franklin,3,PARP1;UTCP1;WHKP1,True,False
 FRKW3,Root River at Franklin,1,FAKW3,True,False
 FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRLM4,Falls River near L'anse,0,,True,False
-FRLM5,Cannon River at Hwy 29 below Faribault,0,,True,False
+FRLM5,Cannon River at Hwy 29 below Faribault,2,FRBM5;NRFM5,True,False
 FRLT2,Redgate Creek at Frelsburg,0,,True,False
 FRMK2,Licking River at Farmers,2,BLSK2;CRLK2,True,False
 FRMM2,Monocacy River at Monocacy Blvd. in Frederick,2,BDGM2;FDKM2,True,False
@@ -77,7 +52,7 @@ FRUS2,Belle Fourche River near Fruitdale,2,BFVS2;BLES2,True,False
 FRVA1,Crooked Creek (AL) near Fairview,0,,True,False
 FRVC2,Florida River below Lemon Reservoir,0,,True,False
 FRVM3,Mount Hope Bay at Fall River (IN MLLW),0,,True,False
-FRWC2,Fraser River (CO) at Winter Park,0,,True,False
+FRWC2,Fraser River (CO) at Winter Park,1,FRGC2,True,False
 FRWL1,Tide Station (LCH) at Fresh Water Canal Locks,0,,True,False
 FRYA1,Aldridge Creek (AL) near Farley,0,,True,False
 FRYM8,Yellowstone River at Forsyth,3,BGHM8;BILM8;MILM8,True,False
@@ -1560,7 +1535,7 @@ JNSF1,Indian River at Jensen Beach (in MHHW),0,,True,False
 JNSV2,Powell River near Jonesville,2,ARTT1;BSGV2,True,False
 JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
 JOCF1,St Joes Creek at 54th Ave (in MHHW),0,,True,False
-JOCT2,Pedernales River at Johnson City,0,,True,False
+JOCT2,Pedernales River at Johnson City,1,FRBT2,True,False
 JOEM4,St. Joseph River (OH/IN) at Territorial Road near Waldron MI,0,,True,False
 JOFW3,Peshtigo River at Johnson Falls,2,CRIW3;SSDW3,True,False
 JOHI1,Johnson Creek at Yellow Pine,0,,True,False
@@ -4069,7 +4044,7 @@ NREW1,Nooksack River at Everson,0,,True,False
 NREX1,Experimental Everson,0,,True,False
 NRFA3,New River Maricopa near New River,0,,True,False
 NRFF1,New River at Riverwalk Fort Lauderdale (in MHHW),0,,True,False
-NRFM5,Cannon River at Northfield,2,CFLM5;FRBM5,True,False
+NRFM5,Cannon River at Northfield,4,CFLM5;FRBM5;FRLM5;WLCM5,True,False
 NRGC1,Coyote Creek near Gilroy,0,,True,False
 NRGN1,Niobrara River near Gordon 11S,0,,True,False
 NRHF1,Nassau River at US-17 (in MHHW),0,,True,False
@@ -6224,7 +6199,7 @@ SELI1,Selway River near Lowell,0,,True,False
 SELI2,Fox River at South Elgin Dam,4,ELGI2;EPCI2;ETCI2;MNGI2,True,False
 SELI3,Silver Creek (IN) at Sellersburg,0,,True,False
 SELT2,Cibolo Creek at Selma,3,BVST2;CSVT2;HDWT2,True,False
-SEMI3,West Fork Blue River at Salem,0,,True,False
+SEMI3,West Fork Blue River at Salem,1,FRDI3,True,False
 SEMK1,Emma Creek (KS) above Sedgwick,0,,True,False
 SEMN7,Walnut Creek (NC) above Maynard St in Cary,0,,True,False
 SEOC1,San Simeon Creek near San Simeon,0,,True,False
@@ -8229,7 +8204,7 @@ WHBC2,White River near Rangely,0,,True,False
 WHBI1,Salmon River at White Bird,0,,True,False
 WHBN6,Sauquoit Creek at Whitesboro,0,,True,False
 WHCI2,Whitley Creek near Allenville,0,,True,False
-WHCI3,Blue River (IN) at White Cloud,0,,True,False
+WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
 WHCW4,Wild Horse Creek near Arvada (Closed Gauge),0,,True,False
 WHDC1,White River near Ducor,0,,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
@@ -8351,7 +8326,7 @@ WLBN6,Boquet River above Willsboro,0,,True,False
 WLBO1,Mad River at West Liberty,1,UBNO1,True,False
 WLCA2,Wolverine Creek near Lawing,0,,True,False
 WLCK2,Cumberland River at Lake Cumberland,6,BLWK2;BRKK2;CFAK2;CLAT1;CORK2;STRK2,True,False
-WLCM5,Cannon River at Welch,3,CFLM5;CNFM5;REDM5,True,False
+WLCM5,Cannon River at Welch,4,CFLM5;CNFM5;NRFM5;REDM5,True,False
 WLCN8,Willow Creek (ND) near Willow City,0,,True,False
 WLCT2,Waller Creek at Koenig Lane,0,,True,False
 WLCV2,Wallen Creek at Pennington Gap,0,,True,False

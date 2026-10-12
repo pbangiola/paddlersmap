@@ -8,6 +8,7 @@ FRNM4,Cass River at Frankenmuth,1,VSSM4,True,False
 FRNN7,Dan River near Francisco,1,PNHN7,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
+FRWC2,Fraser River (CO) at Winter Park,1,FRGC2,True,False
 FSBG1,Canoochee River at Fort Stewart,1,CNOG1,True,False
 FSLL1,Amite River at French Settlement,1,PVLL1,True,False
 FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
@@ -119,6 +120,7 @@ JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
 JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
 JMEI4,Floyd River at James,1,MRLI4,True,False
 JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
+JOCT2,Pedernales River at Johnson City,1,FRBT2,True,False
 JSLS2,James River near Hecla,1,CMBS2,True,False
 JSPM5,Split Rock Creek below Jasper,1,PALS2,True,False
 JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
@@ -549,6 +551,7 @@ SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
 SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
 SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
+SEMI3,West Fork Blue River at Salem,1,FRDI3,True,False
 SEYT2,Wichita River near Seymour,1,SYOT2,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
@@ -720,6 +723,7 @@ WETA1,Coosa River at Wetumpka,1,WPKA1,True,False
 WETN4,Millstone River at Weston,1,BKWN4,True,False
 WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
+WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
