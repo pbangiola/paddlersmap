@@ -1,9 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GDVM5,Shell Rock River (Northeast IA) near Gordonsville 1W,1,MANI4,True,False
 GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
 GERT1,Wolf River at Germantown,1,COTT1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GGGW3,East River (WI) above Greenleaf,1,ERBW3,True,False
+GIDA3,Gila River near Dome,1,GDTA3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
@@ -19,10 +19,12 @@ GMLO1,Mill Creek at Garfield Parkway,1,GARO1,True,False
 GNGT2,San Gabriel River at Granger Lake,1,WSGT2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
+GNVT2,Cowleech Fork Sabine River at Greenville,1,PNTT2,True,False
 GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
 GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
 GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRIC1,Feather River at Gridley,1,YWPC1,True,False
+GRMA3,Gila River near Maricopa,1,PRKA3,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
@@ -72,6 +74,7 @@ HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
 HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
 HYDP1,Wills Creek below Hyndman,1,CWCM2,True,False
 HYSK1,Big Creek near Hays,1,ELLK1,True,False
+HZNN8,Knife River (ND) near Hazen,1,KRBN8,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
 IBOM5,St. Louis River near Skibo,1,FOBM5,True,False
 ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
@@ -165,6 +168,7 @@ LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
 LNCP1,Conestoga River at Lancaster,1,CNSP1,True,False
+LNRK1,N F Solomon River at Lenora,1,GDEK1,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
@@ -255,6 +259,7 @@ MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
+MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
 MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
 MNRO3,Long Tom River at Monroe,1,FRNO3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
@@ -447,6 +452,7 @@ PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
 PSPT1,Elk River near Prospect,1,FYTT1,True,False
+PTIK1,N F Solomon River at Portis,1,KRWK1,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
