@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GBRM6,Grand Bay above Dock E Port of Pascagoula,0,,True,False
-GBRN6,Schoharie Creek at Gilboa Bridge,2,BKBN6;GILN6,True,False
-GBRN7,Gum Branch at Gum Branch road,0,,True,False
-GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
-GBRW4,Reservoirs at Fontenelle Reservoir,0,,True,False
-GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
-GBSI3,Little Calumet River at Gary (Burr Street),0,,True,False
-GBSL1,Mississippi River Delta Basin at Bayou Black at Gibson,0,,True,False
-GBSM2,Sawmill Creek at Glen Burnie,0,,True,False
-GBSM5,State Ditch 95 near Greenbush (CSAH7),0,,True,False
-GBSM8,Gallatin River above Deer Creek near Big Sky,0,,True,False
-GBTC1,Santa Ynez River below Gibraltar Dam,0,,True,False
-GBTM2,Beaverdam Creek near Greenbelt / Edmonston Road,0,,True,False
-GBTW2,Guyandotte River at R.D. Bailey Lake,0,,True,False
-GBYC2,Colorado River at Granby Reservoir,0,,True,False
-GBYN7,Tar River at Rock Springs,0,,True,False
-GBYT2,North Texas Lakes at Lake Granbury,2,DNNT2;GLRT2,True,False
-GBYW3,Fox River (North) at Green Bay,2,ERBW3;WRGW3,True,False
-GCAC1,Grayson Creek at Center Ave,0,,True,False
-GCAW4,Goose Creek near Acme,0,,True,False
-GCBC1,Green Creek (CA) near Bridgeport,0,,True,False
-GCBF1,Tide Gauge at Boca Grande Causeway (in MHHW),0,,True,False
-GCBG1,Grove Creek at US 441 and GA 15 near Commerce,0,,True,False
-GCCC1,Grayson Creek at Taylor Blvd (City Yard),0,,True,False
-GCCO3,Grande Ronde River below Clear Creek near Starkey,0,,True,False
 GCCT2,Culebra Creek at GCSNA near Helotes,0,,True,False
 GCDW1,Columbia River above Grand Coulee Dam,2,CHJW1;CIBW1,True,False
 GCEF1,St. Johns River at Shands Bridge (in MHHW),0,,True,False
@@ -167,7 +142,7 @@ GLEW2,Little Kanawha River at Glenville,2,BURW2;GRTW2,True,False
 GLEW4,North Platte River at Glendo Reservoir,0,,True,False
 GLFM6,Wolf River above Gulfport,0,,True,False
 GLGM2,Gwynns Falls at Glyndon,0,,True,False
-GLGM8,Gallatin River near Gallatin Gateway,0,,True,False
+GLGM8,Gallatin River near Gallatin Gateway,2,GBSM8;LOGM8,True,False
 GLHA3,Gila River near Solomon,2,DUUA3;GLCA3,True,False
 GLIO3,North Umpqua River near Glide,1,WINO3,True,False
 GLIT2,San Antonio River at Goliad,2,MFNT2;SRRT2,True,False
@@ -319,7 +294,7 @@ GRFN1,West Fork Big Blue River near Grafton ,0,,True,False
 GRFW3,Wisconsin River below Grandfather Dam,2,ALXW3;TKDW3,True,False
 GRFW4,North Platte River below Gray Reef Reservoir,0,,True,False
 GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
-GRGI3,Little Calumet River at Gary (Grant St),0,,True,False
+GRGI3,Little Calumet River at Gary (Grant St),2,GBSI3;LAKI3,True,False
 GRGM6,Steele Bayou near Grace,0,,True,False
 GRGM8,Grinnell Creek near Many Glacier,0,,True,False
 GRHC2,Groundhog Reservoir,0,,True,False
@@ -669,7 +644,7 @@ HGBT2,Greens Bayou near Houston,1,GBHT2,True,False
 HGCI3,Grand Calumet River above Hammond (Columbia Ave),0,,True,False
 HGCV1,Rock River (VT) near Highgate Center,0,,True,False
 HGDM2,Unnamed Tributary above Heritage Glen Dam,0,,True,False
-HGLI3,Little Calumet River at Highland (Kennedy Avenue),0,,True,False
+HGLI3,Little Calumet River at Highland (Kennedy Avenue),2,GBSI3;HMMI3,True,False
 HGLO2,Eastern Oklahoma Lakes at Hugo Lake,0,,True,False
 HGLT2,Highland Bayou at FM 646 near Santa Fe,0,,True,False
 HGPC2,Harvard Gulch (CO) near Englewood,0,,True,False
@@ -769,7 +744,7 @@ HMLO1,West Creek (OH) near Hamler,0,,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
 HMLT2,Leon River near Hamilton,2,GAST2;PCTT2,True,False
 HMMG1,Coosa River at Plant Hammond,0,,True,False
-HMMI3,Little Calumet River at Hammond (Indianapolis Boulevard),0,,True,False
+HMMI3,Little Calumet River at Hammond (Indianapolis Boulevard),2,HGLI3;MNTI3,True,False
 HMMO2,Washita River near Hammon,2,CHYO2;FOSO2,True,False
 HMMT2,West Fork San Jacinto River near Humble,3,HSJT2;POET2;WFDT2,True,False
 HMNC1,Pilarcitos Creek at Half Moon Bay,0,,True,False
@@ -1702,7 +1677,7 @@ LAFW3,Kickapoo River at La Farge,0,,True,False
 LAGP4,Canal de Riego de Lajas Blw Lajas Filtration Plant,0,,True,False
 LAIF1,Lake Iamonia at Waterfront Drive,0,,True,False
 LAIP1,Little Muncy Creek at Lairdsville,0,,True,False
-LAKI3,Little Calumet River near Lake Station,0,,True,False
+LAKI3,Little Calumet River near Lake Station,2,GRGI3;PBPI3,True,False
 LAKI4,Lake Creek near Lake City IA 175--IFC,0,,True,False
 LAKN5,Pecos River at Fort Sumner,0,,True,False
 LALM5,Leaf River (MN) above Aldrich (CSAH26),0,,True,False
@@ -1955,7 +1930,7 @@ LGNI3,Wabash River at Logansport,4,ADMI3;AMRI3;LAFI3;PRUI3,True,False
 LGNI4,Boyer River at Logan,2,DNLI4;MSVI4,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
 LGNN8,Souris River at Logan,2,MION8;SWRN8,True,False
-LGNO3,Grande Ronde River near Perry,0,,True,False
+LGNO3,Grande Ronde River near Perry,2,GCCO3;TRYO3,True,False
 LGNU1,Logan River near Logan,0,,True,False
 LGOM4,Lake Gogebic near Bergland,0,,True,False
 LGPF1,Choctawhatchee Bay at Legion Park (in MHHW),0,,True,False
@@ -2174,7 +2149,7 @@ LODW3,Spring Creek at Lodi,0,,True,False
 LOFC1,Los Angeles River at Firestone,0,,True,False
 LOGG1,Brushy Fork Creek at Beaver Road near Loganville,0,,True,False
 LOGM6,Tallahatchie River at Locopolis,3,ALLM6;LMGM6;SWNM6,True,False
-LOGM8,Gallatin River at Logan,2,EGRM8;TOSM8,True,False
+LOGM8,Gallatin River at Logan,3,EGRM8;GLGM8;TOSM8,True,False
 LOGN7,Second Broad River near Logan,0,,True,False
 LOGP4,Rio Loco at Las Latas,0,,True,False
 LOGW2,Guyandotte River at Logan,2,BRAW2;MNAW2,True,False
@@ -3065,7 +3040,7 @@ MNSW1,Wynoochee River near Montesano,0,,True,False
 MNSW3,Fox River (North) at Menasha-Jefferson Park,2,OSKW3;STKW3,True,False
 MNTG1,Flint River at GA 26 near Montezuma,2,CLUG1;WWCG1,True,False
 MNTI2,Sangamon River at Monticello,2,FISI2;RVTI2,True,False
-MNTI3,Hart Ditch at Munster,2,HDDI3;LCNI3,True,False
+MNTI3,Hart Ditch at Munster,3,HDDI3;HMMI3;LCNI3,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNTM3,Connecticut River at Montague,2,NHMM3;WLPN3,True,False
 MNTN1,North Platte River near Minatare,2,BGPN1;SBRN1,True,False
@@ -4377,7 +4352,7 @@ PBLI1,Portneuf River at Pebble ID,2,CHSI1;TOPI1,True,False
 PBNN8,Red River of the North at Pembina,3,DRTN8;EMRQ3;NCEN8,True,False
 PBOI1,Silver Creek (ID) near Picabo,0,,True,False
 PBPC1,Pacheco Creek below Pacheco Reservoir,0,,True,False
-PBPI3,Portage-Burns Waterway at Portage (Lake Michigan outlet),0,,True,False
+PBPI3,Portage-Burns Waterway at Portage (Lake Michigan outlet),1,LAKI3,True,False
 PBPV2,Purcell Branch at Purcell Road,0,,True,False
 PBRC1,Pope Creek at Lake Berryessa,0,,True,False
 PBRM8,Jefferson River near Silver Star at Parsons Bridge,2,TFKM8;TWIM8,True,False
@@ -7374,7 +7349,7 @@ TRYM7,Cuivre River at Troy,0,,True,False
 TRYM8,Yaak River near Troy,0,,True,False
 TRYN6,Hudson River at Troy,2,ALBN6;WTFN6,True,False
 TRYO1,Great Miami River at Troy,2,PIQO1;TAYO1,True,False
-TRYO3,Grande Ronde River at Troy,0,,True,False
+TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
 TRZF1,Trout Creek at Chancey Rd at Wesley Chapel,0,,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSBN7,Banks Channel at Topsail Beach,0,,True,False

@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
-GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
 GDVM5,Shell Rock River (Northeast IA) near Gordonsville 1W,1,MANI4,True,False
 GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
 GERT1,Wolf River at Germantown,1,COTT1,True,False
@@ -389,6 +387,7 @@ PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
+PBPI3,Portage-Burns Waterway at Portage (Lake Michigan outlet),1,LAKI3,True,False
 PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
@@ -669,6 +668,7 @@ TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
+TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
