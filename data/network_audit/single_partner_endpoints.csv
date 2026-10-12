@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DDMN6,Mohawk River at Delta Dam,1,UCAN6,True,False
-DDVC1,Canoas Creek at Dow Drive,1,CAOC1,True,False
-DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
 DEVN2,North Fork Humboldt River near Halleck,1,HREN2,True,False
 DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
@@ -15,6 +12,7 @@ DNVI2,Vermilion River (E-IL) near Danville,1,BISI2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DONO3,Donner und Blitzen River near French Glen,1,DBPO3,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
+DRBI1,Deadwood River at Deadwood Reservoir,1,DEDI1,True,False
 DRBO3,Donner und Blitzen River near Sodhouse Dam,1,DBPO3,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
@@ -294,6 +292,7 @@ MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
+MEDM3,Charles River at Medway,1,DOVM3,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
@@ -636,6 +635,7 @@ TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
+TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
@@ -709,6 +709,7 @@ WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
+WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False

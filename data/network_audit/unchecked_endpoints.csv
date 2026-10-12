@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DCTG1,Altamaha River at Doctortown,2,BAXG1;EVRG1,True,False
-DCTN1,Missouri River at Decatur,2,BLAN1;SSCN1,True,False
-DCVC1,Deer Creek near Vina,0,,True,False
-DCWC1,Dry Creek near Wheatland,0,,True,False
-DCWM7,Dardenne Creek at O'Fallon,0,,True,False
-DCWN2,Desert Creek near Wellington,0,,True,False
-DCWO3,Drift Creek of Lincoln Co. above Waldport,0,,True,False
-DCXL1,Breton Sound Basin near Delacroix at the end of Hwy 300,0,,True,False
-DCYC1,Trinity River at Douglas City,0,,True,False
-DDCK1,Arkansas River at Dodge City,2,GCKK1;LRDK1,True,False
-DDCN4,Passaic River at Clifton (Dundee Dam),2,LTFN4;NWKN4,True,False
-DDET2,Wichita River at Lake Diversion near Dundee,2,IPWT2;MBLT2,True,False
-DDGW3,Trempealeau River at Dodge,2,ARCW3;TREW3,True,False
-DDHM3,Charles River at Mother Brook at Dedham,0,,True,False
-DDHU1,Dirty Devil near Hanksville,0,,True,False
-DDMN6,Mohawk River at Delta Dam,1,UCAN6,True,False
-DDVC1,Canoas Creek at Dow Drive,1,CAOC1,True,False
-DDZM7,Sac River near Dadeville,0,,True,False
-DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
-DEBO3,Deschutes River (OR) below Bend,2,BENO3;PERO3,True,False
-DECA1,Tennessee River at Decatur,2,FLOA1;WHIA1,True,False
-DECV2,Deep Creek near MANNBORO,0,,True,False
-DEDI1,Southwest Idaho Reservoirs at Deadwood Reservoir,0,,True,False
-DEDI4,Brushy Fork Creek near Dedham IA 141--IFC,0,,True,False
-DEDM2,Dead Run near Catonsville,0,,True,False
 DEDN1,Deadmans Run at Lincoln (38th Street),0,,True,False
 DEDN7,Dan River above Dan River at Old St. Hwy 87 in Eden,0,,True,False
 DEDS2,Whitewood Creek at Deadwood,0,,True,False
@@ -224,7 +199,7 @@ DOTK2,Red River (TN) at Dot,0,,True,False
 DOTW1,Chehalis River near Doty,2,ADNW1;CTKW1,True,False
 DOUF1,Suwannee River at Dowling Park - CR 250 (in NAVD88),2,ELLF1;LURF1,True,False
 DOVM1,Piscataquis River at Dover-Foxcroft,3,ABTM1;BLAM1;MFDM1,True,False
-DOVM3,Charles River at Dover,0,,True,False
+DOVM3,Charles River at Dover,2,DDHM3;MEDM3,True,False
 DOVO2,Cimarron River near Dover,2,AMCO2;GTRO2,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
 DOWM4,Dowagiac River at State Highway 51 near Dowagiac,0,,True,False
@@ -241,7 +216,7 @@ DQNA4,Rolling Fork near DeQueen,0,,True,False
 DRAP4,Lago de Cidra at Damsite nr Cidra,2,CIEP4;CIFP4,True,False
 DRAT2,Spring Branch at SH 242 near Splendora,0,,True,False
 DRBC2,Clear Creek (CO) at Derby,3,CRTC2;GLDC2;HNDC2,True,False
-DRBI1,Deadwood River at Deadwood Reservoir,0,,True,False
+DRBI1,Deadwood River at Deadwood Reservoir,1,DEDI1,True,False
 DRBK1,Arkansas River at Derby,2,HAVK1;MULK1,True,False
 DRBM5,"Dunka River near Babbitt, FR423",0,,True,False
 DRBO3,Donner und Blitzen River near Sodhouse Dam,1,DBPO3,True,False
@@ -497,7 +472,7 @@ EELM3,Eels River at Plymouth,0,,True,False
 EFBI1,East Fork Bruneau River near Hot Springs,0,,True,False
 EFBW4,East Fork Big Goose Creek near Big Horn,0,,True,False
 EFDC1,Lake Earl near Crescent City,0,,True,False
-EFDI4,South Raccoon River near Redfield Dexfield Rd--IFC,0,,True,False
+EFDI4,South Raccoon River near Redfield Dexfield Rd--IFC,2,DEDI4;REDI4,True,False
 EFDN7,Fishing Creek near Enfield,0,,True,False
 EFEA2,East Fork Eklutna River near Palmer,0,,True,False
 EFFC1,Tulucay Creek at Shurtleff Avenue,0,,True,False
@@ -4099,7 +4074,7 @@ MECT2,Arroyo Colorado South of Mercedes,0,,True,False
 MECV2,Mechums River near White Hall,0,,True,False
 MEDC1,San Mateo Creek below Lower Crystal Springs Reservoir NR San Mateo,0,,True,False
 MEDI1,Medicine Lodge Creek (ID) near Small,0,,True,False
-MEDM3,Charles River at Medway,0,,True,False
+MEDM3,Charles River at Medway,1,DOVM3,True,False
 MEDN4,Southwest Branch Rancocas Creek at Medford,0,,True,False
 MEDP1,French Creek at Meadville,3,CBSP1;UTCP1;WCDP1,True,False
 MEEC1,Bear Creek at McKee Road,0,,True,False
@@ -6624,7 +6599,7 @@ REAP1,Cocalico Creek at Ephrata,0,,True,False
 REAW3,Kickapoo River at Readstown,0,,True,False
 RECN1,Franklin Canal near Republican City,0,,True,False
 REDG1,Ohoopee River near Reidsville,0,,True,False
-REDI4,South Raccoon River at Redfield,2,RDFI4;VNMI4,True,False
+REDI4,South Raccoon River at Redfield,3,EFDI4;RDFI4;VNMI4,True,False
 REDM5,Mississippi River at Red Wing,3,LKCM5;RDWM5;WLCM5,True,False
 REDN6,North Branch Salmon River at Redfield,0,,True,False
 REDN7,Reddies River at N. Wilkesboro,0,,True,False
@@ -8389,7 +8364,7 @@ TCOI1,Trapper Creek near Oakley,0,,True,False
 TCOW3,Tri Creek near Norwalk - Dam Outlet,0,,True,False
 TCPC1,Amargosa River near Tecopa,0,,True,False
 TCPM8,Tank Coulee,0,,True,False
-TCRC1,Thomes Creek at Paskenta,0,,True,False
+TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
 TCRF1,Townsend Canal near Alva,0,,True,False
 TCRI3,Trail Creek at Michigan City,0,,True,False
 TCRK1,Tomahawk Creek at Roe Avenue,0,,True,False
@@ -9060,7 +9035,7 @@ VTBT2,Tide Gauge above Viola Turning Basin,0,,True,False
 VTLS2,Little White River near Vetal,0,,True,False
 VTPK2,West Hickman Creek at Veterans Park,0,,True,False
 VTRC1,Ventura River at Santa Ana Blvd.,0,,True,False
-VWBC1,Sacramento River at Vina-Woodson Bridge,2,HAMC1;TEHC1,True,False
+VWBC1,Sacramento River at Vina-Woodson Bridge,3,DCVC1;HAMC1;TEHC1,True,False
 VYWK2,Mill Creek (KY) near Valley Station,0,,True,False
 WAAH1,Waiaha Stream near Holualoa,0,,True,False
 WAAK1,Saline River (KS) near Wakeeney,0,,True,False
@@ -9529,7 +9504,7 @@ WLSI2,Flag Creek near Willow Springs,0,,True,False
 WLSK1,Saline River (KS) at Wilson Lake,0,,True,False
 WLSM4,Manistee River near Wellston (Tippy Dam),0,,True,False
 WLSS1,Saluda River near WILLIAMSTON,2,WEPS1;WSHS1,True,False
-WLTM3,Charles River at Waltham,0,,True,False
+WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WLTN6,White Brook (NY) near White Brook near Wilmington NY,0,,True,False
 WLTN8,Missouri River near Williston,2,CLBM8;GARN8,True,False
 WLTO2,East Cache Creek near Walters,0,,True,False
