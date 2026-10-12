@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KNKA2,Knik River near Palmer,1,BDBA2,True,False
-KNTO1,Scioto River at Kenton,1,LARO1,True,False
 KPHA2,Ketchikan Creek at Ketchikan Powerhouse near Ketchikan,1,KDLA2,True,False
 KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
 KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
@@ -590,6 +588,7 @@ STKA2,Stikine River near Wrangell,1,ISKQ2,True,False
 STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
+STND1,Red Clay Creek at Stanton,1,RCCD1,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
 STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
 STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False

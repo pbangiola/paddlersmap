@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KNGN1,North Platte River at Kingsley Dam,3,LEWN1;NPTN1;SUTN1,True,False
-KNGO2,Kingfisher Creek at Kingfisher,0,,True,False
-KNGV2,Unnamed Tributary at Kingstowne Regional Pond,0,,True,False
-KNGW3,Wisconsin River at Alice Lake Reservoir,2,RHIW3;TKDW3,True,False
-KNIM5,Knife River (MN) near Two Harbors,0,,True,False
-KNKA2,Knik River near Palmer,1,BDBA2,True,False
-KNLT2,Sandy Creek near Kingsland,0,,True,False
-KNNH1,Kamananui Stream at Maunawai,0,,True,False
-KNOT1,Tennessee River at Knoxville,4,CRLT1;DGTT1;FLDT1;SEVT1,True,False
-KNRO2,Uncle John Creek at Kingfisher,0,,True,False
-KNSF1,Lake Kinsale at Shannon Lakes West (in NAVD88),0,,True,False
-KNSK1,Arkansas River near Kinsley 2E,0,,True,False
-KNSO1,Pymatuning Creek at Kinsman,0,,True,False
-KNSO2,Flint Creek (OK) near Kansas,0,,True,False
-KNSP1,Red Clay Creek at Kennett Square,0,,True,False
-KNTF1,Blackwater Creek at SR 39 Near Knights,0,,True,False
-KNTO1,Scioto River at Kenton,1,LARO1,True,False
-KNUM5,Cass Lake at Bimijiwan (Knutson) Dam,2,BEMM5;WNBM5,True,False
-KNVN6,Oak Orchard Creek near Kenyonville,2,BRIN6;SBYN6,True,False
-KNXI3,Yellow River at Knox,2,DBRI3;OGRI3,True,False
-KNXV2,Knox Creek at Blackey,0,,True,False
-KNYM7,Blue River at 71 Highway,2,KAYM7;KCCM7,True,False
-KNZP1,Central PA Dams  Kinzua Dam on Allegheny River,3,KIZP1;RTDP1;YRKP1,True,False
-KONV2,Whitetop Laurel Creek Near Konnarock,0,,True,False
-KOOW3,Tenmile Creek (WI) near Nekoosa,0,,True,False
 KORW4,North Platte River below Kortes Dam,2,NPPW4;SINW4,True,False
 KOSH1,Kaukonahua Stream near Wahiawa,0,,True,False
 KOSM4,Menominee River at Koss,3,AMBW3;BANM4;MCAW3,True,False
@@ -3584,7 +3559,7 @@ RCBO3,Rock Creek at Hwy 47 Bridge at Vernonia,0,,True,False
 RCBS2,Rapid Creek below Pactola Dam,2,JHNS2;PACS2,True,False
 RCBV2,Broad Rock Creek at Rt 1 at Richmond,0,,True,False
 RCCC1,Coyote Creek below Coyote Reservoir NR San Martin,0,,True,False
-RCCD1,Red Clay Creek at Wooddale,0,,True,False
+RCCD1,Red Clay Creek at Wooddale,2,KNSP1;STND1,True,False
 RCCM5,Cascade Creek at Rochester,0,,True,False
 RCCM7,Marmaton River near Richards,2,FSKK1;NVDM7,True,False
 RCCM8,Rock Creek near Clinton,0,,True,False
@@ -5182,7 +5157,7 @@ STMI2,Embarras River (IL) at Ste Marie,2,LAWI2;NTNI2,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STNA1,Sardine Branch near Little Rock,0,,True,False
-STND1,Red Clay Creek at Stanton,0,,True,False
+STND1,Red Clay Creek at Stanton,1,RCCD1,True,False
 STNG1,Alapaha River at Statenville,2,ALAG1;JNAF1,True,False
 STNN7,Contentnea Creek near Stantonsburg,0,,True,False
 STOM2,Stony Run at Loyola University in Baltimore,0,,True,False
@@ -7039,7 +7014,7 @@ ZOLO3,Zollner Creek near Mt Angel,0,,True,False
 ZONI3,Eagle Creek (IN) at Zionsville,1,ETPI3,True,False
 ZOOM8,Canyon Creek at Billings (Zoo Montana),0,,True,False
 ZPAM5,North Fork Zumbro River near Mazeppa,0,,True,False
-ZPHF1,Hillsborough River near Zephyrhills at State Park,2,HRZF1;MORF1,True,False
+ZPHF1,Hillsborough River near Zephyrhills at State Park,3,HRZF1;KNTF1;MORF1,True,False
 ZPRF1,Hillsborough River Above Crystal Springs Near Zephyrhills,2,HRZF1;WRCF1,True,False
 ZSRC1,South San Ramon Creek above Amador Valley Blvd,0,,True,False
 ZSRM2,Zekiah Swamp Run near Newtown,0,,True,False
