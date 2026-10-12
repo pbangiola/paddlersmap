@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
-GNVT2,Cowleech Fork Sabine River at Greenville,1,PNTT2,True,False
 GOLI4,Boone River near Goldfield 225th St--IFC,1,GLDI4,True,False
 GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
 GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
@@ -186,6 +184,7 @@ LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
 LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
 MADM8,Madison River below Ennis Lake near McAllister,1,MRPM8,True,False
+MAKP1,Casselman River at Markleton,1,GNTM2,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MALM5,Roseau River below South Fork near Malung,1,ROSM5,True,False
 MAOO3,Malheur River near Ontario,1,VALO3,True,False

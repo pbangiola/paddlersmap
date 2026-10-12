@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GNKS2,Grizzly Bear Creek near Keystone,0,,True,False
-GNLM8,Big Hole River near Glen,2,MLRM8;THDM8,True,False
-GNLS1,Reedy River at Hudson St.,0,,True,False
-GNLT2,Guadalupe River at Gonzales,3,GDHT2;GWGT2;LLGT2,True,False
-GNNM4,Escanaba River at Gwinn,0,,True,False
-GNPM4,Grand River at North Park St at Grand Rapids,2,CMPM4;GDRM4,True,False
-GNRC1,General Creek near Meeks Bay,0,,True,False
-GNRT2,North Fork San Gabriel River at Ronald Reagan Blvd near Leander 8N,2,GGLT2;NFBT2,True,False
-GNSA1,Tombigbee River at Gainesville Lock and Dam,2,AVLA1;DLDA1,True,False
-GNSK2,Green River (KY) at Greensburg,2,GRLK2;MFVK2,True,False
-GNST2,Giffin Springs 1 mile N of Toyahvale,0,,True,False
-GNSW4,North Platte River at Guernsey Reservoir,0,,True,False
-GNTM2,Casselman River at Grantsville,0,,True,False
-GNTN5,Rio San Jose at Acoma Pueblo,0,,True,False
-GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
-GNUK2,Ohio River at Lloyd Greenup Lock,2,IROO1;PORO1,True,False
-GNVA1,Choctawhatchee River at Geneva (SR 52),3,BELA1;PITF1;SSNA1,True,False
-GNVI2,Mackinaw River near Green Valley,0,,True,False
-GNVN6,Seneca Lake at Geneva,0,,True,False
-GNVP1,Little Shenango River at Greenville,0,,True,False
-GNVT2,Cowleech Fork Sabine River at Greenville,1,PNTT2,True,False
-GNVV2,Roanoke River at Glenvar,2,LAAV2;RONV2,True,False
-GOBT2,Goode Branch at CR 773,0,,True,False
-GOCC1,Goat Canyon at International Border,0,,True,False
-GOFN3,Merrimack River at Goffs Falls,2,FRJN3;NSHN3,True,False
 GOHC1,Guadalupe Creek near Hicks Road,0,,True,False
 GOHV2,Calfpasture River at Goshen,0,,True,False
 GOLI2,Ohio River at Golconda,2,SHNI2;SMLI2,True,False
@@ -2270,7 +2245,7 @@ MAHG1,Allatoona Creek at Stilesboro Road near Acworth,0,,True,False
 MAKC1,Marsh Creek at Brentwood,0,,True,False
 MAKF1,Tide Gauge at Madelaine Key (In MHHW),0,,True,False
 MAKI1,Big Lost River below Mackay Reservoir,3,ARCI1;LESI1;MACI1,True,False
-MAKP1,Casselman River at Markleton,0,,True,False
+MAKP1,Casselman River at Markleton,1,GNTM2,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MALM5,Roseau River below South Fork near Malung,1,ROSM5,True,False
 MALM8,Milk River at Malta,2,DMRM8;SACM8,True,False
@@ -4309,7 +4284,7 @@ PGBN7,Prince George Creek at Blue Clay Road,0,,True,False
 PGCN7,Prince George Creek at Highway 117 ,0,,True,False
 PGEN8,Pipestem Creek near Pingree,0,,True,False
 PGFM6,Pascagoula River at Graham Ferry,2,BKNM6;MRRM6,True,False
-PGFT2,Pecos River 9 miles WNW of Grandfalls,2,GIVT2;PCST2,True,False
+PGFT2,Pecos River 9 miles WNW of Grandfalls,3,GIVT2;GNST2;PCST2,True,False
 PGHN7,Prince George Creek at NC Highway 133,0,,True,False
 PGKN7,Pinch Gut Creek at U.S. Highway 17,0,,True,False
 PGMC2,Purgatoire River at Madrid,0,,True,False
