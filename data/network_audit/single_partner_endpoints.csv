@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CHBI2,Iroquois River near Chebanse,1,IRQI2,True,False
-CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHSO3,Sprague River near Chiloquin,1,BTYO3,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
@@ -106,6 +104,7 @@ EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FALP1,Conewago Creek near Falmouth,1,CCBP1,True,False
 FARS2,Rapid Creek near Farmingdale,1,RCVS2,True,False
+FAYI1,Fall River (WY-ID) above Yellowstone Canal near Squirrel,1,FALI1,True,False
 FBFL1,Bogue Falaya River near Folsom,1,CGSL1,True,False
 FCEW3,Popple River at Fence,1,BRKW3,True,False
 FCLN7,Cross Creek at Langdon St,1,CCBN7,True,False
@@ -150,6 +149,7 @@ GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GRMN3,Androscoggin River at Gorham,1,RMFM1,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
+GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
@@ -215,6 +215,7 @@ KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
 KLMC1,Klamath River near Klamath,1,ONSC1,True,False
 KMST2,Lavaca River at Komensky,1,BRLT2,True,False
 KNKA2,Knik River near Palmer,1,BDBA2,True,False
+KNTO1,Scioto River at Kenton,1,LARO1,True,False
 KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
 KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
@@ -350,7 +351,6 @@ NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NHVK2,Rolling Fork River at New Haven,1,BSNK2,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
-NKTT1,Tennessee River below Nickajack Dam (Jasper 5S),1,NKJT1,True,False
 NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
@@ -482,11 +482,13 @@ RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVRN1,Republican River at Riverton,1,REPN1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
+RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SACT2,Salado Creek at Loop 13,1,SSCT2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SANK1,Pawnee River near Sanford,1,ROZK1,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
+SAVT1,Tennessee River at Savannah,1,PICT1,True,False
 SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
@@ -542,6 +544,7 @@ SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
+STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
