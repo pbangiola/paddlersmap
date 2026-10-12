@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LRDW4,Laramie River above Cramer Ditch,0,,True,False
-LRFF1,Little Manatee River at SR 674 Near Ft. Lonesome,0,,True,False
-LRGI4,Little Rock River near George,0,,True,False
-LRGV2,Broad Run near Sterling,0,,True,False
-LRHI3,Little  River near Huntington,2,GMDI3;WABI3,True,False
-LRHI4,Troublesome Creek near Lorah Troublesome Creek Rd--IFC,0,,True,False
-LRHQ3,Long River (MB) at Holmfield MB,0,,True,False
-LRIT2,Little River near Little River,2,BLET2;RLRT2,True,False
-LRKC1,Los Gatos Creek at Lark Avenue,2,LGTC1;VQIC1,True,False
-LRLL1,Bayou Lacombe below Lacombe,0,,True,False
-LRLM7,Little Blue River (MO) at Lees Summit Road - Independence,2,KBNM7;LKCM7,True,False
-LRLS1,Little River at Gordon Street in Laurens,0,,True,False
-LRLV2,Battle Run near Laurel Mills,0,,True,False
-LRNC1,Guadalupe River at Lake Ranch North,0,,True,False
-LRNP1,Lowries Run at Lowries Run,0,,True,False
-LRNV2,Lick Run in Roanoke,0,,True,False
-LROF1,Lake Rosalie Near Lake Wales,0,,True,False
-LRPF1,Loxahatchee River 500 ft downstream of US 1 at Jupiter (in MHHW),0,,True,False
-LRRA2,Lowe River at Rudleston Falls near Valdez,0,,True,False
-LRRC1,San Lorenzo River (CA) at Santa Cruz,1,BTEC1,True,False
-LRRM5,Little Rock Creek near Rice,0,,True,False
-LRRM6,Little Black Creek (south MS) at Rockhill Road,0,,True,False
-LRRM8,Red Rock River at Lima Reservoir near Lima,2,CLKM8;RRLM8,True,False
-LRSF1,St Marks River at Leckinger (in NAVD88),0,,True,False
-LRST2,Larrison Creek at FM 1428 near Midway,0,,True,False
 LRSV2,Little River (VA) at Little River Reservoir,0,,True,False
 LRTC1,Los Angeles River at Tujunga Avenue,2,LAWC1;PVCC1,True,False
 LRTL1,Larto Lake at Larto Lake,0,,True,False
@@ -3135,7 +3110,7 @@ RKGV1,Williams River near Rockingham,0,,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RKMG1,Euharlee Creek at US 287 at Rockmart,0,,True,False
 RKRV2,Rockfish River near Greenfield,0,,True,False
-RKVI4,Rock River at Rock Valley,2,LMCI4;RAPI4,True,False
+RKVI4,Rock River at Rock Valley,3,LMCI4;LRGI4;RAPI4,True,False
 RKVM2,Turkey Branch near Aspen Hill,0,,True,False
 RKWN6,East Rockaway Inlet at Atlantic Beach (IN MLLW),0,,True,False
 RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,0,,True,False
@@ -3940,7 +3915,7 @@ SILI4,Silver Creek at Silver City (IFC),0,,True,False
 SILN1,Silver Creek near Silver Creek,0,,True,False
 SILO1,Salt Fork at North Salem,0,,True,False
 SILO3,Siletz River at Siletz,0,,True,False
-SILS1,Little River near Silver Street,0,,True,False
+SILS1,Little River near Silver Street,2,IRMS1;LRLS1,True,False
 SILT2,Colorado River (TX) above Silver,5,CCRT2;CDCT2;CLRT2;RELT2;WBRT2,True,False
 SIMC3,Farmington River at Simsbury,0,,True,False
 SIMS1,Reedy River near Highway 418,2,GVLS1;WRLS1,True,False
@@ -5822,7 +5797,7 @@ WILW1,Willapa River at Willapa,0,,True,False
 WILW2,Tug Fork River at Williamson,2,KRMW2;LITW2,True,False
 WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WIMD1,Christina River at Wilmington (IN MLLW),0,,True,False
-WIMF1,Little Manatee River near Wimauma at US 301,1,LMWF1,True,False
+WIMF1,Little Manatee River near Wimauma at US 301,2,LMWF1;LRFF1,True,False
 WINM3,Priest Brook at Winchendon,0,,True,False
 WINN3,Winnicut River near Portsmouth,0,,True,False
 WINO3,North Umpqua River at Winchester Dam,2,GLIO3;WNRO3,True,False
@@ -6072,7 +6047,7 @@ WRNN7,Swannanoa River at Warren Wilson,2,BLTN7;BMPN7,True,False
 WRNO1,Mahoning River at Warren,2,LEAO1;YGWO1,True,False
 WRON7,SF New River at Roby Green Road,2,NSFN7;SFBN7,True,False
 WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False
-WROW4,Laramie River Wheatland Reservoir No. 2 Outflow,0,,True,False
+WROW4,Laramie River Wheatland Reservoir No. 2 Outflow,2,BOSW4;LRDW4,True,False
 WRPN7,Waccamaw River at Highway 904 near Pireway,2,FREN7;LNGS1,True,False
 WRPW1,White River at Roegner Pk. nr Auburn,0,,True,False
 WRRI3,White River (IN) near Ravenswood,2,NORI3;RVNI3,True,False

@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LRRC1,San Lorenzo River (CA) at Santa Cruz,1,BTEC1,True,False
 LRWW1,Lewis River at Woodland,1,MERW1,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSCW4,Little Snake River below Dry Gulch near Baggs,1,LILC2,True,False
@@ -689,7 +688,6 @@ WIHN6,Lake Champlain near Whitehall,1,PHCN6,True,False
 WILM3,Hoosic River near Williamstown,1,EAGN6,True,False
 WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
-WIMF1,Little Manatee River near Wimauma at US 301,1,LMWF1,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WIVF1,Withlacoochee River at Inverness (in NAVD88),1,HLDF1,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
