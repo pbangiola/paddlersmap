@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
-IWNC1,San Lorenzo River (CA) at Lomond Street Bridge,1,BTEC1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
 JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
@@ -615,6 +613,7 @@ STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
 STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
+STKA2,Stikine River near Wrangell,1,ISKQ2,True,False
 STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False

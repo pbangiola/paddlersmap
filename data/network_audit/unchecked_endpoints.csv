@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ISKQ2,Iskut River below Johnson River-British Columbia,0,,True,False
-ISLI1,Henrys Fork near Island Park,2,HFAI1;IPDI1,True,False
-ISNN7,Irvins Creek at Sam Newell Road,0,,True,False
-ISQW1,Issaquah Creek near Hobart,0,,True,False
-ISSW1,Issaquah Creek near Issaquah,0,,True,False
-ISVO1,South Fork Licking River (OH) at Interstate 70 near Buckeye Lake,2,BEEO1;KRKO1,True,False
-ITAA2,Italio River above Mouth near Yakutat,0,,True,False
-ITCN7,Tanasee Creek at TANASEE CREEK DAM,0,,True,False
-ITHN1,Wahoo Creek at Ithaca,2,ASNN1;WOON1,True,False
-ITKA2,Sitka Sound Tide Gauge at Sitka (MLLW datum),0,,True,False
-IUPI3,White River (IN) at Michigan Street in Indianapolis,4,CCII3;FCSI3;INDI3;WHSI3,True,False
-IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
-IVNV2,New River at Ivanhoe,2,ALSV2;GAXV2,True,False
-IVRN7,Ivy River near Barnardsville,0,,True,False
-IVYG1,Ivy Creek at Thompson Mill Road near Buford,0,,True,False
-IVYN7,Ivy River near Marshall,0,,True,False
-IWBF1,Atlantic Ocean Tide Gauge at Ibis Way Bridge (in MHHW),0,,True,False
-IWBM2,Atlantic Coast at Isle of Wight Bay,0,,True,False
-IWCN7,Wolf Creek (NC) near Balsam Lake,0,,True,False
-IWDF1,Intracoastal Waterway at Deerfield Island Park (in MHHW),0,,True,False
-IWDN6,Jamaica Bay at Inwood (IN MLLW),0,,True,False
-IWDP1,Swatara Creek near Inwood,2,HTVP1;PGVP1,True,False
-IWHL1,Gulf Intracoastal Waterway near Houma,0,,True,False
-IWLL1,Gulf Intracoastal Waterway at Bayou Lafourche at Larose,0,,True,False
-IWNC1,San Lorenzo River (CA) at Lomond Street Bridge,1,BTEC1,True,False
 IWNI4,West Nishnabotna River at Irwin (IFC),0,,True,False
 IWPN4,North Branch Rancocas Creek at Iron Works Park Mount Holly,0,,True,False
 IWTG1,Big Sandy Creek at US 441 near Irwinton,0,,True,False
@@ -5570,7 +5545,7 @@ STJI2,Salt Fork (IL) near St. Joseph,0,,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STJV1,Sleepers River near St. Johnsbury,0,,True,False
 STJW2,West Fork River below Stonewall Jackson Lake,2,JACW2;WTNW2,True,False
-STKA2,Stikine River near Wrangell,0,,True,False
+STKA2,Stikine River near Wrangell,1,ISKQ2,True,False
 STKN4,Delaware River at Stockton,2,FREN4;NHPP1,True,False
 STKN7,Meadow Branch near Stokes,0,,True,False
 STKW1,Lake Chelan at Purple Point near Stehekin,2,CHDW1;STHW1,True,False
