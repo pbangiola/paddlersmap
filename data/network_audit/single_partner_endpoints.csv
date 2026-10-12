@@ -1,11 +1,10 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DKCN5,Dark Canyon 8 miles N of Whites City,1,DACN5,True,False
-DKNP1,Conneaut Creek at Dickonsburg,1,CCKO1,True,False
 DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
 DLPI3,Tippecanoe River near Delphi,1,OADI3,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
 DNSM3,Nashua River at East Pepperell,1,CLIM3,True,False
 DNVI2,Vermilion River (E-IL) near Danville,1,BISI2,True,False
+DNVK2,Dix River near Danville,1,DIXK2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DONO3,Donner und Blitzen River near French Glen,1,DBPO3,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
@@ -461,6 +460,7 @@ PNDP1,Clarion River at Piney Dam  Tailwater,1,COKP1,True,False
 PNFG1,Oconee River near Penfield,1,WDMG1,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
+POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
@@ -562,6 +562,7 @@ SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
 SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
 SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
+SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
@@ -641,6 +642,7 @@ TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
+TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
