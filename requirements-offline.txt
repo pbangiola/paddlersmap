@@ -1,0 +1,2 @@
+# Local gauge-to-KML reconciliation (Shapely STRtree requires version 2)
+shapely>=2.0,<3
