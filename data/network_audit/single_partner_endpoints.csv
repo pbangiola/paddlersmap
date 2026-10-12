@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CDVI4,Cedar Creek near Lovilia Hwy H20--IFC,1,BSSI4,True,False
 CEMC1,East Fork Carson River near Markleeville,1,GRDN2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
@@ -82,6 +81,7 @@ DUBW4,Wind River near Dubois,1,WRCW4,True,False
 DURW3,Chippewa River (WI) at Durand,1,ECLW3,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
+DWTO1,Wills Creek at Derwent,1,CDIO1,True,False
 EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
 EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
@@ -299,6 +299,7 @@ MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
+MNTI2,Sangamon River at Monticello,1,RVTI2,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
@@ -481,6 +482,7 @@ SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
+SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
 SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
@@ -563,6 +565,7 @@ UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
+VERT2,Pease River near Vernon,1,CDPT2,True,False
 VLIK2,Licking River above Visalia,1,BTLK2,True,False
 VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
 VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
@@ -594,6 +597,7 @@ WLDW2,Little Kanawha River near Wildcat,1,BRNW2,True,False
 WLKW2,West Fork River at Walkersville,1,JACW2,True,False
 WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
+WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
