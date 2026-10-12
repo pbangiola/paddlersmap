@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
-EMPK1,Cottonwood River at Emporia,1,PLYK1,True,False
-EMPL1,Mississippi River at Empire,1,WPHL1,True,False
-EMRQ3,Red River of the North at Emerson MB,1,PBNN8,True,False
 EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 ENVI1,Coeur d'Alene River at Enaville,1,CTLI1,True,False
 ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
@@ -150,7 +146,6 @@ JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JHNA4,Saline River near Johnsville,1,WARA4,True,False
 JHNP1,Clarion River at Johnsonburg,1,RDYP1,True,False
 JHSP1,Conemaugh River at Johnstown,1,SWDP1,True,False
-JKFM7,Jacks Fork near Mountain View,1,ALYM7,True,False
 JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
 JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
 JMEI4,Floyd River at James,1,MRLI4,True,False
@@ -280,6 +275,7 @@ MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
 MFNT2,San Antonio River near McFaddin,1,GLIT2,True,False
 MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
+MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
 MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
 MHDF1,Shoal River near Mossy Head (CR 1087),1,CRVF1,True,False
@@ -467,6 +463,7 @@ PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
+PRPI1,Payette River at Payette,1,PLEI1,True,False
 PRSG1,Kinchafoonee Creek at Preston (SR 41),1,DSNG1,True,False
 PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
@@ -521,6 +518,7 @@ ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
 ROBV2,Maury River at Rockbridge Baths,1,BVSV2,True,False
 RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
 ROHC1,Copeland Creek at Rohnert Park,1,CTIC1,True,False
+ROLI2,Salt Creek (IL) at Rolling Meadows,1,EVGI2,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
 ROSN7,French Broad River at Rosman,1,BLAN7,True,False
@@ -636,6 +634,7 @@ STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
+STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
