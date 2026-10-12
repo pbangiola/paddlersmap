@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CCDL1,Choupique Bayou at Dave Dugas Road,1,CBQL1,True,False
-CCHN7,Cross Creek NC at Hillsboro St,1,CCBN7,True,False
 CCKF1,Curlew Creek at Evans Rd Near Dunedin,1,CCBF1,True,False
 CCTI3,Cicero Creek near State Road 19 in Tipton,1,CCAI3,True,False
 CDVI4,Cedar Creek near Lovilia Hwy H20--IFC,1,BSSI4,True,False
@@ -36,6 +34,7 @@ COMO2,Neosho River near Commerce,1,NSOK1,True,False
 CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
 CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
+CRCA3,Cataract Creek at Redlands Crossing,1,CCHA3,True,False
 CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
@@ -47,6 +46,7 @@ CSNO1,West Branch Rocky River at West View,1,BRRO1,True,False
 CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
+CTWG1,Big Cedar Creek at Georgia Ave at Cedartown,1,CCDG1,True,False
 CUTT2,Pecan Bayou near Cross Cut,1,LBWT2,True,False
 CVGV2,Jackson River at Covington,1,FLGV2,True,False
 CVLO2,Caney River near Collinsville,1,RAMO2,True,False
@@ -167,6 +167,7 @@ HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
 HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
 ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
+IDAP1,Crooked Creek at Idaho,1,CRCP1,True,False
 INCO1,Indian Creek at Macedonia,1,BWCO1,True,False
 INOO2,Verdigris River near Inola,1,CLRO2,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
@@ -196,6 +197,7 @@ KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
 KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
+KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
 KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
@@ -306,6 +308,7 @@ MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
+MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
@@ -410,6 +413,7 @@ PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
+PUNF1,Shell Creek Near Punta Gorda,1,SHEF1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
@@ -473,6 +477,7 @@ SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
 SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
+SHLT2,San Jacinto River near Sheldon,1,HSJT2,True,False
 SHLV2,South Fork Holston River at Riverside nr Chilhowie,1,VSTV2,True,False
 SHNI4,East Nishnabotna River near Shenandoah (IFC),1,COBI4,True,False
 SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
@@ -508,6 +513,7 @@ STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
+SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
