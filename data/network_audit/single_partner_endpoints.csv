@@ -1,6 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MBRW4,Medicine Bow River above Elk Mountain,1,HANW4,True,False
-MCAW3,Menominee River near McAllister,1,KOSM4,True,False
+MCEC2,Mcelmo Creek near UT-CO Border,1,MCBU1,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
@@ -46,6 +45,7 @@ MILN4,Passaic River near Millington,1,CAMN4,True,False
 MILW2,Shenandoah River at Millville,1,FROV2,True,False
 MILW3,Crawfish River at Milford,1,CUSW3,True,False
 MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
+MJRC1,Mojave River at Afton,1,MBRC1,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLBW4,Middle Fork Popo Agie River near Lander,1,LANW4,True,False
@@ -59,6 +59,7 @@ MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
 MNAA2,Mendenhall River at Brotherhood Bridge at Auke Bay,1,MNEA2,True,False
+MNEI4,Mosquito Creek near Neola (IFC),1,MCBI4,True,False
 MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
 MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
 MNIG1,St. Marys River at Moniac,1,MACF1,True,False
@@ -203,6 +204,7 @@ OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 OLDO1,Little Miami River near Oldtown,1,LLMO1,True,False
 ONDN6,Onondaga Creek near Nedrow,1,LVRN6,True,False
+ONIM5,Rum River near Onamia,1,MCAM5,True,False
 ONTW3,Kickapoo River at Ontario,1,LAFW3,True,False
 OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
 ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
@@ -514,6 +516,7 @@ SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
+STFM5,Rum River near St. Francis 4 South,1,MCAM5,True,False
 STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MBPC1,Marble Fork  Kaweah River,0,,True,False
-MBRC1,Mojave River at Barstow,0,,True,False
-MBRI4,Bloody Run Creek near Marquette,0,,True,False
-MBRW2,Middle Island Creek near Middlebourne,0,,True,False
-MBRW4,Medicine Bow River above Elk Mountain,1,HANW4,True,False
-MBSL1,Atchafalaya River at Murphy Lake near Bayou Sorrel,0,,True,False
-MBVT2,Cedar Bayou at I-10 near Mont Belvieu,0,,True,False
-MBWC2,Muddy Creek (NC CO) above Kremmling,0,,True,False
-MBWM6,Moores Branch near Woodville,0,,True,False
-MBYM7,Fishing River near Mosby,0,,True,False
-MBYP1,Crooked Creek below Catlin Hollow at Middlebury Center,0,,True,False
-MCAA2,Montana Creek at Mendenhall Loop Road Bridge near Auke Bay,0,,True,False
-MCAM5,Rum River near Milaca 8NNE,0,,True,False
-MCAS2,Mud Creek near Albee,0,,True,False
-MCAU1,Mud Creek (UT) below Winter Quarters Canyon  Scofield,0,,True,False
-MCAW3,Menominee River near McAllister,1,KOSM4,True,False
-MCBC1,Marsh Creek Reservoir  ,0,,True,False
-MCBI4,Mosquito Creek near Council Bluffs (IFC),0,,True,False
-MCBQ8,Lodge Creek at on Middle Ck blo Middle Ck Res nr Consul 20 WNW,0,,True,False
-MCBS1,Black Creek (SC) near Mcbee,2,CSFS1;HTSS1,True,False
-MCBS2,Mud Creek (NE SD) near Brentford,0,,True,False
-MCBT1,Middle Creek at Blanton Drive,0,,True,False
-MCBU1,McElmo Creek near Bluff,0,,True,False
-MCBV2,Milldam Creek at Blackwater Road,0,,True,False
-MCCC2,Muddy Creek above Paonia Reservoir,0,,True,False
 MCCI1,Marsh Creek (Eastern ID) near McCammon,0,,True,False
 MCCI2,Mainstream Deep Tunnel at McCook Reservoir,0,,True,False
 MCCI4,Chelsea Creek at Mason City 19th St SW--IFC,0,,True,False
@@ -37,7 +12,7 @@ MCDN4,McDonalds Branch at McDonald's Branch,0,,True,False
 MCDN6,Erie Canal near Macedon Lock 30,2,PMAN6;RCSN6,True,False
 MCDN7,McDowell Creek at Beatties Ford Rd.,0,,True,False
 MCDP1,Robinson Run at McDonald,0,,True,False
-MCEC2,Mcelmo Creek near UT-CO Border,0,,True,False
+MCEC2,Mcelmo Creek near UT-CO Border,1,MCBU1,True,False
 MCFA2,Mystery Creek below Pipeline Right-of-Way near Sterling,0,,True,False
 MCFG1,Morning Creek near North Fayetteville,0,,True,False
 MCFI3,Mud Creek (IN) at Fishers,0,,True,False
@@ -47,7 +22,7 @@ MCFW2,South Fork Hughes River below Macfarlan,0,,True,False
 MCFW3,Yahara River at McFarland-Lk. Waubesa,2,FULW3;MNAW3,True,False
 MCGA1,Tide Gauge at Coast Guard Sector Mobile (IN MHHW),0,,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
-MCGI4,Mississippi River at McGregor,2,CLAI4;LYNW3,True,False
+MCGI4,Mississippi River at McGregor,3,CLAI4;LYNW3;MBRI4,True,False
 MCGL1,Atchafalaya River at Morgan City,2,AMRL1;BSRL1,True,False
 MCGM5,Snake River (MN) near McGrath,0,,True,False
 MCGN7,MacGregor Downs Lake Upstream of SW Maynard Rd,0,,True,False
@@ -355,7 +330,7 @@ MJAP4,Canal de Riego de Lajas Abv Majinas Filtration Plant,0,,True,False
 MJBP4,Canal de Riego de Lajas Blw Majinas Filtration Plant,0,,True,False
 MJBV2,Chesapeake Bay near Mobjack Bay,0,,True,False
 MJHC1,Matilija Creek at Matilija Hot Springs,0,,True,False
-MJRC1,Mojave River at Afton,0,,True,False
+MJRC1,Mojave River at Afton,1,MBRC1,True,False
 MJYP1,Little Chiques Creek at Mt. Joy,0,,True,False
 MKAF1,Myakka River at Myakka City,3,HRMF1;MKCF1;MYTF1,True,False
 MKBK2,Licking River at McKinneysburg,2,BLSK2;FLMK2,True,False
@@ -478,7 +453,7 @@ MNBV2,Appomattox River at ROUTE 602 NEAR MANNBORO,0,,True,False
 MNCG1,Mountaintown Creek at GA 282 near Ellijay,0,,True,False
 MNDA2,Mendenhall River near Auke Bay,2,JSBA2;MNBA2,True,False
 MNEA2,Mendenhall River Below Montana Creek near Auke Bay,2,MNAA2;MNBA2,True,False
-MNEI4,Mosquito Creek near Neola (IFC),0,,True,False
+MNEI4,Mosquito Creek near Neola (IFC),1,MCBI4,True,False
 MNEL1,Bayou Dorcheat at Dixie Inn,2,LBUL1;SPHL1,True,False
 MNFK2,North Fork Triplett Creek near Morehead,0,,True,False
 MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
@@ -1584,7 +1559,7 @@ ONDN6,Onondaga Creek near Nedrow,1,LVRN6,True,False
 ONFN6,Onondaga Creek at Onondaga Flood Control Dam,0,,True,False
 ONGF1,Orange Creek at Orange Springs,0,,True,False
 ONGM2," RED RUN NEAR OWINGS MILLS, MD",0,,True,False
-ONIM5,Rum River near Onamia,0,,True,False
+ONIM5,Rum River near Onamia,1,MCAM5,True,False
 ONIT2,Onion Creek at Twin Creeks near Manchaca,2,ATIT2;BDUT2,True,False
 ONLC2,Laramie River near Glendevey,0,,True,False
 ONMW1,Ninemile Creek near Oroville,0,,True,False
@@ -4172,7 +4147,7 @@ STEW3,Kickapoo River at Steuben,2,GMIW3;GTTI4,True,False
 STFB3,St. Francis River near Connors,0,,True,False
 STFI1,Snake River near Twin Falls,2,CBMI1;SRPI1,True,False
 STFL1,Mississippi River near St. Francisville,2,BTRL1;RRLL1,True,False
-STFM5,Rum River near St. Francis 4 South,0,,True,False
+STFM5,Rum River near St. Francis 4 South,1,MCAM5,True,False
 STFN4,Westecunk Creek at Stafford Forge,0,,True,False
 STFN7,Fisher River at S.R. 1100 (Turkey Ford Road),0,,True,False
 STFT2,California Creek (Clear Fk Brazos) near Stamford,0,,True,False
