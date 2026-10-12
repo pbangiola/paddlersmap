@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LHGT2,South Fork San Gabriel River at SH 1869 near Liberty Hill,1,GETT2,True,False
-LHMN7,Little Rockfish Creek at Lakeview Rd near Hope Mills,1,BVFN7,True,False
-LHUO2,Wildhorse Creek at Lake Humphreys,1,HVRO2,True,False
-LIES2,Grand River (SD) near Little Eagle,1,SHAS2,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
@@ -34,6 +30,7 @@ LPRN1,Platte River at La Platte,1,LOUN1,True,False
 LRRC1,San Lorenzo River (CA) at Santa Cruz,1,BTEC1,True,False
 LRWW1,Lewis River at Woodland,1,MERW1,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
+LSCW4,Little Snake River below Dry Gulch near Baggs,1,LILC2,True,False
 LSEC1,Laguna de Santa Rosa near Sebastopol,1,CTIC1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
@@ -311,6 +308,7 @@ PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
 PGKN7,Pinch Gut Creek at U.S. Highway 17,1,LFRN7,True,False
 PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
 PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
+PHCG1,Line Creek below GA 54 near Peachtree City,1,LMCG1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
@@ -330,6 +328,7 @@ PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
+PLMN3,Pemigewasset River at Plymouth,1,WOON3,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLOI1,Palouse River near Potlatch,1,HOPW1,True,False
 PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
@@ -621,6 +620,7 @@ TRNP1,Shenango River near Transfer,1,JMSP1,True,False
 TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
 TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
+TSCK1,Saline River (KS) at Tescott,1,LINK1,True,False
 TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
 TTZM7,Thompson River (IA/MO) near Trenton,1,DVSI4,True,False
@@ -660,6 +660,7 @@ VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 VNCL1,Mississippi River at Venice,1,MWBL1,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 VSUV2,South River at Vesuvius,1,CRNV2,True,False
+WAAK1,Saline River (KS) near Wakeeney,1,RUSK1,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
