@@ -1,12 +1,11 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
-GTEL1,Barataria Bay and Waterway near Grand Terre Island,1,NGIL1,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
 GULA2,Gulkana River at the Richardson Highway near Gulkana,1,GRSA2,True,False
 GYNK2,Little Sandy River at Grayson,1,LEOK2,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
+HBMT2,Brays Bayou at Houston,1,GSST2,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
@@ -252,6 +251,7 @@ MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MNYP1,Muncy Creek at Muncy Creek,1,HUHP1,True,False
+MOAM5,Snake River (MN) at Mora,1,GSTM5,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
@@ -639,6 +639,7 @@ STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
+SUNM5,Sunrise River at Sunrise,1,PNCM5,True,False
 SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False

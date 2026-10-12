@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GSLF1,Tide Station at the Gulf Specimen Marine Lab in Panacea (in MHHW),0,,True,False
-GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
-GSLU1,Great Salt Lake above Great Salt Lake,0,,True,False
-GSPO2,Salt Fork Arkansas River at Great Salt Plains Lake,2,AVAO2;TONO2,True,False
-GSRC1,South Fork Gualala River near The Sea Ranch,0,,True,False
-GSRF1,Green Swamp Run Near Eva,0,,True,False
-GSRL1,Comite River at Greenwell Springs Rd. near Baton Rouge,0,,True,False
-GSRV2,Guest River at Riverview,0,,True,False
-GSST2,Brays Bayou at Gessner Drive,0,,True,False
-GSTK2,Kentucky River at Gest,3,FFTK2;LPTK2;PKMK2,True,False
-GSTM5,Snake River (MN) at Grasston,0,,True,False
-GSTV2,Guest River at Coeburn,0,,True,False
-GSVO3,Cow Creek at GALESVILLE RES,2,AZAO3;COGO3,True,False
-GSVT2,Red River near Gainesville,2,COUO2;DSNT2,True,False
-GSZF1,Gator Sink Near Bartow,0,,True,False
-GTBC1,Galindo Creek at Treat Blvd,0,,True,False
-GTBK1,Arkansas River at Great Bend,2,HCHK1;LRDK1,True,False
-GTBM3,Housatonic River at Great Barrington,2,CTVM3;FLVC3,True,False
-GTBW3,St. Croix River at Grantsburg,2,DANW3;SCFW3,True,False
-GTDC1,Guadalupe River (CA) at Tasman Drive,0,,True,False
-GTEL1,Barataria Bay and Waterway near Grand Terre Island,1,NGIL1,True,False
-GTEM5,Minnesota River at Granite Falls,2,MTNM5;MVOM5,True,False
-GTFS1,Catawba River at Great Falls Reservoir/Great Falls-Dearborn Dams,0,,True,False
-GTHS2,Grand River (SD) near Thunder Hawk,0,,True,False
-GTND2,Potomac River at Georgetown / Wisconsin Ave,2,AXTV2;BRKM2,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 GTNN7,Contentnea Creek at Grifton,0,,True,False
 GTOT2,Tide Station (HGX) at NOS Station at Pier 21 Galveston,0,,True,False
@@ -160,7 +135,7 @@ HBGO1,Hellbranch Run at Harrisburg,0,,True,False
 HBKN7,Pamlico Sound near Hobucken (in MLLW),0,,True,False
 HBLN1,North Fork Big Nemaha River at Humboldt,0,,True,False
 HBMN2,Humboldt River at Battle Mountain,2,CMSN2;HRDN2,True,False
-HBMT2,Brays Bayou at Houston,0,,True,False
+HBMT2,Brays Bayou at Houston,1,GSST2,True,False
 HBON1,Little Blue River at Hebron,2,DSHN1;FRBN1,True,False
 HBPA1,Tallapoosa River at Horseshoe Bend,2,TLLA1;WDLA1,True,False
 HBPL1,Amite River Basin at Henderson Bayou Pump Station,0,,True,False
@@ -2676,7 +2651,7 @@ MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MNWH1,Manoa Stream at Woodlawn Drive,0,,True,False
 MNYC1,Mint Canyon,0,,True,False
 MNYP1,Muncy Creek at Muncy Creek,1,HUHP1,True,False
-MOAM5,Snake River (MN) at Mora,0,,True,False
+MOAM5,Snake River (MN) at Mora,1,GSTM5,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOAN2,Muddy River near Moapa,0,,True,False
 MOBA4,Ouachita River at Moro Bay State Park,2,CALA4;FELA4,True,False
@@ -4335,7 +4310,7 @@ PNBI1,Paasasikwana Naokwaide below Bruno Ck,0,,True,False
 PNBI4,Burchfield Creek near Panora Sage Trl--IFC,0,,True,False
 PNBN4,Whippany River at Pine Brook,0,,True,False
 PNBT1,Cumberland River near Penington Bend,2,HTGT1;OMOT1,True,False
-PNCM5,Snake River (MN) near Pine City,0,,True,False
+PNCM5,Snake River (MN) near Pine City,2,GSTM5;SUNM5,True,False
 PNCP1,Penns Creek at Penns Creek,0,,True,False
 PNDF1,Tide Gauge at Pond Creek (in MHHW),0,,True,False
 PNDO1,Riley Creek below Pandora,0,,True,False
@@ -6438,7 +6413,7 @@ SUMO3,SOUTH UMPQUA AT MELROSE,0,,True,False
 SUMW1,Sumas River near Sumas,0,,True,False
 SUMW2,Gauley River below Summersville Lake,2,BVAW2;CRAW2,True,False
 SUNA2,Susitna River at Sunshine,3,CLTA2;GCSA2;SUSA2,True,False
-SUNM5,Sunrise River at Sunrise,0,,True,False
+SUNM5,Sunrise River at Sunrise,1,PNCM5,True,False
 SUNM6,Big Sunflower River at Sunflower,2,LCGM6;MRGM6,True,False
 SUNO1,Sunday Creek at Glouster,0,,True,False
 SUNS2,Sunday Gulch near Hill City,0,,True,False
@@ -7551,7 +7526,7 @@ WENM1,Penobscot River at West Enfield,4,EDDM1;GRNM1;MFDM1;WLDM1,True,False
 WENN7,Dan River near Wentworth,3,DEDN7;DROV2;PNHN7,True,False
 WEOC1,Bull Creek near Weott,0,,True,False
 WEOT2,Oso Creek at Merrett Road,0,,True,False
-WEPS1,Saluda River at West Pelzer,2,GSLS1;WLSS1,True,False
+WEPS1,Saluda River at West Pelzer,3,CHAS1;GSLS1;WLSS1,True,False
 WERN7,East Prong Roaring River at S.R. 1002,0,,True,False
 WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
 WESH1,Waihee Stream near Kahaluu,0,,True,False
