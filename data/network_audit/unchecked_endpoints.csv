@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KORW4,North Platte River below Kortes Dam,2,NPPW4;SINW4,True,False
-KOSH1,Kaukonahua Stream near Wahiawa,0,,True,False
-KOSM4,Menominee River at Koss,3,AMBW3;BANM4;MCAW3,True,False
-KOUT2,Village Creek near Kountze,0,,True,False
-KOWA2,Kroto Creek at Oilwell Road near Trapper Creek,0,,True,False
-KOWH1,Kaukonahua Stream near Waialua,0,,True,False
-KPHA2,Ketchikan Creek at Ketchikan Powerhouse near Ketchikan,1,KDLA2,True,False
-KPPH1,Kipapa Stream near Wahiawa,0,,True,False
-KPTN6,Little Neck Bay at Kings Point (IN MLLW),0,,True,False
-KPTV2,Chesapeake Bay near Kiptopeke (IN MLLW),0,,True,False
-KRAN1,Olive Creek Lake,0,,True,False
-KRBN8,Knife River (ND) near Beulah,2,GDVN8;HZNN8,True,False
-KRBO3,Illinois River near Kerby,0,,True,False
-KRDI2,Kankakee River near Lorenzo,2,CDII2;WLMI2,True,False
-KREC1,Kings River (CA) near Trimmer,0,,True,False
-KRGA2,Kahtaheena River above Upper Falls near Gustavus,0,,True,False
-KRHA2,Koyukuk River at Hughes,2,ALLA2;HUSA2,True,False
-KRKA2,[INACTIVE] Kenai River below Killey River,0,,True,False
-KRKF1,Lake Kanturk Outfall at Centerville Road (in NAVD88),0,,True,False
-KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
-KRMC2,Colorado River near Kremmling,4,BGMC2;CTBC2;EGLC2;HTSC2,True,False
-KRMI1,Kootenai River below Moyie River,0,,True,False
-KRMW2,Tug Fork River at Kermit,0,,True,False
-KRNF1,Lake Killarney at McLaughlin Drive (in NAVD88),0,,True,False
-KRRT2,Guadalupe River at Kerrville,2,GCTT2;GRHT2,True,False
 KRSI1,South Fork Salmon River at Krassel Ranger Station,0,,True,False
 KRVC1,Kern River at Kernville,0,,True,False
 KRWA2,Kashwitna River near Willow,0,,True,False
@@ -293,7 +268,7 @@ LELO1,Tuscarawas River at Leesville Dam Pool,0,,True,False
 LEMI2,Des Plaines River near Lemont,2,JRSI2;LYNI2,True,False
 LENM2,McIntosh Run near Leonardtown,0,,True,False
 LENW3,Little La Crosse River at Leon,2,CFMW3;JLNW3,True,False
-LEOI1,Kootenai River at Leonia,2,BFEI1;KBDM8,True,False
+LEOI1,Kootenai River at Leonia,3,BFEI1;KBDM8;KRMI1,True,False
 LEOK2,Little Sandy River at Leon,2,GYLK2;GYNK2,True,False
 LEOM3,North Nashua River at Leominster,0,,True,False
 LEOW3,Namekagon River at Leonards,0,,True,False
@@ -407,7 +382,7 @@ LITF1,Alafia River at Lithia Pinecrest Road at Lithia,3,KEYF1;RIVF1;SPAF1,True,F
 LITN7,Little River (North Carolina) near Star/Troy,0,,True,False
 LITS2,Little White River near Martin,0,,True,False
 LITV2,Back Creek at Camp Bethel,0,,True,False
-LITW2,Tug Fork River at Litwar,1,BRSW2,True,False
+LITW2,Tug Fork River at Litwar,2,BRSW2;WILW2,True,False
 LIVI3,Deep River (IN) at Liverpool,0,,True,False
 LIVM8,Yellowstone River near Livingston,2,BILM8;CORM8,True,False
 LIVT2,Long King Creek at Livingston,0,,True,False
@@ -2265,7 +2240,7 @@ NRWM3,Neponset River at Norwood,1,CANM3,True,False
 NRWN7,Rocky River NC near Norwood,0,,True,False
 NRXC1,Napa River at Yountville Cross Road,0,,True,False
 NSBN1,Niobrara River above Soldier Creek near Niobrara,2,NRBN1;VRDN1,True,False
-NSBT2,Neches River at Saltwater Barrier,3,BEAT2;BIPT2;EVDT2,True,False
+NSBT2,Neches River at Saltwater Barrier,4,BEAT2;BIPT2;EVDT2;KOUT2,True,False
 NSEC1,Nathanson Creek at 2nd Street East,0,,True,False
 NSEC2,North Fork Cache La Poudre River below Seaman Reservoir,2,FTDC2;NCHC2,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
@@ -5323,7 +5298,7 @@ SXGC1,San Gregorio Creek at San Gregorio,0,,True,False
 SXLA1,Styx River near Loxley at Smith's Landing,0,,True,False
 SXMN6,Sixmile Creek at Bethel Grove,0,,True,False
 SXPC1,San Pedro Creek at Goleta,0,,True,False
-SXRA2,Kenai River at Soldotna,1,KEYA2,True,False
+SXRA2,Kenai River at Soldotna,2,KEYA2;KRKA2,True,False
 SXSC1,Sinbad Creek - Sunol Glen Elementary,0,,True,False
 SXTK2,Clear Fork at Saxton,0,,True,False
 SXTP1,Raystown Branch Juniata River at Saxton,0,,True,False
@@ -6036,7 +6011,7 @@ VICT2,Guadalupe River at Victoria,2,CUET2;DUPT2,True,False
 VICV1,Moose River at Victory,0,,True,False
 VIDO3,McKenzie River near Vida,2,CGRO3;MKLO3,True,False
 VILP4,Lago El Guineo at Damsite,0,,True,False
-VIMT2,Village Creek near Village Mills,0,,True,False
+VIMT2,Village Creek near Village Mills,1,KOUT2,True,False
 VINA1,Kelly Creek,0,,True,False
 VINF1,Reedy Creek near Vineland,0,,True,False
 VING1,Chattahoochee River at Atlanta,3,CHAG1;FBNG1;VIXG1,True,False
@@ -6469,7 +6444,7 @@ WILN6,Ellicott Creek below Williamsville,0,,True,False
 WILO1,St. Marys River at Willshire,2,PLMI3;RFDO1,True,False
 WILP1,West Branch Susquehanna River at Williamsport,2,JRSP1;MCYP1,True,False
 WILW1,Willapa River at Willapa,0,,True,False
-WILW2,Tug Fork River at Williamson,0,,True,False
+WILW2,Tug Fork River at Williamson,2,KRMW2;LITW2,True,False
 WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WIMD1,Christina River at Wilmington (IN MLLW),0,,True,False
 WIMF1,Little Manatee River near Wimauma at US 301,0,,True,False

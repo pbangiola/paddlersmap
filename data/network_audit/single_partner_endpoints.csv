@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KPHA2,Ketchikan Creek at Ketchikan Powerhouse near Ketchikan,1,KDLA2,True,False
-KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
 KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
 LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
@@ -36,7 +34,6 @@ LHMN7,Little Rockfish Creek at Lakeview Rd near Hope Mills,1,BVFN7,True,False
 LHUO2,Wildhorse Creek at Lake Humphreys,1,HVRO2,True,False
 LIES2,Grand River (SD) near Little Eagle,1,SHAS2,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
-LITW2,Tug Fork River at Litwar,1,BRSW2,True,False
 LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LKST2,Leon Creek at I-35S near San Antonio,1,LECT2,True,False
@@ -605,7 +602,6 @@ SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
-SXRA2,Kenai River at Soldotna,1,KEYA2,True,False
 SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
@@ -670,6 +666,7 @@ VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
 VERT2,Pease River near Vernon,1,CDPT2,True,False
 VGFP1,Kiskiminetas River at Vandergrift,1,LHDP1,True,False
+VIMT2,Village Creek near Village Mills,1,KOUT2,True,False
 VIRU1,Virgin River near Virgin,1,HURU1,True,False
 VLIK2,Licking River above Visalia,1,BTLK2,True,False
 VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
