@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DAEV2,Tinker Creek near Daleville,1,CLOV2,True,False
-DANA4,Petit Jean River at Danville,1,BMTA4,True,False
-DARL1,Amite River near Darlington,1,GVLL1,True,False
-DARM8,Bitterroot River near Darby,1,VICM8,True,False
 DARV2,Cranes Nest River at Darwin,1,CNRV2,True,False
 DAVW2,Blackwater River (WV) above Davis,1,BWRW2,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
@@ -408,6 +404,7 @@ OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
 OBNK1,Sappa Creek near Oberlin,1,NCRK1,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OCAT1,Ocoee Dam #1 Pool Benton 5S,1,OCET1,True,False
+OCBA1,Little Claybank Creek near Ozark (US 231),1,DALA1,True,False
 OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
@@ -435,6 +432,7 @@ PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
+PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
@@ -464,6 +462,7 @@ PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
+PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
@@ -637,9 +636,7 @@ TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
-TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
-TORW2,Coal River (WV) at Tornado,1,ASHW2,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
@@ -674,6 +671,7 @@ VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 VSUV2,South River at Vesuvius,1,CRNV2,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
+WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
