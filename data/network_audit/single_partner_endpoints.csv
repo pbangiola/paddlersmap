@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MARM4,Kalamazoo River at Marshall,1,BTCM4,True,False
-MATA2,Matanuska River at Palmer,1,MAGA2,True,False
 MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
 MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
 MBGW2,Opequon Creek near Martinsburg,1,BYVV2,True,False
@@ -92,6 +90,7 @@ MRAP1,Tenmile Creek at Mariana,1,JFRP1,True,False
 MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
 MRDM5,Hawk Creek (MN) near Maynard,1,HAWM5,True,False
 MRGI2,Kishwaukee River at Marengo,1,BVDI2,True,False
+MRGI4,Maple River at Galva,1,MIGI4,True,False
 MRMM8,Musselshell River near Martinsdale,1,HLWM8,True,False
 MRNF1,Tide Gauge at North Port Charlotte (In MHHW),1,SKHF1,True,False
 MRNN6,Esopus Creek at Mount Marion,1,ASEN6,True,False
@@ -297,6 +296,7 @@ POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
+PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
@@ -326,6 +326,7 @@ QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
+RAMN6,Ramapo River at Ramapo,1,SFFN6,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
 RAYN1,Branched Oak Reservoir,1,LOKN1,True,False
 RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
@@ -495,6 +496,7 @@ SPDN1,Cedar River near Spalding,1,FULN1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
+SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
@@ -557,7 +559,6 @@ TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
 TIFM7,Elk River (MO) near Tiff City,1,INCM7,True,False
-TINB3,Aroostook River below Tinker Dam,1,LMRM1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
