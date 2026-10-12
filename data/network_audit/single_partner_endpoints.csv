@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CMDS1,Wateree River near Camden,1,WATS1,True,False
-CMGG1,Big Creek at GA 9 near Cumming,1,APHG1,True,False
-CMGN6,Chemung River at Chemung,1,CHEN6,True,False
-CMKT2,Devils River at Pafford Crossing near Comstock,1,BKCT2,True,False
 CMTL1,Comite River near Comite Joor Rd.,1,BAKL1,True,False
 CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
 CNCO3,Canyon Creek near Canyon City,1,CCTO3,True,False
@@ -13,6 +9,7 @@ COGO3,Cow Creek above Azalea,1,GSVO3,True,False
 COGW2,Gauley River at Camden-On-Gauley,1,CRAW2,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
 COMO2,Neosho River near Commerce,1,NSOK1,True,False
+COMS1,Combahee River near Yemassee,1,CMGS1,True,False
 CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
 CPWO1,Chippewa Creek (Cuyahoga) at Broadview Heights,1,CHPO1,True,False
 CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
@@ -20,6 +17,7 @@ CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRCA3,Cataract Creek at Redlands Crossing,1,CCHA3,True,False
 CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
+CRMC1,Carmel River Lagoon  ,1,CMEC1,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
 CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
@@ -62,6 +60,7 @@ DNVI2,Vermilion River (E-IL) near Danville,1,BISI2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
+DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
 DUBW4,Wind River near Dubois,1,WRCW4,True,False
@@ -144,6 +143,7 @@ GLLT2,Elm Fork Trinity River at Gainesville,1,RRLT2,True,False
 GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
+GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
 GRMN3,Androscoggin River at Gorham,1,RMFM1,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
@@ -194,6 +194,7 @@ JCCF1,Jumper Creek Canal ,1,BNLF1,True,False
 JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JHNA4,Saline River near Johnsville,1,WARA4,True,False
+JHSP1,Conemaugh River at Johnstown,1,SWDP1,True,False
 JKFM7,Jacks Fork near Mountain View,1,ALYM7,True,False
 JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
 JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
@@ -259,6 +260,7 @@ LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
+LPRC1,Los Padres Dam  ,1,RDRC1,True,False
 LPRN1,Platte River at La Platte,1,LOUN1,True,False
 LRRC1,San Lorenzo River (CA) at Santa Cruz,1,BTEC1,True,False
 LRWW1,Lewis River at Woodland,1,MERW1,True,False
@@ -550,6 +552,7 @@ SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
+SNCN5,Canadian River near Sanchez,1,TYLN5,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
