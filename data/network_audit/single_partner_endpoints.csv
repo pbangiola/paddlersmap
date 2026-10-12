@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CHSO3,Sprague River near Chiloquin,1,BTYO3,True,False
-CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CIBW1,Columbia River at International Boundary,1,GCDW1,True,False
 CICT2,Cibolo Creek near Boerne,1,BVST2,True,False
 CKDT2,Coleto Creek at Coleto Creek Reservoir,1,CCVT2,True,False
@@ -418,6 +416,7 @@ PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
+PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
@@ -510,6 +509,7 @@ SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
 SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
+SEYT2,Wichita River near Seymour,1,SYOT2,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
 SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
