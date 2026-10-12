@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GLLV2,New River at Glen Lyn,2,HINW2;RDFV2,True,False
-GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
-GLMM1,E. Branch of Penobscot Below Grand Lake Matagamon,0,,True,False
-GLMP1,Muncy Creek at Glen Mawr,0,,True,False
-GLNC3,Lake Glen above Lake Glen,0,,True,False
-GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
-GLNM2," CATTAIL CREEK NEAR GLENWOOD, MD ",0,,True,False
-GLNM5,Buffalo Creek (MN) below Glencoe,2,BTNM5;MAYM5,True,False
-GLNM7,James River (MO) at Galena,1,FINM7,True,False
-GLNM8,Yellowstone River at Glendive,2,MILM8;SIDM8,True,False
-GLNO3,West Fork Cow Creek near Glendale,0,,True,False
-GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
-GLNW4,North Platte River near Glenrock,2,CPRW4;ORIW4,True,False
-GLOO2,Glover River at Glover,0,,True,False
-GLRS1,Gilder Creek at E Georgia Rd.,0,,True,False
-GLRT2,Brazos River near Glen Rose,2,GBYT2;WTYT2,True,False
-GLSA2,Goldstream Creek below Alabam Creek near Livengood,0,,True,False
-GLSM1,Grand Lake Stream at Grand Lake Stream,0,,True,False
-GLSV2,Maury River at Glasgow,0,,True,False
-GLTA2,Bering Sea Tide Gauge at Golovin (MHHW datum),0,,True,False
-GLUN8,Heart River at Heart Butte Dam,2,DNDN8;MDNN8,True,False
-GLVN7,White Oak Creek at Green Level,0,,True,False
-GLWI2,Thorn Creek at Glenwood,0,,True,False
-GLWM8,Milk River near Glasgow,2,NSHM8;TMPM8,True,False
-GLWP1,Paxton Creek near Glenwood,0,,True,False
 GLWW2,Brush Creek near Princeton,0,,True,False
 GLYC2,Cache La Poudre River (CO) at Greeley,4,FSSC2;GFNC2;GRPC2;POUC2,True,False
 GLYT2,Gail Creek at FM 1280 near Lovelady,0,,True,False
@@ -167,7 +142,7 @@ GRMM2,Marsh Run at Grimes,0,,True,False
 GRMN3,Androscoggin River at Gorham,2,ERRN3;RMFM1,True,False
 GRMN7,Tar River at Grimesland,0,,True,False
 GRNC2,North Fork South Platte River at Grant,0,,True,False
-GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
+GRNM1,Penobscot River above Grindstone,2,GLMM1;WENM1,True,False
 GRNM2,Unnamed Tributary at Greenbelt,0,,True,False
 GRNM5,Yellow Medicine River near Granite Falls,0,,True,False
 GRNM6,Yalobusha River at Grenada Dam,2,CCTM6;GRYM6,True,False
@@ -735,7 +710,7 @@ HREN2,Humboldt River near Elko,2,DEVN2;HRCN2,True,False
 HRFK2,Rough River at Hartford,0,,True,False
 HRFT1,Pigeon River below Waterville NC near Hartford TN,0,,True,False
 HRFV2,Hughes River at F.T. Valley Road,0,,True,False
-HRGA4,Little River at Horatio,3,DQNA4;EAGO2;FLTA4,True,False
+HRGA4,Little River at Horatio,4,DQNA4;EAGO2;FLTA4;IDBO2,True,False
 HRHF1,Tide Gauge at Homosassa Springs (In MHHW),0,,True,False
 HRHO2,North Canadian River near Harrah,2,OKBO2;SWNO2,True,False
 HRIN2,Humboldt River near Imlay,2,CMSN2;HRPN2,True,False
@@ -818,7 +793,7 @@ HUBO2,Beaver Creek (OK) near Hulen,0,,True,False
 HUDI4,Black Hawk Creek at Hudson,0,,True,False
 HUFI3,Wabash River at Terre Haute Legacy Site,0,,True,False
 HUGA4,St. Francis River near Hughes,0,,True,False
-HUHP1,Muncy Creek at Hughesville,0,,True,False
+HUHP1,Muncy Creek at Hughesville,2,GLMP1;MNYP1,True,False
 HUHS1,Huger Creek near Huger,0,,True,False
 HUIC1,Huichica Creek at RCD Vineyard,0,,True,False
 HUJP1,Juniata River at Huntingdon,0,,True,False
@@ -906,7 +881,7 @@ ICSF1,Ichetucknee River below Ichetucknee Springs State Park - US-27 (in NAVD88)
 ICYN6,Cayuga Lake at Ithaca,0,,True,False
 IDAC1,San Carlos Creek at IDRIA,0,,True,False
 IDAP1,Crooked Creek at Idaho,1,CRCP1,True,False
-IDBO2,Little River near Idabel,0,,True,False
+IDBO2,Little River near Idabel,2,GLOO2;HRGA4,True,False
 IDBS2,Turtle Creek at Redfield,0,,True,False
 IDLM2,West Branch Herring Run at Idlewylde,0,,True,False
 IDNI4,Middle River near Indianola,0,,True,False
@@ -1049,7 +1024,7 @@ JAKF1,Cedar River at San Juan Ave Jacksonville (in MHHW),0,,True,False
 JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
 JALC1,Jalama Creek,0,,True,False
 JAMC1,James Bypass at James Bypass,0,,True,False
-JAMM7,James River (MO) near Boaz,0,,True,False
+JAMM7,James River (MO) near Boaz,2,GLNM7;SGFM7,True,False
 JAMN7,Roanoke River at Jamesville,0,,True,False
 JAMN8,Pipestem Creek at Pipestem Dam,0,,True,False
 JAMS1,Santee River near Jamestown,2,SNRS1;SSNS1,True,False
@@ -2900,7 +2875,7 @@ MNUM5,Rainy River at Manitou Rapids,3,BIFM5;RNYM5;WHPM5,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MNWH1,Manoa Stream at Woodlawn Drive,0,,True,False
 MNYC1,Mint Canyon,0,,True,False
-MNYP1,Muncy Creek at Muncy Creek,0,,True,False
+MNYP1,Muncy Creek at Muncy Creek,1,HUHP1,True,False
 MOAM5,Snake River (MN) at Mora,0,,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOAN2,Muddy River near Moapa,0,,True,False
@@ -4306,7 +4281,7 @@ PDTO3,Umatilla River at Pendleton,2,PDUO3;YOKO3,True,False
 PDUO3,Umatilla River above Pendleton,2,GIBO3;PDTO3,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEAM1,Pearce Brook near Houlton,0,,True,False
-PEAM7,Pearson Creek near Springfield,0,,True,False
+PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
 PEAN3,Peabody River at Gorham,0,,True,False
 PEBN4,North Branch Rancocas Creek at Pemberton,0,,True,False
 PECC1,Pescadero Creek near Pescadero,0,,True,False
@@ -5915,7 +5890,7 @@ SGCM8,Sweet Grass Creek at Tronrud Bridge near Melville,0,,True,False
 SGCO3,Salmon River near Government Camp,0,,True,False
 SGDU1,Sevier River near Sigurd,0,,True,False
 SGET2,Clear Creek near Sanger,0,,True,False
-SGFM7,James River (MO) near Springfield,0,,True,False
+SGFM7,James River (MO) near Springfield,2,JAMM7;PEAM7,True,False
 SGFO1,Mad River near Springfield,3,CJBO1;EAGO1;MRDO1,True,False
 SGGC1,San Gabriel River (CA) at Spring Street,0,,True,False
 SGGT2,Guadalupe River at FM 1117 near Seguin,2,GWGT2;SEGT2,True,False
@@ -6293,7 +6268,7 @@ SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SOMT1,Loosahatchie River near Sommerville 1N,0,,True,False
 SOMT2,Yegua Creek at Lake Somerville,3,DEYT2;DMYT2;HPDT2,True,False
 SOMW3,Apple River (WI) at Somerset,0,,True,False
-SONP1,Muncy Creek near Sonestown,0,,True,False
+SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
 SOPC1,Soda Creek near Napa,0,,True,False
 SOPF1,Sopchoppy River near Sopchoppy (FR 343),0,,True,False
 SOPS1,Reedy River at Log Shoals Rd,0,,True,False
@@ -6937,7 +6912,7 @@ THHF1,Tomoka River near Holly Hill,0,,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
 THMF1,Thomas Creek (in NAVD88),0,,True,False
 THMW2,New River at Thurmond,2,HINW2;HNNW2,True,False
-THNI2,Thorn Creek at Thornton,3,CDCI2;FLSI2;SHLI2,True,False
+THNI2,Thorn Creek at Thornton,4,CDCI2;FLSI2;GLWI2;SHLI2,True,False
 THNW1,Thunder Creek near Newhalem,0,,True,False
 THPN7,West Fork Tuckasegee River at Thorpe Dam,0,,True,False
 THQC1,Thompson Creek above Quimby Avenue,0,,True,False

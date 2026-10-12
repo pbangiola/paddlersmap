@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
-GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
-GLNM7,James River (MO) at Galena,1,FINM7,True,False
-GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
 GMLO1,Mill Creek at Garfield Parkway,1,GARO1,True,False
 GNGT2,San Gabriel River at Granger Lake,1,WSGT2,True,False
@@ -15,7 +11,6 @@ GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
 GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRIC1,Feather River at Gridley,1,YWPC1,True,False
 GRMA3,Gila River near Maricopa,1,PRKA3,True,False
-GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
 GTEL1,Barataria Bay and Waterway near Grand Terre Island,1,NGIL1,True,False
@@ -260,6 +255,7 @@ MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
+MNYP1,Muncy Creek at Muncy Creek,1,HUHP1,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
@@ -396,6 +392,7 @@ PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
+PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
@@ -602,6 +599,7 @@ SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
+SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPDN1,Cedar River near Spalding,1,FULN1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
