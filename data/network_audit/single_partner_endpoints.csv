@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JHNA4,Saline River near Johnsville,1,WARA4,True,False
-JHNP1,Clarion River at Johnsonburg,1,RDYP1,True,False
-JHSP1,Conemaugh River at Johnstown,1,SWDP1,True,False
-JIMC1,Russian River at Jimtown,1,GEYC1,True,False
-JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
-JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
 JLGP4,Rio Jacaguas above Lago Guayabal,1,JUBP4,True,False
 JMEI4,Floyd River at James,1,MRLI4,True,False
 JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
@@ -212,6 +206,7 @@ MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
 MPTM4,Chippewa River below Mt. Pleasant,1,CRDM4,True,False
+MRAP1,Tenmile Creek at Mariana,1,JFRP1,True,False
 MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
 MRDM5,Hawk Creek (MN) near Maynard,1,HAWM5,True,False
 MRGI2,Kishwaukee River at Marengo,1,BVDI2,True,False
@@ -323,6 +318,7 @@ OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 ONTW3,Kickapoo River at Ontario,1,LAFW3,True,False
 OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
 ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
+ORCT2,Little Cypress Creek near Ore City,1,JFFT2,True,False
 ORDS2,Elm River at Ordway,1,WESS2,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
@@ -525,6 +521,7 @@ SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
 SEEN4,Cohansey River at Seeley,1,GRWN4,True,False
 SEMI3,West Fork Blue River at Salem,1,FRDI3,True,False
+SERO3,John Day River at Service Creek,1,JHNO3,True,False
 SEYT2,Wichita River near Seymour,1,SYOT2,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
