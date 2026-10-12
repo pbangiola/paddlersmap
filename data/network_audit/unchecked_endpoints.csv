@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-IDBS2,Turtle Creek at Redfield,0,,True,False
-IDLM2,West Branch Herring Run at Idlewylde,0,,True,False
-IDNI4,Middle River near Indianola,0,,True,False
-IDOC2,Clear Creek (CO) near Lawson,2,CWCC2;GLDC2,True,False
-IDPI3,Wabash River at Independence,0,,True,False
-IDPI4,Wapsipinicon River at Independence,2,ANSI4;DKTI4,True,False
-IDPK1,Verdigris River at Independence,4,ATOK1;CFVK1;ECLK1;ELCK1,True,False
-IDPW3,Trempealeau River at Independence,3,ARCW3;EKCW3;WHIW3,True,False
-IDRA2,Smith Creek near Deering,0,,True,False
-IDRC1,Clear Creek (San Benito Co.) near Idria,0,,True,False
-IDXA3,Indian Bend Wash at Curry Road in Tempe,0,,True,False
-IFAI4,Iowa River near Iowa Falls Hwy D20--IFC,2,ROWI4;STBI4,True,False
-IFSS1,Indian Field Swamp near St. George,0,,True,False
-IGCV2,Big Cedar Creek 1E Lebanon,0,,True,False
-IHBF1,Indian River at Indian Harbour Beach (in MHHW),0,,True,False
-IHBM2,Unnamed Tributary at Harbor Point in Baltimore,0,,True,False
-IHCI3,Indiana Harbor Canal at East Chicago (Lake Michigan outlet),0,,True,False
-IHDM2,Potomac River at Indian Head (IN MLLW),0,,True,False
-IHML1,Mississippi River at Inner Harbor Navigational Canal Lock,0,,True,False
-IIFC1,Indian Creek below Indian Falls,0,,True,False
-IKAA2,Ikalukrok Creek near Red Dog Mine,0,,True,False
-IKLT2,Colorado River (TX) at Inks Lake,2,BUDT2;GPLT2,True,False
-IKPA2,Ikpikpuk River below Fry Creek near Alaktak,0,,True,False
-ILAC1,Independence Lake near Truckee,1,ICRC1,True,False
-ILKF1,Lake Weohyakapka at Indian Lake Estates,0,,True,False
 ILNI2,Mississippi River at Illinois City,2,FAII4;MUSI4,True,False
 ILOM5,Island Lake Outflow,0,,True,False
 ILRA2,Iliamna River near Pedro Bay,0,,True,False
@@ -613,7 +588,7 @@ LACV2,Accotink Creek at Lake Accotink near Springfield,0,,True,False
 LACW3,Mississippi River at La Crosse - Pool 8,3,BRWM5;LCRM5;LCRW3,True,False
 LADI4,Big Bear Creek at Ladora,0,,True,False
 LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
-LAFI3,Wabash River at Lafayette,3,CVGI3;DCDI3;LGNI3,True,False
+LAFI3,Wabash River at Lafayette,4,CVGI3;DCDI3;IDPI3;LGNI3,True,False
 LAFN4,East Branch Paulins Kill near Lafayette,0,,True,False
 LAFW3,Kickapoo River at La Farge,2,ONTW3;VIOW3,True,False
 LAGP4,Canal de Riego de Lajas Blw Lajas Filtration Plant,0,,True,False
@@ -5964,7 +5939,7 @@ TCRM1,Nezinscot River at Turner Center,0,,True,False
 TCRN7,Tank Creek at Reilly Rd at Ft Bragg,0,,True,False
 TCSI3,Turkey Creek (IN) at Schererville,0,,True,False
 TCSO1,Tenmile Creek at Silica,0,,True,False
-TCTS2,Turtle Creek near Tulare,0,,True,False
+TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
 TCVN7,Town Creek at U.S. Highway 17,0,,True,False
 TCWF1,Trout Creek at Wesley Chapel,0,,True,False
 TCYF1,Cypress Creek Tributary Near Wesley Chapel,0,,True,False
