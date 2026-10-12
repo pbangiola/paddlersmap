@@ -1,8 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LCVN5,Mora River at La Cueva,1,GOLN5,True,False
-LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LELI4,Winnebago River at Leland Hwy A38--IFC,1,FORI4,True,False
+LFKM5,Little Fork River at Littlefork,1,LILM5,True,False
 LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False
 LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
@@ -641,6 +640,7 @@ UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
 UCLO1,Euclid Creek at Cleveland,1,EUCO1,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
+UEHN1,Logan Creek at Uehling,1,PEDN1,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
 UMAO3,Umatilla River at Umatilla,1,YOKO3,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LCTU1,Little Cottonwood Creek near Salt Lake City,0,,True,False
-LCUV2,Little Creek at US-1,0,,True,False
-LCVN5,Mora River at La Cueva,1,GOLN5,True,False
-LCWA3,Little Colorado River near Winslow,3,CHWA3;LCCA3;LCJA3,True,False
-LCWN1,Logan Creek near Wakefield,0,,True,False
-LCWU1,Little Cottonwood Creek at Crestwood Park,0,,True,False
-LCXC1,Llagas Creek below Chesbro Reservoir,2,LGHC1;XLSC1,True,False
-LCYI4,Middle Creek near Lacey,0,,True,False
-LDAC1,Linda Creek at Mark West Springs Rd,0,,True,False
-LDBA1,Little Double Bridges Creek near Enterprise (CR 606),0,,True,False
-LDBL1,Bayou D'Arbonne at Lake D'Arbonne,2,LCAL1;MLUL1,True,False
-LDDO2,Lugert Drainage Ditch at Lugert,0,,True,False
-LDKM8,Missouri River near Landusky,2,FPKM8;VRGM8,True,False
-LDLI2,Lansing Ditch near Lansing,0,,True,False
-LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
-LDLW2,Linton Creek near Laurel Dale,0,,True,False
-LDNM5,Little Fork River near Linden Grove,0,,True,False
-LDOT2,Rio Grande at Laredo,2,CBBT2;PLXT2,True,False
-LDRI2,Des Plaines River at Lincolnshire,2,DSPI2;GUNI2,True,False
-LDVN6,Delaware River at Lordville,3,CCRN6;HKCN6;HLEN6,True,False
-LDVO1,Black Fork Mohican River at Loudonville,2,MEPO1;MHWO1,True,False
-LDWN6,Little Delaware River above Delhi,0,,True,False
-LDXC1,Kaweah River at Lemoncove Ditch,0,,True,False
-LDYN6,Tioga River at Lindley,2,ERWN6;TGJP1,True,False
-LEAO1,Mahoning River at Leavittsburg,3,KITO1;PRIO1;WRNO1,True,False
 LEAT2,Mill Creek (E TX) at Brownlea Road,0,,True,False
 LEBT2,Little Bernard Creek at I-10 near Sealy,0,,True,False
 LEBW3,Rock River at Lebanon-3 E-Hwy MM bridge,3,HCNW3;HDMW3;WATW3,True,False
@@ -70,7 +45,7 @@ LFFV2,Colvin Run at Lake Fairfax near Reston,0,,True,False
 LFGC2,Lake Fork above Gateview,0,,True,False
 LFHW1,Icicle Creek at Structure 2 near Leavenworth NFH,0,,True,False
 LFIS2,Missouri River at La Framboise Island,3,BIWN8;FRMS2;PIRS2,True,False
-LFKM5,Little Fork River at Littlefork,0,,True,False
+LFKM5,Little Fork River at Littlefork,1,LILM5,True,False
 LFKT2,Lake Fork Creek at Lake Fork,0,,True,False
 LFMW3,La Crosse River at Fort McCoy,2,ANOW3;SPAW3,True,False
 LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False
@@ -140,7 +115,7 @@ LICN1,Little Salt Creek near Lincoln (Arbor Road),0,,True,False
 LIES2,Grand River (SD) near Little Eagle,1,SHAS2,True,False
 LIKF1,Suwannee River near Suwannee Springs (in NAVD88),2,ELLF1;WSPF1,True,False
 LILC2,Little Snake River near Lily,0,,True,False
-LILM5,Little Fork River near Littlefork,0,,True,False
+LILM5,Little Fork River near Littlefork,2,LFKM5;LTLM5,True,False
 LIMT1,Big Limestone Creek near Limestone,0,,True,False
 LINC2,South Saint Vrain Creek (CO) above Lyons,0,,True,False
 LING1,Line Creek at Highway 85 near Senoia,0,,True,False
@@ -499,7 +474,7 @@ LTFN4,Passaic River at Little Falls,2,DDCN4;SIGN4,True,False
 LTGW4,Little Goose Creek at Big Horn,0,,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
 LTKW3,Wisconsin River at Rainbow Reservoir,2,OTTW3;RHIW3,True,False
-LTLM5,Little Fork River near Silverdale,0,,True,False
+LTLM5,Little Fork River near Silverdale,2,LDNM5;LILM5,True,False
 LTLN6,Mohawk River at Little Falls,2,SCHN6;UCAN6,True,False
 LTLN7,Little River (NC) near Orange Factory,0,,True,False
 LTLO2,Medicine Creek at Lake Lawtonka,0,,True,False
@@ -2632,7 +2607,7 @@ PECK1,Ninnescah River near Peck,3,BLPK1;CHNK1;MDKK1,True,False
 PECM2,Licking Creek at Pecktonville,0,,True,False
 PECM6,Pelahatchie Creek near Fannin/ at Hwy 25,0,,True,False
 PEDF1,Tide Gauge at Safe Harbor Pineland (In MHHW),0,,True,False
-PEDN1,Logan Creek at Pender,0,,True,False
+PEDN1,Logan Creek at Pender,2,LCWN1;UEHN1,True,False
 PEDT2,Perdido Creek near Fannin,0,,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PEGF1,Atlantic Ocean Tide Gauge at South Port Everglades (in MHHW),0,,True,False
@@ -4334,7 +4309,7 @@ SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
 SIFF1,Homosassa River at Shell Island Near Homosassa,0,,True,False
 SIFI1,Snake River near Idaho Falls,2,MENI1;SHYI1,True,False
 SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
-SIGI4,North Skunk River near Sigourney,2,KLGI4;MERI4,True,False
+SIGI4,North Skunk River near Sigourney,3,KLGI4;LCYI4;MERI4,True,False
 SIGN4,Passaic River at Singac,2,LTFN4;PINN4,True,False
 SILI4,Silver Creek at Silver City (IFC),0,,True,False
 SILN1,Silver Creek near Silver Creek,0,,True,False
@@ -4442,7 +4417,7 @@ SLKI4,Spirit Lake near Orleans,0,,True,False
 SLKM7,Reservoirs  Smithville Reservoir,1,LNZM7,True,False
 SLKP4,Rio Cayaguas at at Cerro Gordo,0,,True,False
 SLKW1,Sultan River at Spada Lk,0,,True,False
-SLLA1,Double Bridges Creek near Sellersville (CR 40),0,,True,False
+SLLA1,Double Bridges Creek near Sellersville (CR 40),2,GNVA1;LDBA1,True,False
 SLLF1,St Lucie Canal at St Lucie Lock and Dam,0,,True,False
 SLLM7,Meramec River near Sullivan,2,PCFM7;SEEM7,True,False
 SLLP4,Rio Grande De Loiza at Quebrada Arenas,0,,True,False
@@ -5254,7 +5229,7 @@ THHF1,Tomoka River near Holly Hill,0,,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
 THMF1,Thomas Creek (in NAVD88),0,,True,False
 THMW2,New River at Thurmond,2,HINW2;HNNW2,True,False
-THNI2,Thorn Creek at Thornton,4,CDCI2;FLSI2;GLWI2;SHLI2,True,False
+THNI2,Thorn Creek at Thornton,5,CDCI2;FLSI2;GLWI2;LDLI2;SHLI2,True,False
 THNW1,Thunder Creek near Newhalem,0,,True,False
 THPN7,West Fork Tuckasegee River at Thorpe Dam,0,,True,False
 THQC1,Thompson Creek above Quimby Avenue,0,,True,False
@@ -5622,7 +5597,7 @@ UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 UCTP1,French Creek above Union City Lake,2,UCDP1;WTTP1,True,False
 UDET2,Frio River below Dry Frio near Uvalde,2,CNCT2;DBYT2,True,False
-UEHN1,Logan Creek at Uehling,0,,True,False
+UEHN1,Logan Creek at Uehling,1,PEDN1,True,False
 UGGC1,Smugglers Gulch at International Border,0,,True,False
 UGRL1,Upper Grand River near Plaquemine,0,,True,False
 UHGM6,Yalobusha River at Holcomb,2,GRYM6;YWGM6,True,False
