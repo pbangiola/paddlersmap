@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MNBV2,Appomattox River at ROUTE 602 NEAR MANNBORO,0,,True,False
-MNCG1,Mountaintown Creek at GA 282 near Ellijay,0,,True,False
-MNDA2,Mendenhall River near Auke Bay,2,JSBA2;MNBA2,True,False
-MNEA2,Mendenhall River Below Montana Creek near Auke Bay,2,MNAA2;MNBA2,True,False
-MNEI4,Mosquito Creek near Neola (IFC),1,MCBI4,True,False
-MNEL1,Bayou Dorcheat at Dixie Inn,2,LBUL1;SPHL1,True,False
-MNFK2,North Fork Triplett Creek near Morehead,0,,True,False
-MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
-MNGI2,Fox River at Montgomery,3,BMCI2;SELI2;YKVI2,True,False
-MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
-MNGO1,Whetstone Creek at Mt. Gilead,0,,True,False
-MNHM5,North Fork Crow River near Manannah,2,MNAM5;RKFM5,True,False
-MNHP1,Chiques Creek at Manheim,0,,True,False
-MNIG1,St. Marys River at Moniac,1,MACF1,True,False
-MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
-MNKM5,Minnesota River at Mankato,3,JUDM5;NWUM5;SPTM5,True,False
-MNLL1,Coastal Reference Monitoring System near Magnolia,0,,True,False
-MNLM6,West Hobolochitto Creek near McNeill,0,,True,False
-MNMN7,Mud Creek (NC) at N Main St 1 N Hendersonville,0,,True,False
-MNNW3,Cannon Valley Creek near Cashton - Manna Avenue,0,,True,False
-MNOF1,Escambia River near Molino,0,,True,False
-MNPV2,Elizabeth River near Money Point (IN MLLW),0,,True,False
-MNRC2,Mancos River near Mancos,0,,True,False
-MNRF1,Munson Slough at Roberts Avenue (in NAVD88),0,,True,False
-MNRN6,Manor Kill at West Conesville near Gilboa,0,,True,False
 MNRO3,Long Tom River at Monroe,1,FRNO3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSO3,"Mill Creek (Marion Co., OR) at North Salem High School at Salem",1,MCTO3,True,False
@@ -283,7 +258,7 @@ MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
 MTCM6,Pearl River near Monticello,2,CLMM6;ROCM6,True,False
 MTCM8,Musselshell River at Martinsdale Supply Canal,0,,True,False
 MTCS1,Little River near Mt Carmel,0,,True,False
-MTCV2,Appomattox River at Matoaca,2,ARPV2;MTXV2,True,False
+MTCV2,Appomattox River at Matoaca,3,ARPV2;MNBV2;MTXV2,True,False
 MTDF1,Manatee River at Manatee Dam,2,MKHF1;RYEF1,True,False
 MTEC1,San Clemente Dam  ,0,,True,False
 MTGK2,Johns Creek near Meta,1,DWYK2,True,False
@@ -330,14 +305,14 @@ MTVV2,Smith River at Martinsville Hydroelectic Dam,0,,True,False
 MTWI4,Timber Creek near Marshalltown,0,,True,False
 MTWW3,Manitowoc River at Manitowoc,0,,True,False
 MTXA3,Truxton Wash at State Route 66,0,,True,False
-MTXV2,Appomattox River at Mattoax,3,FRMV2;MTCV2;SPMV2,True,False
+MTXV2,Appomattox River at Mattoax,4,FRMV2;MNBV2;MTCV2;SPMV2,True,False
 MTZF1,Tide Gauge at Matanzas Pass Bridgfe (in MHHW),0,,True,False
 MTZI3,Wabash River at Montezuma,4,CLNI3;CRWI3;CVGI3;TERI3,True,False
 MTZN5,Gallinas Creek above Montezuma,0,,True,False
 MUBN7,Mulberry Creek at Collettsville,0,,True,False
 MUCF1,Tide Gauge at Mullock Creek (in MHHW),0,,True,False
 MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False
-MUCN7,Mud Creek (NC) at Erkwood Dr. 1 S Hendersonville,0,,True,False
+MUCN7,Mud Creek (NC) at Erkwood Dr. 1 S Hendersonville,1,MNMN7,True,False
 MUCO3,Murderers Creek near Dayville,0,,True,False
 MUCP1,Muddy Creek (PA) near Castle Fin,0,,True,False
 MUCW4,Muddy Creek above Olson Creek near Dad,1,MCYW4,True,False
@@ -1996,7 +1971,7 @@ PVHC1,Pallet Creek,0,,True,False
 PVHM3,Atlantic Coast at Provincetown Harbor (IN MLLW),0,,True,False
 PVLK2,Cumberland River at Pineville,2,BBVK2;BXTK2,True,False
 PVLL1,Amite River at Port Vincent,3,BMPL1;BYML1;FSLL1,True,False
-PVLM5,North Fork Crow River near Paynesville,0,,True,False
+PVLM5,North Fork Crow River near Paynesville,1,MNHM5,True,False
 PVRC1,Chiles Creek at Lake Hennessey,0,,True,False
 PVRM5,Lac Qui Parle River near Providence,0,,True,False
 PVRS2,Little Minnesota River near Peever,0,,True,False

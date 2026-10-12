@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MNEI4,Mosquito Creek near Neola (IFC),1,MCBI4,True,False
-MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
-MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
-MNIG1,St. Marys River at Moniac,1,MACF1,True,False
-MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
 MNRO3,Long Tom River at Monroe,1,FRNO3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSO3,"Mill Creek (Marion Co., OR) at North Salem High School at Salem",1,MCTO3,True,False
@@ -51,6 +46,7 @@ MTRF1,Tide Gauge on the Manatee River (In MHHW),1,RYEF1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False
+MUCN7,Mud Creek (NC) at Erkwood Dr. 1 S Hendersonville,1,MNMN7,True,False
 MUCW4,Muddy Creek above Olson Creek near Dad,1,MCYW4,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
@@ -273,6 +269,7 @@ PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PVCC1,Los Angeles River below Sepulveda Dam,1,LRTC1,True,False
+PVLM5,North Fork Crow River near Paynesville,1,MNHM5,True,False
 QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
