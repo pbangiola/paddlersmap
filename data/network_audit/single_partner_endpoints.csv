@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ELRP1,Allegheny River at Eldred,1,OLNN6,True,False
-ELUC1,East Little Llagas Creek above Church Avenue,1,EGSC1,True,False
-ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
 EMPK1,Cottonwood River at Emporia,1,PLYK1,True,False
 EMPL1,Mississippi River at Empire,1,WPHL1,True,False
@@ -417,6 +414,7 @@ OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PACW1,Cowlitz River at Packwood,1,RAWW1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
+PALP1,Allegheny River at Port Allegany,1,ELRP1,True,False
 PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
@@ -565,6 +563,7 @@ SCNM5,St. Louis River at Scanlon,1,CQRM5,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
+SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
 SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
 SEYT2,Wichita River near Seymour,1,SYOT2,True,False
@@ -748,6 +747,7 @@ WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
 WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
 WLTM3,Charles River at Waltham,1,DDHM3,True,False
+WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WMSM4,Red Cedar River near Williamston,1,ELNM4,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
