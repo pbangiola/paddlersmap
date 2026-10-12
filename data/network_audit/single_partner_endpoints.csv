@@ -1,9 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CCTI3,Cicero Creek near State Road 19 in Tipton,1,CCAI3,True,False
 CDVI4,Cedar Creek near Lovilia Hwy H20--IFC,1,BSSI4,True,False
 CEMC1,East Fork Carson River near Markleeville,1,GRDN2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
+CHBI2,Iroquois River near Chebanse,1,IRQI2,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
 CHIN7,N.E. Cape Fear River near Chinquapin,1,BGWN7,True,False
 CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
@@ -42,6 +42,7 @@ CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSHO1,Muskingum River below Coshocton,1,DREO1,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
 CSNO1,West Branch Rocky River at West View,1,BRRO1,True,False
+CSRA2,South Fork Campbell Creek at Canyon Mouth near Anchorage,1,CCSA2,True,False
 CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
@@ -114,6 +115,7 @@ FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
 FPKG1,Savannah River at Fort Pulaski (IN MLLW),1,SVDG1,True,False
+FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
 FRKM1,Kennebec River at The Forks,1,BINM1,True,False
 FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRMN5,San Juan River at Farmington,1,ARFN5,True,False
@@ -272,6 +274,7 @@ MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
+MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
@@ -289,7 +292,6 @@ MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
-MLUK2,Ohio River at McAlpine Upper,1,MLXK2,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
@@ -317,6 +319,7 @@ MXWN1,Platte River at Maxwell,1,NPSN1,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
+NBGI3,Ohio River at Newburgh Lock and Dam,1,OWBK2,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
@@ -441,6 +444,7 @@ RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
+RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,1,WTRA1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBV2,Maury River at Rockbridge Baths,1,BVSV2,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
@@ -486,6 +490,7 @@ SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
+SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
 SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
 SLIM2,Patuxent River at Solomons Island (IN MLLW),1,BRIM2,True,False
 SLKM7,Reservoirs  Smithville Reservoir,1,LNZM7,True,False
@@ -566,6 +571,7 @@ WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
 WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
+WETA1,Coosa River at Wetumpka,1,WPKA1,True,False
 WETN4,Millstone River at Weston,1,BKWN4,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
