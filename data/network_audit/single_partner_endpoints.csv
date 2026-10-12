@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
-LELI4,Winnebago River at Leland Hwy A38--IFC,1,FORI4,True,False
 LFKM5,Little Fork River at Littlefork,1,LILM5,True,False
 LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False
 LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
@@ -49,6 +47,7 @@ LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
 LUCN7,Contentnea Creek near Lucama,1,HOKN7,True,False
+LVLO1,Tuscarawas River at Leesville Dam Tailwater,1,LELO1,True,False
 LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
 LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
@@ -87,6 +86,7 @@ MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
 MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
+MDLV2,Goose Creek near Middleburg,1,LEEV2,True,False
 MDNN8,Heart River near Mandan,1,GLUN8,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDRI3,Deep River (IN) near Merrillville,1,HLGI3,True,False

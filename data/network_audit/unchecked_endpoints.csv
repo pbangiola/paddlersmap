@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LEAT2,Mill Creek (E TX) at Brownlea Road,0,,True,False
-LEBT2,Little Bernard Creek at I-10 near Sealy,0,,True,False
-LEBW3,Rock River at Lebanon-3 E-Hwy MM bridge,3,HCNW3;HDMW3;WATW3,True,False
-LECF1,Little Econlockhatchee near Oviedo,0,,True,False
-LECI4,Mississippi River at LeClaire,2,CMMI4;RCKI2,True,False
-LECT2,Leon Creek at Loop 410 near Leon Valley,3,GCCT2;HLTT2;LKST2,True,False
-LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
-LEDN8,Little Coulee near Leeds,0,,True,False
-LEEM2,Collington Branch near Upper Marlboro / Leeland Road,0,,True,False
-LEEM5,Leech Lake,0,,True,False
-LEEV2,Goose Creek near Leesburg,0,,True,False
-LEGC1,South Fork Eel River near Leggett 1NW,0,,True,False
-LEKM6,Chickasawhay River at Leakesville,2,MRRM6;WYNM6,True,False
-LELI4,Winnebago River at Leland Hwy A38--IFC,1,FORI4,True,False
-LELN7,Hood Creek at U.S. 74 near Leland,0,,True,False
-LELO1,Tuscarawas River at Leesville Dam Pool,0,,True,False
-LEMI2,Des Plaines River near Lemont,2,JRSI2;LYNI2,True,False
-LENM2,McIntosh Run near Leonardtown,0,,True,False
-LENW3,Little La Crosse River at Leon,2,CFMW3;JLNW3,True,False
-LEOI1,Kootenai River at Leonia,3,BFEI1;KBDM8;KRMI1,True,False
-LEOK2,Little Sandy River at Leon,2,GYLK2;GYNK2,True,False
-LEOM3,North Nashua River at Leominster,0,,True,False
-LEOW3,Namekagon River at Leonards,0,,True,False
-LEPF1,Central Drainage Ditch at Lake Bradford Road (in NAVD88),0,,True,False
-LEPL1,Lake Palourde above Morgan City,0,,True,False
 LEPM5,South Fork Crow River near Lester Prairie 1SE,2,HCNM5;MAYM5,True,False
 LEPO2,Verdigris River near Lenapah,2,CFVK1;CLRO2,True,False
 LERI1,Lemhi River near Lemhi,0,,True,False
@@ -510,7 +485,7 @@ LVDT2,Trinity River at Lake Livingston,2,GRIT2;RVRT2,True,False
 LVEW4,Bighorn River near Kane,2,BHRM8;GYBW4,True,False
 LVGA4,Ditch Bayou below Lake Village at Lake Chicot,0,,True,False
 LVKC1,Arroyo Valle near Livermore,2,AVPC1;DVAC1,True,False
-LVLO1,Tuscarawas River at Leesville Dam Tailwater,0,,True,False
+LVLO1,Tuscarawas River at Leesville Dam Tailwater,1,LELO1,True,False
 LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVLP1,French Creek above Lowville,0,,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
@@ -833,7 +808,7 @@ MDLK2,Meldrum,0,,True,False
 MDLL1,Lake Pontchartrain at Mid-Lake,0,,True,False
 MDLM2,Catoctin Creek Near Middletown,0,,True,False
 MDLT2,Medina River at Medina Lake,2,LACT2;MEPT2,True,False
-MDLV2,Goose Creek near Middleburg,0,,True,False
+MDLV2,Goose Creek near Middleburg,1,LEEV2,True,False
 MDMI1,Snake River below Minidoka Dam (at Howells Ferry),2,MILI1;MINI1,True,False
 MDNI2,Natalie Creek at Midlothian,0,,True,False
 MDNM8,Muddy Creek near Vaughn,0,,True,False
