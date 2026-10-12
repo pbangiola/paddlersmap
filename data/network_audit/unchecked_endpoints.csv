@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FNNM7,Meramec River at Fenton,2,ARNM7;VLLM7,True,False
-FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
-FOBC2,Fountain Creek at 8th Street at Pueblo,0,,True,False
-FOBM5,"St. Louis River Near Forbes, MN",3,ERBM5;FDWM5;IBOM5,True,False
-FODI4,Des Moines River at Fort Dodge,3,FDDI4;FLZI4;STRI4,True,False
-FODK2,Kentucky River at Ford Lock,3,CHLK2;CYCK2;VLVK2,True,False
-FODN6,Mohawk River Above State Highway 30A at Fonda,0,,True,False
-FOFW4,Firehole River at Old Faithful (YNP),0,,True,False
-FOGF1,Prairie Creek Near Fort Ogden,0,,True,False
-FOGG1,Chattahoochee River at W.F. George Lock and Dam,0,,True,False
-FOLA1,Pea River at Folsom Bridge (SR 167),2,ARTA1;ELBA1,True,False
-FOLF1,Fenholloway River near Foley (US 27),1,FLYF1,True,False
-FOMC2,South Platte River at Fort Morgan,2,BZNC2;WNAC2,True,False
-FOMF1,Four Mile Cove Ecological (In MHHW),0,,True,False
-FOMS1,Catawba River at Lake Wylie Dam,4,FCDS1;LOWN7;MOUN7;RHIS1,True,False
-FONN7,Little Tennessee River at FONTANA DAM TVA,2,CHEN7;TKSN7,True,False
-FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
-FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
-FORI4,Winnebago River near Forest City Hwy B14--IFC,2,FERI4;LELI4,True,False
-FORM7,White River (MO) at Table Rock Lake,1,FCRM7,True,False
-FORS2,James River near Forestburg,2,HURS2;JRMS2,True,False
-FOSC2,Fossil Creek (CO) at Fort Collins,0,,True,False
-FOSM4,Flint River at Fosters,1,FLTM4,True,False
-FOSN7,Watauga River near Foscoe,2,SGWN7;WRAN7,True,False
-FOSO2,Washita River at Foss Reservoir,2,FBFO2;HMMO2,True,False
 FOSO3,Reservoir at Foster nr Sweet Home,0,,True,False
 FOWF1,Hillsborough River at Fowler Avenue,2,SULF1;TMTF1,True,False
 FOXN1,Fox Creek near Curtis,0,,True,False
@@ -152,7 +127,7 @@ FSNM5,Minnesota River at Fort Snelling State Park,2,SAVM5;STPM5,True,False
 FSPO2,Beaver River near Fort Supply,2,BVRO2;WDWO2,True,False
 FSRF1,Tide Gauge at the entrance of the Simpson River (in MHHW),0,,True,False
 FSRM4,Clinton River near Clinton Township,0,,True,False
-FSSC2,Fossil Creek (CO) at Fort Collins,0,,True,False
+FSSC2,Fossil Creek (CO) at Fort Collins,2,FOSC2;GLYC2,True,False
 FSSO3,Nehalem River near Foss,0,,True,False
 FSTI4,Brockcamp Creek near Festina (IFC),0,,True,False
 FSTN1,Willow Creek near Foster,0,,True,False
@@ -186,7 +161,7 @@ FTMV2,James River (VA) at Fort Monroe (IN MLLW),0,,True,False
 FTNI3,Pipe Creek at Frankton,0,,True,False
 FTNK1,Little Osage River at Fulton,0,,True,False
 FTNO1,Kokosing River at Fredericktown,0,,True,False
-FTOF1,Prairie Creek Upstream SR 31,0,,True,False
+FTOF1,Prairie Creek Upstream SR 31,1,FOGF1,True,False
 FTPC1,San Francisco Bay  Tide gage,0,,True,False
 FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
@@ -475,7 +450,7 @@ GLWI2,Thorn Creek at Glenwood,0,,True,False
 GLWM8,Milk River near Glasgow,2,NSHM8;TMPM8,True,False
 GLWP1,Paxton Creek near Glenwood,0,,True,False
 GLWW2,Brush Creek near Princeton,0,,True,False
-GLYC2,Cache La Poudre River (CO) at Greeley,0,,True,False
+GLYC2,Cache La Poudre River (CO) at Greeley,2,FSSC2;GRPC2,True,False
 GLYT2,Gail Creek at FM 1280 near Lovelady,0,,True,False
 GLZM7,Missouri River at Glasgow,2,BOZM7;MIAM7,True,False
 GMDI3,Graham McCulloch Ditch near Fort Wayne,0,,True,False
@@ -629,7 +604,7 @@ GROT2,Paluxy River at Glen Rose,0,,True,False
 GROU1,"Green River at Ouray, UT",2,GRVU1;JESU1,True,False
 GROV2,Middle River near Grottoes,0,,True,False
 GROW4,Laramie River Grayrocks Reservoir Outflow,0,,True,False
-GRPC2,Cache La Poudre River (CO) near Greeley,0,,True,False
+GRPC2,Cache La Poudre River (CO) near Greeley,2,GLYC2;KERC2,True,False
 GRPL1,Mississippi Sound at Grand Pass,0,,True,False
 GRPM4,Plaster Creek at Grand Rapids - 28th Street,0,,True,False
 GRPP4,Rio Grande de Patillas blw Lago Patillas,0,,True,False
@@ -1764,7 +1739,7 @@ KENO2,Cimarron River (OK) at Kenton,1,EHTK1,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KEOS1,Seneca River at Keowee Dam,2,HWDS1;JCSS1,True,False
 KEQI4,Des Moines River at Keosauqua,5,EQUI4;FLCI4;FLSI4;OTMI4;SFLM7,True,False
-KERC2,South Platte River near Kersey,5,BELC2;BTLC2;LUPC2;PTLC2;WNAC2,True,False
+KERC2,South Platte River near Kersey,6,BELC2;BTLC2;GRPC2;LUPC2;PTLC2;WNAC2,True,False
 KERM8,Flathead Lake at Polson,0,,True,False
 KERO2,Eastern Oklahoma Lakes at R.S. Kerr Lock and Dam,0,,True,False
 KERV2,Roanoke River at John H. Kerr Dam,2,GASN7;RNDV2,True,False
@@ -5148,7 +5123,7 @@ PRIN7,Mayo River near Price,0,,True,False
 PRIO1,Mahoning River below Lake Milton at Pricetown,2,LEAO1;NWTO1,True,False
 PRJM5,Pine River near Jenkins,0,,True,False
 PRKA3,Gila River at Painted Rock Lake,0,,True,False
-PRKF1,Prairie Creek at CR 674,0,,True,False
+PRKF1,Prairie Creek at CR 674,2,FOGF1;PUNF1,True,False
 PRKM5,Straight River near Park Rapids,0,,True,False
 PRKM6,Red Creek at Perkinston,0,,True,False
 PRKO2,Cimarron River near Perkins,2,GTRO2;RIPO2,True,False
@@ -5295,7 +5270,7 @@ PUCA3,Puerco River near Chambers,0,,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PULW1,South Fork Palouse River at Pullman,0,,True,False
-PUNF1,Shell Creek Near Punta Gorda,1,SHEF1,True,False
+PUNF1,Shell Creek Near Punta Gorda,2,PRKF1;SHEF1,True,False
 PUTC3,Quinebaug River at Putnam,0,,True,False
 PUWO3,Pudding River near Woodburn,3,ABQO3;AURO3;SCSO3,True,False
 PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False

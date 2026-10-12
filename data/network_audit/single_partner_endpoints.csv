@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
-FOLF1,Fenholloway River near Foley (US 27),1,FLYF1,True,False
-FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
-FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
-FORM7,White River (MO) at Table Rock Lake,1,FCRM7,True,False
-FOSM4,Flint River at Fosters,1,FLTM4,True,False
 FPKG1,Savannah River at Fort Pulaski (IN MLLW),1,SVDG1,True,False
 FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
 FRKM1,Kennebec River at The Forks,1,BINM1,True,False
@@ -20,6 +14,7 @@ FSLL1,Amite River at French Settlement,1,PVLL1,True,False
 FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
 FTDC1,Smith River at Dr Fine Bridge,1,CREC1,True,False
 FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
+FTOF1,Prairie Creek Upstream SR 31,1,FOGF1,True,False
 FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
@@ -458,7 +453,6 @@ PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
-PUNF1,Shell Creek Near Punta Gorda,1,SHEF1,True,False
 PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
