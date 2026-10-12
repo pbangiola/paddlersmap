@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
-ESWL1,Bayou Plaquemine Brule at Estherwood,1,CRWL1,True,False
-ETNG1,Conasauga River at GA 286 near Eton,1,TLNG1,True,False
 EUCN6,Oneida River near Euclid,1,ECLN6,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
@@ -664,6 +661,7 @@ TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,1,GASO3,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TMSC1,San Tomas Aquino Creek above Williams Road,1,EAMC1,True,False
+TNGK1,Stranger Creek near Tonganoxie,1,ESTK1,True,False
 TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
@@ -773,6 +771,7 @@ WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
 WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
 WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
+WVRV1,North Branch Winooski River at Wrightsville Detention Reservoir,1,WRTV1,True,False
 WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
