@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LSPV2,Potomac River at Leesylvania State Park,0,,True,False
-LSRC1,Santa Rosa Creek (CA) at Cambria,0,,True,False
-LSRC2,Little Snake River near Slater,1,LSSW4,True,False
-LSRS1,Little Saluda River near Saluda,0,,True,False
-LSSF1,Lake Sampson near Starke (in NAVD88),2,ACSF1;SSSF1,True,False
-LSSI4,Little Sioux River above Spencer,2,MIFI4;SPII4,True,False
-LSSW4,Little Snake River near Savery,2,LSDW4;LSRC2,True,False
-LSTN7,"Little Sugar Creek below E 36th St, in North Davidson (NoDa)",1,LSMN7,True,False
-LSTO3,Lostine River above Lostine,0,,True,False
-LSUA2,Little Susitna River near Palmer,2,LSHA2;LSOA2,True,False
-LSWT2,West Central Texas Lakes at Lake Sweetwater,2,ABIT2;EVST2,True,False
-LSXC1,Llagas Creek at Lake Silveira,2,BSVC1;XLSC1,True,False
-LSYW4,Little Snake River above Savery Creek nr Savery,0,,True,False
-LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
-LTBV3,Limetree Bay Tide Gauge,0,,True,False
-LTCI1,Lightning Creek at Clark Fork,0,,True,False
-LTCM2,Unnamed Tributary above Largo Town Center Dam,0,,True,False
-LTCV2,Little Neck Creek at Pinewood Rd in Virginia Beach (MLLW),0,,True,False
-LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
-LTDC1,Little Dry Creek below Friant,0,,True,False
-LTFF1,Lake Trafford near Immokalee,0,,True,False
-LTFN4,Passaic River at Little Falls,2,DDCN4;SIGN4,True,False
-LTGW4,Little Goose Creek at Big Horn,1,LGDW4,True,False
-LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
-LTKW3,Wisconsin River at Rainbow Reservoir,2,OTTW3;RHIW3,True,False
 LTLM5,Little Fork River near Silverdale,2,LDNM5;LILM5,True,False
 LTLN6,Mohawk River at Little Falls,2,SCHN6;UCAN6,True,False
 LTLN7,Little River (NC) near Orange Factory,0,,True,False
