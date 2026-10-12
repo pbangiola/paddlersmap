@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CEMC1,East Fork Carson River near Markleeville,1,GRDN2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
 CHBI2,Iroquois River near Chebanse,1,IRQI2,True,False
@@ -239,6 +238,7 @@ LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
 LLGC1,Llagas Creek near Gilroy,1,BSVC1,True,False
+LLGN7,Pigeon River (NC) above (W Fork) Abv Lake Logan,1,RTRN7,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
@@ -280,9 +280,11 @@ MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
 MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
+MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
+MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
@@ -387,6 +389,7 @@ PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
+PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PERL1,Pearl River near Pearl River,1,BXAL1,True,False
@@ -416,6 +419,7 @@ PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,T
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
+PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
@@ -575,6 +579,7 @@ VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN2,Walker River near Wabuska,1,WBMN2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
+WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
