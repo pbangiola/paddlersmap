@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LGOM4,Lake Gogebic near Bergland,0,,True,False
-LGPF1,Choctawhatchee Bay at Legion Park (in MHHW),0,,True,False
-LGPM5,Long Prairie River at Long Prairie,0,,True,False
-LGPT1,Clinch River near Looneys Gap 16ENE,2,SFYV2;TAZT1,True,False
-LGPW1,Loon Lake at Granite Point,0,,True,False
-LGQC1,Los Gatos Creek above Bascom Avenue,0,,True,False
-LGRM7,Mississippi River at LaGrange,2,CANM7;UINI2,True,False
-LGRT1,Wolf River near La Grange,1,ROST1,True,False
-LGRT2,Colorado River (TX) above La Grange,2,CBST2;SMIT2,True,False
-LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
-LGTC1,Los Gatos Creek at Lincoln Avenue,2,GSJC1;LRKC1,True,False
-LGTO2,North Fork of the Red River near Lugert,2,ALTO2;HEAO2,True,False
-LGUP4,Lago Guayo at Damsite near Castaner,0,,True,False
-LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
-LGWC1,Los Gatos Creek at Kirk Dam Weir,0,,True,False
-LGXC1,Laguna Lake Outflow at Madonna Road,0,,True,False
-LHAV2,Little Hunting Creek Trib at Audubon Ave,0,,True,False
-LHBA3,Little Colorado River at Holbrook,2,LCJA3;WDRA3,True,False
-LHBG1,Horton Creek below Lake Horton Dam,0,,True,False
-LHBN1,Haines Branch at Lincoln (SW 56th Street),0,,True,False
-LHCN7,"Little Hope Creek above Seneca Pl, in Madison Park",0,,True,False
-LHCW2,Little Huff Creek above Hanover,0,,True,False
-LHDN2,Carson River at Lahontan Reservoir,2,CBLN2;FTCN2,True,False
-LHDP1,Loyalhanna Creek above Loyalhanna Dam Tail Water,2,LYLP1;VGFP1,True,False
-LHFA2,Lowe River above Horsetail Falls near Valdez,0,,True,False
 LHGT2,South Fork San Gabriel River at SH 1869 near Liberty Hill,1,GETT2,True,False
 LHIF1,Tide Gauge at Little Hickory Island (in MHHW),0,,True,False
 LHMN7,Little Rockfish Creek at Lakeview Rd near Hope Mills,1,BVFN7,True,False
@@ -2702,7 +2677,7 @@ PLFA3,Paria River at Lees Ferry,0,,True,False
 PLGA4,L'Anguille River at Palestine,2,COTA4;LAMA4,True,False
 PLGF1,Palatlakaha River at Cherry Lk nr Groveland,0,,True,False
 PLGM4,Pilgrim River at Paradise Road,0,,True,False
-PLGM5,Crow Wing River near Pillager,2,FTRM5;LFEM5,True,False
+PLGM5,Crow Wing River near Pillager,3,FTRM5;LFEM5;LGPM5,True,False
 PLGN1,Elkhorn River at Pilger,2,NFKN1;WPNN1,True,False
 PLGN7,Catawba River near Pleasant Gardens,2,BRWN7;CRMN7,True,False
 PLHI4,Fourmile Creek at Pleasant Hill Vandalia Rd--IFC,2,DFMI4;SWNI4,True,False
