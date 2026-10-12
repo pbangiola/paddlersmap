@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
-GGGW3,East River (WI) above Greenleaf,1,ERBW3,True,False
 GIDA3,Gila River near Dome,1,GDTA3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
@@ -322,6 +320,7 @@ NEVN6,Neversink River at Godeffroy,1,BRGN6,True,False
 NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
 NFBT2,"North Fork San Gabriel River at 243 near Briggs, TX",1,GNRT2,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
+NFPV2,NF Pound River above Pound,1,PICV2,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
@@ -625,6 +624,7 @@ SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
 SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
+SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False

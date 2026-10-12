@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GFHM2,Gunpowder Falls at Hoffmanville,0,,True,False
-GFKA2,[INACTIVE] Glacier Fork Knik River near Palmer,0,,True,False
-GFLC1,Guadalupe River (CA) at Fish Ladder above Blossom Hill,0,,True,False
-GFLM8,Missouri River near Great Falls,3,FBNM8;ULMM8;VAUM8,True,False
-GFLV2,Difficult Run near Great Falls,0,,True,False
-GFLW1,South Fork Stillaguamish River near Granite Falls,0,,True,False
-GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
-GFNC2,Cache La Poudre River at 59th Ave,0,,True,False
-GFNG1,Cabin Creek at North Second Street near Griffin,0,,True,False
-GFPV2,Pound River at Norland,0,,True,False
-GFSM8,Missouri River at Great Falls,0,,True,False
-GFVW2,Mud River (WV) near Griffithsville,0,,True,False
-GFZM7,Turnback Creek near Greenfield,0,,True,False
-GGGW3,East River (WI) above Greenleaf,1,ERBW3,True,False
-GGLT2,San Gabriel River at Lake Georgetown,2,GERT2;GNRT2,True,False
-GGRM7,Greer Spring near Greer,0,,True,False
-GGYM7,Mississippi River at Gregory Landing,2,CANM7;EOKI4,True,False
-GHBM3,"Green Harbor, Marshfield (In MLLW)",0,,True,False
-GHCC1,Green Hills Creek at Green Hill Country Club,0,,True,False
-GHDP1,East Branch Clarion River Lake at East Branch Dam Tailwater,0,,True,False
-GHHT1,West Prong at Gatlinburg Herbert Holt Park,0,,True,False
-GHLF1,Guptill House Historical Landmark,0,,True,False
-GIBL1,Coastal Reference Monitoring System near Gibson,0,,True,False
-GIBM3,Ware River at Gibbs Crossing,0,,True,False
-GIBN7,Reedy Creek near Gibsonville,0,,True,False
 GIBO2,Eastern Oklahoma Lakes at Ft. Gibson Lake,0,,True,False
 GIBO3,Umatilla River near Gibbon,0,,True,False
 GIBS1,Gills Creek at SC 48,0,,True,False
@@ -100,7 +75,7 @@ GLWI2,Thorn Creek at Glenwood,0,,True,False
 GLWM8,Milk River near Glasgow,2,NSHM8;TMPM8,True,False
 GLWP1,Paxton Creek near Glenwood,0,,True,False
 GLWW2,Brush Creek near Princeton,0,,True,False
-GLYC2,Cache La Poudre River (CO) at Greeley,3,FSSC2;GRPC2;POUC2,True,False
+GLYC2,Cache La Poudre River (CO) at Greeley,4,FSSC2;GFNC2;GRPC2;POUC2,True,False
 GLYT2,Gail Creek at FM 1280 near Lovelady,0,,True,False
 GLZM7,Missouri River at Glasgow,2,BOZM7;MIAM7,True,False
 GMDI3,Graham McCulloch Ditch near Fort Wayne,0,,True,False
@@ -3556,7 +3531,7 @@ NFMM8,North Fork Milk River above St Mary Canal near Browning,0,,True,False
 NFMU1,"North Fork Mill Creek near Moab, UT",0,,True,False
 NFNW1,North Fork Nooksack River near Glacier,0,,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
-NFPV2,NF Pound River above Pound,0,,True,False
+NFPV2,NF Pound River above Pound,1,PICV2,True,False
 NFRV2,North Fork Rivanna River near Earlysville,0,,True,False
 NFRW4,New Fork River above New Fork Lakes near Cora,0,,True,False
 NFSI3,North Fork Salt Creek (IN) at Nashville,0,,True,False
@@ -4264,7 +4239,7 @@ PAZM7,St. Francis River at Patterson,2,SAZM7;WPPM7,True,False
 PBAC2,Pueblo Reservoir near Pueblo,0,,True,False
 PBAN5,Pecos River below Avalon Reservoir,2,CMCN5;CPDN5,True,False
 PBCG1,Pole Bridge Creek at Evans Mill Road near Lithonia,0,,True,False
-PBCV2,Pound River below Bold Camp Creek near Pound,0,,True,False
+PBCV2,Pound River below Bold Camp Creek near Pound,2,GFPV2;PICV2,True,False
 PBDF1,Pinebrook at Bryan Dairy Rd ,0,,True,False
 PBEC1,Petaluma River at Shollenberger Park,0,,True,False
 PBEF1,Pearl Bayou in East Bay (in MHHW),0,,True,False
@@ -4478,7 +4453,7 @@ PICN4,Green Pond Brook at Picatinny,0,,True,False
 PICO3,Butter Creek near Pine City,0,,True,False
 PICT1,Tennessee River at Pickwick Dam Tailwater,2,FLOA1;SAVT1,True,False
 PICT2,Cowhouse Creek near Pidcoke,0,,True,False
-PICV2,Pound River above Indian Creek near Pound,0,,True,False
+PICV2,Pound River above Indian Creek near Pound,2,NFPV2;PBCV2,True,False
 PIDC2,Piedra River near Arboles,0,,True,False
 PIDO1,Stillwater Creek at Piedmont Dam Pool,0,,True,False
 PIEL1,Bayou Pierre at Shreveport,0,,True,False
@@ -4712,7 +4687,7 @@ POTG1,Potato Creek at County Line Road near Orchard Hill,0,,True,False
 POTN6,Dodge Creek (NY) above Portville,0,,True,False
 POTN7,Potecasi Creek near Union,0,,True,False
 POTW3,"Potato River at Gurney, WI",0,,True,False
-POUC2,Cache La Poudre River (CO) at Fort Collins,2,FTDC2;GLYC2,True,False
+POUC2,Cache La Poudre River (CO) at Fort Collins,3,FTDC2;GFNC2;GLYC2,True,False
 POUV2,North Fork Pound River Lake,0,,True,False
 POWG1,Powder Springs Creek near Powder Springs,0,,True,False
 POWO1,Ohio River at Powhatan Point,2,HANO1;MOUW2,True,False
@@ -6578,7 +6553,7 @@ SSDN6,Seneca River at State Ditch,0,,True,False
 SSDW3,Peshtigo River at Sandstone Dam,2,JOFW3;PFDW3,True,False
 SSFN7,Cashie River at Sans Souci Ferry,0,,True,False
 SSFO3,S. Santiam River near Foster,0,,True,False
-SSFW1,South Fork Stillaguamish River at Jordan Rd. Bridge,0,,True,False
+SSFW1,South Fork Stillaguamish River at Jordan Rd. Bridge,2,ARLW1;GFLW1,True,False
 SSGC1,San Gabriel River (CA) at Parkway,0,,True,False
 SSIM5,Lake of the Woods at Spring Steel Island near Warroad,0,,True,False
 SSIW1,SF Stillaguamish R at Silverton,0,,True,False
@@ -6602,7 +6577,7 @@ SSSW1,South Fork Skykomish River at Skykomish,0,,True,False
 SSTC1,San Joaquin River near Stevinson,0,,True,False
 SSTM7,Platte River at Sharps Station,2,AGYM7;PLCM7,True,False
 SSUW1,South Fork Skokomish River near Union,0,,True,False
-SSVW1,South Fork Stillaguamish River above Verlot,0,,True,False
+SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 SSWC1,Sespe Creek near Wheeler Springs,0,,True,False
 SSWU1,Jordan River at 90th South,0,,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
@@ -8269,7 +8244,7 @@ WSEG1,Flint River at Woolsey Road near Woolsey,2,GRFG1;LOVG1,True,False
 WSFH1,Wailua River near Lihue,0,,True,False
 WSFM3,Westfield River at Westfield,0,,True,False
 WSFN8,Sheyenne River at West Fargo,2,HRCN8;HWDN8,True,False
-WSGT2,"San Gabriel River near Weir, TX",4,GERT2;GETT2;GNGT2;GTWT2,True,False
+WSGT2,"San Gabriel River near Weir, TX",5,GERT2;GETT2;GGLT2;GNGT2;GTWT2,True,False
 WSHK1,Mill Creek (WSHK1) at Washington,0,,True,False
 WSHL1,Bayou Courtableau at Washington,0,,True,False
 WSHM1,Aroostook River at Washburn,0,,True,False
