@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
-FTDC1,Smith River at Dr Fine Bridge,1,CREC1,True,False
 FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
 FTOF1,Prairie Creek Upstream SR 31,1,FOGF1,True,False
 FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
@@ -296,6 +294,7 @@ MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False
 MSVI4,Boyer River near Missouri Valley (IFC),1,LGNI4,True,False
 MSVL1,Tchefuncte River above Madisonville,1,TRCL1,True,False
 MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
+MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
 MTGK2,Johns Creek near Meta,1,DWYK2,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
@@ -316,6 +315,7 @@ NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
 NBZN1,Bazile Creek near Niobrara,1,CBCN1,True,False
+NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
@@ -710,6 +710,7 @@ WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WCIF1,Tide Gauge at Yankeetown (in MHHW),1,WIGF1,True,False
 WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
+WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False

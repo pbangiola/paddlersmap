@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FSPO2,Beaver River near Fort Supply,2,BVRO2;WDWO2,True,False
-FSRF1,Tide Gauge at the entrance of the Simpson River (in MHHW),0,,True,False
-FSRM4,Clinton River near Clinton Township,0,,True,False
-FSSC2,Fossil Creek (CO) at Fort Collins,2,FOSC2;GLYC2,True,False
-FSSO3,Nehalem River near Foss,0,,True,False
-FSTI4,Brockcamp Creek near Festina (IFC),0,,True,False
-FSTN1,Willow Creek near Foster,0,,True,False
-FSVK2,Floyds Fork at Fisherville,0,,True,False
-FTAI4,Rogers Creek at Fort Atkinson (IFC),0,,True,False
-FTAW2,Painter Run near Fort Ashby,0,,True,False
-FTBC1,Noyo River near Fort Bragg,0,,True,False
-FTBI3,Pigeon Creek (IN) above Fort Branch,0,,True,False
-FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
-FTBV2,Clinch River at Ft Blackmore,0,,True,False
-FTCM4,Thread Creek near Flint,0,,True,False
-FTCN2,Carson River near Fort Churchill,3,CDYN2;DRRN2;LHDN2,True,False
-FTCN6,Salmon River at Fort Covington,0,,True,False
-FTCO2,Cobb Creek at Fort Cobb Lake,2,EAKO2;FCCO2,True,False
-FTDC1,Smith River at Dr Fine Bridge,1,CREC1,True,False
-FTDC2,Cache La Poudre River (CO) above Fort Collins,0,,True,False
-FTEN6,Hudson River at Fort Edward,2,HDYN6;WTFN6,True,False
-FTEQ6,Niagara River near Ft. Erie,0,,True,False
-FTGM4,Lake Huron at Fort Gratiot Tidal Gauge,0,,True,False
-FTHC1,Kaweah River at Foothill Ditch,0,,True,False
-FTHN7,Little River below Tributary at Fairntosh,0,,True,False
 FTHS2,Moreau River (SD) near Faith,0,,True,False
 FTJC1,Scott River near Fort Jones,0,,True,False
 FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
@@ -282,7 +257,7 @@ GLCM3,Atlantic Coast at Gloucester (IN MLLW),0,,True,False
 GLDC2,Clear Creek (CO) at Golden,3,BHKC2;DRBC2;IDOC2,True,False
 GLDI2,Mississippi River at Gladstone,2,BRLI4;KHBI2,True,False
 GLDI4,Boone River near Goldfield,0,,True,False
-GLDN7,Neuse River near Goldsboro,2,NSSN7;SMFN7,True,False
+GLDN7,Neuse River near Goldsboro,3,KINN7;NSSN7;SMFN7,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
 GLDS1,Gilder Creek at Holland Rd,0,,True,False
@@ -325,7 +300,7 @@ GLWI2,Thorn Creek at Glenwood,0,,True,False
 GLWM8,Milk River near Glasgow,2,NSHM8;TMPM8,True,False
 GLWP1,Paxton Creek near Glenwood,0,,True,False
 GLWW2,Brush Creek near Princeton,0,,True,False
-GLYC2,Cache La Poudre River (CO) at Greeley,2,FSSC2;GRPC2,True,False
+GLYC2,Cache La Poudre River (CO) at Greeley,3,FSSC2;GRPC2;POUC2,True,False
 GLYT2,Gail Creek at FM 1280 near Lovelady,0,,True,False
 GLZM7,Missouri River at Glasgow,2,BOZM7;MIAM7,True,False
 GMDI3,Graham McCulloch Ditch near Fort Wayne,0,,True,False
@@ -1649,7 +1624,7 @@ KILM6,Big Black River near Kilmichael,0,,True,False
 KILN6,Great Kills Harbor at Great Kills (IN MLLW),0,,True,False
 KILN7,Killian Creek near MARIPOSA,0,,True,False
 KILO1,Killbuck Creek at Killbuck,0,,True,False
-KINN7,Neuse River at Kinston,2,FTBN7;NSSN7,True,False
+KINN7,Neuse River at Kinston,3,FTBN7;GLDN7;NSSN7,True,False
 KINP1,Loyalhanna Creek at Kingston,0,,True,False
 KINS1,Black River at Kingstree,2,ADRS1;BLIS1,True,False
 KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
@@ -3437,7 +3412,7 @@ MTBT2,Nueces River at Mathis,2,GWNT2;MTHT2,True,False
 MTCI3,Turkey Creek (IN) at Merrillville,0,,True,False
 MTCI4,Camp Creek near Mitchellville IA 163--IFC,0,,True,False
 MTCK2,Beaver Creek (Cumberland River KY) near Monticello,0,,True,False
-MTCM4,Clinton River at Mount Clemens,0,,True,False
+MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
 MTCM6,Pearl River near Monticello,2,CLMM6;ROCM6,True,False
 MTCM8,Musselshell River at Martinsdale Supply Canal,0,,True,False
 MTCS1,Little River near Mt Carmel,0,,True,False
@@ -3553,7 +3528,7 @@ MWLW2,Little Tygart Creek (WV) at Mineral Wells,0,,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MWRW2,Whetstone Creek at Mannington,0,,True,False
 MWSH1,Makawao Stream near Kailua,0,,True,False
-MWTK2,Floyds Fork near Mt. Washington,2,FNCK2;SHPK2,True,False
+MWTK2,Floyds Fork near Mt. Washington,3,FNCK2;FSVK2;SHPK2,True,False
 MWXC1,Santa Ana River at MWD Crossing near Arlington,0,,True,False
 MXCF1,Tide Station at Mexico Beach (in MHHW),0,,True,False
 MXDC1,Mojave River at Daggett,0,,True,False
@@ -3685,7 +3660,7 @@ NCDV2,Upper Machodoc Creek near Dahlgren (IN MLLW),0,,True,False
 NCEN8,Pembina River at Neche,2,PBNN8;WLHN8,True,False
 NCET2,East Fork San Jacinto River near New Caney,2,CLDT2;HSJT2,True,False
 NCFV2,Naked Creek near Furnace,0,,True,False
-NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,0,,True,False
+NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCHS1,Little Pee Dee River near Nichols,2,DLLS1;GALS1,True,False
 NCHT2,Tide Station (HGX) at Manchester,0,,True,False
@@ -4000,7 +3975,7 @@ NRXC1,Napa River at Yountville Cross Road,0,,True,False
 NSBN1,Niobrara River above Soldier Creek near Niobrara,2,NRBN1;VRDN1,True,False
 NSBT2,Neches River at Saltwater Barrier,3,BEAT2;BIPT2;EVDT2,True,False
 NSEC1,Nathanson Creek at 2nd Street East,0,,True,False
-NSEC2,North Fork Cache La Poudre River below Seaman Reservoir,0,,True,False
+NSEC2,North Fork Cache La Poudre River below Seaman Reservoir,2,FTDC2;NCHC2,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSFO3,Nestucca River Near Ferndale,0,,True,False
 NSFW1,South Fork Nooksack River at Potter Rd,0,,True,False
@@ -4937,7 +4912,7 @@ POTG1,Potato Creek at County Line Road near Orchard Hill,0,,True,False
 POTN6,Dodge Creek (NY) above Portville,0,,True,False
 POTN7,Potecasi Creek near Union,0,,True,False
 POTW3,"Potato River at Gurney, WI",0,,True,False
-POUC2,Cache La Poudre River (CO) at Fort Collins,0,,True,False
+POUC2,Cache La Poudre River (CO) at Fort Collins,2,FTDC2;GLYC2,True,False
 POUV2,North Fork Pound River Lake,0,,True,False
 POWG1,Powder Springs Creek near Powder Springs,0,,True,False
 POWO1,Ohio River at Powhatan Point,2,HANO1;MOUW2,True,False
@@ -6203,7 +6178,7 @@ SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,0,,True,False
 SFTN7,Swift Creek above McCuller's Crossroads,0,,True,False
 SFWI1,South Fork Coeur d'Alene River at Wallace,0,,True,False
 SFWI3,South Fork Wildcat Creek near Lafayette,0,,True,False
-SFYV2,Clinch River near Speers Ferry,3,CLVV2;DNGV2;LGPT1,True,False
+SFYV2,Clinch River near Speers Ferry,4,CLVV2;DNGV2;FTBV2;LGPT1,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SGAF1,Phillippi Creek at Bougainvillea Street Pond,0,,True,False
 SGAT2,Barrilla Draw 13 miles ESE of Saragosa,0,,True,False
@@ -8001,7 +7976,7 @@ WCNN6,Canisteo River near West Cameron,0,,True,False
 WCNW1,Wind River near Carson,0,,True,False
 WCOM7,Spring River  near Waco,2,BXTK1;CHTM7,True,False
 WCPC1,Walnut Creek,0,,True,False
-WCPN1,Willow Creek near Pierce,0,,True,False
+WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRC2,Willow Creek (CO) at Willow Creek Reservoir,0,,True,False
 WCRI3,Williams Creek at 96th Street on the Hamilton-Marion County Line,0,,True,False
 WCRM7,Wilson Creek near Springfield,0,,True,False
