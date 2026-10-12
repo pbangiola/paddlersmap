@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FLGV2,Jackson River at Falling Spring,2,CVGV2;MOOV2,True,False
-FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
-FLIN6,Flint Creek near Phelps,0,,True,False
-FLLA2,Fawn Lake above Fawn Lake Dam near Ketchikan,0,,True,False
-FLLK1,Fall River (KS) at Fall River Lake,0,,True,False
-FLLN1,Big Nemaha River at Falls City,0,,True,False
-FLLN6,Fall Creek at Ithaca,0,,True,False
-FLMA1,Big Escambia Creek at Flomaton,0,,True,False
-FLMK2,Licking River at Falmouth,2,CATK2;MKBK2,True,False
-FLMM5,Middle Branch Root River at Fillmore,0,,True,False
-FLMP1,Little Conestoga Creek at Flory Mill,0,,True,False
-FLNI4,North Fork Maquoketa River at Fulton,2,DYRI4;MCHI4,True,False
-FLOA1,Tennessee River at Florence,2,DECA1;PICT1,True,False
-FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
-FLOW3,Menominee River near Florence,2,COMW3;TWFM4,True,False
-FLPG1,Pates Creek near Flippen,0,,True,False
-FLQC1,False River near Oakley Ca,0,,True,False
-FLRK1,Cottonwood River near Florence,1,CWSK1,True,False
-FLRK2,Big Sandy River (KY) at Fullers Station,1,PTVK2,True,False
-FLRM2,Whitemarsh Run near Fullerton,0,,True,False
-FLRN8,Sheyenne River above Devils Lake State Outlet near Flora,2,BRMN8;HVYN8,True,False
-FLRV2,Falling River near Naruna,0,,True,False
-FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
-FLSA2,Falls Creek near Petersburg,0,,True,False
-FLSI2,Butterfield Creek at Flossmoor,0,,True,False
 FLSI4,Soap Creek near Floris Quail Ave--IFC,2,DSOI4;KEQI4,True,False
 FLSL1,Tchefuncte River near Folsom,1,CUSL1,True,False
 FLSM4,Swartz Creek near Flint,0,,True,False
@@ -5872,7 +5847,7 @@ RPCV2,Peters Creek at Strauss Park,0,,True,False
 RPDM5,Le Sueur River near Rapidan,0,,True,False
 RPIL1,Bayou Anacoco near Rosepine,0,,True,False
 RPLW2,Elk River near Replete (Left Fork Holly),2,CFRW2;GUAW2,True,False
-RPMM5,Root River (MN) near Pilot Mound,0,,True,False
+RPMM5,Root River (MN) near Pilot Mound,2,FLMM5;RSFM5,True,False
 RPOP4,Rio Piedras at Hato Rey,0,,True,False
 RPPC1,Kern River at Reclamation Canal,0,,True,False
 RPTF1,Tampa Bay at Rocky Point (in MHHW),0,,True,False
@@ -5922,7 +5897,7 @@ RSBS2,Little White River near Rosebud,0,,True,False
 RSCC1,Ross Creek at Cherry Avenue,0,,True,False
 RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
-RSFM5,Root River (MN) above Rushford,2,HOUM5;LNSM5,True,False
+RSFM5,Root River (MN) above Rushford,3,HOUM5;LNSM5;RPMM5,True,False
 RSFN5,San Francisco River at Reserve,0,,True,False
 RSGN2,Pine Creek nr Palisade,0,,True,False
 RSHI3,Flatrock River at Rushville,2,RALI3;STPI3,True,False
@@ -7462,7 +7437,7 @@ THHF1,Tomoka River near Holly Hill,0,,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
 THMF1,Thomas Creek (in NAVD88),0,,True,False
 THMW2,New River at Thurmond,2,HINW2;HNNW2,True,False
-THNI2,Thorn Creek at Thornton,2,CDCI2;SHLI2,True,False
+THNI2,Thorn Creek at Thornton,3,CDCI2;FLSI2;SHLI2,True,False
 THNW1,Thunder Creek near Newhalem,0,,True,False
 THPN7,West Fork Tuckasegee River at Thorpe Dam,0,,True,False
 THQC1,Thompson Creek above Quimby Avenue,0,,True,False
