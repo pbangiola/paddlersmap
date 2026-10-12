@@ -1,11 +1,10 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BWLV2,Mattaponi River at Bowling Green,1,BLHV2,True,False
-BWMA1,Murder Creek (AL) at Brewton,1,BCNA1,True,False
 BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
 BYCO3,Bully Creek near Vale,1,BULO3,True,False
 CAAT2,Nueces River at Calallen,1,CBVT2,True,False
 CAPL1,Tide Station (LCH) at Calcasieu Pass,1,LCLL1,True,False
 CARG1,Broad River in GA above Carlton,1,BELG1,True,False
+CARM6,Pearl River near Carthage,1,GDHM6,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBEM2,North Branch Potomac River at Cumberland,1,LUKM2,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
@@ -63,6 +62,7 @@ CYNG1,Chattooga River at Hwy 76,1,BURG1,True,False
 DANA4,Petit Jean River at Danville,1,BMTA4,True,False
 DARL1,Amite River near Darlington,1,GVLL1,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
+DAVW2,Blackwater River (WV) above Davis,1,BWRW2,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
 DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
@@ -151,7 +151,6 @@ HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
-HLST1,South Fork Forked Deer River near Halls,1,BLST1,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
@@ -181,7 +180,6 @@ JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JHNA4,Saline River near Johnsville,1,WARA4,True,False
 JKFM7,Jacks Fork near Mountain View,1,ALYM7,True,False
-JKNT1,South Fork Forked Deer River at Jackson,1,BLST1,True,False
 JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
 JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
 JMEI4,Floyd River at James,1,MRLI4,True,False
@@ -313,6 +311,7 @@ NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
 NEVN6,Neversink River at Godeffroy,1,BRGN6,True,False
+NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NGTC2,North Platte River near Northgate,1,SRAW4,True,False
@@ -363,6 +362,7 @@ PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
+PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
@@ -395,6 +395,7 @@ PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
+QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAPM5,Blue Earth River near Rapidan,1,BUEM5,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
@@ -429,6 +430,7 @@ RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
+RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVRN1,Republican River at Riverton,1,REPN1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
@@ -458,6 +460,7 @@ SHNI4,East Nishnabotna River near Shenandoah (IFC),1,COBI4,True,False
 SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
+SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
 SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
 SLIM2,Patuxent River at Solomons Island (IN MLLW),1,BRIM2,True,False
 SLKM7,Reservoirs  Smithville Reservoir,1,LNZM7,True,False
