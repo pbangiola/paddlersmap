@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
-CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
 CYLO2,Little Washita River near Cyril,1,CMTO2,True,False
 CYNG1,Chattooga River at Hwy 76,1,BURG1,True,False
@@ -165,6 +163,7 @@ HWBN7,Haw River at NC-62,1,HAWN7,True,False
 HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
 HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
 HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
+HYDP1,Wills Creek below Hyndman,1,CWCM2,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
 ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
 IDAP1,Crooked Creek at Idaho,1,CRCP1,True,False
@@ -266,6 +265,7 @@ LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
 LTXT2,Navidad River at Lake Texana,1,CODT2,True,False
+LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
 LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
 LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
@@ -625,6 +625,7 @@ SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SXRA2,Kenai River at Soldotna,1,KEYA2,True,False
 SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
+TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
 TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
@@ -715,6 +716,7 @@ WSTM6,Big Black River at West,1,BTAM6,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
 WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
+WTTO2,Illinois River (AR OK) near Watts,1,CWYO2,True,False
 WTTP1,French Creek at Wattsburg,1,UCTP1,True,False
 WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
 WTVO1,Maumee River at Waterville,1,GRRO1,True,False
