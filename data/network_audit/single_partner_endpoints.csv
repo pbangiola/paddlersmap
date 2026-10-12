@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
-DLPI3,Tippecanoe River near Delphi,1,OADI3,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
 DNSM3,Nashua River at East Pepperell,1,CLIM3,True,False
 DNVI2,Vermilion River (E-IL) near Danville,1,BISI2,True,False
@@ -27,6 +25,7 @@ EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 EBWM5,North Fork Whitewater River near Elba,1,BVRM5,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
 ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,True,False
+EDEN8,Edmore Coulee near Edmore,1,DLBN8,True,False
 EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
@@ -49,6 +48,7 @@ ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
 ESWL1,Bayou Plaquemine Brule at Estherwood,1,CRWL1,True,False
+ETNG1,Conasauga River at GA 286 near Eton,1,TLNG1,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FALP1,Conewago Creek near Falmouth,1,CCBP1,True,False
@@ -506,6 +506,7 @@ RHRN6,Genesee River at Rochester,1,AVON6,True,False
 RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
 RIGA4,Right Hand Chute Little River at Rivervale,1,PNGA4,True,False
 RIPI2,La Moine River at Ripley,1,CLMI2,True,False
+RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
@@ -643,6 +644,7 @@ TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
+TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,1,GASO3,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
@@ -669,6 +671,7 @@ UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
+UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
@@ -681,7 +684,6 @@ VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 VNCL1,Mississippi River at Venice,1,MWBL1,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 VSUV2,South River at Vesuvius,1,CRNV2,True,False
-WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
@@ -729,6 +731,7 @@ WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
 WSIN2,Walker River near Schurz,1,WBWN2,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
+WSLO3,Tualatin River at West Linn,1,TUAO3,True,False
 WSTM6,Big Black River at West,1,BTAM6,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
