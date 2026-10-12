@@ -1,10 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BUNL1,Bundick Creek near DeRidder,1,BKDL1,True,False
-BUSP1,Central PA Dams  Bush Dam on Kettle Creek,1,COWP1,True,False
-BUXC1,Butano Creek - Cloverdale Road,1,BPXC1,True,False
 BWLV2,Mattaponi River at Bowling Green,1,BLHV2,True,False
 BWMA1,Murder Creek (AL) at Brewton,1,BCNA1,True,False
 BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
+BYCO3,Bully Creek near Vale,1,BULO3,True,False
 CAAT2,Nueces River at Calallen,1,CBVT2,True,False
 CAPL1,Tide Station (LCH) at Calcasieu Pass,1,LCLL1,True,False
 CARG1,Broad River in GA above Carlton,1,BELG1,True,False
@@ -39,6 +37,7 @@ CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
 CNEI4,Cedar River near Conesville,1,CEBI4,True,False
 CNWM2,Susquehanna River at Conowingo Dam,1,MRTP1,True,False
 COGO3,Cow Creek above Azalea,1,GSVO3,True,False
+COGW2,Gauley River at Camden-On-Gauley,1,CRAW2,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
 COMO2,Neosho River near Commerce,1,NSOK1,True,False
 CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
@@ -57,6 +56,7 @@ CVGV2,Jackson River at Covington,1,FLGV2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
+CYNG1,Chattooga River at Hwy 76,1,BURG1,True,False
 DANA4,Petit Jean River at Danville,1,BMTA4,True,False
 DARL1,Amite River near Darlington,1,GVLL1,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
@@ -202,6 +202,7 @@ LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
 LAWM3,Merrimack River at Lawrence,1,BATM3,True,False
 LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
+LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
 LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
 LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
@@ -233,6 +234,7 @@ LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
 LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
+LWLK1,White Rock Creek below Lovewell Reservoir,1,LOVK1,True,False
 LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
 LWTV2,Potomac River at Lewisetta (IN MLLW),1,AXTV2,True,False
 LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
@@ -461,6 +463,7 @@ STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
+SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
@@ -511,6 +514,7 @@ WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WHTG1,Chattahoochee River near Whitesburg,1,FBNG1,True,False
+WIHN6,Lake Champlain near Whitehall,1,PHCN6,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
