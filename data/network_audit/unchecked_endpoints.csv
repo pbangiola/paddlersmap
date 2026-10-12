@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-INKM4,Lower Rouge at Inkster,0,,True,False
-INLO2,Eastern Oklahoma Lakes at Newt Graham Lock and Dam 18,0,,True,False
-INOO2,Verdigris River near Inola,2,CLRO2;CTOO2,True,False
-INRD1,Indian River near Indian River Inlet (IN MLLW),0,,True,False
-INRN6,Indian River below Indian Lake,1,INDN6,True,False
-INSI3,Eagle Creek (IN) at Speedway,2,ECCI3;ERSI3,True,False
-INTG1,Intrenchment Creek at Constitution Road near Atlanta,0,,True,False
-IOCI4,Old Mans Creek near Iowa City,0,,True,False
-IOLK1,Neosho River at Iola,2,CNUK1;LRYK1,True,False
-IONI4,Little Cedar River near Ionia,2,BSTI4;NUAI4,True,False
-IONM4,Grand River at Ionia,2,LWLM4;PORM4,True,False
-IOWI4,Iowa River at Iowa City,2,CTWI4;LNTI4,True,False
-IPDF1,Indian River near Pineda Causeway (in MHHW),0,,True,False
-IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
-IPRT2,North Fork Buffalo Creek at NF Buffalo Cr. Reservoir,0,,True,False
-IPSM3,Ipswich River at Ipswich,0,,True,False
-IPWT2,Wichita River near Iowa Park,2,DDET2;WICT2,True,False
-IRAC1,Russian River at Mirabel,0,,True,False
-IRAT2,Colorado River (TX) 4 miles SW of Ira below Lake J. B. Thomas,0,,True,False
-IRBN7,Tuckasegee River at Rock Bridge,0,,True,False
-IRCG1,Spring Creek near Iron City (CR 16),2,CQUG1;REYG1,True,False
-IRCI4,Rapid Creek (IA) near Iowa City,0,,True,False
-IRCN7,Robinson Creek (NC) at Great Falls Dr,0,,True,False
-IRCT1,Shoal Creek near Iron City,0,,True,False
-IRDT2,Tide Gauge at Bird Island,0,,True,False
 IREF1,Indian River near Eau Gallie Blvd (in MHHW),0,,True,False
 IRGC1,Klamath River below Iron Gate Dam,2,BOYO3;SEIC1,True,False
 IRIS2,Wild Irishman Gulch near Rapid City,0,,True,False
@@ -698,7 +673,7 @@ LCMV2,Lewis Creek At Mill Street,0,,True,False
 LCNI3,Little Calumet River at Munster (Northcote Avenue),2,LCMI3;MNTI3,True,False
 LCNM3,Concord River at Lowell,0,,True,False
 LCNN1,Salt Creek at Lincoln (27th Street),2,LSCN1;SALN1,True,False
-LCOI4,Little Cedar River near Orchard (IFC),0,,True,False
+LCOI4,Little Cedar River near Orchard (IFC),1,IONI4,True,False
 LCOL1,Big Cypress Creek at Mooringsport (Caddo Lake),2,BGKT2;SVPL1,True,False
 LCPK1,Kansas River at Lecompton,2,LWRK1;TPAK1,True,False
 LCPM8,Lake Creek (MT) near Power,0,,True,False

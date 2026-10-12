@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-INRN6,Indian River below Indian Lake,1,INDN6,True,False
-IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IRNM7,Big River at Irondale,1,RCHM7,True,False
 ISKN6,Tioughnioga River at Itaska,1,LSLN6,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
@@ -69,6 +67,7 @@ LBSM8,Little Bighorn River at State Line near Wyola,1,HRDM8,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
 LCBT2,Wolf Creek at Lipscomb,1,GAWO2,True,False
 LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
+LCOI4,Little Cedar River near Orchard (IFC),1,IONI4,True,False
 LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
 LCTT2,West Fork San Jacinto River at Lake Conroe,1,CFKT2,True,False
 LCVN5,Mora River at La Cueva,1,GOLN5,True,False
