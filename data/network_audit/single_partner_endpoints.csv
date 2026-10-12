@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DWTO1,Wills Creek at Derwent,1,CDIO1,True,False
 EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
 EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
 EALC2,Eagle River above Avon,1,GORC2,True,False
@@ -51,6 +50,7 @@ FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
 FLRK1,Cottonwood River near Florence,1,CWSK1,True,False
+FLRK2,Big Sandy River (KY) at Fullers Station,1,PTVK2,True,False
 FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FLSL1,Tchefuncte River near Folsom,1,CUSL1,True,False
 FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
@@ -97,6 +97,7 @@ GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
+GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
@@ -312,6 +313,7 @@ MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTI2,Sangamon River at Monticello,1,RVTI2,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
+MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
 MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
 MODP1,West Branch Brandywine Creek at Modena,1,COTP1,True,False
@@ -336,6 +338,7 @@ MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False
 MSVI4,Boyer River near Missouri Valley (IFC),1,LGNI4,True,False
 MSVL1,Tchefuncte River above Madisonville,1,TRCL1,True,False
 MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
+MTGK2,Johns Creek near Meta,1,DWYK2,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
@@ -520,6 +523,7 @@ RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
 ROSN7,French Broad River at Rosman,1,BLAN7,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
+ROXN6,East Branch Delaware River at Roxbury,1,MRGN6,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
@@ -604,6 +608,7 @@ SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
+SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
@@ -638,6 +643,7 @@ SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
 TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
+TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
