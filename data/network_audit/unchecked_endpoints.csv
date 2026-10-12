@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GAAC1,N. Fork Gualala River above S. Fork Gualala NR Gualala,0,,True,False
-GACC1,Galloway Creek at Cooley Ranch Road,0,,True,False
-GACM4,Middle Rouge at Dearborn Heights,0,,True,False
-GACV2,Aquia Creek near Garrisonville,0,,True,False
-GADS1,Congaree River at Congaree National Park,3,CEAS1;CFMS1;FTMS1,True,False
-GAKA2,Gakona River near Gakona,0,,True,False
-GALM2,Long Green Creek at Glen Arm,0,,True,False
-GALO3,Gales Creek near Forest Grove,0,,True,False
-GALS1,Little Pee Dee River near Galivants Ferry,3,LPCS1;NCHS1;NICS1,True,False
-GALW2,Ohio River at R C Byrd Lock,2,HNTW2;POPW2,True,False
-GALW3,Black River (WI) at Galesville,2,BRFW3;LCRM5,True,False
-GAMA2,Gambell tide gage,0,,True,False
-GAMM2,Minebank Run near Glen Arm,0,,True,False
-GAPA1,Coosa River at Gadsden,2,CREA1;RGLA1,True,False
-GAPV2,South Fork Powell River at Big Stone Gap,0,,True,False
-GARC1,Sisquoc River at Garey,0,,True,False
-GARG1,Garner Creek near Snellville,0,,True,False
-GARN8,Missouri River at the Garrison Dam,2,BIWN8;WLTN8,True,False
-GARO1,Mill Creek at Garfield Heights,0,,True,False
-GARW1,South Fork Snoqualmie River near South Fork Snoqualmie R near Garcia,0,,True,False
-GASA1,Coosa River near Wilsonville,0,,True,False
-GASN7,Roanoke River at Lake Gaston,2,KERV2;RRDN7,True,False
-GASO3,Tualatin River near Gaston,2,DLLO3;TLFO3,True,False
-GAST2,Leon River at Gatesville,2,BLNT2;HMLT2,True,False
-GATN1,Middle Loup River at Gates,1,DNGN1,True,False
 GATT1,West Prong Little Pigeon River above Gatlinburg,2,CPAT1;HJBT1,True,False
 GATU1,Weber River near Gateway,0,,True,False
 GATV2,North Fork Holston River near Gate City,3,BMCV2;JSKT1;SALV2,True,False
@@ -258,7 +233,7 @@ GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
 GMIW3,Kickapoo River at Gays Mills,0,,True,False
 GMJW4,Gibbon River at Madison Junction,0,,True,False
 GMKT2,Goose Creek near McNair,0,,True,False
-GMLO1,Mill Creek at Garfield Parkway,0,,True,False
+GMLO1,Mill Creek at Garfield Parkway,1,GARO1,True,False
 GMNM2,"Little Seneca Creek Tributary Near Germantown, MD",0,,True,False
 GMRC2,Blue River (CO) at Green Mountain Reservoir,0,,True,False
 GMRM2,St. Marys River at Great Mills,0,,True,False
@@ -6631,7 +6606,7 @@ SPYN7,Symphony Lake near Cary,0,,True,False
 SPYT1,Loosahatchie River at Singleton Parkway,0,,True,False
 SQKO3,Whychus Creek near Sisters,0,,True,False
 SQUI1,Squaw Creek (ID) below Bruno Creek,0,,True,False
-SQUW1,Snoqualmie River at Snoqualmie Falls,2,CRNW1;TANW1,True,False
+SQUW1,Snoqualmie River at Snoqualmie Falls,3,CRNW1;GARW1;TANW1,True,False
 SQWI1,Squaw Creek near Sweet,0,,True,False
 SRAA2,Swanson River at Oil Field Service Road Bridge near Kenai,0,,True,False
 SRAG1,Savannah River at Jefferson Davis Bridge in Augusta,2,AUGG1;EVSG1,True,False
@@ -6740,7 +6715,7 @@ SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
 SSOC2,South Boulder Creek (CO) below Eldorado Springs,0,,True,False
 SSPM5,Mississippi River at South St. Paul - Pool 2,0,,True,False
 SSPV1,Lake Champlain at Sandbar State Park Flood Inundation Mapping Site,0,,True,False
-SSQC1,Sisquoc River near Sisquoc,0,,True,False
+SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
 SSQO2,Squirrel Creek near Shawnee,0,,True,False
 SSRF1,Sulphur Springs Run at Sulphur Springs,0,,True,False
 SSRM8,Sun River near Simms,2,ELCM8;VAUM8,True,False

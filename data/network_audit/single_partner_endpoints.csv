@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GATN1,Middle Loup River at Gates,1,DNGN1,True,False
 GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
 GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
@@ -19,6 +18,7 @@ GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNM7,James River (MO) at Galena,1,FINM7,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
+GMLO1,Mill Creek at Garfield Parkway,1,GARO1,True,False
 GNGT2,San Gabriel River at Granger Lake,1,WSGT2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
@@ -612,6 +612,7 @@ SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
+SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
