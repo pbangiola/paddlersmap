@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MILW2,Shenandoah River at Millville,1,FROV2,True,False
-MILW3,Crawfish River at Milford,1,CUSW3,True,False
 MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
 MJRC1,Mojave River at Afton,1,MBRC1,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
@@ -321,6 +319,7 @@ RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
 RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
 RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
+RIDI3,Mississinewa River at Ridgeville,1,MROI3,True,False
 RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
 RIGK1,Big Creek near Ellis,1,ELLK1,True,False
 RIPI2,La Moine River at Ripley,1,CLMI2,True,False
@@ -469,6 +468,7 @@ SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
+SRBS1,Salkehatchie River near Barnwell,1,MILS1,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
@@ -488,6 +488,7 @@ STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
 STFM5,Rum River near St. Francis 4 South,1,MCAM5,True,False
+STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
 STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
@@ -681,6 +682,7 @@ WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
 WSLO3,Tualatin River at West Linn,1,TUAO3,True,False
+WSLT2,Main Floodway South of Weslaco,1,MITT2,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
 WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False

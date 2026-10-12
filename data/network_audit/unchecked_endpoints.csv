@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MILO1,Huron River at Milan,0,,True,False
-MILS1,Salkehatchie River near Miley,0,,True,False
-MILU1,Mill Creek above Mill Creek,0,,True,False
-MILW2,Shenandoah River at Millville,1,FROV2,True,False
-MILW3,Crawfish River at Milford,1,CUSW3,True,False
-MIMN5,Mimbres River at Mimbres,0,,True,False
-MINI1,Eastern Idaho Reservoirs at Minidoka Dam,2,AMFI1;MDMI1,True,False
-MINN7,Currituck Sound at Mackay's Island,0,,True,False
-MINN8,Souris River at Minot 4NW,2,FOXN8;MION8,True,False
-MINW2,Knapp Creek at Huntersville,0,,True,False
-MIOM4,Au Sable River at Mio (Mio Dam),2,MCKM4;RDOM4,True,False
-MION8,Souris River at Minot-Broadway Bridge,2,LGNN8;MINN8,True,False
-MIOT2,Medio Creek near Beeville,0,,True,False
-MIRV2,Middle River at Rt 250,0,,True,False
-MISI3,Mississinewa River at Peoria,0,,True,False
-MISM5,Pine River near Mission,0,,True,False
-MISO1,Mosquito Creek at Mosquito Creek Lake,0,,True,False
-MISP4,Mona Tide Gauge (in MLLW),0,,True,False
-MISW1,Mission Creek near Cashmere,0,,True,False
-MITF1,Milton Riverwalk (In MHHW),0,,True,False
-MITG1,Comissioner Creek at US 441 at McIntyre,0,,True,False
-MITM2,Collington Branch at Mitchellville,0,,True,False
-MITN4,Millstone River at Millstone,0,,True,False
-MITT2,Banker Inlet to Main Floodway,0,,True,False
-MIWI4,Iowa River at Marshalltown,4,CONI4;NPVI4;STBI4;TMAI4,True,False
 MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
 MIZF1,Mizell Outfall on Matanzas River (in MHHW),0,,True,False
 MJAP4,Canal de Riego de Lajas Abv Majinas Filtration Plant,0,,True,False
@@ -326,7 +301,7 @@ MRLL1,Bayou Des Glaises Diversion Ch near Moreauville,0,,True,False
 MRLM2,Morgan Run near Louisville,0,,True,False
 MRLO1,Huff Run at Mineral City,0,,True,False
 MRLV2,Lewis Creek At Middlebrook Road and Rt. 262,0,,True,False
-MRLW2,Greenbrier River at Marlinton,2,BUCW2;CLLW2,True,False
+MRLW2,Greenbrier River at Marlinton,3,BUCW2;CLLW2;MINW2,True,False
 MRLW3,Prairie River  near Merrill,0,,True,False
 MRMC1,Middle Fork Feather River near Merrimac,0,,True,False
 MRML1,Mermentau River at Mermentau,3,BDCL1;BSLL1;LCSL1,True,False
@@ -338,7 +313,7 @@ MRNI4,Indian Creek (Eastern IA) at Marion,0,,True,False
 MRNN1,Missouri River at Niobrara,2,MRVN1;SPGS2,True,False
 MRNN6,Esopus Creek at Mount Marion,1,ASEN6,True,False
 MROI2,Illinois River at Meredosia,2,NLGI2;VALI2,True,False
-MROI3,Mississinewa River at Marion,0,,True,False
+MROI3,Mississinewa River at Marion,2,MSSI3;RIDI3,True,False
 MROI4,Iowa River at Marengo,2,BPLI4;CRVI4,True,False
 MROS1,Atlantic Coast at Myrtle Beach Springmaid Pier (IN MLLW),0,,True,False
 MROW1,Snohomish River near Monroe,3,CRNW1;GLBW1;SNAW1,True,False
@@ -404,13 +379,13 @@ MSPM5,Mississippi River at Fridley abv 37th Ave NE,2,ANKM5;STPM5,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSPN6,Raquette River at Massena Springs,0,,True,False
 MSQM4,Manistique River near Manistique,0,,True,False
-MSQO1,Mosquito Creek below Mosquito Creek Lake,0,,True,False
+MSQO1,Mosquito Creek below Mosquito Creek Lake,2,MISO1;YGWO1,True,False
 MSRF1,MS-3 CMR Near SR 72,0,,True,False
 MSRS1,Middle Saluda river near Cleveland,0,,True,False
 MSSC1,McCloud River above Above Shasta Lake,0,,True,False
 MSSF1,Ocklawaha River at Moss Bluff Dam,0,,True,False
 MSSI1,Middle Fork Salmon River at Mouth,1,MIDI1,True,False
-MSSI3,Northern Indiana Lakes at Mississinewa Lake,0,,True,False
+MSSI3,Northern Indiana Lakes at Mississinewa Lake,2,MISI3;MROI3,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
 MSSN7,Hiwassee River above Mission Dam at Brasstown,0,,True,False
 MSSO3,"Mill Creek (Marion Co., OR) at Spenner Road near Sublimity",1,MTTO3,True,False
@@ -2044,7 +2019,7 @@ PRTN8,Goose River near Portland,1,HGRN8,True,False
 PRTO3,Willamette River at Portland,2,ORCO3;SHNO3,True,False
 PRTP4,Rio Portugues near Tibes,0,,True,False
 PRTV2,Chesapeake Bay at Port Isobel/Tangier Island (IN MLLW),0,,True,False
-PRUI3,Wabash River at Peru,2,LGNI3;WABI3,True,False
+PRUI3,Wabash River at Peru,3,LGNI3;MISI3;WABI3,True,False
 PRUL1,Pearl River at Navigational Canal #1 near Pearl River,0,,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVI3,Pogues Run at Vermont Street in Indianapolis,0,,True,False
@@ -2472,7 +2447,7 @@ RICQ8,Battle Creek at Richardson Ditch nr Consul 5NNW,0,,True,False
 RICT1,Little Pigeon River at Richardson Cove (Maples Branch),2,LPNT1;POCT1,True,False
 RICV2,James River (VA) at Richmond Locks,3,JPHV2;RMDV2;SWPV2,True,False
 RIDI1,Eastern Idaho Reservoirs at Ririe Dam,0,,True,False
-RIDI3,Mississinewa River at Ridgeville,0,,True,False
+RIDI3,Mississinewa River at Ridgeville,1,MROI3,True,False
 RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
 RIGA4,Right Hand Chute Little River at Rivervale,3,MDEA4;MTOA4;PNGA4,True,False
 RIGI1,Little Salmon River at Riggins,0,,True,False
@@ -3706,7 +3681,7 @@ SRAM8,Stillwater River (South Central MT) near Absarokee,0,,True,False
 SRAW4,North Platte River at Saratoga,2,NGTC2;SINW4,True,False
 SRBM5,Snake River (NW MN) at Retention Pond Outlet near Radium,0,,True,False
 SRBN1,Pebble Creek at Scribner,0,,True,False
-SRBS1,Salkehatchie River near Barnwell,0,,True,False
+SRBS1,Salkehatchie River near Barnwell,1,MILS1,True,False
 SRBV2,Slate Run at Old Church Rd,0,,True,False
 SRBW1,N Fk Toutle River below Sediment Retention Structure near Toutle,0,,True,False
 SRCI2,Robinson Creek (IL) near Shelbyville,0,,True,False
@@ -3855,7 +3830,7 @@ STGM1,St. George Tides (MLLW),0,,True,False
 STGM5,Maple River near Sterling Center 2NE,0,,True,False
 STGO1,Chippewa Creek at Sterling,0,,True,False
 STGS2,Deadman Gulch at Sturgis,0,,True,False
-STGV2,North Fork Shenandoah River near Strasburg,0,,True,False
+STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
 STHG1,South River at Forrest Park Road at Atlanta,0,,True,False
 STHI3,"Sugar Creek at West Terre Haute, IN",0,,True,False
 STHM1,Stonington Harbor (MLLW),0,,True,False
@@ -5500,7 +5475,7 @@ WSLF1,Tide Station at West Summerland Key on Spanish Harbor Channel (in MHHW),0,
 WSLM1,Old Stream near Wesley,0,,True,False
 WSLO2,Eastern Oklahoma Lakes at Wister Lake,0,,True,False
 WSLO3,Tualatin River at West Linn,1,TUAO3,True,False
-WSLT2,Main Floodway South of Weslaco,0,,True,False
+WSLT2,Main Floodway South of Weslaco,1,MITT2,True,False
 WSNN7,Hominy Swamp at Forest Hills Rd near Wilson,0,,True,False
 WSNO3,South Umpqua River near Winston,0,,True,False
 WSPF1,Suwannee River at White Springs (in NAVD88),2,LIKF1;SBNF1,True,False
@@ -5669,7 +5644,7 @@ YFSI1,Yankee Fork Salmon River near Clayton,0,,True,False
 YFYA2,Yukon River at Fort Yukon,2,BVRA2;CIRA2,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YGOP1,Youghiogheny River below Youghiogheyny Dam - Outflow (Tailwater),2,CNFP1;FRDM2,True,False
-YGWO1,Mahoning River at Youngstown,2,LLWO1;WRNO1,True,False
+YGWO1,Mahoning River at Youngstown,3,LLWO1;MSQO1;WRNO1,True,False
 YHCA2,Yukon River at Holy Cross,0,,True,False
 YJCG1,Yellow Jacket Creek at Hammett Road below Hogansville,0,,True,False
 YKTV2,Chesapeake Bay near Yorktown (IN MLLW),0,,True,False
