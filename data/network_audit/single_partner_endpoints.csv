@@ -1,9 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
-CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
 CHBI2,Iroquois River near Chebanse,1,IRQI2,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
-CHIN7,N.E. Cape Fear River near Chinquapin,1,BGWN7,True,False
 CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHSO3,Sprague River near Chiloquin,1,BTYO3,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
@@ -102,6 +99,7 @@ EMYI3,Whitewater River near Economy,1,ALPI3,True,False
 ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
+ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FALP1,Conewago Creek near Falmouth,1,CCBP1,True,False
@@ -123,6 +121,7 @@ FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
 FRKM1,Kennebec River at The Forks,1,BINM1,True,False
 FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRMN5,San Juan River at Farmington,1,ARFN5,True,False
+FRMW2,Elk River near Frametown,1,SUTW2,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
 FSLL1,Amite River at French Settlement,1,PVLL1,True,False
@@ -156,6 +155,7 @@ HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
+HIBK2,Kentucky River at High Bridge Lock,1,CPNK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
@@ -224,8 +224,10 @@ LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
 LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
 LCRL1,Calcasieu River at Sam Houston Jones State Park,1,LCHL1,True,False
 LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
+LCTT2,West Fork San Jacinto River at Lake Conroe,1,CFKT2,True,False
 LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
+LENW3,Little La Crosse River at Leon,1,CFMW3,True,False
 LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
 LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
@@ -299,6 +301,7 @@ MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
+MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTI2,Sangamon River at Monticello,1,RVTI2,True,False
@@ -327,7 +330,6 @@ MXWN1,Platte River at Maxwell,1,NPSN1,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
-NBGI3,Ohio River at Newburgh Lock and Dam,1,OWBK2,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
@@ -382,6 +384,7 @@ OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OVRO2,North Canadian River at Lake Overholser,1,YUKO2,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
+OWTM5,Straight River at Owatonna,1,FRBM5,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PACW1,Cowlitz River at Packwood,1,RAWW1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
@@ -533,6 +536,7 @@ STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
 STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
+STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
