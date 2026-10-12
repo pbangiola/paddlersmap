@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FLSI4,Soap Creek near Floris Quail Ave--IFC,2,DSOI4;KEQI4,True,False
-FLSL1,Tchefuncte River near Folsom,1,CUSL1,True,False
-FLSM4,Swartz Creek near Flint,0,,True,False
-FLTA4,Red River at Fulton,5,DEQA4;HRGA4;INGA4;LCKA4;SBFA4,True,False
-FLTF1,Flatford Swamp Near the Myakka River,0,,True,False
-FLTI2,Mississippi River at Fulton,2,BLVI4;CMMI4,True,False
-FLTI3,Fish Creek (IN) at Hamilton,0,,True,False
-FLTM4,Flint River at Flint,2,FOSM4;OTSM4,True,False
-FLTM5,South Branch Wild Rice River at CR 27 near Felton,0,,True,False
-FLTT1,Buffalo River near Flat Woods,0,,True,False
-FLVC3,Housatonic River at Falls Village,2,GAYC3;GTBM3,True,False
-FLVI2,Fox River at Lake Villa,2,JHNI2;NMSW3,True,False
-FLVT2,San Antonio River near Floresville,2,ELMT2;FACT2,True,False
-FLWA1,Fowl River near Laurendine,0,,True,False
-FLWM8,Flatwillow Creek near Flatwillow,0,,True,False
-FLWT2,North Texas Lakes at Lake Worth,2,EAMT2;FWOT2,True,False
-FLXN6,Flax Pond at Old Field (IN MLLW),0,,True,False
-FLYF1,Fenholloway River at Foley,2,FENF1;FOLF1,True,False
-FLYO1,Lye Creek above Findlay,0,,True,False
-FLYP1,Peter's Creek at Venetia,0,,True,False
-FLZI4,Lizard Creek near Fort Dodge,0,,True,False
-FMBW1,Mill Creek at Five Mile Bridge,0,,True,False
-FMCF1,Choctawhatchee Bay at Four Mile Creek Park (in MHHW),0,,True,False
-FMCI2,Salt Creek (IL) near Farmer City,0,,True,False
-FMCK2,Fourmile Creek near Alexandria,0,,True,False
 FMCN7,Fourmile Creek (NC) at Elm Lane,0,,True,False
 FMCW3,Coles Valley Creek near Fort McCoy - Hawk Road,0,,True,False
 FMDI2,Farm Creek at Farmdale,0,,True,False
@@ -53,7 +28,7 @@ FNNM7,Meramec River at Fenton,2,ARNM7;VLLM7,True,False
 FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
 FOBC2,Fountain Creek at 8th Street at Pueblo,0,,True,False
 FOBM5,"St. Louis River Near Forbes, MN",3,ERBM5;FDWM5;IBOM5,True,False
-FODI4,Des Moines River at Fort Dodge,2,FDDI4;STRI4,True,False
+FODI4,Des Moines River at Fort Dodge,3,FDDI4;FLZI4;STRI4,True,False
 FODK2,Kentucky River at Ford Lock,3,CHLK2;CYCK2;VLVK2,True,False
 FODN6,Mohawk River Above State Highway 30A at Fonda,0,,True,False
 FOFW4,Firehole River at Old Faithful (YNP),0,,True,False
@@ -1087,7 +1062,7 @@ HMBN6,Eighteenmile Creek (NY) at Hamburg,0,,True,False
 HMFW4,"Hams Fork below Pole Creek, near Frontier ",0,,True,False
 HMGM4,Huron River at Hamburg,2,ANNM4;NHHM4,True,False
 HMKN7,Intracoastal Waterway at Hammocks Beach State Park,0,,True,False
-HMLI3,Northern Indiana Lakes at Hamilton Lake at Hamilton,0,,True,False
+HMLI3,Northern Indiana Lakes at Hamilton Lake at Hamilton,1,FLTI3,True,False
 HMLN6,Lake America at Hamlin Beach State Park,0,,True,False
 HMLN7,Roanoke River at Hamilton,0,,True,False
 HMLO1,West Creek (OH) near Hamler,0,,True,False
@@ -1112,7 +1087,7 @@ HMZC2,Huerfano River near Redwing,0,,True,False
 HNBP1,West Branch Brandywine Creek at Honeybrook,1,COTP1,True,False
 HNDC2,South Platte River at Henderson,4,DNVC2;DRBC2;LUPC2;SACC2,True,False
 HNDM2,Paint Branch near Hillandale / Powder Mill Road,0,,True,False
-HNDM5,Wild Rice River (MN) at Hendrum,2,ADSM5;HILN8,True,False
+HNDM5,Wild Rice River (MN) at Hendrum,3,ADSM5;FLTM5;HILN8,True,False
 HNEP1,Dyberry Creek near Honesdale,0,,True,False
 HNEW2,Meadow River at Hines IFLOWS SG,0,,True,False
 HNFT2,North Fork Guadalupe River near Hunt,1,HNTT2,True,False
@@ -3116,7 +3091,7 @@ MFGP1,Pequea Creek above Martic Forge,0,,True,False
 MFHM4,Huron River near Milford,0,,True,False
 MFHV2,Middle Fork Holston River near Meadowview 4SE,0,,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
-MFLM8,Flatwillow Creek above Mosby,0,,True,False
+MFLM8,Flatwillow Creek above Mosby,1,FLWM8,True,False
 MFNT2,San Antonio River near McFaddin,1,GLIT2,True,False
 MFNW1,Middle Fork Nooksack River near Deming,0,,True,False
 MFOO3,Mid Fork Willamette River above Hills Creek Res nr Oakridge,0,,True,False
@@ -3300,12 +3275,12 @@ MLIC1,Sacramento-San Joaquin Delta at Mallard Island,2,ATIC1;VNCC1,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIN7,McMullen Creek above Lincrest Place,0,,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
-MLKW1,Mill Creek (WA) near Walla Walla,0,,True,False
+MLKW1,Mill Creek (WA) near Walla Walla,1,FMBW1,True,False
 MLLA1,Luxapallila Creek at Millport,0,,True,False
 MLLM5,Mille Lacs Lake at Cove Bay,0,,True,False
 MLLN7,Mills Branch above Bridgeton,0,,True,False
 MLLT1,Big Creek at Millington,0,,True,False
-MLLW1,Mill Creek (WA) at Walla Walla,0,,True,False
+MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
 MLLW2,Tygart Valley River at Mill Creek,2,DLYW2;VLYW2,True,False
 MLMC1,Mill Creek near Los Molinas,0,,True,False
 MLMO1,Honey Creek at Melmore,0,,True,False
@@ -4259,7 +4234,7 @@ NVCN6,Neversink River below Claryville,1,NVRN6,True,False
 NVDM7,Marmaton River near Nevada,2,DWEM7;SCZM7,True,False
 NVEW3,Rock River at Newville,2,AFTW3;NVLW3,True,False
 NVIW3,Rock River at Inflow Lake Koshkonong,0,,True,False
-NVLI3,St. Joseph River (OH/IN) near Newville,0,,True,False
+NVLI3,St. Joseph River (OH/IN) near Newville,2,FLTI3;ROOI3,True,False
 NVLW3,Rock River at Lake Koshkonong,2,FATW3;NVEW3,True,False
 NVPC1,Novato Creek at Pacheco and San Jose Creeks,0,,True,False
 NVRC1,Navarro River near Navarro,0,,True,False
@@ -5737,7 +5712,7 @@ RLGQ3,Rock Lake near Glenora MB,2,PCCQ3;PLLQ3,True,False
 RLGT1,Wolf River at Raleigh,0,,True,False
 RLHN7,Crabtree Creek at Glenwood Ave,2,ADRN7;EBNN7,True,False
 RLKA2,Russell Lake near Yakutat,0,,True,False
-RLLI2,Salt Creek (IL) near Rowell,1,DEWI2,True,False
+RLLI2,Salt Creek (IL) near Rowell,2,DEWI2;FMCI2,True,False
 RLLI4,Long Dick Creek near Roland 110th St--IFC,0,,True,False
 RLMV2,Little Calfpasture River above Lake Merriweather,0,,True,False
 RLOT2,Tide Station (HGX) at Rollover Pass,0,,True,False
@@ -5818,7 +5793,7 @@ RONN6,Rondout Creek at Rondout Rsvr,0,,True,False
 RONP1,Pequea Creek near Ronks,0,,True,False
 RONV2,Roanoke River at Roanoke,2,GNVV2;NIAV2,True,False
 RONW2,Greenbrier River at Ronceverte,2,ALDW2;CALW2,True,False
-ROOI3,St. Joseph River (OH/IN) near Fort Wayne,2,CDRI3;SJRI3,True,False
+ROOI3,St. Joseph River (OH/IN) near Fort Wayne,3,CDRI3;NVLI3;SJRI3,True,False
 ROPN7,Kendrick Creek at Roper,0,,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False

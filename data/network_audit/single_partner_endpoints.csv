@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FLSL1,Tchefuncte River near Folsom,1,CUSL1,True,False
 FNEC2,Fountain Creek at Colorado Springs,1,FHAC2,True,False
 FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
 FOLF1,Fenholloway River near Foley (US 27),1,FLYF1,True,False
@@ -72,6 +71,7 @@ HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HLSN7,Eno River at Hillsborough,1,HBSN7,True,False
+HMLI3,Northern Indiana Lakes at Hamilton Lake at Hamilton,1,FLTI3,True,False
 HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
 HMPS1,Coosawhatchie River near Hampton,1,CRRS1,True,False
 HNBP1,West Branch Brandywine Creek at Honeybrook,1,COTP1,True,False
@@ -250,6 +250,7 @@ MELF1,St. Johns River near Melbourne,1,COCF1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
+MFLM8,Flatwillow Creek above Mosby,1,FLWM8,True,False
 MFNT2,San Antonio River near McFaddin,1,GLIT2,True,False
 MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
@@ -269,6 +270,8 @@ MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
+MLKW1,Mill Creek (WA) near Walla Walla,1,FMBW1,True,False
+MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
@@ -496,7 +499,6 @@ RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
-RLLI2,Salt Creek (IL) near Rowell,1,DEWI2,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,1,WTRA1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
