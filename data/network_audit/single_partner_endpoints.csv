@@ -1,9 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
-LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
 LAMN8,James River at LaMoure,1,JMSN8,True,False
 LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
+LAON7,Little Alamance Creek at Overbrook Dr,1,LACN7,True,False
 LARP4,Rio Guajataca at Lares,1,QUEP4,True,False
 LAUW1,Kettle River near Laurier,1,FRYW1,True,False
 LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
@@ -156,7 +155,6 @@ MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
-MNYP1,Muncy Creek at Muncy Creek,1,HUHP1,True,False
 MOAM5,Snake River (MN) at Mora,1,GSTM5,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
@@ -387,7 +385,6 @@ PTIK1,N F Solomon River at Portis,1,KRWK1,True,False
 PTRN3,Contoocook River at Peterborough,1,HENN3,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
-PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
 QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False

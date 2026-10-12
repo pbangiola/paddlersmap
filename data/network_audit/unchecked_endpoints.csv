@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KYWF1,Tide Station at the Western Tip of Key West (in MHHW),0,,True,False
-KZTA2,Kotzebue Sound Tide Gauge at Kotzebue (MHHW datum),0,,True,False
-LAAC1,Los Angeles River at Arroyo Seco,0,,True,False
-LAAV2,Roanoke River at Lafayette,2,GNVV2;SHAV2,True,False
-LABN4,Lawrence Brook at Weston Mills,0,,True,False
-LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
-LABV2,SW Branch Back River at Langley Marina (IN MLLW),0,,True,False
-LABW4,Green River (WY-UT-CO) near La Barge,2,GBFW4;WBRW4,True,False
-LACN7,Little Alamance Creek at Graham,0,,True,False
-LACT2,Medina River near La Coste,2,MDLT2;MMDT2,True,False
-LACV2,Accotink Creek at Lake Accotink near Springfield,0,,True,False
-LACW3,Mississippi River at La Crosse - Pool 8,3,BRWM5;LCRM5;LCRW3,True,False
-LADI4,Big Bear Creek at Ladora,0,,True,False
-LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
-LAFI3,Wabash River at Lafayette,5,CVGI3;DCDI3;IDPI3;LGNI3;LYTI3,True,False
-LAFN4,East Branch Paulins Kill near Lafayette,0,,True,False
-LAFW3,Kickapoo River at La Farge,2,ONTW3;VIOW3,True,False
-LAGP4,Canal de Riego de Lajas Blw Lajas Filtration Plant,0,,True,False
-LAIF1,Lake Iamonia at Waterfront Drive,0,,True,False
-LAIP1,Little Muncy Creek at Lairdsville,0,,True,False
-LAKI3,Little Calumet River near Lake Station,2,GRGI3;PBPI3,True,False
-LAKI4,Lake Creek near Lake City IA 175--IFC,0,,True,False
-LAKN5,Pecos River at Fort Sumner,0,,True,False
-LALM5,Leaf River (MN) above Aldrich (CSAH26),0,,True,False
-LAMA4,L'Anguille River at Marianna 1 NE,2,HEEA4;PLGA4,True,False
 LAMC1,Coyote Reservior at (Lake Mendocino),0,,True,False
 LAMF1,Aucilla River at Lamont (US 27),2,ASHF1;NUTF1,True,False
 LAMN3,Lamprey River near Newmarket,0,,True,False
@@ -33,7 +8,7 @@ LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
 LANS1,Reedy River at Greenville Landfill,0,,True,False
 LANW4,Middle Fork Popo Agie River at Sinks Canyon,0,,True,False
-LAON7,Little Alamance Creek at Overbrook Dr,0,,True,False
+LAON7,Little Alamance Creek at Overbrook Dr,1,LACN7,True,False
 LAPC2,Purgatoire River near Las Animas,0,,True,False
 LAPI1,Lapwai Creek near Lapwai,0,,True,False
 LAPI4,Wolf Creek at La Porte City W Main St--IFC,2,DYSI4;VINI4,True,False
@@ -240,7 +215,7 @@ LFAP4,Lago Fajardo near Vapor,0,,True,False
 LFBC2,Lake Fork Below Lake San Cristobal,0,,True,False
 LFBP1,Little Fishing Creek near Bloomsburg,0,,True,False
 LFDL1,Bayou Lafourche at Donaldsonville,0,,True,False
-LFEM5,Leaf River (MN) near Staples (CSAH29),0,,True,False
+LFEM5,Leaf River (MN) near Staples (CSAH29),2,LALM5;PLGM5,True,False
 LFFV2,Colvin Run at Lake Fairfax near Reston,0,,True,False
 LFGC2,Lake Fork above Gateview,0,,True,False
 LFHW1,Icicle Creek at Structure 2 near Leavenworth NFH,0,,True,False
@@ -341,7 +316,7 @@ LJTF1,Lake Jackson near Lakeshore Drive (in NAVD88),0,,True,False
 LKAM2,Unnamed Tributary above Northampton Lake Dam in Lake Arbor,0,,True,False
 LKBM5,South Branch Two Rivers River at Lake Bronson,2,HLLM5;LBRM5,True,False
 LKBM7,Osage River near Bagnell,2,LKSM7;TSCM7,True,False
-LKCI4,North Raccoon River near Lanesboro,3,BHLI4;EFWI4;SCRI4,True,False
+LKCI4,North Raccoon River near Lanesboro,4,BHLI4;EFWI4;LAKI4;SCRI4,True,False
 LKCM5,Mississippi River at Lake City,2,REDM5;WABM5,True,False
 LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
 LKCT2,West Central Texas Lakes at Lake Coleman,2,BCRT2;HORT2,True,False
@@ -523,7 +498,7 @@ LOWA1,Whitewater Creek at Lowry Mill  (CR 215),0,,True,False
 LOWA2,[INACTIVE] Lowe River near Valdez,0,,True,False
 LOWI1,Southwest Idaho Reservoirs at Lake Lowell,0,,True,False
 LOWM3,Merrimack River at Lowell,1,NSHN3,True,False
-LOWN7,"SF Catawba River below George Poston Park, 1 N Lowell",3,BESN7;FOMS1;HNRN7,True,False
+LOWN7,"SF Catawba River below George Poston Park, 1 N Lowell",4,BESN7;FOMS1;HNRN7;LABN7,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPAC2,Low Pinos River above Vallecito Reservoir,0,,True,False
 LPBV2,"Little River near Peach Bottom, VA",0,,True,False
@@ -1392,7 +1367,7 @@ MNUM5,Rainy River at Manitou Rapids,3,BIFM5;RNYM5;WHPM5,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MNWH1,Manoa Stream at Woodlawn Drive,0,,True,False
 MNYC1,Mint Canyon,0,,True,False
-MNYP1,Muncy Creek at Muncy Creek,1,HUHP1,True,False
+MNYP1,Muncy Creek at Muncy Creek,2,HUHP1;LAIP1,True,False
 MOAM5,Snake River (MN) at Mora,1,GSTM5,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOAN2,Muddy River near Moapa,0,,True,False
@@ -2977,7 +2952,7 @@ PLFA3,Paria River at Lees Ferry,0,,True,False
 PLGA4,L'Anguille River at Palestine,2,COTA4;LAMA4,True,False
 PLGF1,Palatlakaha River at Cherry Lk nr Groveland,0,,True,False
 PLGM4,Pilgrim River at Paradise Road,0,,True,False
-PLGM5,Crow Wing River near Pillager,0,,True,False
+PLGM5,Crow Wing River near Pillager,2,FTRM5;LFEM5,True,False
 PLGN1,Elkhorn River at Pilger,2,NFKN1;WPNN1,True,False
 PLGN7,Catawba River near Pleasant Gardens,2,BRWN7;CRMN7,True,False
 PLHI4,Fourmile Creek at Pleasant Hill Vandalia Rd--IFC,2,DFMI4;SWNI4,True,False
@@ -3334,7 +3309,7 @@ PTXM7,Pomme De Terre River at Pomme De Terre Dam,0,,True,False
 PTYI1,Portneuf River at Tyhee,2,AFRI1;PIHI1,True,False
 PTZM7,Pomme de Terre River (MO) near Hermitage,0,,True,False
 PUCA3,Puerco River near Chambers,0,,True,False
-PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
+PUEN5,Pecos River below Puerto De Luna,2,ACMN5;LAKN5,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PULW1,South Fork Palouse River at Pullman,0,,True,False
 PUNF1,Shell Creek Near Punta Gorda,2,PRKF1;SHEF1,True,False
