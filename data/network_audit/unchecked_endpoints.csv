@@ -1,39 +1,14 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LRSV2,Little River (VA) at Little River Reservoir,0,,True,False
-LRTC1,Los Angeles River at Tujunga Avenue,2,LAWC1;PVCC1,True,False
-LRTL1,Larto Lake at Larto Lake,0,,True,False
-LRTN1,Beaver Creek at Loretto,0,,True,False
-LRTN7,Little River (NC) at Niagara Carthage Rd,0,,True,False
-LRTT2,Llano River at County Road 102,2,LLAT2;MLRT2,True,False
-LRUT2,Leona River at CR 429A near Uvalde,0,,True,False
-LRVN7,"Little River at Merrill Ln, 3 S Penrose",0,,True,False
-LRWW1,Lewis River at Woodland,1,MERW1,True,False
-LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
-LRYC1,Los Gatos Creek above Ryland Dam,2,DSEC1;LGLC1,True,False
-LRYK1,Neosho River at Le Roy,2,BRLK1;IOLK1,True,False
-LRYN7,Long Creek at Rhyne NC,0,,True,False
-LRZC1,San Lorenzo Creek (Alameda) above Hayward,3,CULC1;KCRC1;SLCC1,True,False
-LRZN7,Little River (NC) near Zebulon,0,,True,False
-LSAN7,Little Sugar Creek (NC) at Archdale Drive,0,,True,False
-LSBC1,Yolo Bypass at Lisbon,0,,True,False
-LSBN7,Hyco Creek near Leasburg,0,,True,False
-LSBW4,Little Snake River at Baggs,0,,True,False
-LSCA2,Leask Creek at Shelter Cove near Ketchikan,0,,True,False
-LSCC1,San Lorenzo Creek (Alameda) above Don Castro Reservoir near Castro Valley,0,,True,False
-LSCN1,Salt Creek at Lincoln (70th Street),2,GRNN1;LCNN1,True,False
-LSCN7,Sturgeon Creek at U.S. Highway 74 ,0,,True,False
-LSCW2,Little Sandy Creek (WV) above Elkview,0,,True,False
-LSCW4,Little Snake River below Dry Gulch near Baggs,1,LILC2,True,False
 LSDO2,East Elm Creek at Lake Stanley Draper,0,,True,False
 LSDW1,Little Spokane River at Dartford,0,,True,False
-LSDW4,Little Snake River near Dixon,0,,True,False
+LSDW4,Little Snake River near Dixon,2,LSBW4;LSSW4,True,False
 LSEC1,Laguna de Santa Rosa near Sebastopol,1,CTIC1,True,False
 LSET2,Brazos River near Lubbock 4ESE,0,,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LSGM7,Little Sugar Creek near Pineville,0,,True,False
 LSGW4,Little Snake River below Gibson Blair Ditch nr Baggs,0,,True,False
 LSHA2,Little Susitna River at Parks Hwy Bridge near Houston,0,,True,False
-LSHN7,"Little Sugar Creek above Hillside Ave, in Myers Park",0,,True,False
+LSHN7,"Little Sugar Creek above Hillside Ave, in Myers Park",2,LSAN7;LSMN7,True,False
 LSKC1,Lower Silver Creek at San Antonio St,0,,True,False
 LSLC2,Big Thompson River (CO) near La Salle,0,,True,False
 LSLI2,Illinois River near La Salle,3,HNYI2;LNRI2;SRDI2,True,False
@@ -42,7 +17,7 @@ LSLN6,Tioughnioga River at Lisle,2,CRTN6;ISKN6,True,False
 LSLS2,Little Spearfish Creek near Lead,0,,True,False
 LSMG1,Little Stone Mountain Creek at Old Stone Mountain Road near Stone Mountain,0,,True,False
 LSMN6,Little Schoharie Creek near Middleburgh,0,,True,False
-LSMN7,"Little Sugar Creek above Medical Center Dr, 1 SSW Cherry",0,,True,False
+LSMN7,"Little Sugar Creek above Medical Center Dr, 1 SSW Cherry",2,LSHN7;LSTN7,True,False
 LSMO3,Little N. Santiam River near Mehama,2,LNEO3;MEHO3,True,False
 LSNO3,Little Sandy River near Bull Run,0,,True,False
 LSNT2,Navidad River at Strane Park,0,,True,False
@@ -51,12 +26,12 @@ LSON1,North Platte River at Lisco,3,BGPN1;BPTN1;LEWN1,True,False
 LSPT2,Las Moras Creek at Brackettville,0,,True,False
 LSPV2,Potomac River at Leesylvania State Park,0,,True,False
 LSRC1,Santa Rosa Creek (CA) at Cambria,0,,True,False
-LSRC2,Little Snake River near Slater,0,,True,False
+LSRC2,Little Snake River near Slater,1,LSSW4,True,False
 LSRS1,Little Saluda River near Saluda,0,,True,False
 LSSF1,Lake Sampson near Starke (in NAVD88),2,ACSF1;SSSF1,True,False
 LSSI4,Little Sioux River above Spencer,2,MIFI4;SPII4,True,False
-LSSW4,Little Snake River near Savery,0,,True,False
-LSTN7,"Little Sugar Creek below E 36th St, in North Davidson (NoDa)",0,,True,False
+LSSW4,Little Snake River near Savery,2,LSDW4;LSRC2,True,False
+LSTN7,"Little Sugar Creek below E 36th St, in North Davidson (NoDa)",1,LSMN7,True,False
 LSTO3,Lostine River above Lostine,0,,True,False
 LSUA2,Little Susitna River near Palmer,0,,True,False
 LSWT2,West Central Texas Lakes at Lake Sweetwater,2,ABIT2;EVST2,True,False
@@ -2321,7 +2296,7 @@ PINI2,Big Bureau Creek at Princeton,0,,True,False
 PINM6,STRONG RIVER AT ROBERT BUSH ROAD NR PINOLA,2,DLAM6;SRRM6,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINN4,Passaic River at Pine Brook,2,CAMN4;SIGN4,True,False
-PINN7,Little Sugar Creek (NC) at NC51 Pineville,0,,True,False
+PINN7,Little Sugar Creek (NC) at NC51 Pineville,2,FCDS1;LSAN7,True,False
 PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIOT2,Rio Grande 6 miles WNW of Presidio,2,CDET2;PRST2,True,False
@@ -3335,7 +3310,7 @@ RUSK1,Saline River (KS) near Russell,2,WAAK1;WLSK1,True,False
 RUSM5,Redwood River at Russell,0,,True,False
 RUSS2,Battle Creek (SD) near Keystone,2,HERS2;JUDS2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
-RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
+RVBC1,Sacramento River at Rio Vista Bridge,2,FPOC1;LSBC1,True,False
 RVDM2,Northeast Branch Anacostia River at Riverdale,0,,True,False
 RVDV2,Nottoway River near RIVERDALE,0,,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False

@@ -1,9 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LRWW1,Lewis River at Woodland,1,MERW1,True,False
-LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
-LSCW4,Little Snake River below Dry Gulch near Baggs,1,LILC2,True,False
 LSEC1,Laguna de Santa Rosa near Sebastopol,1,CTIC1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
+LSRC2,Little Snake River near Slater,1,LSSW4,True,False
+LSTN7,"Little Sugar Creek below E 36th St, in North Davidson (NoDa)",1,LSMN7,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LTGW4,Little Goose Creek at Big Horn,1,LGDW4,True,False
@@ -414,7 +413,6 @@ RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
-RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
