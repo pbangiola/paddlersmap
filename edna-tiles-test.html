@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EDNA tile diagnostic | Paddler's Map</title>
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<style>body{margin:0;font:14px system-ui;color:#20333d}header{padding:12px 18px;background:#f2f6f8}h1{font-size:19px;margin:0 0 6px}p{margin:4px 0}#map{height:75vh;min-height:400px}#log{white-space:pre-wrap;max-height:18vh;overflow:auto;padding:10px;background:#f7f7f7}button{margin:4px}</style></head>
+<body><header><h1>EDNA vector tile diagnostic</h1><p>Isolated test of the existing published tile pyramid. No gauge or launch data loaded.</p><button id="illinois">Illinois</button><button id="usa">United States</button><span id="state">Checking manifest…</span></header><div id="map"></div><pre id="log"></pre>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+const log=document.getElementById('log'),state=document.getElementById('state');
+function note(s){log.textContent+=new Date().toLocaleTimeString()+' '+s+'\n';log.scrollTop=log.scrollHeight;}
+const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[-89.3,40.5],zoom:6});
+map.addControl(new maplibregl.NavigationControl());
+document.getElementById('illinois').onclick=()=>map.fitBounds([[-91.55,36.95],[-87,42.55]],{padding:30});
+document.getElementById('usa').onclick=()=>map.fitBounds([[-125,24],[-66,50]],{padding:30});
+map.on('error',e=>note('ERROR: '+String(e.error?.message||e.error||'unknown')));
+map.on('load',async()=>{
+ try{
+  const r=await fetch('data/edna_tiles/manifest.json',{cache:'no-store'});
+  if(!r.ok)throw new Error('Manifest HTTP '+r.status);
+  const m=await r.json();note('Manifest '+JSON.stringify(m));
+  if(!m.complete)throw new Error('Tile manifest incomplete');
+  // Avoid the exceptionally large overview tiles while diagnosing browser rendering.
+  const minzoom=5;
+  map.addSource('edna-test',{type:'vector',tiles:[new URL('data/edna_tiles/{z}/{x}/{y}.pbf',document.baseURI).href],minzoom,maxzoom:m.maxzoom||12});
+  map.addLayer({id:'edna-test-lines',type:'line',source:'edna-test','source-layer':m.layer||'edna',paint:{'line-color':'#dc582a','line-width':1.8,'line-opacity':0.85}});
+  state.textContent='Layer loaded; zoom in to 5+ to see EDNA waterways.';
+  note('Registered source-layer '+(m.layer||'edna')+' at zoom '+minzoom+'+');
+  map.on('idle',()=>{const count=map.queryRenderedFeatures({layers:['edna-test-lines']}).length;state.textContent='Zoom '+map.getZoom().toFixed(1)+' | '+count+' rendered EDNA features';});
+ }catch(e){state.textContent='Tile setup failed';note('SETUP ERROR: '+e.message);}
+});
+</script></body></html>
