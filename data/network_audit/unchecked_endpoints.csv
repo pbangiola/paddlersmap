@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CPPT2,North Sulphur River near Cooper,0,,True,False
-CPRN8,Sheyenne River near Cooperstown,2,BLDN8;CPPN8,True,False
-CPRW4,North Platte River at Casper,2,GLNW4;SINW4,True,False
-CPSV2,Peyton's Creek At Pump Street,0,,True,False
-CPTF1,Clam Pass Tramway Bridge (in MHHW),0,,True,False
-CPTR1,Narragansett Bay at Conimicut Light (IN MLLW),0,,True,False
-CPVF1,Cow Pen Slough Near Rendezvous Park,0,,True,False
-CPWL1,Lake Pontchartrain at City Park West lagoon near Lake Vista,0,,True,False
-CPWO1,Chippewa Creek (Cuyahoga) at Broadview Heights,1,CHPO1,True,False
-CPYN7,Swift Creek Upstream of SW Cary Pkwy,0,,True,False
-CPZM7,Salt River above Clarence Cannon Dam (pool),0,,True,False
-CQBM5,Cloquet River near Brimson,0,,True,False
-CQIC1,Calero Creek above Calero Reservoir,0,,True,False
-CQRM5,Cloquet River near Burnett,0,,True,False
-CQUG1,Spring Creek above Colquitt,0,,True,False
-CRAI4,Clear Creek (IA) near Coralville,0,,True,False
-CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
-CRAR1,Pawtuxet River at Cranston,0,,True,False
-CRAW2,Gauley River near Craigsville,2,COGW2;SUMW2,True,False
-CRBL1,W-14 Canal at Robert Rd. in Slidell,0,,True,False
-CRBN5,Rocky Arroyo 7 miles S of Lakewood,0,,True,False
-CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
-CRBP4,Canal de Riego de Lajas at Bo. Betances,0,,True,False
-CRBW1,Crab Creek at Irby,0,,True,False
-CRCA3,Cataract Creek at Redlands Crossing,1,CCHA3,True,False
 CRCC2,Cochetopa Creek near Parlin,0,,True,False
 CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRCO1,Scioto River at Circleville,2,CHCO1;CMMO1,True,False
@@ -129,7 +104,7 @@ CRZA3,Carrizo Creek near Show Low,0,,True,False
 CSAF1,Cypress Creek at SR 52 Near San Antonio,1,WRGF1,True,False
 CSAG1,Atlantic Coast at Sea Camp Dock on Cumberland Island (in MHHW),0,,True,False
 CSAS1,Chinners Swamp near Aynor,0,,True,False
-CSBN5,Pecos River 9 miles NW of Carlsbad,2,AVLN5;PSBN5,True,False
+CSBN5,Pecos River 9 miles NW of Carlsbad,3,AVLN5;CRBN5;PSBN5,True,False
 CSBN6,Cohocton River at Scudder Bridge,3,CMPN6;CPBN6;CRNN6,True,False
 CSCA3,Santa Cruz River at Cortaro,2,CDOA3;SCTA3,True,False
 CSCF1,Cross Bayou at Cedarbrook Dr.,0,,True,False
@@ -2860,7 +2835,7 @@ ILKF1,Lake Weohyakapka at Indian Lake Estates,0,,True,False
 ILNI2,Mississippi River at Illinois City,2,FAII4;MUSI4,True,False
 ILOM5,Island Lake Outflow,0,,True,False
 ILRA2,Iliamna River near Pedro Bay,0,,True,False
-ILRM5,Cloquet River at Island Lake,0,,True,False
+ILRM5,Cloquet River at Island Lake,2,CQBM5;CQRM5,True,False
 ILTP1,West Branch Susquehanna River at West Milton,2,ALWP1;LWBP1,True,False
 IMAI3,White River (IN) at Indianapolis Museum of Art,2,RRPI3;WHSI3,True,False
 IMBA4,Spring River (AR) at Imboden,0,,True,False
@@ -2902,7 +2877,7 @@ IPWT2,Wichita River near Iowa Park,2,DDET2;WICT2,True,False
 IRAC1,Russian River at Mirabel,0,,True,False
 IRAT2,Colorado River (TX) 4 miles SW of Ira below Lake J. B. Thomas,0,,True,False
 IRBN7,Tuckasegee River at Rock Bridge,0,,True,False
-IRCG1,Spring Creek near Iron City (CR 16),0,,True,False
+IRCG1,Spring Creek near Iron City (CR 16),2,CQUG1;REYG1,True,False
 IRCI4,Rapid Creek (IA) near Iowa City,0,,True,False
 IRCN7,Robinson Creek (NC) at Great Falls Dr,0,,True,False
 IRCT1,Shoal Creek near Iron City,0,,True,False
@@ -5024,7 +4999,7 @@ MSKM5,Mustinka River above Wheaton,0,,True,False
 MSKN7,Lake Mattamuskeet near Fairfield,0,,True,False
 MSLN5,Rio Grande near Mesilla,2,LBDN5;RCLT2,True,False
 MSLV2,Unnamed Tributary above Lake Morning Star Dam,0,,True,False
-MSLW1,Crab Creek near Moses Lake,0,,True,False
+MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
 MSMF1,Deer Prairie Slough MS-7,0,,True,False
 MSNA4,St. Francis River at Madison,0,,True,False
 MSNF1,MS-1 at SR 72,0,,True,False
@@ -5426,7 +5401,7 @@ NGKP4,Rio Blanco at Florida,0,,True,False
 NGLM2,North Glade Run near Swanton,0,,True,False
 NGRF1,Gordon River near Naples Airport (in MHHW),0,,True,False
 NGRN6,Northrup Creek at North Greece,0,,True,False
-NGTC2,North Platte River near Northgate,1,SRAW4,True,False
+NGTC2,North Platte River near Northgate,2,SRAW4;WDNC2,True,False
 NGTN4,East Branch Bass River at New Gretna,0,,True,False
 NGTT2,Clear Fork Brazos River at Nugent,2,ABYT2;HWLT2,True,False
 NHCN7,New Hope Creek near Blands,0,,True,False
@@ -5479,7 +5454,7 @@ NKSW1,Nooksack River at Ferndale,0,,True,False
 NKTA2,Nikiski at Nikiski Tide Gage,0,,True,False
 NKTT1,Tennessee River below Nickajack Dam (Jasper 5S),2,NKJT1;SPTT1,True,False
 NLBN4,Greenwood Branch at New Lisbon,0,,True,False
-NLDM7,Salt River (MO) at New London,0,,True,False
+NLDM7,Salt River (MO) at New London,1,CPZM7,True,False
 NLGI2,Illinois River at LaGrange Lock and Dam,2,BEAI2;MROI2,True,False
 NLGL1,Tensas River near Newlight,0,,True,False
 NLHC3,Long Island Sound near New London Harbor (IN MLLW),0,,True,False
@@ -6036,7 +6011,7 @@ OWTM5,Straight River at Owatonna,1,FRBM5,True,False
 OWYO3,Owyhee River at Owyhee Dam,0,,True,False
 OXDM6,Yocona River near Oxford,0,,True,False
 OXDT2,Sandy Creek near Willow City,0,,True,False
-OXFI4,Clear Creek (IA) near Oxford,0,,True,False
+OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
 OXFK1,Arkansas River at Oxford,2,ARCK1;MULK1,True,False
 OXFN7,Catawba River at Lake Hickory/Oxford Dam,2,LKSN7;RHON7,True,False
 OXJI4,Wapsipinicon River at Oxford Mills,2,ANSI4;DEWI4,True,False
@@ -6480,7 +6455,7 @@ PMRP1,Monongahela River at Point Marion Lock and Dam (lower pool),2,GYLP1;MORW2,
 PMTN6,Hudson River at Piermont (IN MLLW),0,,True,False
 PMTP1,Lackawaxen River at Prompton Lake Dam,2,ALDP1;HONP1,True,False
 PMYP1,Swatara Creek near Palmyra,0,,True,False
-PMZM7,Middle Fork Salt River near Holliday,0,,True,False
+PMZM7,Middle Fork Salt River near Holliday,1,CPZM7,True,False
 PNBI1,Paasasikwana Naokwaide below Bruno Ck,0,,True,False
 PNBI4,Burchfield Creek near Panora Sage Trl--IFC,0,,True,False
 PNBN4,Whippany River at Pine Brook,0,,True,False
@@ -7047,7 +7022,7 @@ RESA2,Resurrection River at Exit Glacier Road near Seward,0,,True,False
 RESV2,Jones Creek at Rescue Road,0,,True,False
 REVS2,South Fork Grand River at Hwy 79,0,,True,False
 REXI1,Henrys Fork near Rexburg,2,ANTI1;MENI1,True,False
-REYG1,Spring Creek near Reynoldsville St. Park (SR 253),0,,True,False
+REYG1,Spring Creek near Reynoldsville St. Park (SR 253),1,IRCG1,True,False
 REYM5,Redeye River near Aldrich (221st Ave),0,,True,False
 REYN6,Reynolds Channel at Point Lookout (IN MLLW),0,,True,False
 REYN7,Reedy Creek at SR 2803,0,,True,False
@@ -7638,7 +7613,7 @@ SCNA2,Salmon Creek at Nash Road near Seward,0,,True,False
 SCNA3,Santa Cruz River near Nogales,0,,True,False
 SCNI3,Stony Creek (IN) near Noblesville,0,,True,False
 SCNK1,Smoky Hill River above Schoenchen,2,ELSK1;SCSK1,True,False
-SCNM5,St. Louis River at Scanlon,0,,True,False
+SCNM5,St. Louis River at Scanlon,1,CQRM5,True,False
 SCNO3,Sycan River near Beatty,0,,True,False
 SCNS2,Cheyenne River near Scenic,2,CHRS2;WASS2,True,False
 SCOA2,Scottie Creek at Alaska Hwy near Northway,0,,True,False
@@ -8920,7 +8895,7 @@ TLAG1,Tallapoosa River at US 78 near Tallapoosa,0,,True,False
 TLBM8,Bighorn River at Two Leggins Bridge,2,BGHM8;SXVM8,True,False
 TLCN5,Tularosa Creek near Bent,0,,True,False
 TLCN7,Currituck Sound at Tulls Creek near Sligo,0,,True,False
-TLCT2,Sulphur River near Talco,1,COPT2,True,False
+TLCT2,Sulphur River near Talco,2,COPT2;CPPT2,True,False
 TLDN1,Elkhorn River near Tilden,2,NFKN1;NLIN1,True,False
 TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,0,,True,False
 TLFS1,Tullifinny River near Ridgeland,0,,True,False
@@ -9656,7 +9631,7 @@ WDLA1,Tallapoosa River at Wadley,0,,True,False
 WDLM2,Dead Run Tributary near Woodlawn,0,,True,False
 WDMG1,Oconee River at Lake Oconee,0,,True,False
 WDMI4,Raccoon River near West Des Moines,2,DMWI4;VNMI4,True,False
-WDNC2,Michigan River (CO) at Walden,0,,True,False
+WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDNF1,Whidden Creek at US 17 Near Fort Meade,0,,True,False
 WDNM2,Dead Run at Woodlawn,0,,True,False
 WDOM5,West Fork Des Moines River above Windom,2,AVOM5;JCKM5,True,False
