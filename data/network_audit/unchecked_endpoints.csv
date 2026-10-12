@@ -1,12 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HRCV2,North Anna River at HART CORNER NR DOSWELL,1,DOSV2,True,False
-HRDM3,East Branch Swift River near Hardwick,0,,True,False
-HRDM5,Rock River near Hardwick,0,,True,False
-HRDM8,Little Bighorn River near Hardin,0,,True,False
-HRDN2,Humboldt River at Dunphy,2,HBMN2;PALN2,True,False
-HREA2,Homer Tide Gauge at Homer Harbor Ramp 8 (MLLW datum),0,,True,False
-HREM2,Herring Run at Mount Pleasant in Baltimore,0,,True,False
-HREN2,Humboldt River near Elko,3,DEVN2;HRCN2;MHSN2,True,False
 HRFK2,Rough River at Hartford,0,,True,False
 HRFT1,Pigeon River below Waterville NC near Hartford TN,0,,True,False
 HRFV2,Hughes River at F.T. Valley Road,0,,True,False
@@ -876,7 +868,7 @@ LBRM7,Reservoirs at Long Branch Reservoir,0,,True,False
 LBRN7,Lumber River at Lumberton,2,LMBN7;LUMN7,True,False
 LBSL1,Bayou Liberty near Slidell,0,,True,False
 LBSM6,Big Sunflower River at Lombardy,2,BSCM6;MRGM6,True,False
-LBSM8,Little Bighorn River at State Line near Wyola,0,,True,False
+LBSM8,Little Bighorn River at State Line near Wyola,1,HRDM8,True,False
 LBST1,Spring Creek below Lebanon,0,,True,False
 LBTM6,Lobutcha Creek near Renfroe/Carthage,0,,True,False
 LBTV2,Unnamed Tributary at Lake Barton in Burke,0,,True,False
@@ -1487,7 +1479,7 @@ LUSM7,Mississippi River at Louisiana,2,CLKM7;SVRM7,True,False
 LUSN1,Salt Creek at Lincoln (Pioneers Boulevard),2,ROCN1;SALN1,True,False
 LUTM2,Long Quarter Branch at Lutherville,0,,True,False
 LUVC1,Little Uvas Creek - Uvas Rd,0,,True,False
-LUVM5,Rock River at Luverne,0,,True,False
+LUVM5,Rock River at Luverne,2,HRDM5;RAPI4,True,False
 LUZM4,South Branch Au Sable River near Luzerne,0,,True,False
 LVDT2,Trinity River at Lake Livingston,2,GRIT2;RVRT2,True,False
 LVEW4,Bighorn River near Kane,2,BHRM8;GYBW4,True,False
@@ -4216,7 +4208,7 @@ RAMT1,Mid. Prong Little Pigeon River 4SSE Pittman Center (Ramsey Prong),0,,True,
 RANM5,Chub Creek at Hwy 47 near Randolph 3W,0,,True,False
 RANV1,Ayers Brook at Randolph,0,,True,False
 RANW2,Sewell Creek above abv. Little Sewell Crk. at Rainelle,0,,True,False
-RAPI4,Rock River at Rock Rapids,0,,True,False
+RAPI4,Rock River at Rock Rapids,2,LUVM5;RKVI4,True,False
 RAPM5,Blue Earth River near Rapidan,2,BUEM5;GRDM5,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
 RAPN7,Roanoke River above Roanoke Rapids Dam,0,,True,False
@@ -4493,7 +4485,7 @@ RKGV1,Williams River near Rockingham,0,,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RKMG1,Euharlee Creek at US 287 at Rockmart,0,,True,False
 RKRV2,Rockfish River near Greenfield,0,,True,False
-RKVI4,Rock River at Rock Valley,0,,True,False
+RKVI4,Rock River at Rock Valley,1,RAPI4,True,False
 RKVM2,Turkey Branch near Aspen Hill,0,,True,False
 RKWN6,East Rockaway Inlet at Atlantic Beach (IN MLLW),0,,True,False
 RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,0,,True,False

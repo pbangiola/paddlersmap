@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HRCV2,North Anna River at HART CORNER NR DOSWELL,1,DOSV2,True,False
 HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
 HRPO1,Cuyahoga River at Hiram Rapids,1,OLPO1,True,False
 HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
@@ -91,6 +90,7 @@ LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
 LAWK1,Wakarusa River near Lawrence,1,CLIK1,True,False
 LAWM3,Merrimack River at Lawrence,1,BATM3,True,False
 LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
+LBSM8,Little Bighorn River at State Line near Wyola,1,HRDM8,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
 LCBT2,Wolf Creek at Lipscomb,1,GAWO2,True,False
 LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
@@ -486,6 +486,7 @@ RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
+RKVI4,Rock River at Rock Valley,1,RAPI4,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
