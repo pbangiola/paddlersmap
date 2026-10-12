@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
-LISI2,St. Joseph Creek (IL) above Lisle,0,,True,False
-LISK1,Rock Creek (KS) at Louisville,0,,True,False
-LITA4,Arkansas River at Little Rock,2,PBFA4;TODA4,True,False
-LITF1,Alafia River at Lithia Pinecrest Road at Lithia,3,KEYF1;RIVF1;SPAF1,True,False
-LITN7,Little River (North Carolina) near Star/Troy,0,,True,False
-LITS2,Little White River near Martin,0,,True,False
-LITV2,Back Creek at Camp Bethel,0,,True,False
-LITW2,Tug Fork River at Litwar,2,BRSW2;WILW2,True,False
-LIVI3,Deep River (IN) at Liverpool,0,,True,False
-LIVM8,Yellowstone River near Livingston,2,BILM8;CORM8,True,False
-LIVT2,Long King Creek at Livingston,0,,True,False
-LJKF1,Lake Jackson at Miller Landing (in NAVD88),0,,True,False
-LJTF1,Lake Jackson near Lakeshore Drive (in NAVD88),0,,True,False
-LKAM2,Unnamed Tributary above Northampton Lake Dam in Lake Arbor,0,,True,False
-LKBM5,South Branch Two Rivers River at Lake Bronson,2,HLLM5;LBRM5,True,False
-LKBM7,Osage River near Bagnell,2,LKSM7;TSCM7,True,False
-LKCI4,North Raccoon River near Lanesboro,4,BHLI4;EFWI4;LAKI4;SCRI4,True,False
-LKCM5,Mississippi River at Lake City,2,REDM5;WABM5,True,False
-LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
-LKCT2,West Central Texas Lakes at Lake Coleman,2,BCRT2;HORT2,True,False
-LKDM2,Unnamed Tributary below Northampton Lake Dam in Lake Arbor,0,,True,False
-LKDV2,Great Dismal Swamp Canal near Feeder Ditch East of Lake Drummond,0,,True,False
-LKHC1,Colorado River at Lake Havasu,0,,True,False
-LKJF1,St. Johns River at Lake Jesup Outlet near Sanford,0,,True,False
 LKJV2,Occoquan River below Lake Jackson,0,,True,False
 LKLC1,Los Gatos Creek  Lake Elsman Diversion,0,,True,False
 LKLO1,Little Killbuck Creek near Lodi,0,,True,False
@@ -35,7 +10,7 @@ LKPC1,Lake Piru,0,,True,False
 LKPM4,Lake Huron at Lake Port,0,,True,False
 LKPT2,Lake Creek at Lake Creek Parkway near Cedar Park 5SE,0,,True,False
 LKRM2,Jones Falls above Lake Roland Dam,0,,True,False
-LKSM7,Osage River at Bagnell Dam,2,LKBM7;TKZM7,True,False
+LKSM7,Osage River at Bagnell Dam,3,LKBM7;TKZM7;WRSM7,True,False
 LKSN7,Catawba River at Lookout Shoals Lake and Dam,2,CWAN7;OXFN7,True,False
 LKST2,Leon Creek at I-35S near San Antonio,2,LCFT2;LECT2,True,False
 LKTG1,Flat Creek below Lake Kedron Dam,0,,True,False
@@ -4407,7 +4382,7 @@ SNDK1,Republican River at Scandia,2,CNKK1;HDYN1,True,False
 SNDN7,Currituck Sound at Currituck Sound at NC 158,0,,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNDW4,Sand Creek near Beulah,0,,True,False
-SNFF1,St. Johns River near Sanford,2,DLAF1;GENF1,True,False
+SNFF1,St. Johns River near Sanford,3,DLAF1;GENF1;LKJF1,True,False
 SNFM6,Quiver River near Sunflower,2,DODM6;LCGM6,True,False
 SNFW2,Sand Run near Buckhannon,0,,True,False
 SNGW1,NF Skykomish R at Galena,0,,True,False
@@ -5699,7 +5674,7 @@ VSTN6,Susquehanna River at Vestal,2,BNGN6;OWGN6,True,False
 VSTV2,South Fork Holston River near Damascus,3,DMCV2;SHDT1;SHLV2,True,False
 VSUV2,South River at Vesuvius,1,CRNV2,True,False
 VTBT2,Tide Gauge above Viola Turning Basin,0,,True,False
-VTLS2,Little White River near Vetal,2,LBKS2;RSBS2,True,False
+VTLS2,Little White River near Vetal,3,LBKS2;LITS2;RSBS2,True,False
 VTPK2,West Hickman Creek at Veterans Park,0,,True,False
 VTRC1,Ventura River at Santa Ana Blvd.,0,,True,False
 VWBC1,Sacramento River at Vina-Woodson Bridge,3,DCVC1;HAMC1;TEHC1,True,False
@@ -6332,7 +6307,7 @@ WRRV2,South River at Waynesboro near Rife Road,0,,True,False
 WRRW1,White River Bridge,0,,True,False
 WRSH1,Wahiawa Reservoir at Spillway,0,,True,False
 WRSI3,White River (IN) near Strawtown,4,ADNI3;BDCI3;FTNI3;NBLI3,True,False
-WRSM7,Osage River at Warsaw,0,,True,False
+WRSM7,Osage River at Warsaw,1,LKSM7,True,False
 WRSN1,Willow Creek near Pierce,0,,True,False
 WRST2,Fifteenmile Creek near Weser,0,,True,False
 WRSU1,White River (UT) below Tabbyune Creek near Soldier Summit,0,,True,False

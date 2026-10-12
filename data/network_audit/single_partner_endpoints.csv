@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
-LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
@@ -735,6 +733,7 @@ WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
 WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False
+WRSM7,Osage River at Warsaw,1,LKSM7,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
