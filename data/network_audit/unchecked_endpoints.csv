@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HRRN2,Humboldt River nr Rose Creek,0,,True,False
-HRSI1,Payette River at Horseshoe Bend,2,BNKI1;EMMI1,True,False
-HRSM5,Heron Lake South near Okabena,0,,True,False
-HRSN2,Horse Creek at Horse Canyon,0,,True,False
-HRSS2,Horse Creek near Vale,0,,True,False
-HRTG1,Savannah River at Hartwell Dam,2,HWDS1;RBDS1,True,False
-HRTI4,Walnut Creek near Hartwick,0,,True,False
-HRTO1,East Fork Duck Creek below Harriettsville,0,,True,False
-HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
-HRVV2,Holmes Run at Van Dorn Street,0,,True,False
-HRWA2,Harding River near Wrangell,0,,True,False
-HRWM3,Herring River at North Harwich,0,,True,False
-HRZF1,Hillsborough River Below Crystal Springs Near Zephyrhills,2,ZPHF1;ZPRF1,True,False
-HSAF1,Homosassa River Tide Gauge at Homosassa,0,,True,False
-HSBF1,Tide Gauge at Horseshoe Point (in MHHW),0,,True,False
-HSBK2,Caney Creek (KY) at Horse Branch,0,,True,False
-HSEF1,Tide Gauge at Homosassa Springs (In MHHW),0,,True,False
-HSGF1,Suwannee River at Hart Springs (in NAVD88),0,,True,False
-HSHF1,Halls River at Kingston Dr at Homosassa Springs (Stage Datum),0,,True,False
-HSIT2,Sims Bayou at Houston,0,,True,False
-HSJT2,San Jacinto River at Lake Houston,4,HFFT2;HMMT2;NCET2;SHLT2,True,False
-HSKO2,Arkansas River near Haskell,2,MKGO2;TLSO2,True,False
-HSNK1,Buckner Creek at Hanston,2,BETK1;JTRK1,True,False
-HSPF1,Santa Fe River near High Springs (in NAVD88),2,POEF1;RRZF1,True,False
-HSPN7,"French Broad River above Silver Mine Ck, in Hot Springs",2,MARN7;NWPT1,True,False
 HSRF1,Hunter Spring Run at Beach Lane at Crystal River,0,,True,False
 HSSW1,East Fork Lewis River near Heisson,0,,True,False
 HSTA3,Hassayampa River near Arlington,1,HAMA3,True,False
@@ -4253,7 +4228,7 @@ RCHM7,Big River at Richwoods,2,BYRM7;IRNM7,True,False
 RCHV1,Ranch Brook at Ranch Camp near Stowe 5NW,0,,True,False
 RCJD2,Rock Creek at Joyce Road in Washington,0,,True,False
 RCKD2,Rock Creek at Sherrill Drive/DC,0,,True,False
-RCKF1,Suwannee River at Rock Bluff  near Bell - CR 340 (in NAVD88),3,BFDF1;FTWF1;WCXF1,True,False
+RCKF1,Suwannee River at Rock Bluff  near Bell - CR 340 (in NAVD88),4,BFDF1;FTWF1;HSGF1;WCXF1,True,False
 RCKI2,Mississippi River at Rock Island,2,FAII4;LECI4,True,False
 RCKN1,Middle Loup River at Rockville,0,,True,False
 RCKN2,Roberts Creek nr Eureka,0,,True,False
@@ -4843,7 +4818,7 @@ SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBED1,Jefferson Creek at South Bethany Beach (IN MLLW),0,,True,False
 SBEL1,Gulf Intracoastal Waterway at IHNC Surge Barrier East/West near Michoud,0,,True,False
 SBFA4,Red River at Springbank Ferry,2,FLTA4;SVPL1,True,False
-SBFS2,Belle Fourche River near Sturgis,4,BEFS2;BFVS2;EMSS2;VAES2,True,False
+SBFS2,Belle Fourche River near Sturgis,5,BEFS2;BFVS2;EMSS2;HRSS2;VAES2,True,False
 SBFV1,LaPlatte River at Shelburne Falls,0,,True,False
 SBGM5,South Branch Buffalo River near Glyndon (28th Ave S),0,,True,False
 SBHN7,South Buffalo Creek at US220 Nr Greensboro,0,,True,False
@@ -6955,7 +6930,7 @@ WCSI4,Willow Creek near Soldier,0,,True,False
 WCTC1,Wildcat Creek at Vale Rd Bridge,0,,True,False
 WCTO3,Wagner Creek at Talent,0,,True,False
 WCWI4,Little Walnut Creek near Clive 156th St--IFC,0,,True,False
-WCXF1,Suwannee River near Wilcox - US 19 (in NAVD88),2,MTSF1;RCKF1,True,False
+WCXF1,Suwannee River near Wilcox - US 19 (in NAVD88),3,HSGF1;MTSF1;RCKF1,True,False
 WCXP1,West Branch Clarion River at Wilcox,0,,True,False
 WDAF1,Withlacoochee River near Dade City (in NAVD88),2,CUMF1;TRBF1,True,False
 WDBC1,Walnut Creek at Diamond Blvd Bridge,0,,True,False
