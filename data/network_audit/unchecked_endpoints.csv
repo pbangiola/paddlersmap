@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LCOL1,Big Cypress Creek at Mooringsport (Caddo Lake),2,BGKT2;SVPL1,True,False
-LCPK1,Kansas River at Lecompton,2,LWRK1;TPAK1,True,False
-LCPM8,Lake Creek (MT) near Power,0,,True,False
-LCPN6,Erie Canal above Lockport,0,,True,False
-LCPN7,Lake Crabtree above Dam near Interstate 40,0,,True,False
-LCPT2,Plum Creek at Lockhart,0,,True,False
-LCRA1,Little Cahaba River below Leeds,0,,True,False
-LCRA3,Little Colorado River at Greer,1,LCLA3,True,False
-LCRA4,St. Francis River at Lake City,2,MSNA4;SFRA4,True,False
-LCRF1,Lost Creek (FL) near Crawfordville,0,,True,False
-LCRI2,Lake Michigan at Chicago (Chicago Lock),0,,True,False
-LCRL1,Calcasieu River at Sam Houston Jones State Park,2,CHAL1;LCHL1,True,False
-LCRM5,Mississippi River below Lock and Dam 7 - La Crescent,3,DKTM5;GALW3;LACW3,True,False
-LCRN7,Little Lick Creek at Oak Grove,0,,True,False
-LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
-LCRW3,La Crosse River near La Crosse,2,LACW3;SPAW3,True,False
-LCSA3,Little Colorado River near St Johns,2,LCLA3;WDRA3,True,False
-LCSI2,Chicago Sanitary and Ship Canal at Lemont,2,ROMI2;STII2,True,False
-LCSL1,Mermentau River at Lacassine Wildlife Refuge,2,CFPL1;MRML1,True,False
-LCSN6,Cayuga Creek at Lancaster,0,,True,False
-LCSN7,Leith Creek above East Church St,0,,True,False
-LCSP4,Lago Carite at Spillway,0,,True,False
-LCSV2,Lieutenant Run Creek at St Andrews St at Petersburg,0,,True,False
-LCTN2,Lower Current Creek nr Currant,0,,True,False
-LCTT2,West Fork San Jacinto River at Lake Conroe,1,CFKT2,True,False
 LCTU1,Little Cottonwood Creek near Salt Lake City,0,,True,False
 LCUV2,Little Creek at US-1,0,,True,False
 LCVN5,Mora River at La Cueva,1,GOLN5,True,False
@@ -97,7 +72,7 @@ LFHW1,Icicle Creek at Structure 2 near Leavenworth NFH,0,,True,False
 LFIS2,Missouri River at La Framboise Island,3,BIWN8;FRMS2;PIRS2,True,False
 LFKM5,Little Fork River at Littlefork,0,,True,False
 LFKT2,Lake Fork Creek at Lake Fork,0,,True,False
-LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
+LFMW3,La Crosse River at Fort McCoy,2,ANOW3;SPAW3,True,False
 LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False
 LFRF1,Brooker Creek Near Lake Fern (in NGVD29),0,,True,False
 LFRM8,Birch Creek (MT) at Lake Francis Reservoir,0,,True,False
@@ -545,7 +520,7 @@ LUDN6,Salmon Creek near Ludlowville,0,,True,False
 LUFT2,Angelina River near Lufkin,2,ALOT2;JSPT2,True,False
 LUIT2,Tide Station (HGX) at San Luis Pass,0,,True,False
 LUKM2,North Branch Potomac River at Luke,3,BNMW2;CBEM2;SRVM2,True,False
-LULT2,Plum Creek near Luling,0,,True,False
+LULT2,Plum Creek near Luling,2,GNLT2;LCPT2,True,False
 LUMN7,Lumber River at Lumberton West 5th Street,2,BRDN7;LBRN7,True,False
 LUPC2,South Platte River at Fort Lupton,2,HNDC2;KERC2,True,False
 LURF1,Suwannee River at Luraville - SR 51 (in NAVD88),2,BFDF1;DOUF1,True,False
@@ -4660,7 +4635,7 @@ SPAN7,Little River near Sparta,1,LBXN7,True,False
 SPAO2,Eastern Oklahoma Lakes at Spavinaw Dam,0,,True,False
 SPAQ8,Lodge Creek at Spangler Ditch,0,,True,False
 SPAT2,Navidad River near Speaks,0,,True,False
-SPAW3,La Crosse River at Sparta,4,ANOW3;BVCW3;FMCW3;LCRW3,True,False
+SPAW3,La Crosse River at Sparta,5,ANOW3;BVCW3;FMCW3;LCRW3;LFMW3,True,False
 SPBN6,Salmon River at South Plattsburgh,0,,True,False
 SPBN7,Contentnea Creek at Speights Bridge,0,,True,False
 SPBW4,South Piney Creek below Snider Basin,0,,True,False
