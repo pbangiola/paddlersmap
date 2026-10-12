@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CSAF1,Cypress Creek at SR 52 Near San Antonio,1,WRGF1,True,False
-CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
-CSHO1,Muskingum River below Coshocton,1,DREO1,True,False
-CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
-CSNO1,West Branch Rocky River at West View,1,BRRO1,True,False
 CSRA2,South Fork Campbell Creek at Canyon Mouth near Anchorage,1,CCSA2,True,False
 CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
@@ -239,12 +234,14 @@ LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LENW3,Little La Crosse River at Leon,1,CFMW3,True,False
 LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
+LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False
 LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
 LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
 LGRT1,Wolf River near La Grange,1,ROST1,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
 LHMN7,Little Rockfish Creek at Lakeview Rd near Hope Mills,1,BVFN7,True,False
+LIES2,Grand River (SD) near Little Eagle,1,SHAS2,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LITW2,Tug Fork River at Litwar,1,BRSW2,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
@@ -395,6 +392,7 @@ NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
+NRWI4,North River near Norwalk,1,CSLI4,True,False
 NRWM3,Neponset River at Norwood,1,CANM3,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
@@ -466,6 +464,7 @@ PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
+PRAM4,Paint River near Alpha,1,CRYM4,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
@@ -496,8 +495,8 @@ RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
 RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
-REEO1,Big Walnut Creek at Rees,1,CLMO1,True,False
 REGN8,Cannonball River at Regent,1,BREN8,True,False
+REVS2,South Fork Grand River at Hwy 79,1,CSHS2,True,False
 REYG1,Spring Creek near Reynoldsville St. Park (SR 253),1,IRCG1,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
@@ -539,10 +538,12 @@ SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
+SBYO1,Big Walnut Creek at Sunbury,1,HOOO1,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
+SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
 SCNM5,St. Louis River at Scanlon,1,CQRM5,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
@@ -580,6 +581,7 @@ SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
+SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SNAW1,Snohomish River at Snohomish,1,MROW1,True,False
