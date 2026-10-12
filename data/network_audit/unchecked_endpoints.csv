@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FRNG1,Chattahoochee River at GA 100 at Franklin,2,WETG1;WHTG1,True,False
-FRNI3,Big Raccoon Creek at Ferndale,2,CHLI3;COXI3,True,False
-FRNK1,Fall River (KS) at Fredonia,0,,True,False
-FRNL1,Bogue Chitto River at Franklinton,2,BSHL1;TYTM6,True,False
-FRNM4,Cass River at Frankenmuth,1,VSSM4,True,False
-FRNN7,Dan River near Francisco,1,PNHN7,True,False
-FRNO3,Long Tom River below Fern Ridge Reservoir,0,,True,False
-FRNS2,French Creek (SD) above Fairburn,2,BBLS2;CHRS2,True,False
-FRNW4,French Creek near Buffalo,0,,True,False
-FROV2,South Fork Shenandoah River at Front Royal,2,MILW2;SFSV2,True,False
-FRPM6,Mississippi River at Friars Point,2,HEEA4;ROSM6,True,False
-FRPN6,Hudson Bay at Freeport (IN MLLW),0,,True,False
-FRPP1,Buffalo Creek (PA) at Freeport/ Iron Bridge,0,,True,False
-FRRF1,Fenholloway River Boat Ramp 2 near the River Entrance (in MHHW),0,,True,False
-FRRT1,Loosahatchie River near Frayser,2,BRNT1;MEMT1,True,False
-FRRT2,San Casimiro Creek near Freer,0,,True,False
-FRRU1,Ferron Creek near Ferron (Upper Station),0,,True,False
-FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
-FRSI4,West Branch Floyd River near Struble,0,,True,False
-FRSN8,Sheyenne River at Fort Ransom State Park,2,LBNN8;VCRN8,True,False
-FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
-FRST1,Nonconnah Creek at Farrisview Boulevard,0,,True,False
-FRUC2,"Colorado River at Fruita, CO",3,CCUC2;CGJC2;GJNC2,True,False
-FRUF1,Braden River at Lakewood Ranch Blvd,0,,True,False
-FRUS2,Belle Fourche River near Fruitdale,2,BFVS2;BLES2,True,False
 FRVA1,Crooked Creek (AL) near Fairview,0,,True,False
 FRVC2,Florida River below Lemon Reservoir,1,FRIC2,True,False
 FRVM3,Mount Hope Bay at Fall River (IN MLLW),0,,True,False
@@ -3232,7 +3207,7 @@ MNPV2,Elizabeth River near Money Point (IN MLLW),0,,True,False
 MNRC2,Mancos River near Mancos,0,,True,False
 MNRF1,Munson Slough at Roberts Avenue (in NAVD88),0,,True,False
 MNRN6,Manor Kill at West Conesville near Gilboa,0,,True,False
-MNRO3,Long Tom River at Monroe,0,,True,False
+MNRO3,Long Tom River at Monroe,1,FRNO3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSO3,"Mill Creek (Marion Co., OR) at North Salem High School at Salem",0,,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
@@ -3966,7 +3941,7 @@ NOLQ6,"Whitefish River near Nolalu, ON",0,,True,False
 NOLT1,Nolichucky River at Nolichucky Dam HW near Greeneville 8SSW,2,EMBT1;LLDT1,True,False
 NOMC1,Sonoma Creek d/s miles N of Calabazas Creek,0,,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
-NONT1,Nonconnah Creek at Winchester Rd,0,,True,False
+NONT1,Nonconnah Creek at Winchester Rd,1,FRST1,True,False
 NOOG1,Noonday Creek at Shallowford River near Woodstock,0,,True,False
 NOPM5,Rabbit River above North Ottawa Impoundment nr Tintah MN,0,,True,False
 NORI3,White River (IN) at 82nd Street Bridge near Nora,2,WHNI3;WRRI3,True,False
@@ -3978,7 +3953,7 @@ NOSV1,"North Springfield Dam at North Springfield, VT",0,,True,False
 NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
 NOTM4,Prairie River (MI) near Nottawa,0,,True,False
 NOTM5,North Branch Two Rivers River near Northcote North Branch Two Rivers River,0,,True,False
-NOTO3,Long Tom River near Noti,0,,True,False
+NOTO3,Long Tom River near Noti,1,FRNO3,True,False
 NOXA1,Noxubee River,0,,True,False
 NPAW4,North Piney Creek above Apperson Creek,0,,True,False
 NPBG1,North Fork Peachtree Creek at Buford Highway at Atlanta,2,AANG1;NFPG1,True,False

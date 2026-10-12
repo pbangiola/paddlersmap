@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FRNM4,Cass River at Frankenmuth,1,VSSM4,True,False
-FRNN7,Dan River near Francisco,1,PNHN7,True,False
-FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
-FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
 FRVC2,Florida River below Lemon Reservoir,1,FRIC2,True,False
 FRWC2,Fraser River (CO) at Winter Park,1,FRGC2,True,False
 FSBG1,Canoochee River at Fort Stewart,1,CNOG1,True,False
@@ -271,6 +267,7 @@ MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
 MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
+MNRO3,Long Tom River at Monroe,1,FRNO3,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
@@ -338,8 +335,10 @@ NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
 NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
+NONT1,Nonconnah Creek at Winchester Rd,1,FRST1,True,False
 NORN4,Maurice River at Norma,1,BVVN4,True,False
 NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
+NOTO3,Long Tom River near Noti,1,FRNO3,True,False
 NPLI3,Sugar Creek (central) at New Palestine,1,SCBI3,True,False
 NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
