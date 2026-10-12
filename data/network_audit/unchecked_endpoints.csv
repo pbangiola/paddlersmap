@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KIOW1,Yakima River at Kiona,1,PARW1,True,False
-KIPA2,Kipnuk Tide Gauge at Kipnuk (MHHW datum),0,,True,False
-KIRO1,West Branch Mahoning River at Kirwan Reservoir,0,,True,False
-KITM2,North Branch Potomac River at Kitzmiller,2,BLMW2;STYM2,True,False
-KITN7,Albemarle Sound at Kitty Hawk (in MLLW),0,,True,False
-KITO1,West Branch Mahoning River below M J Kirwan Dam,0,,True,False
-KIVT2,Tranquitas Creek at Kingsville,0,,True,False
-KIZP1,Allegheny River at Kinzua Dam Outflow,0,,True,False
-KKGH1,Kaunakakai Gulch at 75 feet altitude,0,,True,False
-KKHA2,Kakuhan Creek near Haines,0,,True,False
-KKLH1,Kahakuloa Stream near Kahakuloa,0,,True,False
-KKLN6,Keuka Lake at Hammondsport,0,,True,False
-KKPN6,Keuka Lake at Penn Yan,0,,True,False
-KKTA2,[INACTIVE] NF Koktuli River near Iliamna,0,,True,False
-KKVC1,Kern River at Fairview Dam,0,,True,False
-KLBO1,Alum Creek near Kilbourne,0,,True,False
-KLCA2,[INACTIVE] Kuskokwim River at Liskys Crossing near Stony River,2,CJXA2;MCGA2,True,False
-KLCW1,Klickitat River near Glenwood,0,,True,False
-KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
-KLGT2,Rabbit Creek at Kilgore,0,,True,False
-KLKH1,Kaloko Reservoir near Kilauea,0,,True,False
-KLKM5,Cannon River Below Sabre Lake,0,,True,False
-KLLN7,Kitty Hawk Bay at Kill Devil Hills (in MLLW),0,,True,False
-KLLW1,Sanpoil River above Jack Creek,0,,True,False
-KLMC1,Klamath River near Klamath,1,ONSC1,True,False
 KLML1,Mississippi River near Knox Landing,2,NTZM6;RRLL1,True,False
 KLMW1,Columbia River at Kalama,2,LOPW1;SHNO3,True,False
 KLNG1,St. Marys River at Interstate 95 (in MHHW),0,,True,False
@@ -71,7 +46,7 @@ KNVN6,Oak Orchard Creek near Kenyonville,2,BRIN6;SBYN6,True,False
 KNXI3,Yellow River at Knox,2,DBRI3;OGRI3,True,False
 KNXV2,Knox Creek at Blackey,0,,True,False
 KNYM7,Blue River at 71 Highway,2,KAYM7;KCCM7,True,False
-KNZP1,Central PA Dams  Kinzua Dam on Allegheny River,2,RTDP1;YRKP1,True,False
+KNZP1,Central PA Dams  Kinzua Dam on Allegheny River,3,KIZP1;RTDP1;YRKP1,True,False
 KONV2,Whitetop Laurel Creek Near Konnarock,0,,True,False
 KOOW3,Tenmile Creek (WI) near Nekoosa,0,,True,False
 KORW4,North Platte River below Kortes Dam,2,NPPW4;SINW4,True,False
@@ -348,7 +323,7 @@ LDVO1,Black Fork Mohican River at Loudonville,2,MEPO1;MHWO1,True,False
 LDWN6,Little Delaware River above Delhi,0,,True,False
 LDXC1,Kaweah River at Lemoncove Ditch,0,,True,False
 LDYN6,Tioga River at Lindley,2,ERWN6;TGJP1,True,False
-LEAO1,Mahoning River at Leavittsburg,2,PRIO1;WRNO1,True,False
+LEAO1,Mahoning River at Leavittsburg,3,KITO1;PRIO1;WRNO1,True,False
 LEAT2,Mill Creek (E TX) at Brownlea Road,0,,True,False
 LEBT2,Little Bernard Creek at I-10 near Sealy,0,,True,False
 LEBW3,Rock River at Lebanon-3 E-Hwy MM bridge,3,HCNW3;HDMW3;WATW3,True,False
@@ -652,7 +627,7 @@ LOLT2,Trinity River near Long Lake (Oakwood),3,CRKT2;FFLT2;TDDT2,True,False
 LOMM8,Marias River near Loma,0,,True,False
 LONN7,Long Creek at PAW CREEK,0,,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
-LONT2,Sabine River below Longview,2,BEKT2;GDWT2,True,False
+LONT2,Sabine River below Longview,3,BEKT2;GDWT2;KLGT2,True,False
 LONV2,London Bridge Creek at Route 58 in VA Beach,0,,True,False
 LONW2,Kanawha River at London Locks,2,KANW2;MMTW2,True,False
 LOPO3,Reservoir at Lookout Point nr Lowell,1,DEXO3,True,False
@@ -1705,7 +1680,7 @@ MRSG1,Pataula Creek near Georgetown,0,,True,False
 MRSI2,Illinois River at Marseilles,0,,True,False
 MRSN7,Mills River near Mills River,0,,True,False
 MRTF1,East Bay at MARTIN BAYOU at US 98,0,,True,False
-MRTM5,Cannon River at Morristown,0,,True,False
+MRTM5,Cannon River at Morristown,2,FRLM5;KLKM5,True,False
 MRTN4,West Branch Middle Brook near Martinsville,0,,True,False
 MRTP1,Susquehanna River at Marietta,2,CNWM2;HARP1,True,False
 MRVL1,Bayou Des Glaises Diversion Ch. at Moreauville,0,,True,False
@@ -3086,7 +3061,7 @@ PISM8,Sun River at Pishkun Reservoir near Augusta,0,,True,False
 PITC1,Pit River above Near Montgomery,0,,True,False
 PITF1,Choctawhatchee River near Pittman (SR 2),2,CARF1;GNVA1,True,False
 PITN4,Mantua Creek at Pitman,0,,True,False
-PITW1,Klickitat River near Pitt,0,,True,False
+PITW1,Klickitat River near Pitt,1,KLCW1,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
 PIXW4,Bear River below Pixley Dam,2,BRWU1;COKW4,True,False
 PJMC1,Pajaro River at Main Street,0,,True,False
@@ -4096,7 +4071,7 @@ RVLT1,Big Creek near Rogersville,0,,True,False
 RVLW3,Platte River (WI) at Rockville,0,,True,False
 RVNI3,White River (IN) at Ravenswood,2,BRDI3;WRRI3,True,False
 RVNN1,South Loup River at Ravenna,2,PRSN1;SMIN1,True,False
-RVNO1,West Branch Mahoning River above Ravenna,0,,True,False
+RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
 RVPK2,Ohio River at Riverview Park,2,CNNI3;MLPK2,True,False
 RVRI2,Des Plaines River at Riverside,4,BWDI2;LYNI2;RVFI2;WSPI2,True,False
 RVRN1,Republican River at Riverton,2,GUIN1;REPN1,True,False
@@ -6802,7 +6777,7 @@ WRPN7,Waccamaw River at Highway 904 near Pireway,2,FREN7;LNGS1,True,False
 WRPW1,White River at Roegner Pk. nr Auburn,0,,True,False
 WRRI3,White River (IN) near Ravenswood,2,NORI3;RVNI3,True,False
 WRRN7,Roaring River at S.R. 1993,0,,True,False
-WRRP1,Allegheny River at Warren,2,SLMN6;WHKP1,True,False
+WRRP1,Allegheny River at Warren,3,KIZP1;SLMN6;WHKP1,True,False
 WRRV2,South River at Waynesboro near Rife Road,0,,True,False
 WRRW1,White River Bridge,0,,True,False
 WRSH1,Wahiawa Reservoir at Spillway,0,,True,False

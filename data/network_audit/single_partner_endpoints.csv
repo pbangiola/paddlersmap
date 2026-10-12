@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KIOW1,Yakima River at Kiona,1,PARW1,True,False
-KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
-KLMC1,Klamath River near Klamath,1,ONSC1,True,False
 KMST2,Lavaca River at Komensky,1,BRLT2,True,False
 KNKA2,Knik River near Palmer,1,BDBA2,True,False
 KNTO1,Scioto River at Kenton,1,LARO1,True,False
@@ -351,6 +348,7 @@ PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
+PITW1,Klickitat River near Pitt,1,KLCW1,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
 PKGM5,Lake Pokegama Dam,1,DAYM5,True,False
 PKPM8,Prickly Pear Creek near Clancy,1,HVDM8,True,False
@@ -467,6 +465,7 @@ RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
+RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
 RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
 RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
