@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HBYC1,Tide Station (Humboldt Co.) at NORTH SPIT,0,,True,False
-HCCA2,Hatchery Creek at Forest Service Road 23 near Coffman Cove,0,,True,False
-HCCI3,Haw Creek (IN) near Clifford,0,,True,False
-HCCM8,Hyalite Creek near S 19th near Gallatin Gateway,0,,True,False
-HCCT2,Clear Creek at Friendswood,0,,True,False
-HCDI1,Snake River at Hells Canyon,2,ANAW1;WEII1,True,False
-HCDT2,Cedar Bayou near Crosby,0,,True,False
-HCEI3,Haw Creek (IN) at East Columbus,0,,True,False
-HCEL1,Barataria Bay and Waterway at Harvey Canal at Boomtown Casino/Estelle,0,,True,False
-HCFL1,Barataria Bay and Waterway at Hero Canal (FS) near Belle Chasse,0,,True,False
-HCFM6,Pearl River at Highway 25,2,JACM6;JSNM6,True,False
-HCFV2,Happy Creek at Front Royal,0,,True,False
-HCGN7,Pamlico Sound at Coast Guard Hatteras (in MLLW),0,,True,False
-HCGV2,Harrison Creek near Fort Gregg-Adams,0,,True,False
-HCHC1,Bear Creek at Holsten Chimney Canyon,0,,True,False
-HCHI3,Haw Creek (IN) at Hope,0,,True,False
-HCHK1,Arkansas River at Hutchinson,2,GTBK1;HAVK1,True,False
-HCHL1,Barataria Bay and Waterway at Harvey Canal near Harvey 2SSE,0,,True,False
-HCJP1,Huntington Creek at Jonestown,0,,True,False
-HCKN1,Wagon Train Lake,0,,True,False
-HCKN2,Henderson Creek below Vinnini Creek,0,,True,False
-HCNM5,South Fork Crow River at Hutchinson,2,COSM5;LEPM5,True,False
-HCNW3,Rock River at Horicon,2,LEBW3;WPUW3,True,False
-HCRA2,Hess Creek near Livengood,0,,True,False
-HCRC1,Hopper Creek at Highway 29,0,,True,False
 HCRN7,Hitchcock Creek at Steele St,0,,True,False
 HCRO3,Hills Creek near Oakridge,0,,True,False
 HCRT2,North Texas Lakes at Hubbard Creek Lake,2,BGET2;SOUT2,True,False
@@ -4309,7 +4284,7 @@ PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRLM2,Patuxent River at Avondale Street in Laurel,2,BOWM2;PRNM2,True,False
 PRLO1,East Branch Rocky River at Strongsville,0,,True,False
 PRLO2,Walnut Creek (OK) at Purcell,0,,True,False
-PRLT2,Clear Creek above Telephone Road,0,,True,False
+PRLT2,Clear Creek above Telephone Road,1,HCCT2,True,False
 PRLU1,Parleys Creek near Parleys,0,,True,False
 PRMI4,South Fork Chariton River near Promise City,0,,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
@@ -5430,7 +5405,7 @@ SEMN7,Walnut Creek (NC) above Maynard St in Cary,0,,True,False
 SEOC1,San Simeon Creek near San Simeon,0,,True,False
 SEPF1,Indian River at Sewall Point (in MHHW),0,,True,False
 SEPG1,South River at Springdale Road near East Point,0,,True,False
-SERI3,East Fork White River near Seymour,3,BAKI3;BEDI3;CCCI3,True,False
+SERI3,East Fork White River near Seymour,4,BAKI3;BEDI3;CCCI3;HCEI3,True,False
 SERO3,John Day River at Service Creek,0,,True,False
 SESC1,Sespe Creek near Fillmore,0,,True,False
 SESM3,Atlantic Coast at Dennis Sesuit Harbor (IN MLLW),0,,True,False
