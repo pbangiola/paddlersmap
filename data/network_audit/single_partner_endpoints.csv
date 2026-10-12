@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KENO2,Cimarron River (OK) at Kenton,1,EHTK1,True,False
-KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
@@ -221,6 +219,7 @@ MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 NACW1,Naches River near Naches,1,CLFW1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
+NALF1,North Prong Alafia River Near Nichols,1,KEYF1,True,False
 NALW2,Meadow River at Nallen,1,HNEW2,True,False
 NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
@@ -250,6 +249,7 @@ NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NNRN7,New River near Richlands,1,GUMN7,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
 NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
+NOKF1,Donna Bay at US 41 at Nokomis (in MHHW),1,SKTF1,True,False
 NOLK2,Nolin River at Nolin River Lake,1,WHMK2,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
 NONT1,Nonconnah Creek at Winchester Rd,1,FRST1,True,False
@@ -743,6 +743,7 @@ WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WMSM4,Red Cedar River near Williamston,1,ELNM4,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
+WMYF1,Cow Pen Slough at WM-49,1,KGAF1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False

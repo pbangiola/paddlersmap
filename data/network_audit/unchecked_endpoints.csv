@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KENL1,Tangipahoa River near Kentwood,2,AMIL1;OSYM6,True,False
-KENM1,Kenduskeag Stream near Bangor,0,,True,False
-KENN3,Ashuelot River below Surry Mt. Dam,2,GILN3;KNEN3,True,False
-KENO2,Cimarron River (OK) at Kenton,1,EHTK1,True,False
-KEOO3,Klamath River at Keno,1,BOYO3,True,False
-KEOS1,Seneca River at Keowee Dam,2,HWDS1;JCSS1,True,False
-KEQI4,Des Moines River at Keosauqua,5,EQUI4;FLCI4;FLSI4;OTMI4;SFLM7,True,False
-KERC2,South Platte River near Kersey,6,BELC2;BTLC2;GRPC2;LUPC2;PTLC2;WNAC2,True,False
-KERM8,Flathead Lake at Polson,0,,True,False
-KERO2,Eastern Oklahoma Lakes at R.S. Kerr Lock and Dam,0,,True,False
-KERV2,Roanoke River at John H. Kerr Dam,2,GASN7;RNDV2,True,False
-KESC1,Sacramento River Below Keswick Dam,0,,True,False
-KESI4,West Fork Cedar River near Kesley Hickory Ave--IFC,3,DUMI4;FNHI4;SFLI4,True,False
-KETG1,Kettle Creek near Washington,0,,True,False
-KEWW3,Kewaunee River near Kewaunee,0,,True,False
-KEYA2,Kenai River at Kenai Keys near Sterling,2,SKLA2;SXRA2,True,False
-KEYF1,North Prong Alafia River at Keysville,0,,True,False
-KEYN1,North Platte River near Keystone,0,,True,False
-KEYO2,Eastern Oklahoma Lakes at Keystone Lake,0,,True,False
-KEYW4,Keyhole Reservoir,2,BFAW4;BFRW4,True,False
-KFDM4,Menominee River below Kingsford,2,BGQW3;TWFM4,True,False
-KGAF1,Cow Pen Slough at Kings Gate,0,,True,False
-KGCA2,King Cove at King Cove,0,,True,False
-KGCS1,"Kings Creek at Possum Trot Rd, 5 E Blacksburg",0,,True,False
-KGFF1,Kings Ferry (in MHHW),0,,True,False
 KGPC1,South Fork Kings River above Boyden Cavern,0,,True,False
 KGTG1,Etowah River near Kingston,2,CTVG1;ROEG1,True,False
 KGTT1,Tennessee River at Kingston,4,FDTT1;MHTT1;OAKT1;WBOT1,True,False
@@ -528,7 +503,7 @@ LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LISI2,St. Joseph Creek (IL) above Lisle,0,,True,False
 LISK1,Rock Creek (KS) at Louisville,0,,True,False
 LITA4,Arkansas River at Little Rock,2,PBFA4;TODA4,True,False
-LITF1,Alafia River at Lithia Pinecrest Road at Lithia,2,RIVF1;SPAF1,True,False
+LITF1,Alafia River at Lithia Pinecrest Road at Lithia,3,KEYF1;RIVF1;SPAF1,True,False
 LITN7,Little River (North Carolina) near Star/Troy,0,,True,False
 LITS2,Little White River near Martin,0,,True,False
 LITV2,Back Creek at Camp Bethel,0,,True,False
@@ -1997,7 +1972,7 @@ NAGN7,Roanoke Sound at Nags Head (in MLLW),0,,True,False
 NAHD2,Hickey Run at National Arboretum,0,,True,False
 NAHN7,Nahunta Swamp near Shine,0,,True,False
 NAKA2,[INACTIVE] Naknek River at Lake Camp,0,,True,False
-NALF1,North Prong Alafia River Near Nichols,0,,True,False
+NALF1,North Prong Alafia River Near Nichols,1,KEYF1,True,False
 NALW2,Meadow River at Nallen,1,HNEW2,True,False
 NAMO3,Malheur River at Namorf,0,,True,False
 NAMP4,Rio Guadiana near Guadiana,0,,True,False
@@ -2301,7 +2276,7 @@ NOFW3,Baraboo River at North Freedom,0,,True,False
 NOGA4,White River at Norrell Lock and Dam,0,,True,False
 NOGL1,Mississippi River at Old River Low Sill Structure,0,,True,False
 NOHV2,Colliers Creek at Effinger,0,,True,False
-NOKF1,Donna Bay at US 41 at Nokomis (in MHHW),0,,True,False
+NOKF1,Donna Bay at US 41 at Nokomis (in MHHW),1,SKTF1,True,False
 NOKM5,Nokasippi River near Ft. Ripley,0,,True,False
 NOLK2,Nolin River at Nolin River Lake,1,WHMK2,True,False
 NOLQ6,"Whitefish River near Nolalu, ON",0,,True,False
@@ -4782,7 +4757,7 @@ SKRM5,South Kawishiwi River near Ely,2,KAWM5;SKWM5,True,False
 SKRW1,Skookumchuck Reservoir,2,BCDW1;VALW1,True,False
 SKSC1,San Luis Obispo Creek at Elks Lane,0,,True,False
 SKTA2,Taiya Inlet Tide Gauge at Skagway (MLLW datum),0,,True,False
-SKTF1,Shakett Creek at CR 672 Near Nokomis ,0,,True,False
+SKTF1,Shakett Creek at CR 672 Near Nokomis ,2,KGAF1;NOKF1,True,False
 SKTK1,Bow Creek near Stockton,0,,True,False
 SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
 SKVV2,North River near Stokesville,0,,True,False
@@ -6722,7 +6697,7 @@ WMSM8,Silver Bow Creek at Warm Springs MT,0,,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
 WMSO3,Williamson River below Chiloquin,0,,True,False
 WMWN7,White Marsh at U.S. 74 near Whiteville,0,,True,False
-WMYF1,Cow Pen Slough at WM-49,0,,True,False
+WMYF1,Cow Pen Slough at WM-49,1,KGAF1,True,False
 WNAC2,South Platte River near Weldona,2,FOMC2;KERC2,True,False
 WNAM5,Mississippi River at Winona - Pool 6,2,TREW3;WIDM5,True,False
 WNBA3,Jackrabbit Wash near Wickenburg,0,,True,False
