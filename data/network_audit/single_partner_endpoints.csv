@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CSRA2,South Fork Campbell Creek at Canyon Mouth near Anchorage,1,CCSA2,True,False
-CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
 CTWG1,Big Cedar Creek at Georgia Ave at Cedartown,1,CCDG1,True,False
@@ -39,6 +37,7 @@ DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
 DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
+DRFI2,North Branch Chicago River at Deerfield,1,NILI2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
 DUBW4,Wind River near Dubois,1,WRCW4,True,False
@@ -47,6 +46,7 @@ DVDO2,Red River near Davidson,1,BKBT2,True,False
 DWTO1,Wills Creek at Derwent,1,CDIO1,True,False
 EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
 EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
+EALC2,Eagle River above Avon,1,GORC2,True,False
 EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
 EBWM5,North Fork Whitewater River near Elba,1,BVRM5,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
@@ -99,6 +99,7 @@ FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
 FRKM1,Kennebec River at The Forks,1,BINM1,True,False
 FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRMN5,San Juan River at Farmington,1,ARFN5,True,False
+FRNM4,Cass River at Frankenmuth,1,VSSM4,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
 FSBG1,Canoochee River at Fort Stewart,1,CNOG1,True,False
