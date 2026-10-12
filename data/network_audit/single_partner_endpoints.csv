@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CAPL1,Tide Station (LCH) at Calcasieu Pass,1,LCLL1,True,False
-CARG1,Broad River in GA above Carlton,1,BELG1,True,False
-CARM6,Pearl River near Carthage,1,GDHM6,True,False
 CATI3,Mill Creek (IN) near Cataract,1,CAGI3,True,False
 CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBEM2,North Branch Potomac River at Cumberland,1,LUKM2,True,False
@@ -89,6 +86,7 @@ ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,Tru
 EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
+EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 ELYW2,Twelvepole Creek at East Lynn Lake,1,ELSW2,True,False
 ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
@@ -133,6 +131,7 @@ GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
+GLLT2,Elm Fork Trinity River at Gainesville,1,RRLT2,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GRMN3,Androscoggin River at Gorham,1,RMFM1,True,False
@@ -210,6 +209,7 @@ LAWM3,Merrimack River at Lawrence,1,BATM3,True,False
 LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
 LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
+LCRL1,Calcasieu River at Sam Houston Jones State Park,1,LCHL1,True,False
 LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
 LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
@@ -252,6 +252,7 @@ LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
 LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
+MALM5,Roseau River below South Fork near Malung,1,ROSM5,True,False
 MAOO3,Malheur River near Ontario,1,VALO3,True,False
 MARM4,Kalamazoo River at Marshall,1,BTCM4,True,False
 MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
@@ -360,6 +361,7 @@ OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OVRO2,North Canadian River at Lake Overholser,1,YUKO2,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
+PACW1,Cowlitz River at Packwood,1,RAWW1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
@@ -381,6 +383,7 @@ PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
 PKTO1,Scioto River at Piketon,1,HIGO1,True,False
 PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
+PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLGN7,Catawba River near Pleasant Gardens,1,BRWN7,True,False
@@ -534,6 +537,7 @@ VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
+WAHP1,Chartiers Creek at Wylie,1,PIKP1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN2,Walker River near Wabuska,1,WBMN2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
