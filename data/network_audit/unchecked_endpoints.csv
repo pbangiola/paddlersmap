@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DYSI4,Wolf Creek near Dysart,0,,True,False
-DYUC1,Dry Creek at Union City,0,,True,False
-EABM3,Monatiquot River at East Braintree,0,,True,False
-EADM7,Mississippi River at St. Louis,2,ALNI2;HRCM7,True,False
-EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
-EAGI1,Boise River at Eagle Island,2,BIGI1;BSCI1,True,False
-EAGM4,Looking Glass River near Eagle,0,,True,False
-EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
-EAGO1,Mad River above Eagle City,0,,True,False
-EAGO2,Mountain Fork near Eagletown,0,,True,False
-EAKO2,Cobb Creek near Eakley,0,,True,False
-EALC2,Eagle River above Avon,1,GORC2,True,False
-EAMC1,Smith Creek abv Elam Ave,0,,True,False
-EAMC2,"Eagle River near Minturn, CO",0,,True,False
-EAMT2,North Texas Lakes at Eagle Mountain Lake,2,BOYT2;FLWT2,True,False
-EANG1,Little River near Eatonton,0,,True,False
-EASC1,Colgan Creek near Santa Rosa,0,,True,False
-EASI1,Moyie River at Eastport,0,,True,False
-EASM4,Grand River near Eastmanville,2,GNDM4;RBNM4,True,False
-EAST2,Navasota River near Easterly,2,LLST2;NGET2,True,False
-EASW1,Yakima River at Easton,2,CLEW1;YUMW1,True,False
-EATC1,Eaton Dam,0,,True,False
-EATM4,Grand River near Eaton Rapids,0,,True,False
-EAUF1,Eau Gallie River at Heather Glen Cir Melbourne,0,,True,False
-EAVI4,East Branch West Nishnabotna River near Avoca (IFC),0,,True,False
 EBBT2,San Bernard River at East Bernard,2,BOLT2;CSRT2,True,False
 EBCG1,East Bear Creek at Poplar Road near Mansfield,0,,True,False
 EBCO2,Boggy Creek (N OK) at Enid at Enid Avenue,0,,True,False
@@ -503,7 +478,7 @@ FBNM8,Missouri River at Fort Benton,2,GFLM8;VRGM8,True,False
 FBPV2,Flat Branch at Ben Lomond Park,0,,True,False
 FCBP1,Fishing Creek at Bloomsburg,0,,True,False
 FCCA2,Fish Creek below Solo Creek near Chatanika,0,,True,False
-FCCO2,Cobb Creek near Fort Cobb,0,,True,False
+FCCO2,Cobb Creek near Fort Cobb,1,FTCO2,True,False
 FCCP1,Fishing Creek at CRALEY,0,,True,False
 FCDS1,Catawba River at Fishing Creek Reservoir and Dam,3,CDCS1;CTBS1;FOMS1,True,False
 FCEW3,Popple River at Fence,1,BRKW3,True,False
@@ -866,7 +841,7 @@ FTBV2,Clinch River at Ft Blackmore,0,,True,False
 FTCM4,Thread Creek near Flint,0,,True,False
 FTCN2,Carson River near Fort Churchill,3,CDYN2;DRRN2;LHDN2,True,False
 FTCN6,Salmon River at Fort Covington,0,,True,False
-FTCO2,Cobb Creek at Fort Cobb Lake,0,,True,False
+FTCO2,Cobb Creek at Fort Cobb Lake,2,EAKO2;FCCO2,True,False
 FTDC1,Smith River at Dr Fine Bridge,1,CREC1,True,False
 FTDC2,Cache La Poudre River (CO) above Fort Collins,0,,True,False
 FTEN6,Hudson River at Fort Edward,2,HDYN6;WTFN6,True,False
@@ -1232,7 +1207,7 @@ GOLN5,Mora River near Golondrinas,0,,True,False
 GOLN8,Sheyenne River at Gol Road near Kindred,2,KNDN8;LBNN8,True,False
 GOLP1,Fishing Creek at Goldsboro,0,,True,False
 GOOS1,Cooper River near Goose Creek,2,CPFS1;PINS1,True,False
-GORC2,Gore Creek near Minturn,2,CSSC2;EALC2,True,False
+GORC2,Gore Creek near Minturn,3,CSSC2;EALC2;EAMC2,True,False
 GORN7,Ellerbe Creek (NC) near Gorman,0,,True,False
 GORO2,Illinois River (AR OK) at Gore,0,,True,False
 GORW1,Skagit River at Newhalem,0,,True,False
@@ -1885,7 +1860,7 @@ HREN2,Humboldt River near Elko,2,DEVN2;HRCN2,True,False
 HRFK2,Rough River at Hartford,0,,True,False
 HRFT1,Pigeon River below Waterville NC near Hartford TN,0,,True,False
 HRFV2,Hughes River at F.T. Valley Road,0,,True,False
-HRGA4,Little River at Horatio,2,DQNA4;FLTA4,True,False
+HRGA4,Little River at Horatio,3,DQNA4;EAGO2;FLTA4,True,False
 HRHF1,Tide Gauge at Homosassa Springs (In MHHW),0,,True,False
 HRHO2,North Canadian River near Harrah,2,OKBO2;SWNO2,True,False
 HRIN2,Humboldt River near Imlay,2,CMSN2;HRPN2,True,False
@@ -2694,7 +2669,7 @@ LANW4,Middle Fork Popo Agie River at Sinks Canyon,0,,True,False
 LAON7,Little Alamance Creek at Overbrook Dr,0,,True,False
 LAPC2,Purgatoire River near Las Animas,0,,True,False
 LAPI1,Lapwai Creek near Lapwai,0,,True,False
-LAPI4,Wolf Creek at La Porte City W Main St--IFC,0,,True,False
+LAPI4,Wolf Creek at La Porte City W Main St--IFC,2,DYSI4;VINI4,True,False
 LAPO3,Little Deschutes River near La Pine,0,,True,False
 LAQM5,Lac Qui Parle Reservoir at Lac Qui Parle Dam Pool,0,,True,False
 LARI4,Mill Creek (NW IA) near Larrabee,0,,True,False
@@ -6266,7 +6241,7 @@ RELT2,Colorado River (TX) at Robert Lee,2,BLIT2;SILT2,True,False
 RENV2,Rappahannock River at Remington,0,,True,False
 REPA1,Fivemile Creek near Republic,0,,True,False
 REPN1,Republican River at Harlan Reservoir,2,ORNN1;RVRN1,True,False
-RERC2,Eagle River at Red Cliff,0,,True,False
+RERC2,Eagle River at Red Cliff,1,EAMC2,True,False
 RERF1,Little Withlacoochee River at Rerdell (in NAVD88),0,,True,False
 RESA2,Resurrection River at Exit Glacier Road near Seward,0,,True,False
 RESV2,Jones Creek at Rescue Road,0,,True,False
@@ -7066,7 +7041,7 @@ SGCO3,Salmon River near Government Camp,0,,True,False
 SGDU1,Sevier River near Sigurd,0,,True,False
 SGET2,Clear Creek near Sanger,0,,True,False
 SGFM7,James River (MO) near Springfield,0,,True,False
-SGFO1,Mad River near Springfield,2,CJBO1;MRDO1,True,False
+SGFO1,Mad River near Springfield,3,CJBO1;EAGO1;MRDO1,True,False
 SGGC1,San Gabriel River (CA) at Spring Street,0,,True,False
 SGGT2,Guadalupe River at FM 1117 near Seguin,2,GWGT2;SEGT2,True,False
 SGHT2,"San Geronimo Creek near Helotes, TX",0,,True,False
@@ -8188,7 +8163,7 @@ TMPS2,Vermillion River at Lake Thompson,0,,True,False
 TMRM6,Tallahala Creek at Morriston Road,0,,True,False
 TMRM8,Two Medicine River near bl S Fork nr Browning,0,,True,False
 TMRN4,Toms River at Toms River,0,,True,False
-TMSC1,San Tomas Aquino Creek above Williams Road,0,,True,False
+TMSC1,San Tomas Aquino Creek above Williams Road,1,EAMC1,True,False
 TMSG1,Flint River near Thomaston,0,,True,False
 TMTF1,Hillsborough River at Tampa Dam,2,FOWF1;HPLF1,True,False
 TMVC3,Connecticut River at Thompsonville,2,HFDC3;SPGM3,True,False
@@ -8443,7 +8418,7 @@ UBDW1,Baker River  Baker Lk,0,,True,False
 UBEM6,Eubanks Creek at Eagle Avenue/Jackson,0,,True,False
 UBLA2,Ublutuoch River near Nuiqsut,0,,True,False
 UBNI4,North Walnut Creek at Urbandale 92nd Dr,0,,True,False
-UBNO1,Mad River near Urbana,0,,True,False
+UBNO1,Mad River near Urbana,2,EAGO1;WLBO1,True,False
 UBWI4,Walnut Creek at Urbandale 142nd St,2,CWAI4;WCBI4,True,False
 UCAC1,Salinas River at San Lucas Bridge,2,BRDC1;KCBC1,True,False
 UCAN6,Mohawk River at Utica,2,DDMN6;LTLN6,True,False
@@ -8623,7 +8598,7 @@ VIMT2,Village Creek near Village Mills,0,,True,False
 VINA1,Kelly Creek,0,,True,False
 VINF1,Reedy Creek near Vineland,0,,True,False
 VING1,Chattahoochee River at Atlanta,3,CHAG1;FBNG1;VIXG1,True,False
-VINI4,Cedar River at Vinton,2,ALOI4;PLOI4,True,False
+VINI4,Cedar River at Vinton,3,ALOI4;LAPI4;PLOI4,True,False
 VIOW3,Kickapoo River at Viola,0,,True,False
 VIRU1,Virgin River near Virgin,0,,True,False
 VISN2,Truckee River at Vista,2,TNTN2;TRRN2,True,False
@@ -8846,7 +8821,7 @@ WCLO1,Wills Creek at Wills Creek Dam Pool,2,CDIO1;WLLO1,True,False
 WCLO3,Winberry Creek at Winberry Creek,0,,True,False
 WCMM7,Wilson Creek near Brookline,0,,True,False
 WCMW3,Sleighton Creek near Wilton - County Road M,0,,True,False
-WCNI4,Wolf Creek near Conrad G Ave--IFC,0,,True,False
+WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
 WCNN6,Canisteo River near West Cameron,0,,True,False
 WCNW1,Wind River near Carson,0,,True,False
 WCOM7,Spring River  near Waco,2,BXTK1;CHTM7,True,False
@@ -9045,7 +9020,7 @@ WIKC2,Williams Fork at Mouth near Hamilton,0,,True,False
 WILA1,Big Creek (Al) near Wilmer,0,,True,False
 WILA2,Willow Creek at Parks Highway near Willow,0,,True,False
 WILL1,Breton Sound Basin at Reggio Canal near Wills Point,0,,True,False
-WILM3,Hoosic River near Williamstown,0,,True,False
+WILM3,Hoosic River near Williamstown,1,EAGN6,True,False
 WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WILN2,Willow Creek at Allison Ranch,0,,True,False
 WILN6,Ellicott Creek below Williamsville,0,,True,False
@@ -9098,7 +9073,7 @@ WLBK2,Cumberland River at Williamsburg,2,BBVK2;CFAK2,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
 WLBN3,Connecticut River at West Lebanon,2,WELV1;WLPN3,True,False
 WLBN6,Boquet River above Willsboro,0,,True,False
-WLBO1,Mad River at West Liberty,0,,True,False
+WLBO1,Mad River at West Liberty,1,UBNO1,True,False
 WLCA2,Wolverine Creek near Lawing,0,,True,False
 WLCK2,Cumberland River at Lake Cumberland,6,BLWK2;BRKK2;CFAK2;CLAT1;CORK2;STRK2,True,False
 WLCM5,Cannon River at Welch,3,CFLM5;CNFM5;REDM5,True,False
