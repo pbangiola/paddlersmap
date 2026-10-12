@@ -5,6 +5,7 @@ HGBT2,Greens Bayou near Houston,1,GBHT2,True,False
 HGRK2,Red River near Hazel Green,1,CYCK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
+HLKI1,Eastern Idaho Reservoirs at Henrys Lake,1,HENI1,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HLSN7,Eno River at Hillsborough,1,HBSN7,True,False
 HMLI3,Northern Indiana Lakes at Hamilton Lake at Hamilton,1,FLTI3,True,False
@@ -35,6 +36,7 @@ HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
 HTNM7,Little Osage River at Horton,1,FTNK1,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HUSA4,Fourche LaFave River near Houston,1,NMLA4,True,False
+HVLN6,West Branch Oswegatchie River near Harrisville,1,HEUN6,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
 HWBN7,Haw River at NC-62,1,HAWN7,True,False
 HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
@@ -80,6 +82,7 @@ JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
 JUDA4,Little Red River at Judsonia,1,GRRA4,True,False
+JUDS2,Battle Creek (SD) above Keystone,1,RUSS2,True,False
 JYBT2,Neches River at Downtown Beaumont,1,BEAT2,True,False
 JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
 KALI4,English River at Kalona,1,DEPI4,True,False
@@ -279,6 +282,7 @@ MSVL1,Tchefuncte River above Madisonville,1,TRCL1,True,False
 MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
 MTGK2,Johns Creek near Meta,1,DWYK2,True,False
+MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
@@ -360,6 +364,7 @@ OCBA1,Little Claybank Creek near Ozark (US 231),1,DALA1,True,False
 OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
 OCTW3,Oconto River near Oconto,1,GILW3,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
+OGSN6,Oswegatchie River near Ogdensburg,1,HEUN6,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
@@ -402,6 +407,7 @@ PEWT2,Peach Creek at Hwy 90 near Waelder,1,DLWT2,True,False
 PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
+PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
@@ -447,6 +453,7 @@ PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
 PSPT1,Elk River near Prospect,1,FYTT1,True,False
 PTIK1,N F Solomon River at Portis,1,KRWK1,True,False
+PTRN3,Contoocook River at Peterborough,1,HENN3,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
@@ -455,6 +462,7 @@ PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
 QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
+RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
 RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
