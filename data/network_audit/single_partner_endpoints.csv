@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
-GMLO1,Mill Creek at Garfield Parkway,1,GARO1,True,False
-GNGT2,San Gabriel River at Granger Lake,1,WSGT2,True,False
-GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
 GNVT2,Cowleech Fork Sabine River at Greenville,1,PNTT2,True,False
 GOLI4,Boone River near Goldfield 225th St--IFC,1,GLDI4,True,False
@@ -176,7 +172,6 @@ LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
-LTXT2,Navidad River at Lake Texana,1,CODT2,True,False
 LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
 LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
@@ -366,6 +361,7 @@ OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
+ONTW3,Kickapoo River at Ontario,1,LAFW3,True,False
 ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
 ORDS2,Elm River at Ordway,1,WESS2,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False

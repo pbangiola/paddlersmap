@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GLWW2,Brush Creek near Princeton,0,,True,False
-GLYC2,Cache La Poudre River (CO) at Greeley,4,FSSC2;GFNC2;GRPC2;POUC2,True,False
-GLYT2,Gail Creek at FM 1280 near Lovelady,0,,True,False
-GLZM7,Missouri River at Glasgow,2,BOZM7;MIAM7,True,False
-GMDI3,Graham McCulloch Ditch near Fort Wayne,0,,True,False
-GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
-GMIW3,Kickapoo River at Gays Mills,0,,True,False
-GMJW4,Gibbon River at Madison Junction,0,,True,False
-GMKT2,Goose Creek near McNair,0,,True,False
-GMLO1,Mill Creek at Garfield Parkway,1,GARO1,True,False
-GMNM2,"Little Seneca Creek Tributary Near Germantown, MD",0,,True,False
-GMRC2,Blue River (CO) at Green Mountain Reservoir,0,,True,False
-GMRM2,St. Marys River at Great Mills,0,,True,False
-GMRN6,Gumaer Brook near Wurtsboro,0,,True,False
-GMWM5,South Branch Root River near Grand Meadow,0,,True,False
-GNBK2,Salt River (KY) at Glensboro,0,,True,False
-GNCK2,Eagle Creek (KY) near Glencoe,0,,True,False
-GNDM4,Grand River at Grandville,2,EASM4;GDRM4,True,False
-GNDM5,Mississippi River at Grand Rapids,2,ATKM5;BOYM5,True,False
-GNDT2,West Mustang Creek near Ganado,0,,True,False
-GNEI4,Shell Rock River at Greene IA 14--IFC,2,CLSI4;MRBI4,True,False
-GNEN6,Chenango River at Greene,2,CHON6;CNON6,True,False
-GNGT2,San Gabriel River at Granger Lake,1,WSGT2,True,False
-GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
-GNJT2,Tide Station (HGX) at Galveston Bay Entrance North Jetty,0,,True,False
 GNKS2,Grizzly Bear Creek near Keystone,0,,True,False
 GNLM8,Big Hole River near Glen,2,MLRM8;THDM8,True,False
 GNLS1,Reedy River at Hudson St.,0,,True,False
@@ -229,7 +204,7 @@ GTNN7,Contentnea Creek at Grifton,0,,True,False
 GTOT2,Tide Station (HGX) at NOS Station at Pier 21 Galveston,0,,True,False
 GTRF1,Gator Slough West of US 41,0,,True,False
 GTRO2,Cimarron River near Guthrie,2,DOVO2;PRKO2,True,False
-GTTI4,Mississippi River below Lock and Dam 10 - Guttenberg,4,CLAI4;DLDI4;MUSW3;WPNI4,True,False
+GTTI4,Mississippi River below Lock and Dam 10 - Guttenberg,5,CLAI4;DLDI4;MUSW3;STEW3;WPNI4,True,False
 GTWF1,Georgetown (in NAVD88),0,,True,False
 GTWO1,White Oak Creek above Georgetown,0,,True,False
 GTWT2,Berry Creek near Georgetown,2,FMFT2;WSGT2,True,False
@@ -1498,7 +1473,7 @@ LADI4,Big Bear Creek at Ladora,0,,True,False
 LAFI2,Skokie River at Lake Forest,0,,True,False
 LAFI3,Wabash River at Lafayette,3,CVGI3;DCDI3;LGNI3,True,False
 LAFN4,East Branch Paulins Kill near Lafayette,0,,True,False
-LAFW3,Kickapoo River at La Farge,0,,True,False
+LAFW3,Kickapoo River at La Farge,2,ONTW3;VIOW3,True,False
 LAGP4,Canal de Riego de Lajas Blw Lajas Filtration Plant,0,,True,False
 LAIF1,Lake Iamonia at Waterfront Drive,0,,True,False
 LAIP1,Little Muncy Creek at Lairdsville,0,,True,False
@@ -2061,7 +2036,7 @@ LRDW4,Laramie River above Cramer Ditch,0,,True,False
 LRFF1,Little Manatee River at SR 674 Near Ft. Lonesome,0,,True,False
 LRGI4,Little Rock River near George,0,,True,False
 LRGV2,Broad Run near Sterling,0,,True,False
-LRHI3,Little  River near Huntington,0,,True,False
+LRHI3,Little  River near Huntington,2,GMDI3;WABI3,True,False
 LRHI4,Troublesome Creek near Lorah Troublesome Creek Rd--IFC,0,,True,False
 LRHQ3,Long River (MB) at Holmfield MB,0,,True,False
 LRIT2,Little River near Little River,2,BLET2;RLRT2,True,False
@@ -2171,7 +2146,7 @@ LTRT2,Pecos River near Langtry,0,,True,False
 LTSC1,Lagunitas Creek at Samuel P. Taylor State Park,0,,True,False
 LTTV2,Little River near DOSWELL,0,,True,False
 LTWT1,Big South Fork Cumberland River near Oneida at Leatherwood Ford,2,CFKT1;STRK2,True,False
-LTXT2,Navidad River at Lake Texana,1,CODT2,True,False
+LTXT2,Navidad River at Lake Texana,2,CODT2;GNDT2,True,False
 LUCI1,Boise River above Lucky Peak Dam,3,ANDI1;BDDI1;BTSI1,True,False
 LUCN7,Contentnea Creek near Lucama,0,,True,False
 LUDN6,Salmon Creek near Ludlowville,0,,True,False
@@ -3948,7 +3923,7 @@ ONLC2,Laramie River near Glendevey,0,,True,False
 ONMW1,Ninemile Creek near Oroville,0,,True,False
 ONOM5,North Branch Middle Fork Zumbro River near Oronoco 1W,2,LKZM5;PNLM5,True,False
 ONSC1,Klamath River at Orleans,2,KLMC1;SEIC1,True,False
-ONTW3,Kickapoo River at Ontario,0,,True,False
+ONTW3,Kickapoo River at Ontario,1,LAFW3,True,False
 ONYK2,Tradewater River above Olney,0,,True,False
 OOAI4,South Skunk River near Oskaloosa,2,MERI4;RSSI4,True,False
 OOBT1,Oostanaula Creek at Sanford 1SE,0,,True,False
@@ -5071,7 +5046,7 @@ RDYP1,Clarion River at Ridgway,2,COKP1;JHNP1,True,False
 RDZM8,Missouri River at Great Falls Central Ave Bridge,0,,True,False
 REAN4,Neshanic River at Reaville,0,,True,False
 REAP1,Cocalico Creek at Ephrata,0,,True,False
-REAW3,Kickapoo River at Readstown,0,,True,False
+REAW3,Kickapoo River at Readstown,2,SOGW3;VIOW3,True,False
 RECN1,Franklin Canal near Republican City,0,,True,False
 REDG1,Ohoopee River near Reidsville,0,,True,False
 REDI4,South Raccoon River at Redfield,3,EFDI4;RDFI4;VNMI4,True,False
@@ -5960,7 +5935,7 @@ SHOP1,Bush Kill at Shoemakers,0,,True,False
 SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
 SHPF1,Tide Station at Shell Point Canal (In MHHW),0,,True,False
 SHPG1,Shoal Creek at GA 54 near Sharpsburg,0,,True,False
-SHPK2,Salt River (KY) at Shepherdsville,3,BRCK2;MWTK2;WPTK2,True,False
+SHPK2,Salt River (KY) at Shepherdsville,4,BRCK2;MWTK2;TVLK2;WPTK2,True,False
 SHPM2,School House Pond at Upper Marlboro,0,,True,False
 SHPN7,Contentnea Creek at Sheppard Ferry,0,,True,False
 SHPP1,Shenango River at Shenango Dam Pool,0,,True,False
@@ -6256,7 +6231,7 @@ SODN6,Lake America at Sodus Point,0,,True,False
 SOGC1,Saratoga Creek at Saratoga,0,,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOGM7,White River (MO) at School of the Ozarks,0,,True,False
-SOGW3,Kickapoo River at Soldiers Grove,0,,True,False
+SOGW3,Kickapoo River at Soldiers Grove,2,GMIW3;REAW3,True,False
 SOHN3,Souhegan River at Merrimack,0,,True,False
 SOHV2,Meherrin River near SOUTH HILL,2,LAWV2;LNBV2,True,False
 SOLC1,Arroyo Seco (Monterey) near Soledad,2,ARRC1;GRFC1,True,False
@@ -6526,7 +6501,7 @@ STEM3,Stillwater River near Sterling MA,0,,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN2,Steptoe Creek nr Ely,0,,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
-STEW3,Kickapoo River at Steuben,0,,True,False
+STEW3,Kickapoo River at Steuben,2,GMIW3;GTTI4,True,False
 STFB3,St. Francis River near Connors,0,,True,False
 STFI1,Snake River near Twin Falls,2,CBMI1;SRPI1,True,False
 STFL1,Mississippi River near St. Francisville,2,BTRL1;RRLL1,True,False
@@ -7219,7 +7194,7 @@ TURK1,Turkey Creek (KC) at Southwest Boulevard,0,,True,False
 TUSW2,Tuscarora Creek above Martinsburg,0,,True,False
 TVCA3,Tanque Verde Creek near Sabino Canyon Rd.,0,,True,False
 TVCM7,Tavern Creek near St. Elizabeth,0,,True,False
-TVLK2,Salt River (KY) at Taylorsville Lake,0,,True,False
+TVLK2,Salt River (KY) at Taylorsville Lake,2,GNBK2;SHPK2,True,False
 TVLT2,Guadalupe River above Tivoli,0,,True,False
 TVMF1,Tide Station at Plantation Key on Tavernier Creek (in MHHW),0,,True,False
 TVRC1,South Fork Tule River near Indian Reservation Boundary,0,,True,False
@@ -7449,7 +7424,7 @@ VINA1,Kelly Creek,0,,True,False
 VINF1,Reedy Creek near Vineland,0,,True,False
 VING1,Chattahoochee River at Atlanta,3,CHAG1;FBNG1;VIXG1,True,False
 VINI4,Cedar River at Vinton,3,ALOI4;LAPI4;PLOI4,True,False
-VIOW3,Kickapoo River at Viola,0,,True,False
+VIOW3,Kickapoo River at Viola,2,LAFW3;REAW3,True,False
 VIRU1,Virgin River near Virgin,0,,True,False
 VISN2,Truckee River at Vista,2,TNTN2;TRRN2,True,False
 VIVW4,Reservoirs at Viva Naughton Reservoir,0,,True,False
@@ -7514,7 +7489,7 @@ VWBC1,Sacramento River at Vina-Woodson Bridge,3,DCVC1;HAMC1;TEHC1,True,False
 VYWK2,Mill Creek (KY) near Valley Station,0,,True,False
 WAAH1,Waiaha Stream near Holualoa,0,,True,False
 WAAK1,Saline River (KS) near Wakeeney,0,,True,False
-WABI3,Wabash River at Wabash,2,HNTI3;PRUI3,True,False
+WABI3,Wabash River at Wabash,3,HNTI3;LRHI3;PRUI3,True,False
 WABM5,Mississippi River at Wabasha - Pool 4,2,ALMW3;LKCM5,True,False
 WABW1,White River near Auburn,0,,True,False
 WABW4,Wind River above Boysen Reservoir near Shoshoni,0,,True,False
