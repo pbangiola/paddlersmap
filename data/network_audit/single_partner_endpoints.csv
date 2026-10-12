@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DONO3,Donner und Blitzen River near French Glen,1,DBPO3,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
 DRBI1,Deadwood River at Deadwood Reservoir,1,DEDI1,True,False
 DRBO3,Donner und Blitzen River near Sodhouse Dam,1,DBPO3,True,False
@@ -8,6 +7,7 @@ DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
 DRFI2,North Branch Chicago River at Deerfield,1,NILI2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRRC2,Dolores River near Rico,1,DOLC2,True,False
+DRRO3,Row River above Pitcher Creek near Dorena,1,DORO3,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
 DSKI4,Boyer River near Denison K Ave--IFC,1,DNLI4,True,False
 DUBW4,Wind River near Dubois,1,WRCW4,True,False
@@ -114,6 +114,7 @@ GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
+GTEL1,Barataria Bay and Waterway near Grand Terre Island,1,NGIL1,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
 GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
@@ -139,6 +140,7 @@ HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
+HRCV2,North Anna River at HART CORNER NR DOSWELL,1,DOSV2,True,False
 HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
 HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
@@ -306,6 +308,7 @@ MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
 MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MILN4,Passaic River near Millington,1,CAMN4,True,False
+MILW2,Shenandoah River at Millville,1,FROV2,True,False
 MILW3,Crawfish River at Milford,1,CUSW3,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
@@ -424,6 +427,7 @@ OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PACW1,Cowlitz River at Packwood,1,RAWW1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
+PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
@@ -692,6 +696,7 @@ WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
+WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
@@ -708,6 +713,7 @@ WETN4,Millstone River at Weston,1,BKWN4,True,False
 WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
+WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WIHN6,Lake Champlain near Whitehall,1,PHCN6,True,False
 WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
