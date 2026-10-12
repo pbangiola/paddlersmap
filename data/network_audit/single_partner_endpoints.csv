@@ -1,4 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
+CCDL1,Choupique Bayou at Dave Dugas Road,1,CBQL1,True,False
+CCHN7,Cross Creek NC at Hillsboro St,1,CCBN7,True,False
+CCKF1,Curlew Creek at Evans Rd Near Dunedin,1,CCBF1,True,False
+CCTI3,Cicero Creek near State Road 19 in Tipton,1,CCAI3,True,False
 CDVI4,Cedar Creek near Lovilia Hwy H20--IFC,1,BSSI4,True,False
 CEMC1,East Fork Carson River near Markleeville,1,GRDN2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
@@ -32,6 +36,7 @@ COMO2,Neosho River near Commerce,1,NSOK1,True,False
 CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
 CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
+CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
@@ -93,8 +98,10 @@ ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
 EVRM4,Muskegon River at Evart,1,CROM4,True,False
+FALP1,Conewago Creek near Falmouth,1,CCBP1,True,False
 FARS2,Rapid Creek near Farmingdale,1,RCVS2,True,False
 FCEW3,Popple River at Fence,1,BRKW3,True,False
+FCLN7,Cross Creek at Langdon St,1,CCBN7,True,False
 FDKM2,Monocacy River near Frederick at Interstate 70,1,FRMM2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
@@ -233,6 +240,7 @@ LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPRN1,Platte River at La Platte,1,LOUN1,True,False
 LRRC1,San Lorenzo River (CA) at Santa Cruz,1,BTEC1,True,False
+LRWW1,Lewis River at Woodland,1,MERW1,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
@@ -553,7 +561,6 @@ WETN4,Millstone River at Weston,1,BKWN4,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
-WHTG1,Chattahoochee River near Whitesburg,1,FBNG1,True,False
 WIHN6,Lake Champlain near Whitehall,1,PHCN6,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
@@ -575,6 +582,7 @@ WSTM6,Big Black River at West,1,BTAM6,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
 WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
+WTTP1,French Creek at Wattsburg,1,UCTP1,True,False
 WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
 WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
