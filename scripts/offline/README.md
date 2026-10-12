@@ -61,3 +61,22 @@ python3 scripts/offline/download_national_3dhp.py                 # resume; down
 This streams nationwide flowline geometry from USGS 3DHP layer 50 into numbered GeoJSON shards under `local/national_3dhp/flowlines/`, with a resumable `manifest.json`. Stop with Ctrl+C; run the same command to resume. A complete download has `"complete":true` in the manifest. Expect potentially substantial disk space, network traffic and runtime; the full national data has **not** been downloaded or benchmarked here. Data are not committed or deployed. Use `--page-size 500` only when starting in a new output directory; changing page size on an existing manifest is rejected.
 
 The downloader retains all flowlines, including unknown flow direction; later topology work must treat direction as an attribute, not assume every line is downstream-oriented. USGS 3DHP incorporates legacy NHD where elevation-derived coverage is unavailable. These shards are **not yet wired into the gauge reconciliation or map preview**; the next step is a spatial index and streaming matcher, rather than merging all shards into one giant GeoJSON.
+
+## Incremental nationwide 3DHP download + gauge matching
+
+Start with a small test (one cell), then expand. Every downloaded tile and matched-gauge shard is checkpointed. Rerunning the same command skips completed cells.
+
+```bash
+# Test one 1-degree cell first (default coverage is contiguous US bounding box)
+python3 scripts/offline/download_match_3dhp.py --max-cells 1
+
+# Resume the complete contiguous-US run (many cells; potentially substantial disk/time)
+python3 scripts/offline/download_match_3dhp.py
+
+# Or limit geography and use smaller cells
+python3 scripts/offline/download_match_3dhp.py --bbox -110 35 -105 41 --cell-deg 0.5
+```
+
+Outputs: `local/output/national_3dhp/tiles/` (raw 3DHP flowlines), `matches/` (one result per completed cell), and `gauges_reconciled.geojson` (combined partial/full result with coverage metadata). The default contiguous-US bounding rectangle includes ocean/empty cells and does not cover Alaska, Hawaii, or territories. A completed cell is not proof that every NOAA gauge is covered nationally.
+
+**Current limitation:** this matches gauge points per cell, but does not yet reconcile NOAA graph edges across cells or merge a national hydrologic graph. It uses the USGS 3DHP FeatureServer and may encounter service timeouts or incomplete coverage. Files are local-only; no Pages deployment is needed.
