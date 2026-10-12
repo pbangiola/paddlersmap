@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MEIM6,Sowashee Creek at Meridian,0,,True,False
-MELF1,St. Johns River near Melbourne,1,COCF1,True,False
-MELO1,Ohio River at Meldahl Dam,2,CCNO1;MYVK2,True,False
-MEMT1,Mississippi River at Memphis,4,ARLT1;FRRT1;MHOM6;OSGA4,True,False
-MEMV1,Lake Memphremagog at Newport,2,COVV1;CVYV1,True,False
-MENI1,Snake River near Menan,3,LORI1;REXI1;SIFI1,True,False
-MENI2,Sinsinawa River near Menominee,0,,True,False
-MENN8,Apple Creek (ND) near Menoken,0,,True,False
-MENW3,Red Cedar River at Menomonie,2,CLXW3;DURW3,True,False
-MEPO1,Black Fork Mohican River at Melco,2,CHAO1;LDVO1,True,False
-MEPT2,Medina River above Engligh Crossing near Pipe Creek,2,BDAT2;MDLT2,True,False
-MERG1,Hudson Creek near Meridian (IN MLLW),0,,True,False
-MERI4,Skunk River at Merrimac,3,AGSI4;OOAI4;SIGI4,True,False
-MERM1,Sandy River (ME) at Mercer,1,MDIM1,True,False
-MERN4,Assunpink Creek near Mercerville,0,,True,False
-MERT2,Medina River at Patterson Road at Medina,2,BDAT2;WPMT2,True,False
-MERW1,Lewis River at Ariel,3,CCAW1;LRWW1;YARW1,True,False
-METN1,Snake River at Merritt Dam,0,,True,False
-MFAC1,Middle Fork American River near Foresthill,0,,True,False
-MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
-MFCT2,North Texas Lakes at Moss Lake,0,,True,False
-MFDM1,Piscataquis River at Medford,2,DOVM1;WENM1,True,False
-MFDN3,Souhegan River at Milford,0,,True,False
-MFDO2,Eastern Oklahoma Lakes at Hudson Lake,0,,True,False
-MFDO3,Bear Creek at Medford,0,,True,False
 MFDP1,Tioga River at Mansfield,0,,True,False
 MFDT2,Colorado River (TX) at Lake Marble Falls,2,GPLT2;MSDT2,True,False
 MFEM2,North Branch Patapsco River at Liberty Reservoir,0,,True,False
@@ -1230,7 +1205,7 @@ OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
 OAKO3,Mid Fork Willamette River near Oakridge,2,HCRO3;JASO3,True,False
 OAKT1,Emory River at Oakdale,2,KGTT1;OBDT1,True,False
 OAKW3,Oak Creek at South Milwaukee,0,,True,False
-OARM6,Okatibbee Creek at Arundel,0,,True,False
+OARM6,Okatibbee Creek at Arundel,2,ENSM6;MEIM6,True,False
 OAWA3,West Fork Oak Creek above Sedona,0,,True,False
 OAWU1,Weber River near Oakley,1,WWPU1,True,False
 OAWV2,Levisa Fork at Oakwood,0,,True,False
@@ -5252,7 +5227,7 @@ WHDC1,White River near Ducor,0,,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHEI2,Buffalo Creek (IL) at Wheeling,0,,True,False
 WHEW2,Wheeling Creek WV at Elm Grove,0,,True,False
-WHEW3,Hay River at Wheeler,0,,True,False
+WHEW3,Hay River at Wheeler,1,MENW3,True,False
 WHGG1,Snake Creek  downstream Snake Creek Reservoir near Whitesburg,0,,True,False
 WHGM7,Missouri River at Washington,2,HRNM7;SCLM7,True,False
 WHIA1,Tennessee River at Whitesburg,2,DECA1;GVDA1,True,False

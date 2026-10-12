@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MELF1,St. Johns River near Melbourne,1,COCF1,True,False
-MERM1,Sandy River (ME) at Mercer,1,MDIM1,True,False
-MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
 MFLM8,Flatwillow Creek above Mosby,1,FLWM8,True,False
@@ -648,6 +645,7 @@ WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
 WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
 WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
+WHEW3,Hay River at Wheeler,1,MENW3,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
