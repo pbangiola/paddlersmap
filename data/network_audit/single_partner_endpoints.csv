@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
-MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
-MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDLV2,Goose Creek near Middleburg,1,LEEV2,True,False
 MDNN8,Heart River near Mandan,1,GLUN8,True,False
@@ -63,6 +60,7 @@ MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
 MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
+MOCO3,McKenzie River at Outlet of Clear Lake,1,MUSO3,True,False
 MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
 MODP1,West Branch Brandywine Creek at Modena,1,COTP1,True,False
 MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
@@ -86,7 +84,6 @@ MRNN6,Esopus Creek at Mount Marion,1,ASEN6,True,False
 MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
 MSBM8,Musselshell River near Mosby,1,MUSM8,True,False
 MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
-MSNA4,St. Francis River at Madison,1,LCRA4,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
 MSSO3,"Mill Creek (Marion Co., OR) at Spenner Road near Sublimity",1,MTTO3,True,False
@@ -100,6 +97,7 @@ MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
 MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False
+MUCW4,Muddy Creek above Olson Creek near Dad,1,MCYW4,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
 MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
@@ -350,7 +348,6 @@ RHRN6,Genesee River at Rochester,1,AVON6,True,False
 RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
 RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
 RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
-RIGA4,Right Hand Chute Little River at Rivervale,1,PNGA4,True,False
 RIGK1,Big Creek near Ellis,1,ELLK1,True,False
 RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
@@ -408,6 +405,7 @@ SBMT2,Navidad River at Sublime,1,SPAT2,True,False
 SBNV2,Dan River at South Boston,1,PCEV2,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SBRN4,North Branch Raritan River at South Branch,1,RRTN4,True,False
+SBST2,North Floodway Near Sebastian,1,MDET2,True,False
 SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
 SBYO1,Big Walnut Creek at Sunbury,1,HOOO1,True,False
 SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
@@ -483,7 +481,6 @@ SNOA2,Snow River near Seward,1,COOA2,True,False
 SNPT2,San Antonio River at Loop 410,1,ELMT2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
-SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
 SPAN7,Little River near Sparta,1,LBXN7,True,False
