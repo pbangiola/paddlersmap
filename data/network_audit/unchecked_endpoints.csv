@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-IWNI4,West Nishnabotna River at Irwin (IFC),0,,True,False
-IWPN4,North Branch Rancocas Creek at Iron Works Park Mount Holly,0,,True,False
-IWTG1,Big Sandy Creek at US 441 near Irwinton,0,,True,False
-JAAG1,Jackson Creek at Angels Lane near Lilburn,0,,True,False
-JACA1,Choccolocco Creek at Jackson Shoal,0,,True,False
-JACG1,Ocmulgee River near Jackson,2,DFYG1;JKNG1,True,False
-JACM4,Grand River at Jackson,1,ETNM4,True,False
-JACM5,Swan River near Jacobson,0,,True,False
-JACM6,Pearl River at Jackson,2,HCFM6;HPWM6,True,False
-JACW2,West Fork River at Stonewall Jackson Lake,2,STJW2;WLKW2,True,False
-JAGT1,East Fork Obey River near Jamestown,0,,True,False
-JAIO1,Cuyahoga River at Jaite,3,BWCO1;INDO1;OLPO1,True,False
-JAIT2,Taylor Bayou at Craigen Road,0,,True,False
-JAKF1,Cedar River at San Juan Ave Jacksonville (in MHHW),0,,True,False
-JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
-JALC1,Jalama Creek,0,,True,False
-JAMC1,James Bypass at James Bypass,0,,True,False
-JAMM7,James River (MO) near Boaz,2,GLNM7;SGFM7,True,False
-JAMN7,Roanoke River at Jamesville,2,WESN7;WLLN7,True,False
-JAMN8,Pipestem Creek at Pipestem Dam,0,,True,False
-JAMS1,Santee River near Jamestown,2,SNRS1;SSNS1,True,False
-JANI4,Cedar River at Janesville,2,CEDI4;WVLI4,True,False
-JARA2,Jarvis Creek near Delta,0,,True,False
-JASO3,Mid Fork Willamette River at Jasper,3,EUGO3;FABO3;OAKO3,True,False
-JAWG1,Jackson Creek Tributary at at Williams Road near Lilburn,0,,True,False
 JAXP4,Rio Caonillas at Paso Palma,2,ARCP4;JAYP4,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
 JBCO2,Beaty Creek near Jay,0,,True,False
@@ -3275,7 +3250,7 @@ PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEAM1,Pearce Brook near Houlton,0,,True,False
 PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
 PEAN3,Peabody River at Gorham,0,,True,False
-PEBN4,North Branch Rancocas Creek at Pemberton,0,,True,False
+PEBN4,North Branch Rancocas Creek at Pemberton,1,IWPN4,True,False
 PECC1,Pescadero Creek near Pescadero,0,,True,False
 PECF1,Pennywash Creek near Deer Park,0,,True,False
 PECK1,Ninnescah River near Peck,3,BLPK1;CHNK1;MDKK1,True,False
@@ -3324,7 +3299,7 @@ PFSC1,Willow Brook at Penngrove Park,0,,True,False
 PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
 PGBN7,Prince George Creek at Blue Clay Road,0,,True,False
 PGCN7,Prince George Creek at Highway 117 ,0,,True,False
-PGEN8,Pipestem Creek near Pingree,0,,True,False
+PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
 PGFM6,Pascagoula River at Graham Ferry,2,BKNM6;MRRM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,3,GIVT2;GNST2;PCST2,True,False
 PGHN7,Prince George Creek at NC Highway 133,0,,True,False
@@ -3564,7 +3539,7 @@ PNTW4,Paint Rock Creek near Hyattville,0,,True,False
 PNVN6,Salmon River near Pineville,0,,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVO1,Grand River at Painesville,0,,True,False
-PNVS1,Lake Marion,2,LMES1;SNRS1,True,False
+PNVS1,Lake Marion,3,CFMS1;LMES1;SNRS1,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PNXP1,Mahoning Creek at Punxsutawney,0,,True,False
 PNYF1,South Fork Black Creek near Penney Farms,0,,True,False
@@ -5449,7 +5424,7 @@ SRSI2,Sangamon River near Springfield,0,,True,False
 SRSN7,Shallotte River at Shallotte,0,,True,False
 SRSU1,Santa Clara River near St. George,0,,True,False
 SRTM2,Jones Falls at Sorrento,0,,True,False
-SRTM5,Swan River near Taconite,0,,True,False
+SRTM5,Swan River near Taconite,1,JACM5,True,False
 SRTO3,Silvies River near Trout Creek,2,BUSO3;SVSO3,True,False
 SRUF1,St Marks River at US-98 (in NAVD88),0,,True,False
 SRUT2,San Marcos River at San Marcos,0,,True,False
@@ -6568,7 +6543,7 @@ WATW3,Rock River at Watertown,2,JFFW3;LEBW3,True,False
 WAUO3,Columbia River at Wauna,2,CBAO3;SKAW1,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAVC1,San Francisquito Creek at Waverly (SFWS),0,,True,False
-WAVI4,West Nishnabotna River near Avoca (IFC),0,,True,False
+WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
 WAVS2,Big Sioux River at Sioux Falls Western Avenue,2,SFMS2;SXFS2,True,False
 WAWN7,Walnut Creek at S. Wilmington St.,2,TRLN7;WSSN7,True,False
 WAWO3,Willamina Creek near Willamina,0,,True,False

@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JACM4,Grand River at Jackson,1,ETNM4,True,False
-JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
 JBGN2,Jarbidge River near Jarbidge,1,EFJI1,True,False
 JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
@@ -361,6 +359,7 @@ PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
+PEBN4,North Branch Rancocas Creek at Pemberton,1,IWPN4,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
@@ -370,6 +369,7 @@ PEWT2,Peach Creek at Hwy 90 near Waelder,1,DLWT2,True,False
 PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
+PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
 PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
@@ -600,6 +600,7 @@ SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
+SRTM5,Swan River near Taconite,1,JACM5,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
@@ -709,6 +710,7 @@ VSUV2,South River at Vesuvius,1,CRNV2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
+WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
