@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ENTW2,West Fork River at Enterprise,2,CLKW2;OKKW2,True,False
-ENVI1,Coeur d'Alene River at Enaville,1,CTLI1,True,False
-ENWC2,South Platte River at Englewood,2,CFDC2;DNVC2,True,False
-ENWK1,Crooked Creek (KS) near Englewood,0,,True,False
-EOKI4,Mississippi River at Keokuk,2,FMDI4;GGYM7,True,False
-EOLI4,East Okoboji Lake at Spirit Lake,0,,True,False
-EOMO1,Portage River at Elmore,0,,True,False
-EONN1,Elkhorn River at O'Neill,2,ATNN1;EWIN1,True,False
-EORV1,East Orange Branch at East Orange,0,,True,False
-EPAF1,Estero Pass,0,,True,False
-EPBF1,Parker at East Bay (in MHHW),0,,True,False
-EPCI2,Poplar Creek at Elgin,0,,True,False
-EPCM6,Pearl River near CSX Railroad near Claiborne,0,,True,False
-EPCN6,Schoharie Creek at Esperance,0,,True,False
-EPCW4,East Pass Creek near Dayton (Closed Gauge),0,,True,False
-EPDF1,East Pass Destin (in MHHW),0,,True,False
-EPGM7,Eleven Point River near Bardley,0,,True,False
-EPLW3,Big Eau Pleine River at Big Eau Pleine Reservoir,0,,True,False
-EPMP1,Waldy Run near Emporium,0,,True,False
-EPNL1,Pearl River at Interstate 59 near Nicholson MS,0,,True,False
-EPOC2,East Plum Creek (CO) above Castle Rock,0,,True,False
-EPOV2,Meherrin River at Emporia,2,BRTV2;LAWV2,True,False
-EPPL1,Pearl River at U.S. Highway 90 near Pearlington MS,0,,True,False
-EPPR1,Ten Mile River at East Providence,0,,True,False
-EPPT2,Rio Grande at Eagle Pass,2,DLRT2;ELNT2,True,False
 EPRK1,Neosho River at Emporia,2,AMCK1;NEOK1,True,False
 EPRM8,East Fork Poplar River near Intl Boundary,2,BDPM8;PPRM8,True,False
 EPRT2,Rio Grande at El Paso (Courchesne Bridge),2,RCLT2;RGAT2,True,False
@@ -2874,7 +2849,7 @@ LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LOTM2,Western Branch near Woodmore / Lottsford Road,0,,True,False
 LOUN1,Platte River at Louisville,2,ASLN1;LPRN1,True,False
 LOUN7,Tar River at Louisburg,0,,True,False
-LOVC2,Plum Creek (CO) near Sedalia,0,,True,False
+LOVC2,Plum Creek (CO) near Sedalia,2,CFDC2;PLMC2,True,False
 LOVG1,Flint River near Lovejoy,2,FRSG1;WSEG1,True,False
 LOVK1,White Rock Creek at Lovewell Reservoir,2,BURK1;LWLK1,True,False
 LOWA1,Whitewater Creek at Lowry Mill  (CR 215),0,,True,False
@@ -5348,7 +5323,7 @@ PLLN7,Trent River at Pollocksville,2,BERN7;TRTN7,True,False
 PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLLP1,Pennypack Creek at Philadelphia,0,,True,False
 PLLQ3,Pembina River above Lorne Lake,2,BLNQ3;RLGQ3,True,False
-PLMC2,East Plum Creek (CO) below Castle Rock,0,,True,False
+PLMC2,East Plum Creek (CO) below Castle Rock,2,EPOC2;LOVC2,True,False
 PLMF1,Fisheating Creek at Palmdale,0,,True,False
 PLMI2,Big Muddy River at Plumfield,0,,True,False
 PLMI3,St. Marys River at Pleasant Mills,2,DCRI3;WILO1,True,False
@@ -6310,7 +6285,7 @@ RVRI2,Des Plaines River at Riverside,4,BWDI2;LYNI2;RVFI2;WSPI2,True,False
 RVRN1,Republican River at Riverton,2,GUIN1;REPN1,True,False
 RVRN6,Schroon River at Riverbank,0,,True,False
 RVRT2,Trinity River at Riverside,2,CRKT2;LVDT2,True,False
-RVSA4,Eleven Point River at Ravenden Springs,0,,True,False
+RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
 RVSC1,Revolon Slough,0,,True,False
 RVST1,Obion River near Rives 6S,0,,True,False
 RVTI2,Sangamon River at Riverton,2,MNTI2;PETI2,True,False
@@ -6671,7 +6646,7 @@ SELA1,Alabama River at Selma,2,MRFA1;TYLA1,True,False
 SELC2,South Platte River near Lake George,2,CHSC2;HARC2,True,False
 SELF1,Lake Seminole Outlet Near Largo,0,,True,False
 SELI1,Selway River near Lowell,0,,True,False
-SELI2,Fox River at South Elgin Dam,2,ELGI2;MNGI2,True,False
+SELI2,Fox River at South Elgin Dam,3,ELGI2;EPCI2;MNGI2,True,False
 SELI3,Silver Creek (IN) at Sellersburg,0,,True,False
 SELT2,Cibolo Creek at Selma,3,BVST2;CSVT2;HDWT2,True,False
 SEMI3,West Fork Blue River at Salem,0,,True,False
@@ -7460,7 +7435,7 @@ STRM8,St. Regis River near St. Regis,0,,True,False
 STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
 STRO1,Tiffin River at Stryker,0,,True,False
 STRS1,Rocky River SC near Starr,0,,True,False
-STRW3,Big Eau Pleine River near Stratford,0,,True,False
+STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSN7,"Steele Creek at Carowinds Blvd, 2.5 SSE Steele Creek",0,,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STTI3,White River (IN) at Stout Power Plant,3,ERSI3;INDI3;SOUI3,True,False
@@ -8599,7 +8574,7 @@ WDTC1,Wildcat Creek at SPRR,0,,True,False
 WDTN4,Salem River at Woodstown,0,,True,False
 WDVA1,Paint Rock River (AL) near Woodville,0,,True,False
 WDVN7,Little  River near old US17 in Woodville,0,,True,False
-WDVO1,Portage River at Woodville,0,,True,False
+WDVO1,Portage River at Woodville,1,EOMO1,True,False
 WDWO2,North Canadian River at Woodward,3,BVRO2;FSPO2;WDGO2,True,False
 WEAM5,Mustinka River at Wheaton,0,,True,False
 WEAT2,Clear Fork Trinity River near Weatherford,2,BNBT2;LWFT2,True,False

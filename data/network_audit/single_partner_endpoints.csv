@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ENVI1,Coeur d'Alene River at Enaville,1,CTLI1,True,False
 ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
@@ -537,6 +536,7 @@ RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
+RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
@@ -637,6 +637,7 @@ STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
 STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
+STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
@@ -722,6 +723,7 @@ WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
+WDVO1,Portage River at Woodville,1,EOMO1,True,False
 WEJO1,Little Darby Creek near West Jefferson,1,DBVO1,True,False
 WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
 WETA1,Coosa River at Wetumpka,1,WPKA1,True,False
