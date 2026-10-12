@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MKLN6,Mine Kill near North Blenheim,0,,True,False
-MKLO3,McKenzie River below Leaburg Dam,3,GCVO3;MCZO3;VIDO3,True,False
-MKNA2,Moose Creek at Bridge near Kantishna,0,,True,False
-MKNV2,Nottoway River near MCKENNEY,0,,True,False
-MKNW1,Nisqually River at McKenna,0,,True,False
-MKRN1,Republican River at McCook,3,CBGN1;CULN1;MCKN1,True,False
-MKSH1,Makiki Stream at King St.,0,,True,False
-MKSM6,Coldwater River at Marks,1,SARM6,True,False
-MKTT2,Mathis Creek at US 190 near Kurten,0,,True,False
-MKTV1,Little Otter Creek near Ferrisburgh,0,,True,False
-MKZC1,Guadalupe River  MCKENZIE,0,,True,False
-MKZT2,Tule Draw at Mackenzie Reservior,0,,True,False
-MLAL1,Mermentau River at Lake Arthur,0,,True,False
-MLAN5,Black River 5 miles W of Malaga,2,BSSN5;MGAN5,True,False
-MLAS1,Brushy Creek at MILLS AVEUNE,0,,True,False
-MLAT2,Sabine River near Mineola,2,HAKT2;PNTT2,True,False
-MLAW1,Moses Lake at Moses Lake,0,,True,False
-MLBA1,Mulberry Fork near Garden City,0,,True,False
-MLBA4,Mulberry River (AR) near Mulberry,0,,True,False
-MLBK1,Cottonwood River at Marion Reservoir,0,,True,False
-MLBM3,Blackstone River at Millbury ,0,,True,False
-MLBO3,Big Butte Creek near McLeod,0,,True,False
-MLBW4,Middle Fork Popo Agie River near Lander,1,LANW4,True,False
-MLCA2,[INACTIVE] Mulchatna River near New Stuyahok,0,,True,False
-MLCM7,St. Francis River at Mill Creek,2,ROZM7;SAZM7,True,False
 MLDC1,Milliken Reservoir  ,0,,True,False
 MLDI1,Malad River near Gooding,0,,True,False
 MLDL1,Comite River at Port Hudson-Pride Rd. near Milldale,0,,True,False
@@ -279,7 +254,7 @@ MRLV2,Lewis Creek At Middlebrook Road and Rt. 262,0,,True,False
 MRLW2,Greenbrier River at Marlinton,3,BUCW2;CLLW2;MINW2,True,False
 MRLW3,Prairie River  near Merrill,0,,True,False
 MRMC1,Middle Fork Feather River near Merrimac,0,,True,False
-MRML1,Mermentau River at Mermentau,3,BDCL1;BSLL1;LCSL1,True,False
+MRML1,Mermentau River at Mermentau,4,BDCL1;BSLL1;LCSL1;MLAL1,True,False
 MRMM4,Miners River near Munising,0,,True,False
 MRMM8,Musselshell River near Martinsdale,1,HLWM8,True,False
 MRNC1,South Fork Eel River near Miranda,0,,True,False
@@ -778,7 +753,7 @@ NIPI2,Nippersink Creek near Spring Grove,0,,True,False
 NIQS1,Atlantic Coast at North Inlet Estuary - NERRS,0,,True,False
 NIRQ9,Nisling River below Onion Creek-Yukon Territory,0,,True,False
 NISN1,Niobrara River at Mariaville,0,,True,False
-NISW1,Nisqually River near National,0,,True,False
+NISW1,Nisqually River near National,1,MKNW1,True,False
 NITS1,Atlantic Coast at North Inlet Estuary (IN MLLW),0,,True,False
 NITW1,Similkameen River near Nighthawk,0,,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
@@ -921,7 +896,7 @@ NRKW1,Nooksack River at North Cedarvillle,2,MFNW1;NREW1,True,False
 NRMO2,Little River (OK) at Lake Thunderbird,0,,True,False
 NRMT1,Duck River at Normandy Dam,0,,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
-NRNV2,Nottoway River at Nottoway Falls Reservoir,0,,True,False
+NRNV2,Nottoway River at Nottoway Falls Reservoir,1,RAWV2,True,False
 NROV2,N. F. Roanoke River near Ellett,0,,True,False
 NRRA3,Cline Creek near New River,0,,True,False
 NRSF1,New River Sound near East Las Olas Blvd (in MHHW),0,,True,False
@@ -2194,7 +2169,7 @@ RATM6,Pearl River at Ratliff's Ferry,3,GDHM6;JSNM6;OFAM6,True,False
 RAUS2,Mud Creek near Rauville,0,,True,False
 RAVK2,Kentucky River near Ravenna,2,CYCK2;WLWK2,True,False
 RAVS2,Rapid Creek above Victoria Creek near Rapid City,2,BIGS2;CYNS2,True,False
-RAWV2,Nottoway River near Rawlings,0,,True,False
+RAWV2,Nottoway River near Rawlings,2,MKNV2;NRNV2,True,False
 RAWW1,Cowlitz River at Randle,2,MAYW1;PACW1,True,False
 RAYN1,Branched Oak Reservoir,1,LOKN1,True,False
 RAYN3,Lamprey River at Raymond,0,,True,False
@@ -2687,7 +2662,7 @@ RUSS2,Battle Creek (SD) near Keystone,2,HERS2;JUDS2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,2,FPOC1;LSBC1,True,False
 RVDM2,Northeast Branch Anacostia River at Riverdale,0,,True,False
-RVDV2,Nottoway River near RIVERDALE,0,,True,False
+RVDV2,Nottoway River near RIVERDALE,1,SEBV2,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVFI2,Des Plaines River at River Forest,2,DMPI2;RVRI2,True,False
 RVHN3,Contoocook River at River Hill,0,,True,False
@@ -3043,7 +3018,7 @@ SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEBF1,South Prong St Sebastian River,0,,True,False
 SEBN4,Shrewsbury River at Rumson - Seabright,0,,True,False
 SEBP4,Rio Grande De Anasco near San Sebastian,0,,True,False
-SEBV2,Nottoway River near Sebrell,0,,True,False
+SEBV2,Nottoway River near Sebrell,2,RVDV2;STYV2,True,False
 SEBW3,Sheboygan River at Sheboygan,0,,True,False
 SECF1,Halifax River at Spruce Creek Park (in MHHW),0,,True,False
 SECM1,Sebec River at Sebec,0,,True,False
@@ -3882,7 +3857,7 @@ STYA2,[INACTIVE] Stuyahok River near New Stuyahok,0,,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 STYN7,Stony Creek at Nashville,0,,True,False
 STYT2,Colorado River (TX) at Stacy,2,BLIT2;WCHT2,True,False
-STYV2,Nottoway River near Stony Creek,0,,True,False
+STYV2,Nottoway River near Stony Creek,2,MKNV2;SEBV2,True,False
 STYW3,Stillwell Creek at Yard Road Near Tomah,0,,True,False
 STZM7,Sac River below Stockton Dam,0,,True,False
 SUCI1,Succor Creek near Homedale,0,,True,False

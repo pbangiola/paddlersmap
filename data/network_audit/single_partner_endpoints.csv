@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MKSM6,Coldwater River at Marks,1,SARM6,True,False
-MLBW4,Middle Fork Popo Agie River near Lander,1,LANW4,True,False
 MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
 MLGO1,Little Miami River at Milford,1,SLBO1,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
@@ -101,6 +99,7 @@ NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NGKP4,Rio Blanco at Florida,1,LBLP4,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
+NISW1,Nisqually River near National,1,MKNW1,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
 NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
 NKSW1,Nooksack River at Ferndale,1,NREW1,True,False
@@ -126,6 +125,7 @@ NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
+NRNV2,Nottoway River at Nottoway Falls Reservoir,1,RAWV2,True,False
 NRVT1,New River near New River,1,LTWT1,True,False
 NRWC1,Santa Ynez River at Narrows,1,LLYC1,True,False
 NRWI4,North River near Norwalk,1,CSLI4,True,False
@@ -353,6 +353,7 @@ RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
+RVDV2,Nottoway River near RIVERDALE,1,SEBV2,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
