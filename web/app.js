@@ -429,9 +429,21 @@ putinFilter.addEventListener('change',updatePutins);
       }
      }
      }
+     // The named-only OSM inventory supersedes ALL legacy launch sources when present.
+     let namedOnly=false;
+     try{
+      const namedResponse=await fetch('data/putins_named_canoe_launches.geojson',{cache:'no-store'});
+      if(namedResponse.ok){
+       const named=await namedResponse.json();
+       if(named.type==='FeatureCollection'&&Array.isArray(named.features)&&named.features.length){
+        putinFeatures=named.features;
+        namedOnly=true;
+       }
+      }
+     }catch(error){console.warn('Named canoe launch inventory unavailable; retaining existing inventory:',error);}
      putinCount.textContent='Loaded '+putinFeatures.length+' launch candidates; rendering map markers…';
      // Small, incrementally published discovery tiles are optional.
-     try{
+     if(!namedOnly)try{
       const expansionResponse=await fetch('data/putins_expansion.geojson',{cache:'no-store'});
       if(expansionResponse.ok){
        const expansion=await expansionResponse.json();
