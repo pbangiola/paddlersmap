@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LVLO1,Tuscarawas River at Leesville Dam Tailwater,1,LELO1,True,False
-LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
-LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
-LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
 LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
 LWLK1,White Rock Creek below Lovewell Reservoir,1,LOVK1,True,False
@@ -223,6 +219,7 @@ OKLM5,Lost River at Oklee,1,LOSM5,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
 OLDO1,Little Miami River near Oldtown,1,LLMO1,True,False
+ONDN6,Onondaga Creek near Nedrow,1,LVRN6,True,False
 ONTW3,Kickapoo River at Ontario,1,LAFW3,True,False
 OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
 ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
@@ -246,7 +243,6 @@ PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PALP1,Allegheny River at Port Allegany,1,ELRP1,True,False
 PAMN7,Pamlico River at Washington (in MLLW),1,GRMN7,True,False
 PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
-PANO2,Poteau River near Panama,1,HJFA4,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PARM5,"Partridge River near Babbitt, Dunka Rd",1,HYLM5,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
@@ -356,7 +352,6 @@ RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDNK1,Marais Des Cygnes River near Reading,1,MLVK1,True,False
-RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
 RDPI4,West Nishnabotna River near Randolph,1,HWNI4,True,False
 RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
 REEO3,Umpqua River at Reedsport,1,EKTO3,True,False
@@ -621,6 +616,7 @@ UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
 UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
+UVBC1,Uvas Creek below Uvas Reservoir,1,LUVC1,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
@@ -638,6 +634,7 @@ VNCL1,Mississippi River at Venice,1,MWBL1,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 VSUV2,South River at Vesuvius,1,CRNV2,True,False
 WAAK1,Saline River (KS) near Wakeeney,1,RUSK1,True,False
+WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False

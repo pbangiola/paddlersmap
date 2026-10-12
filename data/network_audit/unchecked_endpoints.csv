@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LURM6,Tallahala Creek at Laurel,0,,True,False
-LUSM7,Mississippi River at Louisiana,2,CLKM7;SVRM7,True,False
-LUSN1,Salt Creek at Lincoln (Pioneers Boulevard),2,ROCN1;SALN1,True,False
-LUTM2,Long Quarter Branch at Lutherville,0,,True,False
-LUVC1,Little Uvas Creek - Uvas Rd,0,,True,False
-LUVM5,Rock River at Luverne,2,HRDM5;RAPI4,True,False
-LUZM4,South Branch Au Sable River near Luzerne,0,,True,False
-LVDT2,Trinity River at Lake Livingston,2,GRIT2;RVRT2,True,False
-LVEW4,Bighorn River near Kane,2,BHRM8;GYBW4,True,False
-LVGA4,Ditch Bayou below Lake Village at Lake Chicot,0,,True,False
-LVKC1,Arroyo Valle near Livermore,2,AVPC1;DVAC1,True,False
-LVLO1,Tuscarawas River at Leesville Dam Tailwater,1,LELO1,True,False
-LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
-LVLP1,French Creek above Lowville,0,,True,False
-LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
-LVMK2,Green River (KY) above Livermore,4,CALK2;DUNK2;HRFK2;RCPK2,True,False
-LVNA1,Sucarnoochee River at Livingston,0,,True,False
-LVNM5,Cottonwood River (MN) at Leavenworth,0,,True,False
-LVNM8,Musselshell River near Lavina,2,RUPM8;SHAM8,True,False
-LVNN1,Stevens Creek near Lincoln,0,,True,False
-LVNO2,Poteau River at Loving,0,,True,False
-LVNT2,North Texas Lakes at Lake Lavon,3,BVWT2;FRHT2;MCKT2,True,False
-LVOC1,Live Oak Dam,0,,True,False
-LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
-LVRN6,Onondaga Lake at Liverpool,0,,True,False
 LVSS2,Little Vermillion River near Salem,0,,True,False
 LVTV2,Piney Run (VA) near Lovettsville,0,,True,False
 LVWC1,Los Osos Creek at Los Osos,0,,True,False
@@ -1587,7 +1562,7 @@ NWSI4,Little Wapsipinicon River at North Washington (IFC),0,,True,False
 NWSW4,Nowood River near Tensleep,0,,True,False
 NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
 NWTO1,Mahoning River at Lake Milton,2,BRWO1;PRIO1,True,False
-NWUM5,Cottonwood River (MN) at New Ulm,2,MNKM5;SPFM5,True,False
+NWUM5,Cottonwood River (MN) at New Ulm,3,LVNM5;MNKM5;SPFM5,True,False
 NWYI3,Tippecanoe River at Norway Dam,2,BLOI3;TCNI3,True,False
 NYBT2,New Year Creek at TX 105 near Brenham,0,,True,False
 NYFO3,North Fork Yamhill River near Fairdale,0,,True,False
@@ -1755,7 +1730,7 @@ OMWT2,White Oak Creek near Omaha at Interstate 30,0,,True,False
 ONAV2,South Branch Onancock Creek at Onancock,0,,True,False
 ONCN4,Great Egg Harbor Bay at Ocean City (IN MLLW),0,,True,False
 ONCN6,Onondaga Creek above Inner Harbor,0,,True,False
-ONDN6,Onondaga Creek near Nedrow,0,,True,False
+ONDN6,Onondaga Creek near Nedrow,1,LVRN6,True,False
 ONFN6,Onondaga Creek at Onondaga Flood Control Dam,0,,True,False
 ONGF1,Orange Creek at Orange Springs,0,,True,False
 ONGM2," RED RUN NEAR OWINGS MILLS, MD",0,,True,False
@@ -1945,7 +1920,7 @@ PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
 PANI4,Middle Raccoon River at Panora,2,PNLI4;RDFI4,True,False
 PANK2,South Fork Panther Creek near Whitesville,0,,True,False
 PANL1,Amite River Basin at Panama Canal at Hwy 44 near Gonzales,0,,True,False
-PANO2,Poteau River near Panama,1,HJFA4,True,False
+PANO2,Poteau River near Panama,2,HJFA4;PTAO2,True,False
 PANP4,Rio Marin near Patillas,0,,True,False
 PANW2,Panther Creek above Panther,0,,True,False
 PARA1,Lost Creek (AL) near Oakman,0,,True,False
@@ -2595,7 +2570,7 @@ PSVU1,"Pack Creek at Pack Creek Road Bridge near Moab, UT",0,,True,False
 PSWK2,Houston Creek (KY) at Paris,0,,True,False
 PSYG1,Hiwassee River near Streak Hill Road near Hiawassee,2,CHAN7;HWEG1,True,False
 PSZM7,White River (MO) at Ozark Beach Dam,0,,True,False
-PTAO2,Poteau River near Poteau,0,,True,False
+PTAO2,Poteau River near Poteau,2,LVNO2;PANO2,True,False
 PTBC1,Petaluma River at D Street Bridge,0,,True,False
 PTCV2,Potts Creek near Covington,0,,True,False
 PTDC1,Upper Penitencia Creek at Dorel Drive,0,,True,False
@@ -2871,7 +2846,7 @@ RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDNK1,Marais Des Cygnes River near Reading,1,MLVK1,True,False
 RDOI4,East Nishnabotna River at Red Oak,2,COBI4;ELTI4,True,False
-RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
+RDOM4,Au Sable River near Red Oak,2,LUZM4;MIOM4,True,False
 RDPI4,West Nishnabotna River near Randolph,1,HWNI4,True,False
 RDPN7,Atlantic Coast at Rodanthe Pier,0,,True,False
 RDRC1,Carmel River at Robles Del Rio,2,CMEC1;LPRC1,True,False
@@ -3345,7 +3320,7 @@ SANK1,Pawnee River near Sanford,1,ROZK1,True,False
 SANM2,Hawlings River near Sandy Spring,0,,True,False
 SANM3,Atlantic Coast near Sandwich Canal Side (In MLLW),0,,True,False
 SANM5,Kettle River (MN) below Sandstone,2,KTRM5;SCFW3,True,False
-SANM6,Tallahala Creek at Sharon/Sandersville,0,,True,False
+SANM6,Tallahala Creek at Sharon/Sandersville,2,LURM6;WALM6,True,False
 SANN3,Exeter River near Sandown,0,,True,False
 SANN6,Sandy Creek near Adams,0,,True,False
 SANV2,Pigg River near Sandy Level,0,,True,False
@@ -4129,7 +4104,7 @@ SPEI3,Little Eagle Creek at Speedway,0,,True,False
 SPEO2,Bird Creek near Sperry,2,AVTO2;OWSO2,True,False
 SPEW1,South Prairie Creek at South Prairie,0,,True,False
 SPFI2,Spring Creek (IL) at Springfield,0,,True,False
-SPFM5,Cottonwood River (MN) above Springfield,2,LMBM5;NWUM5,True,False
+SPFM5,Cottonwood River (MN) above Springfield,3,LMBM5;LVNM5;NWUM5,True,False
 SPFN2,Shoshone Pond Outflow,0,,True,False
 SPFS2,Spearfish Creek above Spearfish,0,,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
@@ -5095,7 +5070,7 @@ UCLO1,Euclid Creek at Cleveland,1,EUCO1,True,False
 UCRA2,Chickaloon River 1.5 miles above confluence with Mystery Creek near Sterling,0,,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
-UCTP1,French Creek above Union City Lake,2,UCDP1;WTTP1,True,False
+UCTP1,French Creek above Union City Lake,3,LVLP1;UCDP1;WTTP1,True,False
 UDET2,Frio River below Dry Frio near Uvalde,2,CNCT2;DBYT2,True,False
 UEHN1,Logan Creek at Uehling,1,PEDN1,True,False
 UGGC1,Smugglers Gulch at International Border,0,,True,False
@@ -5176,7 +5151,7 @@ UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 UTYG1,Utoy Creek at Great Southwest Parkway near Atlanta,0,,True,False
 UUUK1,Marmaton River near Uniontown,0,,True,False
 UVAT2,Nueces River at Laguna,3,BTVT2;NMOT2;UVLT2,True,False
-UVBC1,Uvas Creek below Uvas Reservoir,0,,True,False
+UVBC1,Uvas Creek below Uvas Reservoir,1,LUVC1,True,False
 UVGC1,Uvas Creek above W Luchessa Ave.,0,,True,False
 UVHC1,Uvas Creek at Heritage Way,0,,True,False
 UVLT2,Nueces River below Uvalde,3,ASRT2;NUCT2;UVAT2,True,False
@@ -5354,7 +5329,7 @@ WAKO2,Beaver Creek (OK) at Waurika,2,ADDO2;WRLO2,True,False
 WALA2,Bering Sea at Wales,0,,True,False
 WALC3,Quinnipiac River above Wallingford,0,,True,False
 WALG1,Shoal Creek at GA 108 near Waleska,0,,True,False
-WALM6,Tallahala Creek near Waldrup,0,,True,False
+WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
 WALN2,Walker River near Wabuska,2,WBMN2;WVRN2,True,False
 WALN6,West Branch Delaware River at Walton,2,CNNN6;DELN6,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
