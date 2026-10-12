@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MLDC1,Milliken Reservoir  ,0,,True,False
-MLDI1,Malad River near Gooding,0,,True,False
-MLDL1,Comite River at Port Hudson-Pride Rd. near Milldale,0,,True,False
-MLDM5,Minnesota River below Marsh Lake Dam (Tailwater),2,MILM5;ODAM5,True,False
-MLDN1,Wehrspann Lake,0,,True,False
-MLEF1,Tide Gauge at Mullet Key (In MHHW),0,,True,False
-MLFG1,Ichawaynochaway Creek at Milford,2,EMOG1;MGNG1,True,False
-MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
-MLGF1,Yellow River (AL) at Milligan,0,,True,False
-MLGG1,Oconee River at Milledgeville,2,OCOG1;SNCG1,True,False
-MLGN5,Pecos River 3 miles ESE of Malaga,3,CPDN5;MGAN5;PPCN5,True,False
-MLGO1,Little Miami River at Milford,1,SLBO1,True,False
-MLHG1,Little Haynes Creek at Dial Mill Road near Milstead,0,,True,False
-MLHW4,Medicine Lodge Creek near Hyattville,0,,True,False
-MLIC1,Sacramento-San Joaquin Delta at Mallard Island,2,ATIC1;VNCC1,True,False
-MLII2,Rock River at Moline,1,JOSI2,True,False
-MLIN7,McMullen Creek above Lincrest Place,0,,True,False
-MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
-MLKW1,Mill Creek (WA) near Walla Walla,1,FMBW1,True,False
-MLLA1,Luxapallila Creek at Millport,0,,True,False
-MLLM5,Mille Lacs Lake at Cove Bay,0,,True,False
-MLLN7,Mills Branch above Bridgeton,0,,True,False
-MLLT1,Big Creek at Millington,0,,True,False
-MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
-MLLW2,Tygart Valley River at Mill Creek,2,DLYW2;VLYW2,True,False
 MLMC1,Mill Creek near Los Molinas,0,,True,False
 MLMO1,Honey Creek at Melmore,0,,True,False
 MLNF1,Big Coldwater Creek near Milton,0,,True,False
@@ -52,7 +27,7 @@ MLWK2,Beargrass Creek at Mellwood,2,CFTK2;MLUK2,True,False
 MLWM5,Mud Lake near Wheaton,0,,True,False
 MLWV2,Spout Run near Millwood,0,,True,False
 MLXK2,Ohio River at Louisville Water Tower,2,CLFI3;MLUK2,True,False
-MLYF1,Yellow River (AL) near Milton,0,,True,False
+MLYF1,Yellow River (AL) near Milton,1,MLGF1,True,False
 MMCC1,McCloud River near McCloud,0,,True,False
 MMCK2,Green River (KY) near Mammoth Cave,2,BNWK2;MFVK2,True,False
 MMDN6,Genesee River at Mount Morris Dam,2,AVON6;PRTN6,True,False
@@ -1066,7 +1041,7 @@ OCIM2,Atlantic Coast near OCEAN CITY INLET (IN MLLW),0,,True,False
 OCLC1,Lower Silver Creek at Ocala Avenue,0,,True,False
 OCLF1,Ochlockonee River near Smith Creek (CR 366),2,BLXF1;CTMF1,True,False
 OCMW4,Owl Creek above McManus Ditch,0,,True,False
-OCNG1,Oconee River below Oconee,2,DBNG1;OCOG1,True,False
+OCNG1,Oconee River below Oconee,3,DBNG1;MLGG1;OCOG1,True,False
 OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
 OCOG1,Oconee River at Avant Mine near Oconee,2,MLGG1;OCNG1,True,False
 OCOM5,South Branch Middle Fork Zumbro River at Oronoco,0,,True,False
@@ -2529,7 +2504,7 @@ ROLI4,Bear Creek near Roland 150th St--IFC,0,,True,False
 ROLW2,Cheat River at Rowlesburg,2,PSNW2;ROWW2,True,False
 ROMI2,Chicago Sanitary and Ship Canal at Romeoville,3,JRSI2;LCSI2;LOKI2,True,False
 ROMO3,Owyhee River at Rome,0,,True,False
-ROMT1,Big Creek near Rosemark,0,,True,False
+ROMT1,Big Creek near Rosemark,1,MLLT1,True,False
 ROMW3,Bark River at Rome,0,,True,False
 RONN6,Rondout Creek at Rondout Rsvr,0,,True,False
 RONP1,Pequea Creek near Ronks,2,MFGP1;PRDP1,True,False
@@ -5584,7 +5559,7 @@ YDLC2,Yampa River near Deerlodge Park,3,JESU1;LILC2;MBLC2,True,False
 YDMC1,East Fork Russian River below Coyote Dam,0,,True,False
 YDRC1,Santa Margarita River at Ysidora,0,,True,False
 YEAA2,Yukon River at Eagle,2,CIRA2;YDAQ9,True,False
-YELA1,Yellow River (AL) at Florala,0,,True,False
+YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
 YELG1,Yellow River at GA 124 near Lithonia,0,,True,False
 YELO1,Yellow Creek at Hammonsville,0,,True,False
 YELW3,North Fork Yellow River near Perkinstown,0,,True,False
@@ -5646,7 +5621,7 @@ ZACT2,Zacate Creek at Laredo,0,,True,False
 ZAJT2,Zacate Creek at Jacaman Road,0,,True,False
 ZANO1,Muskingum River at Zanesville,2,DREO1;MCCO1,True,False
 ZAPN8,Spring Creek (ND) at Zap,0,,True,False
-ZAYL1,Comite River near Zachary,1,BAKL1,True,False
+ZAYL1,Comite River near Zachary,2,BAKL1;MLDL1,True,False
 ZBQN7,Atlantic Coast at Zeeks Basin,0,,True,False
 ZCCC1,Zaca Creek near Buelton,0,,True,False
 ZCRM7,Castor River above Zalma,0,,True,False

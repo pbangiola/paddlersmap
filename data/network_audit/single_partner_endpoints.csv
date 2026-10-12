@@ -1,13 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
-MLGO1,Little Miami River at Milford,1,SLBO1,True,False
-MLII2,Rock River at Moline,1,JOSI2,True,False
-MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
-MLKW1,Mill Creek (WA) near Walla Walla,1,FMBW1,True,False
-MLLW1,Mill Creek (WA) at Walla Walla,1,FMBW1,True,False
 MLSI4,Little Sioux River near Montgomery,1,MIFI4,True,False
 MLTM3,Neponset River at Milton Village,1,CANM3,True,False
 MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
+MLYF1,Yellow River (AL) near Milton,1,MLGF1,True,False
 MNAA2,Mendenhall River at Brotherhood Bridge at Auke Bay,1,MNEA2,True,False
 MNEI4,Mosquito Creek near Neola (IFC),1,MCBI4,True,False
 MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
@@ -336,6 +331,7 @@ RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
 ROEF1,Upper Blackwater River,1,HARF1,True,False
 ROHC1,Copeland Creek at Rohnert Park,1,CTIC1,True,False
 ROLI2,Salt Creek (IL) at Rolling Meadows,1,EVGI2,True,False
+ROMT1,Big Creek near Rosemark,1,MLLT1,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
 ROSN7,French Broad River at Rosman,1,BLAN7,True,False
@@ -695,13 +691,13 @@ WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
+YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
-ZAYL1,Comite River near Zachary,1,BAKL1,True,False
 ZENK1,Rattlesnake Creek (KS) near Zenith,1,MACK1,True,False
 ZLPP1,Connoquenessing Creek at Zelienople,1,BTRP1,True,False
 ZONI3,Eagle Creek (IN) at Zionsville,1,ETPI3,True,False
