@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
-DVDO2,Red River near Davidson,1,BKBT2,True,False
 DWTO1,Wills Creek at Derwent,1,CDIO1,True,False
 EAGF1,Peace Creek Drainage Canal Near Wahneta,1,PCDF1,True,False
 EAGN6,Hoosic River at Eagle Bridge,1,BNTV1,True,False
@@ -55,6 +53,7 @@ FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
 FLRK1,Cottonwood River near Florence,1,CWSK1,True,False
 FLRW3,Brule River near Florence 4 NW,1,COMW3,True,False
 FLSL1,Tchefuncte River near Folsom,1,CUSL1,True,False
+FNNO3,Fanno Creek at 56th Ave - Portland,1,DURO3,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
 FOSM4,Flint River at Fosters,1,FLTM4,True,False
@@ -264,6 +263,7 @@ MARM4,Kalamazoo River at Marshall,1,BTCM4,True,False
 MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
 MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
 MBGW2,Opequon Creek near Martinsburg,1,BYVV2,True,False
+MBLO1,Blanchard River below Mt Blanchard,1,FDLO1,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
@@ -443,6 +443,7 @@ PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
 PKGM5,Lake Pokegama Dam,1,DAYM5,True,False
+PKRS2,West Fork Vermillion River near Parker,1,VRCS2,True,False
 PKTO1,Scioto River at Piketon,1,HIGO1,True,False
 PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
@@ -660,6 +661,7 @@ TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
+TTZM7,Thompson River (IA/MO) near Trenton,1,DVSI4,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TURI4,Little Sioux River near Turin,1,CRRI4,True,False
@@ -679,6 +681,7 @@ UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
+VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
 VERT2,Pease River near Vernon,1,CDPT2,True,False
 VLIK2,Licking River above Visalia,1,BTLK2,True,False
 VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
