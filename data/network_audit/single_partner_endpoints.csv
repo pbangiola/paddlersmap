@@ -1,8 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
-LCBT2,Wolf Creek at Lipscomb,1,GAWO2,True,False
 LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
 LCOI4,Little Cedar River near Orchard (IFC),1,IONI4,True,False
+LCRA3,Little Colorado River at Greer,1,LCLA3,True,False
 LCRT2,Cherokee Bayou at Lake Cherokee,1,BEKT2,True,False
 LCTT2,West Fork San Jacinto River at Lake Conroe,1,CFKT2,True,False
 LCVN5,Mora River at La Cueva,1,GOLN5,True,False
@@ -23,7 +22,6 @@ LIES2,Grand River (SD) near Little Eagle,1,SHAS2,True,False
 LIRV2,James River (VA) at Lick Run,1,BNNV2,True,False
 LKCM7,Little Blue River (MO) near Lake City,1,LRLM7,True,False
 LKPA3,Agua Fria River at Lake Pleasant,1,AFRA3,True,False
-LKST2,Leon Creek at I-35S near San Antonio,1,LECT2,True,False
 LLBN7,Broad River at highway 9 near Chimney Rock,1,LRDN7,True,False
 LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
 LLGC1,Llagas Creek near Gilroy,1,BSVC1,True,False
@@ -45,6 +43,7 @@ LOPO3,Reservoir at Lookout Point nr Lowell,1,DEXO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LOWM3,Merrimack River at Lowell,1,NSHN3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
+LPBV2,"Little River near Peach Bottom, VA",1,LBXN7,True,False
 LPOL1,Tickfaw River at Liverpool,1,MONL1,True,False
 LPRC1,Los Padres Dam  ,1,RDRC1,True,False
 LPRN1,Platte River at La Platte,1,LOUN1,True,False
@@ -398,6 +397,7 @@ RCSN6,Erie Canal above Rochester,1,MCDN6,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
+RDNK1,Marais Des Cygnes River near Reading,1,MLVK1,True,False
 RDOM4,Au Sable River near Red Oak,1,MIOM4,True,False
 RDPI4,West Nishnabotna River near Randolph,1,HWNI4,True,False
 RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
@@ -543,6 +543,7 @@ SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
+SPAN7,Little River near Sparta,1,LBXN7,True,False
 SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPDN1,Cedar River near Spalding,1,FULN1,True,False
@@ -625,6 +626,7 @@ TOPK1,Soldier Creek near Topeka,1,DELK1,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
+TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TRNP1,Shenango River near Transfer,1,JMSP1,True,False
