@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LMKT2,Manadas Creek at Laredo,0,,True,False
-LMLF1,Lake Miccosukee at Cypress Landing (in NAVD88),0,,True,False
-LMNN2,Lehman Creek (NV) near Baker,0,,True,False
-LMPF1,South Fork Little Manatee River at Taylor Grade Near Parrish,0,,True,False
-LMPN7,Little River (NC) near Mount Pleasant,0,,True,False
-LMRI4,Floyd River at Le Mars,2,MRLI4;STUI4,True,False
-LMRM1,Little Madawaska River near Caribou,0,,True,False
-LMRV2,South Run at Lake Mercer,0,,True,False
-LMSF1,Munson Slough at Lake Munson Outfall (in NAVD88),0,,True,False
-LMTI2,Sawmill Creek (IL) near Lemont,0,,True,False
-LMTN1,Reservoirs at Lake Minatare Reservoir,0,,True,False
-LMTT2,Martin Creek at Martin Creek Lake,0,,True,False
-LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
-LMWF1,South Fork Little Manatee River at CR579 Near Wimauma,0,,True,False
-LMYC1,Maria Ygnacio Creek near Goleta,0,,True,False
-LNBO1,Little Muskingum at Bloomfield,0,,True,False
-LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
-LNCN1,Holmes Lake,1,LATN1,True,False
-LNCP1,Conestoga River at Lancaster,1,CNSP1,True,False
-LNDK1,Salt Creek (LNDK1) at Lyndon,0,,True,False
-LNDM6,Wolf River near Landon,1,GLFM6,True,False
-LNDN4,Lake Hopatcong at Landing,0,,True,False
-LNDN6,Great South Bay at Lindenhurst (IN MLLW),0,,True,False
-LNDN7,First Broad River at Lawndale,0,,True,False
-LNDO2,Washita River at Lindsay,2,ALXO2;PLVO2,True,False
 LNDP1,Linden Creek at Linden,0,,True,False
 LNDW1,Cedar River (WA) near Landsburg,0,,True,False
 LNEK1,Pottawatomie Creek at Lane,1,GRTK1,True,False
@@ -128,7 +103,7 @@ LPSC2,La Plata River at State Line,0,,True,False
 LPTF1,Lake Talquin at Coe Landing Park (in NGVD29),0,,True,False
 LPTG1,Flat Creek at Lake Peachtree Tailrace,0,,True,False
 LPTK2,Kentucky River at Lockport,2,CRRK2;GSTK2,True,False
-LPTL1,Sabine River at Logansport,3,BEKT2;BKLT2;LMVT2,True,False
+LPTL1,Sabine River at Logansport,4,BEKT2;BKLT2;LMTT2;LMVT2,True,False
 LPTT2,Neches River at Lake Palestine,3,ATHT2;NCST2;TBLT2,True,False
 LPTW4,Little Powder River near Weston,0,,True,False
 LPVC2,Los Pinos River near Bayfield,0,,True,False
@@ -5029,7 +5004,7 @@ TILO3,South Umpqua River near Tiller,0,,True,False
 TILT2,Nueces River near Tilden,2,COTT2;THET2,True,False
 TILW1,Tilton River near Cinebar,0,,True,False
 TIMC1,San Timoteo Creek near Loma Linda,0,,True,False
-TINB3,Aroostook River below Tinker Dam,0,,True,False
+TINB3,Aroostook River below Tinker Dam,1,LMRM1,True,False
 TIOP1,Tionesta Creek at Tionesta Dam Pool,0,,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TISC1,Sacramento River at Tisdale Weir,2,CLUC1;FMWC1,True,False
@@ -5972,7 +5947,7 @@ WILW1,Willapa River at Willapa,0,,True,False
 WILW2,Tug Fork River at Williamson,2,KRMW2;LITW2,True,False
 WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WIMD1,Christina River at Wilmington (IN MLLW),0,,True,False
-WIMF1,Little Manatee River near Wimauma at US 301,0,,True,False
+WIMF1,Little Manatee River near Wimauma at US 301,1,LMWF1,True,False
 WINM3,Priest Brook at Winchendon,0,,True,False
 WINN3,Winnicut River near Portsmouth,0,,True,False
 WINO3,North Umpqua River at Winchester Dam,2,GLIO3;WNRO3,True,False
