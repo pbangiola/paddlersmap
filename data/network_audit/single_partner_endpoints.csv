@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DETM4,Rouge River at Detroit,1,SFRM4,True,False
-DEVN2,North Fork Humboldt River near Halleck,1,HREN2,True,False
-DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
 DKCN5,Dark Canyon 8 miles N of Whites City,1,DACN5,True,False
 DKNP1,Conneaut Creek at Dickonsburg,1,CCKO1,True,False
 DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
@@ -91,6 +88,7 @@ FSBG1,Canoochee River at Fort Stewart,1,CNOG1,True,False
 FSLL1,Amite River at French Settlement,1,PVLL1,True,False
 FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
 FTDC1,Smith River at Dr Fine Bridge,1,CREC1,True,False
+FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
 FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
 FTWF1,Santa Fe River near Hildreth (in NAVD88),1,TREF1,True,False
@@ -188,6 +186,7 @@ JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
 JYBT2,Neches River at Downtown Beaumont,1,BEAT2,True,False
 JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
+KALI4,English River at Kalona,1,DEPI4,True,False
 KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
 KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
@@ -245,6 +244,7 @@ LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
+LOPO3,Reservoir at Lookout Point nr Lowell,1,DEXO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPRC1,Los Padres Dam  ,1,RDRC1,True,False
@@ -509,6 +509,7 @@ RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
+RLLI2,Salt Creek (IL) near Rowell,1,DEWI2,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,1,WTRA1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
@@ -704,6 +705,7 @@ WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
+WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
 WLCW2,Tug Fork River at Welch,1,BRSW2,True,False
 WLDW2,Little Kanawha River near Wildcat,1,BRNW2,True,False
 WLKW2,West Fork River at Walkersville,1,JACW2,True,False
