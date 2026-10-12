@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KGPC1,South Fork Kings River above Boyden Cavern,0,,True,False
-KGTG1,Etowah River near Kingston,2,CTVG1;ROEG1,True,False
-KGTT1,Tennessee River at Kingston,4,FDTT1;MHTT1;OAKT1;WBOT1,True,False
-KHBI2,Mississippi River at Keithsburg,2,GLDI2;NBOI2,True,False
-KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
-KHPC1,Kern River at Hart Park,0,,True,False
-KHRM8,Peoples Creek near Dodson,0,,True,False
-KHSH1,Kalihi Stream near Honolulu,0,,True,False
-KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
-KIAS1,Kiawah River at Kiawah Island (IN MLLW),0,,True,False
-KIDN2,Las Vegas Wash below Henderson,0,,True,False
-KIGA2,Kvichak River at Igiugig,0,,True,False
-KILL1,Tickfaw River near Killian,0,,True,False
-KILM6,Big Black River near Kilmichael,0,,True,False
-KILN6,Great Kills Harbor at Great Kills (IN MLLW),0,,True,False
-KILN7,Killian Creek near MARIPOSA,0,,True,False
-KILO1,Killbuck Creek at Killbuck,0,,True,False
-KINN7,Neuse River at Kinston,3,FTBN7;GLDN7;NSSN7,True,False
-KINP1,Loyalhanna Creek at Kingston,0,,True,False
-KINS1,Black River at Kingstree,2,ADRS1;BLIS1,True,False
-KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
-KINV2,Unnamed Tributary near Kings Park West,0,,True,False
-KINW3,Kinnickinnic River at Milwaukee,0,,True,False
-KINW4,Wind River near Kinnear,2,BDDW4;WDRW4,True,False
-KIOK1,Medicine Lodge River near Kiowa,0,,True,False
 KIOW1,Yakima River at Kiona,1,PARW1,True,False
 KIPA2,Kipnuk Tide Gauge at Kipnuk (MHHW datum),0,,True,False
 KIRO1,West Branch Mahoning River at Kirwan Reservoir,0,,True,False
@@ -223,7 +198,7 @@ LATI2,Rock River at Latham Park,2,RABI2;ROKI2,True,False
 LATN1,Antelope Creek at Lincoln (27th Street),0,,True,False
 LATN5,Pecos River above Lake Arthur,0,,True,False
 LATN6,Long Island Sound above Lattingtown (IN MLLW),0,,True,False
-LATP1,Loyalhanna Creek at Latrobe,0,,True,False
+LATP1,Loyalhanna Creek at Latrobe,2,KINP1;LYLP1,True,False
 LAUF1,Myakka River Near Laurel,2,BOWF1;MKCF1,True,False
 LAUW1,Kettle River near Laurier,1,FRYW1,True,False
 LAVG1,Shoal Creek at Paper Mill Rd near Lawrenceville,0,,True,False
@@ -472,7 +447,7 @@ LHBN1,Haines Branch at Lincoln (SW 56th Street),0,,True,False
 LHCN7,"Little Hope Creek above Seneca Pl, in Madison Park",0,,True,False
 LHCW2,Little Huff Creek above Hanover,0,,True,False
 LHDN2,Carson River at Lahontan Reservoir,2,CBLN2;FTCN2,True,False
-LHDP1,Loyalhanna Creek above Loyalhanna Dam Tail Water,0,,True,False
+LHDP1,Loyalhanna Creek above Loyalhanna Dam Tail Water,2,LYLP1;VGFP1,True,False
 LHFA2,Lowe River above Horsetail Falls near Valdez,0,,True,False
 LHGT2,South Fork San Gabriel River at SH 1869 near Liberty Hill,1,GETT2,True,False
 LHIF1,Tide Gauge at Little Hickory Island (in MHHW),0,,True,False
@@ -943,7 +918,7 @@ LYCP1,Lycoming Creek near Williamsport,1,HEPP1,True,False
 LYDK2,Goose Creek (C KY) near Lyndon,0,,True,False
 LYDM8,Lake Koocanusa near Libby,0,,True,False
 LYLK2,Cumberland River at Loyall,0,,True,False
-LYLP1,Loyalhanna Creek at Loyalhanna Dam Pool,0,,True,False
+LYLP1,Loyalhanna Creek at Loyalhanna Dam Pool,2,LATP1;LHDP1,True,False
 LYMC3,Connecticut River at Old Lyme,0,,True,False
 LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
 LYNI2,Des Plaines River at Lyons,2,LEMI2;RVRI2,True,False
@@ -2995,7 +2970,7 @@ PELT1,Elk River near Pelham,0,,True,False
 PENI2,Elkhorn Creek (IL) near Penrose,0,,True,False
 PENO2,Eastern Oklahoma Lakes at Grand Lake,0,,True,False
 PENT1,Cumberland River at Penitentiary Branch in Jackson County,0,,True,False
-PEOM8,Peoples Creek near Hays,0,,True,False
+PEOM8,Peoples Creek near Hays,1,KHRM8,True,False
 PEPF1,Pelican Point at Cooks Bayou (in MHHW),0,,True,False
 PEPN6,East Branch Delaware River at Pepacton Reservoir,2,DWNN6;MRGN6,True,False
 PEPP1,Neshaminy Creek near Penns Park,0,,True,False
@@ -6127,7 +6102,7 @@ VFGP1,Valley Creek at PA Turnpike Bridge near Valley Forge,0,,True,False
 VGAI4,Volga River at Volga (IFC),0,,True,False
 VGBP4,Rio Cibuco at Vega Baja,0,,True,False
 VGCM4,Clam River at Vogel Center,0,,True,False
-VGFP1,Kiskiminetas River at Vandergrift,0,,True,False
+VGFP1,Kiskiminetas River at Vandergrift,1,LHDP1,True,False
 VGRA1,Village Creek at 86th Street,0,,True,False
 VGSA2,Valdez Glacier River at Valdez Glacier Lake near Valdez,0,,True,False
 VGTA1,Cahaba River near Trussville,0,,True,False
@@ -6887,7 +6862,7 @@ WSRN6,Susquehanna River at Windsor,2,BAIN6;CKLN6,True,False
 WSSC1,Warm Springs Creek below Strawberry Creek,0,,True,False
 WSSN7,Walnut Creek (NC) at S. State St.,2,WAWN7;WRLN7,True,False
 WSTM2,Georges Creek near Franklin/Westernport,0,,True,False
-WSTM6,Big Black River at West,1,BTAM6,True,False
+WSTM6,Big Black River at West,2,BTAM6;KILM6,True,False
 WSTN7,"Taggart Creek at West Blvd (NC 160), 1 WSW Reid Park",0,,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WSTR1,Pawcatuck at Westerly,0,,True,False

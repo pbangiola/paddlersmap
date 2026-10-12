@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
-KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
-KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
 KIOW1,Yakima River at Kiona,1,PARW1,True,False
 KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
 KLMC1,Klamath River near Klamath,1,ONSC1,True,False
@@ -335,6 +332,7 @@ PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
 PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
 PEBN4,North Branch Rancocas Creek at Pemberton,1,IWPN4,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
+PEOM8,Peoples Creek near Hays,1,KHRM8,True,False
 PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
@@ -674,6 +672,7 @@ VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
 VERT2,Pease River near Vernon,1,CDPT2,True,False
+VGFP1,Kiskiminetas River at Vandergrift,1,LHDP1,True,False
 VIRU1,Virgin River near Virgin,1,HURU1,True,False
 VLIK2,Licking River above Visalia,1,BTLK2,True,False
 VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
@@ -760,7 +759,6 @@ WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
 WSLO3,Tualatin River at West Linn,1,TUAO3,True,False
-WSTM6,Big Black River at West,1,BTAM6,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
 WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
