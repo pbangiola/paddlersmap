@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ERJS1,Edisto River below Jacksonboro,1,GIVS1,True,False
 ERRG1,Etowah River at Coosa Valley Fairgrounds at Rome,1,ROEG1,True,False
 ERVM5,Elk River near Big Lake,1,BGKM5,True,False
 ESLN8,Eastern Stump Lake near Lakota,1,DCBN8,True,False
@@ -51,7 +50,6 @@ FTDC1,Smith River at Dr Fine Bridge,1,CREC1,True,False
 FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
 FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
-FTWF1,Santa Fe River near Hildreth (in NAVD88),1,TREF1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
 FVLP1,Loyalsock Creek at Forksville,1,HLLP1,True,False
 FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
@@ -60,11 +58,11 @@ GATN1,Middle Loup River at Gates,1,DNGN1,True,False
 GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
 GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
-GBYW3,Fox River (North) at Green Bay,1,WRGW3,True,False
 GDVM5,Shell Rock River (Northeast IA) near Gordonsville 1W,1,MANI4,True,False
 GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
 GERT1,Wolf River at Germantown,1,COTT1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
+GGGW3,East River (WI) above Greenleaf,1,ERBW3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
@@ -397,6 +395,7 @@ OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
+ORDS2,Elm River at Ordway,1,WESS2,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
 OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
@@ -446,7 +445,6 @@ PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLOP4,Lago Loiza near Trujillo Alto,1,CAGP4,True,False
-PLRM8,Poplar River near Poplar,1,BDPM8,True,False
 PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
 PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
 PMZM7,Middle Fork Salt River near Holliday,1,CPZM7,True,False
@@ -559,7 +557,6 @@ SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
 SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
-SCNM5,St. Louis River at Scanlon,1,CQRM5,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
