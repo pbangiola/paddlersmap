@@ -1,39 +1,14 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FBNM8,Missouri River at Fort Benton,2,GFLM8;VRGM8,True,False
-FBPV2,Flat Branch at Ben Lomond Park,0,,True,False
-FCBP1,Fishing Creek at Bloomsburg,0,,True,False
-FCCA2,Fish Creek below Solo Creek near Chatanika,0,,True,False
-FCCO2,Cobb Creek near Fort Cobb,1,FTCO2,True,False
-FCCP1,Fishing Creek at CRALEY,0,,True,False
-FCDS1,Catawba River at Fishing Creek Reservoir and Dam,3,CDCS1;CTBS1;FOMS1,True,False
-FCEW3,Popple River at Fence,1,BRKW3,True,False
-FCFI3,Fall Creek (IN) near Fortville,0,,True,False
-FCFM8,North Fork Flathead River near Columbia Falls,0,,True,False
-FCFV2,Flat Creek at Rt 609 near Fieldstown,0,,True,False
-FCGP1,Fishing Creek at Grassmere Park,0,,True,False
-FCHC2,Fountain Creek at Pueblo,0,,True,False
-FCHW4,Fontenelle Creek near Herschler Ranch,0,,True,False
-FCKA2,Fish Creek near Ketchikan,0,,True,False
-FCKF1,Fisheating Creek near Lakeport at Highway 78,0,,True,False
-FCKI2,Kaskaskia River below Ficklin,0,,True,False
-FCKN1,Papillion Creek at Fort Crook,3,PHRN1;PWBN1;RABN1,True,False
-FCKP1,Fishing Creek near Bloomsburg,0,,True,False
-FCKW4,Flat Creek (WY) near Jackson,2,CCKW4;JKSW4,True,False
-FCLN7,Cross Creek at Langdon St,1,CCBN7,True,False
-FCLP1,Fishing Creek at Lamar,0,,True,False
-FCLV2,Falling Creek at Lucks Lane Near Lake Crystal Farms,0,,True,False
-FCMN7,Flat Creek (NC) above Flat Creek Rd. 1 SW Montreat,0,,True,False
-FCNU1,Fish Creek (UT) above Scofield,0,,True,False
 FCRF1,Fisheating Creek at SR 70,0,,True,False
 FCRM4,Fish Creek near Crystal,0,,True,False
 FCRM7,Flat Creek (MO) below Jenkins,0,,True,False
 FCRP1,Frankford Creek at Philadelphia,0,,True,False
 FCRS2,Flandreau Creek above Flandreau,0,,True,False
 FCSA3,Fossil Creek near Strawberry,2,EVDA3;VDTA3,True,False
-FCSI3,Fall Creek (IN) at 16th Street in Indianapolis,0,,True,False
+FCSI3,Fall Creek (IN) at 16th Street in Indianapolis,2,IUPI3;MLRI3,True,False
 FCTC1,San Joaquin River above Fishermans Cut,0,,True,False
 FCTG1,Fausett Creek near Talking Rock,0,,True,False
-FCTI3,Fall Creek at 79th St,0,,True,False
+FCTI3,Fall Creek at 79th St,2,MLRI3;OLNI3,True,False
 FCTT2,Cibolo Creek near Falls City,2,SRRT2;SUPT2,True,False
 FCTV2,Falling Creek at Turner Road near Ampt Hill,0,,True,False
 FCVK2,Sand Run at Francisville,0,,True,False
@@ -88,7 +63,7 @@ FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
 FGOM4,Black River near Jeddo,0,,True,False
 FGON8,Red River of the North at Fargo,3,GEGM5;HICN8;STBN8,True,False
 FGSF1,Fort George State Park (in MHHW),0,,True,False
-FHAC2,Fountain Creek near Fountain,0,,True,False
+FHAC2,Fountain Creek near Fountain,2,FNEC2;PNNC2,True,False
 FHCF1,Fisher Creek at Springhill Road (in NAVD88),0,,True,False
 FHOS1,Four Hole Swamp near Dorchester,0,,True,False
 FHRF1,Fenholloway River Boat Ramp (in MHHW),0,,True,False
@@ -194,7 +169,7 @@ FMWA2,West Fork Dennison Fork near Chicken,0,,True,False
 FMWC1,Sacramento River at Fremont Weir,2,TISC1;VONC1,True,False
 FNCK2,Chenoweth Run near Fern Creek,0,,True,False
 FNCV2,Fine Creek near FINE CREEK MILLS,0,,True,False
-FNEC2,Fountain Creek at Colorado Springs,0,,True,False
+FNEC2,Fountain Creek at Colorado Springs,1,FHAC2,True,False
 FNGM6,Fannegusha Creek above Fannegusha Creek/Sand Hill,0,,True,False
 FNGS1,North Pacolet River near Fingerville,0,,True,False
 FNHI4,West Fork Cedar River at Finchford,2,CEDI4;KESI4,True,False
@@ -1667,7 +1642,7 @@ ITAA2,Italio River above Mouth near Yakutat,0,,True,False
 ITCN7,Tanasee Creek at TANASEE CREEK DAM,0,,True,False
 ITHN1,Wahoo Creek at Ithaca,2,ASNN1;WOON1,True,False
 ITKA2,Sitka Sound Tide Gauge at Sitka (MLLW datum),0,,True,False
-IUPI3,White River (IN) at Michigan Street in Indianapolis,3,CCII3;INDI3;WHSI3,True,False
+IUPI3,White River (IN) at Michigan Street in Indianapolis,4,CCII3;FCSI3;INDI3;WHSI3,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 IVNV2,New River at Ivanhoe,2,ALSV2;GAXV2,True,False
 IVRN7,Ivy River near Barnardsville,0,,True,False
@@ -3466,7 +3441,7 @@ MLNO1,Tuscarawas River at Massillon,2,DVRO1;LINO1,True,False
 MLPC1,Mill Creek near Piedra,0,,True,False
 MLPI1,Snake River at Milner Lower Power Plant,0,,True,False
 MLPK2,Ohio River at McAlpine Lower,2,MLUK2;RVPK2,True,False
-MLRI3,Fall Creek (IN) at Millersville,0,,True,False
+MLRI3,Fall Creek (IN) at Millersville,2,FCSI3;FCTI3,True,False
 MLRM2," SOUTH FORK JABEZ BRANCH AT MILLERSVILLE, MD ",0,,True,False
 MLRM8,Big Hole River near Melrose,2,GNLM8;MRDM8,True,False
 MLRT2,Llano River near Mason,0,,True,False
@@ -4585,7 +4560,7 @@ OLDO1,Little Miami River near Oldtown,0,,True,False
 OLGF1,Caloosahatchee River at W.P. Franklin Lock & Dam,0,,True,False
 OLMI2,Ohio River at Olmsted Lock and Dam Headwater,2,OLTI2;PAHK2,True,False
 OLMO1,Minnie Creek at Olmsted Falls,0,,True,False
-OLNI3,Fall Creek (IN) at Geist Reservoir,0,,True,False
+OLNI3,Fall Creek (IN) at Geist Reservoir,2,FCFI3;FCTI3,True,False
 OLNN6,Allegheny River at Olean,2,ELRP1;SLMN6,True,False
 OLPF1,Santa Fe River at O'leno State Park (in NAVD88),2,RRZF1;WORF1,True,False
 OLPO1,Cuyahoga River at Old Portage,2,ECAO1;HRPO1,True,False
@@ -5149,7 +5124,7 @@ PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLLP1,Pennypack Creek at Philadelphia,0,,True,False
 PLLQ3,Pembina River above Lorne Lake,2,BLNQ3;RLGQ3,True,False
 PLMC2,East Plum Creek (CO) below Castle Rock,2,EPOC2;LOVC2,True,False
-PLMF1,Fisheating Creek at Palmdale,0,,True,False
+PLMF1,Fisheating Creek at Palmdale,1,FCKF1,True,False
 PLMI2,Big Muddy River at Plumfield,0,,True,False
 PLMI3,St. Marys River at Pleasant Mills,2,DCRI3;WILO1,True,False
 PLMI4,Mud Creek near Pleasant Hill IA 163--IFC,0,,True,False
@@ -5230,7 +5205,7 @@ PNLF1,Withlacoochee River at Pineola (in NAVD88),2,NOBF1;WFLF1,True,False
 PNLI4,Lake Panorama at Panora,2,BAYI4;PANI4,True,False
 PNLM5,Middle Fork Zumbro River at Pine Island,2,BNEM5;ONOM5,True,False
 PNLM6,Tide Station (LIX) at Pascagoula NOAA Lab (IN MHHW),0,,True,False
-PNNC2,Fountain Creek near Piñon,0,,True,False
+PNNC2,Fountain Creek near Piñon,2,FCHC2;FHAC2,True,False
 PNPF1,Tide Gauge at New Port Richey (in MHHW),0,,True,False
 PNPT2,Neches River at Lee Avenue,0,,True,False
 PNRF1,Panacoochee Retreats (in NAVD88),0,,True,False
