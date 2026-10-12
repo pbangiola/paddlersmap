@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DCKC1,Donner Creek at Donner Lk Nr Truckee,1,DCHC1,True,False
 DDMN6,Mohawk River at Delta Dam,1,UCAN6,True,False
 DDVC1,Canoas Creek at Dow Drive,1,CAOC1,True,False
 DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
@@ -346,6 +345,7 @@ MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
 MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
+MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False
 MSVL1,Tchefuncte River above Madisonville,1,TRCL1,True,False
 MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
@@ -533,6 +533,7 @@ RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SACT2,Salado Creek at Loop 13,1,SSCT2,True,False
+SAKF1,Shell Bluff Park (in NAVD88),1,DCSF1,True,False
 SALV2,North Fork Holston River at Saltville,1,GATV2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SANK1,Pawnee River near Sanford,1,ROZK1,True,False
@@ -709,6 +710,7 @@ WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
+WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
