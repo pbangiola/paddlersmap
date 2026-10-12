@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GRET2,Salt Fork of the Red River at Greenbelt Lake,1,WLGT2,True,False
-GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRIC1,Feather River at Gridley,1,YWPC1,True,False
 GRMA3,Gila River near Maricopa,1,PRKA3,True,False
 GRVC2,Gore Creek at Vail,1,GORC2,True,False
@@ -234,6 +232,7 @@ MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MILN4,Passaic River near Millington,1,CAMN4,True,False
 MILW2,Shenandoah River at Millville,1,FROV2,True,False
 MILW3,Crawfish River at Milford,1,CUSW3,True,False
+MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
@@ -453,7 +452,6 @@ QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
-RAPM5,Blue Earth River near Rapidan,1,BUEM5,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
 RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
@@ -582,6 +580,7 @@ SLKM7,Reservoirs  Smithville Reservoir,1,LNZM7,True,False
 SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
+SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
@@ -770,6 +769,7 @@ WPTK2,Salt River at West Point,1,SHPK2,True,False
 WPTM6,Tchoutacabouffa River above White Plains,1,DIBM6,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
+WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
