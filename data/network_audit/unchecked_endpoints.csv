@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HSRF1,Hunter Spring Run at Beach Lane at Crystal River,0,,True,False
-HSSW1,East Fork Lewis River near Heisson,0,,True,False
-HSTA3,Hassayampa River near Arlington,1,HAMA3,True,False
-HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
-HSTM5,Mississippi River Below Lock and Dam 2 - Hastings,2,PREW3;STPM5,True,False
-HSWN7,Hominy Swamp at Wilson,0,,True,False
-HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
-HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
-HTBK1,Buckner Creek below Horse Thief Reservoir,2,HTRK1;JTRK1,True,False
-HTBN6,Town Brook near Hobart,0,,True,False
-HTBS2,Rock Creek near Hidden Timber,0,,True,False
-HTCI4,Tipton Creek near Hubbard 230th St--IFC,0,,True,False
-HTCK1,Cow Creek above Hutchinson,0,,True,False
-HTDK1,Little Arkansas River near Halstead,2,ALMK1;SEDK1,True,False
-HTDM8,Yellowstone River at Huntley Diversion Dam,0,,True,False
-HTFK2,Big Creek at Hatfield,0,,True,False
-HTFN7,Perquimans River at Hertford,0,,True,False
-HTFS2,Skunk Creek near Hartford,0,,True,False
-HTGM7,Bourbeuse River near High Gate,0,,True,False
-HTGT1,Cumberland River near Hermitage,2,EDWT1;PNBT1,True,False
-HTII4,Tipton Creek near Hubbard N Ave--IFC,0,,True,False
-HTLV2,Middle Run at Huntsman Lake,0,,True,False
-HTNM2,Southwest Branch near Largo / Harry S Truman Dr,0,,True,False
-HTNM7,Little Osage River at Horton,1,FTNK1,True,False
-HTRK1,Buckner Creek at Horse Thief Reservoir,2,HTAK1;HTBK1,True,False
 HTRM8,Missouri River below Holter Dam near Wolf Creek,2,CASM8;HASM8,True,False
 HTSC2,Colorado River above Hot Sulphur Springs,4,CAWC2;CBGC2;FRWC2;KRMC2,True,False
 HTSS1,Black Creek (SC) above Hartsville,2,BCRS1;MCBS1,True,False
@@ -1498,7 +1473,7 @@ LYMC3,Connecticut River at Old Lyme,0,,True,False
 LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
 LYNI2,Des Plaines River at Lyons,2,LEMI2;RVRI2,True,False
 LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
-LYNK1,Cow Creek (KS) at Lyons,0,,True,False
+LYNK1,Cow Creek (KS) at Lyons,1,HTCK1,True,False
 LYNM6,Lynch Creek at Jackson,0,,True,False
 LYNN6,Lake America at Golden Hill State Park,0,,True,False
 LYNP1,Tionesta Creek near Lynch,0,,True,False
@@ -2871,7 +2846,7 @@ NPTN1,North Platte River at North Platte,4,BDYN1;BIRN1;KNGN1;SUTN1,True,False
 NPTO1,Loramie Creek near Newport,0,,True,False
 NPTP1,Juniata River at Newport,0,,True,False
 NPVI2,West Branch Du Page River at Naperville (Webster St),0,,True,False
-NPVI4,South Fork Iowa River near New Providence,4,BKSI4;BLII4;EDBI4;MIWI4,True,False
+NPVI4,South Fork Iowa River near New Providence,5,BKSI4;BLII4;EDBI4;HTII4;MIWI4,True,False
 NPVL1,Bayou Lafourche above Napoleonville,0,,True,False
 NRBF1,New River near Lake Butler (in NAVD88),0,,True,False
 NRBL1,Natalbany River at Baptist,0,,True,False
@@ -3352,7 +3327,7 @@ PAGH1,Paauau Gulch near Pahala,0,,True,False
 PAHC1,Pacheco Reservoir above Pacheco Reservoir,0,,True,False
 PAHI1,Pahsimeroi River at Ellis,0,,True,False
 PAHK2,Ohio River at Paducah,4,BIGT1;KYDK2;OLMI2;SMLI2,True,False
-PAHS2,Keyapaha River near Keyapaha,2,ANTS2;WEWS2,True,False
+PAHS2,Keyapaha River near Keyapaha,3,ANTS2;HTBS2;WEWS2,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PAKI1,Pack River near Colburn,0,,True,False
 PAKU1,Paria River near Kanab,0,,True,False
@@ -4881,7 +4856,7 @@ SCCM5,Second Creek near Aurora ,0,,True,False
 SCCM8,Saint Mary Canal near Babb at St Mary Crossing,0,,True,False
 SCCN2,Sloan Channel at Charleston Blvd,0,,True,False
 SCCN7,Soco Creek at Wolfetown Road,0,,True,False
-SCCS2,Skunk Creek near Chester,0,,True,False
+SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
 SCCT2,Concho River at San Angelo,0,,True,False
 SCCV2,Swift Creek at Colonial Heights,0,,True,False
 SCCW1,West Fork Salmon Creek near Conconully,0,,True,False
@@ -5233,7 +5208,7 @@ SIDN6,Susquehanna River at Sidney,2,BAIN6;UNDN6,True,False
 SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
 SIFF1,Homosassa River at Shell Island Near Homosassa,0,,True,False
 SIFI1,Snake River near Idaho Falls,2,MENI1;SHYI1,True,False
-SIFS2,Skunk Creek at Sioux Falls,0,,True,False
+SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
 SIGI4,North Skunk River near Sigourney,2,KLGI4;MERI4,True,False
 SIGN4,Passaic River at Singac,2,LTFN4;PINN4,True,False
 SILI4,Silver Creek at Silver City (IFC),0,,True,False
@@ -6553,7 +6528,7 @@ UNDS2,Boxelder Creek at New Underwood,2,BCBS2;WASS2,True,False
 UNDW1,White Salmon River near Underwood,0,,True,False
 UNIG1,Hannahatchee Creek at Union Road at Union,0,,True,False
 UNLA2,Unalaska at Unalaska,0,,True,False
-UNNM7,Bourbeuse River at Union,0,,True,False
+UNNM7,Bourbeuse River at Union,1,HTGM7,True,False
 UNRA2,Upper Nuka River near Park Boundary near Homer,0,,True,False
 UNRC2,Uncompahgre River below Ridgway Reservoir,3,CLOC2;DCKC2;UCRC2,True,False
 UNVC3,Farmington River at Unionville,0,,True,False

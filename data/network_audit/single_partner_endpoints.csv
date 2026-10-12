@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HSTA3,Hassayampa River near Arlington,1,HAMA3,True,False
-HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
-HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
-HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
-HTNM7,Little Osage River at Horton,1,FTNK1,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HUSA4,Fourche LaFave River near Houston,1,NMLA4,True,False
 HVLN6,West Branch Oswegatchie River near Harrisville,1,HEUN6,True,False
@@ -155,6 +150,7 @@ LWWT2,North Texas Lakes at Lake Waxahachie,1,BDWT2,True,False
 LYCP1,Lycoming Creek near Williamsport,1,HEPP1,True,False
 LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
 LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
+LYNK1,Cow Creek (KS) at Lyons,1,HTCK1,True,False
 MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
 MADM8,Madison River below Ennis Lake near McAllister,1,MRPM8,True,False
 MAKP1,Casselman River at Markleton,1,GNTM2,True,False
@@ -532,6 +528,7 @@ SBPT2,near Sabine Pass,1,COWT2,True,False
 SBRN4,North Branch Raritan River at South Branch,1,RRTN4,True,False
 SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
 SBYO1,Big Walnut Creek at Sunbury,1,HOOO1,True,False
+SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
@@ -572,6 +569,7 @@ SHVT1,Duck River near Shelbyville,1,COLT1,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
+SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
 SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
 SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
@@ -698,6 +696,7 @@ UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
 UMAO3,Umatilla River at Umatilla,1,YOKO3,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
+UNNM7,Bourbeuse River at Union,1,HTGM7,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
 UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
