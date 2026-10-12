@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LYNM6,Lynch Creek at Jackson,0,,True,False
-LYNN6,Lake America at Golden Hill State Park,0,,True,False
-LYNP1,Tionesta Creek near Lynch,0,,True,False
-LYNT2,Davidson Creek near Lyons,0,,True,False
-LYNW3,Mississippi River below Lock and Dam 9 - Lynxville,2,LNSI4;MCGI4,True,False
-LYOP4,Rio Loco near Yauco,0,,True,False
-LYOQ8,Battle Creek (North-central MT) at Lyons Ck at IB nr Willow Ck 23E,0,,True,False
-LYOS1,Lynches River at I-95,2,BISS1;EFFS1,True,False
-LYTF1,Tide Station at Long Key near Long Key Bight (in MHHW),0,,True,False
-LYTI3,Wildcat Creek (IN) near Lafayette,2,LAFI3;OWCI3,True,False
-LYVP1,Bixler Run near Loysville,0,,True,False
-LYWV2,South Fork Shenandoah River near Lynnwood,2,HARV2;SFSV2,True,False
-MAAI4,West Nodaway River at Massena,0,,True,False
-MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
-MACA2,Maclaren River near Paxson,0,,True,False
-MACC2,Maroon Creek near Aspen,0,,True,False
-MACF1,St. Marys River near Macclenny,0,,True,False
-MACG1,Ocmulgee River at 5th Street Bridge at Macon,2,DFYG1;HAWG1,True,False
-MACI1,Eastern Idaho Reservoirs at Mackay Dam,2,HWRI1;MAKI1,True,False
-MACK1,Rattlesnake Creek (KS) near Macksville,0,,True,False
-MACN7,Currituck Sound at Marsh Causeway @ NC 615,0,,True,False
-MACO1,West Fork Duck Creek at Macksburg,0,,True,False
-MACS1,Mackay Creek near Hilton Head (IN MLLW),0,,True,False
-MADA1,Indian Creek (AL) at Madison,0,,True,False
-MADC3,Lake Hammonasset above Lake Hammonasset,0,,True,False
 MADM8,Madison River below Ennis Lake near McAllister,1,MRPM8,True,False
 MADN8,Sheyenne River near Maddock,0,,True,False
 MADO3,Malheur River near Drewsey,0,,True,False
@@ -587,7 +562,7 @@ MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
 MNGO1,Whetstone Creek at Mt. Gilead,0,,True,False
 MNHM5,North Fork Crow River near Manannah,0,,True,False
 MNHP1,Chiques Creek at Manheim,0,,True,False
-MNIG1,St. Marys River at Moniac,0,,True,False
+MNIG1,St. Marys River at Moniac,1,MACF1,True,False
 MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
 MNKM5,Minnesota River at Mankato,3,JUDM5;NWUM5;SPTM5,True,False
 MNLL1,Coastal Reference Monitoring System near Magnolia,0,,True,False
@@ -848,7 +823,7 @@ MSWI4,Willow Creek at Mason City 1st St SW--IFC,2,MCII4;MSPI4,True,False
 MSWM5,Mississippi River near Wilton (CSAH7),2,MSBM5;MSVM5,True,False
 MSZM7,Little Sac River near Morrisville,0,,True,False
 MTAF1,Tide Gauge at Matlacha Community Park (In MHHW),0,,True,False
-MTAO1,Ohio River at Marietta Pumphouse,2,PARW2;RNOO1,True,False
+MTAO1,Ohio River at Marietta Pumphouse,3,PARW2;RNOO1;WHPO1,True,False
 MTBA1,Cahaba River near Mountain Brook,0,,True,False
 MTBT2,Nueces River at Mathis,2,GWNT2;MTHT2,True,False
 MTCI3,Turkey Creek (IN) at Merrillville,0,,True,False
@@ -2967,7 +2942,7 @@ RLYA2,Riley Creek at Parks Highway at Denali Park,0,,True,False
 RMBC1,Redwood Creek (Marin County) above Highway 1 Bridge at Muir Beach,0,,True,False
 RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,2,HMMG1;WTRA1,True,False
 RMBN7,Tar River at US301 Bypass at Rocky Mount,0,,True,False
-RMCC2,Roaring Fork River below Aspen,2,APNC2;EMMC2,True,False
+RMCC2,Roaring Fork River below Aspen,3,APNC2;EMMC2;MACC2,True,False
 RMCV2,Mudlick Creek in Roanoke,0,,True,False
 RMDV2,James River (VA) at Richmond-Westham,2,CARV2;RICV2,True,False
 RMFM1,Androscoggin River at Rumford,3,AUBM1;GILM1;GRMN3,True,False
@@ -4680,7 +4655,7 @@ TILT2,Nueces River near Tilden,2,COTT2;THET2,True,False
 TILW1,Tilton River near Cinebar,0,,True,False
 TIMC1,San Timoteo Creek near Loma Linda,0,,True,False
 TINB3,Aroostook River below Tinker Dam,1,LMRM1,True,False
-TIOP1,Tionesta Creek at Tionesta Dam Pool,0,,True,False
+TIOP1,Tionesta Creek at Tionesta Dam Pool,2,LYNP1;TNTP1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TISC1,Sacramento River at Tisdale Weir,2,CLUC1;FMWC1,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
@@ -4775,7 +4750,7 @@ TNRA3,Tonto Creek near Roosevelt,0,,True,False
 TNRK1,Kansas River at Turner Bridge,0,,True,False
 TNTN2,Truckee River near Tracy,2,TBDN2;VISN2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
-TNTP1,Tionesta Creek at Tionesta Dam Tailwater,0,,True,False
+TNTP1,Tionesta Creek at Tionesta Dam Tailwater,1,TIOP1,True,False
 TNUA2,Tununak Tidal Gauge at Tununak (MHHW datum),0,,True,False
 TNYN6,Little Salmon River at Mount near Texas NY,0,,True,False
 TNZM7,North Fork White River near Tecumseh,0,,True,False
@@ -5577,7 +5552,7 @@ WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHOT2,Sandies Creek near Westhoff,0,,True,False
 WHPM5,Rainy River near Boat Landing at Wheelers Point,2,CLEM5;MNUM5,True,False
 WHPN4,Whippany River near Morristown,0,,True,False
-WHPO1,Duck Creek below Whipple,0,,True,False
+WHPO1,Duck Creek below Whipple,2,MACO1;MTAO1,True,False
 WHRH1,Waihee River at Dam,0,,True,False
 WHRI1,Wildhorse River at Brownlee,0,,True,False
 WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
@@ -6151,7 +6126,7 @@ ZBQN7,Atlantic Coast at Zeeks Basin,0,,True,False
 ZCCC1,Zaca Creek near Buelton,0,,True,False
 ZCRM7,Castor River above Zalma,0,,True,False
 ZEEM4,Macatawa River near Zeeland,0,,True,False
-ZENK1,Rattlesnake Creek (KS) near Zenith,0,,True,False
+ZENK1,Rattlesnake Creek (KS) near Zenith,1,MACK1,True,False
 ZFSF1,Peace River at Zolfo Springs,2,ARCF1;PWAF1,True,False
 ZKAF1,Gulf Tide Station Near Chassahowitzka,0,,True,False
 ZLGC1,Line G1 - Dublin Blvd,0,,True,False
