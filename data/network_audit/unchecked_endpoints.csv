@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MDIC1,Milliken Creek at Milliken Reservoir,0,,True,False
-MDII1,Big Lost River below Moore Div Nr Moore,2,ASUI1;LESI1,True,False
-MDIM1,Sandy River near Madrid,0,,True,False
-MDKK1,Ninnescah River near Murdock,2,PECK1;PTTK1,True,False
-MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
-MDLK2,Meldrum,0,,True,False
-MDLL1,Lake Pontchartrain at Mid-Lake,0,,True,False
-MDLM2,Catoctin Creek Near Middletown,0,,True,False
-MDLT2,Medina River at Medina Lake,2,LACT2;MEPT2,True,False
-MDLV2,Goose Creek near Middleburg,1,LEEV2,True,False
-MDMI1,Snake River below Minidoka Dam (at Howells Ferry),2,MILI1;MINI1,True,False
-MDNI2,Natalie Creek at Midlothian,0,,True,False
-MDNM8,Muddy Creek near Vaughn,0,,True,False
-MDNN8,Heart River near Mandan,1,GLUN8,True,False
-MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
-MDOK2,Pond Creek (C KY) at Medora,0,,True,False
-MDOM7,near MENDON 1N,0,,True,False
-MDOO3,Meadow Creek below Dark Canyon,0,,True,False
-MDPM5,Root River near Mound Prairie,2,BRWM5;HUSM5,True,False
-MDRI3,Deep River (IN) near Merrillville,1,HLGI3,True,False
-MDRM5,Mud River near Grygla (MN89),0,,True,False
-MDRN7,Muddy Creek at Robinhood Rd,0,,True,False
-MDRN8,Wild Rice River (ND) near Mantador,2,ABRN8;FWRN8,True,False
-MDRV2,Dead Run near McLean,0,,True,False
-MDSC1,Tuolumne River at Modesto,0,,True,False
 MDSM1,Kennebec River near Madison,2,BINM1;SKOM1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MDSN4,Bound Brook at Middlesex,0,,True,False
@@ -33,7 +8,7 @@ MDTO1,Great Miami River at Middletown,3,FKNO1;GERO1;HAMO1,True,False
 MDVG1,Ogeechee River at Midville,2,GRGG1;RFDG1,True,False
 MDWK2,South Elkhorn Creek at Midway,0,,True,False
 MDYK2,Right Fork Beaver Creek near Muddy,0,,True,False
-MDYM8,Muddy Creek at Vaughn,0,,True,False
+MDYM8,Muddy Creek at Vaughn,2,MDNM8;VAUM8,True,False
 MDYS2,Medary Creek near Medary,0,,True,False
 MEAP1,Woodcock Creek at Woodcock Dam,2,BVLP1;WCDP1,True,False
 MECN1,Medicine Creek near Curtis,2,CABN1;SOMN1,True,False
@@ -62,7 +37,7 @@ MEPO1,Black Fork Mohican River at Melco,2,CHAO1;LDVO1,True,False
 MEPT2,Medina River above Engligh Crossing near Pipe Creek,2,BDAT2;MDLT2,True,False
 MERG1,Hudson Creek near Meridian (IN MLLW),0,,True,False
 MERI4,Skunk River at Merrimac,3,AGSI4;OOAI4;SIGI4,True,False
-MERM1,Sandy River (ME) at Mercer,0,,True,False
+MERM1,Sandy River (ME) at Mercer,1,MDIM1,True,False
 MERN4,Assunpink Creek near Mercerville,0,,True,False
 MERT2,Medina River at Patterson Road at Medina,2,BDAT2;WPMT2,True,False
 MERW1,Lewis River at Ariel,3,CCAW1;LRWW1;YARW1,True,False
@@ -4874,7 +4849,7 @@ VAPW1,Columbia River at Vancouver,2,BONO3;SHNO3,True,False
 VASC1,Los Gatos Creek at Vasona Reservoir,0,,True,False
 VASN7,Flat Creek near Iverness,1,MANN7,True,False
 VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
-VAUM8,Sun River near Vaughn,2,GFLM8;SSRM8,True,False
+VAUM8,Sun River near Vaughn,3,GFLM8;MDYM8;SSRM8,True,False
 VAVA3,Verde River near Camp Verde,0,,True,False
 VAVS2,Victoria Creek above Victoria Dam nr Rapid City,0,,True,False
 VAWA1,Valley Creek (AL-2) at Ave W,0,,True,False

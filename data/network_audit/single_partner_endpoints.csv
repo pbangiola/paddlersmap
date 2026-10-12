@@ -1,15 +1,11 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
-MDLV2,Goose Creek near Middleburg,1,LEEV2,True,False
-MDNN8,Heart River near Mandan,1,GLUN8,True,False
-MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
-MDRI3,Deep River (IN) near Merrillville,1,HLGI3,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MDTC2,Frying Pan River at Meredith,1,FPTC2,True,False
 MECT2,Arroyo Colorado South of Mercedes,1,HAGT2,True,False
 MEDM3,Charles River at Medway,1,DOVM3,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
+MERM1,Sandy River (ME) at Mercer,1,MDIM1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
