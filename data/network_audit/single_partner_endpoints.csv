@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KCTM7,Blue River at 12th Street,1,KSVM7,True,False
-KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,True,False
-KEEW1,Yakima River at Keechelus Outflow,1,KACW1,True,False
 KENO2,Cimarron River (OK) at Kenton,1,EHTK1,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
@@ -13,6 +10,7 @@ KLMC1,Klamath River near Klamath,1,ONSC1,True,False
 KMST2,Lavaca River at Komensky,1,BRLT2,True,False
 KNKA2,Knik River near Palmer,1,BDBA2,True,False
 KNTO1,Scioto River at Kenton,1,LARO1,True,False
+KPHA2,Ketchikan Creek at Ketchikan Powerhouse near Ketchikan,1,KDLA2,True,False
 KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
 KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
@@ -497,6 +495,7 @@ SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
+SCNA2,Salmon Creek at Nash Road near Seward,1,KCSA2,True,False
 SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
@@ -590,7 +589,6 @@ STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
 STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
-STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STKA2,Stikine River near Wrangell,1,ISKQ2,True,False
 STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False

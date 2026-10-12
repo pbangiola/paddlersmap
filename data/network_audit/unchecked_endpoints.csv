@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KCRW4,"Rock Creek above King Canyon Canal, near Arlington",0,,True,False
-KCSA2,Kwechak Creek at Bruno Road near Seward,0,,True,False
-KCSC1,Kern River at CANAL - BELOW S ALLEN ROAD,0,,True,False
-KCTM7,Blue River at 12th Street,1,KSVM7,True,False
-KCVC1,Kelsey Creek near Kelseyville,0,,True,False
-KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,True,False
-KDAA2,Kodiak at Kodiak Tide Gage,0,,True,False
-KDGC1,Guadalupe River at LAKE KITTRIDGE,0,,True,False
-KDKA2,Terror River at Mouth near Kodiak,0,,True,False
-KDKS2,White River (NE-SD) near Kadoka,3,BERS2;IRRS2;WHRS2,True,False
-KDLA2,Lower Ketchikan Lake above Ketchikan Lake Dam near Ketchikan,0,,True,False
-KDRL1,Calcasieu River near Kinder,3,CWOL1;DRKL1;OBCL1,True,False
-KEAN1,Platte River near Kearney,2,GRIN1;ODSN1,True,False
-KEAS1,Little Lynches River above Kershaw,0,,True,False
-KEBN1,Big Papillion Creek near Kennard,2,BEBN1;BLBN1,True,False
-KECA2,Tongass Narrows Tide Gauge at Ketchikan (MLLW datum),0,,True,False
-KECI4,English Creek near Knoxville,0,,True,False
-KEEW1,Yakima River at Keechelus Outflow,1,KACW1,True,False
-KELM5,Zumbro River at Kellogg,0,,True,False
-KELM8,Kelly Creek near Lake McDonald,0,,True,False
-KELS1,Little Lynches River near Kershaw,0,,True,False
-KELW1,Cowlitz River at Kelso,2,CLXW1;LOPW1,True,False
-KELW3,Eau Claire River (East) at Kelly,0,,True,False
-KEMT2,Lampasas River near Kempner,0,,True,False
-KENK1,Arkansas River at Kendall,2,DRFK1;SYRK1,True,False
 KENL1,Tangipahoa River near Kentwood,2,AMIL1;OSYM6,True,False
 KENM1,Kenduskeag Stream near Bangor,0,,True,False
 KENN3,Ashuelot River below Surry Mt. Dam,2,GILN3;KNEN3,True,False
@@ -155,7 +130,7 @@ KOSM4,Menominee River at Koss,3,AMBW3;BANM4;MCAW3,True,False
 KOUT2,Village Creek near Kountze,0,,True,False
 KOWA2,Kroto Creek at Oilwell Road near Trapper Creek,0,,True,False
 KOWH1,Kaukonahua Stream near Waialua,0,,True,False
-KPHA2,Ketchikan Creek at Ketchikan Powerhouse near Ketchikan,0,,True,False
+KPHA2,Ketchikan Creek at Ketchikan Powerhouse near Ketchikan,1,KDLA2,True,False
 KPPH1,Kipapa Stream near Wahiawa,0,,True,False
 KPTN6,Little Neck Bay at Kings Point (IN MLLW),0,,True,False
 KPTV2,Chesapeake Bay near Kiptopeke (IN MLLW),0,,True,False
@@ -4047,7 +4022,7 @@ ROSN7,French Broad River at Rosman,1,BLAN7,True,False
 ROSP1,Oil Creek at Rouseville,0,,True,False
 ROST1,Wolf River at Rossville,3,COTT1;GERT1;LGRT1,True,False
 ROST2,Brazos River near Rosharon,3,BCNT2;SLNT2;WCBT2,True,False
-ROTW3,Wisconsin River at Rothschild,2,DUBW3;WUUW3,True,False
+ROTW3,Wisconsin River at Rothschild,3,DUBW3;KELW3;WUUW3,True,False
 ROUN6,Lake Champlain at Rouses Point,4,AUSN6;BURV1;CHZN6;NUTQ7,True,False
 ROVP1,West Branch Susquehanna River at Renovo,2,KARP1;LHVP1,True,False
 ROWI4,Iowa River near Rowan,2,BTDI4;IFAI4,True,False
@@ -4426,7 +4401,7 @@ SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
 SCLV2,Stony Creek at Fort Blackmore 3NNW,0,,True,False
 SCMO1,Swan Creek below Monclova,0,,True,False
 SCMS1,Skrine Creek near McClellanville (IN MLLW),0,,True,False
-SCNA2,Salmon Creek at Nash Road near Seward,0,,True,False
+SCNA2,Salmon Creek at Nash Road near Seward,1,KCSA2,True,False
 SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
 SCNI3,Stony Creek (IN) near Noblesville,0,,True,False
 SCNK1,Smoky Hill River above Schoenchen,2,ELSK1;SCSK1,True,False
@@ -5290,7 +5265,7 @@ STIF1,Steinhatchee River at Steinhatchee (in MHHW),0,,True,False
 STII1,South Fork Clearwater River at Stites,0,,True,False
 STII2,Chicago Sanitary and Ship Canal at Stickney,2,CSWI2;LCSI2,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
-STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
+STIT2,North Texas Lakes at Stillhouse Hollow Lake,2,BSJT2;KEMT2,True,False
 STJI2,Salt Fork (IL) near St. Joseph,0,,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STJV1,Sleepers River near St. Johnsbury,0,,True,False
@@ -5847,7 +5822,7 @@ TRBC2,Taylor River below Taylor Park Resv.,0,,True,False
 TRBF1,Withlacoochee River at US 301 Trilby (in NAVD88),2,RITF1;WDAF1,True,False
 TRBO3,McKenzie River below Trail Bridge Dam,0,,True,False
 TRCC1,Truckee River near Truckee,2,FARC1;TRTC1,True,False
-TRCI4,Des Moines River near Tracy,2,EDYI4;RRDI4,True,False
+TRCI4,Des Moines River near Tracy,3,EDYI4;KECI4;RRDI4,True,False
 TRCK1,Hackberry Creek near Trego Center 9WSW,0,,True,False
 TRCL1,Tchefuncte River near Three Rivers at Covington,2,CUSL1;MSVL1,True,False
 TRCM5,Turtle Creek near Austin,0,,True,False
@@ -7170,5 +7145,5 @@ ZSRC1,South San Ramon Creek above Amador Valley Blvd,0,,True,False
 ZSRM2,Zekiah Swamp Run near Newtown,0,,True,False
 ZTNK2,Pennsylvania Run near Zoneton,0,,True,False
 ZUIN5,Zuni River above Black Rock Reservoir,0,,True,False
-ZUMM5,Zumbro River at Zumbro Falls,2,AMAW3;LKZM5,True,False
+ZUMM5,Zumbro River at Zumbro Falls,3,AMAW3;KELM5;LKZM5,True,False
 ZUNV2,Blackwater River (VA) near ZUNI,2,DNDV2;FKNV2,True,False
