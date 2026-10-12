@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
-FKLV2,Blackwater River (VA) near FRANKLIN,1,FKNV2,True,False
-FLAV2,Pound River at John Flannagan Lake,1,CNRV2,True,False
-FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
-FLFV2,Little River at River Ridge Road Near Floyd,1,FGLV2,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
 FLRK1,Cottonwood River near Florence,1,CWSK1,True,False
@@ -285,7 +280,6 @@ MLVW3,Little La Crosse River at Market Road,1,CFMW3,True,False
 MNJA1,Cahaba River at Marion Junction,1,SUTA1,True,False
 MNRT2,San Saba River at Menard,1,BSST2,True,False
 MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
-MNTI2,Sangamon River at Monticello,1,RVTI2,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNVN4,Raritan River at Manville,1,BDKN4,True,False
 MOAM7,Osage River at Mari-Osa Campground,1,STTM7,True,False
@@ -614,6 +608,7 @@ SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
+SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
@@ -631,6 +626,7 @@ STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
 STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
+STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False

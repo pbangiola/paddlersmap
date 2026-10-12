@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FISC2,Fish Creek at Upper Station near Steamboat Springs,0,,True,False
-FISI2,Sangamon River at Fisher,0,,True,False
-FISM8,Fisher River near Libby,0,,True,False
-FISS1,Fishing Creek at Highway 5 below York,0,,True,False
-FITF1,Tide Gauge at Fort Island Boat Ramp (In MHHW),0,,True,False
-FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
-FKFK1,Black Vermillion River at Frankfort,0,,True,False
-FKLV2,Blackwater River (VA) near FRANKLIN,1,FKNV2,True,False
-FKLW2,South Branch Potomac River at Franklin,0,,True,False
-FKNN1,Center Creek at Franklin,0,,True,False
-FKNO1,Great Miami River at Franklin,2,MDTO1;MMGO1,True,False
-FKNV2,Blackwater River (VA) above Franklin,2,FKLV2;ZUNV2,True,False
-FKUF1,Faka Union Canal near Marco Island (in MHHW),0,,True,False
-FKVR1,North Branch Pawtuxet River at Fiskville,0,,True,False
-FLAN4,Flat Brook above Flatbrookville,0,,True,False
-FLAT1,Flat Creek near Mascot,0,,True,False
-FLAV2,Pound River at John Flannagan Lake,1,CNRV2,True,False
-FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
-FLCI3,Flatrock River at Columbus,2,BAKI3;STPI3,True,False
-FLCI4,Chequest Creek near Selma Wheat Ave--IFC,0,,True,False
-FLCN6,Chadakoin River at Falconer,0,,True,False
-FLCN7,"French Broad River at Old Fanning Bridge Rd, 3 W Fletcher",2,AVLN7;BLAN7,True,False
-FLCW3,Eau Claire River near Fall Creek,2,AUSW3;ECLW3,True,False
-FLDT1,Tennessee River above Ft. Loudoun Dam (Lenoir City 1E),2,FDTT1;KNOT1,True,False
-FLFV2,Little River at River Ridge Road Near Floyd,1,FGLV2,True,False
 FLGV2,Jackson River at Falling Spring,2,CVGV2;MOOV2,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FLIN6,Flint Creek near Phelps,0,,True,False
@@ -1863,7 +1838,7 @@ KENN3,Ashuelot River below Surry Mt. Dam,0,,True,False
 KENO2,Cimarron River (OK) at Kenton,1,EHTK1,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KEOS1,Seneca River at Keowee Dam,2,HWDS1;JCSS1,True,False
-KEQI4,Des Moines River at Keosauqua,4,EQUI4;FLSI4;OTMI4;SFLM7,True,False
+KEQI4,Des Moines River at Keosauqua,5,EQUI4;FLCI4;FLSI4;OTMI4;SFLM7,True,False
 KERC2,South Platte River near Kersey,5,BELC2;BTLC2;LUPC2;PTLC2;WNAC2,True,False
 KERM8,Flathead Lake at Polson,0,,True,False
 KERO2,Eastern Oklahoma Lakes at R.S. Kerr Lock and Dam,0,,True,False
@@ -3439,7 +3414,7 @@ MNSP1,Brodhead Creek at Minisink Hills,1,ALKP1,True,False
 MNSW1,Wynoochee River near Montesano,0,,True,False
 MNSW3,Fox River (North) at Menasha-Jefferson Park,2,OSKW3;STKW3,True,False
 MNTG1,Flint River at GA 26 near Montezuma,2,CLUG1;WWCG1,True,False
-MNTI2,Sangamon River at Monticello,1,RVTI2,True,False
+MNTI2,Sangamon River at Monticello,2,FISI2;RVTI2,True,False
 MNTI3,Hart Ditch at Munster,2,HDDI3;LCNI3,True,False
 MNTK1,Big Blue River near Manhattan,1,MTTK1,True,False
 MNTM3,Connecticut River at Montague,2,NHMM3;WLPN3,True,False
@@ -4891,7 +4866,7 @@ PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PETI2,Sangamon River at Petersburg,2,OKFI2;RVTI2,True,False
 PETI3,White River (IN) above Petersburg,4,BCSI3;EDWI3;PTRI3;SHLI3,True,False
 PETT2,Petronila Creek at FM665 Nr Driscoll,0,,True,False
-PETW2,South Branch Potomac River near Petersburg,0,,True,False
+PETW2,South Branch Potomac River near Petersburg,2,FKLW2;SPRW2,True,False
 PETW3,Wisconsin River at Petenwell Dam,2,CROW3;WIRW3,True,False
 PEWC1,East Washington Creek at Garfield Drive,0,,True,False
 PEWT2,Peach Creek at Hwy 90 near Waelder,1,DLWT2,True,False
@@ -6929,7 +6904,7 @@ SPRC1,Salinas River near Spreckels,2,CHLC1;SLGC1,True,False
 SPRO3,Mohawk River (OR) near Springfield,0,,True,False
 SPRS2,Spearfish Creek below Spearfish,0,,True,False
 SPRT2,Palo Duro Creek at Palo Duro Reservoir,0,,True,False
-SPRW2,South Branch Potomac River near Springfield,0,,True,False
+SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPRW3,Eau Galle River above Spring Valley,0,,True,False
 SPSI1,Spring Creek (Eastern ID) near Fort Hall,0,,True,False
 SPSM1,Little Androscoggin River near South Paris,0,,True,False
@@ -7135,7 +7110,7 @@ STKW1,Lake Chelan at Purple Point near Stehekin,2,CHDW1;STHW1,True,False
 STKW3,Fox River (North) at Stockbridge,2,MNSW3;OSHW3,True,False
 STLM5,St. Croix River at Stillwater,2,PSCW3;SCFW3,True,False
 STLT2,Guadalupe River at Sattler,2,GRTT2;SMCT2,True,False
-STMC2,Yampa River at Steamboat Springs,0,,True,False
+STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
 STMI2,Embarras River (IL) at Ste Marie,2,LAWI2;NTNI2,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
