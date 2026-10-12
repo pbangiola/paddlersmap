@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CMTL1,Comite River near Comite Joor Rd.,1,BAKL1,True,False
-CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
 CNCO3,Canyon Creek near Canyon City,1,CCTO3,True,False
 CNEI4,Cedar River near Conesville,1,CEBI4,True,False
 CNON6,Chenango River near Chenango Forks,1,GNEN6,True,False
@@ -17,7 +15,6 @@ CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRCA3,Cataract Creek at Redlands Crossing,1,CCHA3,True,False
 CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
-CRMC1,Carmel River Lagoon  ,1,CMEC1,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
 CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
@@ -39,6 +36,7 @@ CVLO2,Caney River near Collinsville,1,RAMO2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
+CYLO2,Little Washita River near Cyril,1,CMTO2,True,False
 CYNG1,Chattooga River at Hwy 76,1,BURG1,True,False
 DAEV2,Tinker Creek near Daleville,1,CLOV2,True,False
 DANA4,Petit Jean River at Danville,1,BMTA4,True,False
@@ -49,6 +47,7 @@ DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
 DDVC1,Canoas Creek at Dow Drive,1,CAOC1,True,False
 DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
 DETM4,Rouge River at Detroit,1,SFRM4,True,False
+DEVN2,North Fork Humboldt River near Halleck,1,HREN2,True,False
 DEWI4,Wapsipinicon River near DeWitt,1,OXJI4,True,False
 DKCN5,Dark Canyon 8 miles N of Whites City,1,DACN5,True,False
 DKNP1,Conneaut Creek at Dickonsburg,1,CCKO1,True,False
@@ -167,6 +166,7 @@ HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
+HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
 HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
 HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
@@ -279,6 +279,7 @@ LYCP1,Lycoming Creek near Williamsport,1,HEPP1,True,False
 LYMM6,Biloxi River near Lyman,1,BLWM6,True,False
 LYNI3,Wabash River at Linn Grove,1,BLFI3,True,False
 MABO3,North Fork Malheur River above Beulah Reservoir,1,BEUO3,True,False
+MADM8,Madison River below Ennis Lake near McAllister,1,MRPM8,True,False
 MALF1,Chipola River at Marianna (US 90),1,ALTF1,True,False
 MALM5,Roseau River below South Fork near Malung,1,ROSM5,True,False
 MAOO3,Malheur River near Ontario,1,VALO3,True,False
@@ -299,6 +300,7 @@ MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
+MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
@@ -365,10 +367,12 @@ NGTC2,North Platte River near Northgate,1,SRAW4,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
+NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
 NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
+NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
 NORN4,Maurice River at Norma,1,BVVN4,True,False
 NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
@@ -398,7 +402,6 @@ OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
-OLVL1,Comite River near Olive Branch,1,COML1,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
@@ -438,6 +441,7 @@ PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLOP4,Lago Loiza near Trujillo Alto,1,CAGP4,True,False
 PLRM8,Poplar River near Poplar,1,BDPM8,True,False
 PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
+PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
@@ -587,6 +591,7 @@ SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
+TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
