@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LFRF1,Brooker Creek Near Lake Fern (in NGVD29),0,,True,False
-LFRM8,Birch Creek (MT) at Lake Francis Reservoir,0,,True,False
-LFRN7,Lockwood Folly River at SR 211,0,,True,False
-LFSI4,Little Floyd River near Sanborn,0,,True,False
-LGAC1,Los Gatos Creek at El Dorado Ave,0,,True,False
-LGBF1,Choctawhatchee Bay at Lagrange Bayou (in MHHW),0,,True,False
-LGBN7,Burnt Mill Creek at Love Grove Bridge,0,,True,False
-LGCC1,Los Gatos Creek near Coalinga,0,,True,False
-LGCM8,Lodge Grass Creek above Willow Creek diversion near Wyola (closed),0,,True,False
-LGCW4,Little Goose Creek at Canyon,0,,True,False
-LGDW1,Snake River (WA) at Lower Granite,2,ANAW1;LGSW1,True,False
-LGDW4,Little Goose Creek below Colorado Colony Ditch,0,,True,False
-LGEM8,Lodge Creek below McRae Creek at International Boundary,0,,True,False
-LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
-LGLC1,Los Gatos Creek below Lexington Reservoir,2,LRYC1;VQIC1,True,False
-LGLF1,Tide Station at St Andrews State Park Pier (in MHHW),0,,True,False
-LGLI2,Little Grassy Creek at Little Grassy Lake near Marion 13WSW,0,,True,False
-LGLI4,Milford Creek at Lower Gar Lake Outlet,0,,True,False
-LGLW3,Wolf River (WI) at Langlade,0,,True,False
-LGNI3,Wabash River at Logansport,4,ADMI3;AMRI3;LAFI3;PRUI3,True,False
-LGNI4,Boyer River at Logan,2,DNLI4;MSVI4,True,False
-LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
-LGNN8,Souris River at Logan,2,MION8;SWRN8,True,False
-LGNO3,Grande Ronde River near Perry,2,GCCO3;TRYO3,True,False
-LGNU1,Logan River near Logan,0,,True,False
 LGOM4,Lake Gogebic near Bergland,0,,True,False
 LGPF1,Choctawhatchee Bay at Legion Park (in MHHW),0,,True,False
 LGPM5,Long Prairie River at Long Prairie,0,,True,False
@@ -421,7 +396,7 @@ LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LTDC1,Little Dry Creek below Friant,0,,True,False
 LTFF1,Lake Trafford near Immokalee,0,,True,False
 LTFN4,Passaic River at Little Falls,2,DDCN4;SIGN4,True,False
-LTGW4,Little Goose Creek at Big Horn,0,,True,False
+LTGW4,Little Goose Creek at Big Horn,1,LGDW4,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
 LTKW3,Wisconsin River at Rainbow Reservoir,2,OTTW3;RHIW3,True,False
 LTLM5,Little Fork River near Silverdale,2,LDNM5;LILM5,True,False
@@ -1695,7 +1670,7 @@ NEWG1,Flint River (GA) at Newton (SR 37),2,ABNG1;HOPG1,True,False
 NEWM4,Muskegon River at Newaygo,2,BDGM4;CROM4,True,False
 NEWM7,Little Piney Creek at Newburg,0,,True,False
 NEWW1,Newaukum River near Chehalis,0,,True,False
-NEWW3,Wolf River (WI) at New London,0,,True,False
+NEWW3,Wolf River (WI) at New London,2,SHIW3;WNCW3,True,False
 NEZC1,Martinez  ,0,,True,False
 NFBG1,North Fork Peachtree Creek at Briarwood Road near Atlanta,0,,True,False
 NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
@@ -2603,7 +2578,7 @@ PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
 PGFM6,Pascagoula River at Graham Ferry,2,BKNM6;MRRM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,3,GIVT2;GNST2;PCST2,True,False
 PGHN7,Prince George Creek at NC Highway 133,0,,True,False
-PGKN7,Pinch Gut Creek at U.S. Highway 17,0,,True,False
+PGKN7,Pinch Gut Creek at U.S. Highway 17,1,LFRN7,True,False
 PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
 PGRC2,Purgatoire River below Trinidad Lake,2,PGMC2;PTRC2,True,False
 PGTC1,Saratoga Creek at Pruneridge Avenue,0,,True,False
@@ -4181,7 +4156,7 @@ SHAS2,Shadehill Reservoir,3,CSHS2;GRAS2;LIES2,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHAW1,Baker River at Concrete,0,,True,False
-SHAW3,Wolf River (WI) near Shawano,0,,True,False
+SHAW3,Wolf River (WI) near Shawano,2,LGLW3;SHIW3,True,False
 SHBL1,Tide Station (LIX) near Shell Beach (IN MHHW),2,NWCL1;PSTL1,True,False
 SHBM6,Chickasawhay River at Shubuta,2,QTMM6;WYNM6,True,False
 SHBN4,Great Channel at Stone Harbor (IN MLLW),0,,True,False
@@ -4202,7 +4177,7 @@ SHEW4,Shell Creek near Shell,0,,True,False
 SHIA2,Ship Creek near Anchorage,0,,True,False
 SHIF1,Shingle Creek at Campbell,0,,True,False
 SHIN6,Shinnecock Bay at Ponquogue (IN MLLW),0,,True,False
-SHIW3,Wolf River (WI) at Shiocton,0,,True,False
+SHIW3,Wolf River (WI) at Shiocton,2,NEWW3;SHAW3,True,False
 SHJC1,Bear Creek (SFJPA) at Sand Hill Road (BCSH),0,,True,False
 SHKN6,Canaseraga Creek at Shakers Crossing,0,,True,False
 SHKN7,Shelter Creek at Shaw Highway,0,,True,False
@@ -6234,7 +6209,7 @@ WLMM7,Black River above Williamsville,2,LPRM7;PPBM7,True,False
 WLNM6,Hatchie River  Walnut,0,,True,False
 WLOG1,Willeo Creek at GA 120 near Roswell,0,,True,False
 WLON1,Elkhorn River near Winslow,2,WPNN1;WTRN1,True,False
-WLON7,Cape Fear River at Wilmington (IN MLLW),5,BCUN7;BGWN7;CPFN7;LCHN7;STHN7,True,False
+WLON7,Cape Fear River at Wilmington (IN MLLW),6,BCUN7;BGWN7;CPFN7;LCHN7;LGBN7;STHN7,True,False
 WLPN3,Connecticut River at North Walpole,2,MNTM3;WLBN3,True,False
 WLRG1,Wheeler Creek at Bill Cheek Road near Auburn,0,,True,False
 WLRI2,Weller Creek at Des Plaines,0,,True,False
@@ -6280,7 +6255,7 @@ WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WNBN7,MF SF New River at U.S. 221/321,0,,True,False
 WNCN6,Walnut Creek (NY) at Silver Creek,0,,True,False
 WNCV2,West Neck Creek near Mapleton,0,,True,False
-WNCW3,Wolf River (WI) near Lake Poygan,0,,True,False
+WNCW3,Wolf River (WI) near Lake Poygan,1,NEWW3,True,False
 WNDI4,North Walnut Creek at Windsor Heights College Dr--IFC,0,,True,False
 WNDM3,Millers River at Winchendon,0,,True,False
 WNDN7,Cashie River near Windsor,0,,True,False

@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
-LGNN5,Revuelto Creek near Logan,1,AMAT2,True,False
 LGRT1,Wolf River near La Grange,1,ROST1,True,False
 LGSW1,Snake River (WA) at Little Goose Dam,1,LGDW1,True,False
 LGVP1,Schuylkill River at Landingville,1,BREP1,True,False
@@ -43,6 +41,7 @@ LSEC1,Laguna de Santa Rosa near Sebastopol,1,CTIC1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
+LTGW4,Little Goose Creek at Big Horn,1,LGDW4,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
 LUCN7,Contentnea Creek near Lucama,1,HOKN7,True,False
 LVLO1,Tuscarawas River at Leesville Dam Tailwater,1,LELO1,True,False
@@ -312,6 +311,7 @@ PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
 PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
+PGKN7,Pinch Gut Creek at U.S. Highway 17,1,LFRN7,True,False
 PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
 PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
@@ -725,6 +725,7 @@ WMSM4,Red Cedar River near Williamston,1,ELNM4,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
 WMYF1,Cow Pen Slough at WM-49,1,KGAF1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
+WNCW3,Wolf River (WI) near Lake Poygan,1,NEWW3,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
