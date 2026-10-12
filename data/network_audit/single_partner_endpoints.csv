@@ -1,8 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
-LLGC1,Llagas Creek near Gilroy,1,BSVC1,True,False
-LLGN7,Pigeon River (NC) above (W Fork) Abv Lake Logan,1,RTRN7,True,False
-LLKW1,Spokane River at Long Lake Dam,1,SPOW1,True,False
+LLYP4,Rio Yauco above Diversion Monserrate,1,LLUP4,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
@@ -108,6 +105,7 @@ MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLBW4,Middle Fork Popo Agie River near Lander,1,LANW4,True,False
 MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
+MLGO1,Little Miami River at Milford,1,SLBO1,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
 MLKW1,Mill Creek (WA) near Walla Walla,1,FMBW1,True,False
@@ -252,6 +250,7 @@ OGSN6,Oswegatchie River near Ogdensburg,1,HEUN6,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKVI4,Iowa River at Oakville,1,WAPI4,True,False
 OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
+OLDO1,Little Miami River near Oldtown,1,LLMO1,True,False
 ONTW3,Kickapoo River at Ontario,1,LAFW3,True,False
 OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
 ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
@@ -543,6 +542,7 @@ SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SRTM5,Swan River near Taconite,1,JACM5,True,False
+SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False

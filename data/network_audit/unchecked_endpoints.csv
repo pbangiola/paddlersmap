@@ -1,35 +1,10 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LLCS1,Lynches River at US 378 near Lake City,2,EFFS1;JSNS1,True,False
-LLDP1,Cheat River below Lake Lynn,2,GYLP1;LLPW2,True,False
-LLDT1,Nolichucky River near Lowland,2,DUGT1;NOLT1,True,False
-LLET2,North Texas Lakes at Lake Leon,1,DLLT2,True,False
-LLGC1,Llagas Creek near Gilroy,1,BSVC1,True,False
-LLGN7,Pigeon River (NC) above (W Fork) Abv Lake Logan,1,RTRN7,True,False
-LLGT2,San Marcos River at Luling,2,GNLT2;SMRT2,True,False
-LLHC2,Left Hand Creek (CO) below Jamestown,0,,True,False
-LLHI1,Little Lost River near Howe,0,,True,False
-LLIC3,Housatonic River at Lake Lillinonah,2,GAYC3;STVC3,True,False
-LLKW1,Spokane River at Long Lake Dam,1,SPOW1,True,False
-LLLN6,Conesus Creek near Lakeville,0,,True,False
-LLLN7,Cape Fear River at Lillington,2,FAYN7;HRMN7,True,False
-LLMN7,Little Lochmere Lake Stream,0,,True,False
-LLMO1,Little Miami River near Spring Valley,0,,True,False
-LLNC1,Napa River at Lodi Lane,0,,True,False
-LLNW3,Lyon Valley Creek near Melvina - Lamplighter North,0,,True,False
-LLPW2,Cheat River at Lake Lynn Dam Pool,2,ABRW2;LLDP1,True,False
-LLRF1,Long Branch Near Pinellas Park,0,,True,False
-LLRI1,Little Lost River below Wet Creek (Clyde),0,,True,False
-LLRM5,Leech Lake River near Ball Club,0,,True,False
-LLRW4,Laramie River at Laramie,2,BOSW4;WODW4,True,False
-LLST2,North Texas Lakes at Lake Limestone,2,EAST2;GRST2,True,False
-LLSW3,Halls Valley Creek near Melvina - Lamplighter South,0,,True,False
-LLUP4,Lago Luccheti at Damsite nr Yauco,0,,True,False
 LLWO1,Mahoning River at Lowellville,3,CCRO1;WPMP1;YGWO1,True,False
 LLXW3,Baraboo River at Kendall Village,0,,True,False
 LLYC1,Santa Ynez River at Los Laurels,0,,True,False
 LLYF1,Lake Lafayette Outfall at Chaires Crossroad (in NAVD88),0,,True,False
 LLYN6,Tioga River near Lindley,0,,True,False
-LLYP4,Rio Yauco above Diversion Monserrate,0,,True,False
+LLYP4,Rio Yauco above Diversion Monserrate,1,LLUP4,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMAC2,Arkansas River at Lamar,3,COOK1;LAPC2;LXHC2,True,False
 LMBM5,Cottonwood River (MN) near Lamberton,0,,True,False
@@ -910,7 +885,7 @@ MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
 MLGF1,Yellow River (AL) at Milligan,0,,True,False
 MLGG1,Oconee River at Milledgeville,2,OCOG1;SNCG1,True,False
 MLGN5,Pecos River 3 miles ESE of Malaga,3,CPDN5;MGAN5;PPCN5,True,False
-MLGO1,Little Miami River at Milford,0,,True,False
+MLGO1,Little Miami River at Milford,1,SLBO1,True,False
 MLHG1,Little Haynes Creek at Dial Mill Road near Milstead,0,,True,False
 MLHW4,Medicine Lodge Creek near Hyattville,0,,True,False
 MLIC1,Sacramento-San Joaquin Delta at Mallard Island,2,ATIC1;VNCC1,True,False
@@ -2048,7 +2023,7 @@ OLAC1,Matadero Creek at Palo Alto,0,,True,False
 OLBH1,Opaekaa Stream near Kapaa,0,,True,False
 OLBO2,North Canadian River at NW10th Street at Oklahoma City,2,OKBO2;OVRO2,True,False
 OLDF1,Double Branch at Country Way Blvd Near Oldsmar,0,,True,False
-OLDO1,Little Miami River near Oldtown,0,,True,False
+OLDO1,Little Miami River near Oldtown,1,LLMO1,True,False
 OLGF1,Caloosahatchee River at W.P. Franklin Lock & Dam,0,,True,False
 OLMI2,Ohio River at Olmsted Lock and Dam Headwater,2,OLTI2;PAHK2,True,False
 OLMO1,Minnie Creek at Olmsted Falls,0,,True,False
@@ -4222,7 +4197,7 @@ SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
 SLAW1,Sprague Lake near Sprague,0,,True,False
 SLBI1,Snake River at Loveridge Bridge near Bruneau,0,,True,False
 SLBI3,Kankakee River at Shelby,2,KTSI3;MOMI2,True,False
-SLBO1,Little Miami River near South Lebanon,0,,True,False
+SLBO1,Little Miami River near South Lebanon,2,LLMO1;MLGO1,True,False
 SLCA3,Salt River near Chrysotile -Salt River Canyon,3,CRZA3;EWFA3;SLRA3,True,False
 SLCC1,San Lorenzo Creek (Alameda) at San Lorenzo,2,CVCC1;LRZC1,True,False
 SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
@@ -4324,7 +4299,7 @@ SMPC2,San Miguel River near Placerville,0,,True,False
 SMPM2,Little Patuxent River at Allview,2,CTNM2;LPGM2,True,False
 SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
-SMRT2,San Marcos River near Martindale,2,BSMT2;LLGT2,True,False
+SMRT2,San Marcos River near Martindale,3,BSMT2;LLGT2;SRUT2,True,False
 SMRW1,Samish River near Burlington,0,,True,False
 SMSA1,Hamilton Creek near Semmes,0,,True,False
 SMSV2,Pagan River at Smithfield Station (IN MLLW),0,,True,False
@@ -4602,7 +4577,7 @@ SRTM2,Jones Falls at Sorrento,0,,True,False
 SRTM5,Swan River near Taconite,1,JACM5,True,False
 SRTO3,Silvies River near Trout Creek,2,BUSO3;SVSO3,True,False
 SRUF1,St Marks River at US-98 (in NAVD88),0,,True,False
-SRUT2,San Marcos River at San Marcos,0,,True,False
+SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
 SRUV2,Youngs Branch at Manassas Battlefield,0,,True,False
 SRVC1,Santa Ana River at Santa Ana,0,,True,False
 SRVM2,Savage River near Bloomington,2,LUKM2;SRDM2,True,False
@@ -4810,7 +4785,7 @@ SVEV2,James River (VA) at Scottsville,3,BECV2;BREV2;CARV2,True,False
 SVEW3,Eau Galle River at Spring Valley,0,,True,False
 SVGC1,Santa Ynez River at Solvang,0,,True,False
 SVHC1,Searsville Lake  ,0,,True,False
-SVLC2,Saint Vrain Creek below Longmont,4,BOLC2;CCNC2;PTLC2;SVCC2,True,False
+SVLC2,Saint Vrain Creek below Longmont,5,BOLC2;CCNC2;LLHC2;PTLC2;SVCC2,True,False
 SVLN4,Great Egg Harbor River near Sicklerville,0,,True,False
 SVNM3,Seven Mile River near Spencer,0,,True,False
 SVPF1,Tide Gauge at Sirenia Vista Park (In MHHW),0,,True,False
