@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HURW2,Hurricane Creek near Hurricane,0,,True,False
-HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
-HUSA4,Fourche LaFave River near Houston,1,NMLA4,True,False
-HUSH1,Haiku Stream near Heeia,0,,True,False
-HUSM5,South Fork Root River near Houston,2,HBCM5;MDPM5,True,False
-HUTC2,"Hunter Creek near Aspen, CO",0,,True,False
-HUTI2,Wabash River near Hutsonville,2,RVTI3;TERI3,True,False
-HUTW1,Hutchinson Creek near Acme,0,,True,False
-HVDC1,Happy Valley Drain,0,,True,False
-HVDM8,Missouri River at Helena Valley Reservoir,0,,True,False
-HVDN6,East Branch Delaware River at Harvard,3,DWNN6;FSHN6;HKCN6,True,False
-HVLN6,West Branch Oswegatchie River near Harrisville,1,HEUN6,True,False
-HVNF1,Ochlockonee River near Havana (US 27),2,CONF1;JBDF1,True,False
-HVRM8,Milk River at Havre,2,HAVM8;HRLM8,True,False
-HVRO2,Wildhorse Creek near Hoover,0,,True,False
-HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
-HWAF1,Howell Creek near Altamonte Springs,0,,True,False
-HWBC1,Briggs Creek near Howell Reservoir,0,,True,False
-HWBM1,Hardwood Brook near Caribou,0,,True,False
-HWBN7,Haw River at NC-62,1,HAWN7,True,False
-HWCF1,Howard Creek Near Sarasota,0,,True,False
-HWCM8,Hanging Woman Creek near Birney (Closed Gauge),0,,True,False
-HWCW2,Howard Creek at White Sulphur Springs,0,,True,False
-HWDI4,Big Sioux River above Hawarden,2,AKRI4;FVWS2,True,False
-HWDN8,Sheyenne River at Harwood,5,AMEN8;HILN8;MAPN8;WFON8;WSFN8,True,False
 HWDS1,Savannah River at Lake Hartwell,2,HRTG1;KEOS1,True,False
 HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
 HWLT2,Clear Fork Brazos River at Hawley,2,NGTT2;ROYT2,True,False
@@ -982,7 +957,7 @@ LHNV2,Lynnhaven River near Lynnhaven Inlet (IN MLLW),0,,True,False
 LHPN2,Little Humboldt nr Paradise Valley,0,,True,False
 LHPT2,Brazos River at Lake Alan Henry,2,AMTT2;JTBT2,True,False
 LHTP1,Lehigh River at Lehighton,2,WHTP1;WNTP1,True,False
-LHUO2,Wildhorse Creek at Lake Humphreys,0,,True,False
+LHUO2,Wildhorse Creek at Lake Humphreys,1,HVRO2,True,False
 LHVP1,West Branch Susquehanna River at Lock Haven,3,BECP1;JRSP1;ROVP1,True,False
 LIBM1,Libby Brook near Northfield,0,,True,False
 LIBS1,Twelve mile creek near Liberty,0,,True,False
@@ -2870,7 +2845,7 @@ NSEC1,Nathanson Creek at 2nd Street East,0,,True,False
 NSEC2,North Fork Cache La Poudre River below Seaman Reservoir,2,FTDC2;NCHC2,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSFO3,Nestucca River Near Ferndale,0,,True,False
-NSFW1,South Fork Nooksack River at Potter Rd,0,,True,False
+NSFW1,South Fork Nooksack River at Potter Rd,1,HUTW1,True,False
 NSGO3,N Santiam River at Greens Bridge near Jefferson,2,JFFO3;MEHO3,True,False
 NSHA2,[INACTIVE] Nushagak River at Ekwok,0,,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
@@ -3627,7 +3602,7 @@ PKMK2,Elkhorn Creek at Peaks Mill,5,DLPK2;FTSK2;GEOK2;GSTK2;HLSK2,True,False
 PKMN6,Hudson River near Poughkeepsie,2,ALBN6;BATN6,True,False
 PKMS1,Reedy River at Parkins Mill Rd.,0,,True,False
 PKNO1,Blacklick Creek at Pickerington,0,,True,False
-PKPM8,Prickly Pear Creek near Clancy,0,,True,False
+PKPM8,Prickly Pear Creek near Clancy,1,HVDM8,True,False
 PKRN4,Pascack River at Park Ridge,0,,True,False
 PKRS2,West Fork Vermillion River near Parker,1,VRCS2,True,False
 PKSH1,Pukele Stream near Honolulu,0,,True,False
