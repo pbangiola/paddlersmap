@@ -1,0 +1,36 @@
+name: Chicago canoe launch diagnostic
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/diagnose_chicago_canoe_launches.py'
+      - '.github/workflows/chicago-canoe-launches.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            scripts/diagnose_chicago_canoe_launches.py
+            data/diagnostics
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Search OSM names near Chicago
+        run: python scripts/diagnose_chicago_canoe_launches.py
+      - name: Commit diagnostic results only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/diagnostics/chicago_named_canoe_launches.geojson
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Chicago OSM canoe launch name matches"
+            git push
+          fi
