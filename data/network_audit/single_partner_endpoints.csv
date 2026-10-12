@@ -1,13 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
-FRKM1,Kennebec River at The Forks,1,BINM1,True,False
-FRKW3,Root River at Franklin,1,FAKW3,True,False
-FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
-FRMN5,San Juan River at Farmington,1,ARFN5,True,False
 FRNM4,Cass River at Frankenmuth,1,VSSM4,True,False
 FRNN7,Dan River near Francisco,1,PNHN7,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
+FRVC2,Florida River below Lemon Reservoir,1,FRIC2,True,False
 FRWC2,Fraser River (CO) at Winter Park,1,FRGC2,True,False
 FSBG1,Canoochee River at Fort Stewart,1,CNOG1,True,False
 FSLL1,Amite River at French Settlement,1,PVLL1,True,False
@@ -17,6 +13,7 @@ FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
 FTOF1,Prairie Creek Upstream SR 31,1,FOGF1,True,False
 FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
+FTSC1,Eel River (CA) near Fort Seward,1,SCOC1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
 FVLP1,Loyalsock Creek at Forksville,1,HLLP1,True,False
 FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
@@ -190,6 +187,7 @@ LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
 LOPO3,Reservoir at Lookout Point nr Lowell,1,DEXO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
+LOWM3,Merrimack River at Lowell,1,NSHN3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPRC1,Los Padres Dam  ,1,RDRC1,True,False
 LPRN1,Platte River at La Platte,1,LOUN1,True,False
@@ -459,7 +457,6 @@ PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
 QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
-RACW3,Root River at Racine,1,FAKW3,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAPM5,Blue Earth River near Rapidan,1,BUEM5,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False

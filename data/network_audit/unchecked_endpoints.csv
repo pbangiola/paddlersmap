@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FRGO2,Cimarron River (KS) near Forgan,2,BFFO2;EHTK1,True,False
-FRHF1,Fenholloway River near Hampton Springs (in MHHW),0,,True,False
-FRHT2,North Texas Lakes at Lake Ray Hubbard,2,CNLT2;LVNT2,True,False
-FRIC2,Florida River above Lemon Reservoir,0,,True,False
-FRIN7,Pamlico Sound at Frisco (in MLLW),0,,True,False
-FRIT1,Friar Branch near Chattanooga,0,,True,False
-FRJN3,Merrimack River at Franklin Jct.,0,,True,False
-FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
-FRKM1,Kennebec River at The Forks,1,BINM1,True,False
-FRKN1,North Fork Elkhorn River at Norfolk,0,,True,False
-FRKP1,Allegheny River at Franklin,3,PARP1;UTCP1;WHKP1,True,False
-FRKW3,Root River at Franklin,1,FAKW3,True,False
-FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
-FRLM4,Falls River near L'anse,0,,True,False
-FRLM5,Cannon River at Hwy 29 below Faribault,2,FRBM5;NRFM5,True,False
-FRLT2,Redgate Creek at Frelsburg,0,,True,False
-FRMK2,Licking River at Farmers,2,BLSK2;CRLK2,True,False
-FRMM2,Monocacy River at Monocacy Blvd. in Frederick,2,BDGM2;FDKM2,True,False
-FRMN5,San Juan River at Farmington,1,ARFN5,True,False
-FRMN7,Little Contentnea Creek at Farmville,0,,True,False
-FRMO3,Tualatin River at Farmington,2,TRRO3;TUAO3,True,False
-FRMS2,Missouri River at Farm Island,2,BBDS2;LFIS2,True,False
-FRMV2,Appomattox River at Farmville,4,APPV2;BFCV2;MTXV2;SPMV2,True,False
-FRMW2,Elk River near Frametown,2,CLYW2;SUTW2,True,False
-FRNC1,Eel River (CA) at Fernbridge,0,,True,False
 FRNG1,Chattahoochee River at GA 100 at Franklin,2,WETG1;WHTG1,True,False
 FRNI3,Big Raccoon Creek at Ferndale,2,CHLI3;COXI3,True,False
 FRNK1,Fall River (KS) at Fredonia,0,,True,False
@@ -50,7 +25,7 @@ FRUC2,"Colorado River at Fruita, CO",3,CCUC2;CGJC2;GJNC2,True,False
 FRUF1,Braden River at Lakewood Ranch Blvd,0,,True,False
 FRUS2,Belle Fourche River near Fruitdale,2,BFVS2;BLES2,True,False
 FRVA1,Crooked Creek (AL) near Fairview,0,,True,False
-FRVC2,Florida River below Lemon Reservoir,0,,True,False
+FRVC2,Florida River below Lemon Reservoir,1,FRIC2,True,False
 FRVM3,Mount Hope Bay at Fall River (IN MLLW),0,,True,False
 FRWC2,Fraser River (CO) at Winter Park,1,FRGC2,True,False
 FRWL1,Tide Station (LCH) at Fresh Water Canal Locks,0,,True,False
@@ -117,7 +92,7 @@ FTPS2,Bad River (SD) near Fort Pierre,1,MIDS2,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
 FTRM5,Mississippi River at Fort Ripley,2,BLHM5;BRAM5,True,False
 FTRN7,Roanoke Sound at Fort Raleigh near Manteo,0,,True,False
-FTSC1,Eel River (CA) near Fort Seward,0,,True,False
+FTSC1,Eel River (CA) near Fort Seward,1,SCOC1,True,False
 FTSK2,Elkhorn Creek at Fort Spring,0,,True,False
 FTWF1,Santa Fe River near Hildreth (in NAVD88),2,RCKF1;TREF1,True,False
 FTWI3,Maumee River at Fort Wayne,2,CMBI3;COMI3,True,False
@@ -448,7 +423,7 @@ GNVT2,Cowleech Fork Sabine River at Greenville,0,,True,False
 GNVV2,Roanoke River at Glenvar,2,LAAV2;RONV2,True,False
 GOBT2,Goode Branch at CR 773,0,,True,False
 GOCC1,Goat Canyon at International Border,0,,True,False
-GOFN3,Merrimack River at Goffs Falls,0,,True,False
+GOFN3,Merrimack River at Goffs Falls,2,FRJN3;NSHN3,True,False
 GOHC1,Guadalupe Creek near Hicks Road,0,,True,False
 GOHV2,Calfpasture River at Goshen,0,,True,False
 GOLI2,Ohio River at Golconda,2,SHNI2;SMLI2,True,False
@@ -2405,7 +2380,7 @@ LOVK1,White Rock Creek at Lovewell Reservoir,2,BURK1;LWLK1,True,False
 LOWA1,Whitewater Creek at Lowry Mill  (CR 215),0,,True,False
 LOWA2,[INACTIVE] Lowe River near Valdez,0,,True,False
 LOWI1,Southwest Idaho Reservoirs at Lake Lowell,0,,True,False
-LOWM3,Merrimack River at Lowell,0,,True,False
+LOWM3,Merrimack River at Lowell,1,NSHN3,True,False
 LOWN7,"SF Catawba River below George Poston Park, 1 N Lowell",2,BESN7;FOMS1,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
 LPAC2,Low Pinos River above Vallecito Reservoir,0,,True,False
@@ -4082,7 +4057,7 @@ NSFW1,South Fork Nooksack River at Potter Rd,0,,True,False
 NSGO3,N Santiam River at Greens Bridge near Jefferson,2,JFFO3;MEHO3,True,False
 NSHA2,[INACTIVE] Nushagak River at Ekwok,0,,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
-NSHN3,Merrimack River at Nashua,0,,True,False
+NSHN3,Merrimack River at Nashua,2,GOFN3;LOWM3,True,False
 NSLN3,Spicket River at North Salem,0,,True,False
 NSNN4,South Branch Raritan River at Neshanic Station,0,,True,False
 NSNS1,North Santee River near North Santee,0,,True,False
@@ -5305,7 +5280,7 @@ RABN1,Big Papillion Creek at Q Street at Omaha,2,FCKN1;OMBN1,True,False
 RACC1,San Ramon Creek at San Ramon,0,,True,False
 RACI1,Rainey Creek at Swan Valley,0,,True,False
 RACW2,Ohio River at Racine Lock,2,BEVW2;POMO1,True,False
-RACW3,Root River at Racine,1,FAKW3,True,False
+RACW3,Root River at Racine,2,FAKW3;FRKW3,True,False
 RADF1,Lake Ocklawaha near Kirkpatrick Dam (in NAVD88),0,,True,False
 RADI4,Chariton River at Rathbun Reservoir,2,CHTI4;RABI4,True,False
 RAIN7,Nantahala River near Rainbow Springs,0,,True,False
@@ -6092,7 +6067,7 @@ SCNM5,St. Louis River at Scanlon,2,CQRM5;FDWM5,True,False
 SCNO3,Sycan River near Beatty,0,,True,False
 SCNS2,Cheyenne River near Scenic,2,CHRS2;WASS2,True,False
 SCOA2,Scottie Creek at Alaska Hwy near Northway,0,,True,False
-SCOC1,Eel River (CA) near Scotia,0,,True,False
+SCOC1,Eel River (CA) near Scotia,2,FRNC1;FTSC1,True,False
 SCOI2,Summit Conduit at Summit,0,,True,False
 SCOI3,Pigeon River near Scott,2,AQPI3;EKMI3,True,False
 SCOM5,Mississippi River at St. Cloud,2,AKAM5;BLHM5,True,False
