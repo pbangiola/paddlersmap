@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CUST2,East Fork Angelina River near Cushing,0,,True,False
-CUSW3,Crawfish River at Columbus,0,,True,False
-CUTN7,Colington Creek at Colington Cut,0,,True,False
-CUTT2,Pecan Bayou near Cross Cut,1,LBWT2,True,False
-CVCA1,Cahaba Valley Creek at Pelham,1,CISA1,True,False
-CVCC1,Castro Valley Creek at Hayward,0,,True,False
-CVCF1,Tide Gauge at Captiva (in MHHW),0,,True,False
-CVCN2,Cleve Creek nr Ely,0,,True,False
-CVEL1,Bogue Falaya River at Boston Street,1,CGSL1,True,False
-CVGI3,Wabash River at Covington,3,BPCI3;LAFI3;MTZI3,True,False
-CVGV2,Jackson River at Covington,1,FLGV2,True,False
-CVLF1,Inundation Sensor at Captiva,0,,True,False
-CVLG1,Etowah River at Allatoona Lake near Cartersville,3,CNNG1;CTVG1;ETWG1,True,False
-CVLO2,Caney River near Collinsville,1,RAMO2,True,False
-CVPC1,Cuyama River at Ventucopa,0,,True,False
-CVQC1,Calaveras Reservoir  ,0,,True,False
-CVTC3,Willimantic River at Coventry,0,,True,False
-CVTM2,Little Paint Branch at Beltsville / Briggs Chaney Road,0,,True,False
-CVYV1,Black River (Northern VT) at Coventry,0,,True,False
-CVZC1,Conn Creek at Lake Hennessey,0,,True,False
-CWAC1,Cottonwood Creek above Cottownwood Creek Auxillary,0,,True,False
-CWAI4,Walnut Creek at Clive NW 128th St--IFC,2,CLVI4;UBWI4,True,False
-CWAN7,Catawba River at Lake Norman/Cowans Ford Dam,2,LKSN7;MOUN7,True,False
-CWBA1,Cahaba River near West Blocton,0,,True,False
-CWBF1,Tide Gauge at Clearwater Beach (in MHHW),0,,True,False
 CWBO2,Little West Blue Creek near Connerville,0,,True,False
 CWCA1,Cahaba River near Whites Chapel,0,,True,False
 CWCC1,Cow Creek near Millville,0,,True,False
@@ -4286,7 +4261,7 @@ MEIM6,Sowashee Creek at Meridian,0,,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
 MELO1,Ohio River at Meldahl Dam,2,CCNO1;MYVK2,True,False
 MEMT1,Mississippi River at Memphis,4,ARLT1;FRRT1;MHOM6;OSGA4,True,False
-MEMV1,Lake Memphremagog at Newport,1,COVV1,True,False
+MEMV1,Lake Memphremagog at Newport,2,COVV1;CVYV1,True,False
 MENI1,Snake River near Menan,3,LORI1;REXI1;SIFI1,True,False
 MENI2,Sinsinawa River near Menominee,0,,True,False
 MENN8,Apple Creek (ND) near Menoken,0,,True,False
@@ -4411,7 +4386,7 @@ MILO1,Huron River at Milan,0,,True,False
 MILS1,Salkehatchie River near Miley,0,,True,False
 MILU1,Mill Creek above Mill Creek,0,,True,False
 MILW2,Shenandoah River at Millville,0,,True,False
-MILW3,Crawfish River at Milford,0,,True,False
+MILW3,Crawfish River at Milford,1,CUSW3,True,False
 MIMN5,Mimbres River at Mimbres,0,,True,False
 MINI1,Eastern Idaho Reservoirs at Minidoka Dam,2,AMFI1;MDMI1,True,False
 MINN7,Currituck Sound at Mackay's Island,0,,True,False
@@ -4645,7 +4620,7 @@ MOOA2,Moose Creek near Palmer,0,,True,False
 MOOI3,White Lick Creek at Mooresville,2,BROI3;CNTI3,True,False
 MOOM2,Moores Run at Moravia Park in Baltimore,0,,True,False
 MOOV1,Mad River near Moretown,0,,True,False
-MOOV2,Lake Moomaw at Gathright Dam,2,BCVV2;FLGV2,True,False
+MOOV2,Lake Moomaw at Gathright Dam,3,BCVV2;CVGV2;FLGV2,True,False
 MORA4,Arkansas River at Morrilton,2,DARA4;TODA4,True,False
 MORF1,Hillsborough River at Morris Bridge,0,,True,False
 MORI1,Mores Creek above Robie Creek,0,,True,False
@@ -7807,7 +7782,7 @@ SLBI1,Snake River at Loveridge Bridge near Bruneau,0,,True,False
 SLBI3,Kankakee River at Shelby,2,KTSI3;MOMI2,True,False
 SLBO1,Little Miami River near South Lebanon,0,,True,False
 SLCA3,Salt River near Chrysotile -Salt River Canyon,2,CRZA3;SLRA3,True,False
-SLCC1,San Lorenzo Creek (Alameda) at San Lorenzo,1,LRZC1,True,False
+SLCC1,San Lorenzo Creek (Alameda) at San Lorenzo,2,CVCC1;LRZC1,True,False
 SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
 SLCO3,Schafer Creek near Lacomb,0,,True,False
 SLDK1,Grouse Creek Near Silverdale,0,,True,False

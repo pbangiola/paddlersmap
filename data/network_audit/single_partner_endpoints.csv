@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CUTT2,Pecan Bayou near Cross Cut,1,LBWT2,True,False
-CVCA1,Cahaba Valley Creek at Pelham,1,CISA1,True,False
-CVEL1,Bogue Falaya River at Boston Street,1,CGSL1,True,False
-CVGV2,Jackson River at Covington,1,FLGV2,True,False
-CVLO2,Caney River near Collinsville,1,RAMO2,True,False
 CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
@@ -306,7 +301,6 @@ MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
-MEMV1,Lake Memphremagog at Newport,1,COVV1,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
 MFFP1,Raccoon Creek at Moffatts Mill,1,BRGP1,True,False
 MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
@@ -321,6 +315,7 @@ MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
 MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MILN4,Passaic River near Millington,1,CAMN4,True,False
+MILW3,Crawfish River at Milford,1,CUSW3,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
 MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
@@ -579,7 +574,6 @@ SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
 SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
 SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
-SLCC1,San Lorenzo Creek (Alameda) at San Lorenzo,1,LRZC1,True,False
 SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
 SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
 SLIM2,Patuxent River at Solomons Island (IN MLLW),1,BRIM2,True,False
