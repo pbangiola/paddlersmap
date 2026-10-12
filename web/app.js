@@ -727,6 +727,6 @@ map.on('load',async()=>{
    paint:{'line-color':['get','stage_color'],'line-width':['interpolate',['linear'],['zoom'],5,0.5,12,2],'line-opacity':0.75}});
   applyRiverFilters();
   applyRiverColorMode();
-  console.info('NOAA directed graph loaded:,graph.features.length,'edges');
+  console.info('NOAA directed graph loaded:',graph.features.length,'edges');
  }catch(error){console.warn('NOAA graph unavailable:',error);}
 });
