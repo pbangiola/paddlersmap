@@ -1,12 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
-FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
-FILT2,Frio River at at Leakey,1,CNCT2,True,False
-FINI3,Big Raccoon Creek near Fincastle,1,CHLI3,True,False
 FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
 FKLV2,Blackwater River (VA) near FRANKLIN,1,FKNV2,True,False
 FLAV2,Pound River at John Flannagan Lake,1,CNRV2,True,False
 FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
+FLFV2,Little River at River Ridge Road Near Floyd,1,FGLV2,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
 FLRK1,Cottonwood River near Florence,1,CWSK1,True,False
@@ -58,6 +55,7 @@ GLKA3,Gila River at Kelvin,1,CLDA3,True,False
 GLLT2,Elm Fork Trinity River at Gainesville,1,RRLT2,True,False
 GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
+GLNM7,James River (MO) at Galena,1,FINM7,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False

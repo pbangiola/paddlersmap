@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FFLT2,North Texas Lakes at Richland-Chambers Lake,3,DAWT2;LOLT2;RCET2,True,False
-FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
-FFPM5,Pelican River near Fergus Falls (MN210),0,,True,False
-FFTK2,Kentucky River at Frankfort Lock,2,GSTK2;TYRK2,True,False
-FFXM7,Tarkio River near Fairfax,0,,True,False
-FFXV2,Unnamed Tributary near Fairfax Center,0,,True,False
-FFXW1,Carbon River near Fairfax,0,,True,False
-FGCV2,Goose Creek at Route 653 Near Crockett Spring,0,,True,False
-FGIV2,Greasy Creek Near Indian Valley,0,,True,False
-FGLV2,Little River at Gallimore Lane Near Floyd,0,,True,False
-FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
-FGOM4,Black River near Jeddo,0,,True,False
-FGON8,Red River of the North at Fargo,3,GEGM5;HICN8;STBN8,True,False
-FGSF1,Fort George State Park (in MHHW),0,,True,False
-FHAC2,Fountain Creek near Fountain,2,FNEC2;PNNC2,True,False
-FHCF1,Fisher Creek at Springhill Road (in NAVD88),0,,True,False
-FHOS1,Four Hole Swamp near Dorchester,0,,True,False
-FHRF1,Fenholloway River Boat Ramp (in MHHW),0,,True,False
-FHRV2,Falling Creek at Hopkins Rd near Ampt Hill,0,,True,False
-FICV2,Big Indian Creek Near Copper Valley,0,,True,False
-FIHM1,Fish River at Fort Kent,0,,True,False
-FILT2,Frio River at at Leakey,1,CNCT2,True,False
-FINI3,Big Raccoon Creek near Fincastle,1,CHLI3,True,False
-FINM7,Finley River below Riverdale,0,,True,False
-FIRN6,Great South Bay at Watch Hill (IN MLLW),0,,True,False
 FISC2,Fish Creek at Upper Station near Steamboat Springs,0,,True,False
 FISI2,Sangamon River at Fisher,0,,True,False
 FISM8,Fisher River near Libby,0,,True,False
@@ -48,7 +23,7 @@ FLCN6,Chadakoin River at Falconer,0,,True,False
 FLCN7,"French Broad River at Old Fanning Bridge Rd, 3 W Fletcher",2,AVLN7;BLAN7,True,False
 FLCW3,Eau Claire River near Fall Creek,2,AUSW3;ECLW3,True,False
 FLDT1,Tennessee River above Ft. Loudoun Dam (Lenoir City 1E),2,FDTT1;KNOT1,True,False
-FLFV2,Little River at River Ridge Road Near Floyd,0,,True,False
+FLFV2,Little River at River Ridge Road Near Floyd,1,FGLV2,True,False
 FLGV2,Jackson River at Falling Spring,2,CVGV2;MOOV2,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FLIN6,Flint Creek near Phelps,0,,True,False
@@ -303,7 +278,7 @@ FTHS2,Moreau River (SD) near Faith,0,,True,False
 FTJC1,Scott River near Fort Jones,0,,True,False
 FTJO1,Auglaize River at Ft. Jennings,1,DFCO1,True,False
 FTKI4,Turkey River at Fort Atkinson (IFC),2,EDRI4;SPLI4,True,False
-FTKM1,St. John River at Fort Kent,3,ALLM1;DICM1;SJEB3,True,False
+FTKM1,St. John River at Fort Kent,4,ALLM1;DICM1;FIHM1;SJEB3,True,False
 FTLK2,Levisa Fork at Fishtrap Lake,0,,True,False
 FTMF1,Peace River at Fort Meade,2,BGPF1;PHOF1,True,False
 FTMS1,Santee River at Trezesvants Landing,0,,True,False
@@ -339,7 +314,7 @@ FWHT2,Clear Fork Trinity River at Fort Worth,3,BMCT2;BNBT2;FWOT2,True,False
 FWLC2,Arkansas River near Fowler,3,ARCC2;CLVC2;NPTC2,True,False
 FWNN2,Flamingo Wash at Nellis Blvd,0,,True,False
 FWOT2,West Fork Trinity River at Fort Worth,3,FLWT2;FWHT2;GPRT2,True,False
-FWOV2,Little River at White Oak Grove RD Near Riner,0,,True,False
+FWOV2,Little River at White Oak Grove RD Near Riner,2,FGLV2;GRYV2,True,False
 FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
 FWRT1,Falling Water River near Cookeville,0,,True,False
 FWRW4,Little Wind River at Fort Washakie,0,,True,False
@@ -582,7 +557,7 @@ GLNC3,Lake Glen above Lake Glen,0,,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNM2," CATTAIL CREEK NEAR GLENWOOD, MD ",0,,True,False
 GLNM5,Buffalo Creek (MN) below Glencoe,2,BTNM5;MAYM5,True,False
-GLNM7,James River (MO) at Galena,0,,True,False
+GLNM7,James River (MO) at Galena,1,FINM7,True,False
 GLNM8,Yellowstone River at Glendive,2,MILM8;SIDM8,True,False
 GLNO3,West Fork Cow Creek near Glendale,0,,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
@@ -786,7 +761,7 @@ GRWO3,Wapato Creek at SW Gaston Road,0,,True,False
 GRWS2,Missouri River near Greenwood,2,FRDS2;MRVN1,True,False
 GRYM6,Yalobusha River at Grenada,2,GRNM6;UHGM6,True,False
 GRYM8,Madison River near Grayling,0,,True,False
-GRYV2,Little  River at Graysontown,0,,True,False
+GRYV2,Little  River at Graysontown,2,FWOV2;RDFV2,True,False
 GRZU1,Green River near Greendale,0,,True,False
 GSBN1,South Papillion Creek near Gretna,0,,True,False
 GSCA2,Goldstream Creek near Fairbanks,0,,True,False
@@ -4612,7 +4587,7 @@ ORRF1,Orange River Near Buckingham,0,,True,False
 ORSF1,Ochlockonee River at Ochlockonee River State Park (in MHHW),0,,True,False
 ORTM5,Minnesota River at Ortonville,2,BSLM5;MVOM5,True,False
 ORTW1,Puyallup River near Orting,2,ELEW1;PUYW1,True,False
-ORWM5,Orwell Lake at Orwell Dam near Fergus Falls,2,ELZM5;OTRM5,True,False
+ORWM5,Orwell Lake at Orwell Dam near Fergus Falls,3,ELZM5;FFPM5;OTRM5,True,False
 OSAC1,San Antonio Creek near Orcutt,0,,True,False
 OSAO1,Scioto River above O'Shaughnessy Reservoir,2,DUBO1;PRGO1,True,False
 OSAS2,Battle Creek (SD) below Hermosa,0,,True,False
@@ -5643,7 +5618,7 @@ RDCF1,Water Level at CR95,0,,True,False
 RDCN7,Reedy Creek below I-485 nr Pine Ridge,0,,True,False
 RDDA2,Red Dog Dock Tide Gauge at Red Dog Mine (MHHW datum),0,,True,False
 RDFI4,Middle Raccoon River near Redfield Hwy F59--IFC,2,PANI4;REDI4,True,False
-RDFV2,New River at Radford,2,ALSV2;GLLV2,True,False
+RDFV2,New River at Radford,3,ALSV2;GLLV2;GRYV2,True,False
 RDGC1,Clear Creek above Igo Near Redding,0,,True,False
 RDGF1,Halifax River at Main St Bridge,0,,True,False
 RDHA2,[INACTIVE] Roadhouse Creek near Iliamna,0,,True,False
