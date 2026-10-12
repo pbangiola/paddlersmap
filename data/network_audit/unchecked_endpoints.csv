@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
-GECF1,Gee Creek near Longwood,0,,True,False
-GEEM6,Mississippi River near Greenville,2,ARSA4;LKML1,True,False
-GEGM5,Red River of the North near Georgetown,3,BRGM5;FGON8;HILN8,True,False
-GEHN4,Great Egg Harbor River at Folsom,0,,True,False
-GELK1,Solomon River near Glen Elder,2,BLTK1;GLNK1,True,False
-GELN1,Loup River near Genoa,2,CLMN1;SPUN1,True,False
-GENF1,St. Johns River above Lake Harney,2,COCF1;SNFF1,True,False
-GENI2,Green River (IL) near Geneseo,0,,True,False
-GENW3,Mississippi River below Lock and Dam 8 - Genoa,3,BRWM5;HOUM5;LNSI4,True,False
-GEOA4,White River at Georgetown,2,AUGA4;DSCA4,True,False
-GEOK2,North Elkhorn Creek at Georgetown,2,ELPK2;PKMK2,True,False
-GEON1,Beaver Creek (Loup River tributary) at Genoa,0,,True,False
-GEOV1,Lamoille River at East Georgia,0,,True,False
-GEPC2,Gunnison River below Gunnison Tunnel,0,,True,False
-GERO1,Twin Creek near Germantown,0,,True,False
-GERT1,Wolf River at Germantown,1,COTT1,True,False
-GERT2,North Fork of the San Gabriel River near Georgetown,0,,True,False
-GETT2,San Gabriel River at Georgetown South Fork,0,,True,False
-GEYC1,Russian River at Geyserville,0,,True,False
-GFAM2,Gwynns Falls at Annapolis Road in Baltimore,0,,True,False
-GFBN8,Park River at Park River Diversion at Grafton,0,,True,False
-GFCC1,Gin Flat,0,,True,False
-GFFN3,Piscataquog River at Goffstown,0,,True,False
-GFGM2,Gwynns Falls near Woodlawn,0,,True,False
 GFHM2,Gunpowder Falls at Hoffmanville,0,,True,False
 GFKA2,[INACTIVE] Glacier Fork Knik River near Palmer,0,,True,False
 GFLC1,Guadalupe River (CA) at Fish Ladder above Blossom Hill,0,,True,False
@@ -38,7 +13,7 @@ GFSM8,Missouri River at Great Falls,0,,True,False
 GFVW2,Mud River (WV) near Griffithsville,0,,True,False
 GFZM7,Turnback Creek near Greenfield,0,,True,False
 GGGW3,East River (WI) above Greenleaf,1,ERBW3,True,False
-GGLT2,San Gabriel River at Lake Georgetown,0,,True,False
+GGLT2,San Gabriel River at Lake Georgetown,2,GERT2;GNRT2,True,False
 GGRM7,Greer Spring near Greer,0,,True,False
 GGYM7,Mississippi River at Gregory Landing,2,CANM7;EOKI4,True,False
 GHBM3,"Green Harbor, Marshfield (In MLLW)",0,,True,False
@@ -156,7 +131,7 @@ GNLT2,Guadalupe River at Gonzales,3,GDHT2;GWGT2;LLGT2,True,False
 GNNM4,Escanaba River at Gwinn,0,,True,False
 GNPM4,Grand River at North Park St at Grand Rapids,2,CMPM4;GDRM4,True,False
 GNRC1,General Creek near Meeks Bay,0,,True,False
-GNRT2,North Fork San Gabriel River at Ronald Reagan Blvd near Leander 8N,0,,True,False
+GNRT2,North Fork San Gabriel River at Ronald Reagan Blvd near Leander 8N,2,GGLT2;NFBT2,True,False
 GNSA1,Tombigbee River at Gainesville Lock and Dam,2,AVLA1;DLDA1,True,False
 GNSK2,Green River (KY) at Greensburg,2,GRLK2;MFVK2,True,False
 GNST2,Giffin Springs 1 mile N of Toyahvale,0,,True,False
@@ -1223,7 +1198,7 @@ JHNP1,Clarion River at Johnsonburg,1,RDYP1,True,False
 JHNS2,Rapid Creek above Johnson Siding,2,BIGS2;RCBS2,True,False
 JHSN7,Walnut Creek (NC) above Lake Johnson Dam,2,BKJN7;TRLN7,True,False
 JHSP1,Conemaugh River at Johnstown,1,SWDP1,True,False
-JIMC1,Russian River at Jimtown,0,,True,False
+JIMC1,Russian River at Jimtown,1,GEYC1,True,False
 JKFM7,Jacks Fork near Mountain View,2,ALYM7;EMCM7,True,False
 JKNG1,Ocmulgee River at Jackson Lake,3,HPTG1;JACG1;SPGG1,True,False
 JKNK2,North Fork Kentucky River at Jackson,2,HAZK2;HLDK2,True,False
@@ -1270,7 +1245,7 @@ JONA1,Mulberry Creek at Jones,0,,True,False
 JONL1,Bayou Bartholomew near Jones,2,BBWA4;BKML1,True,False
 JONM2,Jones Falls at Jones Falls Pumping Station in Baltimore,0,,True,False
 JONN6,Genesee River at Jones Bridge,0,,True,False
-JONV1,Lamoille River at Johnson,0,,True,False
+JONV1,Lamoille River at Johnson,1,JVLV1,True,False
 JOPM7,Shoal Creek (MO) near Joplin,0,,True,False
 JORA2,[INACTIVE] Johnson River near Tuxedni Bay,0,,True,False
 JORU1,Jordan River near 5th North,0,,True,False
@@ -1323,7 +1298,7 @@ JULC2,South Platte River near Julesburg,2,CKSC2;RSON1,True,False
 JULF1,Julington Creek at Old Saint Augustine Road (in MHHW),0,,True,False
 JUNI3,Junk Ditch at Fort Wayne,0,,True,False
 JUNO1,Little Flatrock Creek near Junction,0,,True,False
-JVLV1,Lamoille River at Jeffersonville,0,,True,False
+JVLV1,Lamoille River at Jeffersonville,2,GEOV1;JONV1,True,False
 JWMF1,Alligator Creek at Jacaranda Blvd,0,,True,False
 JWNO3,Nehalem River at Jewell,0,,True,False
 JWTV1,Jewett Brook near St. Albans,0,,True,False
@@ -1907,7 +1882,7 @@ LHCW2,Little Huff Creek above Hanover,0,,True,False
 LHDN2,Carson River at Lahontan Reservoir,2,CBLN2;FTCN2,True,False
 LHDP1,Loyalhanna Creek above Loyalhanna Dam Tail Water,0,,True,False
 LHFA2,Lowe River above Horsetail Falls near Valdez,0,,True,False
-LHGT2,South Fork San Gabriel River at SH 1869 near Liberty Hill,0,,True,False
+LHGT2,South Fork San Gabriel River at SH 1869 near Liberty Hill,1,GETT2,True,False
 LHIF1,Tide Gauge at Little Hickory Island (in MHHW),0,,True,False
 LHMN7,Little Rockfish Creek at Lakeview Rd near Hope Mills,1,BVFN7,True,False
 LHNC1,Capri Creek at Casella Way (Leghorn Stream),0,,True,False
@@ -2662,7 +2637,7 @@ MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MDSN4,Bound Brook at Middlesex,0,,True,False
 MDST2,Bedias Creek near Madisonville,0,,True,False
 MDTC2,Frying Pan River at Meredith,1,FPTC2,True,False
-MDTO1,Great Miami River at Middletown,2,FKNO1;HAMO1,True,False
+MDTO1,Great Miami River at Middletown,3,FKNO1;GERO1;HAMO1,True,False
 MDVG1,Ogeechee River at Midville,2,GRGG1;RFDG1,True,False
 MDWK2,South Elkhorn Creek at Midway,0,,True,False
 MDYK2,Right Fork Beaver Creek near Muddy,0,,True,False
@@ -3557,7 +3532,7 @@ NEWW3,Wolf River (WI) at New London,0,,True,False
 NEZC1,Martinez  ,0,,True,False
 NFBG1,North Fork Peachtree Creek at Briarwood Road near Atlanta,0,,True,False
 NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
-NFBT2,"North Fork San Gabriel River at 243 near Briggs, TX",0,,True,False
+NFBT2,"North Fork San Gabriel River at 243 near Briggs, TX",1,GNRT2,True,False
 NFBV1,Lewis Creek at North Ferrisburg,0,,True,False
 NFCC1,North Fork Kings River at Cliff Camp,0,,True,False
 NFDA4,Norfork River at Norfork Dam,0,,True,False
@@ -5428,7 +5403,7 @@ ROSM6,Mississippi River at Rosedale,3,ARSA4;FRPM6;HEEA4,True,False
 ROSN6,Rondout Creek at Rosendale,0,,True,False
 ROSN7,French Broad River at Rosman,1,BLAN7,True,False
 ROSP1,Oil Creek at Rouseville,0,,True,False
-ROST1,Wolf River at Rossville,2,COTT1;LGRT1,True,False
+ROST1,Wolf River at Rossville,3,COTT1;GERT1;LGRT1,True,False
 ROST2,Brazos River near Rosharon,3,BCNT2;SLNT2;WCBT2,True,False
 ROTW3,Wisconsin River at Rothschild,2,DUBW3;WUUW3,True,False
 ROUN6,Lake Champlain at Rouses Point,4,AUSN6;BURV1;CHZN6;NUTQ7,True,False
@@ -8294,7 +8269,7 @@ WSEG1,Flint River at Woolsey Road near Woolsey,2,GRFG1;LOVG1,True,False
 WSFH1,Wailua River near Lihue,0,,True,False
 WSFM3,Westfield River at Westfield,0,,True,False
 WSFN8,Sheyenne River at West Fargo,2,HRCN8;HWDN8,True,False
-WSGT2,"San Gabriel River near Weir, TX",2,GNGT2;GTWT2,True,False
+WSGT2,"San Gabriel River near Weir, TX",4,GERT2;GETT2;GNGT2;GTWT2,True,False
 WSHK1,Mill Creek (WSHK1) at Washington,0,,True,False
 WSHL1,Bayou Courtableau at Washington,0,,True,False
 WSHM1,Aroostook River at Washburn,0,,True,False
