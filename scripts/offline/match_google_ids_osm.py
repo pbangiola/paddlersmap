@@ -10,15 +10,15 @@ import argparse,datetime,json,math,os,time,urllib.parse,urllib.request,urllib.er
 from pathlib import Path
 
 DETAILS="https://places.googleapis.com/v1/places/"
-OVERPASS="https://overpass.kumi.systems/api/interpreter"
-def get_json(req,tries=4):
+OVERPASS_SERVERS=["https://overpass.private.coffee/api/interpreter","https://overpass-api.de/api/interpreter"]
+def get_json(req,tries=2,timeout=15):
  for attempt in range(tries):
   try:
-   with urllib.request.urlopen(req,timeout=80) as response:return json.load(response)
+   with urllib.request.urlopen(req,timeout=timeout) as response:return json.load(response)
   except (urllib.error.HTTPError,urllib.error.URLError,TimeoutError) as e:
    if isinstance(e,urllib.error.HTTPError) and e.code not in (429,500,502,503,504):raise
    if attempt==tries-1:raise
-   time.sleep(min(30,2**attempt*3))
+   time.sleep(2**attempt)
 def meters(a,b,c,d):
  r=6371000;p1,p2=math.radians(a),math.radians(c)
  x=math.radians(d-b)*math.cos((p1+p2)/2);y=p2-p1
@@ -28,7 +28,15 @@ def osm_near(lat,lon,radius):
  # parks, roads, or marinas as confirmed launches.
  q=f"""[out:json][timeout:25];(nwr(around:{radius},{lat},{lon})["leisure"="slipway"];nwr(around:{radius},{lat},{lon})["waterway"="access_point"];nwr(around:{radius},{lat},{lon})["canoe"="put_in"];nwr(around:{radius},{lat},{lon})["sport"~"canoe|kayak"];);out center tags;"""
  data=urllib.parse.urlencode({"data":q}).encode()
- return get_json(urllib.request.Request(OVERPASS,data=data,headers={"User-Agent":"PaddlersMapResearch/1.0 (noncommercial OSM matching)"})).get("elements",[])
+ errors=[]
+ for server in OVERPASS_SERVERS:
+  print(f"  OSM: querying {server}",flush=True)
+  try:
+   req=urllib.request.Request(server,data=data,headers={"User-Agent":"PaddlersMapResearch/1.0 (OSM matching)"})
+   return get_json(req,tries=1,timeout=15).get("elements",[])
+  except Exception as exc:
+   errors.append(f"{server}: {exc}")
+ raise RuntimeError("Overpass unavailable: "+"; ".join(errors))
 def main():
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument("--input",required=True)
@@ -53,10 +61,12 @@ def main():
    age=now-datetime.datetime.fromisoformat(prior["checked_at"])
    if age.total_seconds()<a.refresh_days*86400:continue
   if a.max_requests is not None and n>=a.max_requests:break
+  print(f"[{i+1}/{len(ids)}] Resolving Google Place ID {pid}",flush=True)
   req=urllib.request.Request(DETAILS+urllib.parse.quote(pid,safe=""),headers={"X-Goog-Api-Key":key,"X-Goog-FieldMask":"id,location"})
   try:
    place=get_json(req);point=place.get("location",{})
    lat,lon=point["latitude"],point["longitude"]
+   print("  Google: location resolved; looking for nearby OSM launch",flush=True)
    candidates=osm_near(lat,lon,a.radius_m)
    scored=[]
    for el in candidates:
@@ -71,6 +81,9 @@ def main():
     dist,el,elat,elon=scored[0]
     record={"checked_at":now.isoformat(),"status":"osm_candidate_review","osm_type":el["type"],"osm_id":el["id"],"osm_lat":elat,"osm_lon":elon,"distance_m":round(dist,1),"osm_name":el.get("tags",{}).get("name"),"osm_tags":el.get("tags",{})}
    else:record={"checked_at":now.isoformat(),"status":"no_osm_match"}
+  except KeyboardInterrupt:
+   print("Interrupted; previous results remain checkpointed.",flush=True)
+   raise
   except Exception as exc:
    print(f"ERROR {i+1}/{len(ids)} {pid}: {exc}",flush=True)
    record={"checked_at":now.isoformat(),"status":"lookup_error","error":str(exc)[:200]}
