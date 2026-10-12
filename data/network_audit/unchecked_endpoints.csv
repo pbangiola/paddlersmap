@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LPSC2,La Plata River at State Line,0,,True,False
-LPTF1,Lake Talquin at Coe Landing Park (in NGVD29),0,,True,False
-LPTG1,Flat Creek at Lake Peachtree Tailrace,0,,True,False
-LPTK2,Kentucky River at Lockport,2,CRRK2;GSTK2,True,False
-LPTL1,Sabine River at Logansport,4,BEKT2;BKLT2;LMTT2;LMVT2,True,False
-LPTT2,Neches River at Lake Palestine,3,ATHT2;NCST2;TBLT2,True,False
-LPTW4,Little Powder River near Weston,0,,True,False
-LPVC2,Los Pinos River near Bayfield,1,LPAC2,True,False
-LPVL1,Mississippi River at Lake Providence,0,,True,False
-LPZF1,Lake Parker Outlet at Combee Settlement,0,,True,False
-LQAT2,Tide Gauge above La Quinta Channel,0,,True,False
-LQGS2,West Branch Lac Qui Parle River at Gary,0,,True,False
-LQPM5,Lac Qui Parle River at Lac Qui Parle,2,DAWM5;MVOM5,True,False
-LQRM5,Minnesota River at Lac Qui Parle Dam Tail (S of hwy 13),2,LAQM5;MVOM5,True,False
-LRBL1,Little River at Boggy Bayou Road,0,,True,False
-LRBM8,Red Rock River below Lima Reservoir nr Monida,0,,True,False
-LRBN7,Broad River in NC/SC below Lake Lure Dam,2,BSPN7;LRDN7,True,False
-LRBV2,Lake Rudee near Bells Rd in Virginia Beach (MLLW),0,,True,False
-LRCC1,Guadalupe River  Lake Ranch,0,,True,False
-LRCL1,Bogue Falaya River at Covington at Lee Road,0,,True,False
-LRCV2,Lieutenant Run Creek at Bollingbrook at Petersburg,0,,True,False
-LRCW1,Lewis River above Muddy River near Cougar 15E,0,,True,False
-LRDK1,Arkansas River near Larned,2,DDCK1;GTBK1,True,False
-LRDM7,Little River Ditch above Morehouse,0,,True,False
-LRDN7,Broad River in NC/SC at Lake Lure Dam,2,LLBN7;LRBN7,True,False
 LRDW4,Laramie River above Cramer Ditch,0,,True,False
 LRFF1,Little Manatee River at SR 674 Near Ft. Lonesome,0,,True,False
 LRGI4,Little Rock River near George,0,,True,False
@@ -540,7 +515,7 @@ MERI4,Skunk River at Merrimac,3,AGSI4;OOAI4;SIGI4,True,False
 MERM1,Sandy River (ME) at Mercer,0,,True,False
 MERN4,Assunpink Creek near Mercerville,0,,True,False
 MERT2,Medina River at Patterson Road at Medina,2,BDAT2;WPMT2,True,False
-MERW1,Lewis River at Ariel,2,CCAW1;LRWW1,True,False
+MERW1,Lewis River at Ariel,3,CCAW1;LRWW1;YARW1,True,False
 METN1,Snake River at Merritt Dam,0,,True,False
 MFAC1,Middle Fork American River near Foresthill,0,,True,False
 MFBW4,Middle Fork Powder River near Barnum,1,BARW4,True,False
@@ -3834,7 +3809,7 @@ SFRI1,Southwest Idaho Reservoirs at Salmon Falls Creek Reservoir,0,,True,False
 SFRI4,Floyd River at Sheldon,0,,True,False
 SFRM4,Rouge River at Southfield,2,BHRM4;DETM4,True,False
 SFRO2,Stillwater Creek (OK) near Stillwater,0,,True,False
-SFRW1,Lewis River at Swift Reservoir,0,,True,False
+SFRW1,Lewis River at Swift Reservoir,2,LRCW1;YARW1,True,False
 SFRW4,East Fork Smiths Fork near Robertson,0,,True,False
 SFSI1,EF of SF Salmon River at Stibnite,0,,True,False
 SFSO3,South Fork Necanicum River above Seaside,0,,True,False
@@ -5367,11 +5342,11 @@ VCAF1,Tide Station at the Western Tip of Vaca Key (in MHHW),0,,True,False
 VCAT2,Tide Gauge at Port Lavaca,0,,True,False
 VCBC1,Virginia Creek (CA) near Bridgeport,0,,True,False
 VCKM4,Portage River near Vicksburg,0,,True,False
-VCKM6,Mississippi River at Vicksburg,3,LKML1;NTZM6;SBSM6,True,False
+VCKM6,Mississippi River at Vicksburg,4,LKML1;LPVL1;NTZM6;SBSM6,True,False
 VCKT2,Middle Verde Creek at Hwy 173N near Hondo,0,,True,False
 VCNI3,Wabash River at Vincennes,3,CRLI3;MCRI2;RVTI3,True,False
 VCPL1,Tide Station (LCH) at Vermilion Bay near Cypremort Point,0,,True,False
-VCRC2,Los Pinos River at Vallecito Reservoir,0,,True,False
+VCRC2,Los Pinos River at Vallecito Reservoir,2,LPAC2;LPVC2,True,False
 VCRN8,Sheyenne River at Valley City,2,BHTN8;FRSN8,True,False
 VCSI1,Valley Creek at Stanley,0,,True,False
 VCVA2,Village Cove at St Paul Island Tide Gage,0,,True,False
@@ -6299,7 +6274,7 @@ YADN7,Yadkin River at Yadkin College,2,ENNN7;HGRN7,True,False
 YAHC2,Yampa River near Hayden,2,CGGC2;ENMC2,True,False
 YANS2,Missouri River at Yankton,2,GPDN1;MSJN1,True,False
 YARM1,Royal River at Yarmouth,0,,True,False
-YARW1,Lewis River at Yale Reservoir,0,,True,False
+YARW1,Lewis River at Yale Reservoir,2,MERW1;SFRW1,True,False
 YASC2,Yampa River above Stagecoach Reservoir,0,,True,False
 YATA2,Yakutat Bay Tide Gauge at Yakutat (MLLW datum),0,,True,False
 YATK2,Blaine Creek below Yatesville Lake,0,,True,False
