@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HRFK2,Rough River at Hartford,0,,True,False
-HRFT1,Pigeon River below Waterville NC near Hartford TN,0,,True,False
-HRFV2,Hughes River at F.T. Valley Road,0,,True,False
-HRGA4,Little River at Horatio,4,DQNA4;EAGO2;FLTA4;IDBO2,True,False
-HRHF1,Tide Gauge at Homosassa Springs (In MHHW),0,,True,False
-HRHO2,North Canadian River near Harrah,2,OKBO2;SWNO2,True,False
-HRIN2,Humboldt River near Imlay,2,CMSN2;HRPN2,True,False
-HRKO1,Olentangy River at Herrick Drive Columbus,2,COLO1;WRTO1,True,False
-HRKS1,Hanging Rock Creek near Kershaw,0,,True,False
-HRKV2,James River (VA) at Holcomb Rock,2,BECV2;BNNV2,True,False
-HRLF1,Halls River Tide Gauge Near Homosassa,0,,True,False
-HRLM8,Milk River near Harlem,3,BCMM8;DMRM8;HVRM8,True,False
-HRLN6,Canacadea Creek at Almond Dam,0,,True,False
-HRLW2,Birch River at Herold,0,,True,False
-HRMF1,Myakka River at Hidden River,0,,True,False
-HRMM5,5 Mile Creek above Herman,0,,True,False
-HRMN7,Haw River near Moncure,2,LLLN7;NHPN7,True,False
-HRMU1,Blacksmith Fork River near Hyrum,0,,True,False
-HRNM5,Heron North Marsh near Heron Lake,0,,True,False
-HRNM7,Missouri River at Hermann,2,CMSM7;WHGM7,True,False
-HRNN6,Canacadea Creek above Hornell,0,,True,False
-HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
-HRPO1,Cuyahoga River at Hiram Rapids,1,OLPO1,True,False
-HRPV2,Hazel River at Sperryville Pike,0,,True,False
-HRRM2,at Herring Run at Route 40 in Baltimore,0,,True,False
 HRRN2,Humboldt River nr Rose Creek,0,,True,False
 HRSI1,Payette River at Horseshoe Bend,2,BNKI1;EMMI1,True,False
 HRSM5,Heron Lake South near Okabena,0,,True,False
@@ -310,7 +285,7 @@ JACM5,Swan River near Jacobson,0,,True,False
 JACM6,Pearl River at Jackson,2,HCFM6;HPWM6,True,False
 JACW2,West Fork River at Stonewall Jackson Lake,2,STJW2;WLKW2,True,False
 JAGT1,East Fork Obey River near Jamestown,0,,True,False
-JAIO1,Cuyahoga River at Jaite,2,BWCO1;INDO1,True,False
+JAIO1,Cuyahoga River at Jaite,3,BWCO1;INDO1;OLPO1,True,False
 JAIT2,Taylor Bayou at Craigen Road,0,,True,False
 JAKF1,Cedar River at San Juan Ave Jacksonville (in MHHW),0,,True,False
 JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
@@ -824,7 +799,7 @@ LATN1,Antelope Creek at Lincoln (27th Street),0,,True,False
 LATN5,Pecos River above Lake Arthur,0,,True,False
 LATN6,Long Island Sound above Lattingtown (IN MLLW),0,,True,False
 LATP1,Loyalhanna Creek at Latrobe,0,,True,False
-LAUF1,Myakka River Near Laurel,1,BOWF1,True,False
+LAUF1,Myakka River Near Laurel,2,BOWF1;MKCF1,True,False
 LAUW1,Kettle River near Laurier,1,FRYW1,True,False
 LAVG1,Shoal Creek at Paper Mill Rd near Lawrenceville,0,,True,False
 LAVW2,Twelvepole Creek at Lavalette,2,HNTW2;WAYW2,True,False
@@ -1489,7 +1464,7 @@ LVLO1,Tuscarawas River at Leesville Dam Tailwater,0,,True,False
 LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVLP1,French Creek above Lowville,0,,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
-LVMK2,Green River (KY) above Livermore,3,CALK2;DUNK2;RCPK2,True,False
+LVMK2,Green River (KY) above Livermore,4,CALK2;DUNK2;HRFK2;RCPK2,True,False
 LVNA1,Sucarnoochee River at Livingston,0,,True,False
 LVNM5,Cottonwood River (MN) at Leavenworth,0,,True,False
 LVNM8,Musselshell River near Lavina,2,RUPM8;SHAM8,True,False
@@ -2007,9 +1982,9 @@ MJBV2,Chesapeake Bay near Mobjack Bay,0,,True,False
 MJHC1,Matilija Creek at Matilija Hot Springs,0,,True,False
 MJRC1,Mojave River at Afton,0,,True,False
 MJYP1,Little Chiques Creek at Mt. Joy,0,,True,False
-MKAF1,Myakka River at Myakka City,0,,True,False
+MKAF1,Myakka River at Myakka City,2,HRMF1;MYTF1,True,False
 MKBK2,Licking River at McKinneysburg,2,BLSK2;FLMK2,True,False
-MKCF1,Myakka River at Myakka River State Park,0,,True,False
+MKCF1,Myakka River at Myakka River State Park,2,HRMF1;LAUF1,True,False
 MKCI4,Keg Creek near Mineola (IFC),0,,True,False
 MKCN7,McKee Creek near Wilgrove,0,,True,False
 MKCS2,Medicine Knoll Creek near Canning,0,,True,False
@@ -2536,7 +2511,7 @@ MYEC1,Monterey Bay  Tide gage,0,,True,False
 MYFK1,Myakka River Upstream Youngs Creek,0,,True,False
 MYFM4,Boardman River near Mayfield,0,,True,False
 MYFO1,Unknown Tributary to Chagrin River at Mayfield Heights,0,,True,False
-MYKF1,Myakka River Upstream Youngs Creek,0,,True,False
+MYKF1,Myakka River Upstream Youngs Creek,1,MYTF1,True,False
 MYKO3,McKay Creek above Reservoir,0,,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYNO3,North Fk Coquille River near Myrtle Point,0,,True,False
@@ -2548,7 +2523,7 @@ MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 MYRW2,Mud River (WV) at Hamlin,0,,True,False
 MYST2,North Texas Lakes at Pat Mayse Lake,0,,True,False
 MYSU1,Sevier River near Marysvale,0,,True,False
-MYTF1,Myakka River at Wauchula Rd Near Myakka City,0,,True,False
+MYTF1,Myakka River at Wauchula Rd Near Myakka City,2,MKAF1;MYKF1,True,False
 MYVK2,Ohio River at Maysville,2,MELO1;PORO1,True,False
 MYVM7,102 River at Maryville,2,BDFI4;RSDM7,True,False
 MYVT1,Little River (TN) near Maryville,2,ALCT1;TWNT1,True,False
@@ -2709,7 +2684,7 @@ NEPF1,St. Marks River near Newport on Old Magnolia Rd (in stage datum),0,,True,F
 NEPI4,English River at Parnell,0,,True,False
 NEPN4,Shark River at Neptune City,0,,True,False
 NEPO1,North Fork Licking River (OH) at Newark Water Plant,2,NMSO1;UTCO1,True,False
-NEPT1,Pigeon River at Newport,2,CTPN7;DUGT1,True,False
+NEPT1,Pigeon River at Newport,3,CTPN7;DUGT1;HRFT1,True,False
 NERN7,Middle Fork New River at Boone,0,,True,False
 NEST2,Nelson Creek at FM 247 near Huntsville,0,,True,False
 NEUN7,Neuse River Below Falls Dam,2,CLYN7;NUDN7,True,False
@@ -3205,7 +3180,7 @@ OLMO1,Minnie Creek at Olmsted Falls,0,,True,False
 OLNI3,Fall Creek (IN) at Geist Reservoir,2,FCFI3;FCTI3,True,False
 OLNN6,Allegheny River at Olean,2,ELRP1;SLMN6,True,False
 OLPF1,Santa Fe River at O'leno State Park (in NAVD88),2,RRZF1;WORF1,True,False
-OLPO1,Cuyahoga River at Old Portage,2,ECAO1;HRPO1,True,False
+OLPO1,Cuyahoga River at Old Portage,3,ECAO1;HRPO1;JAIO1,True,False
 OLSA2,Nikolski Tide Gauge at Nikolski (MLLW datum),0,,True,False
 OLTI2,Ohio River at Olmsted Lock and Dam Tailwater,2,CIRI2;OLMI2,True,False
 OLTM2,Town Creek (MD) near Oldtown,0,,True,False

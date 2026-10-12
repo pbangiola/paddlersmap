@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
-HRPO1,Cuyahoga River at Hiram Rapids,1,OLPO1,True,False
 HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HSTA3,Hassayampa River near Arlington,1,HAMA3,True,False
 HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
@@ -84,7 +82,6 @@ LAMN8,James River at LaMoure,1,JMSN8,True,False
 LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
 LARP4,Rio Guajataca at Lares,1,QUEP4,True,False
-LAUF1,Myakka River Near Laurel,1,BOWF1,True,False
 LAUW1,Kettle River near Laurier,1,FRYW1,True,False
 LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
 LAWK1,Wakarusa River near Lawrence,1,CLIK1,True,False
@@ -275,6 +272,7 @@ MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
+MYKF1,Myakka River Upstream Youngs Creek,1,MYTF1,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 MYRU1,Duchesne River near Myton,1,DRUU1,True,False
