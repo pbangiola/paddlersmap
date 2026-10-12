@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
-DNSM3,Nashua River at East Pepperell,1,CLIM3,True,False
-DNVI2,Vermilion River (E-IL) near Danville,1,BISI2,True,False
-DNVK2,Dix River near Danville,1,DIXK2,True,False
-DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DONO3,Donner und Blitzen River near French Glen,1,DBPO3,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
 DRBI1,Deadwood River at Deadwood Reservoir,1,DEDI1,True,False
@@ -14,6 +9,7 @@ DRFI2,North Branch Chicago River at Deerfield,1,NILI2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRRC2,Dolores River near Rico,1,DOLC2,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
+DSKI4,Boyer River near Denison K Ave--IFC,1,DNLI4,True,False
 DUBW4,Wind River near Dubois,1,WRCW4,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
@@ -36,7 +32,6 @@ ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELKM2,Patapsco River near Elkridge below Patapsco Valley State Park,1,ERDM2,True,False
 ELRP1,Allegheny River at Eldred,1,OLNN6,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
-ELYW2,Twelvepole Creek at East Lynn Lake,1,ELSW2,True,False
 ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
 EMPK1,Cottonwood River at Emporia,1,PLYK1,True,False
 EMPL1,Mississippi River at Empire,1,WPHL1,True,False
@@ -64,6 +59,7 @@ FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
 FILT2,Frio River at at Leakey,1,CNCT2,True,False
 FINI3,Big Raccoon Creek near Fincastle,1,CHLI3,True,False
 FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
+FKLV2,Blackwater River (VA) near FRANKLIN,1,FKNV2,True,False
 FLAV2,Pound River at John Flannagan Lake,1,CNRV2,True,False
 FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
@@ -95,6 +91,7 @@ FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
 FVLP1,Loyalsock Creek at Forksville,1,HLLP1,True,False
 FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
 FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
+GATN1,Middle Loup River at Gates,1,DNGN1,True,False
 GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
 GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
@@ -289,6 +286,7 @@ MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
 MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
 MDLF1,North Fork Black Creek near Middleburg,1,BCMF1,True,False
+MDNN8,Heart River near Mandan,1,GLUN8,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MEDM3,Charles River at Medway,1,DOVM3,True,False
@@ -344,6 +342,7 @@ MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
 MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False
+MSVI4,Boyer River near Missouri Valley (IFC),1,LGNI4,True,False
 MSVL1,Tchefuncte River above Madisonville,1,TRCL1,True,False
 MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
@@ -697,6 +696,7 @@ WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
+WCIF1,Tide Gauge at Yankeetown (in MHHW),1,WIGF1,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False
