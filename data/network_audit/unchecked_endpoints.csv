@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LTLM5,Little Fork River near Silverdale,2,LDNM5;LILM5,True,False
-LTLN6,Mohawk River at Little Falls,2,SCHN6;UCAN6,True,False
-LTLN7,Little River (NC) near Orange Factory,0,,True,False
-LTLO2,Medicine Creek at Lake Lawtonka,0,,True,False
-LTLT2,North Texas Lakes at New Terrell City Lake,0,,True,False
-LTLW2,Middle Island Creek at Little,0,,True,False
-LTPM8,Big Spring Creek (MT) near Lewistown at R&B Trading Post,0,,True,False
-LTQC1,Los Trancos Creek at Arastradero Road (LTAA),0,,True,False
-LTRM8,Teton River at Loma,3,DTTM8;LOMM8;VRGM8,True,False
-LTRN8,Turtle River at Turtle River State Park near Arvilla,0,,True,False
-LTRT2,Pecos River near Langtry,0,,True,False
-LTSC1,Lagunitas Creek at Samuel P. Taylor State Park,0,,True,False
-LTTV2,Little River near DOSWELL,0,,True,False
-LTWT1,Big South Fork Cumberland River near Oneida at Leatherwood Ford,2,CFKT1;STRK2,True,False
-LTXT2,Navidad River at Lake Texana,4,CODT2;GNDT2;LMCT2;LSNT2,True,False
-LUCI1,Boise River above Lucky Peak Dam,3,ANDI1;BDDI1;BTSI1,True,False
-LUCN7,Contentnea Creek near Lucama,1,HOKN7,True,False
-LUDN6,Salmon Creek near Ludlowville,0,,True,False
-LUFT2,Angelina River near Lufkin,2,ALOT2;JSPT2,True,False
-LUIT2,Tide Station (HGX) at San Luis Pass,0,,True,False
-LUKM2,North Branch Potomac River at Luke,3,BNMW2;CBEM2;SRVM2,True,False
-LULT2,Plum Creek near Luling,2,GNLT2;LCPT2,True,False
-LUMN7,Lumber River at Lumberton West 5th Street,2,BRDN7;LBRN7,True,False
-LUPC2,South Platte River at Fort Lupton,2,HNDC2;KERC2,True,False
-LURF1,Suwannee River at Luraville - SR 51 (in NAVD88),2,BFDF1;DOUF1,True,False
 LURM6,Tallahala Creek at Laurel,0,,True,False
 LUSM7,Mississippi River at Louisiana,2,CLKM7;SVRM7,True,False
 LUSN1,Salt Creek at Lincoln (Pioneers Boulevard),2,ROCN1;SALN1,True,False
@@ -1507,7 +1482,7 @@ NRST1,Clinch River above Norris Dam,2,NRTT1;TAZT1,True,False
 NRSV2,Nansemond River at Sleepy Hole Park (IN MLLW),0,,True,False
 NRTT1,Clinch River below Norris Dam,2,CCLT1;NRST1,True,False
 NRVG1,New River at GA 100 near Franklin,0,,True,False
-NRVT1,New River near New River,0,,True,False
+NRVT1,New River near New River,1,LTWT1,True,False
 NRWA2,Nenana River near Windy,0,,True,False
 NRWC1,Santa Ynez River at Narrows,1,LLYC1,True,False
 NRWI4,North River near Norwalk,1,CSLI4,True,False
@@ -1867,7 +1842,7 @@ OSHF1,Oldsmar Safety Harbor (In MHHW),0,,True,False
 OSHW3,Fox River (North) at Oshkosh-Lake Winnebago,2,OSSW3;STKW3,True,False
 OSJC1,Old River at Franks Tract NR Terminous Ca,0,,True,False
 OSKW3,Fox River (North) at Little Lake Buttes Des Morts,2,APLW3;MNSW3,True,False
-OSLM5,Red River of the North at Oslo,2,DRTN8;EGFM5,True,False
+OSLM5,Red River of the North at Oslo,3,DRTN8;EGFM5;LTRN8,True,False
 OSMK1,Marais Des Cygnes River at Osawatomie,2,LCGK1;OTWK1,True,False
 OSNA2,West Fork Olsen Bay Creek near Cordova,0,,True,False
 OSON6,Oswego River at Oswego,0,,True,False
@@ -2100,7 +2075,7 @@ PCYO2,Arkansas River near Ponca City,2,ARCK1;RLSO2,True,False
 PCYP4,Rio Cerrillos  below Lago Cerrillos,0,,True,False
 PDAC2,Arkansas River above Pueblo,2,ADLC2;PRTC2,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
-PDAT2,Pecos River at Pandale Crossing,0,,True,False
+PDAT2,Pecos River at Pandale Crossing,2,LTRT2;SPCT2,True,False
 PDAW4,Prairie Dog Creek near Acme ,0,,True,False
 PDBF1,Port Laudania Canal at Port Laudania (in MHHW),0,,True,False
 PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
@@ -4143,7 +4118,7 @@ SPCM5,Middle Fork Crow River near Spicer,0,,True,False
 SPCN1,Niobrara River near Spencer,0,,True,False
 SPCN7,Speight Branch Upstream of SE Cary Pkwy,0,,True,False
 SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
-SPCT2,Pecos River 3 miles ESE of Sheffield,2,BTNT2;GIVT2,True,False
+SPCT2,Pecos River 3 miles ESE of Sheffield,3,BTNT2;GIVT2;PDAT2,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPDN1,Cedar River near Spalding,1,FULN1,True,False
 SPDN7,Deep Creek at Dickens Rd,0,,True,False
@@ -4697,7 +4672,7 @@ TDAO3,Columbia River at The Dalles Dam,0,,True,False
 TDAW1,North Fork Touchet River above Dayton,0,,True,False
 TDBC1,Ellsworth Barranca,0,,True,False
 TDDC2,Trinidad Lake near Trinidad,0,,True,False
-TDDT2,Trinity River at Trinidad,2,LOLT2;RSRT2,True,False
+TDDT2,Trinity River at Trinidad,3,LOLT2;RSRT2;TRNT2,True,False
 TDFS2,Spring Creek near Hill City,1,KSTS2,True,False
 TDGL1,Tensas River at Tendal,2,NLGL1;TBTL1,True,False
 TEAI1,Teton River (ID) near St. Anthony,2,DGGI1;NFTI1,True,False
@@ -4985,7 +4960,7 @@ TRMW4,Tongue River at Monarch (closed),2,DAYW4;DSLM8,True,False
 TRNC1,Trinity River near Helena 1SSE,0,,True,False
 TRNI4,Monona-Harrison Ditch near Turin,0,,True,False
 TRNP1,Shenango River near Transfer,1,JMSP1,True,False
-TRNT2,North Texas Lakes at Cedar Creek Lake,0,,True,False
+TRNT2,North Texas Lakes at Cedar Creek Lake,2,LTLT2;TDDT2,True,False
 TROI4,South Chequest Creek near Troy Yak Blvd--IFC,0,,True,False
 TROO3,Trout Creek (OR) near Fields,0,,True,False
 TRPA2,[INACTIVE] Twentymile River near Portage,0,,True,False

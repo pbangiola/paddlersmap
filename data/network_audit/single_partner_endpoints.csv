@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LUCN7,Contentnea Creek near Lucama,1,HOKN7,True,False
 LVLO1,Tuscarawas River at Leesville Dam Tailwater,1,LELO1,True,False
 LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
@@ -186,6 +185,7 @@ NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
+NRVT1,New River near New River,1,LTWT1,True,False
 NRWC1,Santa Ynez River at Narrows,1,LLYC1,True,False
 NRWI4,North River near Norwalk,1,CSLI4,True,False
 NRWM3,Neponset River at Norwood,1,CANM3,True,False
