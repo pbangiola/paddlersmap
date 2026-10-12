@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LNDP1,Linden Creek at Linden,0,,True,False
-LNDW1,Cedar River (WA) near Landsburg,0,,True,False
-LNEK1,Pottawatomie Creek at Lane,1,GRTK1,True,False
-LNEO3,Little N. Santiam River at Elkhorn,0,,True,False
-LNGP1,Neshaminy Creek near Langhorne,0,,True,False
-LNGS1,Waccamaw River at Longs,4,BCLS1;CCSN7;WRBS1;WRPN7,True,False
-LNGV1,North Branch Winooski River at Montpelier Langdon St.Bridge,0,,True,False
-LNIM7,Little Niangua River near Macks Creek,0,,True,False
-LNKA2,[INACTIVE] Lake Nerka near Dillingham,0,,True,False
-LNLV2,Lower N. Lakes Detention at Lower N Lakes,0,,True,False
-LNMI2,Spoon River (W-IL) at London Mills,0,,True,False
-LNNI4,Little Sioux River at Linn Grove,2,CHKI4;SPWI4,True,False
-LNPN4,Beaver Dam Brook at Lincoln Park,0,,True,False
-LNRI2,Vermilion River (N-IL) near Leonore,0,,True,False
-LNRK1,N F Solomon River at Lenora,1,GDEK1,True,False
-LNRV2,Little Nottoway River at Rt 49 near Crewe,0,,True,False
-LNRW1,Little Naches River near Nile,0,,True,False
-LNSC2,Saint Vrain Creek at Lyons,2,LINC2;SVCC2,True,False
-LNSI4,Mississippi River at Lansing - Pool 9,5,DCHI4;DWCI4;FBGM5;GENW3;LYNW3,True,False
-LNSK1,Smoky Hill River at Lindsborg,2,KANK1;MTRK1,True,False
-LNSM4,Grand River at Lansing,2,DMDM4;GDLM4,True,False
-LNSM5,South Branch Root River at Lanesboro,2,PTNM5;RSFM5,True,False
-LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
-LNTC1,Lagunitas Creek near Pt. Reyes Station,0,,True,False
-LNTF1,Leon High School Drainage Inlet (in NAVD88),0,,True,False
 LNTI4,Iowa River near Lone Tree (Tri-County Bridge),2,CJTI4;IOWI4,True,False
 LNXT2,"South Fork Guadalupe River at Lynx Haven Crossing near Hunt, TX",0,,True,False
 LNYT2,Rio Grande at Foster Ranch,2,AMIT2;DYNT2,True,False
@@ -186,14 +161,14 @@ LSHA2,Little Susitna River at Parks Hwy Bridge near Houston,0,,True,False
 LSHN7,"Little Sugar Creek above Hillside Ave, in Myers Park",0,,True,False
 LSKC1,Lower Silver Creek at San Antonio St,0,,True,False
 LSLC2,Big Thompson River (CO) near La Salle,0,,True,False
-LSLI2,Illinois River near La Salle,2,HNYI2;SRDI2,True,False
+LSLI2,Illinois River near La Salle,3,HNYI2;LNRI2;SRDI2,True,False
 LSLM5,Watonwan River near La Salle 3ESE,0,,True,False
 LSLN6,Tioughnioga River at Lisle,2,CRTN6;ISKN6,True,False
 LSLS2,Little Spearfish Creek near Lead,0,,True,False
 LSMG1,Little Stone Mountain Creek at Old Stone Mountain Road near Stone Mountain,0,,True,False
 LSMN6,Little Schoharie Creek near Middleburgh,0,,True,False
 LSMN7,"Little Sugar Creek above Medical Center Dr, 1 SSW Cherry",0,,True,False
-LSMO3,Little N. Santiam River near Mehama,0,,True,False
+LSMO3,Little N. Santiam River near Mehama,2,LNEO3;MEHO3,True,False
 LSNO3,Little Sandy River near Bull Run,0,,True,False
 LSNT2,Navidad River at Strane Park,0,,True,False
 LSOA2,[INACTIVE] Little Susitna River at Hatcher Pass Rd Bridge,0,,True,False
@@ -622,7 +597,7 @@ MEDP1,French Creek at Meadville,3,CBSP1;UTCP1;WCDP1,True,False
 MEEC1,Bear Creek at McKee Road,0,,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MEEW4,Greybull River at Meeteetse,0,,True,False
-MEHO3,N Santiam River at Mehama,2,BCLO3;NSGO3,True,False
+MEHO3,N Santiam River at Mehama,3,BCLO3;LSMO3;NSGO3,True,False
 MEIF1,Indian River at Melbourne (in MHHW),0,,True,False
 MEIM6,Sowashee Creek at Meridian,0,,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
@@ -981,7 +956,7 @@ MONN7,Deep River near Moncure,0,,True,False
 MONO1,St. Joseph River (OH/IN) at Montpelier,2,JOEM4;NVLI3,True,False
 MONO3,North Fork John Day River near Monument,0,,True,False
 MONP1,Towanda Creek at Monroeton,0,,True,False
-MONV1,Winooski River at Montpelier,3,CABV1;WATV1;WRTV1,True,False
+MONV1,Winooski River at Montpelier,4,CABV1;LNGV1;WATV1;WRTV1,True,False
 MONW1,Wenatchee River at Monitor,0,,True,False
 MOOA2,Moose Creek near Palmer,0,,True,False
 MOOI3,White Lick Creek at Mooresville,2,BROI3;CNTI3,True,False
@@ -2373,7 +2348,7 @@ PENT1,Cumberland River at Penitentiary Branch in Jackson County,0,,True,False
 PEOM8,Peoples Creek near Hays,1,KHRM8,True,False
 PEPF1,Pelican Point at Cooks Bayou (in MHHW),0,,True,False
 PEPN6,East Branch Delaware River at Pepacton Reservoir,2,DWNN6;MRGN6,True,False
-PEPP1,Neshaminy Creek near Penns Park,0,,True,False
+PEPP1,Neshaminy Creek near Penns Park,1,LNGP1,True,False
 PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
@@ -2629,7 +2604,7 @@ PNRF1,Panacoochee Retreats (in NAVD88),0,,True,False
 PNSH1,Punaluu Stream near Punaluu ,0,,True,False
 PNSM5,Middle Fork Zumbro River near Pine Island,0,,True,False
 PNTA3,Pantano Wash near Vail,2,CNEA3;PWBA3,True,False
-PNTI2,Vermilion River  at Pontiac,0,,True,False
+PNTI2,Vermilion River  at Pontiac,1,LNRI2,True,False
 PNTI3,Patoka River at Princeton,2,MCRI2;WNSI3,True,False
 PNTK2,Paint Creek at Paintsville Lake,0,,True,False
 PNTL1,Tangipahoa River near Ponchatoula,0,,True,False
@@ -3320,7 +3295,7 @@ RNOP1,Young Womans Creek near Renovo,0,,True,False
 RNOW3,Brush Creek (WI) near Cashton - Nevada Road,0,,True,False
 RNSI4,South Skunk River near Randall Hwy R61--IFC,2,ESKI4;JEWI4,True,False
 RNSV2,Piney Run at Reston (Northern Sector Pond 1),0,,True,False
-RNTW1,Cedar River (WA) at Renton,0,,True,False
+RNTW1,Cedar River (WA) at Renton,1,LNDW1,True,False
 RNYM5,Rainy River at Boat Landing Blw International Falls,3,FFCQ6;LLCM5;MNUM5,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
@@ -3878,7 +3853,7 @@ SESC1,Sespe Creek near Fillmore,0,,True,False
 SESM3,Atlantic Coast at Dennis Sesuit Harbor (IN MLLW),0,,True,False
 SETN4,Shrewsbury River at Highland Bridge,0,,True,False
 SETW4,North Platte River at Seminoe Reservoir,0,,True,False
-SEVI2,Spoon River (W-IL) at Seville,0,,True,False
+SEVI2,Spoon River (W-IL) at Seville,1,LNMI2,True,False
 SEVT1,Little Pigeon River above Sevierville,3,DLYT1;KNOT1;RDVT1,True,False
 SEWF1,Intracoastal Waterway at White City (Gulf County) (In MHHW),0,,True,False
 SEYT2,Wichita River near Seymour,1,SYOT2,True,False
@@ -6216,7 +6191,7 @@ WRSV2,Warwick River at Shellabarger Dr (IN MLLW),0,,True,False
 WRTF1,Wrights Creek near Bonifay,0,,True,False
 WRTO1,Olentangy River near Worthington,2,DELO1;HRKO1,True,False
 WRTT1,Wartrace Creek at Wartrace,0,,True,False
-WRTV1,North Branch Winooski River at Wrightsville,2,MONV1;WVRV1,True,False
+WRTV1,North Branch Winooski River at Wrightsville,3,LNGV1;MONV1;WVRV1,True,False
 WRVH1,Waimea River at Waimea River,0,,True,False
 WRVV2,Ware River near Schley (IN MLLW),0,,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False

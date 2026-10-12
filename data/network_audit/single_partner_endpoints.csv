@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LNEK1,Pottawatomie Creek at Lane,1,GRTK1,True,False
-LNRK1,N F Solomon River at Lenora,1,GDEK1,True,False
-LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
@@ -284,6 +281,7 @@ PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
 PEBN4,North Branch Rancocas Creek at Pemberton,1,IWPN4,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PEOM8,Peoples Creek near Hays,1,KHRM8,True,False
+PEPP1,Neshaminy Creek near Penns Park,1,LNGP1,True,False
 PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
@@ -325,6 +323,7 @@ PMZM7,Middle Fork Salt River near Holliday,1,CPZM7,True,False
 PNDP1,Clarion River at Piney Dam  Tailwater,1,COKP1,True,False
 PNFG1,Oconee River near Penfield,1,WDMG1,True,False
 PNPF1,Tide Gauge at New Port Richey (in MHHW),1,PTHF1,True,False
+PNTI2,Vermilion River  at Pontiac,1,LNRI2,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
@@ -397,6 +396,7 @@ RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
+RNTW1,Cedar River (WA) at Renton,1,LNDW1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
 ROBV2,Maury River at Rockbridge Baths,1,BVSV2,True,False
@@ -462,6 +462,7 @@ SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
 SEEN4,Cohansey River at Seeley,1,GRWN4,True,False
 SEMI3,West Fork Blue River at Salem,1,FRDI3,True,False
 SERO3,John Day River at Service Creek,1,JHNO3,True,False
+SEVI2,Spoon River (W-IL) at Seville,1,LNMI2,True,False
 SEYT2,Wichita River near Seymour,1,SYOT2,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
