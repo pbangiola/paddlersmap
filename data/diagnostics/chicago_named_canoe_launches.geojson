@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "query": "OSM name contains \"canoe launch\" (case-insensitive)",
+    "search_bbox": [
+      -87.941,
+      41.644,
+      -87.524,
+      42.024
+    ],
+    "note": "Bounding rectangle, not clipped to Chicago city boundary",
+    "count": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8545068,
+          41.8469758
+        ]
+      },
+      "properties": {
+        "alt_name": "Salt Creek Canoe Launch - North Riverside",
+        "designation": "Canoe Launch",
+        "leisure": "slipway",
+        "location": "100 yds. upstream from Salt/Addison Creek confluence on East bank",
+        "name": "Addison Creek Confluence Canoe Launch",
+        "source": "OpenStreetMap",
+        "id": "osm-node-1259953917",
+        "osm_id": 1259953917,
+        "osm_type": "node",
+        "verification": "candidate_review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7401095,
+          41.9778211
+        ]
+      },
+      "properties": {
+        "canoe": "put_in",
+        "name": "LaBagh Woods Canoe Launch",
+        "id": "osm-node-10882355933",
+        "osm_id": 10882355933,
+        "osm_type": "node",
+        "source": "OpenStreetMap",
+        "verification": "candidate_review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7910955,
+          42.0066998
+        ]
+      },
+      "properties": {
+        "canoe": "put_in",
+        "name": "Bunker Hill Canoe Launch",
+        "id": "osm-node-10920935610",
+        "osm_id": 10920935610,
+        "osm_type": "node",
+        "source": "OpenStreetMap",
+        "verification": "candidate_review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7043061,
+          41.9734323
+        ]
+      },
+      "properties": {
+        "leisure": "slipway",
+        "name": "River Park Canoe Launch",
+        "wheelchair": "yes",
+        "id": "osm-node-10920941539",
+        "osm_id": 10920941539,
+        "osm_type": "node",
+        "source": "OpenStreetMap",
+        "verification": "candidate_review"
+      }
+    }
+  ]
+}
