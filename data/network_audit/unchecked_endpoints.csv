@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GROA2,Grouse Creek at Grouse Lake Outlet near Seward,0,,True,False
-GROT2,Paluxy River at Glen Rose,0,,True,False
-GROU1,"Green River at Ouray, UT",2,GRVU1;JESU1,True,False
-GROV2,Middle River near Grottoes,0,,True,False
-GROW4,Laramie River Grayrocks Reservoir Outflow,2,FLAW4;GRIW4,True,False
-GRPC2,Cache La Poudre River (CO) near Greeley,2,GLYC2;KERC2,True,False
-GRPL1,Mississippi Sound at Grand Pass,0,,True,False
-GRPM4,Plaster Creek at Grand Rapids - 28th Street,0,,True,False
-GRPP4,Rio Grande de Patillas blw Lago Patillas,0,,True,False
-GRQC1,Green Valley Creek at Martinelli Road,0,,True,False
-GRRA4,Little Red River at Greers Ferry Dam,0,,True,False
-GRRO1,Maumee River at Grand Rapids,2,CPBO1;WTVO1,True,False
-GRRT2,Tide Station (HGX) at Galveston Railroad Bridge,0,,True,False
-GRRW1,Grays River at Covered Bridge near Rosburg,0,,True,False
-GRRW4,Green River (WY-UT-CO) at Green River,2,GBFW4;GRZU1,True,False
-GRSA2,Gulkana River at Sourdough,2,GPOA2;GULA2,True,False
-GRSM8,Grasshopper Creek at Bannack,0,,True,False
-GRSN7,Grassy Creek at NC 226 at Grassy Creek,0,,True,False
-GRST2,Navasota River above Groesbeck,2,BSAT2;LLST2,True,False
-GRTK1,Pottawatomie Creek near Garnett,0,,True,False
-GRTM4,Detroit River at Gibralter Tidal Gauge,0,,True,False
-GRTN3,Cockermouth River at Groton,0,,True,False
-GRTT2,Guadalupe River at 3rd Crossing nr Sattler,2,NBRT2;STLT2,True,False
-GRTW2,Little Kanawha River at Grantsville,2,ELZW2;GLEW2,True,False
-GRUN3,Upper Ammonoosuc River near Groveton,0,,True,False
 GRUV2,Slate Creek at Grundy (Slate Creek 460/Levisa Fork),0,,True,False
 GRUW4,Gros Ventre River near Gros Ventre River above Upper Slide Lake,0,,True,False
 GRVA4,Fourche LaFave River near Gravelly,0,,True,False
@@ -1041,7 +1016,7 @@ JUAT2,Juanita Creek at SH 71 near Midfield,0,,True,False
 JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
 JUBP4,Lago Guayabal at Damsite near Juana Diaz,0,,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
-JUDA4,Little Red River at Judsonia,0,,True,False
+JUDA4,Little Red River at Judsonia,1,GRRA4,True,False
 JUDM5,Minnesota River near Judson,2,MNKM5;NULM5,True,False
 JUDS2,Battle Creek (SD) above Keystone,0,,True,False
 JULC2,South Platte River near Julesburg,2,CKSC2;RSON1,True,False
@@ -1784,7 +1759,7 @@ LNDN7,First Broad River at Lawndale,0,,True,False
 LNDO2,Washita River at Lindsay,2,ALXO2;PLVO2,True,False
 LNDP1,Linden Creek at Linden,0,,True,False
 LNDW1,Cedar River (WA) near Landsburg,0,,True,False
-LNEK1,Pottawatomie Creek at Lane,0,,True,False
+LNEK1,Pottawatomie Creek at Lane,1,GRTK1,True,False
 LNEO3,Little N. Santiam River at Elkhorn,0,,True,False
 LNGP1,Neshaminy Creek near Langhorne,0,,True,False
 LNGS1,Waccamaw River at Longs,4,BCLS1;CCSN7;WRBS1;WRPN7,True,False
@@ -3993,13 +3968,13 @@ PARV2,North Anna River near Partlow,0,,True,False
 PARW1,Yakima River near Parker,2,KIOW1;UMTW1,True,False
 PARW2,Ohio River at Parkersburg,2,BEVW2;MTAO1,True,False
 PASN1,Stinking Water Creek at Palisade,0,,True,False
-PASP4,Lago Patillas,0,,True,False
+PASP4,Lago Patillas,2,GRPP4;PATP4,True,False
 PASS1,Parr Reservoir,2,ALTS1;CARS1,True,False
 PASV1,Passumpsic River at Passumpsic,2,EHVV1;WELV1,True,False
 PATC1,San Joaquin River at Patterson,0,,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
-PATP4,Rio Patillas near Patillas,0,,True,False
+PATP4,Rio Patillas near Patillas,1,PASP4,True,False
 PATW1,Methow River near Pateros,0,,True,False
 PAUM4,Middle Branch Ontonagon River at Paulding,0,,True,False
 PAWL1,Paw Paw Bayou near Greenwood,0,,True,False
@@ -4943,7 +4918,7 @@ REPA1,Fivemile Creek near Republic,0,,True,False
 REPN1,Republican River at Harlan Reservoir,2,ORNN1;RVRN1,True,False
 RERC2,Eagle River at Red Cliff,1,EAMC2,True,False
 RERF1,Little Withlacoochee River at Rerdell (in NAVD88),0,,True,False
-RESA2,Resurrection River at Exit Glacier Road near Seward,1,EXTA2,True,False
+RESA2,Resurrection River at Exit Glacier Road near Seward,2,EXTA2;GROA2,True,False
 RESV2,Jones Creek at Rescue Road,0,,True,False
 REVS2,South Fork Grand River at Hwy 79,1,CSHS2,True,False
 REXI1,Henrys Fork near Rexburg,3,ANTI1;MENI1;NFTI1,True,False
@@ -8093,7 +8068,7 @@ WTVP1,Pine Creek near Waterville,0,,True,False
 WTWF1,Tide Gauge at Sweetwater Creek,0,,True,False
 WTWS2,Whitewood Creek above Whitewood,2,DWDS2;WNWS2,True,False
 WTXI1,Willow Creek (Eastern ID) below Tex Creek,0,,True,False
-WTYT2,North Texas Lakes at Whitney Lake,5,ALAT2;AQLT2;BUMT2;GLRT2;GQQT2,True,False
+WTYT2,North Texas Lakes at Whitney Lake,6,ALAT2;AQLT2;BUMT2;GLRT2;GQQT2;GROT2,True,False
 WULA2,Wulik River below Tutak Creek near Kivalina,0,,True,False
 WUMW2,Meathouse Fork near West Union,0,,True,False
 WUNO1,Ohio Brush Creek near West Union,0,,True,False
