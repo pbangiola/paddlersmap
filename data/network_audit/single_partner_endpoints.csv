@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CLVO2,Canadian River near Calvin,1,KCRO2,True,False
-CMBK2,Poor Fork Cumberland River at Cumberland,1,BXTK2,True,False
 CMDS1,Wateree River near Camden,1,WATS1,True,False
 CMGG1,Big Creek at GA 9 near Cumming,1,APHG1,True,False
 CMGN6,Chemung River at Chemung,1,CHEN6,True,False
@@ -67,7 +65,6 @@ DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
 DUBW4,Wind River near Dubois,1,WRCW4,True,False
-DURW3,Chippewa River (WI) at Durand,1,ECLW3,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
 DWTO1,Wills Creek at Derwent,1,CDIO1,True,False
@@ -120,10 +117,10 @@ FRKC2,Cherry Creek (CO) near Franktown,1,CPKC2,True,False
 FRKM1,Kennebec River at The Forks,1,BINM1,True,False
 FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRMN5,San Juan River at Farmington,1,ARFN5,True,False
-FRMW2,Elk River near Frametown,1,SUTW2,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
 FSLL1,Amite River at French Settlement,1,PVLL1,True,False
+FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
 FTWF1,Santa Fe River near Hildreth (in NAVD88),1,TREF1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
@@ -364,7 +361,6 @@ NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NGTC2,North Platte River near Northgate,1,SRAW4,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
-NHVK2,Rolling Fork River at New Haven,1,BSNK2,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
 NLSK1,Solomon River at Niles,1,MPSK1,True,False
@@ -384,6 +380,7 @@ NSHM8,Milk River at Nashua,1,GLWM8,True,False
 NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
 NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
+NUDN7,Neuse River at Falls Lake,1,NEUN7,True,False
 NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
 NVCN6,Neversink River below Claryville,1,NVRN6,True,False
 NWCL1,Tide Station (LIX) near Lakefront,1,SHBL1,True,False
@@ -564,6 +561,8 @@ SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
+SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
+SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
