@@ -23,10 +23,10 @@ From the repository root:
 python3 scripts/offline/run.py launches
 
 # Reconcile live NOAA gauges and graph edges against your local KML
-python3 scripts/offline/run.py reconcile --kml "/absolute/path/to/watercourses.kml"
+python3 scripts/offline/run.py reconcile
 
 # Optional: use local snapshots instead of downloading NOAA files
-python3 scripts/offline/run.py reconcile --kml "/absolute/path/to/watercourses.kml" --gauges data/noaa_gauges.geojson --edges /path/to/noaa_graph_edges.geojson
+python3 scripts/offline/run.py reconcile --gauges data/noaa_gauges.geojson --edges /path/to/noaa_graph_edges.geojson
 
 # Small test region: greater Chicago / southern Lake Michigan
 python3 scripts/offline/run.py discover-launches --bbox -88.5 41.2 -86.5 42.5
@@ -45,7 +45,7 @@ Open http://localhost:8000/ . This serves the current checkout's website immedia
 
 ## Important caveats
 
-- The reconciliation uses nearest KML line matching, not a hydrologically proven graph. Its edge `same_path` count is deliberately conservative; connected rivers can span many KML placemarks.
+- The reconciliation defaults to data/river_segments_3dhp_review.geojson and uses nearest watercourse line matching, not a hydrologically proven graph. Its edge `same_path` count is deliberately conservative; connected rivers can span many KML placemarks.
 - OSM lake discovery currently produces **centroid points**, not waterbody polygons. It cannot establish lake inlet/outlet connectivity. Use authoritative lake polygons plus 3DHP topology for that.
 - Launch name filtering is intentionally restrictive and will exclude unnamed or generically named legitimate public access points. Keep the original inventory.
 - The Overpass endpoint is a community service. Query bounded areas; nationwide collection needs a staged, resumable extraction pipeline. Google Maps scraping is not part of this setup.
