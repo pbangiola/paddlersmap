@@ -1,11 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
-MOCO3,McKenzie River at Outlet of Clear Lake,1,MUSO3,True,False
-MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
-MODP1,West Branch Brandywine Creek at Modena,1,COTP1,True,False
-MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
-MOJV2,North Fork Shenandoah River near Mount Jackson,1,COOV2,True,False
-MOLO3,Molalla River at Shady Dell near Molalla 2ESE,1,CANO3,True,False
 MOSC1,San Joaquin River at Mossdale Bridge,1,VNSC1,True,False
 MPBV2,Bull Run near Manassas Park,1,CTHV2,True,False
 MPCO2,Pennington Creek 5 miles NNE of Mill Creek,1,MCPO2,True,False
@@ -44,6 +37,7 @@ MUCW4,Muddy Creek above Olson Creek near Dad,1,MCYW4,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
 MUDN2,Muddy River near Glendale,1,MOAN2,True,False
+MVCS1,Stevens Creek near Murphy Village,1,MODS1,True,False
 MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
 MVLO1,Lake Fork Mohican River above Mohicanville Dam,1,MCHO1,True,False
 MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False

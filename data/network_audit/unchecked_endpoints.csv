@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MOCG1,Middle Oconee River at US 78 at Athens,1,ACDG1,True,False
-MOCM7,Mississippi River above Moccasin Springs,2,CPGM7;GDTI2,True,False
-MOCO3,McKenzie River at Outlet of Clear Lake,1,MUSO3,True,False
-MOCP4,Rio Culebrinas at HWY 404 nr Moca,0,,True,False
-MODO3,Deschutes River (OR) at Moody,1,PERO3,True,False
-MODP1,West Branch Brandywine Creek at Modena,1,COTP1,True,False
-MODP4,Rio Culebrinas at Margarita Damsite nr Aguada,0,,True,False
-MODS1,Stevens Creek near Modoc,0,,True,False
-MOEA3,Moenkopi Wash near Tuba city,2,DINA3;LCCA3,True,False
-MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
-MOGC2,Conejos River near Mogote,0,,True,False
-MOGM6,Tallahatchie River at Money,2,GREM6;SWNM6,True,False
-MOGN2,Truckee River near Mogul,3,DOGN2;FARC1;TRRN2,True,False
-MOHA3,Colorado River at Lake Mohave/Davis Dam,0,,True,False
-MOHI3,Leary-Weber Ditch at Mohawk,0,,True,False
-MOJV2,North Fork Shenandoah River near Mount Jackson,1,COOV2,True,False
-MOKF1,Munson Slough at Oak Ridge Road,0,,True,False
-MOLG1,Flint River below Big Branch near Molena,2,CLUG1;GRFG1,True,False
-MOLI4,Chariton River near Moulton,3,CENI4;NVZM7;RABI4,True,False
-MOLN4,Molly Ann Brook at N. Haledon,0,,True,False
-MOLO3,Molalla River at Shady Dell near Molalla 2ESE,1,CANO3,True,False
-MOMI2,Kankakee River at Momence,2,SLBI3;WLMI2,True,False
-MOMN1,Missouri River at Highway 92 at Omaha,2,MTLN1;OMHN1,True,False
-MONA2,[INACTIVE] Montana Creek at Parks Highway Bridge,0,,True,False
-MONA3,S Moccasin Wash at Moccasin,0,,True,False
 MONI3,Salt Creek (IN) at Monroe Lake,3,HDBI3;KRZI3;NFSI3,True,False
 MONL1,Tickfaw River at Montpelier,2,HOLL1;LPOL1,True,False
 MONM4,River Raisin at Monroe City,2,DNDM4;GPEM4,True,False
@@ -318,7 +293,7 @@ MUTC1,Murrieta Creek at Temecula,0,,True,False
 MUVV2,Beaverdam Creek near Mountville,0,,True,False
 MVCN8,Sheyenne River near McVille,2,CPPN8;WRWN8,True,False
 MVCO3,Malheur River at Vines Canyon,0,,True,False
-MVCS1,Stevens Creek near Murphy Village,0,,True,False
+MVCS1,Stevens Creek near Murphy Village,1,MODS1,True,False
 MVEN2,Meadow Valley Wash near Ursine,0,,True,False
 MVEO1,Kokosing River at Mt Vernon,2,FTNO1;MHWO1,True,False
 MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
