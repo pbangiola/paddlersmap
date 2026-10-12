@@ -1,11 +1,7 @@
-name: QA - River identity tests
+name: MANUAL - Legacy river identity tests
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/river-tests.yml
-      - 'scripts/*.py'
 
 permissions:
   contents: read
