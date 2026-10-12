@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CIBW1,Columbia River at International Boundary,1,GCDW1,True,False
-CICF1,Tide Gauge at Sanibel Causeway (in MHHW),0,,True,False
-CICT2,Cibolo Creek near Boerne,1,BVST2,True,False
-CIDI4,Cedar River at Cedar Rapids,2,CBII4;PLOI4,True,False
-CIEP4,Rio Bayamon below Lago de Cidra Dam,0,,True,False
-CIFP4,Rio Bayamon at Arenas,0,,True,False
-CIKA1,Tide Gauge near Chickasaw (IN MHHW),0,,True,False
-CILF1,Chokoloskee Island (in MHHW),0,,True,False
-CINF1,Cinco Bayou (In MHHW),0,,True,False
-CINN6,Otselic River at Cincinnatus,0,,True,False
-CIRA2,Yukon River at Circle,2,YEAA2;YFYA2,True,False
-CIRF1,Tide Gauge at Captiva Island Redfish (In MHHW),0,,True,False
-CIRI2,Ohio River at Cairo,2,OLTI2;WKLK2,True,False
-CISA1,Cahaba Valley Creek Indian Springs at Indian Trail Road,0,,True,False
-CIVU1,Chalk Creek near Coalville,0,,True,False
-CIYW1,Cispus River near Randle,0,,True,False
-CJBC1,Arroyo Conejo Creek,0,,True,False
-CJBO1,Buck Creek at C J Brown,0,,True,False
-CJKC1,Cajon Creek near Keenbrook,0,,True,False
-CJRC1,Conejo Creek at Ridge View,0,,True,False
-CJSI1,Southwest Idaho Reservoirs at C J Strike Reservoir,0,,True,False
-CJTI4,Iowa River at Columbus Jct,2,LNTI4;WAPI4,True,False
-CJXA2,Kuskokwim River at Crooked Creek,2,BETA2;KLCA2,True,False
-CKAA2,[INACTIVE] Crooked Creek near Kasilof,0,,True,False
-CKBF1,Tide Gauge at Crystal River (in MHHW),0,,True,False
 CKBL1,Mississippi River at Southwest Pass Mile 7.5 near Burrwood,0,,True,False
 CKCF1,McKay Creek at Hickory Dr,0,,True,False
 CKCN7,Clarke Creek NC near HARRISBURG,0,,True,False
@@ -628,7 +603,7 @@ CUST2,East Fork Angelina River near Cushing,0,,True,False
 CUSW3,Crawfish River at Columbus,0,,True,False
 CUTN7,Colington Creek at Colington Cut,0,,True,False
 CUTT2,Pecan Bayou near Cross Cut,1,LBWT2,True,False
-CVCA1,Cahaba Valley Creek at Pelham,0,,True,False
+CVCA1,Cahaba Valley Creek at Pelham,1,CISA1,True,False
 CVCC1,Castro Valley Creek at Hayward,0,,True,False
 CVCF1,Tide Gauge at Captiva (in MHHW),0,,True,False
 CVCN2,Cleve Creek nr Ely,0,,True,False
@@ -1038,7 +1013,7 @@ DPLF1,Deer Point Lake at Deer Point Dam (in NAVD88),0,,True,False
 DPNM2,Depot Pond at Upper Marlboro,0,,True,False
 DQHP1,Saw Mill Run at Duquesne Heights,0,,True,False
 DQNA4,Rolling Fork near DeQueen,0,,True,False
-DRAP4,Lago de Cidra at Damsite nr Cidra,0,,True,False
+DRAP4,Lago de Cidra at Damsite nr Cidra,2,CIEP4;CIFP4,True,False
 DRAT2,Spring Branch at SH 242 near Splendora,0,,True,False
 DRBC2,Clear Creek (CO) at Derby,2,GLDC2;HNDC2,True,False
 DRBI1,Deadwood River at Deadwood Reservoir,0,,True,False
@@ -1112,7 +1087,7 @@ DSRW1,Deschutes River near Rainier,0,,True,False
 DSTT2,Red River at Denison Dam near Denison,2,ARCT2;DSNT2,True,False
 DSVN6,Canaseraga Creek at Dansville,0,,True,False
 DTAS1,Tyger River near Delta,0,,True,False
-DTNO1,Great Miami River at Dayton,0,,True,False
+DTNO1,Great Miami River at Dayton,2,MRDO1;WSCO1,True,False
 DTON1,Conestoga Lake,0,,True,False
 DTTM8,Teton River near Dutton,0,,True,False
 DUBC1,Dutch Bill Creek at Bohemian Highway and Tyrone Road,0,,True,False
@@ -1784,7 +1759,7 @@ FKFK1,Black Vermillion River at Frankfort,0,,True,False
 FKLV2,Blackwater River (VA) near FRANKLIN,0,,True,False
 FKLW2,South Branch Potomac River at Franklin,0,,True,False
 FKNN1,Center Creek at Franklin,0,,True,False
-FKNO1,Great Miami River at Franklin,0,,True,False
+FKNO1,Great Miami River at Franklin,2,MDTO1;MMGO1,True,False
 FKNV2,Blackwater River (VA) above Franklin,0,,True,False
 FKUF1,Faka Union Canal near Marco Island (in MHHW),0,,True,False
 FKVR1,North Branch Pawtuxet River at Fiskville,0,,True,False
@@ -2665,7 +2640,7 @@ HAMC3,Mill River above Lake Whitney,0,,True,False
 HAMF1,Hampton Lake near Hampton (in NAVD88),0,,True,False
 HAMN4,Royce Brook at Hamilton Road,0,,True,False
 HAMN6,Hutchinson River at Pelham,0,,True,False
-HAMO1,Great Miami River at Hamilton,0,,True,False
+HAMO1,Great Miami River at Hamilton,2,MDTO1;MIAO1,True,False
 HANM2,Tonoloway Creek near Hancock,0,,True,False
 HANM5,Yellow Medicine River near Hanley Falls 4W,0,,True,False
 HANO1,Ohio River at Hannibal Lock and Dam,2,POWO1;SARO1,True,False
@@ -3816,7 +3791,7 @@ KUCN6,Johnson Creek (NY) at Kuckville,0,,True,False
 KULA2,Kulukak River near Togiak,0,,True,False
 KUPA2,Kuparuk River near Deadhorse,0,,True,False
 KUSH1,Kahaluu Stream near Kaneohe,0,,True,False
-KUTA2,Kuskokwim River at Tuluksak,0,,True,False
+KUTA2,Kuskokwim River at Tuluksak,2,BETA2;CJXA2,True,False
 KVKA2,Beaufort Sea at Kaktovik,0,,True,False
 KVTA2,Kivalina Tide Gauge at Kivalina (MHHW datum),0,,True,False
 KWDC1,Sonoma Creek at Kenwood,0,,True,False
@@ -4887,7 +4862,7 @@ MDSM8,Madison River near West Yellowstone,0,,True,False
 MDSN4,Bound Brook at Middlesex,0,,True,False
 MDST2,Bedias Creek near Madisonville,0,,True,False
 MDTC2,Frying Pan River at Meredith,0,,True,False
-MDTO1,Great Miami River at Middletown,0,,True,False
+MDTO1,Great Miami River at Middletown,2,FKNO1;HAMO1,True,False
 MDVG1,Ogeechee River at Midville,0,,True,False
 MDWK2,South Elkhorn Creek at Midway,0,,True,False
 MDYK2,Right Fork Beaver Creek near Muddy,0,,True,False
@@ -5005,7 +4980,7 @@ MHWO1,Walhonding River at Mohawk Dam Pool,3,LDVO1;NLLO1;PHLO1,True,False
 MHYI2,Fox River at McHenry (Stratton Lock and Dam) tailwater,2,ALGI2;JHNI2,True,False
 MIAF1,Mickler at A Street Canal in St Augustine Beach (in NAVD88),0,,True,False
 MIAM7,Missouri River at Miami,2,GLZM7;WVYM7,True,False
-MIAO1,Great Miami River at Miamitown,0,,True,False
+MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False
 MIAO3,Miami River near Garibaldi,0,,True,False
 MIBA3,Indian Bend Wash at Sweetwater Rd,0,,True,False
 MICF1,Saint Sebastian River North Prong,0,,True,False
@@ -5166,7 +5141,7 @@ MMCK2,Green River (KY) near Mammoth Cave,2,BNWK2;MFVK2,True,False
 MMDN6,Genesee River at Mount Morris Dam,2,AVON6;PRTN6,True,False
 MMDT2,Medina River near Macdona,2,LACT2;SAAT2,True,False
 MMDW1,White River below Mud Mountain Dam,0,,True,False
-MMGO1,Great Miami River at Miamisburg,0,,True,False
+MMGO1,Great Miami River at Miamisburg,2,FKNO1;WSCO1,True,False
 MMIW1,White River below Clearwater River,0,,True,False
 MMOI2,Illinois River at Marseilles Lock (tailwater),2,MORI2;OTWI2,True,False
 MMPF1,Merritts Mill Pond Outfall below US Highway 90,0,,True,False
@@ -5336,7 +5311,7 @@ MRDM5,Hawk Creek (MN) near Maynard,0,,True,False
 MRDM6,Okatibbee Creek at Okatibbee Reservoir,0,,True,False
 MRDM8,Big Hole River at Maiden Rock near Divide,2,MLRM8;WSVM8,True,False
 MRDN8,Maple River (ND) above Sheldon,2,ENDN8;MPLN8,True,False
-MRDO1,Mad River near Dayton,0,,True,False
+MRDO1,Mad River near Dayton,2,DTNO1;SGFO1,True,False
 MREO1,Little Auglaize River at Melrose OH,0,,True,False
 MRFA1,Alabama River near Miller's Ferry,0,,True,False
 MRFW2,South Branch Potomac River near Moorefield,0,,True,False
@@ -8241,7 +8216,7 @@ SGCO3,Salmon River near Government Camp,0,,True,False
 SGDU1,Sevier River near Sigurd,0,,True,False
 SGET2,Clear Creek near Sanger,0,,True,False
 SGFM7,James River (MO) near Springfield,0,,True,False
-SGFO1,Mad River near Springfield,0,,True,False
+SGFO1,Mad River near Springfield,2,CJBO1;MRDO1,True,False
 SGGC1,San Gabriel River (CA) at Spring Street,0,,True,False
 SGGT2,Guadalupe River at FM 1117 near Seguin,0,,True,False
 SGHT2,"San Geronimo Creek near Helotes, TX",0,,True,False
@@ -10511,7 +10486,7 @@ WRYN2,Walker River below Yerington Weir near Yerington,2,MASN2;WBMN2,True,False
 WSAA2,[INACTIVE] Wasilla Creek near Palmer,0,,True,False
 WSBT2,Buffalo Bayou at West Belt Drive,3,ADDT2;BAKT2;PPTT2,True,False
 WSCI2,Kress Creek near West Chicago,0,,True,False
-WSCO1,Great Miami River at West Carrollton,0,,True,False
+WSCO1,Great Miami River at West Carrollton,2,DTNO1;MMGO1,True,False
 WSDC1,Warm Springs Reservoir (Lake Sonoma)  ,0,,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,0,,True,False
 WSDN4,Pascack River at Westwood,0,,True,False
@@ -10724,7 +10699,7 @@ YOKO3,Umatilla River near Yoakum,0,,True,False
 YORC1,York Creek at Highway 29,0,,True,False
 YPRC1,Coyote Perc Pond 10B,0,,True,False
 YPSA2,Yukon River at Pilot Station,1,NULA2,True,False
-YRBA2,Yukon River near Stevens Village,2,BVRA2;TALA2,True,False
+YRBA2,Yukon River near Stevens Village,3,BVRA2;CIRA2;TALA2,True,False
 YRBF1,Yellow River at Brown's Fishing Camp (in MHHW),0,,True,False
 YRCO3,Yaquina River near Chitwood,0,,True,False
 YRCP1,Codorus Creek near York,0,,True,False

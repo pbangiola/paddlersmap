@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CIBW1,Columbia River at International Boundary,1,GCDW1,True,False
-CICT2,Cibolo Creek near Boerne,1,BVST2,True,False
 CKDT2,Coleto Creek at Coleto Creek Reservoir,1,CCVT2,True,False
 CKHW4,Clear Creek below Healy Reservoir,1,CKRW4,True,False
 CLDG1,Ochlockonee River near Coolidge,1,TMLG1,True,False
@@ -46,6 +44,7 @@ CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
 CTWG1,Big Cedar Creek at Georgia Ave at Cedartown,1,CCDG1,True,False
 CUTT2,Pecan Bayou near Cross Cut,1,LBWT2,True,False
+CVCA1,Cahaba Valley Creek at Pelham,1,CISA1,True,False
 CVEL1,Bogue Falaya River at Boston Street,1,CGSL1,True,False
 CVGV2,Jackson River at Covington,1,FLGV2,True,False
 CVLO2,Caney River near Collinsville,1,RAMO2,True,False
@@ -301,6 +300,7 @@ MFKA2,Middle Fork Koyukuk River near Wiseman,1,BTTA2,True,False
 MFNT2,San Antonio River near McFaddin,1,GLIT2,True,False
 MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
+MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
 MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MILN4,Passaic River near Millington,1,CAMN4,True,False
