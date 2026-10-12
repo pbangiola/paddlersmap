@@ -1,9 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GYNK2,Little Sandy River at Grayson,1,LEOK2,True,False
-HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
 HBMT2,Brays Bayou at Houston,1,GSST2,True,False
 HBTN6,West Branch Delaware River at Hobart,1,DELN6,True,False
+HCTW1,Hangman/Latah Creek near Tekoa,1,HAGW1,True,False
 HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
@@ -209,6 +208,7 @@ MDNN8,Heart River near Mandan,1,GLUN8,True,False
 MDNT1,Harpeth River at McDaniel,1,FRAT1,True,False
 MDSM8,Madison River near West Yellowstone,1,HBDM8,True,False
 MDTC2,Frying Pan River at Meredith,1,FPTC2,True,False
+MECT2,Arroyo Colorado South of Mercedes,1,HAGT2,True,False
 MEDM3,Charles River at Medway,1,DOVM3,True,False
 MEEW3,Milwaukee River at Milwaukee-Estabrook Park,1,CEDW3,True,False
 MELF1,St. Johns River near Melbourne,1,COCF1,True,False
@@ -558,6 +558,7 @@ SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
 SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
+SFLN2,Salmon Falls Creek near San Jacinto,1,HAGI1,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
@@ -764,6 +765,7 @@ WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
 WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
+WLSM4,Manistee River near Wellston (Tippy Dam),1,MSKM4,True,False
 WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
