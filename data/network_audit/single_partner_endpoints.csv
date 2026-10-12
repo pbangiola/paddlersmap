@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KALI4,English River at Kalona,1,DEPI4,True,False
-KASN6,West Canada Creek at Kast Bridge,1,HIKN6,True,False
-KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
 KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
 KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,True,False
@@ -236,6 +233,7 @@ NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,Fal
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
+NEPI4,English River at Parnell,1,KALI4,True,False
 NEVN6,Neversink River at Godeffroy,1,BRGN6,True,False
 NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
 NFBT2,"North Fork San Gabriel River at 243 near Briggs, TX",1,GNRT2,True,False
@@ -307,6 +305,7 @@ ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
 ORCT2,Little Cypress Creek near Ore City,1,JFFT2,True,False
 ORDS2,Elm River at Ordway,1,WESS2,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
+ORLO1,Ottawa River at Lima,1,KALO1,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
 OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False

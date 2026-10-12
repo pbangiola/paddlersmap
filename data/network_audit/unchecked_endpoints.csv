@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JYMT2,Black Creek at Highway 326,0,,True,False
-JYNT2,Pine Island Bayou near Bevil Oaks,3,BIPT2;JYLT2;SOLT2,True,False
-JZBT2,Pine Island Bayou at Highway 326,2,JYKT2;SOLT2,True,False
-JZHT2,Hillebrandt Bayou at Highway 124,0,,True,False
-JZWT2,North Fork Taylor Bayou at F.M. 1406,0,,True,False
-JZYT2,Taylor Bayou at Labelle Road,0,,True,False
-KACW1,Yakima River at Kachess Outflow,2,CLEW1;KEEW1,True,False
-KAHO3,Warm Springs near Kahneeta Hot Springs,0,,True,False
-KALI4,English River at Kalona,1,DEPI4,True,False
-KALO1,Ottawa River near Kalida,0,,True,False
-KAMS2,Big Sioux River at Lake Kampeska,2,WBSS2;WTRS2,True,False
-KANK1,Smoky Hill River at Kanopolis Lake,2,ELWK1;LNSK1,True,False
-KANW2,Kanawha River at Kanawha Falls,3,HINW2;HNNW2;LONW2,True,False
-KAPF1,Alligator Creek at Kapok Park at Clearwater,2,AGCF1;PIAF1,True,False
-KARP1,West Branch Susquehanna River at Karthaus,2,HYEP1;ROVP1,True,False
-KASN6,West Canada Creek at Kast Bridge,1,HIKN6,True,False
-KAWM5,Kawishiwi River near Ely,0,,True,False
-KAWO2,Eastern Oklahoma Lakes at Kaw Lake,0,,True,False
-KAYF1,Long Key Kayak Launch (in MHHW),0,,True,False
-KAYM7,Blue River at 63rd Street,2,BVCM7;KNYM7,True,False
-KAYW4,Middle Fork Powder River near Kaycee,2,ARVW4;BARW4,True,False
-KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
-KBFC1,Kern River below Fairview Dam,0,,True,False
-KBJA2,Koyukuk River 0.8 miles below John River near Bettles,2,ALLA2;BTTA2,True,False
-KBLM4,North Branch Au Sable River at Kellogg's Bridge near Lovells,0,,True,False
 KBLW2,Bullskin Run below Kabletown,0,,True,False
 KBMG1,Atlantic Coast at Kings Bay Pier (in MHHW),0,,True,False
 KBNM7,Little Blue River (MO) at Knobtown,0,,True,False
@@ -2206,7 +2181,7 @@ NELS1,Broad River in NC/SC at Neal Shoals Reservoir,0,,True,False
 NEMM5,Nemadji River near Pleasant Valley,0,,True,False
 NEOK1,Neosho River at Neosho Rapids,2,EPRK1;JRLK1,True,False
 NEPF1,St. Marks River near Newport on Old Magnolia Rd (in stage datum),0,,True,False
-NEPI4,English River at Parnell,0,,True,False
+NEPI4,English River at Parnell,1,KALI4,True,False
 NEPN4,Shark River at Neptune City,0,,True,False
 NEPO1,North Fork Licking River (OH) at Newark Water Plant,2,NMSO1;UTCO1,True,False
 NEPT1,Pigeon River at Newport,3,CTPN7;DUGT1;HRFT1,True,False
@@ -2789,7 +2764,7 @@ ORIW4,North Platte River near Orin,3,GLBW4;GLNW4;HENN1,True,False
 ORKF1,Ortega River at Argyle Forest Boulevard (in NAVD88),0,,True,False
 ORKN6,Oriskany Creek near Oriskany,0,,True,False
 ORLN7,Neuse River at Oriental (in MLLW),0,,True,False
-ORLO1,Ottawa River at Lima,0,,True,False
+ORLO1,Ottawa River at Lima,1,KALO1,True,False
 ORLT2,Pecos River 6 miles NE of Orla,2,PCST2;RLAT2,True,False
 ORMW2,Island Creek near Logan,0,,True,False
 ORNI4,Little Wapsipinicon River near Oran,0,,True,False
@@ -4853,7 +4828,7 @@ SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
 SKPF1,Tide Station at Skipper Bay near Panacea (in MHHW),0,,True,False
 SKPM5,Minnesota River at Shakopee,0,,True,False
 SKRC1,South Fork Kern River near ONYX,0,,True,False
-SKRM5,South Kawishiwi River near Ely,0,,True,False
+SKRM5,South Kawishiwi River near Ely,2,KAWM5;SKWM5,True,False
 SKRW1,Skookumchuck Reservoir,2,BCDW1;VALW1,True,False
 SKSC1,San Luis Obispo Creek at Elks Lane,0,,True,False
 SKTA2,Taiya Inlet Tide Gauge at Skagway (MLLW datum),0,,True,False
@@ -4862,7 +4837,7 @@ SKTK1,Bow Creek near Stockton,0,,True,False
 SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
 SKVV2,North River near Stokesville,0,,True,False
 SKWA2,Skwentna River at Skwentna,0,,True,False
-SKWM5,South Kawishiwi River above White Iron Lake,2,DRBM5;WTNM5,True,False
+SKWM5,South Kawishiwi River above White Iron Lake,3,DRBM5;SKRM5;WTNM5,True,False
 SKYI4,Snake Creek near Yorktown,0,,True,False
 SKYN6,Skaneateles Creek near Skaneateles Jct,0,,True,False
 SLAA2,Slate Creek at Coldfoot,0,,True,False
