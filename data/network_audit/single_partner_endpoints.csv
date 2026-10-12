@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-BYBT2,Brushy Creek at Cedar Park,1,BCIT2,True,False
-BYCO3,Bully Creek near Vale,1,BULO3,True,False
 CAAT2,Nueces River at Calallen,1,CBVT2,True,False
 CAPL1,Tide Station (LCH) at Calcasieu Pass,1,LCLL1,True,False
 CARG1,Broad River in GA above Carlton,1,BELG1,True,False
@@ -162,6 +160,7 @@ HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
 HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
+HWBN7,Haw River at NC-62,1,HAWN7,True,False
 HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
 HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
@@ -169,6 +168,7 @@ ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
 INCO1,Indian Creek at Macedonia,1,BWCO1,True,False
 INOO2,Verdigris River near Inola,1,CLRO2,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
+IRNM7,Big River at Irondale,1,RCHM7,True,False
 IVLG1,Alapaha River at Irwinville,1,ALAG1,True,False
 IWNC1,San Lorenzo River (CA) at Lomond Street Bridge,1,BTEC1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
@@ -240,6 +240,7 @@ LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
 LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
+LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
 LWBP1,West Branch Susquehanna River at Lewisburg,1,ILTP1,True,False
 LWFT2,North Texas Lakes at Lake Weatherford,1,WEAT2,True,False
 LWLK1,White Rock Creek below Lovewell Reservoir,1,LOVK1,True,False
@@ -255,6 +256,7 @@ MAOO3,Malheur River near Ontario,1,VALO3,True,False
 MARM4,Kalamazoo River at Marshall,1,BTCM4,True,False
 MAZW3,Black Earth Creek at Mazomanie,1,BLEW3,True,False
 MBFT2,Trinity River near Moss Bluff,1,LBYT2,True,False
+MBGW2,Opequon Creek near Martinsburg,1,BYVV2,True,False
 MCAW3,Menominee River near McAllister,1,KOSM4,True,False
 MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
