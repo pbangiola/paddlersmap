@@ -1,5 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EDEN8,Edmore Coulee near Edmore,1,DLBN8,True,False
+EDLI3,Elliott Ditch near Lafayette,1,EDEI3,True,False
 EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
@@ -96,6 +96,7 @@ GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
+GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
@@ -119,6 +120,7 @@ HNFT2,North Fork Guadalupe River near Hunt,1,HNTT2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
+HOGW4,Encampment River near Encampment,1,ECRW4,True,False
 HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
@@ -413,6 +415,7 @@ ORNT2,Sabine River at Orange,1,TMYT2,True,False
 OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
+OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 OWTM5,Straight River at Owatonna,1,FRBM5,True,False
 OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
@@ -507,6 +510,7 @@ RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
 RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
+RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
 RIGA4,Right Hand Chute Little River at Rivervale,1,PNGA4,True,False
 RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
@@ -528,6 +532,7 @@ ROXN6,East Branch Delaware River at Roxbury,1,MRGN6,True,False
 ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
 RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
+RSAM6,Homochitto River at Rosetta,1,EDDM6,True,False
 RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False

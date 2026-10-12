@@ -1,32 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ECRN7,Ellerbe Creek (NC) at Club Blvd in Durham,0,,True,False
-ECRW4,Encampment River at Mouth near Encampment,0,,True,False
-ECTG1,Etowah River  Downstream I-575 at Canton,3,BRTG1;CNNG1;DWSG1,True,False
-ECTN8,Edmore Coulee Tributary near Webster,0,,True,False
-ECTW3,Chippewa River (WI) below Dells Dam (Tailwater),0,,True,False
-ECUC1,Eticuera Creek at Lake Berryessa,0,,True,False
-ECWO3,West Fork Ecola Creek near Cannon Beach,0,,True,False
-ECWU1,Weber River above Echo,0,,True,False
-ECYT2,East Fork Crystal Creek at FM 1485 near Conroe,0,,True,False
-EDAC1,El Camino Storm Drain above Lawrence Expressway,0,,True,False
-EDBC3,Great Creek near Milford E Brd,0,,True,False
-EDBI4,Beaver Creek near Eldora IA 175--IFC,0,,True,False
-EDBN5,Rio Grande below Elephant Butte Dam,2,CBON5;EBDN5,True,False
-EDCC1,Elder Creek near Paskenta,0,,True,False
-EDDI2,Lusk Creek above Eddyville,0,,True,False
-EDDM1,Penobscot River at Eddington,2,BPRM1;WENM1,True,False
-EDDM6,Homochitto River at Eddiceton,0,,True,False
-EDEG1,Ogeechee River near Eden,0,,True,False
-EDEI3,Elliott Ditch near Elston,0,,True,False
-EDEK1,Walnut River near El Dorado,2,AGAK1;EDWK1,True,False
-EDEN8,Edmore Coulee near Edmore,1,DLBN8,True,False
-EDFM2,Potomac River at Edwards Ferry,2,BRKM2;PORM2,True,False
-EDGK2,Banklick Creek near Erlanger,0,,True,False
-EDGM8,Clarks Fork of the Yellowstone at Edgar,2,BFYM8;BILM8,True,False
-EDGP1,Little Bush Kill at Edgemere,0,,True,False
 EDGS2,Cheyenne River at Edgemont,3,AACS2;ANGS2;BURS2,True,False
 EDIN1,Turkey Creek (trib. to Republican River) below Edison,0,,True,False
-EDLI3,Elliott Ditch near Lafayette,0,,True,False
+EDLI3,Elliott Ditch near Lafayette,1,EDEI3,True,False
 EDMM2,Northeast Branch Anacostia River at Edmonston,0,,True,False
 EDNI3,Sugar Creek (central) near Edinburgh,3,AMTI3;DREI3;SCBI3,True,False
 EDNM8,Smith River (MT) near Eden,0,,True,False
@@ -137,7 +112,7 @@ ELKO3,Elk Creek near Trail,0,,True,False
 ELKP1,Cowanesque River at Elkland,0,,True,False
 ELKW2,Tygart Valley River at Elkins,2,BELW2;DLYW2,True,False
 ELLF1,Suwannee River at Ellaville - US 90 (in NAVD88),4,DOUF1;JNAF1;LIKF1;WTHF1,True,False
-ELLG1,Ogeechee River near Ellabell,0,,True,False
+ELLG1,Ogeechee River near Ellabell,2,EDEG1;RICG1,True,False
 ELLI3,White River (IN) at Elliston,3,BOLI3;NWBI3;SPNI3,True,False
 ELLK1,Big Creek at Ellis,0,,True,False
 ELLN7,Lower Little River near Ellendale,0,,True,False
@@ -1218,7 +1193,7 @@ GRFI2,Mississippi River at Grafton,2,ALOI2;CAGM7,True,False
 GRFN1,West Fork Big Blue River near Grafton ,0,,True,False
 GRFW3,Wisconsin River below Grandfather Dam,2,ALXW3;TKDW3,True,False
 GRFW4,North Platte River below Gray Reef Reservoir,0,,True,False
-GRGG1,Ogeechee River at GA 88 near Grange,0,,True,False
+GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRGI3,Little Calumet River at Gary (Grant St),0,,True,False
 GRGM6,Steele Bayou near Grace,0,,True,False
 GRGM8,Grinnell Creek near Many Glacier,0,,True,False
@@ -1722,7 +1697,7 @@ HOGF1,Choctawhatchee Bay at Hogtown Bayou (in MHHW),0,,True,False
 HOGM4,South Branch Hog Creek near Allen,0,,True,False
 HOGM6,Big Sunflower River at Holly Bluff,2,ANGM6;SBSM6,True,False
 HOGN6,Hog Island Channel at Island Park (IN MLLW),0,,True,False
-HOGW4,Encampment River near Encampment,0,,True,False
+HOGW4,Encampment River near Encampment,1,ECRW4,True,False
 HOHH1,Honouliuli Stream near Waipahu,0,,True,False
 HOHN4,Hohokus Brook at Ho-Ho-Kus,0,,True,False
 HOJW4,Hoback River near Jackson,0,,True,False
@@ -3638,7 +3613,7 @@ MDSN4,Bound Brook at Middlesex,0,,True,False
 MDST2,Bedias Creek near Madisonville,0,,True,False
 MDTC2,Frying Pan River at Meredith,0,,True,False
 MDTO1,Great Miami River at Middletown,2,FKNO1;HAMO1,True,False
-MDVG1,Ogeechee River at Midville,0,,True,False
+MDVG1,Ogeechee River at Midville,2,GRGG1;RFDG1,True,False
 MDWK2,South Elkhorn Creek at Midway,0,,True,False
 MDYK2,Right Fork Beaver Creek near Muddy,0,,True,False
 MDYM8,Muddy Creek at Vaughn,0,,True,False
@@ -4729,7 +4704,7 @@ NPTN1,North Platte River at North Platte,4,BDYN1;BIRN1;KNGN1;SUTN1,True,False
 NPTO1,Loramie Creek near Newport,0,,True,False
 NPTP1,Juniata River at Newport,0,,True,False
 NPVI2,West Branch Du Page River at Naperville (Webster St),0,,True,False
-NPVI4,South Fork Iowa River near New Providence,3,BKSI4;BLII4;MIWI4,True,False
+NPVI4,South Fork Iowa River near New Providence,4,BKSI4;BLII4;EDBI4;MIWI4,True,False
 NPVL1,Bayou Lafourche above Napoleonville,0,,True,False
 NRBF1,New River near Lake Butler (in NAVD88),0,,True,False
 NRBL1,Natalbany River at Baptist,0,,True,False
@@ -5017,7 +4992,7 @@ OLPO1,Cuyahoga River at Old Portage,2,ECAO1;HRPO1,True,False
 OLSA2,Nikolski Tide Gauge at Nikolski (MLLW datum),0,,True,False
 OLTI2,Ohio River at Olmsted Lock and Dam Tailwater,2,CIRI2;OLMI2,True,False
 OLTM2,Town Creek (MD) near Oldtown,0,,True,False
-OLVG1,Ogeechee River near Oliver,0,,True,False
+OLVG1,Ogeechee River near Oliver,2,EDEG1;RFDG1,True,False
 OLVL1,Comite River near Olive Branch,2,CMTL1;COML1,True,False
 OLVM6,Coldwater River at Olive Branch,0,,True,False
 OLYG1,Olley Creek at Clay Road near Austell,0,,True,False
@@ -5166,7 +5141,7 @@ OVIA2,Seldovia Tide Gauge at Seldovia (MLLW datum),0,,True,False
 OVON1,Spring Creek near Overton,0,,True,False
 OVRO2,North Canadian River at Lake Overholser,2,OLBO2;YUKO2,True,False
 OVTN1,Platte River near Overton,2,DARN1;ODSN1,True,False
-OWBI4,Beaver Creek near Owasa 170th St--IFC,0,,True,False
+OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
 OWBK2,Ohio River at Owensboro,2,NBGI3;TELI3,True,False
 OWCF1,Tide Gauge at Owl Creek (in MHHW),0,,True,False
 OWCI3,Wildcat Creek (IN) at Owasco,0,,True,False
@@ -6202,7 +6177,7 @@ REYM5,Redeye River near Aldrich (221st Ave),0,,True,False
 REYN6,Reynolds Channel at Point Lookout (IN MLLW),0,,True,False
 REYN7,Reedy Creek at SR 2803,0,,True,False
 RFCN7,Little Rockfish Creek at Wallace,0,,True,False
-RFDG1,Ogeechee River near Rocky Ford,0,,True,False
+RFDG1,Ogeechee River near Rocky Ford,2,MDVG1;OLVG1,True,False
 RFDI2,Rock River at Rockford (Fordam Dam),2,BYRI2;RABI2,True,False
 RFDN7,Rockfish Creek near Raeford,0,,True,False
 RFDO1,St. Marys River at Rockford,1,WILO1,True,False
@@ -6248,7 +6223,7 @@ RHSC1,Rio Hondo (CA) above Stewart and Gray Road,0,,True,False
 RHTC1,Rodeo Creek at Hawthorne Drive,0,,True,False
 RIBW3,Big Rib River at Rib Falls,0,,True,False
 RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
-RICG1,Ogeechee River near Richmond Hill,0,,True,False
+RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
 RICM2,Octoraro Creek near Richardsmere,0,,True,False
 RICM7,Crooked River near Richmond,0,,True,False
 RICQ8,Battle Creek at Richardson Ditch nr Consul 5NNW,0,,True,False
@@ -6465,7 +6440,7 @@ RRVL1,Mississippi River at Reserve,2,BCNL1;DONL1,True,False
 RRVW3,Tomahawk River above Rice Reservoir,0,,True,False
 RRWL1,Red River 6.5 Miles Below the Confluence of the Black,0,,True,False
 RRZF1,Santa Fe River at River Rise near High Springs (in NAVD88),2,HSPF1;OLPF1,True,False
-RSAM6,Homochitto River at Rosetta,0,,True,False
+RSAM6,Homochitto River at Rosetta,1,EDDM6,True,False
 RSBC1,San Joaquin River below HWY 145,0,,True,False
 RSBO3,South Umpqua River at Roseburg,0,,True,False
 RSBS2,Little White River near Rosebud,0,,True,False
