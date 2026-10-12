@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LEPM5,South Fork Crow River near Lester Prairie 1SE,2,HCNM5;MAYM5,True,False
-LEPO2,Verdigris River near Lenapah,2,CFVK1;CLRO2,True,False
-LERI1,Lemhi River near Lemhi,0,,True,False
-LESA3,Leslie Creek near McNeal,0,,True,False
-LESC1,Los Gatos Creek at Lake Elsman,2,DSEC1;WLMC1,True,False
-LESG1,Spring Creek near Leary at Chickasawhatchee Rd.,0,,True,False
-LESI1,Big Lost River at Leslie,4,ARCI1;CEDI1;MAKI1;MDII1,True,False
-LESN1,Platte River near Leshara,2,FREN1;VENN1,True,False
-LEVK1,Missouri River at Leavenworth,2,ATCK1;PKVM7,True,False
-LEWN1,North Platte River at Lewellen,3,BCLN1;KNGN1;LSON1,True,False
-LEWT2,North Texas Lakes at Lake Lewisville,2,CART2;RRLT2,True,False
-LEYC2,Leyden Creek (CO) at Leyden Reservoir,0,,True,False
-LFAP4,Lago Fajardo near Vapor,0,,True,False
-LFBC2,Lake Fork Below Lake San Cristobal,0,,True,False
-LFBP1,Little Fishing Creek near Bloomsburg,0,,True,False
-LFDL1,Bayou Lafourche at Donaldsonville,0,,True,False
-LFEM5,Leaf River (MN) near Staples (CSAH29),2,LALM5;PLGM5,True,False
-LFFV2,Colvin Run at Lake Fairfax near Reston,0,,True,False
-LFGC2,Lake Fork above Gateview,0,,True,False
-LFHW1,Icicle Creek at Structure 2 near Leavenworth NFH,0,,True,False
-LFIS2,Missouri River at La Framboise Island,3,BIWN8;FRMS2;PIRS2,True,False
-LFKM5,Little Fork River at Littlefork,1,LILM5,True,False
-LFKT2,Lake Fork Creek at Lake Fork,0,,True,False
-LFMW3,La Crosse River at Fort McCoy,2,ANOW3;SPAW3,True,False
-LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False
 LFRF1,Brooker Creek Near Lake Fern (in NGVD29),0,,True,False
 LFRM8,Birch Creek (MT) at Lake Francis Reservoir,0,,True,False
 LFRN7,Lockwood Folly River at SR 211,0,,True,False
@@ -3182,7 +3157,7 @@ QSGC1,Saratoga Creek at Saratoga,0,,True,False
 QSTC1,San Tomas Aquino Creek at San Tomas Creek at Scott Blvd,0,,True,False
 QTHW1,Quinault River near Tahola,0,,True,False
 QTMM6,Chickasawhay River at Quitman,2,ENSM6;SHBM6,True,False
-QTMT2,Lake Fork Creek near Quitman,0,,True,False
+QTMT2,Lake Fork Creek near Quitman,2,HAKT2;LFKT2,True,False
 QUAM3,Quashnet River at Waquoit Village,0,,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 QUCN7,Queen Creek near Hubert,0,,True,False
