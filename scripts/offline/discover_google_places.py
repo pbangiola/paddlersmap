@@ -25,7 +25,7 @@ def main():
  p.add_argument("--kind",choices=TERMS,required=True)
  p.add_argument("--out",required=True)
  p.add_argument("--step",type=float,default=.2,help="Grid spacing in degrees")
- p.add_argument("--max-requests",type=int,default=100,help="Cost safety limit per run")
+ p.add_argument("--max-requests",type=int,default=100,help="Maximum API requests per run; increase for unattended operation (billing applies)")
  a=p.parse_args()
  key=os.environ.get("GOOGLE_MAPS_API_KEY")
  if not key:p.error("Set GOOGLE_MAPS_API_KEY (Google Cloud project with billing and Places API (New) enabled)")
@@ -46,7 +46,8 @@ def main():
     task=f"{ix}:{iy}:{term}"
     if task in completed:continue
     if count>=a.max_requests:
-     print(f"Reached request cap ({count}); rerun to resume",flush=True);return
+     remaining=nx*ny*len(TERMS[a.kind])-len(completed)
+     print(f"Reached request cap ({count}); {remaining} searches remain. Rerun to resume, or use --max-requests to raise the per-run limit.",flush=True);return
     obj=request(key,term,lat,lon,radius)
     ids.update(x["id"] for x in obj.get("places",[]) if x.get("id"))
     completed.add(task);state["completed"]=sorted(completed);state["ids"]=sorted(ids)
