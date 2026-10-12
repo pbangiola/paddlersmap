@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MICO2,Mill Creek (OK) at Mouth of 3Mile Creek near Mill Creek,1,MCKO2,True,False
-MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
-MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
-MILN4,Passaic River near Millington,1,CAMN4,True,False
 MILW2,Shenandoah River at Millville,1,FROV2,True,False
 MILW3,Crawfish River at Milford,1,CUSW3,True,False
 MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
@@ -58,6 +54,7 @@ MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
 MSBM8,Musselshell River near Mosby,1,MUSM8,True,False
 MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
+MSSI1,Middle Fork Salmon River at Mouth,1,MIDI1,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
 MSSO3,"Mill Creek (Marion Co., OR) at Spenner Road near Sublimity",1,MTTO3,True,False
 MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False

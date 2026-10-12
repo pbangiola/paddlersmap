@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MIBA3,Indian Bend Wash at Sweetwater Rd,0,,True,False
-MICF1,Saint Sebastian River North Prong,0,,True,False
-MICM8,Tongue River at Miles City,2,ASLM8;MILM8,True,False
-MICN1,North Platte River near Mitchell,2,HENN1;SBRN1,True,False
-MICN7,"Mill Creek at Orchard St, in Old Fort",0,,True,False
-MICO2,Mill Creek (OK) at Mouth of 3Mile Creek near Mill Creek,1,MCKO2,True,False
-MIDF1,Little River (Midway) near Midway (SR 268),0,,True,False
-MIDI1,Middle Fork Salmon River at Middle Fork Lodge,0,,True,False
-MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
-MIDN7,Middle Creek near Clayton,0,,True,False
-MIDS2,Bad River (SD) near Midland,2,CTTS2;FTPS2,True,False
-MIEC1,Merced River at Shaffer Bridge,0,,True,False
-MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
-MIFI4,Little Sioux River near Milford,2,LSSI4;MLSI4,True,False
-MIGI4,Maple River at Ida Grove,2,MAPI4;MRGI4,True,False
-MIGM1,Milbridge (Jordan's Pier) MLLW,0,,True,False
-MIIC1,South Fork Merced River at Wawona,0,,True,False
-MIKC1,Milliken Creek at Atlas Peak Road,0,,True,False
-MIKM8,Mill Creek near Emigrant,0,,True,False
-MILA1,Tallapoosa River at Milstead,2,CRRA1;MGYA1,True,False
-MILI1,Snake River near Milner,2,CBMI1;MDMI1,True,False
-MILI2,Sugar Creek  (E-IL) at Milford,0,,True,False
-MILM5,Lac Qui Parle Reservoir at Hwy 40 Bridge near Milan,2,LAQM5;MLDM5,True,False
-MILM8,Yellowstone River at Miles City,3,FRYM8;GLNM8;MICM8,True,False
-MILN4,Passaic River near Millington,1,CAMN4,True,False
 MILO1,Huron River at Milan,0,,True,False
 MILS1,Salkehatchie River near Miley,0,,True,False
 MILU1,Mill Creek above Mill Creek,0,,True,False
@@ -434,7 +409,7 @@ MSRF1,MS-3 CMR Near SR 72,0,,True,False
 MSRS1,Middle Saluda river near Cleveland,0,,True,False
 MSSC1,McCloud River above Above Shasta Lake,0,,True,False
 MSSF1,Ocklawaha River at Moss Bluff Dam,0,,True,False
-MSSI1,Middle Fork Salmon River at Mouth,0,,True,False
+MSSI1,Middle Fork Salmon River at Mouth,1,MIDI1,True,False
 MSSI3,Northern Indiana Lakes at Mississinewa Lake,0,,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
 MSSN7,Hiwassee River above Mission Dam at Brasstown,0,,True,False
