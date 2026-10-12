@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DRCN7,Pigeon House Creek at Dortch St at Raleigh,0,,True,False
-DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
-DRCV2,Cedar Run at Bristow Road,0,,True,False
-DRDN6,Keuka Outlet at Dresden,0,,True,False
-DREI3,Driftwood River near Edinburgh,4,BAKI3;BCFI3;EDNI3;SBVI3,True,False
-DREO1,Muskingum River at Dresden,2,CSHO1;ZANO1,True,False
-DREO3,Drews Creek at Drews Reservoir,0,,True,False
-DRFF1,Atlantic Tide Gauge at Deerfield Beach Pier (in MHHW),0,,True,False
-DRFI2,North Branch Chicago River at Deerfield,1,NILI2,True,False
-DRFK1,Arkansas River at Deerfield,2,GCKK1;KENK1,True,False
-DRFM2,Dead Run at Franklintown,0,,True,False
-DRFS2,Deerfield Reservoir,2,CTCS2;DFBS2,True,False
-DRGC2,Animas River at Durango,2,ANBC2;CDRC2,True,False
-DRGN1,West Fork Big Blue River near Dorchester,0,,True,False
-DRIC1,Dry Creek (Russian R.) near Mouth NR Healdsburg,0,,True,False
-DRIV2,Dan River at Riverwalk Trail in Danville,2,DCBV2;DVLV2,True,False
-DRKL1,Bundick Creek at HWY 113,2,BKDL1;KDRL1,True,False
-DRLM2,Deer Creek (MD) near Darlington,0,,True,False
-DRMC1,Butte Creek Near Durham,0,,True,False
-DRMC2,Dolores River below McPhee Resv.,2,DOLC2;SLIC2,True,False
-DRMM4,Dead River near Marquette 1NNW,0,,True,False
-DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
-DRMO3,Deer Creek (East Oregon) near McKewen,0,,True,False
-DRMW1,Dungeness River near Mouth at Sequim,0,,True,False
-DROV2,Dan River at Robertson Bridge in Danville,2,DCBV2;WENN7,True,False
 DRRC2,Dolores River near Rico,1,DOLC2,True,False
 DRRN2,Carson River at Deer Run Road,3,CDYN2;FTCN2;STWN2,True,False
 DRRO3,Row River above Pitcher Creek near Dorena,1,DORO3,True,False
@@ -4609,7 +4584,7 @@ NAVT2,Navasota River at SH 6 near Navasota,0,,True,False
 NAWI2,West Branch Du Page River near Naperville,0,,True,False
 NBAM2,Northwest Branch Anacostia River at Brentwood MD,0,,True,False
 NBAN4,North Branch Raritan River at North Branch Village,0,,True,False
-NBCI2,Chicago River at Chicago (Columbus Dr),0,,True,False
+NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
 NBCN1,North Blackbird Creek at Macy,0,,True,False
 NBCN7,North Buffalo Creek at Greensboro,2,BCMN7;NBUN7,True,False
 NBCT1,Browns Creek at State Fairgrounds in Nashville,0,,True,False
@@ -4621,7 +4596,7 @@ NBDN1,Platte River at North Bend,2,FREN1;SHYN1,True,False
 NBDT2,Dry Comal at Loop 337,0,,True,False
 NBFM3,Buzzards Bay at New Bedford Harbor (Inside Barrier),0,,True,False
 NBFN5,Rio Nambe at Nambe Falls Reservoir,0,,True,False
-NBGI2,North Branch Chicago River at Chicago (Grand Ave),2,CSWI2;NBPI2,True,False
+NBGI2,North Branch Chicago River at Chicago (Grand Ave),3,CSWI2;NBCI2;NBPI2,True,False
 NBGI3,Ohio River at Newburgh Lock and Dam,2,EVVI3;OWBK2,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBHN6,Schoharie Creek near North Blenheim,0,,True,False

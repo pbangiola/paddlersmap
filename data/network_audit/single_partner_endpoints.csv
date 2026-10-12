@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
-DRFI2,North Branch Chicago River at Deerfield,1,NILI2,True,False
-DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
 DRRC2,Dolores River near Rico,1,DOLC2,True,False
 DRRO3,Row River above Pitcher Creek near Dorena,1,DORO3,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
@@ -356,6 +353,7 @@ MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 NACW1,Naches River near Naches,1,CLFW1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
+NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
