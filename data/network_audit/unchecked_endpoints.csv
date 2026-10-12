@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CBCM8,Cut Bank Creek near Browning,0,,True,False
-CBCN1,Bazile Creek at Center,0,,True,False
-CBCN7,Atlantic Coast at Myrtle Grove Sound at Carolina Beach (Canal Drive),0,,True,False
-CBDF1,Cutler Bay at Deering Estate (in MHHW),0,,True,False
-CBDL1,Breton Sound Basin at Crooked Bayou near Delacroix,0,,True,False
-CBEM2,North Branch Potomac River at Cumberland,1,LUKM2,True,False
-CBFN7,Neuse River at Cherry Branch Ferry Terminal,0,,True,False
-CBGA4,Connerly Bayou at Connerly Bayou Dam 3 NE of Lake Village,0,,True,False
-CBGC2,Colorado River near Granby,3,BAKC2;CAWC2;HTSC2,True,False
-CBGN1,Republican River at Cambridge,2,MKRN1;ORNN1,True,False
-CBHN7,Calabash River at Calabash,0,,True,False
-CBII4,Cedar River below Indian Creek at Cedar Rapids,2,CEBI4;CIDI4,True,False
-CBIL1,Little Bayou D'Inde at Wright Road,0,,True,False
-CBJF1,Conch Bar Jupiter Sound (in MHHW),0,,True,False
-CBKM8,Cut Bank Creek at Cut Bank,0,,True,False
-CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
-CBLN2,Carson River below Lahontan Dam,0,,True,False
-CBLN5,Pecos River at Brantley Reservoir Dam,2,PKCN5;PSBN5,True,False
-CBLS2,Missouri River at Chamberlain,2,BBDS2;FRDS2,True,False
-CBMI1,Snake River below Milner - Combined,2,MILI1;STFI1,True,False
-CBMM8,Big Muddy Creek near Culbertson,1,BGCM8,True,False
-CBNK1,Chikaskia River near Corbin,1,BLKO2,True,False
-CBOF1,Cross Bayou South (in MHHW),0,,True,False
-CBOM6,Coffee Bogue at Coffe Bogue,0,,True,False
-CBON5,Rio Grande at Caballo Lake,2,CAAN5;EDBN5,True,False
 CBPF1,Tide Gauge at Captiva Blind Pass (In MHHW),0,,True,False
 CBPM2,Centennial Branch Little Patuxent River at Centennial Lake,0,,True,False
 CBQL1,Choupique Bayou at Highway 108,0,,True,False
@@ -184,7 +159,7 @@ CEDI4,Cedar River at Cedar Falls,3,ALOI4;JANI4;NHRI4,True,False
 CEDP1,Pine Creek at Cedar Run,0,,True,False
 CEDW3,Milwaukee River near Cedarburg,0,,True,False
 CELF1,Crescent Lake at Crescent City (in NAVD88),0,,True,False
-CEMC1,East Fork Carson River near Markleeville,0,,True,False
+CEMC1,East Fork Carson River near Markleeville,1,GRDN2,True,False
 CENI3,White River (IN) at Eagle Valley Power Plant,2,CNTI3;SPNI3,True,False
 CENI4,Cooper Creek at Centerville,0,,True,False
 CENN1,Warm Slough near Central City,0,,True,False
@@ -1425,7 +1400,7 @@ DRMO3,Deer Creek (East Oregon) near McKewen,0,,True,False
 DRMW1,Dungeness River near Mouth at Sequim,0,,True,False
 DROV2,Dan River at Robertson Bridge in Danville,0,,True,False
 DRRC2,Dolores River near Rico,0,,True,False
-DRRN2,Carson River at Deer Run Road,0,,True,False
+DRRN2,Carson River at Deer Run Road,2,FTCN2;STWN2,True,False
 DRRO3,Row River above Pitcher Creek near Dorena,0,,True,False
 DRST1,Obion River near Dresden,0,,True,False
 DRSW1,Dungeness River near Sequim,0,,True,False
@@ -2389,7 +2364,7 @@ FTBI3,Pigeon Creek (IN) above Fort Branch,0,,True,False
 FTBN7,Neuse River at Fort Barnwell,0,,True,False
 FTBV2,Clinch River at Ft Blackmore,0,,True,False
 FTCM4,Thread Creek near Flint,0,,True,False
-FTCN2,Carson River near Fort Churchill,0,,True,False
+FTCN2,Carson River near Fort Churchill,2,DRRN2;LHDN2,True,False
 FTCN6,Salmon River at Fort Covington,0,,True,False
 FTCO2,Cobb Creek at Fort Cobb Lake,0,,True,False
 FTDC1,Smith River at Dr Fine Bridge,0,,True,False
@@ -2801,7 +2776,7 @@ GRDB3,Grand River (NB) at Violette Bridge,0,,True,False
 GRDF1,Guana River below Guana River Dam (in MHHW),0,,True,False
 GRDL1,Amite River Basin at Grand Goudine on Hwy 934 near Duplessis,0,,True,False
 GRDM5,Watonwan River near Garden City,0,,True,False
-GRDN2,East Fork Carson River near Gardnerville,0,,True,False
+GRDN2,East Fork Carson River near Gardnerville,2,CEMC1;STWN2,True,False
 GRDN6,Wallkill at Gardiner,0,,True,False
 GRDP1,Brandy Run near Girard,0,,True,False
 GRDW4,Reservoirs at Gray Reef Reservoir,0,,True,False
@@ -4479,7 +4454,7 @@ LHBG1,Horton Creek below Lake Horton Dam,0,,True,False
 LHBN1,Haines Branch at Lincoln (SW 56th Street),0,,True,False
 LHCN7,"Little Hope Creek above Seneca Pl, in Madison Park",0,,True,False
 LHCW2,Little Huff Creek above Hanover,0,,True,False
-LHDN2,Carson River at Lahontan Reservoir,0,,True,False
+LHDN2,Carson River at Lahontan Reservoir,2,CBLN2;FTCN2,True,False
 LHDP1,Loyalhanna Creek above Loyalhanna Dam Tail Water,0,,True,False
 LHFA2,Lowe River above Horsetail Falls near Valdez,0,,True,False
 LHGT2,South Fork San Gabriel River at SH 1869 near Liberty Hill,0,,True,False
@@ -6047,7 +6022,7 @@ NBWC3,Lake Gaillard above Lake Gaillard - Weir,0,,True,False
 NBWL1,Amite River Basin at North Branch Ward Creek at Westminster,0,,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
-NBZN1,Bazile Creek near Niobrara,0,,True,False
+NBZN1,Bazile Creek near Niobrara,1,CBCN1,True,False
 NCAC1,New Chicago Marsh at Alviso,0,,True,False
 NCAW3,Yellow River (WI) at Necedah,2,BBCW3;CROW3,True,False
 NCBN7,Nottely River at Nottely River/Cook Bridge,0,,True,False
@@ -9305,7 +9280,7 @@ STVL1,Bayou Millhome near Stephensville,0,,True,False
 STVP1,Central PA Dams  Stevenson Dam on First Fork Sinnemahoning Creek,2,SYDP1;TGAP1,True,False
 STVW1,Columbia River at Stevenson,0,,True,False
 STWG1,Sweetwater Creek (E ATL) at Club Drive near Lilburn,0,,True,False
-STWN2,Carson River near Carson City,0,,True,False
+STWN2,Carson River near Carson City,2,DRRN2;GRDN2,True,False
 STWT1,Caney Fork at Stonewall,0,,True,False
 STWW1,Stillaguamish River near Stanwood,0,,True,False
 STXA1,Styx River near Elsanor,0,,True,False
@@ -9876,7 +9851,7 @@ TRYN6,Hudson River at Troy,2,ALBN6;WTFN6,True,False
 TRYO1,Great Miami River at Troy,0,,True,False
 TRYO3,Grande Ronde River at Troy,0,,True,False
 TRZF1,Trout Creek at Chancey Rd at Wesley Chapel,0,,True,False
-TRZN2,Carson River near Fallon,0,,True,False
+TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSBN7,Banks Channel at Topsail Beach,0,,True,False
 TSCA3,Santa Cruz River at Congress Street,0,,True,False
 TSCG1,Tucsawhatchee Creek near Hawkinsville,0,,True,False

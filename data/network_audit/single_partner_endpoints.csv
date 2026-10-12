@@ -1,9 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CBEM2,North Branch Potomac River at Cumberland,1,LUKM2,True,False
-CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
-CBMM8,Big Muddy Creek near Culbertson,1,BGCM8,True,False
-CBNK1,Chikaskia River near Corbin,1,BLKO2,True,False
 CDVI4,Cedar Creek near Lovilia Hwy H20--IFC,1,BSSI4,True,False
+CEMC1,East Fork Carson River near Markleeville,1,GRDN2,True,False
 CFMS1,Congaree River above Fort Motte,1,GADS1,True,False
 CFPL1,Mermentau River at Catfish Point Lock,1,LCSL1,True,False
 CHBW2,Shavers Fork  Cheat River at Cheat Bridge,1,BEMW2,True,False
@@ -311,6 +308,7 @@ NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
+NBZN1,Bazile Creek near Niobrara,1,CBCN1,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
@@ -519,6 +517,7 @@ TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
+TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
