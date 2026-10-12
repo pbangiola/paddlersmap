@@ -1,12 +1,10 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
-EGPA4,Cache River near Egypt,1,PTTA4,True,False
-EGRO3,Eagle Creek near Richland,1,EGCO3,True,False
 EKLA2,Eklutna Lake near Palmer,1,EFEA2,True,False
 ELFK1,Elk River (KS) at Elk Falls,1,ELAK1,True,False
 ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELKM2,Patapsco River near Elkridge below Patapsco Valley State Park,1,ERDM2,True,False
 ELRP1,Allegheny River at Eldred,1,OLNN6,True,False
+ELUC1,East Little Llagas Creek above Church Avenue,1,EGSC1,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
 EMPK1,Cottonwood River at Emporia,1,PLYK1,True,False
@@ -91,6 +89,7 @@ GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
 GNII4,Maquoketa River above Green Island,1,MAQI4,True,False
 GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
+GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
 GRGG1,Ogeechee River at GA 88 near Grange,1,MDVG1,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
@@ -173,6 +172,7 @@ KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
 KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,True,False
 KEEW1,Yakima River at Keechelus Outflow,1,KACW1,True,False
+KENO2,Cimarron River (OK) at Kenton,1,EHTK1,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False

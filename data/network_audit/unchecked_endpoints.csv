@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EGFM5,Red River of the North at Grand Forks,3,FSHM5;OSLM5;TPNN8,True,False
-EGHN7,Far Creek at Engelhard (in MLLW),0,,True,False
-EGIL1,Barataria Bay and Waterway at Barataria Pass near Grand Isle,0,,True,False
-EGLC2,Colorado River near Dotsero,3,CTBC2;GCOC2;KRMC2,True,False
-EGLN5,Cimarron River (NM) at Eagle Nest Reservoir,0,,True,False
-EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
-EGLO3,Rogue River near Eagle Point,2,LOSO3;RYGO3,True,False
-EGLV2,Laymantown Creek at Welches Run Road,0,,True,False
-EGMM8,East Gallatin River near Manhattan,0,,True,False
-EGMN7,Wilson Creek (NC) near Edgemont,0,,True,False
-EGNI4,Otter Creek at Elgin (IFC),2,BANI4;TENI4,True,False
-EGPA4,Cache River near Egypt,1,PTTA4,True,False
-EGRM8,East Gallatin River below Bridger Creek near Bozeman,0,,True,False
-EGRO3,Eagle Creek near Richland,1,EGCO3,True,False
-EGRP1,Perkiomen Creek at East Greenville,0,,True,False
-EGSC1,East Little Llagas Creek below San Martin Ave,0,,True,False
-EGYC1,East Llagas Creek above Sycamore Avenue,0,,True,False
-EGYT2,Wilbarger Creek at Elgin,0,,True,False
-EGZT2,Big Sandy Creek (TX) near Elgin,0,,True,False
-EHDC3,Hockanum River at East Hartford,0,,True,False
-EHMK2,East Hickman Creek near East Hickman,0,,True,False
-EHTK1,Cimarron River (KS) near Elkhart,0,,True,False
-EHVC3,Lake Saltonstall above Furnace Pond,0,,True,False
-EHVV1,East Branch of the Passumpsic River at East Haven,0,,True,False
-EILN7,Bogue Sound at Emerald Isle NCWRC Boat Ramp,0,,True,False
 EISI4,East Nishnabotna River near Riverton (IFC),0,,True,False
 EJJM4,Jordan River (N Lower MI) near East Jordan,0,,True,False
 EKCO2,Lake Creek (OK) near Eakley,0,,True,False
@@ -86,7 +61,7 @@ ELSW2,Twelvepole Creek at East Lynn Lake Tailwater,2,ELYW2;WAYW2,True,False
 ELTA2,Norton Sound Tide Gauge at Elim (MHHW datum),0,,True,False
 ELTI4,East Nishnabotna River near Elliott,2,ATCI4;RDOI4,True,False
 ELTT2,Beaver Creek (TX) near Electra,0,,True,False
-ELUC1,East Little Llagas Creek above Church Avenue,0,,True,False
+ELUC1,East Little Llagas Creek above Church Avenue,1,EGSC1,True,False
 ELVC1,Salsipuedes Creek at East Lake Avenue,0,,True,False
 ELVF1,Elevenmile Creek near Pensacola,0,,True,False
 ELVN5,Rio Chama at El Vado Dam,0,,True,False
@@ -624,7 +599,7 @@ FREU1,Fremont River near Bicknell,0,,True,False
 FRGC2,Fraser River (CO) at Granby,0,,True,False
 FRGF1,Frog Creek at US 41 Near Rubonia,0,,True,False
 FRGM4,Shiawassee River near Fergus,0,,True,False
-FRGO2,Cimarron River (KS) near Forgan,0,,True,False
+FRGO2,Cimarron River (KS) near Forgan,2,BFFO2;EHTK1,True,False
 FRHF1,Fenholloway River near Hampton Springs (in MHHW),0,,True,False
 FRHT2,North Texas Lakes at Lake Ray Hubbard,2,CNLT2;LVNT2,True,False
 FRIC2,Florida River above Lemon Reservoir,0,,True,False
@@ -1114,7 +1089,7 @@ GQQT2,North Texas Lakes at Squaw Creek Reservoir,0,,True,False
 GRAA1,Sipsey Fork near Grayson,0,,True,False
 GRAK2,Little Sandy River at Grayson Lake,0,,True,False
 GRAO3,Rogue River at Grants Pass,2,AGNO3;RYGO3,True,False
-GRAP1,Perkiomen Creek at Graterford,0,,True,False
+GRAP1,Perkiomen Creek at Graterford,1,EGRP1,True,False
 GRAS2,North Fork Grand River (SD) near White Butte,0,,True,False
 GRBI4,Turkey River at Garber,2,DLDI4;EKDI4,True,False
 GRBN4,Green Brook at Plainfield,0,,True,False
@@ -1512,7 +1487,7 @@ HHSF1,Halls River (In MHHW),0,,True,False
 HHSM6,Coldwater River near Coldwater River at Hernando,0,,True,False
 HHTM4,Sycamore Creek near Holt,0,,True,False
 HHWM8,Hungry Horse Reservoir  ,0,,True,False
-HIBK2,Kentucky River at High Bridge Lock,2,CPNK2;SLVK2,True,False
+HIBK2,Kentucky River at High Bridge Lock,3,CPNK2;EHMK2;SLVK2,True,False
 HIBT1,Stock Creek at Knoxville 8SSE at Martin Mill Road,0,,True,False
 HIBT2,Brazos River near Highbank,2,BBZT2;WBAT2,True,False
 HICM5,High Island Creek near Henderson,2,ARLM5;JDNM5,True,False
@@ -2310,7 +2285,7 @@ KENK1,Arkansas River at Kendall,2,DRFK1;SYRK1,True,False
 KENL1,Tangipahoa River near Kentwood,2,AMIL1;OSYM6,True,False
 KENM1,Kenduskeag Stream near Bangor,0,,True,False
 KENN3,Ashuelot River below Surry Mt. Dam,0,,True,False
-KENO2,Cimarron River (OK) at Kenton,0,,True,False
+KENO2,Cimarron River (OK) at Kenton,1,EHTK1,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KEOS1,Seneca River at Keowee Dam,2,HWDS1;JCSS1,True,False
 KEQI4,Des Moines River at Keosauqua,3,FLSI4;OTMI4;SFLM7,True,False
@@ -2999,7 +2974,7 @@ LODW3,Spring Creek at Lodi,0,,True,False
 LOFC1,Los Angeles River at Firestone,0,,True,False
 LOGG1,Brushy Fork Creek at Beaver Road near Loganville,0,,True,False
 LOGM6,Tallahatchie River at Locopolis,3,ALLM6;LMGM6;SWNM6,True,False
-LOGM8,Gallatin River at Logan,0,,True,False
+LOGM8,Gallatin River at Logan,2,EGRM8;TOSM8,True,False
 LOGN7,Second Broad River near Logan,0,,True,False
 LOGP4,Rio Loco at Las Latas,0,,True,False
 LOGW2,Guyandotte River at Logan,2,BRAW2;MNAW2,True,False
@@ -5170,7 +5145,7 @@ PARW2,Ohio River at Parkersburg,2,BEVW2;MTAO1,True,False
 PASN1,Stinking Water Creek at Palisade,0,,True,False
 PASP4,Lago Patillas,0,,True,False
 PASS1,Parr Reservoir,2,ALTS1;CARS1,True,False
-PASV1,Passumpsic River at Passumpsic,0,,True,False
+PASV1,Passumpsic River at Passumpsic,2,EHVV1;WELV1,True,False
 PATC1,San Joaquin River at Patterson,0,,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
@@ -8086,7 +8061,7 @@ TOPN2,West Walker River at Topaz Lake,2,CLEC1;HOYN2,True,False
 TOPW1,Toppenish Creek near Fort Simcoe,0,,True,False
 TORN7,Torrence Creek near Huntersville,0,,True,False
 TORW2,Coal River (WV) at Tornado,2,ASHW2;DANW2,True,False
-TOSM8,Missouri River at Toston,2,CYNM8;TFKM8,True,False
+TOSM8,Missouri River at Toston,3,CYNM8;LOGM8;TFKM8,True,False
 TOTW1,Toutle River at Tower Road near Silver Lake,0,,True,False
 TOUC1,Guadalupe River  Trout Creek,0,,True,False
 TOVP4,Rio Toa Vaca above Lago Toa Vaca,0,,True,False
@@ -8769,7 +8744,7 @@ WELC3,Housatonic River above Seymour Wellfield,0,,True,False
 WELK1,Slate Creek (KS) at Wellington,0,,True,False
 WELM3,Charles River at Wellesley,0,,True,False
 WELN6,Genesee River at Wellsville (USACE),0,,True,False
-WELV1,Connecticut River at Wells River,2,DLTN3;WLBN3,True,False
+WELV1,Connecticut River at Wells River,3,DLTN3;PASV1;WLBN3,True,False
 WELW1,Columbia River at Wells Dam,2,CHJW1;RRHW1,True,False
 WELW2,Ohio River at Wellsburg,2,SBVO1;WHLW2,True,False
 WENM1,Penobscot River at West Enfield,4,EDDM1;GRNM1;MFDM1;WLDM1,True,False
