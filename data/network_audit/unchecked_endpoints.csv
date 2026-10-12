@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ETTC1,Mattole River near Ettersburg,0,,True,False
-ETWC1,Eaton Wash at Loftus,0,,True,False
-ETWG1,Etowah River at Allatoona Dam above Cartersville,2,CTVG1;CVLG1,True,False
-EUCN6,Oneida River near Euclid,1,ECLN6,True,False
-EUCO1,Euclid Creek at South Euclid,0,,True,False
-EUDM5,RLWD Ditch 15 near Euclid (110th St SW),0,,True,False
-EUFO2,Eastern Oklahoma Lakes at Eufala Lake,0,,True,False
-EUGA4,Bayou Macon at Eudora,2,BMDL1;BMKL1,True,False
-EUGO3,Willamette River at Eugene,2,GOSO3;HARO3,True,False
-EULM5,RLWD Ditch 15 near Euclid (260th Ave SW),0,,True,False
-EURF1,Ocklawaha River at Eureka,0,,True,False
-EVAW4,Bear River at Evanston,2,BEAW4;BERU1,True,False
-EVCN6,Big Sister Creek at Evans Center,0,,True,False
-EVDA3,East Verde River near Childs,0,,True,False
-EVDT2,Neches River at Evadale,2,NSBT2;TBFT2,True,False
-EVGI2,Salt Creek (IL) at Elk Grove Village,2,ROLI2;WDSI2,True,False
-EVGV2,Big Otter River near Evington,0,,True,False
-EVMA1,Murder Creek near Evergreen,0,,True,False
-EVMS2,East Fork Vermillion River below Montrose,0,,True,False
-EVNC2,South Platte River at Eleven Mile Canyon Reservoir,0,,True,False
-EVNG1,Kiokee Creek near Evans,0,,True,False
-EVNO1,Mill Creek at Evendale,0,,True,False
-EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
-EVRM4,Muskegon River at Evart,1,CROM4,True,False
-EVSG1,Savannah River near Evans,2,CHDS1;SRAG1,True,False
 EVST2,West Central Texas Lakes at E. V. Spence Reservoir,2,BLKT2;LSWT2,True,False
 EVVI3,Ohio River at Evansville,3,HENK2;NBGI3;SPTK2,True,False
 EVWO3,Evans Creek at Wimer,0,,True,False
@@ -129,7 +104,7 @@ FCRM4,Fish Creek near Crystal,0,,True,False
 FCRM7,Flat Creek (MO) below Jenkins,0,,True,False
 FCRP1,Frankford Creek at Philadelphia,0,,True,False
 FCRS2,Flandreau Creek above Flandreau,0,,True,False
-FCSA3,Fossil Creek near Strawberry,0,,True,False
+FCSA3,Fossil Creek near Strawberry,2,EVDA3;VDTA3,True,False
 FCSI3,Fall Creek (IN) at 16th Street in Indianapolis,0,,True,False
 FCTC1,San Joaquin River above Fishermans Cut,0,,True,False
 FCTG1,Fausett Creek near Talking Rock,0,,True,False
@@ -3242,12 +3217,12 @@ MCRI2,Wabash River at Mount Carmel,5,HZNI3;LAWI2;NHRI3;PNTI3;VCNI3,True,False
 MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
 MCRM2,Maidens Choice Run at Wilhelm Park in Baltimore,0,,True,False
 MCRM4,Chippewa River near Midland,0,,True,False
-MCRO1,Mill Creek above Reading,0,,True,False
+MCRO1,Mill Creek above Reading,1,EVNO1,True,False
 MCRP1,Little Mahoning Creek at McCormick,0,,True,False
 MCRT1,Mountain Creek (TN) near Red Bank,0,,True,False
 MCSM1,Machias River at Machias (in MLLW),0,,True,False
 MCSM8,Sun River near Mill Coulee Creek nr Sun River,0,,True,False
-MCSO1,Mill Creek at East Sharon Road,0,,True,False
+MCSO1,Mill Creek at East Sharon Road,2,EVNO1;SPGO1,True,False
 MCSQ1,Lodge Creek at on Middle Ck at Sask border nr Elkwater 19SW,0,,True,False
 MCSS2,Marne Creek at Yankton,0,,True,False
 MCST1,Duck River at Manchester,0,,True,False
@@ -3986,7 +3961,7 @@ MVLO1,Lake Fork Mohican River above Mohicanville Dam,0,,True,False
 MVNC1,Los Gatos Creek at Montevina,0,,True,False
 MVOM5,Minnesota River at Montevideo,5,APPM5;GTEM5;LQPM5;MLNM5;ORTM5,True,False
 MVRA3,Cerbat Wash at State Route 68 nr Verde Rd,0,,True,False
-MVRS2,East Fork Vermillion River above Montrose,0,,True,False
+MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
 MVSA3,Virgin River at Scenic Bridge,0,,True,False
 MVSN7,Tick Creek Nr Mount Vernon Springs,0,,True,False
 MVVC1,Mojave River near Victorville,0,,True,False
@@ -7096,7 +7071,7 @@ SPGM3,Connecticut River at Springfield,2,HLYM3;TMVC3,True,False
 SPGN1,Bluestem Lake,0,,True,False
 SPGN4,Rahway River at Springfield,0,,True,False
 SPGN5,Cimarron River (NM) at Springer,2,CMMN5;TYLN5,True,False
-SPGO1,Mill Creek at Kemper,0,,True,False
+SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPGS2,Missouri River at Springfield,2,GPDN1;MRNN1,True,False
 SPHC1,Sulphur Creek at White Sulphur Springs Road,0,,True,False
 SPHF1,Fisher Creek above Hilliardville on Springhill Road,0,,True,False
@@ -8049,7 +8024,7 @@ UCAC1,Salinas River at San Lucas Bridge,2,BRDC1;KCBC1,True,False
 UCAN6,Mohawk River at Utica,2,DDMN6;LTLN6,True,False
 UCDP1,French Creek at Union City Dam,2,CBSP1;UCTP1,True,False
 UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
-UCLO1,Euclid Creek at Cleveland,0,,True,False
+UCLO1,Euclid Creek at Cleveland,1,EUCO1,True,False
 UCRA2,Chickaloon River 1.5 miles above confluence with Mystery Creek near Sterling,0,,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
@@ -8189,7 +8164,7 @@ VDCA3,Verde River above Clarkdale,2,VCVA3;VDPA3,True,False
 VDPA3,Verde River below Paulden,2,BCWA3;VDCA3,True,False
 VDRG1,Withlacoochee River near Valdosta at US 41,2,QUTG1;VDSG1,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
-VDTA3,Verde River above Horseshoe Dam,2,BRTA3;VCVA3,True,False
+VDTA3,Verde River above Horseshoe Dam,3,BRTA3;FCSA3;VCVA3,True,False
 VDWC1,Verdugo Wash at Estrella Ave.,0,,True,False
 VDZA2,Valdez at Valdez Tide Gage,0,,True,False
 VEAF1,Lover's Key Adventures (in MHHW),0,,True,False
@@ -8266,7 +8241,7 @@ VONC1,Sacramento River at Verona,3,FMWC1;NCOC1;SACC1,True,False
 VQIC1,Los Gatos Creek above Vasona Reservoir,2,LGLC1;LRKC1,True,False
 VRBA1,Coosa River at Mitchell Dam,2,CLTA1;WPKA1,True,False
 VRBU1,Virgin River near Bloomington,0,,True,False
-VRCS2,Vermillion River near Chancellor,2,DVSS2;PKRS2,True,False
+VRCS2,Vermillion River near Chancellor,3,DVSS2;PKRS2;VRPS2,True,False
 VRDN1,Niobrara River near Verdel,2,NSBN1;SPKN1,True,False
 VRGM8,Missouri River at Virgelle,3,FBNM8;LDKM8;LTRM8,True,False
 VRIL1,Vermilion River above I-10 at Lafayette,0,,True,False
@@ -8275,7 +8250,7 @@ VRNF1,Holmes Creek at Vernon (SR 79),0,,True,False
 VRNI3,Vernon Fork Muscatatuck River near Vernon,0,,True,False
 VRON4,Peckman River at Verona,0,,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
-VRPS2,East Fork Vermillion River near Parker,0,,True,False
+VRPS2,East Fork Vermillion River near Parker,2,EVMS2;VRCS2,True,False
 VRVC1,Ventura River at Foster Park,0,,True,False
 VSSM4,Cass River at Vassar,2,FRNM4;WAHM4,True,False
 VSTN6,Susquehanna River at Vestal,2,BNGN6;OWGN6,True,False

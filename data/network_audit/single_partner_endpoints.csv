@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EUCN6,Oneida River near Euclid,1,ECLN6,True,False
-EVRG1,Altamaha River near Everett City,1,DCTG1,True,False
-EVRM4,Muskegon River at Evart,1,CROM4,True,False
 FALP1,Conewago Creek near Falmouth,1,CCBP1,True,False
 FARS2,Rapid Creek near Farmingdale,1,RCVS2,True,False
 FAYI1,Fall River (WY-ID) above Yellowstone Canal near Squirrel,1,FALI1,True,False
@@ -253,6 +250,7 @@ MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
 MCKT2,East Fork Trinity River at McKinney,1,LVNT2,True,False
 MCLM6,Leaf River near McLain,1,NAGM6,True,False
 MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
+MCRO1,Mill Creek above Reading,1,EVNO1,True,False
 MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
 MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
@@ -325,6 +323,7 @@ MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
 MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
+MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
@@ -610,6 +609,7 @@ SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
+SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
@@ -683,6 +683,7 @@ TYLN1,North Loup River at Taylor,1,ORDN1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
+UCLO1,Euclid Creek at Cleveland,1,EUCO1,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
