@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HOHN4,Hohokus Brook at Ho-Ho-Kus,0,,True,False
-HOJW4,Hoback River near Jackson,0,,True,False
-HOKI4,West Fork Ditch near Hornick,0,,True,False
-HOKN7,Contentnea Creek at Hookerton,0,,True,False
-HOLG1,Holly Creek near Chatsworth,0,,True,False
-HOLL1,Tickfaw River at Holden,0,,True,False
-HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
-HOLO1,Wolf Creek (Lucas County) at Holland,0,,True,False
-HOMI3,Retention Pond in Marion County Indiana near Homecroft,0,,True,False
-HOMN8,Homme Reservoir near Park River,1,GRNN8,True,False
-HONG1,Honey Creek at GA 212 near Conyers,0,,True,False
-HONM4,Platte River (N Lower MI) at Honor,0,,True,False
-HONO3,Honey Creek (OR) near Plush,0,,True,False
-HONP1,Lackawaxen River at Honesdale,2,HWYP1;PMTP1,True,False
-HOOC1,Trinity River at Hoopa,0,,True,False
-HOOL1,Comite River at Hooper Road near Baton Rouge,0,,True,False
-HOOO1,Big Walnut Creek at Hoover Pool,2,CSCO1;SBYO1,True,False
-HOPC1,Russian River near Hopland,1,HEAC1,True,False
-HOPG1,Flint River (GA) at Riverview Plantation,3,BGEG1;ICHG1;NEWG1,True,False
-HOPI1,Lake Pend Oreille at Hope,2,ALFW1;CBBI1,True,False
-HOPM4,Rabbit River near Hopkins,0,,True,False
-HOPN6,Sacandaga River at Hope,1,SACN6,True,False
-HOPR1,Wood River at Hope Valley,0,,True,False
-HOPW1,Palouse River at Hooper,0,,True,False
-HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HORN6,Canisteo River at Hornell,2,AKLN6;WCRN6,True,False
 HORN8,Sheyenne River Diversion near Horace,0,,True,False
 HORP4,Rio Guanajibo near Hormigueros,0,,True,False
@@ -937,7 +912,7 @@ LBFT2,Little Blanco River at FM32 near Fischer,0,,True,False
 LBGM6,Bogue Phalia near Leland,0,,True,False
 LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
 LBKC1,Los Berros Creek,0,,True,False
-LBKI3,Little Buck Creek at Tibbs Ave near Indianapolis,0,,True,False
+LBKI3,Little Buck Creek at Tibbs Ave near Indianapolis,2,CNTI3;HOMI3,True,False
 LBKM8,Little Beaver Creek near Webster,0,,True,False
 LBKS2,Lake Creek (SD) below Refuge near Tuthill,0,,True,False
 LBLL1,Bayou Lafourche at Lockport,0,,True,False
@@ -1396,7 +1371,7 @@ LPHW4,Little Popo Agie River near Hudson,0,,True,False
 LPLW4,Little Popo Agie River near Lander,0,,True,False
 LPML1,Lake Pontchartrain near Mandeville,0,,True,False
 LPNT1,Little Pigeon River at Cherokee Hills (New Riverside),0,,True,False
-LPOL1,Tickfaw River at Liverpool,0,,True,False
+LPOL1,Tickfaw River at Liverpool,1,MONL1,True,False
 LPON1,Lodgepole Creek above Oliver Reservoir,0,,True,False
 LPPM8,Little Prickly Pear Creek at Wolf Creek,0,,True,False
 LPPT2,North Texas Lakes at Lake Palo Pinto,0,,True,False
@@ -1548,7 +1523,7 @@ LTTV2,Little River near DOSWELL,0,,True,False
 LTWT1,Big South Fork Cumberland River near Oneida at Leatherwood Ford,2,CFKT1;STRK2,True,False
 LTXT2,Navidad River at Lake Texana,2,CODT2;GNDT2,True,False
 LUCI1,Boise River above Lucky Peak Dam,3,ANDI1;BDDI1;BTSI1,True,False
-LUCN7,Contentnea Creek near Lucama,0,,True,False
+LUCN7,Contentnea Creek near Lucama,1,HOKN7,True,False
 LUDN6,Salmon Creek near Ludlowville,0,,True,False
 LUFT2,Angelina River near Lufkin,2,ALOT2;JSPT2,True,False
 LUIT2,Tide Station (HGX) at San Luis Pass,0,,True,False
@@ -2283,7 +2258,7 @@ MOMN1,Missouri River at Highway 92 at Omaha,2,MTLN1;OMHN1,True,False
 MONA2,[INACTIVE] Montana Creek at Parks Highway Bridge,0,,True,False
 MONA3,S Moccasin Wash at Moccasin,0,,True,False
 MONI3,Salt Creek (IN) at Monroe Lake,2,HDBI3;NFSI3,True,False
-MONL1,Tickfaw River at Montpelier,0,,True,False
+MONL1,Tickfaw River at Montpelier,2,HOLL1;LPOL1,True,False
 MONM4,River Raisin at Monroe City,2,DNDM4;GPEM4,True,False
 MONN7,Deep River near Moncure,0,,True,False
 MONO1,St. Joseph River (OH/IN) at Montpelier,0,,True,False
@@ -3858,7 +3833,7 @@ PLMT1,Obion River near Palmersville,0,,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLNS2,Cheyenne River near Plainview,4,EBSS2;ELCS2;EMSS2;WASS2,True,False
 PLOF1,Tide Station at Lora Point (in MHHW),0,,True,False
-PLOI1,Palouse River near Potlatch,0,,True,False
+PLOI1,Palouse River near Potlatch,1,HOPW1,True,False
 PLOI4,Cedar River at Palo,2,CIDI4;VINI4,True,False
 PLOL1,Pearl River at Lock #1 Chamber,0,,True,False
 PLOP4,Lago Loiza near Trujillo Alto,2,CAGP4;GURP4,True,False
@@ -6589,7 +6564,7 @@ TULN7,Tulula Creek at Robbinsville,0,,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TULS2,Turtle Creek near Tulare,0,,True,False
 TURF1,Turner River near Chokoloskee,0,,True,False
-TURI4,Little Sioux River near Turin,1,CRRI4,True,False
+TURI4,Little Sioux River near Turin,2,CRRI4;HOKI4,True,False
 TURK1,Turkey Creek (KC) at Southwest Boulevard,0,,True,False
 TUSW2,Tuscarora Creek above Martinsburg,0,,True,False
 TVCA3,Tanque Verde Creek near Sabino Canyon Rd.,0,,True,False
@@ -7159,7 +7134,7 @@ WFLC2,Williams Fork (CO) near Leal,0,,True,False
 WFLF1,Withlacoochee River at Floral City (in NAVD88),2,PNLF1;WYSF1,True,False
 WFLN6,Chautauqua Creek near Westfield,0,,True,False
 WFLO2,Eastern Oklahoma Lakes at Webbers Falls Lock and Dam,0,,True,False
-WFMI4,West Fork Ditch at Moville,0,,True,False
+WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
 WFON8,Sheyenne River at West Fargo Diversion,0,,True,False
 WFPC1,West Fork Permanente Creek below Deer Farm,0,,True,False
 WFRA1,Tide Gauge at West Fowl River Bridge (IN MHHW),0,,True,False

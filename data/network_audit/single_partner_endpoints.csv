@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
-HOMN8,Homme Reservoir near Park River,1,GRNN8,True,False
-HOPC1,Russian River near Hopland,1,HEAC1,True,False
-HOPN6,Sacandaga River at Hope,1,SACN6,True,False
-HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOSC1,San Benito River at below Hospital Rd Bridge near Hollister,1,PIIC1,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
@@ -145,6 +140,7 @@ LOPO3,Reservoir at Lookout Point nr Lowell,1,DEXO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
 LOWM3,Merrimack River at Lowell,1,NSHN3,True,False
 LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
+LPOL1,Tickfaw River at Liverpool,1,MONL1,True,False
 LPRC1,Los Padres Dam  ,1,RDRC1,True,False
 LPRN1,Platte River at La Platte,1,LOUN1,True,False
 LRRC1,San Lorenzo River (CA) at Santa Cruz,1,BTEC1,True,False
@@ -155,6 +151,7 @@ LSFT2,West Central Texas Lakes at Lake Stamford,1,HAWT2,True,False
 LTAW4,Blacks Fork near Little America,1,BNRU1,True,False
 LTCW1,Green River (WA) above Twin Camp,1,HHDW1,True,False
 LTIN7,Little Tennessee River near IOTLA,1,NEEN7,True,False
+LUCN7,Contentnea Creek near Lucama,1,HOKN7,True,False
 LVLO2,Skeleton Creek near Lovell,1,ESCO2,True,False
 LVMC2,Leavenworth Creek (CO) above Georgetown,1,CWCC2,True,False
 LVOM5,Lake Vermilion Water Level at Outlet near Buyck ,1,BYCM5,True,False
@@ -419,6 +416,7 @@ PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
+PLOI1,Palouse River near Potlatch,1,HOPW1,True,False
 PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
 PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
 PMZM7,Middle Fork Salt River near Holliday,1,CPZM7,True,False
@@ -694,7 +692,6 @@ TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
 TTZM7,Thompson River (IA/MO) near Trenton,1,DVSI4,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
-TURI4,Little Sioux River near Turin,1,CRRI4,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TYLN1,North Loup River at Taylor,1,ORDN1,True,False
@@ -751,6 +748,7 @@ WETN4,Millstone River at Weston,1,BKWN4,True,False
 WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
 WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
+WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
 WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
