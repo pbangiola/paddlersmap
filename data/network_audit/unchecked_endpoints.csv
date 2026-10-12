@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HORN6,Canisteo River at Hornell,2,AKLN6;WCRN6,True,False
-HORN8,Sheyenne River Diversion near Horace,0,,True,False
-HORP4,Rio Guanajibo near Hormigueros,0,,True,False
-HORT1,Horse Creek near Savannah 2SE,0,,True,False
-HORT2,West Central Texas Lakes at Hords Creek Lake,2,LKCT2;OHIT2,True,False
-HORW1,Hoh River near Forks,0,,True,False
-HOSC1,San Benito River at below Hospital Rd Bridge near Hollister,1,PIIC1,True,False
-HOTI1,Bruneau River at Hot Springs,2,BRON2;EFBI1,True,False
-HOTS2,Fall River (SD) at Hot Springs,0,,True,False
-HOUC1,North Fork Cache Creek above Hough Springs,0,,True,False
-HOUH1,Honouliuli Stream near Kunia,0,,True,False
-HOUM5,Root River (MN) at Houston,2,GENW3;RSFM5,True,False
-HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
-HOVA1,Cahaba River Near Hoover,0,,True,False
-HOWF1,Howell Creek at 434 near Oviedo,0,,True,False
-HOWW3,Duck Creek (WI) at Howard,0,,True,False
-HOXM4,Pine River (N Lower MI) near Hoxeyville,0,,True,False
-HOYM2,Youghiogheny River at Hoyes,0,,True,False
-HOYN2,West Walker River at Hoye Bridge nr Wellington,2,TOPN2;WWHN2,True,False
-HPAV2,Unnamed Tributary at Huntington Ponding Area,0,,True,False
-HPBA2,Hooper Bay Tide Gage (MHHW datum),0,,True,False
-HPCV2,Hell Point Creek at Sandbridge Road,0,,True,False
-HPDT2,Brazos River near Hempstead,4,BAWT2;BBZT2;NGET2;SOMT2,True,False
-HPGA4,St. Francis River at Huxtable,0,,True,False
-HPGL1,Mississippi River at Head of Passes,2,CKBL1;WBOL1,True,False
 HPIC1,Merced River at Happy Isles,0,,True,False
 HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
@@ -181,7 +156,7 @@ HWCF1,Howard Creek Near Sarasota,0,,True,False
 HWCM8,Hanging Woman Creek near Birney (Closed Gauge),0,,True,False
 HWCW2,Howard Creek at White Sulphur Springs,0,,True,False
 HWDI4,Big Sioux River above Hawarden,2,AKRI4;FVWS2,True,False
-HWDN8,Sheyenne River at Harwood,4,AMEN8;HILN8;MAPN8;WSFN8,True,False
+HWDN8,Sheyenne River at Harwood,5,AMEN8;HILN8;MAPN8;WFON8;WSFN8,True,False
 HWDS1,Savannah River at Lake Hartwell,2,HRTG1;KEOS1,True,False
 HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
 HWLT2,Clear Fork Brazos River at Hawley,2,NGTT2;ROYT2,True,False
@@ -4586,7 +4561,7 @@ RMMV2,South River AT McMullen Mill,0,,True,False
 RMOT2,Brazos River at Richmond,2,BAWT2;SLNT2,True,False
 RMRP1,Allegheny River at Rimer Lock and Dam,2,MOSP1;PARP1,True,False
 RMRV2,Murray Run at Fishburn Park in Roanoke,0,,True,False
-RMSC1,Cache Creek at Rumsey Bridge,2,CLKC1;YLOC1,True,False
+RMSC1,Cache Creek at Rumsey Bridge,3,CLKC1;HOUC1;YLOC1,True,False
 RMSN7,Deep River at Ramseur,0,,True,False
 RMYT2,Trinity River near Romayor,2,GRIT2;LBYT2,True,False
 RMZG1,Reed Creek near Martinez,0,,True,False
@@ -7135,7 +7110,7 @@ WFLF1,Withlacoochee River at Floral City (in NAVD88),2,PNLF1;WYSF1,True,False
 WFLN6,Chautauqua Creek near Westfield,0,,True,False
 WFLO2,Eastern Oklahoma Lakes at Webbers Falls Lock and Dam,0,,True,False
 WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
-WFON8,Sheyenne River at West Fargo Diversion,0,,True,False
+WFON8,Sheyenne River at West Fargo Diversion,2,HORN8;HWDN8,True,False
 WFPC1,West Fork Permanente Creek below Deer Farm,0,,True,False
 WFRA1,Tide Gauge at West Fowl River Bridge (IN MHHW),0,,True,False
 WFRC2,Williams Fork (CO) below Williams Fork Reservoir,0,,True,False
@@ -7327,7 +7302,7 @@ WLRV1,Wells River at Wells River,0,,True,False
 WLSH1,Waimanalo Stream near Waimanalo,0,,True,False
 WLSI2,Flag Creek near Willow Springs,0,,True,False
 WLSK1,Saline River (KS) at Wilson Lake,0,,True,False
-WLSM4,Manistee River near Wellston (Tippy Dam),1,MSKM4,True,False
+WLSM4,Manistee River near Wellston (Tippy Dam),2,HOXM4;MSKM4,True,False
 WLSS1,Saluda River near WILLIAMSTON,2,WEPS1;WSHS1,True,False
 WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WLTN6,White Brook (NY) near White Brook near Wilmington NY,0,,True,False

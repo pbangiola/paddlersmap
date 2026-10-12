@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HOSC1,San Benito River at below Hospital Rd Bridge near Hollister,1,PIIC1,True,False
-HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
@@ -773,7 +771,6 @@ WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
 WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
 WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
 WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
-WLSM4,Manistee River near Wellston (Tippy Dam),1,MSKM4,True,False
 WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
