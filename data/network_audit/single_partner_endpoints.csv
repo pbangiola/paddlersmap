@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
-LBSM8,Little Bighorn River at State Line near Wyola,1,HRDM8,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
 LCBT2,Wolf Creek at Lipscomb,1,GAWO2,True,False
 LCLT2,North Texas Lakes at Lake Pat Cleburne,1,BUMT2,True,False
@@ -216,6 +214,7 @@ NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFPV2,NF Pound River above Pound,1,PICV2,True,False
 NFSI3,North Fork Salt Creek (IN) at Nashville,1,MONI3,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
+NGKP4,Rio Blanco at Florida,1,LBLP4,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
@@ -549,6 +548,7 @@ SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPDN1,Cedar River near Spalding,1,FULN1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
+SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False

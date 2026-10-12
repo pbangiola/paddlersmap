@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LBFM8,Little Blackfoot River near Garrison 1SE,0,,True,False
-LBFT2,Little Blanco River at FM32 near Fischer,0,,True,False
-LBGM6,Bogue Phalia near Leland,0,,True,False
-LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
-LBKC1,Los Berros Creek,0,,True,False
-LBKI3,Little Buck Creek at Tibbs Ave near Indianapolis,2,CNTI3;HOMI3,True,False
-LBKM8,Little Beaver Creek near Webster,0,,True,False
-LBKS2,Lake Creek (SD) below Refuge near Tuthill,0,,True,False
-LBLL1,Bayou Lafourche at Lockport,0,,True,False
-LBLP4,Lago Blanco near Naguabo,0,,True,False
-LBMN7,Lynn Branch at MacDonald Woods Park,0,,True,False
-LBNN8,Sheyenne River at Lisbon,2,FRSN8;GOLN8,True,False
-LBRG1,Ocmulgee River at Lumber City,2,ABBG1;CHRG1,True,False
-LBRI3,Little Blue River (IN) at Walkerville,0,,True,False
-LBRM5,South Branch Two Rivers River at Lake Bronson Dam,2,LKBM5;TRPM5,True,False
-LBRM7,Reservoirs at Long Branch Reservoir,0,,True,False
-LBRN7,Lumber River at Lumberton,2,LMBN7;LUMN7,True,False
-LBSL1,Bayou Liberty near Slidell,0,,True,False
-LBSM6,Big Sunflower River at Lombardy,2,BSCM6;MRGM6,True,False
-LBSM8,Little Bighorn River at State Line near Wyola,1,HRDM8,True,False
-LBST1,Spring Creek below Lebanon,0,,True,False
-LBTM6,Lobutcha Creek near Renfroe/Carthage,0,,True,False
-LBTV2,Unnamed Tributary at Lake Barton in Burke,0,,True,False
-LBUL1,Bayou Dorcheat at Lake Bistineau,0,,True,False
-LBUT2,Linnville Bayou at FM 521 near Cedar Lane,0,,True,False
 LBUV2,Limestone Branch near Leesburg,0,,True,False
 LBVC1,Los Berros Creek,0,,True,False
 LBVT1,Buffalo River near Lobelville,0,,True,False
@@ -48,7 +23,7 @@ LCEV2,Little Creek at East Beach Marina (IN MLLW),0,,True,False
 LCFF1,Livingston Creek at School Bus Rd Near Frostproof,0,,True,False
 LCFT2,Leon Creek at I-10 and Loop 1604,0,,True,False
 LCGK1,Marais Des Cygnes River at La Cygne,0,,True,False
-LCGM6,Big Sunflower River at Little Calio Lndg (belzoni),3,ANGM6;SNFM6;SUNM6,True,False
+LCGM6,Big Sunflower River at Little Calio Lndg (belzoni),4,ANGM6;LBGM6;SNFM6;SUNM6,True,False
 LCHA1,Little Choctawhatchee River near Dothan,0,,True,False
 LCHL1,Calcasieu River at Saltwater Barrier,3,CGFL1;LCLL1;LCRL1,True,False
 LCHM2,Western Run at Mount Washington in Baltimore,0,,True,False
@@ -673,7 +648,7 @@ LWOI1,Little Wood River above High 5 Creek,0,,True,False
 LWRG1,Alcovy River near Lawrenceville,1,ALCG1,True,False
 LWRI1,Eastern Idaho Reservoirs at Little Wood Reservoir,0,,True,False
 LWRK1,Kansas River at Lawrence,2,DSOK1;LCPK1,True,False
-LWRS2,Little White River below White River,0,,True,False
+LWRS2,Little White River below White River,2,OACS2;RSBS2,True,False
 LWSD1,Delaware Bay at Lewes (IN MLLW),0,,True,False
 LWSN6,Rondout Creek Near Lowes Corner,0,,True,False
 LWSP1,Juniata River at Lewistown,2,MPLP1;NPTP1,True,False
@@ -1279,7 +1254,7 @@ MNCG1,Mountaintown Creek at GA 282 near Ellijay,0,,True,False
 MNDA2,Mendenhall River near Auke Bay,2,JSBA2;MNBA2,True,False
 MNEA2,Mendenhall River Below Montana Creek near Auke Bay,2,MNAA2;MNBA2,True,False
 MNEI4,Mosquito Creek near Neola (IFC),0,,True,False
-MNEL1,Bayou Dorcheat at Dixie Inn,0,,True,False
+MNEL1,Bayou Dorcheat at Dixie Inn,2,LBUL1;SPHL1,True,False
 MNFK2,North Fork Triplett Creek near Morehead,0,,True,False
 MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
 MNGI2,Fox River at Montgomery,3,BMCI2;SELI2;YKVI2,True,False
@@ -1914,7 +1889,7 @@ NGET2,Navasota River near Normangee,2,EAST2;HPDT2,True,False
 NGFM3,Quinsigamond River at North Grafton,0,,True,False
 NGIL1,Barataria Bay and Waterway at 13NNE Grand Isle,2,DOSL1;GTEL1,True,False
 NGIP4,Rio Icacos near Naguabo,0,,True,False
-NGKP4,Rio Blanco at Florida,0,,True,False
+NGKP4,Rio Blanco at Florida,1,LBLP4,True,False
 NGLM2,North Glade Run near Swanton,0,,True,False
 NGRF1,Gordon River near Naples Airport (in MHHW),0,,True,False
 NGRN6,Northrup Creek at North Greece,0,,True,False
@@ -2220,7 +2195,7 @@ NZNN1,Niobrara River near Nenzel 8S,0,,True,False
 OAAN1,Lake Zorinsky,0,,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OACA3,Oak Creek (AZ) at Page Springs near Cornville,2,DBVA3;OAKA3,True,False
-OACS2,White River (NE-SD) near Oacoma,2,FRDS2;WHRS2,True,False
+OACS2,White River (NE-SD) near Oacoma,3,FRDS2;LWRS2;WHRS2,True,False
 OADI3,Tippecanoe River below Oakdale Dam,2,DLPI3;OAKI3,True,False
 OAHN1,Glenn Cunningham Dam,0,,True,False
 OAKA3,Oak Creek (AZ) at Sedona,1,OACA3,True,False
@@ -3810,7 +3785,7 @@ RRZF1,Santa Fe River at River Rise near High Springs (in NAVD88),2,HSPF1;OLPF1,T
 RSAM6,Homochitto River at Rosetta,1,EDDM6,True,False
 RSBC1,San Joaquin River below HWY 145,0,,True,False
 RSBO3,South Umpqua River at Roseburg,0,,True,False
-RSBS2,Little White River near Rosebud,0,,True,False
+RSBS2,Little White River near Rosebud,2,LWRS2;VTLS2,True,False
 RSCC1,Ross Creek at Cherry Avenue,0,,True,False
 RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
@@ -4060,7 +4035,7 @@ SBTN4,Manahawkin Bay at Ship Bottom (IN MLLW),0,,True,False
 SBUI2,Saline Branch above Urbana,0,,True,False
 SBUM8,Swiftcurrent Creek at Sherburne Reservoir near Babb,2,MGGM8;SCSM8,True,False
 SBUT2,Sabinal River at Utopia,0,,True,False
-SBVI3,Big Blue River (IN) at Shelbyville,2,CARI3;DREI3,True,False
+SBVI3,Big Blue River (IN) at Shelbyville,3,CARI3;DREI3;LBRI3,True,False
 SBVO1,Ohio River at Steubenville,2,NCUW2;WELW2,True,False
 SBXC1,Sespe Creek above Bear Creek,0,,True,False
 SBYC3,Pomperaug River above Southbury,0,,True,False
@@ -4767,7 +4742,7 @@ SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPGS2,Missouri River at Springfield,2,GPDN1;MRNN1,True,False
 SPHC1,Sulphur Creek at White Sulphur Springs Road,0,,True,False
 SPHF1,Fisher Creek above Hilliardville on Springhill Road,0,,True,False
-SPHL1,Bayou Dorcheat near Springhill,0,,True,False
+SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
 SPHN7,Tar River at NC581 Nr Spring Hope,0,,True,False
 SPHW1,Stillaguamish River at Pioneer Hwy,0,,True,False
 SPIF1,Tide Station at Shell Point Canal (in MHHW),0,,True,False
@@ -5949,7 +5924,7 @@ VSTN6,Susquehanna River at Vestal,2,BNGN6;OWGN6,True,False
 VSTV2,South Fork Holston River near Damascus,3,DMCV2;SHDT1;SHLV2,True,False
 VSUV2,South River at Vesuvius,1,CRNV2,True,False
 VTBT2,Tide Gauge above Viola Turning Basin,0,,True,False
-VTLS2,Little White River near Vetal,0,,True,False
+VTLS2,Little White River near Vetal,2,LBKS2;RSBS2,True,False
 VTPK2,West Hickman Creek at Veterans Park,0,,True,False
 VTRC1,Ventura River at Santa Ana Blvd.,0,,True,False
 VWBC1,Sacramento River at Vina-Woodson Bridge,3,DCVC1;HAMC1;TEHC1,True,False
@@ -6432,7 +6407,7 @@ WLVT1,Waldens Creek 6WSW Pigeon Forge (Little Valley),0,,True,False
 WLWA2,Willow Creek near Willow,0,,True,False
 WLWI1,Willow Creek (Eastern ID) near Spring Crk Ranch Nr Bellevue,0,,True,False
 WLWK2,Kentucky River at Lock 13 near Willow,2,HLDK2;RAVK2,True,False
-WMBT2,Blanco River at Wimberley,2,BFST2;HFXT2,True,False
+WMBT2,Blanco River at Wimberley,3,BFST2;HFXT2;LBFT2,True,False
 WMCA2,Wiseman Creek at Wiseman,0,,True,False
 WMCI3,Tippecanoe River at Winamac,2,BLOI3;ORAI3,True,False
 WMDC1,Walnut Creek at Marsh Drive,0,,True,False
