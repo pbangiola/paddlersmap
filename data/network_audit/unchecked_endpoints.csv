@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FALT2,Rio Grande at Falcon Lake,2,BFAT2;PLXT2,True,False
-FARC1,Truckee River at Farad,3,BCVC1;DCHC1;MOGN2,True,False
-FARI3,Retention Pond in Marion County Indiana at Farleys Addition in Indianapolis,0,,True,False
-FARN4,North Branch Raritan River near Far Hills,0,,True,False
-FARO1,Unnamed Tributary near Lost Creek near Farmer,0,,True,False
-FARS2,Rapid Creek near Farmingdale,1,RCVS2,True,False
-FATW3,Rock River at Fort Atkinson,2,JFFW3;NVLW3,True,False
-FAVM2,Conococheague Creek at Fairview,0,,True,False
-FAXC1,Fairfax Creek at RVFD Station 21,0,,True,False
-FAYI1,Fall River (WY-ID) above Yellowstone Canal near Squirrel,1,FALI1,True,False
-FAYN7,Cape Fear River at Fayetteville,2,LLLN7;STPN7,True,False
-FBCF1,Fort Walton Beach (In MHHW),0,,True,False
-FBCT2,Cummins Creek at Frelsburg,0,,True,False
-FBFF1,Flamingo at Florida Bay,0,,True,False
-FBFL1,Bogue Falaya River near Folsom,1,CGSL1,True,False
-FBFO2,Washita River near Foss,2,CLIO2;FOSO2,True,False
-FBFV2,Burkes Fork at Bolt Mill RD Near Dugspur,0,,True,False
-FBGM3,North Nashua River at Fitchburg,0,,True,False
-FBGM5,Crooked Creek at Freeburg,0,,True,False
-FBKT2,Big Blue Creek 6NNW Fritch,0,,True,False
-FBLC1,Feather River at Boyd's Landing,0,,True,False
-FBLF1,Inundation Sensor at Fort Myers Beach,0,,True,False
-FBLN7,Lumber River at Fairbluff,2,BRDN7;NICS1,True,False
-FBML1,French Branch near Slidell,0,,True,False
-FBNG1,Chattahoochee River near Fairburn,3,CHAG1;VING1;WHTG1,True,False
 FBNM8,Missouri River at Fort Benton,2,GFLM8;VRGM8,True,False
 FBPV2,Flat Branch at Ben Lomond Park,0,,True,False
 FCBP1,Fishing Creek at Bloomsburg,0,,True,False
@@ -825,7 +800,7 @@ GRGM8,Grinnell Creek near Many Glacier,0,,True,False
 GRHC2,Groundhog Reservoir,0,,True,False
 GRHT2,Guadalupe River above Bear Creek at Kerrville,2,HNTT2;KRRT2,True,False
 GRHV2,Reed Creek at Grahams Forge,0,,True,False
-GRIC1,Feather River at Gridley,0,,True,False
+GRIC1,Feather River at Gridley,1,YWPC1,True,False
 GRIN1,Platte River near Grand Island,2,DNCN1;KEAN1,True,False
 GRIN7,Grindle Creek near Stokes,0,,True,False
 GRIT2,Trinity River near Goodrich,2,LVDT2;RMYT2,True,False
@@ -2650,7 +2625,7 @@ LNRK1,N F Solomon River at Lenora,0,,True,False
 LNRV2,Little Nottoway River at Rt 49 near Crewe,0,,True,False
 LNRW1,Little Naches River near Nile,0,,True,False
 LNSC2,Saint Vrain Creek at Lyons,0,,True,False
-LNSI4,Mississippi River at Lansing - Pool 9,4,DCHI4;DWCI4;GENW3;LYNW3,True,False
+LNSI4,Mississippi River at Lansing - Pool 9,5,DCHI4;DWCI4;FBGM5;GENW3;LYNW3,True,False
 LNSK1,Smoky Hill River at Lindsborg,2,KANK1;MTRK1,True,False
 LNSM4,Grand River at Lansing,2,DMDM4;GDLM4,True,False
 LNSM5,South Branch Root River at Lanesboro,2,PTNM5;RSFM5,True,False
@@ -3702,7 +3677,7 @@ MRHC1,Marsh Creek at March Creek Fire,0,,True,False
 MRHO1,Lake Erie near Marblehead,0,,True,False
 MRHO3,McKenzie River above Hayden Bridge at Springfield,2,MCZO3;MRGO3,True,False
 MRIC2,South Platte River at Merino,0,,True,False
-MRIT2,Canadian River at Lake Meredith,2,AMAT2;CDNT2,True,False
+MRIT2,Canadian River at Lake Meredith,3,AMAT2;CDNT2;FBKT2,True,False
 MRKF1,St. Marks River at St. Marks (in MHHW),0,,True,False
 MRLI4,Floyd River at Merrill,2,JMEI4;LMRI4,True,False
 MRLL1,Bayou Des Glaises Diversion Ch near Moreauville,0,,True,False
@@ -4008,7 +3983,7 @@ NAVF1,Navarre Beach Gulf of America (In MHHW),0,,True,False
 NAVT2,Navasota River at SH 6 near Navasota,0,,True,False
 NAWI2,West Branch Du Page River near Naperville,0,,True,False
 NBAM2,Northwest Branch Anacostia River at Brentwood MD,0,,True,False
-NBAN4,North Branch Raritan River at North Branch Village,0,,True,False
+NBAN4,North Branch Raritan River at North Branch Village,2,FARN4;RRTN4,True,False
 NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
 NBCN1,North Blackbird Creek at Macy,0,,True,False
 NBCN7,North Buffalo Creek at Greensboro,2,BCMN7;NBUN7,True,False
@@ -4071,7 +4046,7 @@ NCMA2,National Creek near McCarthy,0,,True,False
 NCMK1,Smoky Hill River near New Cambria,2,ABIK1;MTRK1,True,False
 NCMM5,Mustinka River near Norcross (MN9),0,,True,False
 NCNC1,Napa River at Downtown Napa,0,,True,False
-NCOC1,Feather River at Nicolaus,2,BRWC1;VONC1,True,False
+NCOC1,Feather River at Nicolaus,3,BRWC1;FBLC1;VONC1,True,False
 NCOF1,North Creek at the Oaks G.C.,0,,True,False
 NCRG1,Chattahoochee River at Highway 141 near Norcross,2,RWLG1;WSWG1,True,False
 NCRK1,Sappa Creek near Norcatur,2,BVSN1;OBNK1,True,False
@@ -6057,7 +6032,7 @@ RRPI3,White River (IN) at Rocky Ripple,2,BBDI3;IMAI3,True,False
 RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
 RRRN5,Rio Hondo at Diamond A Dam,0,,True,False
 RRSM7,Roaring River near Roaring River State Park,0,,True,False
-RRTN4,North Branch Raritan River near Raritan,0,,True,False
+RRTN4,North Branch Raritan River near Raritan,2,NBAN4;SBRN4,True,False
 RRUV2,Rapidan River At U.S. 15,0,,True,False
 RRVA2,Robe River near Valdez,0,,True,False
 RRVI1,Raft River above One Mile Creek,0,,True,False
@@ -6303,7 +6278,7 @@ SBPT2,near Sabine Pass,1,COWT2,True,False
 SBRC1,Salmon River at Somes Bar,0,,True,False
 SBRF1,Carter Creek at Arbuckle Creek Rd Near Sebring,0,,True,False
 SBRN1,North Platte River at Scottsbluff,2,MICN1;MNTN1,True,False
-SBRN4,North Branch Raritan River at South Branch,0,,True,False
+SBRN4,North Branch Raritan River at South Branch,1,RRTN4,True,False
 SBRN7,Snowbird Creek near Milltown,0,,True,False
 SBRO3,S Fk Bull Run River near Bull Run,0,,True,False
 SBRS1,Sawmill Branch near Summerville,0,,True,False
@@ -7609,7 +7584,7 @@ THDN1,Dismal River near Thedford,0,,True,False
 THET2,Nueces River near Three Rivers,2,GWNT2;TILT2,True,False
 THFO3,Powder River (OR) below Thief Valley Reservoir,0,,True,False
 THHF1,Tomoka River near Holly Hill,0,,True,False
-THLC1,Lake Tahoe at Tahoe City,0,,True,False
+THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
 THMF1,Thomas Creek (in NAVD88),0,,True,False
 THMW2,New River at Thurmond,2,HINW2;HNNW2,True,False
 THNI2,Thorn Creek at Thornton,2,CDCI2;SHLI2,True,False
@@ -7804,7 +7779,7 @@ TRBA2,Tolovana River below Rosebud Creek near Livengood,0,,True,False
 TRBC2,Taylor River below Taylor Park Resv.,0,,True,False
 TRBF1,Withlacoochee River at US 301 Trilby (in NAVD88),2,RITF1;WDAF1,True,False
 TRBO3,McKenzie River below Trail Bridge Dam,0,,True,False
-TRCC1,Truckee River near Truckee,0,,True,False
+TRCC1,Truckee River near Truckee,2,FARC1;TRTC1,True,False
 TRCI4,Des Moines River near Tracy,2,EDYI4;RRDI4,True,False
 TRCK1,Hackberry Creek near Trego Center 9WSW,0,,True,False
 TRCL1,Tchefuncte River near Three Rivers at Covington,2,CUSL1;MSVL1,True,False
@@ -7858,7 +7833,7 @@ TRSM5,Tamarac River near Stephen (CSAH22),0,,True,False
 TRSO3,Thomas Creek near Scio,0,,True,False
 TRST2,North Wichita River near Truscott,0,,True,False
 TRTA2,Talkeetna River near Talkeetna,0,,True,False
-TRTC1,Truckee River at Tahoe City,0,,True,False
+TRTC1,Truckee River at Tahoe City,2,THLC1;TRCC1,True,False
 TRTG1,Tallulah River above Plum Orchard Rd 6 NW Tiger,0,,True,False
 TRTL1,Tangipahoa River near Tickfaw,0,,True,False
 TRTN7,Trent River at Trenton,2,PLLN7;TNTN7,True,False
@@ -9097,7 +9072,7 @@ YUKO2,North Canadian River near Yukon,2,ELNO2;OVRO2,True,False
 YUMW1,Yakima River at Cle Elum,2,EASW1;HLKW1,True,False
 YVLP1,Brokenstraw Creek at Youngsville,0,,True,False
 YWGM6,Yalobusha River at Whaley,2,GREM6;UHGM6,True,False
-YWPC1,Feather River at Yuba City Water Treatment Plant,0,,True,False
+YWPC1,Feather River at Yuba City Water Treatment Plant,2,FBLC1;GRIC1,True,False
 YWRQ9,Yukon River above White River-Yukon Territory,2,PRXQ9;YDAQ9,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZACT2,Zacate Creek at Laredo,0,,True,False
