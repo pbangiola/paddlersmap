@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HCTW1,Hangman/Latah Creek near Tekoa,1,HAGW1,True,False
-HDCG1,Chattahoochee River at Helen,1,DCNG1,True,False
 HFDC3,Connecticut River at Hartford,1,TMVC3,True,False
 HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HGBT2,Greens Bayou near Houston,1,GBHT2,True,False
@@ -21,6 +19,7 @@ HOGW4,Encampment River near Encampment,1,ECRW4,True,False
 HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
 HOMN8,Homme Reservoir near Park River,1,GRNN8,True,False
 HOPC1,Russian River near Hopland,1,HEAC1,True,False
+HOPN6,Sacandaga River at Hope,1,SACN6,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
@@ -48,6 +47,7 @@ IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
 IBOM5,St. Louis River near Skibo,1,FOBM5,True,False
 ICLI4,Nodaway River at Clarinda,1,BRLM7,True,False
 IDAP1,Crooked Creek at Idaho,1,CRCP1,True,False
+IMBA4,Spring River (AR) at Imboden,1,HDYA4,True,False
 INCO1,Indian Creek at Macedonia,1,BWCO1,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IRNM7,Big River at Irondale,1,RCHM7,True,False
@@ -307,6 +307,7 @@ NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
 NFBT2,"North Fork San Gabriel River at 243 near Briggs, TX",1,GNRT2,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFPV2,NF Pound River above Pound,1,PICV2,True,False
+NFSI3,North Fork Salt Creek (IN) at Nashville,1,MONI3,True,False
 NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
 NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
