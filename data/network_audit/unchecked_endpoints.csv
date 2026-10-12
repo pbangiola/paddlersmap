@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GCCT2,Culebra Creek at GCSNA near Helotes,0,,True,False
-GCDW1,Columbia River above Grand Coulee Dam,2,CHJW1;CIBW1,True,False
-GCEF1,St. Johns River at Shands Bridge (in MHHW),0,,True,False
-GCEM2,Gunpowder Falls at Glencoe,0,,True,False
-GCEN8,James River near Grace City,0,,True,False
-GCGA2,Glacier Creek at Alyeska Highway at Girdwood,0,,True,False
-GCGC1,Garnett Creek at Greenwood Avenue,0,,True,False
-GCJA2,Gold Creek at Juneau,0,,True,False
-GCKK1,Arkansas River at Garden City,2,DDCK1;DRFK1,True,False
-GCKN7,Goose Creek at Hwy 1524 nr Indian Trail,0,,True,False
-GCMA2,Greens Creek at Greens Creek Mine near Juneau,0,,True,False
-GCMW4,Granite Creek (WY) near Moose,0,,True,False
-GCOA2,Glacier River Tributary near Cordova,0,,True,False
-GCOC2,Colorado River below Glenwood Springs,3,CAMC2;EGLC2;GWSC2,True,False
-GCOS2,Grace Coolidge Creek near Custer,0,,True,False
-GCPF1,Gamble Creek at County Road 675 Near Parrish,0,,True,False
-GCPN2,Galena Creek at Galena Creek St Park,0,,True,False
-GCPW2,Cacapon River near Great Cacapon,0,,True,False
-GCRA3,Granite Creek at Prescott,0,,True,False
-GCRP4,Rio Guayanes at Central Roig,0,,True,False
-GCRT1,Goose Creek near Hartsville,0,,True,False
-GCSA2,Susitna River at Gold Creek,0,,True,False
-GCST2,Geronimo Creek near Seguin 2NE,0,,True,False
-GCTT2,Guadalupe River near Centerpoint,2,COMT2;KRRT2,True,False
-GCVF1,St. Johns River at Shands Bridge,0,,True,False
 GCVO3,Gate Creek at Vida,0,,True,False
 GCWC2,Grape Creek near Westcliffe,0,,True,False
 GCYG1,Savannah River at Garden City (IN MLLW),2,PWNG1;SVDG1,True,False
@@ -1288,12 +1263,12 @@ JLMV2,James River at Leeward Marina (IN MLLW),0,,True,False
 JLNW3,Creek 22-15 near Leon - County Road J,0,,True,False
 JMCC2,John Martin Reservoir at Caddoa,0,,True,False
 JMCF1,Tide Gauge at St. James City (in MHHW),0,,True,False
-JMDN8,James River at Jamestown Dam,0,,True,False
+JMDN8,James River at Jamestown Dam,2,JMSN8;KSLN8,True,False
 JMEI4,Floyd River at James,1,MRLI4,True,False
 JMLN7,Johnsons Mill Run near Greenville,0,,True,False
 JMPN7,Atlantic Coast at Johnnie Mercers Pier at Wrightsville Beach (MLLW),0,,True,False
 JMSK1,Buffalo Creek (KS River Basin) at Jamestown,0,,True,False
-JMSN8,James River at Jamestown,0,,True,False
+JMSN8,James River at Jamestown,2,JMDN8;LAMN8,True,False
 JMSP1,Shenango River below Pymatuning Dam at Jamestown,0,,True,False
 JNAF1,Alapaha River near Jennings (in NAVD88),2,ELLF1;STNG1,True,False
 JNCK1,Lyon Creek near Junction City,0,,True,False
@@ -1621,7 +1596,7 @@ KSDM7,Blue River at Stadium Drive,2,BVCM7;KSVM7,True,False
 KSFA2,Kasilof River near Kasilof,0,,True,False
 KSFH1,South Fork Kaukonahua Stream near Wahiawa,0,,True,False
 KSKA2,[INACTIVE] Kaskanak Creek near Igiugig,0,,True,False
-KSLN8,James River near Kensal,0,,True,False
+KSLN8,James River near Kensal,2,GCEN8;JMDN8,True,False
 KSTS2,Spring Creek (SD) near Rockerville,0,,True,False
 KSVM7,Blue River at 17th Street,2,KCTM7;KSDM7,True,False
 KTBA2,Kotzebue tide gage GNSS-R (MHHW),0,,True,False
@@ -1685,7 +1660,7 @@ LAMA4,L'Anguille River at Marianna 1 NE,2,HEEA4;PLGA4,True,False
 LAMC1,Coyote Reservior at (Lake Mendocino),0,,True,False
 LAMF1,Aucilla River at Lamont (US 27),2,ASHF1;NUTF1,True,False
 LAMN3,Lamprey River near Newmarket,0,,True,False
-LAMN8,James River at LaMoure,0,,True,False
+LAMN8,James River at LaMoure,1,JMSN8,True,False
 LAMV3,Lameshur Bay Tide Gauge,0,,True,False
 LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
@@ -1862,7 +1837,7 @@ LEBT2,Little Bernard Creek at I-10 near Sealy,0,,True,False
 LEBW3,Rock River at Lebanon-3 E-Hwy MM bridge,2,HCNW3;WATW3,True,False
 LECF1,Little Econlockhatchee near Oviedo,0,,True,False
 LECI4,Mississippi River at LeClaire,2,CMMI4;RCKI2,True,False
-LECT2,Leon Creek at Loop 410 near Leon Valley,0,,True,False
+LECT2,Leon Creek at Loop 410 near Leon Valley,2,GCCT2;LKST2,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LEDN8,Little Coulee near Leeds,0,,True,False
 LEEM2,Collington Branch near Upper Marlboro / Leeland Road,0,,True,False
@@ -2020,7 +1995,7 @@ LKPT2,Lake Creek at Lake Creek Parkway near Cedar Park 5SE,0,,True,False
 LKRM2,Jones Falls above Lake Roland Dam,0,,True,False
 LKSM7,Osage River at Bagnell Dam,2,LKBM7;TKZM7,True,False
 LKSN7,Catawba River at Lookout Shoals Lake and Dam,2,CWAN7;OXFN7,True,False
-LKST2,Leon Creek at I-35S near San Antonio,0,,True,False
+LKST2,Leon Creek at I-35S near San Antonio,1,LECT2,True,False
 LKTG1,Flat Creek below Lake Kedron Dam,0,,True,False
 LKWF1,Atlantic Ocean Tide Gauge at Lake Worth (in MHHW),0,,True,False
 LKWN5,Fourmile Draw 4 miles NNW of Lakewood,0,,True,False
@@ -4504,7 +4479,7 @@ PFLI4,Cedar River at Plainfield IA 188--IFC,2,CCYI4;WVLI4,True,False
 PFMN7,Parker's Ferry at Meherrin River,0,,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PFSC1,Willow Brook at Penngrove Park,0,,True,False
-PGAF1,Gamble Creek near Parrish,0,,True,False
+PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
 PGBN7,Prince George Creek at Blue Clay Road,0,,True,False
 PGCN7,Prince George Creek at Highway 117 ,0,,True,False
 PGEN8,Pipestem Creek near Pingree,0,,True,False
@@ -5906,7 +5881,7 @@ SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCSS1,Atlantic Intracoastal Waterway above HIGHWAY 707 BRIDGE AT SOCASTEE,0,,True,False
 SCSU1,Jordan River at Surplus Canal,0,,True,False
 SCSW4,Savery Creek at Savery,0,,True,False
-SCTA2,[INACTIVE] Susitna River near Chulitna,0,,True,False
+SCTA2,[INACTIVE] Susitna River near Chulitna,2,GCSA2;SUDA2,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
 SCTF1,Chipola River at Scott's Ferry,2,ALTF1;WWCF1,True,False
 SCTG1,Little Ocmulgee River at GA 149 at Scotland,0,,True,False
@@ -6796,7 +6771,7 @@ STZM7,Sac River below Stockton Dam,0,,True,False
 SUCI1,Succor Creek near Homedale,0,,True,False
 SUCM5,Big Sucker Creek near Palmers,0,,True,False
 SUCP1,Sugar Creek at West Burlington,0,,True,False
-SUDA2,Susitna River near Denali,0,,True,False
+SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUFN6,Mahwah River at Suffern,0,,True,False
 SUGI1,Sugar Creek near Stibnite,0,,True,False
 SUGI2,Sugar Creek (W-Central IL) near Springfield,0,,True,False
@@ -6812,7 +6787,7 @@ SUMM7,Elk Creek near SUMNER 4SSE,0,,True,False
 SUMO3,SOUTH UMPQUA AT MELROSE,0,,True,False
 SUMW1,Sumas River near Sumas,0,,True,False
 SUMW2,Gauley River below Summersville Lake,2,BVAW2;CRAW2,True,False
-SUNA2,Susitna River at Sunshine,2,CLTA2;SUSA2,True,False
+SUNA2,Susitna River at Sunshine,3,CLTA2;GCSA2;SUSA2,True,False
 SUNM5,Sunrise River at Sunrise,0,,True,False
 SUNM6,Big Sunflower River at Sunflower,2,LCGM6;MRGM6,True,False
 SUNO1,Sunday Creek at Glouster,0,,True,False
