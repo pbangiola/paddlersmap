@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CRCF1,Curlew Creek at CR1 Near Ozona,1,CCBF1,True,False
 CRGV2,Craig Creek at Parr,1,CCIV2,True,False
 CRMV2,Cowpasture River at McClung,1,COWV2,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
@@ -115,6 +114,7 @@ FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
 FSBG1,Canoochee River at Fort Stewart,1,CNOG1,True,False
 FSLL1,Amite River at French Settlement,1,PVLL1,True,False
 FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
+FTDC1,Smith River at Dr Fine Bridge,1,CREC1,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
 FTWF1,Santa Fe River near Hildreth (in NAVD88),1,TREF1,True,False
 FULM6,Tombigbee River near Fulton,1,BGBM6,True,False
@@ -345,6 +345,7 @@ MONM4,River Raisin at Monroe City,1,DNDM4,True,False
 MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
+MPTM4,Chippewa River below Mt. Pleasant,1,CRDM4,True,False
 MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
 MRGI2,Kishwaukee River at Marengo,1,BVDI2,True,False
 MRNF1,Tide Gauge at North Port Charlotte (In MHHW),1,SKHF1,True,False
