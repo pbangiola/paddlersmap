@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JNSV2,Powell River near Jonesville,2,ARTT1;BSGV2,True,False
-JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
-JOCF1,St Joes Creek at 54th Ave (in MHHW),0,,True,False
-JOCT2,Pedernales River at Johnson City,1,FRBT2,True,False
-JOEM4,St. Joseph River (OH/IN) at Territorial Road near Waldron MI,0,,True,False
-JOFW3,Peshtigo River at Johnson Falls,2,CRIW3;SSDW3,True,False
-JOHI1,Johnson Creek at Yellow Pine,0,,True,False
-JOHN7,"Johns River at Corpening Bridge Rd, 6 NNW Morganton",0,,True,False
-JOLI2,Des Plaines River at Brandon Road Lock (tailwater),2,CDII2;JRSI2,True,False
-JONA1,Mulberry Creek at Jones,0,,True,False
-JONL1,Bayou Bartholomew near Jones,2,BBWA4;BKML1,True,False
-JONM2,Jones Falls at Jones Falls Pumping Station in Baltimore,0,,True,False
-JONN6,Genesee River at Jones Bridge,0,,True,False
-JONV1,Lamoille River at Johnson,1,JVLV1,True,False
-JOPM7,Shoal Creek (MO) near Joplin,0,,True,False
-JORA2,[INACTIVE] Johnson River near Tuxedni Bay,0,,True,False
-JORU1,Jordan River near 5th North,0,,True,False
-JOSI2,Rock River near Joslin,2,CMOI2;MLII2,True,False
-JOSP1,Blacklick Creek at Josephine,0,,True,False
-JPAM2,Foster Branch near Joppatowne,0,,True,False
-JPBF1,Atlantic Tide Station at Jacksonville Beach Pier (in MHHW),0,,True,False
-JPCF1,Tide Gauge at John's Pass,0,,True,False
-JPHV2,James River near Jordan Point below Hopewell (IN MLLW),2,JSFV2;RICV2,True,False
-JPLT2,North Texas Lakes at Joe Pool  Lake,2,GPET2;MNFT2,True,False
-JPPT1,Stones River below J Percy Priest Dam,0,,True,False
 JPRI3,Patoka River near Jasper,2,CZCI3;WNSI3,True,False
 JRAF1,Jackson River (FL) at Ranch Road above Apalachicola (in MHHW),0,,True,False
 JRDA2,Jordan Creek near Juneau,0,,True,False
@@ -39,7 +14,7 @@ JRSU1,Jordan River near 17th South,0,,True,False
 JRUM8,Judith River near abv Carr Ck nr Utica,0,,True,False
 JSBA2,Glacial Lake 2.5 mi N of Nugget Creek near Auke Bay,0,,True,False
 JSCM2,Jones Falls at Baltimore Streetcar Museum in Baltimore,0,,True,False
-JSFV2,James River (VA) at Jamestown/Scotland Ferry (IN MLLW),2,JLMV2;JPHV2,True,False
+JSFV2,James River (VA) at Jamestown/Scotland Ferry (IN MLLW),3,JLMV2;JPHV2;SWPV2,True,False
 JSKT1,Holston River at John Sevier Detention Resrvr near Rogersville,3,CRKT1;GATV2;SHKT1,True,False
 JSLS2,James River near Hecla,1,CMBS2,True,False
 JSMN7,Jack Smith Creek at New Bern,0,,True,False
@@ -1778,7 +1753,7 @@ MONI3,Salt Creek (IN) at Monroe Lake,2,HDBI3;NFSI3,True,False
 MONL1,Tickfaw River at Montpelier,2,HOLL1;LPOL1,True,False
 MONM4,River Raisin at Monroe City,2,DNDM4;GPEM4,True,False
 MONN7,Deep River near Moncure,0,,True,False
-MONO1,St. Joseph River (OH/IN) at Montpelier,0,,True,False
+MONO1,St. Joseph River (OH/IN) at Montpelier,2,JOEM4;NVLI3,True,False
 MONO3,North Fork John Day River near Monument,0,,True,False
 MONP1,Towanda Creek at Monroeton,0,,True,False
 MONV1,Winooski River at Montpelier,3,CABV1;WATV1;WRTV1,True,False
@@ -2601,7 +2576,7 @@ NVCN6,Neversink River below Claryville,1,NVRN6,True,False
 NVDM7,Marmaton River near Nevada,3,DWEM7;RCCM7;SCZM7,True,False
 NVEW3,Rock River at Newville,2,AFTW3;NVLW3,True,False
 NVIW3,Rock River at Inflow Lake Koshkonong,0,,True,False
-NVLI3,St. Joseph River (OH/IN) near Newville,2,FLTI3;ROOI3,True,False
+NVLI3,St. Joseph River (OH/IN) near Newville,3,FLTI3;MONO1;ROOI3,True,False
 NVLW3,Rock River at Lake Koshkonong,2,FATW3;NVEW3,True,False
 NVPC1,Novato Creek at Pacheco and San Jose Creeks,0,,True,False
 NVRC1,Navarro River near Navarro,0,,True,False
@@ -5577,7 +5552,7 @@ SWNM6,Tallahatchie River near Swan Lake,2,LOGM6;MOGM6,True,False
 SWNO2,North Canadian River near Shawnee,2,HRHO2;SNCO2,True,False
 SWOG1,Ohoopee River at GA 297 near Swainsboro,0,,True,False
 SWPN2,Stillwater Slough at Stillwater Point Reservoir,0,,True,False
-SWPV2,James River (VA) at Sewell's Point (IN MLLW),2,JLMV2;RICV2,True,False
+SWPV2,James River (VA) at Sewell's Point (IN MLLW),3,JLMV2;JSFV2;RICV2,True,False
 SWRM8,Swan River near Bigfork,0,,True,False
 SWRN1,Big Blue River at Seward,2,CRTN1;SAPN1,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
