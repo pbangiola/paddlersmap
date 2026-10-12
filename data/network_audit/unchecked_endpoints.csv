@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KLML1,Mississippi River near Knox Landing,2,NTZM6;RRLL1,True,False
-KLMW1,Columbia River at Kalama,2,LOPW1;SHNO3,True,False
-KLNG1,St. Marys River at Interstate 95 (in MHHW),0,,True,False
-KLNM6,Jourdan River at Kiln,0,,True,False
-KLNQ9,Klondike River above Bonanza Creek-Yukon Territory,0,,True,False
-KLQK1,Kansas River near Lake Quivira,2,DSOK1;KCKK1,True,False
-KLRA2,Klehini River near Klukwan,0,,True,False
-KLSH1,Kaluanui Stream near Punaluu,0,,True,False
-KLSN8,Wintering River below Karlsruhe,0,,True,False
-KLUA2,Klutina River at Copper Center,0,,True,False
-KMAH1,Kahoma Stream at Kahoma Stream,0,,True,False
-KMBC1,Kimball Creek at Kimball Reservoir,0,,True,False
-KMNV2,Knitting Mill Creek at North Colley (IN MLLW),0,,True,False
-KMPH1,Kamananui Stream above Waimea,0,,True,False
-KMPS2,Lake Kampeska at Watertown Water Plant,0,,True,False
-KMSH1,Kawainui Marsh near Levee - 15,0,,True,False
-KMST2,Lavaca River at Komensky,1,BRLT2,True,False
-KNAH1,Kahana Stream near Kahana,0,,True,False
-KNBT2,Dove Creek (Concho River Basin) at Knickerbocker,0,,True,False
-KNDN8,Sheyenne River near Kindred,2,GOLN8;HRCN8,True,False
-KNEH1,Kaneohe Stream near Kaneohe,0,,True,False
-KNEN3,Ashuelot River at Keene,2,KENN3;SWAN3,True,False
-KNFH1,Kaukonahua Stream at North Fork,0,,True,False
-KNGI2,Illinois River at Kingston Mines,0,,True,False
-KNGM3,Jones River at Kingston,0,,True,False
 KNGN1,North Platte River at Kingsley Dam,3,LEWN1;NPTN1;SUTN1,True,False
 KNGO2,Kingfisher Creek at Kingfisher,0,,True,False
 KNGV2,Unnamed Tributary at Kingstowne Regional Pond,0,,True,False
@@ -3276,7 +3251,7 @@ PPTT2,Buffalo Bayou at Piney Point Village,2,BBST2;WSBT2,True,False
 PPZF1,Popash Creek at Leetana Road,0,,True,False
 PQSM4,Presque Isle River near Tula,0,,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
-PRAI2,Illinois River at Peoria Lock and Dam,2,HAVI2;PIAI2,True,False
+PRAI2,Illinois River at Peoria Lock and Dam,3,HAVI2;KNGI2;PIAI2,True,False
 PRAI4,Buffalo Creek (IA) at Prairieburg,0,,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
 PRBC1,Salinas River at Paso Robles,0,,True,False
