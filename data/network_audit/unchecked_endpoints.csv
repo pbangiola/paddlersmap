@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EDGS2,Cheyenne River at Edgemont,3,AACS2;ANGS2;BURS2,True,False
-EDIN1,Turkey Creek (trib. to Republican River) below Edison,0,,True,False
-EDLI3,Elliott Ditch near Lafayette,1,EDEI3,True,False
-EDMM2,Northeast Branch Anacostia River at Edmonston,0,,True,False
-EDNI3,Sugar Creek (central) near Edinburgh,3,AMTI3;DREI3;SCBI3,True,False
-EDNM8,Smith River (MT) near Eden,0,,True,False
-EDNN1,Turkey Creek (trib. to Republican River) at Furnas-Gosper County Line,0,,True,False
-EDNT2,Lavaca River near Edna,1,HTST2,True,False
-EDNW4,Reservoirs at Eden Reservoir,0,,True,False
-EDOC1,North Fork Cosumnes River at El Dorado,0,,True,False
-EDPF1,Eldredge Park (In MHHW),0,,True,False
-EDRI4,Turkey River near Eldorado,2,CMTI4;FTKI4,True,False
-EDRK1,Walnut River at El Dorado Lake,0,,True,False
-EDSN7,Smith River at Eden,1,SMMV2,True,False
-EDWI3,White River (IN) near Edwardsport,2,FREI3;PETI3,True,False
-EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
-EDWT1,Cumberland River at Edenwold,2,HTGT1;OHIT1,True,False
-EDYI4,Des Moines River near Eddyville,3,BSSI4;CHII4;TRCI4,True,False
-EECG1,Cartecay River near Ellijay,0,,True,False
-EELM3,Eels River at Plymouth,0,,True,False
-EFBI1,East Fork Bruneau River near Hot Springs,0,,True,False
-EFBW4,East Fork Big Goose Creek near Big Horn,0,,True,False
-EFDC1,Lake Earl near Crescent City,0,,True,False
-EFDI4,South Raccoon River near Redfield Dexfield Rd--IFC,2,DEDI4;REDI4,True,False
-EFDN7,Fishing Creek near Enfield,0,,True,False
 EFEA2,East Fork Eklutna River near Palmer,0,,True,False
 EFFC1,Tulucay Creek at Shurtleff Avenue,0,,True,False
 EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
@@ -1731,7 +1706,7 @@ HORT1,Horse Creek near Savannah 2SE,0,,True,False
 HORT2,West Central Texas Lakes at Hords Creek Lake,2,LKCT2;OHIT2,True,False
 HORW1,Hoh River near Forks,0,,True,False
 HOSC1,San Benito River at below Hospital Rd Bridge near Hollister,0,,True,False
-HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
+HOTI1,Bruneau River at Hot Springs,2,BRON2;EFBI1,True,False
 HOTS2,Fall River (SD) at Hot Springs,0,,True,False
 HOUC1,North Fork Cache Creek above Hough Springs,0,,True,False
 HOUH1,Honouliuli Stream near Kunia,0,,True,False
@@ -4687,7 +4662,7 @@ NPCC1,Napa Creek at Highway 29,0,,True,False
 NPCF1,Tide Gauge at New Pass Bridge (in MHHW),0,,True,False
 NPEN3,Beaver Brook at North Pelham,0,,True,False
 NPGW4,North Fork Popo Agie River at Gallinger Ranch,0,,True,False
-NPLI3,Sugar Creek (central) at New Palestine,0,,True,False
+NPLI3,Sugar Creek (central) at New Palestine,1,SCBI3,True,False
 NPOC1,San Luis Obispo Creek at Nipomo St. ,0,,True,False
 NPOF1,Big Slough Canal at Tropicare Blvd,2,BIGF1;NPRF1,True,False
 NPPW4,North Platte River below Pathfinder Dam,0,,True,False
@@ -6705,7 +6680,7 @@ SCAS2,Snake Creek above Ashton,0,,True,False
 SCAT2,Slaughter Creek at FM 1826 near Austin ,0,,True,False
 SCBC1,Spanish Creek above Keddie,0,,True,False
 SCBI1,Big Wood River at Stanton Crossing,2,HALI1;MAGI1,True,False
-SCBI3,Sugar Creek (central) near Boggstown,2,ACTI3;EDNI3,True,False
+SCBI3,Sugar Creek (central) near Boggstown,3,ACTI3;EDNI3;NPLI3,True,False
 SCBV2,Swift Creek at Bailey Bridge Rd near Midlothian,0,,True,False
 SCCA3,Santa Cruz River at Green Valley,2,STBA3;TSCA3,True,False
 SCCC1,Santa Cruz Creek near Santa Ynez,0,,True,False
@@ -6922,7 +6897,7 @@ SFKN7,Straight Fork Creek near the Tribal Hatchery,0,,True,False
 SFKW2,Sand Fork Creek above Sand Fork,0,,True,False
 SFLI4,West Fork Cedar River near Sheffield 190th St--IFC,0,,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
-SFLM8,Smith River (MT) near near Ft Logan,0,,True,False
+SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
 SFLN2,Salmon Falls Creek near San Jacinto,0,,True,False
 SFLS2,Big Sioux River at Sioux Falls I-90,2,DERS2;SFMS2,True,False
 SFMG1,South River at Flakes Mill Road near Snapfinger,0,,True,False
@@ -7236,7 +7211,7 @@ SMFW2,Morgan Run near Morgan Run,0,,True,False
 SMGS1,Sampit River below Highway 17 near Georgetown,0,,True,False
 SMHC1,Santa Margarita River near Temecula,0,,True,False
 SMHM7,Little Platte River at Smithville,0,,True,False
-SMHM8,Smith River (MT) below Eagle Creek near Fort Logan,0,,True,False
+SMHM8,Smith River (MT) below Eagle Creek near Fort Logan,2,EDNM8;SFLM8,True,False
 SMHS1,Smith Branch (SC) at North Main St,0,,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMIT2,Colorado River (TX) near Smithville,2,BRTT2;LGRT2,True,False
@@ -8367,7 +8342,7 @@ UKAC1,Russian River near Ukiah,0,,True,False
 UKRN1,Maple Creek near North Bend,0,,True,False
 UKVI4,Upper Iowa River at Kendallville (IFC),2,BLFI4;ULSI4,True,False
 ULLM8,Smith River (MT) at Truly,0,,True,False
-ULMM8,Missouri River near Ulm,2,CASM8;GFLM8,True,False
+ULMM8,Missouri River near Ulm,3,CASM8;EDNM8;GFLM8,True,False
 ULNC1,Paulin Creek at Chanate Rd d/s Piner Reservoir,0,,True,False
 ULRA2,Norton Sound Tide Gauge at Unalakleet (MHHW datum),0,,True,False
 ULRT2,Leona River near Uvalde,0,,True,False

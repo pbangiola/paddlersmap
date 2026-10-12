@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EDLI3,Elliott Ditch near Lafayette,1,EDEI3,True,False
-EDNT2,Lavaca River near Edna,1,HTST2,True,False
-EDSN7,Smith River at Eden,1,SMMV2,True,False
-EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
 EGCO2,Boggy Creek (N OK) at Enid at 30th Street,1,EBCO2,True,False
 EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
@@ -123,7 +119,6 @@ HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
 HOGW4,Encampment River near Encampment,1,ECRW4,True,False
 HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
-HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
@@ -377,6 +372,7 @@ NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
 NORN4,Maurice River at Norma,1,BVVN4,True,False
 NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
+NPLI3,Sugar Creek (central) at New Palestine,1,SCBI3,True,False
 NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
@@ -575,6 +571,7 @@ SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
 SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
 SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
+SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
