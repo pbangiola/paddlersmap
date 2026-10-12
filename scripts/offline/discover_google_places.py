@@ -55,9 +55,6 @@ def main():
     # Google may cap the total returned results; this is not a completeness guarantee.
     token=obj.get("nextPageToken")
     while token:
-     if count+1>=a.max_requests:
-      print("Stopping before partial pagination: rerun with a larger per-run budget",flush=True)
-      return
      time.sleep(2)
      obj=request(key,term,lat,lon,radius,page_token=token)
      ids.update(x["id"] for x in obj.get("places",[]) if x.get("id"))
