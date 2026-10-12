@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MLYF1,Yellow River (AL) near Milton,1,MLGF1,True,False
-MNAA2,Mendenhall River at Brotherhood Bridge at Auke Bay,1,MNEA2,True,False
 MNEI4,Mosquito Creek near Neola (IFC),1,MCBI4,True,False
 MNFT2,Walnut Creek near Mansfield,1,JPLT2,True,False
 MNGN8,Knife River (ND) at Manning,1,GDVN8,True,False
@@ -137,6 +135,7 @@ NVCN6,Neversink River below Claryville,1,NVRN6,True,False
 NWCL1,Tide Station (LIX) near Lakefront,1,SHBL1,True,False
 NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
 NWKN4,Passaic River at Newark (IN MLLW),1,DDCN4,True,False
+NWLM5,Middle Fork Crow River near New London 1S,1,MNAM5,True,False
 NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OAKA3,Oak Creek (AZ) at Sedona,1,OACA3,True,False
@@ -273,7 +272,6 @@ PTRN3,Contoocook River at Peterborough,1,HENN3,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
-PUYW1,Puyallup River at Puyallup,1,ORTW1,True,False
 PVCC1,Los Angeles River below Sepulveda Dam,1,LRTC1,True,False
 QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
 QCYF1,Little  River near Quincy,1,ATPG1,True,False
@@ -316,7 +314,6 @@ RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
-RKFM5,Crow River at Rockford,1,DELM5,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RNTW1,Cedar River (WA) at Renton,1,LNDW1,True,False
