@@ -1,33 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MCKO2,Mill Creek (OK) near Mill Creek,0,,True,False
-MCKO3,McKay Creek near Pendleton,0,,True,False
-MCKQ8,Battle Creek at McKinnon Ditch nr Consul 3NNE,0,,True,False
-MCKS2,Medicine Creek (SD) near Kennebec,0,,True,False
-MCKT2,East Fork Trinity River at McKinney,1,LVNT2,True,False
-MCLM4,N. Br. Clinton River near Mount Clemens,0,,True,False
-MCLM6,Leaf River near McLain,1,NAGM6,True,False
-MCLN6,Meads Creek near Coopers Plains,0,,True,False
-MCLN7,Mallard Creek below Stony Creek nr Harrisburg,0,,True,False
-MCLQ8,Lodge Creek at Middle Ck abv Lodge Ck nr Willow Creek 8NW,0,,True,False
-MCLU1,McLeod Creek near Park City,0,,True,False
-MCLW1,Mill Creek near Longview,0,,True,False
-MCMN7,McMullen Creek at Sharon View,0,,True,False
-MCMO3,South Yamhill River at McMinnville,0,,True,False
-MCMU1,Mill Creek at Sheley Tunnel near Moab,0,,True,False
-MCNC1,Cosumnes River at McConnell,0,,True,False
-MCNF1,Baker Creek at Mcintosh Road Near Antioch,0,,True,False
-MCNK1,Lightning Creek (SE KS) near McCune,0,,True,False
-MCNM6,Noxubee River at Macon,0,,True,False
-MCNS2,Marne Creek above Yankton,0,,True,False
-MCOI2,Crab Orchard Creek above Marion,0,,True,False
-MCOL1,Amite River Basin at Muddy Creek near Oak Grove,0,,True,False
-MCPI4,South Skunk River near Ames McFarland Park,2,AMEI4;ESKI4,True,False
-MCPK2,Massac Creek above Paducah,0,,True,False
-MCPM8,Muddy Creek near Fairfield,0,,True,False
 MCPN4,Pequannock River at Macopin,2,CHAN4;RDLN4,True,False
 MCPN7,McAlpine Creek at Waste Water Treatment Plant,1,MCCN7,True,False
 MCPO2,Pennington Creek near Mill Creek,0,,True,False
-MCPU1,Mill Creek below Pack Creek near Moab,0,,True,False
+MCPU1,Mill Creek below Pack Creek near Moab,2,CRPU1;MCSU1,True,False
 MCQM4,Mill Creek (MI) at Quaker St. near Mottville,0,,True,False
 MCRG1,Turnpike Creek near McRae,0,,True,False
 MCRI2,Wabash River at Mount Carmel,5,HZNI3;LAWI2;NHRI3;PNTI3;VCNI3,True,False
@@ -41,13 +16,13 @@ MCSM1,Machias River at Machias (in MLLW),0,,True,False
 MCSM8,Sun River near Mill Coulee Creek nr Sun River,0,,True,False
 MCSO1,Mill Creek at East Sharon Road,2,EVNO1;SPGO1,True,False
 MCSQ1,Lodge Creek at on Middle Ck at Sask border nr Elkwater 19SW,0,,True,False
-MCSS2,Marne Creek at Yankton,0,,True,False
+MCSS2,Marne Creek at Yankton,1,MCNS2,True,False
 MCST1,Duck River at Manchester,0,,True,False
-MCSU1,Mill Creek below Sheley Tunnel near Moab,0,,True,False
+MCSU1,Mill Creek below Sheley Tunnel near Moab,2,MCMU1;MCPU1,True,False
 MCTN8,Mauvais Coulee Tributary No. 3 near Cando,0,,True,False
 MCTO3,"Mill Creek (Marion Co., OR) at Turner Road near Salem",0,,True,False
 MCTS1,McTier Creek near Monetta,0,,True,False
-MCUN6,Meads Creek above Taft Rd.,0,,True,False
+MCUN6,Meads Creek above Taft Rd.,1,MCLN6,True,False
 MCVA2,Mineral Creek near Valdez,0,,True,False
 MCVT2,Cow Bayou near Mauriceville,2,BCVT2;ORFT2,True,False
 MCWF1,Phillippi Creek at Main C. Weir,0,,True,False
@@ -201,7 +176,7 @@ MGYP1,Ohio River at Montgomery Lock and Dam,2,DSHP1;WLVO1,True,False
 MGZC1,Mission Creek below Gutierrez St,0,,True,False
 MGZP4,Mayaguez Tide Gauge (in MLLW),0,,True,False
 MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
-MHBC1,Cosumnes River at Michigan Bar,0,,True,False
+MHBC1,Cosumnes River at Michigan Bar,1,MCNC1,True,False
 MHBT2,Tide Gauge at Enbridge Ingleside,0,,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
 MHDC3,Connecticut River at Middle Haddam,1,HFDC3,True,False
@@ -229,7 +204,7 @@ MICF1,Saint Sebastian River North Prong,0,,True,False
 MICM8,Tongue River at Miles City,2,ASLM8;MILM8,True,False
 MICN1,North Platte River near Mitchell,2,HENN1;SBRN1,True,False
 MICN7,"Mill Creek at Orchard St, in Old Fort",0,,True,False
-MICO2,Mill Creek (OK) at Mouth of 3Mile Creek near Mill Creek,0,,True,False
+MICO2,Mill Creek (OK) at Mouth of 3Mile Creek near Mill Creek,1,MCKO2,True,False
 MIDF1,Little River (Midway) near Midway (SR 268),0,,True,False
 MIDI1,Middle Fork Salmon River at Middle Fork Lodge,0,,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
@@ -812,7 +787,7 @@ MYFK1,Myakka River Upstream Youngs Creek,0,,True,False
 MYFM4,Boardman River near Mayfield,0,,True,False
 MYFO1,Unknown Tributary to Chagrin River at Mayfield Heights,0,,True,False
 MYKF1,Myakka River Upstream Youngs Creek,1,MYTF1,True,False
-MYKO3,McKay Creek above Reservoir,0,,True,False
+MYKO3,McKay Creek above Reservoir,1,MCKO3,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYNO3,North Fk Coquille River near Myrtle Point,0,,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
@@ -1602,7 +1577,7 @@ OSRI4,Rock Creek near Osage (IFC),0,,True,False
 OSSW3,Fox River (North) at Oshkosh,2,BERW3;OSHW3,True,False
 OSTL1,Whiskey Chitto Creek at HWY 399,0,,True,False
 OSWC1,Guadalupe River  Ostwald,0,,True,False
-OSWK1,Neosho River at Oswego,3,COMO2;NSOK1;PPFK1,True,False
+OSWK1,Neosho River at Oswego,4,COMO2;MCNK1;NSOK1;PPFK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTCA2,Old Tom Creek near Kasaan,0,,True,False
 OTKA2,Otuk Creek at Ivotuk,0,,True,False
@@ -3714,7 +3689,7 @@ SMBA3,Santa Maria River near Bagdad,0,,True,False
 SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
 SMBN7,"Simmons Branch at Lail Court near Raleigh, NC",0,,True,False
 SMCG1,Sewell Mill Creek at GA 120 near Marietta,0,,True,False
-SMCO2,Mill Creek (OK) near Sulphur,0,,True,False
+SMCO2,Mill Creek (OK) near Sulphur,1,MCKO2,True,False
 SMCS2,Sixmile Creek above Brookings,0,,True,False
 SMCT2,Guadalupe River at Canyon Lake,2,SRGT2;STLT2,True,False
 SMCW4,Sybille Creek near Wheatland,1,GRIW4,True,False
@@ -5146,7 +5121,7 @@ WAVC1,San Francisquito Creek at Waverly (SFWS),0,,True,False
 WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
 WAVS2,Big Sioux River at Sioux Falls Western Avenue,2,SFMS2;SXFS2,True,False
 WAWN7,Walnut Creek at S. Wilmington St.,2,TRLN7;WSSN7,True,False
-WAWO3,Willamina Creek near Willamina,0,,True,False
+WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
 WAYI2,Kickapoo Creek at Waynesville,0,,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
@@ -5485,7 +5460,7 @@ WKSN7,Yadkin River at Wilkesboro,2,ELKN7;PATN7,True,False
 WKWA3,Weekes Wash at Apache Junction,0,,True,False
 WLAC1,West Little Llagas Creek below Edmundson,0,,True,False
 WLAF1,Little Charlie Creek at Mouth Near Wauchula,0,,True,False
-WLAO3,South Yamhill River near Willamina,0,,True,False
+WLAO3,South Yamhill River near Willamina,2,MCMO3;WAWO3,True,False
 WLBK2,Cumberland River at Williamsburg,2,BBVK2;CFAK2,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
 WLBN3,Connecticut River at West Lebanon,2,WELV1;WLPN3,True,False

@@ -1,9 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MCKT2,East Fork Trinity River at McKinney,1,LVNT2,True,False
-MCLM6,Leaf River near McLain,1,NAGM6,True,False
 MCPN7,McAlpine Creek at Waste Water Treatment Plant,1,MCCN7,True,False
 MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
 MCRO1,Mill Creek above Reading,1,EVNO1,True,False
+MCSS2,Marne Creek at Yankton,1,MCNS2,True,False
+MCUN6,Meads Creek above Taft Rd.,1,MCLN6,True,False
 MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
 MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
 MDGF1,Phillippi Creek Main B at Meadows G.C.,1,BJFF1,True,False
@@ -28,11 +28,13 @@ MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
 MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
 MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
 MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
+MHBC1,Cosumnes River at Michigan Bar,1,MCNC1,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
 MHDC3,Connecticut River at Middle Haddam,1,HFDC3,True,False
 MHDF1,Shoal River near Mossy Head (CR 1087),1,CRVF1,True,False
 MHSA2,Tanana River at Manley Hot Springs,1,ENNA2,True,False
 MIAO1,Great Miami River at Miamitown,1,HAMO1,True,False
+MICO2,Mill Creek (OK) at Mouth of 3Mile Creek near Mill Creek,1,MCKO2,True,False
 MIDM4,Tittabawassee River at Midland,1,BVTM4,True,False
 MIEI3,White River (IN) at Muncie,1,ANDI3,True,False
 MILN4,Passaic River near Millington,1,CAMN4,True,False
@@ -109,6 +111,7 @@ MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
 MYKF1,Myakka River Upstream Youngs Creek,1,MYTF1,True,False
+MYKO3,McKay Creek above Reservoir,1,MCKO3,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
 MYRU1,Duchesne River near Myton,1,DRUU1,True,False
@@ -467,6 +470,7 @@ SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
+SMCO2,Mill Creek (OK) near Sulphur,1,MCKO2,True,False
 SMCW4,Sybille Creek near Wheatland,1,GRIW4,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
@@ -627,6 +631,7 @@ WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
+WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
