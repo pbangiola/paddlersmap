@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FUQO2,Black Bear Creek (SC OK) at Lake Fuqua,0,,True,False
-FUVV2,Moormans River near Free Union,0,,True,False
-FVJF1,Fivemile Creek Below Suncoast Pkwy Near Fivay Junction ,0,,True,False
-FVLP1,Loyalsock Creek at Forksville,1,HLLP1,True,False
-FVLV2,Holmes Run at Fairview Lake,0,,True,False
-FVSC1,Franz Creek at Franz Valley School Rd,0,,True,False
-FVWS2,Big Sioux River at Fairview,2,CBSS2;HWDI4,True,False
-FWAI3,St. Marys River at Fort Wayne Main Street,2,CMBI3;SASI3,True,False
-FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
-FWCO2,Wolf Creek near Fort Supply,2,FSLO2;GAWO2,True,False
-FWHF1,Santa Fe River near Fort White (in NAVD88),2,POEF1;TREF1,True,False
-FWHT2,Clear Fork Trinity River at Fort Worth,3,BMCT2;BNBT2;FWOT2,True,False
-FWLC2,Arkansas River near Fowler,3,ARCC2;CLVC2;NPTC2,True,False
-FWNN2,Flamingo Wash at Nellis Blvd,0,,True,False
-FWOT2,West Fork Trinity River at Fort Worth,3,FLWT2;FWHT2;GPRT2,True,False
-FWOV2,Little River at White Oak Grove RD Near Riner,2,FGLV2;GRYV2,True,False
-FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
-FWRT1,Falling Water River near Cookeville,0,,True,False
-FWRW4,Little Wind River at Fort Washakie,0,,True,False
-FXLC1,Fisher Creek at Laguna Ave,0,,True,False
-FXSC1,Fairfax Creek at Sunnyside,0,,True,False
-FYGA4,White River near Fayetteville,0,,True,False
-FYPC2,Frying Pan River at Basalt,0,,True,False
-FYTM7,Moniteau Creek near Fayette,0,,True,False
-FYTT1,Elk River (TN) near Fayetteville,0,,True,False
 GAAC1,N. Fork Gualala River above S. Fork Gualala NR Gualala,0,,True,False
 GACC1,Galloway Creek at Cooley Ranch Road,0,,True,False
 GACM4,Middle Rouge at Dearborn Heights,0,,True,False
@@ -3820,7 +3795,7 @@ NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLSM8,Milk River at Nelson Reservoir,0,,True,False
 NLSW3,Lemonweir River at New Lisbon,0,,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
-NLWW4,North Fork Little Wind River near Fort Washakie,0,,True,False
+NLWW4,North Fork Little Wind River near Fort Washakie,1,FWRW4,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NMCM7,Niangua River near Macks Creek,0,,True,False
 NMCV2,New Market Creek near Hampton (IN MLLW),0,,True,False
@@ -4831,7 +4806,7 @@ PNLI4,Lake Panorama at Panora,2,BAYI4;PANI4,True,False
 PNLM5,Middle Fork Zumbro River at Pine Island,2,BNEM5;ONOM5,True,False
 PNLM6,Tide Station (LIX) at Pascagoula NOAA Lab (IN MHHW),0,,True,False
 PNNC2,Fountain Creek near Piñon,2,FCHC2;FHAC2,True,False
-PNPF1,Tide Gauge at New Port Richey (in MHHW),0,,True,False
+PNPF1,Tide Gauge at New Port Richey (in MHHW),1,PTHF1,True,False
 PNPT2,Neches River at Lee Avenue,0,,True,False
 PNRF1,Panacoochee Retreats (in NAVD88),0,,True,False
 PNSH1,Punaluu Stream near Punaluu ,0,,True,False
@@ -4856,7 +4831,7 @@ POCC1,Pole Creek,0,,True,False
 POCS1,Pocotaligo River at I-95 above Manning,0,,True,False
 POCT1,Porters Creek 3S Pittman Center (Greenbrier),0,,True,False
 POCW1,Pend Oreille River at Cusick,2,ALFW1;POIW1,True,False
-PODF1,Pithlachascotee River Below Suncoast Pkwy Near Fivay Jct,0,,True,False
+PODF1,Pithlachascotee River Below Suncoast Pkwy Near Fivay Jct,2,FVJF1;PTHF1,True,False
 POEF1,Santa Fe River at Poe Springs Pool (in NAVD88),2,FWHF1;HSPF1,True,False
 POET2,West Fork San Jacinto River near Porter,2,CFKT2;HMMT2,True,False
 POHC1,Merced River at Pohono Bridge,0,,True,False
@@ -5038,7 +5013,7 @@ PSNW2,Cheat River at Parsons,3,BOWW2;HENW2;ROLW2,True,False
 PSPC2,San Juan River at Pagosa Springs,0,,True,False
 PSPI2,Tinley Creek near Palos Park,0,,True,False
 PSPI3,Lost River (IN) near Prospect,0,,True,False
-PSPT1,Elk River near Prospect,0,,True,False
+PSPT1,Elk River near Prospect,1,FYTT1,True,False
 PSQM4,Presque Isle River near Connorville,0,,True,False
 PSQN7,Pasquotank River near South Mills,0,,True,False
 PSRC1,Prosser Creek Reservoir near Truckee,0,,True,False
@@ -5061,7 +5036,7 @@ PTDW4,Reservoirs at Pathfinder Reservoir,0,,True,False
 PTFI1,Spokane River near Post Falls ID,2,COEI1;SGRW1,True,False
 PTFL1,Tide Station (LIX) at Port Fourchon (IN MHHW),0,,True,False
 PTGN6,Genesee River at Portageville (USACE),0,,True,False
-PTHF1,Pithlachascotee River Near New Port Richey,0,,True,False
+PTHF1,Pithlachascotee River Near New Port Richey,2,PNPF1;PODF1,True,False
 PTHN7,Currituck Sound at US 158 Near Point Harbor,0,,True,False
 PTHO1,Clear Fork Mohican River above Pleasant Hill Dam,2,BLEO1;PHLO1,True,False
 PTIK1,N F Solomon River at Portis,0,,True,False
@@ -5679,7 +5654,7 @@ RTRV2,Trout Run Above 5th St. NW in Roanoke,0,,True,False
 RTSC1,Artesian Slough,0,,True,False
 RTYC1,San Francisco Bay  Redwood City tide gage,0,,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
-RUDC2,Frying Pan River below Ruedi Resv.,0,,True,False
+RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
 RUDM4,Pine River (E Upper MI) near Rudyard,0,,True,False
 RUFC1,Rubicon River - Foresthill,0,,True,False
 RUHN5,Rio Ruidoso at Hollywood,0,,True,False
@@ -5717,7 +5692,7 @@ RVTI2,Sangamon River at Riverton,2,MNTI2;PETI2,True,False
 RVTI3,Wabash River at Riverton,2,HUTI2;VCNI3,True,False
 RVTN1,Thompson Creek at Riverton,0,,True,False
 RVTO2,Elk Creek (OK) near Roosevelt,0,,True,False
-RVTW4,Little Wind River near Riverton,0,,True,False
+RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
 RVVN1,Long Pine Creek near Riverview,0,,True,False
 RVWF1,Alafia River at US 301 Riverview,2,GBSF1;RIVF1,True,False
 RWCN1,"Red Willow Creek at 4W Indianola, Nebraska",0,,True,False

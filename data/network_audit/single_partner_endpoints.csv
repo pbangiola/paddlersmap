@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FVLP1,Loyalsock Creek at Forksville,1,HLLP1,True,False
-FWBF1,Suwannee River at Fowlers Bluff (in NAVD88),1,MTSF1,True,False
-FWRN8,Wild Rice River (ND) near Rutland,1,MDRN8,True,False
 GATN1,Middle Loup River at Gates,1,DNGN1,True,False
 GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
@@ -325,6 +322,7 @@ NIXN2,Truckee River near Nixon,1,WADN2,True,False
 NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
 NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
+NLWW4,North Fork Little Wind River near Fort Washakie,1,FWRW4,True,False
 NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
 NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
@@ -425,6 +423,7 @@ PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
 PMZM7,Middle Fork Salt River near Holliday,1,CPZM7,True,False
 PNDP1,Clarion River at Piney Dam  Tailwater,1,COKP1,True,False
 PNFG1,Oconee River near Penfield,1,WDMG1,True,False
+PNPF1,Tide Gauge at New Port Richey (in MHHW),1,PTHF1,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
@@ -443,6 +442,7 @@ PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
+PSPT1,Elk River near Prospect,1,FYTT1,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PUEN5,Pecos River below Puerto De Luna,1,ACMN5,True,False
@@ -509,10 +509,12 @@ RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
+RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
+RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
 RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
