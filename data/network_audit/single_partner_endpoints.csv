@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MCEC2,Mcelmo Creek near UT-CO Border,1,MCBU1,True,False
-MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCIN7,McAlpine Creek at Idlewild,1,MALN7,True,False
@@ -424,6 +422,7 @@ SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
 SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
+SDFI3,Sand Creek (IN) at Fishers,1,MCFI3,True,False
 SDGC1,San Diego River at Mast Nr Santee,1,FSNC1,True,False
 SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MCCI1,Marsh Creek (Eastern ID) near McCammon,0,,True,False
-MCCI2,Mainstream Deep Tunnel at McCook Reservoir,0,,True,False
-MCCI4,Chelsea Creek at Mason City 19th St SW--IFC,0,,True,False
-MCCN5,Mogollon Creek above Cliff 14N,0,,True,False
-MCCN7,McAlpine Creek at Colony Rd,2,MALN7;MCPN7,True,False
-MCCO1,Muskingum River at McConnelsville,2,BEVO1;ZANO1,True,False
-MCDA2,Chena River below Moose Creek Dam near Fairbanks,2,CHFA2;CRHA2,True,False
-MCDI2,McDonald Creek near Mount Prospect,0,,True,False
-MCDM2,Gwynns Falls Tributary at McDonogh,0,,True,False
-MCDN4,McDonalds Branch at McDonald's Branch,0,,True,False
-MCDN6,Erie Canal near Macedon Lock 30,2,PMAN6;RCSN6,True,False
-MCDN7,McDowell Creek at Beatties Ford Rd.,0,,True,False
-MCDP1,Robinson Run at McDonald,0,,True,False
-MCEC2,Mcelmo Creek near UT-CO Border,1,MCBU1,True,False
-MCFA2,Mystery Creek below Pipeline Right-of-Way near Sterling,0,,True,False
-MCFG1,Morning Creek near North Fayetteville,0,,True,False
-MCFI3,Mud Creek (IN) at Fishers,0,,True,False
-MCFM6,Mill Creek (S MS) near Fenton,0,,True,False
-MCFN7,Muddy Creek  at I-40 nr Clemmons,0,,True,False
-MCFW2,South Fork Hughes River below Macfarlan,0,,True,False
-MCFW3,Yahara River at McFarland-Lk. Waubesa,2,FULW3;MNAW3,True,False
-MCGA1,Tide Gauge at Coast Guard Sector Mobile (IN MHHW),0,,True,False
-MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
-MCGI4,Mississippi River at McGregor,3,CLAI4;LYNW3;MBRI4,True,False
-MCGL1,Atchafalaya River at Morgan City,2,AMRL1;BSRL1,True,False
 MCGM5,Snake River (MN) near McGrath,0,,True,False
 MCGN7,MacGregor Downs Lake Upstream of SW Maynard Rd,0,,True,False
 MCGO3,Meacham Creek at Gibbon,0,,True,False
@@ -408,7 +383,7 @@ MLNO1,Tuscarawas River at Massillon,2,DVRO1;LINO1,True,False
 MLPC1,Mill Creek near Piedra,0,,True,False
 MLPI1,Snake River at Milner Lower Power Plant,0,,True,False
 MLPK2,Ohio River at McAlpine Lower,2,MLUK2;RVPK2,True,False
-MLRI3,Fall Creek (IN) at Millersville,2,FCSI3;FCTI3,True,False
+MLRI3,Fall Creek (IN) at Millersville,3,FCSI3;FCTI3;MCFI3,True,False
 MLRM2," SOUTH FORK JABEZ BRANCH AT MILLERSVILLE, MD ",0,,True,False
 MLRM8,Big Hole River near Melrose,2,GNLM8;MRDM8,True,False
 MLRT2,Llano River near Mason,2,JNCT2;LRTT2,True,False
@@ -699,7 +674,7 @@ MSNN4,Watson Creek at Manasquan (IN MLLW),0,,True,False
 MSON1,Union Creek at Madison,0,,True,False
 MSON7,Montgomery Slough at EF Middleton Blvd,0,,True,False
 MSPF1,Suwannee River at Manatee Springs - Source (in NAVD88),0,,True,False
-MSPI4,Willow Creek at Mason City N Pierce Ave--IFC,2,MSWI4;MWCI4,True,False
+MSPI4,Willow Creek at Mason City N Pierce Ave--IFC,3,MCCI4;MSWI4;MWCI4,True,False
 MSPM5,Mississippi River at Fridley abv 37th Ave NE,2,ANKM5;STPM5,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSPN6,Raquette River at Massena Springs,0,,True,False
@@ -1758,7 +1733,7 @@ PARO1,West Creek above Parma 3SE,2,BRCO1;PRMO1,True,False
 PARP1,Allegheny River at Parker,2,FRKP1;RMRP1,True,False
 PARV2,North Anna River near Partlow,0,,True,False
 PARW1,Yakima River near Parker,2,KIOW1;UMTW1,True,False
-PARW2,Ohio River at Parkersburg,2,BEVW2;MTAO1,True,False
+PARW2,Ohio River at Parkersburg,3,BEVW2;MCFW2;MTAO1,True,False
 PASN1,Stinking Water Creek at Palisade,0,,True,False
 PASP4,Lago Patillas,2,GRPP4;PATP4,True,False
 PASS1,Parr Reservoir,2,ALTS1;CARS1,True,False
@@ -2005,7 +1980,7 @@ PIEP4,Rio Humacao at Las Piedras,0,,True,False
 PIES2,Missouri River at Oahe Dam,3,BIWN8;EBSS2;PIRS2,True,False
 PIGN7,Pigeon House Creek at Cameron Village,0,,True,False
 PIGW3,Pigeon Creek (WI) near Pigeon Falls,0,,True,False
-PIHI1,Portneuf River at Pocatello,2,PNKI1;PTYI1,True,False
+PIHI1,Portneuf River at Pocatello,3,MCCI1;PNKI1;PTYI1,True,False
 PIIC1,San Benito River near Willow Creek School,2,HNZC1;HOSC1,True,False
 PIKI3,Northern Indiana Lakes at Pike Lake at Warsaw,0,,True,False
 PIKN4,Green Pond Brook below Picatinny Lake,0,,True,False
@@ -3367,7 +3342,7 @@ SDAT2,Caney Creek near Splendora,0,,True,False
 SDDC1,Salinas River at Soledad,2,CHLC1;KCBC1,True,False
 SDEF1,Saddle Creek at Polk Pkwy,0,,True,False
 SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
-SDFI3,Sand Creek (IN) at Fishers,0,,True,False
+SDFI3,Sand Creek (IN) at Fishers,1,MCFI3,True,False
 SDFO2,Deep Fork River near Stroud,2,BGSO2;WRWO2,True,False
 SDGC1,San Diego River at Mast Nr Santee,1,FSNC1,True,False
 SDHN4,New Jersey Atlantic Coast at Sandy Hook (IN MLLW),0,,True,False
