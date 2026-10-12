@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JLGP4,Rio Jacaguas above Lago Guayabal,1,JUBP4,True,False
-JLKW4,Snake River below Jackson Dam,2,FLGW4;MSEW4,True,False
-JLMV2,James River at Leeward Marina (IN MLLW),0,,True,False
-JLNW3,Creek 22-15 near Leon - County Road J,0,,True,False
-JMCC2,John Martin Reservoir at Caddoa,0,,True,False
-JMCF1,Tide Gauge at St. James City (in MHHW),0,,True,False
-JMDN8,James River at Jamestown Dam,2,JMSN8;KSLN8,True,False
-JMEI4,Floyd River at James,1,MRLI4,True,False
-JMLN7,Johnsons Mill Run near Greenville,0,,True,False
-JMPN7,Atlantic Coast at Johnnie Mercers Pier at Wrightsville Beach (MLLW),0,,True,False
-JMSK1,Buffalo Creek (KS River Basin) at Jamestown,0,,True,False
-JMSN8,James River at Jamestown,2,JMDN8;LAMN8,True,False
-JMSP1,Shenango River below Pymatuning Dam at Jamestown,0,,True,False
-JNAF1,Alapaha River near Jennings (in NAVD88),2,ELLF1;STNG1,True,False
-JNCK1,Lyon Creek near Junction City,0,,True,False
-JNCM6,Cypress Creek near Janice,0,,True,False
-JNCT1,Jennings Creek at Whitleyville,0,,True,False
-JNCT2,Llano River near Junction,2,JCTT2;MLRT2,True,False
-JNEA2,Gastineau Channel Tide Gauge at Juneau (MLLW datum),0,,True,False
-JNEL1,Black River at Jonesville L&D,6,ACML1;BJNL1;COLL1;CYNL1;HRBL1;NECL1,True,False
-JNHF1,Lake George at Juniper Hunt Club,0,,True,False
-JNKO2,Polecat Creek near Jenks,0,,True,False
-JNPF1,Juniper Creek at SH 85 Near Niceville,0,,True,False
-JNSC1,South Fork Yuba River at Jones Bar,0,,True,False
-JNSF1,Indian River at Jensen Beach (in MHHW),0,,True,False
 JNSV2,Powell River near Jonesville,2,ARTT1;BSGV2,True,False
 JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
 JOCF1,St Joes Creek at 54th Ave (in MHHW),0,,True,False
@@ -46,7 +21,7 @@ JOSP1,Blacklick Creek at Josephine,0,,True,False
 JPAM2,Foster Branch near Joppatowne,0,,True,False
 JPBF1,Atlantic Tide Station at Jacksonville Beach Pier (in MHHW),0,,True,False
 JPCF1,Tide Gauge at John's Pass,0,,True,False
-JPHV2,James River near Jordan Point below Hopewell (IN MLLW),0,,True,False
+JPHV2,James River near Jordan Point below Hopewell (IN MLLW),2,JSFV2;RICV2,True,False
 JPLT2,North Texas Lakes at Joe Pool  Lake,2,GPET2;MNFT2,True,False
 JPPT1,Stones River below J Percy Priest Dam,0,,True,False
 JPRI3,Patoka River near Jasper,2,CZCI3;WNSI3,True,False
@@ -64,7 +39,7 @@ JRSU1,Jordan River near 17th South,0,,True,False
 JRUM8,Judith River near abv Carr Ck nr Utica,0,,True,False
 JSBA2,Glacial Lake 2.5 mi N of Nugget Creek near Auke Bay,0,,True,False
 JSCM2,Jones Falls at Baltimore Streetcar Museum in Baltimore,0,,True,False
-JSFV2,James River (VA) at Jamestown/Scotland Ferry (IN MLLW),0,,True,False
+JSFV2,James River (VA) at Jamestown/Scotland Ferry (IN MLLW),2,JLMV2;JPHV2,True,False
 JSKT1,Holston River at John Sevier Detention Resrvr near Rogersville,3,CRKT1;GATV2;SHKT1,True,False
 JSLS2,James River near Hecla,1,CMBS2,True,False
 JSMN7,Jack Smith Creek at New Bern,0,,True,False
@@ -592,7 +567,7 @@ LELN7,Hood Creek at U.S. 74 near Leland,0,,True,False
 LELO1,Tuscarawas River at Leesville Dam Pool,0,,True,False
 LEMI2,Des Plaines River near Lemont,2,JRSI2;LYNI2,True,False
 LENM2,McIntosh Run near Leonardtown,0,,True,False
-LENW3,Little La Crosse River at Leon,1,CFMW3,True,False
+LENW3,Little La Crosse River at Leon,2,CFMW3;JLNW3,True,False
 LEOI1,Kootenai River at Leonia,2,BFEI1;KBDM8,True,False
 LEOK2,Little Sandy River at Leon,2,GYLK2;GYNK2,True,False
 LEOM3,North Nashua River at Leominster,0,,True,False
@@ -4045,7 +4020,7 @@ RICM2,Octoraro Creek near Richardsmere,0,,True,False
 RICM7,Crooked River near Richmond,0,,True,False
 RICQ8,Battle Creek at Richardson Ditch nr Consul 5NNW,0,,True,False
 RICT1,Little Pigeon River at Richardson Cove (Maples Branch),0,,True,False
-RICV2,James River (VA) at Richmond Locks,2,RMDV2;SWPV2,True,False
+RICV2,James River (VA) at Richmond Locks,3,JPHV2;RMDV2;SWPV2,True,False
 RIDI1,Eastern Idaho Reservoirs at Ririe Dam,0,,True,False
 RIDI3,Mississinewa River at Ridgeville,0,,True,False
 RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
@@ -5192,7 +5167,7 @@ SPBW4,South Piney Creek below Snider Basin,0,,True,False
 SPCM5,Middle Fork Crow River near Spicer,0,,True,False
 SPCN1,Niobrara River near Spencer,0,,True,False
 SPCN7,Speight Branch Upstream of SE Cary Pkwy,0,,True,False
-SPCO2,Polecat Creek near Sapulpa,0,,True,False
+SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
 SPCT2,Pecos River 3 miles ESE of Sheffield,2,BTNT2;GIVT2,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPDN1,Cedar River near Spalding,1,FULN1,True,False
@@ -5602,7 +5577,7 @@ SWNM6,Tallahatchie River near Swan Lake,2,LOGM6;MOGM6,True,False
 SWNO2,North Canadian River near Shawnee,2,HRHO2;SNCO2,True,False
 SWOG1,Ohoopee River at GA 297 near Swainsboro,0,,True,False
 SWPN2,Stillwater Slough at Stillwater Point Reservoir,0,,True,False
-SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
+SWPV2,James River (VA) at Sewell's Point (IN MLLW),2,JLMV2;RICV2,True,False
 SWRM8,Swan River near Bigfork,0,,True,False
 SWRN1,Big Blue River at Seward,2,CRTN1;SAPN1,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
@@ -6034,7 +6009,7 @@ TRMF1,Twin Rivers Marina (In MHHW),2,CKBF1;CYXF1,True,False
 TRMW4,Tongue River at Monarch (closed),2,DAYW4;DSLM8,True,False
 TRNC1,Trinity River near Helena 1SSE,0,,True,False
 TRNI4,Monona-Harrison Ditch near Turin,0,,True,False
-TRNP1,Shenango River near Transfer,0,,True,False
+TRNP1,Shenango River near Transfer,1,JMSP1,True,False
 TRNT2,North Texas Lakes at Cedar Creek Lake,0,,True,False
 TROI4,South Chequest Creek near Troy Yak Blvd--IFC,0,,True,False
 TROO3,Trout Creek (OR) near Fields,0,,True,False

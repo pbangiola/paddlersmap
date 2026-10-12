@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JLGP4,Rio Jacaguas above Lago Guayabal,1,JUBP4,True,False
-JMEI4,Floyd River at James,1,MRLI4,True,False
 JNXT2,Devils River at Cauthorn Ranch near Juno,1,BKCT2,True,False
 JOCT2,Pedernales River at Johnson City,1,FRBT2,True,False
 JONV1,Lamoille River at Johnson,1,JVLV1,True,False
@@ -56,7 +54,6 @@ LCVN5,Mora River at La Cueva,1,GOLN5,True,False
 LDLK1,Beaver Creek at Ludell,1,CDBK1,True,False
 LEDC2,Arkansas River near Leadville,1,ARGC2,True,False
 LELI4,Winnebago River at Leland Hwy A38--IFC,1,FORI4,True,False
-LENW3,Little La Crosse River at Leon,1,CFMW3,True,False
 LFMW3,La Crosse River at Fort McCoy,1,ANOW3,True,False
 LFPI1,Lake Fork Payette River above Jumbo Creek,1,PAYI1,True,False
 LGHC1,Llagas Creek above Chesbro Reservoir,1,LCXC1,True,False
@@ -577,6 +574,7 @@ SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMC2,Gunnison River near Somerset,1,ACSC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
+SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPDN1,Cedar River near Spalding,1,FULN1,True,False
 SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
@@ -623,7 +621,6 @@ SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
-SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SXRA2,Kenai River at Soldotna,1,KEYA2,True,False
@@ -659,6 +656,7 @@ TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
+TRNP1,Shenango River near Transfer,1,JMSP1,True,False
 TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
 TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
