@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
-HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
-HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
 HRCV2,North Anna River at HART CORNER NR DOSWELL,1,DOSV2,True,False
 HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
 HRPO1,Cuyahoga River at Hiram Rapids,1,OLPO1,True,False
@@ -244,6 +241,7 @@ MODP1,West Branch Brandywine Creek at Modena,1,COTP1,True,False
 MOFW2,South Fork South Branch Potomac River near SF Moorefield,1,BRYW2,True,False
 MOJV2,North Fork Shenandoah River near Mount Jackson,1,COOV2,True,False
 MOLO3,Molalla River at Shady Dell near Molalla 2ESE,1,CANO3,True,False
+MOSC1,San Joaquin River at Mossdale Bridge,1,VNSC1,True,False
 MPBV2,Bull Run near Manassas Park,1,CTHV2,True,False
 MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False

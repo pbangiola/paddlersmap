@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HPIC1,Merced River at Happy Isles,0,,True,False
-HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
-HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
-HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
-HPMN3,Atlantic Coast at Hampton (IN MLLW),0,,True,False
-HPMV2,Horsley Creek at Pedlar Mills,0,,True,False
-HPNN7,Horsepen Creek at US-220 Near Greensboro,0,,True,False
-HPOH1,Honopou Stream near Huelo,0,,True,False
-HPPC1,Hopper Creek near Piru,0,,True,False
-HPPH1,Hanapepe River above Hanapepe,0,,True,False
-HPPV2,Elizabeth River at Hunts Pointe Park (IN MLLW),0,,True,False
-HPTG1,Alcovy River below Covington,2,ACYG1;JKNG1,True,False
-HPWM6,PEARL RIVER NEAR HOPEWELL,2,JACM6;ROCM6,True,False
-HQDV2,Hone Quarry Run above Hone Quarry Dam,0,,True,False
-HRAG1,Little River (SW Georgia) near Hahira (SR 122),2,ADLG1;QUTG1,True,False
-HRAV2,Hyco River at Alton,0,,True,False
-HRBF1,Tide Station at Horseshoe Beach (in MHHW),0,,True,False
-HRBH1,Hanalei River at Hanalei River Bridge,0,,True,False
-HRBI2,Middle Fork Saline River above Harrisburg,0,,True,False
-HRBL1,Ouachita River at Harrisonburg,3,BJNL1;COLL1;JNEL1,True,False
-HRBM4,Lake Huron at Harbor Beach Tidal Gauge,0,,True,False
-HRCA2,Harris River 1.2 mile above Mouth near Hollis AK,0,,True,False
-HRCM7,Mississippi River at Herculaneum,2,CHSI2;EADM7,True,False
-HRCN2,Humboldt River near Carlin,2,HREN2;PALN2,True,False
-HRCN8,Sheyenne River above Sheyenne River Diversion near Horace,2,KNDN8;WSFN8,True,False
 HRCV2,North Anna River at HART CORNER NR DOSWELL,1,DOSV2,True,False
 HRDM3,East Branch Swift River near Hardwick,0,,True,False
 HRDM5,Rock River near Hardwick,0,,True,False
@@ -2255,7 +2230,7 @@ MORP4,Rio Grande De Manati at HWY 115 nr Morovis,0,,True,False
 MORW1,Cedar River (WA) at Chester Morse Lk at Cedar Falls,0,,True,False
 MORW2,Monongahela River at Morgantown Lock and Dam,2,MGTW2;PMRP1,True,False
 MORW3,Red River (WI) near Gresham,0,,True,False
-MOSC1,San Joaquin River at Mossdale Bridge,0,,True,False
+MOSC1,San Joaquin River at Mossdale Bridge,1,VNSC1,True,False
 MOSH1,Moanalua Stream near Honolulu,0,,True,False
 MOSP1,Allegheny River at Mosgrove Lock and Dam,2,KTTP1;RMRP1,True,False
 MOSR1,Moshassuck River at Providence,0,,True,False
@@ -3080,7 +3055,7 @@ NWHT1,Mississippi River Northwest TN Harbor,2,HKMK2;NMDM7,True,False
 NWKN4,Passaic River at Newark (IN MLLW),1,DDCN4,True,False
 NWKW3,Moore Creek at Norwalk,0,,True,False
 NWLM5,Middle Fork Crow River near New London 1S,0,,True,False
-NWMC1,San Joaquin River at Newman,0,,True,False
+NWMC1,San Joaquin River at Newman,2,PATC1;STVC1,True,False
 NWMS2,North Fork Whetstone River near Milbank,0,,True,False
 NWMV2,Smith Creek near New Market,0,,True,False
 NWMW4,Nowood River near Manderson,0,,True,False
@@ -3471,7 +3446,7 @@ PASN1,Stinking Water Creek at Palisade,0,,True,False
 PASP4,Lago Patillas,2,GRPP4;PATP4,True,False
 PASS1,Parr Reservoir,2,ALTS1;CARS1,True,False
 PASV1,Passumpsic River at Passumpsic,2,EHVV1;WELV1,True,False
-PATC1,San Joaquin River at Patterson,0,,True,False
+PATC1,San Joaquin River at Patterson,2,NWMC1;VNSC1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PATP4,Rio Patillas near Patillas,1,PASP4,True,False
@@ -3909,7 +3884,7 @@ POCW1,Pend Oreille River at Cusick,2,ALFW1;POIW1,True,False
 PODF1,Pithlachascotee River Below Suncoast Pkwy Near Fivay Jct,2,FVJF1;PTHF1,True,False
 POEF1,Santa Fe River at Poe Springs Pool (in NAVD88),2,FWHF1;HSPF1,True,False
 POET2,West Fork San Jacinto River near Porter,2,CFKT2;HMMT2,True,False
-POHC1,Merced River at Pohono Bridge,0,,True,False
+POHC1,Merced River at Pohono Bridge,2,HPIC1;STVC1,True,False
 POIN7,Roanoke Sound at Pond Island,0,,True,False
 POIW1,Pend Oreille River at Ione,2,BCAW1;POCW1,True,False
 POKM5,Pokegama Lake Elevation,0,,True,False
@@ -5923,7 +5898,7 @@ STUI4,Floyd River near Struble,2,ALTI4;LMRI4,True,False
 STUM5,Stewart River near Two Harbors,0,,True,False
 STUN7,Pamlico Sound at Stumpy Point (in MLLW),0,,True,False
 STUS2,Bear Butte Creek at Avalanche Rd at Sturgis,2,BOUS2;EMSS2,True,False
-STVC1,Merced River at Stevinson,0,,True,False
+STVC1,Merced River at Stevinson,2,NWMC1;POHC1,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STVF1,Shady Brook (in NAVD88),0,,True,False
 STVL1,Bayou Millhome near Stephensville,0,,True,False
@@ -6809,7 +6784,7 @@ VNLA3,Virgin River at Narrows,0,,True,False
 VNMI4,Raccoon River at Van Meter,3,ADEI4;REDI4;WDMI4,True,False
 VNPG1,Chattahoochee River at Powers Ferry + I-285 near Atlanta,2,MGFG1;VIXG1,True,False
 VNRM8,near Van Norman,0,,True,False
-VNSC1,San Joaquin River at Vernalis,0,,True,False
+VNSC1,San Joaquin River at Vernalis,2,MOSC1;PATC1,True,False
 VNVM2,Gwynns Falls at Villa Nova,0,,True,False
 VOJC1,Ventura River at Camino Cielo,0,,True,False
 VONC1,Sacramento River at Verona,3,FMWC1;NCOC1;SACC1,True,False
