@@ -1,5 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
+HLHK2,South Fork Little River at Hopkinsville - 68/80,1,HLBK2,True,False
 HLKI1,Eastern Idaho Reservoirs at Henrys Lake,1,HENI1,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HLSN7,Eno River at Hillsborough,1,HBSN7,True,False
@@ -18,6 +18,7 @@ HOPC1,Russian River near Hopland,1,HEAC1,True,False
 HOPN6,Sacandaga River at Hope,1,SACN6,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
+HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
 HRCV2,North Anna River at HART CORNER NR DOSWELL,1,DOSV2,True,False
@@ -101,6 +102,7 @@ KNTO1,Scioto River at Kenton,1,LARO1,True,False
 KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
 KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
+LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
 LAMN8,James River at LaMoure,1,JMSN8,True,False
 LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
@@ -385,6 +387,7 @@ PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PALP1,Allegheny River at Port Allegany,1,ELRP1,True,False
 PAMN7,Pamlico River at Washington (in MLLW),1,GRMN7,True,False
 PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
+PANO2,Poteau River near Panama,1,HJFA4,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False

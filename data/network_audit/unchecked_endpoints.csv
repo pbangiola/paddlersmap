@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HILT1,Roaring River near Hilham,0,,True,False
-HINW2,New River at Hinton,3,GLLV2;KANW2;THMW2,True,False
-HIPI2,Skokie River at Highland Park,0,,True,False
-HIPN7,East Fork of Deep River near High Point,0,,True,False
-HISM7,St. Francis River near Holly Island,0,,True,False
-HIST2,Tide Station (HGX) at High Island,0,,True,False
-HIWC2,Lena Gulch (CO) at Golden,0,,True,False
-HIWN7,Hiwassee River above Hiwassee Dam,3,CHAN7;HADT1;TMVN7,True,False
-HJBT1,West Prong Little Pigeon River at Gatlinburg (Aquarium Bridge),2,GATT1;SPUT1,True,False
-HJFA4,James Fork near Hackett,0,,True,False
-HJMT2,Mayhaw Bayou at McCall Road,0,,True,False
-HKCC1,Big Chico Creek at Chico,0,,True,False
-HKCN6,East Branch Delaware at Hancock,2,HVDN6;LDVN6,True,False
-HKGW4,Hams Fork near Granger,0,,True,False
-HKMK2,Mississippi River at Hickman,2,NWHT1;WKLK2,True,False
-HKMN1,Stagecoach Lake,0,,True,False
-HKPH1,Hanakapiai Stream above Hanakapiai Stream,0,,True,False
-HKRC1,Los Gatos Creek  Hooker,0,,True,False
-HKSH1,Honokohau Stream near Honokohau,0,,True,False
-HLAH1,Halaulani Stream near Kilauea,0,,True,False
-HLBK2,South Fork Little River at Hopkinsville - Bypass,0,,True,False
-HLCG1,Hickory Log Creek near Canton,0,,True,False
-HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
-HLCT2,Lelia Lake Creek at Hedley,0,,True,False
-HLCV2,Holiday Creek at nr. Andersonville,0,,True,False
 HLDF1,Withlacoochee River near Holder at SR 200 (in NAVD88),4,CRMF1;DNLF1;GUMF1;WIVF1,True,False
 HLDK2,Kentucky River at Heidelberg,2,JKNK2;WLWK2,True,False
 HLEA1,Cahaba River near Helena,0,,True,False
@@ -32,7 +7,7 @@ HLEH1,Hanalei River near Hanalei,0,,True,False
 HLEN6,West Branch Delaware River at Hale Eddy,3,CCRN6;LDVN6;SLVN6,True,False
 HLGI3,Deep River (IN) at Hobart,0,,True,False
 HLGP1,West Branch Perkiomen Creek at Hillegass,0,,True,False
-HLHK2,South Fork Little River at Hopkinsville - 68/80,0,,True,False
+HLHK2,South Fork Little River at Hopkinsville - 68/80,1,HLBK2,True,False
 HLHL1,Mississippi River at Harvey Lock,2,MBCL1;NORL1,True,False
 HLHN7,Intracoastal Waterway at Holden Beach,0,,True,False
 HLIF1,Atlantic Tide Gauge at Haulover Intracoastal (in MHHW),0,,True,False
@@ -175,7 +150,7 @@ HPDT2,Brazos River near Hempstead,4,BAWT2;BBZT2;NGET2;SOMT2,True,False
 HPGA4,St. Francis River at Huxtable,0,,True,False
 HPGL1,Mississippi River at Head of Passes,2,CKBL1;WBOL1,True,False
 HPIC1,Merced River at Happy Isles,0,,True,False
-HPKK2,South Fork Little River above Hopkinsville,0,,True,False
+HPKK2,South Fork Little River above Hopkinsville,1,HLBK2,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
 HPMN3,Atlantic Coast at Hampton (IN MLLW),0,,True,False
@@ -995,7 +970,7 @@ LACT2,Medina River near La Coste,2,MDLT2;MMDT2,True,False
 LACV2,Accotink Creek at Lake Accotink near Springfield,0,,True,False
 LACW3,Mississippi River at La Crosse - Pool 8,3,BRWM5;LCRM5;LCRW3,True,False
 LADI4,Big Bear Creek at Ladora,0,,True,False
-LAFI2,Skokie River at Lake Forest,0,,True,False
+LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
 LAFI3,Wabash River at Lafayette,3,CVGI3;DCDI3;LGNI3,True,False
 LAFN4,East Branch Paulins Kill near Lafayette,0,,True,False
 LAFW3,Kickapoo River at La Farge,2,ONTW3;VIOW3,True,False
@@ -3002,7 +2977,7 @@ NICF1,Thirtymile Creek Near Nichols,0,,True,False
 NICG1,Nickajack Creek at US Highway 78 and 278 near Mableton,0,,True,False
 NICS1,Lumber River near Nichols,2,FBLN7;GALS1,True,False
 NILC1,Alameda Creek near Niles,3,ALFC1;AOLC1;ASLC1,True,False
-NILI2,North Branch Chicago River at Niles,3,DRFI2;NBPI2;NBRI2,True,False
+NILI2,North Branch Chicago River at Niles,4,DRFI2;HIPI2;NBPI2;NBRI2,True,False
 NILM4,St. Joseph River (MI/IN) at Niles,1,SBNI3,True,False
 NIMM5,Crow Wing River at Nimrod,0,,True,False
 NINA2,Ninilchik River at Ninilchik,0,,True,False
@@ -3628,7 +3603,7 @@ PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
 PANI4,Middle Raccoon River at Panora,2,PNLI4;RDFI4,True,False
 PANK2,South Fork Panther Creek near Whitesville,0,,True,False
 PANL1,Amite River Basin at Panama Canal at Hwy 44 near Gonzales,0,,True,False
-PANO2,Poteau River near Panama,0,,True,False
+PANO2,Poteau River near Panama,1,HJFA4,True,False
 PANP4,Rio Marin near Patillas,0,,True,False
 PANW2,Panther Creek above Panther,0,,True,False
 PARA1,Lost Creek (AL) near Oakman,0,,True,False
