@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DUBW4,Wind River near Dubois,1,WRCW4,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
 DVDO2,Red River near Davidson,1,BKBT2,True,False
 DWTO1,Wills Creek at Derwent,1,CDIO1,True,False
@@ -469,6 +468,7 @@ PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
+PRSG1,Kinchafoonee Creek at Preston (SR 41),1,DSNG1,True,False
 PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
@@ -578,6 +578,7 @@ SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
 SHVT1,Duck River near Shelbyville,1,COLT1,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
+SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
 SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
 SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
@@ -657,6 +658,7 @@ TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
+TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
@@ -672,6 +674,7 @@ UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
+USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
 UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
