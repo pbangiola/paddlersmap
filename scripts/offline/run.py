@@ -16,7 +16,8 @@ def download(filename):
 def main():
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument("task",choices=("launches","reconcile","discover-launches","discover-lakes","serve"))
- p.add_argument("--kml",help="KML of watercourses (required for reconcile)")
+ p.add_argument("--kml",help="Optional KML watercourses file")
+ p.add_argument("--watercourses",help="Optional watercourse GeoJSON; defaults to data/river_segments_3dhp_review.geojson")
  p.add_argument("--gauges",help="Optional local NOAA gauges GeoJSON")
  p.add_argument("--edges",help="Optional local NOAA graph GeoJSON")
  p.add_argument("--bbox",nargs=4,type=float,metavar=("WEST","SOUTH","EAST","NORTH"))
@@ -29,10 +30,11 @@ def main():
  if a.task=="launches":
   run("filter_launches.py","--input",ROOT/"data"/"putins_consolidated.geojson","--output",OUT/"putins_named_launches.geojson")
  elif a.task=="reconcile":
-  if not a.kml:p.error("reconcile needs --kml /path/to/watercourses.kml")
+  watercourses=Path(a.watercourses).expanduser().resolve() if a.watercourses else ROOT/"data"/"river_segments_3dhp_review.geojson"
+  if not a.kml and not watercourses.exists():p.error(f"Missing watercourse GeoJSON: {watercourses}")
   gauges=Path(a.gauges) if a.gauges else download("noaa_gauges.geojson")
   edges=Path(a.edges) if a.edges else download("noaa_graph_edges.geojson")
-  run("reconcile_gauges_watersheds.py","--gauges",gauges,"--edges",edges,"--kml",Path(a.kml).expanduser().resolve(),"--out",OUT/"reconciled.geojson","--snap-m",a.snap_m)
+  run("reconcile_gauges_watersheds.py","--gauges",gauges,"--edges",edges,* (["--kml",str(Path(a.kml).expanduser().resolve())] if a.kml else ["--watercourses",str(watercourses)]),"--out",OUT/"reconciled.geojson","--snap-m",a.snap_m)
  else:
   if not a.bbox:p.error("discovery requires --bbox WEST SOUTH EAST NORTH")
   kind="launches" if a.task=="discover-launches" else "lakes"
