@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CLFA3,Colorado River at Lees Ferry,1,CGCA3,True,False
-CLGL1,Bayou Lafourche (NE LA) near Crew Lake,1,BLFL1,True,False
 CLLC1,Calleguas Creek at CSUCI Bridge,1,ASNC1,True,False
 CLLI4,Middle Raccoon River Tributary near Carroll,1,CMOI4,True,False
 CLLM4,Sturgeon River near Chassell,1,ALSM4,True,False
@@ -63,6 +61,7 @@ DKNP1,Conneaut Creek at Dickonsburg,1,CCKO1,True,False
 DLLO1,Licking River (OH) at Dillon Dam Tailwater,1,DLFO1,True,False
 DLPI3,Tippecanoe River near Delphi,1,OADI3,True,False
 DNRC2,Rio Grande near Del Norte,1,ALAC2,True,False
+DNSM3,Nashua River at East Pepperell,1,CLIM3,True,False
 DNVI2,Vermilion River (E-IL) near Danville,1,BISI2,True,False
 DNZM7,Current River at Doniphan,1,VNBM7,True,False
 DOVT1,Cumberland River at Dover,1,CKVT1,True,False
@@ -164,6 +163,7 @@ HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
+HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
@@ -210,10 +210,12 @@ KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
 KCKK1,Kansas River at 23rd Street - Kansas City - KS,1,KLQK1,True,False
 KCTM7,Blue River at 12th Street,1,KSVM7,True,False
 KCYC1,San Lorenzo Creek (Monterey) below Bitterwater Creek NR King City,1,KCBC1,True,False
+KEEW1,Yakima River at Keechelus Outflow,1,KACW1,True,False
 KEOO3,Klamath River at Keno,1,BOYO3,True,False
 KHOT2,Cypress Creek near Hockley,1,CCGT2,True,False
 KIAA2,Kobuk River near Kiana,1,ABLA2,True,False
 KINT1,Harpeth River near Kingston Springs,1,BELT1,True,False
+KIOW1,Yakima River at Kiona,1,PARW1,True,False
 KLGI4,North Skunk River near Kellogg S 12th Ave E--IFC,1,SIGI4,True,False
 KLMC1,Klamath River near Klamath,1,ONSC1,True,False
 KMST2,Lavaca River at Komensky,1,BRLT2,True,False
@@ -226,6 +228,7 @@ LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
 LAUF1,Myakka River Near Laurel,1,BOWF1,True,False
 LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
+LAWK1,Wakarusa River near Lawrence,1,CLIK1,True,False
 LAWM3,Merrimack River at Lawrence,1,BATM3,True,False
 LBJK2,Rolling Fork River near Lebanon Junction,1,BSNK2,True,False
 LCAL1,Bayou D'Arbonne at Lake Claiborne,1,LDBL1,True,False
@@ -287,6 +290,7 @@ MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
+MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
 MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
 MDBV1,Otter Creek at Middlebury,1,CENV1,True,False
@@ -342,6 +346,7 @@ MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
 MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
 MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
+NACW1,Naches River near Naches,1,CLFW1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
@@ -532,6 +537,7 @@ SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
+SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
 SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
 SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
 SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
@@ -568,6 +574,7 @@ STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STPC1,Stampede Reservoir,1,BCVC1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
+SUSA2,[INACTIVE] Susitna River at Susitna Station,1,YSSA2,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
@@ -645,6 +652,7 @@ WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
 WPTK2,Salt River at West Point,1,SHPK2,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRRP1,Allegheny River at Warren,1,WHKP1,True,False
+WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSIN2,Walker River near Schurz,1,WBWN2,True,False
 WSRI1,Weiser River at Weiser,1,CAMI1,True,False
 WSTM6,Big Black River at West,1,BTAM6,True,False
@@ -660,6 +668,7 @@ WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 YAHC2,Yampa River near Hayden,1,CGGC2,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
+YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 YPSA2,Yukon River at Pilot Station,1,NULA2,True,False
