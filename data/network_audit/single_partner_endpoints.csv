@@ -1,6 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-IMBA4,Spring River (AR) at Imboden,1,HDYA4,True,False
-INCO1,Indian Creek at Macedonia,1,BWCO1,True,False
+INRN6,Indian River below Indian Lake,1,INDN6,True,False
 IPDI1,Eastern Idaho Reservoirs at Island Park,1,ISLI1,True,False
 IRNM7,Big River at Irondale,1,RCHM7,True,False
 ISKN6,Tioughnioga River at Itaska,1,LSLN6,True,False
@@ -654,6 +653,7 @@ TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
+TIFM7,Elk River (MO) near Tiff City,1,INCM7,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
