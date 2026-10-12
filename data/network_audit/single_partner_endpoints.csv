@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CNON6,Chenango River near Chenango Forks,1,GNEN6,True,False
-CNWM2,Susquehanna River at Conowingo Dam,1,MRTP1,True,False
 COGO3,Cow Creek above Azalea,1,GSVO3,True,False
 COGW2,Gauley River at Camden-On-Gauley,1,CRAW2,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
@@ -17,6 +15,7 @@ CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
 CRSA2,Chatanika River at Steese Hwy Bridge near Chatanika,1,CHAA2,True,False
 CRUA2,Colville River at Umiat,1,CCVA2,True,False
+CSAF1,Cypress Creek at SR 52 Near San Antonio,1,WRGF1,True,False
 CSFS1,Black Creek (SC) below Chesterfield,1,MCBS1,True,False
 CSHO1,Muskingum River below Coshocton,1,DREO1,True,False
 CSNM7,Meramec River near Cook Station,1,SEEM7,True,False
@@ -40,6 +39,7 @@ DAEV2,Tinker Creek near Daleville,1,CLOV2,True,False
 DANA4,Petit Jean River at Danville,1,BMTA4,True,False
 DARL1,Amite River near Darlington,1,GVLL1,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
+DARV2,Cranes Nest River at Darwin,1,CNRV2,True,False
 DAVW2,Blackwater River (WV) above Davis,1,BWRW2,True,False
 DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
 DDVC1,Canoas Creek at Dow Drive,1,CAOC1,True,False
@@ -102,6 +102,7 @@ FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
 FILT2,Frio River at at Leakey,1,CNCT2,True,False
 FINI3,Big Raccoon Creek near Fincastle,1,CHLI3,True,False
 FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
+FLAV2,Pound River at John Flannagan Lake,1,CNRV2,True,False
 FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
 FLGW4,Snake River at Flagg Ranch,1,JLKW4,True,False
 FLOS2,Big Sioux River near Florence,1,WTRS2,True,False
@@ -115,6 +116,7 @@ FRLK2,West Fork Drakes Creek at Franklin,1,ALVK2,True,False
 FRMN5,San Juan River at Farmington,1,ARFN5,True,False
 FRSG1,Flint River at GA 85 near Forest Park,1,LOVG1,True,False
 FRSO2,Muddy Boggy Creek near Farris,1,ATMO2,True,False
+FSBG1,Canoochee River at Fort Stewart,1,CNOG1,True,False
 FSLL1,Amite River at French Settlement,1,PVLL1,True,False
 FTBN7,Neuse River at Fort Barnwell,1,KINN7,True,False
 FTRK1,Kansas River at Ft. Riley,1,MHKK1,True,False
@@ -156,6 +158,7 @@ HGBN6,St. Regis River at Hogansburg,1,BRAN6,True,False
 HIBK2,Kentucky River at High Bridge Lock,1,CPNK2,True,False
 HICT2,North Bosque River at Hico,1,CTNT2,True,False
 HLLW2,Greenbrier River at Hilldale,1,ALDW2,True,False
+HMLT1,Duck River near Hurricane Mills,1,CNVT1,True,False
 HNTT1,Cumberland River at Hunters Point,1,OHIT1,True,False
 HOFM5,Pomme De Terre River near Hoffman,1,APPM5,True,False
 HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
@@ -164,6 +167,7 @@ HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
+HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
 HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
 HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
@@ -252,6 +256,7 @@ LLGN7,Pigeon River (NC) above (W Fork) Abv Lake Logan,1,RTRN7,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
+LNCP1,Conestoga River at Lancaster,1,CNSP1,True,False
 LNSO1,Hocking River at Lancaster,1,ENTO1,True,False
 LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
 LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
@@ -541,6 +546,7 @@ SHLT2,San Jacinto River near Sheldon,1,HSJT2,True,False
 SHLV2,South Fork Holston River at Riverside nr Chilhowie,1,VSTV2,True,False
 SHNI4,East Nishnabotna River near Shenandoah (IFC),1,COBI4,True,False
 SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
+SHVT1,Duck River near Shelbyville,1,COLT1,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
