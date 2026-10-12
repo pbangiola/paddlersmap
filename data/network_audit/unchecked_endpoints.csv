@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EFEA2,East Fork Eklutna River near Palmer,0,,True,False
-EFFC1,Tulucay Creek at Shurtleff Avenue,0,,True,False
-EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
-EFFN7,East Fork French Broad River below Rosman,0,,True,False
-EFFS1,Lynches River at Effingham,2,LLCS1;LYOS1,True,False
-EFGI1,East Fork Big Wood River at Gimlet,0,,True,False
-EFGN5,Gila River below East Fork and Gila Hot Springs,0,,True,False
-EFJI1,East Fork Jarbidge River near Three Creek,0,,True,False
-EFKA1,East Fork Choctawhatchee River near Abbeville (SR 27),2,NEWA1;TEXA1,True,False
-EFKN7,Tanasee Creek at EAST FORK DAM ,0,,True,False
-EFLN7,Green River (NC) at Lake Summit Dam,0,,True,False
-EFPW4,East Fork Big Goose Creek at Park Reservoir Outlet,0,,True,False
-EFRA1,Tide Gauge at East Fowl River Bridge (IN MHHW),0,,True,False
-EFRM5,E Fork Rapid River near Clementson,0,,True,False
-EFRV1,Pike River (VT) at East Franklin,0,,True,False
-EFSF1,Econfina River at Econfina State Park (in MHHW),0,,True,False
-EFSI1,East Fork Salmon River near  Clayton,0,,True,False
-EFWI3,East Fork White Lick Creek near Mooresville,2,CABI3;CNTI3,True,False
-EFWI4,North Raccoon River near Jefferson,2,DAWI4;LKCI4,True,False
-EFWW4,East Fork Wind River near Dubois,0,,True,False
-EGAS2,Big Sioux River near Egan,2,BSFS2;TRES2,True,False
-EGBM8,East Gallatin River near abv Water Recl Fac nr Bozeman,0,,True,False
-EGCO2,Boggy Creek (N OK) at Enid at 30th Street,1,EBCO2,True,False
-EGCO3,Eagle Creek above Skull Creek near New Bridge,0,,True,False
-EGDC2,Cherry Creek (CO) at Cherry Creek Reservoir,2,CCSC2;CPKC2,True,False
 EGFM5,Red River of the North at Grand Forks,3,FSHM5;OSLM5;TPNN8,True,False
 EGHN7,Far Creek at Engelhard (in MLLW),0,,True,False
 EGIL1,Barataria Bay and Waterway at Barataria Pass near Grand Isle,0,,True,False
@@ -37,7 +12,7 @@ EGMN7,Wilson Creek (NC) near Edgemont,0,,True,False
 EGNI4,Otter Creek at Elgin (IFC),2,BANI4;TENI4,True,False
 EGPA4,Cache River near Egypt,1,PTTA4,True,False
 EGRM8,East Gallatin River below Bridger Creek near Bozeman,0,,True,False
-EGRO3,Eagle Creek near Richland,0,,True,False
+EGRO3,Eagle Creek near Richland,1,EGCO3,True,False
 EGRP1,Perkiomen Creek at East Greenville,0,,True,False
 EGSC1,East Little Llagas Creek below San Martin Ave,0,,True,False
 EGYC1,East Llagas Creek above Sycamore Avenue,0,,True,False
@@ -55,7 +30,7 @@ EKCO2,Lake Creek (OK) near Eakley,0,,True,False
 EKCS2,Elk Creek (SD) near Rapid City,0,,True,False
 EKCW3,Elk Creek (WI) near Elk Creek,0,,True,False
 EKDI4,Turkey River at Elkader,2,GRBI4;TENI4,True,False
-EKLA2,Eklutna Lake near Palmer,0,,True,False
+EKLA2,Eklutna Lake near Palmer,1,EFEA2,True,False
 EKMI3,St. Joseph River (MI/IN) at Elkhart,4,GSHI3;MOTM4;SBNI3;SCOI3,True,False
 EKMM2,Big Elk Creek at Elk Mills,0,,True,False
 EKPF1,Tide Station at the Edward B. Knight Pier in Key West (in MHHW),0,,True,False
@@ -983,7 +958,7 @@ GIDA3,Gila River near Dome,0,,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
 GILM1,Wild River at Gilead,0,,True,False
 GILN3,Ashuelot River near Gilsum,0,,True,False
-GILN5,Gila River above Gila,1,RGRN5,True,False
+GILN5,Gila River above Gila,2,EFGN5;RGRN5,True,False
 GILN6,Schoharie Creek at Gilboa Dam,2,GBRN6;PTVN6,True,False
 GILO1,Blanchard River at Gilboa,2,FDYO1;OTTO1,True,False
 GILS1,Gills Creek at US 76,0,,True,False
@@ -1354,7 +1329,7 @@ HAIN1,Arikaree River at Haigler,0,,True,False
 HAIV2,Russell Fork River at Haysi,2,BIGV2;BRFV2,True,False
 HAJT2,Sandy Creek (E TX) at Jasper,0,,True,False
 HAKT2,Sabine River near Hawkins,0,,True,False
-HALI1,Big Wood River at Hailey,2,SCBI1;WRMI1,True,False
+HALI1,Big Wood River at Hailey,3,EFGI1;SCBI1;WRMI1,True,False
 HALM1,Kennebec River at Hallowell,1,ASTM1,True,False
 HALT1,Beaver Creek (TN) near Halls Crossroads,0,,True,False
 HALV2,Banister River at Halifax,0,,True,False
@@ -2086,7 +2061,7 @@ JAXP4,Rio Caonillas at Paso Palma,2,ARCP4;JAYP4,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
 JBCO2,Beaty Creek near Jay,0,,True,False
 JBDF1,Lake Talquin at Jackson Bluff Dam (in NGVD29),2,BLXF1;HVNF1,True,False
-JBGN2,Jarbidge River near Jarbidge,0,,True,False
+JBGN2,Jarbidge River near Jarbidge,1,EFJI1,True,False
 JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
 JBLM6,Belhaven Creek at Laurel Street/Jackson,0,,True,False
 JBMO3,John Day River at Blue Mtn Hot Springs nr Prairie City,0,,True,False
@@ -7875,7 +7850,7 @@ TCHW1,Walla Walla River near Touchet,0,,True,False
 TCIW3,Tri Creek near Norwalk - Dam Inlet,0,,True,False
 TCKA3,Trout Creek above Knight Creek,0,,True,False
 TCKF1,Trout Creek at Bruce B Downs Blvd Near Sulphur Springs,0,,True,False
-TCKI1,Trail Creek (ID) at Ketchum,0,,True,False
+TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
 TCKM7,Turkey Creek (MO) at Hollister,0,,True,False
 TCKW4,Tantalus Creek at Norris Junction,0,,True,False
 TCLA1,Black Warrior River at Holt Lock and Dam,2,BLDA1;TODA1,True,False
@@ -9148,7 +9123,7 @@ WRCF1,Withlacoochee-Hillsborough Overflow at US 98 Near Richland,0,,True,False
 WRCI2,Rayse Creek above Waltonville,0,,True,False
 WRCN1,White River (WY) at Crawford,0,,True,False
 WRCS1,Wando River at Cainhoy (IN MLLW),0,,True,False
-WRCW4,Wind River above Red Creek,2,CROW4;DUBW4,True,False
+WRCW4,Wind River above Red Creek,3,CROW4;DUBW4;EFWW4,True,False
 WRDM5,Lake of the Woods at Warroad,0,,True,False
 WRDM8,West Rosebud Creek near Roscoe,0,,True,False
 WRDN4,Wanaque River at Wanaque Reservoir elevation,0,,True,False

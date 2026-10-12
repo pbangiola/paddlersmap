@@ -1,8 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
-EGCO2,Boggy Creek (N OK) at Enid at 30th Street,1,EBCO2,True,False
 EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
 EGPA4,Cache River near Egypt,1,PTTA4,True,False
+EGRO3,Eagle Creek near Richland,1,EGCO3,True,False
+EKLA2,Eklutna Lake near Palmer,1,EFEA2,True,False
 ELFK1,Elk River (KS) at Elk Falls,1,ELAK1,True,False
 ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELKM2,Patapsco River near Elkridge below Patapsco Valley State Park,1,ERDM2,True,False
@@ -81,7 +81,6 @@ GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
 GERT1,Wolf River at Germantown,1,COTT1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
-GILN5,Gila River above Gila,1,RGRN5,True,False
 GLDO1,Paint Creek near Greenfield,1,PCRO1,True,False
 GLDP1,Lehigh River at Glendon,1,BETP1,True,False
 GLKA3,Gila River at Kelvin,1,CLDA3,True,False
@@ -148,6 +147,7 @@ IWNC1,San Lorenzo River (CA) at Lomond Street Bridge,1,BTEC1,True,False
 JACM4,Grand River at Jackson,1,ETNM4,True,False
 JAKT2,West Fork Trinity River near Jacksboro,1,BPRT2,True,False
 JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
+JBGN2,Jarbidge River near Jarbidge,1,EFJI1,True,False
 JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
 JCCF1,Jumper Creek Canal ,1,BNLF1,True,False
 JCSS1,Seneca River at Jocassee Dam,1,KEOS1,True,False
@@ -651,6 +651,7 @@ TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
+TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
 TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
