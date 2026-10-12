@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CRGV2,Craig Creek at Parr,1,CCIV2,True,False
-CRMV2,Cowpasture River at McClung,1,COWV2,True,False
 CRNA2,Chisana River at Northway Road Bridge,1,TLNA2,True,False
 CRPU1,"Colorado River at Potash, UT",1,CLRU1,True,False
 CRRK2,Kentucky River above Kentucky Lock 1 at Carrollton,1,LPTK2,True,False
@@ -16,6 +14,7 @@ CSRT2,San Bernard River near Chesterville,1,EBBT2,True,False
 CTKW1,Chehalis River near Pe Ell,1,DOTW1,True,False
 CTMF1,"Ochlockonee River at Curtis Mill, US-319 (In NAVD88)",1,OCLF1,True,False
 CTWG1,Big Cedar Creek at Georgia Ave at Cedartown,1,CCDG1,True,False
+CUMF1,Withlacoochee River near Cumpressco (in NAVD88),1,WDAF1,True,False
 CUTT2,Pecan Bayou near Cross Cut,1,LBWT2,True,False
 CVCA1,Cahaba Valley Creek at Pelham,1,CISA1,True,False
 CVEL1,Bogue Falaya River at Boston Street,1,CGSL1,True,False
@@ -139,6 +138,7 @@ GLML1,Calcasieu River near Glenmora,1,OKDL1,True,False
 GLNK1,Solomon River at Glen Elder Reservoir,1,GELK1,True,False
 GLNS2,Bear Butte Creek near Galena,1,BOUS2,True,False
 GMDO2,Deer Creek (OK) at Grama Lake near Meers,1,CMDO2,True,False
+GNTO2,Elm Fork of North Fork Red River near Granite,1,CRLO2,True,False
 GRMN3,Androscoggin River at Gorham,1,RMFM1,True,False
 GRNM1,Penobscot River above Grindstone,1,WENM1,True,False
 GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
@@ -452,7 +452,6 @@ PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
 PLCM7,Platte River near Platte City,1,SSTM7,True,False
 PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
-PLGN7,Catawba River near Pleasant Gardens,1,BRWN7,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLOP4,Lago Loiza near Trujillo Alto,1,CAGP4,True,False
 PLRM8,Poplar River near Poplar,1,BDPM8,True,False
@@ -521,12 +520,14 @@ RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
+RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SACT2,Salado Creek at Loop 13,1,SSCT2,True,False
+SALV2,North Fork Holston River at Saltville,1,GATV2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SANK1,Pawnee River near Sanford,1,ROZK1,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
@@ -698,6 +699,7 @@ WPTK2,Salt River at West Point,1,SHPK2,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSIN2,Walker River near Schurz,1,WBWN2,True,False
+WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
 WSRI1,Weiser River at Weiser,1,CAMI1,True,False
 WSTM6,Big Black River at West,1,BTAM6,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
