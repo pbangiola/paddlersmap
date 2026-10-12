@@ -1,9 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
-LPBV2,"Little River near Peach Bottom, VA",1,LBXN7,True,False
-LPOL1,Tickfaw River at Liverpool,1,MONL1,True,False
-LPRC1,Los Padres Dam  ,1,RDRC1,True,False
-LPRN1,Platte River at La Platte,1,LOUN1,True,False
+LPVC2,Los Pinos River near Bayfield,1,LPAC2,True,False
 LRRC1,San Lorenzo River (CA) at Santa Cruz,1,BTEC1,True,False
 LRWW1,Lewis River at Woodland,1,MERW1,True,False
 LRYA1,Tombigbee River near Leroy,1,CLDA1,True,False
@@ -323,6 +319,7 @@ PNPF1,Tide Gauge at New Port Richey (in MHHW),1,PTHF1,True,False
 PNTI2,Vermilion River  at Pontiac,1,LNRI2,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
+POCT1,Porters Creek 3S Pittman Center (Greenbrier),1,RICT1,True,False
 POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LOYP1,Loyalsock Creek at Loyalsockville,1,BARP1,True,False
-LPAC2,Low Pinos River above Vallecito Reservoir,0,,True,False
-LPBV2,"Little River near Peach Bottom, VA",1,LBXN7,True,False
-LPCI3,Little Pine Creek (IN) near Montmorenci,0,,True,False
-LPCS1,Little Pee Dee River near Conway,2,GALS1;PDBS1,True,False
-LPFN5,La Plata River at Farmington,0,,True,False
-LPGM2,Little Patuxent River near Guilford,2,SAVM2;SMPM2,True,False
-LPHC1,Lower Penitencia Creek at Machada Avenue,0,,True,False
-LPHC2,La Plata River at Hesperus,0,,True,False
-LPHN6,Little Ausable River near Laphams Mills,0,,True,False
-LPHW4,Little Popo Agie River near Hudson,0,,True,False
-LPLW4,Little Popo Agie River near Lander,0,,True,False
-LPML1,Lake Pontchartrain near Mandeville,0,,True,False
-LPNT1,Little Pigeon River at Cherokee Hills (New Riverside),0,,True,False
-LPOL1,Tickfaw River at Liverpool,1,MONL1,True,False
-LPON1,Lodgepole Creek above Oliver Reservoir,0,,True,False
-LPPM8,Little Prickly Pear Creek at Wolf Creek,0,,True,False
-LPPT2,North Texas Lakes at Lake Palo Pinto,0,,True,False
-LPRC1,Los Padres Dam  ,1,RDRC1,True,False
-LPRI4,West Fork Little Sioux River near Lake Park,0,,True,False
-LPRM2,Patuxent River below Duckett Dam near Laurel,2,BGHM2;PRNM2,True,False
-LPRM7,Black River above Leeper,2,CLRM7;WLMM7,True,False
-LPRN1,Platte River at La Platte,1,LOUN1,True,False
-LPRN5,La Plata River near La Plata,0,,True,False
-LPRN8,Little South Pembina River near Walhalla,0,,True,False
 LPSC2,La Plata River at State Line,0,,True,False
 LPTF1,Lake Talquin at Coe Landing Park (in NGVD29),0,,True,False
 LPTG1,Flat Creek at Lake Peachtree Tailrace,0,,True,False
@@ -31,7 +6,7 @@ LPTK2,Kentucky River at Lockport,2,CRRK2;GSTK2,True,False
 LPTL1,Sabine River at Logansport,4,BEKT2;BKLT2;LMTT2;LMVT2,True,False
 LPTT2,Neches River at Lake Palestine,3,ATHT2;NCST2;TBLT2,True,False
 LPTW4,Little Powder River near Weston,0,,True,False
-LPVC2,Los Pinos River near Bayfield,0,,True,False
+LPVC2,Los Pinos River near Bayfield,1,LPAC2,True,False
 LPVL1,Mississippi River at Lake Providence,0,,True,False
 LPZF1,Lake Parker Outlet at Combee Settlement,0,,True,False
 LQAT2,Tide Gauge above La Quinta Channel,0,,True,False
@@ -2571,7 +2546,7 @@ PNYF1,South Fork Black Creek near Penney Farms,0,,True,False
 POCA4,Black River at Pocahontas,2,BKRA4;CRGA4,True,False
 POCC1,Pole Creek,0,,True,False
 POCS1,Pocotaligo River at I-95 above Manning,0,,True,False
-POCT1,Porters Creek 3S Pittman Center (Greenbrier),0,,True,False
+POCT1,Porters Creek 3S Pittman Center (Greenbrier),1,RICT1,True,False
 POCW1,Pend Oreille River at Cusick,2,ALFW1;POIW1,True,False
 PODF1,Pithlachascotee River Below Suncoast Pkwy Near Fivay Jct,2,FVJF1;PTHF1,True,False
 POEF1,Santa Fe River at Poe Springs Pool (in NAVD88),2,FWHF1;HSPF1,True,False
@@ -3144,7 +3119,7 @@ RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
 RICM2,Octoraro Creek near Richardsmere,0,,True,False
 RICM7,Crooked River near Richmond,0,,True,False
 RICQ8,Battle Creek at Richardson Ditch nr Consul 5NNW,0,,True,False
-RICT1,Little Pigeon River at Richardson Cove (Maples Branch),0,,True,False
+RICT1,Little Pigeon River at Richardson Cove (Maples Branch),2,LPNT1;POCT1,True,False
 RICV2,James River (VA) at Richmond Locks,3,JPHV2;RMDV2;SWPV2,True,False
 RIDI1,Eastern Idaho Reservoirs at Ririe Dam,0,,True,False
 RIDI3,Mississinewa River at Ridgeville,0,,True,False
@@ -3298,7 +3273,7 @@ ROSP1,Oil Creek at Rouseville,0,,True,False
 ROST1,Wolf River at Rossville,3,COTT1;GERT1;LGRT1,True,False
 ROST2,Brazos River near Rosharon,3,BCNT2;SLNT2;WCBT2,True,False
 ROTW3,Wisconsin River at Rothschild,3,DUBW3;KELW3;WUUW3,True,False
-ROUN6,Lake Champlain at Rouses Point,4,AUSN6;BURV1;CHZN6;NUTQ7,True,False
+ROUN6,Lake Champlain at Rouses Point,5,AUSN6;BURV1;CHZN6;LPHN6;NUTQ7,True,False
 ROVP1,West Branch Susquehanna River at Renovo,2,KARP1;LHVP1,True,False
 ROWI4,Iowa River near Rowan,2,BTDI4;IFAI4,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
@@ -3804,7 +3779,7 @@ SESM3,Atlantic Coast at Dennis Sesuit Harbor (IN MLLW),0,,True,False
 SETN4,Shrewsbury River at Highland Bridge,0,,True,False
 SETW4,North Platte River at Seminoe Reservoir,0,,True,False
 SEVI2,Spoon River (W-IL) at Seville,1,LNMI2,True,False
-SEVT1,Little Pigeon River above Sevierville,3,DLYT1;KNOT1;RDVT1,True,False
+SEVT1,Little Pigeon River above Sevierville,4,DLYT1;KNOT1;LPNT1;RDVT1,True,False
 SEWF1,Intracoastal Waterway at White City (Gulf County) (In MHHW),0,,True,False
 SEYT2,Wichita River near Seymour,1,SYOT2,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
