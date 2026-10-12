@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
-LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
 LOPO3,Reservoir at Lookout Point nr Lowell,1,DEXO3,True,False
 LOSO3,Rogue River  Lost Creek Lake,1,EGLO3,True,False
@@ -202,6 +200,7 @@ NOTO3,Long Tom River near Noti,1,FRNO3,True,False
 NPLI3,Sugar Creek (central) at New Palestine,1,SCBI3,True,False
 NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
 NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
+NPTO1,Loramie Creek near Newport,1,LOCO1,True,False
 NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
@@ -360,6 +359,7 @@ QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
+RAYN1,Branched Oak Reservoir,1,LOKN1,True,False
 RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
 RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
@@ -427,6 +427,7 @@ RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
 RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
 RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
+RWDN4,Saddle River at Ridgewood,1,LODN4,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False

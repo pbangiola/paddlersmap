@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LNTI4,Iowa River near Lone Tree (Tri-County Bridge),2,CJTI4;IOWI4,True,False
-LNXT2,"South Fork Guadalupe River at Lynx Haven Crossing near Hunt, TX",0,,True,False
-LNYT2,Rio Grande at Foster Ranch,2,AMIT2;DYNT2,True,False
-LNZM7,Reservoirs  Longview Reservoir,2,BSZM7;SLKM7,True,False
-LOBO3,E Fk Lobster Creek near Alsea,0,,True,False
-LOBT2,Rio Grande at Lower Brownsville,1,SBNT2,True,False
-LOCC1,Oregon Creek Below Log Cabin Dam,0,,True,False
-LOCI1,Lochsa River near Lowell,0,,True,False
-LOCM8,Powder River (WY-MT) at Locate,1,MHDM8,True,False
-LOCO1,Loramie Creek near Lockington,0,,True,False
-LOCP4,Lago Loco at Damsite nr Yauco,0,,True,False
-LOCV2,Robinson River near Locust Dale,0,,True,False
-LODN4,Saddle River at Lodi,0,,True,False
-LODW3,Spring Creek at Lodi,0,,True,False
-LOFC1,Los Angeles River at Firestone,0,,True,False
-LOGG1,Brushy Fork Creek at Beaver Road near Loganville,0,,True,False
-LOGM6,Tallahatchie River at Locopolis,3,ALLM6;LMGM6;SWNM6,True,False
-LOGM8,Gallatin River at Logan,3,EGRM8;GLGM8;TOSM8,True,False
-LOGN7,Second Broad River near Logan,0,,True,False
-LOGP4,Rio Loco at Las Latas,0,,True,False
-LOGW2,Guyandotte River at Logan,2,BRAW2;MNAW2,True,False
-LOKI2,Chicago Sanitary and Ship Canal at Lockport Lock (tailwater),0,,True,False
-LOKN1,Oak Creek at Lincoln (Air Park Road),0,,True,False
-LOKN7,Cape Lookout Bight at Cape Lookout,0,,True,False
-LOLT2,Trinity River near Long Lake (Oakwood),3,CRKT2;FFLT2;TDDT2,True,False
 LOMM8,Marias River near Loma,0,,True,False
 LONN7,Long Creek at PAW CREEK,0,,True,False
 LONO3,Coast Fork Willamette River at London,1,GOSO3,True,False
@@ -1668,7 +1643,7 @@ NPTA4,White River at Newport,2,AUGA4;BAGA4,True,False
 NPTC2,Arkansas River near Nepesta,3,ADLC2;CDMC2;FWLC2,True,False
 NPTD1,Christina River at Newport (IN MLLW),0,,True,False
 NPTN1,North Platte River at North Platte,4,BDYN1;BIRN1;KNGN1;SUTN1,True,False
-NPTO1,Loramie Creek near Newport,0,,True,False
+NPTO1,Loramie Creek near Newport,1,LOCO1,True,False
 NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NPVI2,West Branch Du Page River at Naperville (Webster St),0,,True,False
 NPVI4,South Fork Iowa River near New Providence,5,BKSI4;BLII4;EDBI4;HTII4;MIWI4,True,False
@@ -2454,7 +2429,7 @@ PIPF1,Choctawhatchee Bay at Pilcher Park (in MHHW),0,,True,False
 PIPM5,Pipestone Creek at Pipestone,0,,True,False
 PIPS2,Blackpipe Creek near Belvidere,0,,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
-PIQO1,Great Miami River at Piqua,2,SIDO1;TRYO1,True,False
+PIQO1,Great Miami River at Piqua,3,LOCO1;SIDO1;TRYO1,True,False
 PIRS2,Missouri River at Pierre,2,LFIS2;PIES2,True,False
 PIRV2,Piney River at Piney River,0,,True,False
 PISM8,Sun River at Pishkun Reservoir near Augusta,0,,True,False
@@ -2971,7 +2946,7 @@ RAVK2,Kentucky River near Ravenna,2,CYCK2;WLWK2,True,False
 RAVS2,Rapid Creek above Victoria Creek near Rapid City,2,BIGS2;CYNS2,True,False
 RAWV2,Nottoway River near Rawlings,0,,True,False
 RAWW1,Cowlitz River at Randle,2,MAYW1;PACW1,True,False
-RAYN1,Branched Oak Reservoir,0,,True,False
+RAYN1,Branched Oak Reservoir,1,LOKN1,True,False
 RAYN3,Lamprey River at Raymond,0,,True,False
 RAYW3,Root River Canal near Raymond,0,,True,False
 RBBF1,Rose Bay Bridge (in MHHW),0,,True,False
@@ -3327,7 +3302,7 @@ ROKW4,Rock Creek near Buffalo,0,,True,False
 ROLI2,Salt Creek (IL) at Rolling Meadows,1,EVGI2,True,False
 ROLI4,Bear Creek near Roland 150th St--IFC,0,,True,False
 ROLW2,Cheat River at Rowlesburg,2,PSNW2;ROWW2,True,False
-ROMI2,Chicago Sanitary and Ship Canal at Romeoville,2,JRSI2;LCSI2,True,False
+ROMI2,Chicago Sanitary and Ship Canal at Romeoville,3,JRSI2;LCSI2;LOKI2,True,False
 ROMO3,Owyhee River at Rome,0,,True,False
 ROMT1,Big Creek near Rosemark,0,,True,False
 ROMW3,Bark River at Rome,0,,True,False
@@ -3490,7 +3465,7 @@ RVWF1,Alafia River at US 301 Riverview,2,GBSF1;RIVF1,True,False
 RWCN1,"Red Willow Creek at 4W Indianola, Nebraska",0,,True,False
 RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
 RWDM5,Redwood River at Redwood Falls,0,,True,False
-RWDN4,Saddle River at Ridgewood,0,,True,False
+RWDN4,Saddle River at Ridgewood,1,LODN4,True,False
 RWDT2,Dry Frio River near Reagan Wells near Uvalde 23N,0,,True,False
 RWGC2,Rio Grande at Wagon Wheel Gap,0,,True,False
 RWHV2,Rapidan River at Wolftown-Hood Road,0,,True,False
