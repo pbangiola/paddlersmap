@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GRUV2,Slate Creek at Grundy (Slate Creek 460/Levisa Fork),0,,True,False
-GRUW4,Gros Ventre River near Gros Ventre River above Upper Slide Lake,0,,True,False
-GRVA4,Fourche LaFave River near Gravelly,0,,True,False
-GRVC2,Gore Creek at Vail,1,GORC2,True,False
-GRVF1,Guana River near Ponte Vedra South (in NAVD88),0,,True,False
-GRVL1,Coastal Reference Monitoring System near Garyville,0,,True,False
-GRVU1,Green River (WY-UT-CO) at GREEN RIVER,3,ACJU1;DURU1;GROU1,True,False
-GRWN4,Cohansey River at Greenwich (IN MLLW),0,,True,False
-GRWO3,Wapato Creek at SW Gaston Road,0,,True,False
-GRWS2,Missouri River near Greenwood,2,FRDS2;MRVN1,True,False
-GRYM6,Yalobusha River at Grenada,2,GRNM6;UHGM6,True,False
-GRYM8,Madison River near Grayling,0,,True,False
-GRYV2,Little  River at Graysontown,2,FWOV2;RDFV2,True,False
-GRZU1,Green River near Greendale,2,GRRW4;JESU1,True,False
-GSBN1,South Papillion Creek near Gretna,0,,True,False
-GSCA2,Goldstream Creek near Fairbanks,0,,True,False
-GSCF1,Tide Station at Suwannee on Salt Creek (in MHHW),0,,True,False
-GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
-GSEC2,Goldsmith Gulch (CO) near Cherry Hills Village,0,,True,False
-GSEV2,Guest River at Esserville,0,,True,False
-GSFN5,San Francisco River below Glenwood,0,,True,False
-GSGF1,Gator Slough Canal at Burnt Store Marina (In MHHW),0,,True,False
-GSHA1,Intracoastal Waterway at Gulf Shores,0,,True,False
-GSHI3,Elkhart River at Goshen,2,CPEI3;EKMI3,True,False
-GSJC1,Guadalupe River (CA) above Hwy 101 at San Jose,3,CAOC1;GUMC1;LGTC1,True,False
 GSLF1,Tide Station at the Gulf Specimen Marine Lab in Panacea (in MHHW),0,,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
 GSLU1,Great Salt Lake above Great Salt Lake,0,,True,False
@@ -634,7 +609,7 @@ HURS2,James River at Huron,2,FORS2;RFDS2,True,False
 HURU1,Virgin River near Hurricane,0,,True,False
 HURW2,Hurricane Creek near Hurricane,0,,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
-HUSA4,Fourche LaFave River near Houston,0,,True,False
+HUSA4,Fourche LaFave River near Houston,1,NMLA4,True,False
 HUSH1,Haiku Stream near Heeia,0,,True,False
 HUSM5,South Fork Root River near Houston,0,,True,False
 HUTC2,"Hunter Creek near Aspen, CO",0,,True,False
@@ -901,7 +876,7 @@ JEFT2,Black Cypress Bayou near Jefferson,0,,True,False
 JEMP1,Pine Creek at Jersey Mills,2,CEDP1;PDAP1,True,False
 JENN4,West Branch Wading River at Jenkins,0,,True,False
 JERW3,Tomahawk River below Jersey Dam,0,,True,False
-JESU1,Green River at Jensen,3,GROU1;GRZU1;YDLC2,True,False
+JESU1,Green River at Jensen,4,GROU1;GRVU1;GRZU1;YDLC2,True,False
 JEWI4,Mud Lake Drainage Ditch 71 at Jewell,1,RNSI4,True,False
 JEZN5,Jemez River above Jemez Pueblo,0,,True,False
 JFET2,Big Cypress Creek above Jefferson,2,BGKT2;PBGT2,True,False
@@ -3381,7 +3356,7 @@ NMFC1,North Fork of Middle Fork American River - Foresthill,0,,True,False
 NMFO3,N Fk of Middle Fk Willamette River near Oakridge,0,,True,False
 NMIM3,Mill River at Northampton,0,,True,False
 NMKN6,Normans Kill at Albany,0,,True,False
-NMLA4,Fourche LaFave River at Nimrod Dam,0,,True,False
+NMLA4,Fourche LaFave River at Nimrod Dam,2,GRVA4;HUSA4,True,False
 NMLI1,Ninemile Creek near Wallace,0,,True,False
 NMLN4,Hackensack River at New Milford,0,,True,False
 NMOT2,Nueces River at CR 414 near Montell,2,NUBT2;UVAT2,True,False
@@ -4570,7 +4545,7 @@ PSAS1,Polk Swamp above St. George,0,,True,False
 PSBC2,Piney River near State Bridge,0,,True,False
 PSBF1,Possum Branch (In MHHW),0,,True,False
 PSBM1,Passamamaquoddy Bay at Eastport (IN MLLW),0,,True,False
-PSBN1,South Papillion Creek at Chalco,0,,True,False
+PSBN1,South Papillion Creek at Chalco,2,GSBN1;PWBN1,True,False
 PSBN5,Pecos River below Brantley Reservoir,2,CBLN5;CSBN5,True,False
 PSCM2,Piscataway Creek at Piscataway,0,,True,False
 PSCM8,Pass Creek near Wyola (Closed Gauge),0,,True,False
@@ -4665,7 +4640,7 @@ PWAC1,Washington Creek at McDowell Blvd.,0,,True,False
 PWAF1,Peace River at SR 664A,2,BGPF1;ZFSF1,True,False
 PWBA3,Pantano Wash at Broadway Blvd,2,PNTA3;RILA3,True,False
 PWBC1,Potrero Creek,0,,True,False
-PWBN1,West Papillion Creek at Papillion,2,FCKN1;MWBN1,True,False
+PWBN1,West Papillion Creek at Papillion,3,FCKN1;MWBN1;PSBN1,True,False
 PWCC1,Washington Creek at Holly Lane,0,,True,False
 PWCT2,Pedernales River at LBJ Ranch Near Stonewall,0,,True,False
 PWCW4,Prairie Dog Creek near Sheridan (Closed Gauge),0,,True,False
@@ -5608,7 +5583,7 @@ SECM1,Sebec River at Sebec,0,,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
 SEDN7,Walnut Creek (NC) below Maynard St in Cary,0,,True,False
 SEEM7,Meramec River near Steelville,2,CSNM7;SLLM7,True,False
-SEEN4,Cohansey River at Seeley,0,,True,False
+SEEN4,Cohansey River at Seeley,1,GRWN4,True,False
 SEET1,Sewee Creek at Decatur 5NE,0,,True,False
 SEFN6,Seneca River near Seneca Falls,0,,True,False
 SEGT2,Guadalupe River at Seguin,2,GBCT2;SGGT2,True,False
@@ -5645,7 +5620,7 @@ SFAO1,Scioto River at Columbus 5th Avenue,2,COLO1;DUBO1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
 SFBM8,South Fork Milk River near Babb,0,,True,False
 SFBN7,South Fork New River at SR 1100 near Brownwood,2,JFRN7;WRON7,True,False
-SFCA3,San Francisco River at Clifton,0,,True,False
+SFCA3,San Francisco River at Clifton,1,GSFN5,True,False
 SFCC1,San Francisquito Creek at Stanford University,0,,True,False
 SFCG1,Snapfinger Creek at Redan Road near Glen Haven,0,,True,False
 SFCM8,South Fork Flathead River near Columbia Falls,0,,True,False
@@ -7206,7 +7181,7 @@ VANO1,Tiffin River near Evansport,0,,True,False
 VAPW1,Columbia River at Vancouver,2,BONO3;SHNO3,True,False
 VASC1,Los Gatos Creek at Vasona Reservoir,0,,True,False
 VASN7,Flat Creek near Iverness,0,,True,False
-VASV2,Levisa Fork River at Vansant,0,,True,False
+VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VAUM8,Sun River near Vaughn,2,GFLM8;SSRM8,True,False
 VAVA3,Verde River near Camp Verde,0,,True,False
 VAVS2,Victoria Creek above Victoria Dam nr Rapid City,0,,True,False

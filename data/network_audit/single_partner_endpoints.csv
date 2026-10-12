@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GRVC2,Gore Creek at Vail,1,GORC2,True,False
-GSCM8,Beaver Creek (MT) near Saco,1,BCHM8,True,False
 GSLS1,"Saluda River above Old Easley Hwy (SC 124), 5 WSW Greenville",1,WEPS1,True,False
 GTEL1,Barataria Bay and Waterway near Grand Terre Island,1,NGIL1,True,False
 GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
@@ -43,6 +41,7 @@ HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
 HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
 HTNM7,Little Osage River at Horton,1,FTNK1,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
+HUSA4,Fourche LaFave River near Houston,1,NMLA4,True,False
 HVYN8,Sheyenne River above Harvey,1,FLRN8,True,False
 HWBN7,Haw River at NC-62,1,HAWN7,True,False
 HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
@@ -548,10 +547,12 @@ SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
 SDGC1,San Diego River at Mast Nr Santee,1,FSNC1,True,False
 SDYM5,Sandy Lake Dam,1,ATDM5,True,False
 SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
+SEEN4,Cohansey River at Seeley,1,GRWN4,True,False
 SEMI3,West Fork Blue River at Salem,1,FRDI3,True,False
 SEYT2,Wichita River near Seymour,1,SYOT2,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
+SFCA3,San Francisco River at Clifton,1,GSFN5,True,False
 SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
 SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
 SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
@@ -701,6 +702,7 @@ USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
 UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
+VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
 VERT2,Pease River near Vernon,1,CDPT2,True,False
