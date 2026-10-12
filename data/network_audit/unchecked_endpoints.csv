@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EVST2,West Central Texas Lakes at E. V. Spence Reservoir,2,BLKT2;LSWT2,True,False
-EVVI3,Ohio River at Evansville,3,HENK2;NBGI3;SPTK2,True,False
-EVWO3,Evans Creek at Wimer,0,,True,False
-EVYN2,Eagle Valley Creek at At Carson City,0,,True,False
-EWAN6,East Brook near Walton,0,,True,False
-EWAO1,Wolf Creek (Summit) at Outlet O&E Canal,2,BRBO1;LINO1,True,False
-EWBC1,East Walker River near Bridgeport,2,BPRC1;EWEN2,True,False
-EWBN2,East Walker R at Morgan Bridge,2,EWEN2;EWRN2,True,False
-EWDN1,West Papillion Creek at Pacific Street at Omaha,2,EKWN1;MWBN1,True,False
-EWEL1,Empire Waterway below Empire,0,,True,False
-EWEN2,East Walker blw Rough Ck near the Elbow,2,EWBC1;EWBN2,True,False
-EWFA3,E Fork White River near Fort Apache,0,,True,False
-EWGC1,Estrella River near Whitley Gardens,0,,True,False
-EWGN4,Shabakunk Creek at Ewingville,0,,True,False
-EWIN1,Elkhorn River at Ewing,2,EONN1;NLIN1,True,False
-EWMM7,Middle Fabius River near Ewing,0,,True,False
-EWMN2,East Walker River near Mason,2,EWSN2;MASN2,True,False
-EWNM4,South Branch Ontonagon at Ewen,0,,True,False
-EWNM7,North Fabius River near Ewing,0,,True,False
-EWOI4,East Okoboji Lake at East/West Okoboji Lake Channel,0,,True,False
-EWPN7,Chowan River near Waterfront Park at Edenton,0,,True,False
-EWRM5,Warroad River above East Branch Warroad R. nr Roosevelt FR59,0,,True,False
-EWRN2,East Walker R at Ivy Bridge ,2,EWBN2;EWSN2,True,False
-EWSN1,South Fork Elkhorn River near Ewing,0,,True,False
-EWSN2,East Walker River above Strosnider Ditch,2,EWMN2;EWRN2,True,False
 EXTA2,Exit Glacier Creek below Exit Glacier near Seward ,0,,True,False
 EXTN3,Exeter River near Brentwood,0,,True,False
 EXTN4,Crosswicks Creek at Extonville,0,,True,False
@@ -4284,7 +4259,7 @@ NLGI2,Illinois River at LaGrange Lock and Dam,2,BEAI2;MROI2,True,False
 NLGL1,Tensas River near Newlight,2,CYNL1;TDGL1,True,False
 NLHC3,Long Island Sound near New London Harbor (IN MLLW),0,,True,False
 NLIH1,Honolii Stream near Papaikou,0,,True,False
-NLIN1,Elkhorn River at Neligh,2,EWIN1;TLDN1,True,False
+NLIN1,Elkhorn River at Neligh,3,EWIN1;SFEN1;TLDN1,True,False
 NLIV2,North Landing River at Indian River Road,0,,True,False
 NLLO1,Walhonding River at Nellie,2,MHWO1;WHDO1,True,False
 NLPN1,Mira Creek near North Loup,0,,True,False
@@ -4550,7 +4525,7 @@ OBCW3,Brush Creek (WI) near Cashton - Opal Road,0,,True,False
 OBDT1,Obed River near Lancing,2,CLCT1;OAKT1,True,False
 OBGN6,Saint Lawrence River at Ogdensburg,0,,True,False
 OBIC1,Sacramento-San Joaquin Delta at Old River At Bacon Island,0,,True,False
-OBJI4,West Okoboji Lake near Milford,0,,True,False
+OBJI4,West Okoboji Lake near Milford,1,EWOI4,True,False
 OBKI2,Salt Creek (IL) at Oak Brook,2,EMHI2;WSPI2,True,False
 OBLA1,Tide Gauge near Mobile State Docks (IN MHHW),0,,True,False
 OBLI2,North Fork Embarras River near Oblong,0,,True,False
@@ -4726,7 +4701,7 @@ ORBS1,N. Fork Edisto River at Orangeburg,2,EBRS1;NFES1,True,False
 ORBT2,West Bouldin Creek above Oltorf Road at Austin,0,,True,False
 ORCF1,Tide Gauge at Orange River Bridge (in MHHW),0,,True,False
 ORCI1,East Fork Owyhee River at Crutcher Crossing,0,,True,False
-ORCM4,Cisco Branch Ontonagon River at Cisco Lake,0,,True,False
+ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
 ORCO3,Willamette River below Falls at Oregon City,2,OCUO3;PRTO3,True,False
 ORCT2,Little Cypress Creek near Ore City,0,,True,False
 ORDN1,North Loup River at Ord,2,SPUN1;TYLN1,True,False
@@ -5940,7 +5915,7 @@ RKFI4,Shell Rock River near Rockford Foothill Ave--IFC,2,MRBI4;NRSI4,True,False
 RKFM5,Crow River at Rockford,1,DELM5,True,False
 RKFO1,Rocky Fork (Mohican River) at Lucas,0,,True,False
 RKGV1,Williams River near Rockingham,0,,True,False
-RKLM4,Ontonagon River near Rockland,0,,True,False
+RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RKMG1,Euharlee Creek at US 287 at Rockmart,0,,True,False
 RKRV2,Rockfish River near Greenfield,0,,True,False
 RKVI4,Rock River at Rock Valley,0,,True,False
@@ -6580,7 +6555,7 @@ SFCQ3,Snowflake Creek near Snowflake MB,0,,True,False
 SFCT2,San Felipe Creek near Del Rio 1SE,0,,True,False
 SFDN1,Springfield Creek at Springfield,0,,True,False
 SFDS2,James River near Stratford,2,ATNS2;CMBS2,True,False
-SFEN1,South Fork of the Elkhorn River near Ewing,0,,True,False
+SFEN1,South Fork of the Elkhorn River near Ewing,2,EWSN1;NLIN1,True,False
 SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
 SFFN6,Ramapo River at Suffern,0,,True,False
 SFFP1,First Fork Sinnemahoning Creek near Sinnemahoning,0,,True,False
@@ -6831,7 +6806,7 @@ SLAW1,Sprague Lake near Sprague,0,,True,False
 SLBI1,Snake River at Loveridge Bridge near Bruneau,0,,True,False
 SLBI3,Kankakee River at Shelby,2,KTSI3;MOMI2,True,False
 SLBO1,Little Miami River near South Lebanon,0,,True,False
-SLCA3,Salt River near Chrysotile -Salt River Canyon,2,CRZA3;SLRA3,True,False
+SLCA3,Salt River near Chrysotile -Salt River Canyon,3,CRZA3;EWFA3;SLRA3,True,False
 SLCC1,San Lorenzo Creek (Alameda) at San Lorenzo,2,CVCC1;LRZC1,True,False
 SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
 SLCO3,Schafer Creek near Lacomb,0,,True,False
@@ -8695,7 +8670,7 @@ WLFS2,Wolf Creek (SD) near Freeman,0,,True,False
 WLFW4,Wolf Creek near Sheridan,0,,True,False
 WLGT2,Salt Fork of the Red River at Wellington,2,GRET2;MGMO2,True,False
 WLGW2,Ohio River at Wheeling,2,MOUW2;WHLW2,True,False
-WLHN2,Walker River at Walker Lake,0,,True,False
+WLHN2,Walker River at Walker Lake,1,WRMN2,True,False
 WLHN8,Pembina River at Walhalla,2,NCEN8;WNDQ3,True,False
 WLKC1,Sacramento River below Wilkins Slough,0,,True,False
 WLKF1,Walker Creek Near Sarasota,0,,True,False
@@ -8869,7 +8844,7 @@ WRLO2,Beaver Creek (OK) at Waurika Lake,2,DLBO2;WAKO2,True,False
 WRLS1,Reedy River above Waterloo,0,,True,False
 WRMC2,White River near Meeker,0,,True,False
 WRMI1,Warm Springs Creek (ID) near Ketchum,2,BWKI1;HALI1,True,False
-WRMN2,Walker River nr mouth at Walker Lake,0,,True,False
+WRMN2,Walker River nr mouth at Walker Lake,2,WLHN2;WSIN2,True,False
 WRMO3,Southeast Oregon Reservoirs at Warm Springs Reservoir,0,,True,False
 WRMW3,Wisconsin River below Castle Rock Dam near Mauston,2,CROW3;WDEW3,True,False
 WRNC3,Mount Hope River at Warrenville,0,,True,False
@@ -8925,7 +8900,7 @@ WSHL1,Bayou Courtableau at Washington,0,,True,False
 WSHM1,Aroostook River at Washburn,0,,True,False
 WSHS1,Saluda River near WARE SHOALS,2,CHPS1;WLSS1,True,False
 WSHW1,Wishkah-Chehalis Tide Gage,0,,True,False
-WSIN2,Walker River near Schurz,1,WBWN2,True,False
+WSIN2,Walker River near Schurz,2,WBWN2;WRMN2,True,False
 WSKF1,Whiskey Creek at Fort Myers,0,,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
 WSKW1,Wishkah River near Nisson,0,,True,False
