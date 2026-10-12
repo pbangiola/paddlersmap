@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EBBT2,San Bernard River at East Bernard,2,BOLT2;CSRT2,True,False
-EBCG1,East Bear Creek at Poplar Road near Mansfield,0,,True,False
-EBCO2,Boggy Creek (N OK) at Enid at Enid Avenue,0,,True,False
-EBDI2,East Branch Du Page River at Lisle,0,,True,False
-EBDN5,Rio Grande at Elephant Butte Lake,2,EBNN5;EDBN5,True,False
-EBEF1,Tide Gauge at East Bay (In MHHW),0,,True,False
-EBHM2,East Branch Herbert Run at Arbutus,0,,True,False
-EBKV1,Missisquoi River at East Berkshire,0,,True,False
-EBNN5,Rio Grande at The Narrows in Elephant Butte Lake,2,EBDN5;SMFN5,True,False
-EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
-EBRI4,Salt Creek near Elberon,2,BPLI4;CLTI4,True,False
-EBRM8,East Boulder River near Mcleod ,0,,True,False
-EBRP1,East Branch Clarion River Lake near Glen Hazel,0,,True,False
-EBRS1,Edisto River near Branchville,2,CERS1;ORBS1,True,False
-EBRV2,Elizabeth River at Route 165 in Virginia Beach,0,,True,False
-EBSN7,Edwards Branch at Sheffield drive,0,,True,False
-EBSS2,Cheyenne River near Eagle Butte,3,CHCS2;PIES2;PLNS2,True,False
-EBSW1,Puget Sound at Seattle Tide Gage,0,,True,False
-EBWM5,North Fork Whitewater River near Elba,1,BVRM5,True,False
-EBYW1,Snohomish River at Ebey Slough,0,,True,False
-EBZG1,Ebenezer Creek at Springfield,0,,True,False
-EBZN6,Cazenovia Creek at Ebenezer,0,,True,False
-ECAO1,Little Cuyahoga River above Lock 1 Outlet to Ohio and Erie Canal,0,,True,False
-ECAU1,East Canyon Creek near Jeremy Ranch,0,,True,False
-ECBC1,Elder Creek (CA) near Branscomb,0,,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
 ECBL1,Champagne Bay near Grand Isle,0,,True,False
 ECCC1,Elizabeth Canyon Creek,0,,True,False
@@ -121,7 +96,7 @@ EFWI4,North Raccoon River near Jefferson,2,DAWI4;LKCI4,True,False
 EFWW4,East Fork Wind River near Dubois,0,,True,False
 EGAS2,Big Sioux River near Egan,2,BSFS2;TRES2,True,False
 EGBM8,East Gallatin River near abv Water Recl Fac nr Bozeman,0,,True,False
-EGCO2,Boggy Creek (N OK) at Enid at 30th Street,0,,True,False
+EGCO2,Boggy Creek (N OK) at Enid at 30th Street,1,EBCO2,True,False
 EGCO3,Eagle Creek above Skull Creek near New Bridge,0,,True,False
 EGDC2,Cherry Creek (CO) at Cherry Creek Reservoir,2,CCSC2;CPKC2,True,False
 EGFM5,Red River of the North at Grand Forks,3,FSHM5;OSLM5;TPNN8,True,False
@@ -1879,7 +1854,7 @@ HRNM5,Heron North Marsh near Heron Lake,0,,True,False
 HRNM7,Missouri River at Hermann,2,CMSM7;WHGM7,True,False
 HRNN6,Canacadea Creek above Hornell,0,,True,False
 HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
-HRPO1,Cuyahoga River at Hiram Rapids,0,,True,False
+HRPO1,Cuyahoga River at Hiram Rapids,1,OLPO1,True,False
 HRPV2,Hazel River at Sperryville Pike,0,,True,False
 HRRM2,at Herring Run at Route 40 in Baltimore,0,,True,False
 HRRN2,Humboldt River nr Rose Creek,0,,True,False
@@ -4204,7 +4179,7 @@ MSBM6,Mississippi Sound at Merrill Shell Bank Lighthouse,0,,True,False
 MSBM8,Musselshell River near Mosby,0,,True,False
 MSBP1,Bald Eagle Creek at Milesburg,2,MSCP1;SYDP1,True,False
 MSCK1,Delaware River (KS) near Muscotah,0,,True,False
-MSCM5,Mississippi River below Lock and Dam 5 - Minnesota City,4,ALMW3;AMAW3;BVRM5;WIDM5,True,False
+MSCM5,Mississippi River below Lock and Dam 5 - Minnesota City,5,ALMW3;AMAW3;BVRM5;EBWM5;WIDM5,True,False
 MSCO2,Soldier Creek (OK) near SE 15th Street at Midwest City,0,,True,False
 MSCP1,Spring Creek at Milesburg,2,AXEP1;MSBP1,True,False
 MSDC1,Morris Dam,0,,True,False
@@ -4863,7 +4838,7 @@ NTRV2,N.F. Thornton River at Lee Highway,0,,True,False
 NTSC1,Nathanson Creek at Sonoma,0,,True,False
 NTTN4,Jumping Brook near Neptune,0,,True,False
 NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
-NTYV1,Missisquoi River at North Troy,0,,True,False
+NTYV1,Missisquoi River at North Troy,1,EBKV1,True,False
 NTZM6,Mississippi River at Natchez,2,KLML1;VCKM6,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
 NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
@@ -5063,7 +5038,7 @@ OLMO1,Minnie Creek at Olmsted Falls,0,,True,False
 OLNI3,Fall Creek (IN) at Geist Reservoir,0,,True,False
 OLNN6,Allegheny River at Olean,2,ELRP1;SLMN6,True,False
 OLPF1,Santa Fe River at O'leno State Park (in NAVD88),2,RRZF1;WORF1,True,False
-OLPO1,Cuyahoga River at Old Portage,0,,True,False
+OLPO1,Cuyahoga River at Old Portage,2,ECAO1;HRPO1,True,False
 OLSA2,Nikolski Tide Gauge at Nikolski (MLLW datum),0,,True,False
 OLTI2,Ohio River at Olmsted Lock and Dam Tailwater,2,CIRI2;OLMI2,True,False
 OLTM2,Town Creek (MD) near Oldtown,0,,True,False
@@ -7835,7 +7810,7 @@ SVZC1,Stevens Creek below Stevens Creek Reservoir,0,,True,False
 SWAG1,Level Creek at Suwanee Dam Road near Suwanee,0,,True,False
 SWAI1,Snake River near Murphy,2,SKHI1;SNYI1,True,False
 SWAN3,Ashuelot River above West Swanzey,0,,True,False
-SWAV1,Missisquoi River at Swanton,0,,True,False
+SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWBL1,Mississippi River at Southwest Pass at East Jetty,2,CKBL1;MPEL1,True,False
 SWBN4,Raccoon Creek at SWEDESBORO,0,,True,False
 SWBN7,White Oak River at Swansboro (in MLLW),0,,True,False

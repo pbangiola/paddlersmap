@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-EBNN7,Crabtree Creek at Ebenezer Church Rd,1,RLHN7,True,False
-EBWM5,North Fork Whitewater River near Elba,1,BVRM5,True,False
 ECBF1,Econfina Creek at State Road 20,1,BENF1,True,False
 ECLO1,Tuscarawas River above Long Lake Feeder to Ohio and Erie Canal,1,BRBO1,True,False
 EDEN8,Edmore Coulee near Edmore,1,DLBN8,True,False
@@ -8,6 +6,7 @@ EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
+EGCO2,Boggy Creek (N OK) at Enid at 30th Street,1,EBCO2,True,False
 EGLN6,Erie Canal at Clyde Lock E-26,1,CDEN6,True,False
 EGPA4,Cache River near Egypt,1,PTTA4,True,False
 ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
@@ -128,6 +127,7 @@ HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
 HPLF1,Hillsborough River at Platt St at Tampa (in MHHW),1,TMTF1,True,False
 HRCV2,North Anna River at HART CORNER NR DOSWELL,1,DOSV2,True,False
 HRPN2,Humboldt River below Rye Patch,1,HRIN2,True,False
+HRPO1,Cuyahoga River at Hiram Rapids,1,OLPO1,True,False
 HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
 HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
@@ -386,6 +386,7 @@ NSHM8,Milk River at Nashua,1,GLWM8,True,False
 NSTN3,Connecticut River at North Stratford,1,DLTN3,True,False
 NTFV2,Catawba Creek near Howell Mills,1,CTWV2,True,False
 NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
+NTYV1,Missisquoi River at North Troy,1,EBKV1,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
 NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
 NUDN7,Neuse River at Falls Lake,1,NEUN7,True,False
@@ -634,6 +635,7 @@ STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
+SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
