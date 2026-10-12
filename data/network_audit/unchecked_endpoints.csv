@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JAXP4,Rio Caonillas at Paso Palma,2,ARCP4;JAYP4,True,False
-JAYP4,Rio Saliente at Coabey,1,JAXP4,True,False
-JBCO2,Beaty Creek near Jay,0,,True,False
-JBDF1,Lake Talquin at Jackson Bluff Dam (in NGVD29),2,BLXF1;HVNF1,True,False
-JBGN2,Jarbidge River near Jarbidge,1,EFJI1,True,False
-JBGT2,Colorado River (TX) 13 miles SE of Gail,1,JBTT2,True,False
-JBLM6,Belhaven Creek at Laurel Street/Jackson,0,,True,False
-JBMO3,John Day River at Blue Mtn Hot Springs nr Prairie City,0,,True,False
-JBOW2,Cheat River at Job,1,GLDW2,True,False
-JBPF1,Juno Beach Park Pier (in MHHW),0,,True,False
-JBRM6,Belhaven Creek at Riverside Drive/Jackson,0,,True,False
-JBTT2,Colorado River (TX) at Lake JB Thomas,2,CDCT2;JBGT2,True,False
-JCCA2,[INACTIVE] Jean Creek near Cooper Landing,0,,True,False
-JCCF1,Jumper Creek Canal ,1,BNLF1,True,False
-JCCM6,Cany Creek (MS) at Jackson,0,,True,False
-JCGP4,Rio Jacaguas Blw 149 nr Villalba,0,,True,False
-JCHL1,Amite River Basin at Jones Creek at Old Hammond Hwy.,0,,True,False
-JCIT2,Johnson Creek above Ingram,0,,True,False
-JCJO3,"Jackson Creek (Jackson County, OR) at Jacksonville",0,,True,False
-JCJS1,Jeffries Creek at James Jones Ave,0,,True,False
-JCKM5,West Fork Des Moines River at Jackson,2,ESVI4;WDOM5,True,False
-JCKN7,New River at Jacksonville (in MLLW),1,GUMN7,True,False
-JCLF1,Inundation Sensor at St. James City,0,,True,False
-JCMM7,Moreau River (MO) near Jefferson City,0,,True,False
-JCPF1,Saint Joes Creek at 62nd St Near Pinellas Park,0,,True,False
 JCRF1,Tide Station at Jewfish Creek on Florida Bay (in MHHW),0,,True,False
 JCRI3,Judy Creek(Northern IN) near South Bend,0,,True,False
 JCRV2,Johns Creek at New Castle,0,,True,False
@@ -74,7 +49,7 @@ JKRF1,Curry Creek at Jackson Rd,0,,True,False
 JKSM8,Big Hole River near Jackson,1,SCRM8,True,False
 JKST2,Mud Creek near Jacksonville,1,ALOT2,True,False
 JKSW4,Snake River near Jackson,3,ALPW4;FCKW4;MSEW4,True,False
-JLGP4,Rio Jacaguas above Lago Guayabal,0,,True,False
+JLGP4,Rio Jacaguas above Lago Guayabal,1,JUBP4,True,False
 JLKW4,Snake River below Jackson Dam,2,FLGW4;MSEW4,True,False
 JLMV2,James River at Leeward Marina (IN MLLW),0,,True,False
 JLNW3,Creek 22-15 near Leon - County Road J,0,,True,False
@@ -153,10 +128,10 @@ JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
 JTPM1,Jonesport (MLLW),0,,True,False
 JTRK1,Buckner Creek near Jetmore,2,HSNK1;HTBK1,True,False
 JTSM4,Shiawassee River at JAMES TOWNSHIP,0,,True,False
-JUAP4,Rio Jacaguas at Juana Diaz,0,,True,False
+JUAP4,Rio Jacaguas at Juana Diaz,1,JCGP4,True,False
 JUAT2,Juanita Creek at SH 71 near Midfield,0,,True,False
 JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
-JUBP4,Lago Guayabal at Damsite near Juana Diaz,0,,True,False
+JUBP4,Lago Guayabal at Damsite near Juana Diaz,2,JCGP4;JLGP4,True,False
 JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
 JUDA4,Little Red River at Judsonia,1,GRRA4,True,False
 JUDM5,Minnesota River near Judson,2,MNKM5;NULM5,True,False

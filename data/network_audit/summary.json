@@ -1,10 +1,10 @@
 {
   "gauges": 12931,
-  "checked": 5533,
-  "pending": 7398,
-  "distinct_connected_endpoints": 10708,
-  "unchecked_endpoints": 7398,
-  "single_partner_endpoints": 805,
+  "checked": 5558,
+  "pending": 7373,
+  "distinct_connected_endpoints": 10694,
+  "unchecked_endpoints": 7373,
+  "single_partner_endpoints": 801,
   "definitions": {
     "unchecked": "not in noaa_graph_state.json visited, including queued and known gauge points",
     "single_partner": "exactly one distinct neighbor in current directed-edge GeoJSON, ignoring direction"
