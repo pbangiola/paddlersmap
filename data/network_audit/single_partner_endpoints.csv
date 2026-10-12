@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CATI3,Mill Creek (IN) near Cataract,1,CAGI3,True,False
-CBBI1,Clark Fork River below Cabinet Gorge Dam,1,HOPI1,True,False
 CBEM2,North Branch Potomac River at Cumberland,1,LUKM2,True,False
 CBKS2,Cold Brook Creek at Cold Brook Reservoir,1,ARGS2,True,False
 CBMM8,Big Muddy Creek near Culbertson,1,BGCM8,True,False
@@ -87,6 +85,7 @@ EDNT2,Lavaca River near Edna,1,HTST2,True,False
 EDSN7,Smith River at Eden,1,SMMV2,True,False
 EDWK1,West Branch Walnut River at El Dorado,1,EDEK1,True,False
 EFFI2,Little Wabash River near Effingham,1,CLAI2,True,False
+ELIG1,Coosawattee River near Ellijay,1,CTRG1,True,False
 ELWK1,Smoky Hill River at Ellsworth,1,KANK1,True,False
 ELYW2,Twelvepole Creek at East Lynn Lake,1,ELSW2,True,False
 ELZW2,Little Kanawha River at Elizabeth,1,GRTW2,True,False
@@ -200,6 +199,7 @@ KLMC1,Klamath River near Klamath,1,ONSC1,True,False
 KMST2,Lavaca River at Komensky,1,BRLT2,True,False
 KNKA2,Knik River near Palmer,1,BDBA2,True,False
 KRKO1,South Fork Licking River (OH) at Kirkersville,1,ISVO1,True,False
+KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
 LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
@@ -377,6 +377,7 @@ PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGFM6,Pascagoula River at Graham Ferry,1,BKNM6,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
+PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
@@ -477,6 +478,7 @@ SLIM2,Patuxent River at Solomons Island (IN MLLW),1,BRIM2,True,False
 SLKM7,Reservoirs  Smithville Reservoir,1,LNZM7,True,False
 SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
+SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
@@ -537,7 +539,6 @@ VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
-WAHP1,Chartiers Creek at Wylie,1,PIKP1,True,False
 WAKO2,Beaver Creek (OK) at Waurika,1,ADDO2,True,False
 WALN2,Walker River near Wabuska,1,WBMN2,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
