@@ -1,31 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
-JTPM1,Jonesport (MLLW),0,,True,False
-JTRK1,Buckner Creek near Jetmore,2,HSNK1;HTBK1,True,False
-JTSM4,Shiawassee River at JAMES TOWNSHIP,0,,True,False
-JUAP4,Rio Jacaguas at Juana Diaz,1,JCGP4,True,False
-JUAT2,Juanita Creek at SH 71 near Midfield,0,,True,False
-JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
-JUBP4,Lago Guayabal at Damsite near Juana Diaz,2,JCGP4;JLGP4,True,False
-JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
-JUDA4,Little Red River at Judsonia,1,GRRA4,True,False
-JUDM5,Minnesota River near Judson,2,MNKM5;NULM5,True,False
-JUDS2,Battle Creek (SD) above Keystone,1,RUSS2,True,False
-JULC2,South Platte River near Julesburg,2,CKSC2;RSON1,True,False
-JULF1,Julington Creek at Old Saint Augustine Road (in MHHW),0,,True,False
-JUNI3,Junk Ditch at Fort Wayne,0,,True,False
-JUNO1,Little Flatrock Creek near Junction,0,,True,False
-JVLV1,Lamoille River at Jeffersonville,2,GEOV1;JONV1,True,False
-JWMF1,Alligator Creek at Jacaranda Blvd,0,,True,False
-JWNO3,Nehalem River at Jewell,0,,True,False
-JWTV1,Jewett Brook near St. Albans,0,,True,False
-JYBT2,Neches River at Downtown Beaumont,1,BEAT2,True,False
-JYCN7,Pasquotank River at Joyce Creek at Old Swamp Rd,0,,True,False
-JYIT2,Hillebrandt Bayou at Hillebrandt Road,0,,True,False
-JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
-JYLT2,Little Pine Island Bayou near Thicket,0,,True,False
 JYMT2,Black Creek at Highway 326,0,,True,False
-JYNT2,Pine Island Bayou near Bevil Oaks,2,BIPT2;SOLT2,True,False
+JYNT2,Pine Island Bayou near Bevil Oaks,3,BIPT2;JYLT2;SOLT2,True,False
 JZBT2,Pine Island Bayou at Highway 326,2,JYKT2;SOLT2,True,False
 JZHT2,Hillebrandt Bayou at Highway 124,0,,True,False
 JZWT2,North Fork Taylor Bayou at F.M. 1406,0,,True,False
@@ -2470,7 +2445,7 @@ NRHS1,New River near Hardeeville (IN MLLW),0,,True,False
 NRKW1,Nooksack River at North Cedarvillle,0,,True,False
 NRMO2,Little River (OK) at Lake Thunderbird,0,,True,False
 NRMT1,Duck River at Normandy Dam,0,,True,False
-NRNO3,Nehalem River at Nehalem,0,,True,False
+NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
 NRNV2,Nottoway River at Nottoway Falls Reservoir,0,,True,False
 NROV2,N. F. Roanoke River near Ellett,0,,True,False
 NRRA3,Cline Creek near New River,0,,True,False
@@ -2895,7 +2870,7 @@ OWHO1,Old Woman Creek at Berlin Road,0,,True,False
 OWIN6,Owasco Lake at Moravia Inlet,0,,True,False
 OWLW4,South Fork Owl Creek above Anchor Reservior,0,,True,False
 OWMM5,Maple Creek (MN) at Owatonna,0,,True,False
-OWOM4,Shiawassee River at Owosso,0,,True,False
+OWOM4,Shiawassee River at Owosso,1,JTSM4,True,False
 OWSI4,South Beaver Creek near Owasa US 65--IFC,0,,True,False
 OWSN6,Owasco Lake near Auburn,0,,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False

@@ -1,12 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-JTBT2,Brazos River at Justiceburg,1,LHPT2,True,False
-JUAP4,Rio Jacaguas at Juana Diaz,1,JCGP4,True,False
-JUBC2,South Platte River near Julesburg,1,BSHN1,True,False
-JUCK1,Smoky Hill River near Junction City,1,ENTK1,True,False
-JUDA4,Little Red River at Judsonia,1,GRRA4,True,False
-JUDS2,Battle Creek (SD) above Keystone,1,RUSS2,True,False
-JYBT2,Neches River at Downtown Beaumont,1,BEAT2,True,False
-JYKT2,Pine Island Bayou near Batson,1,JZBT2,True,False
 KALI4,English River at Kalona,1,DEPI4,True,False
 KASN6,West Canada Creek at Kast Bridge,1,HIKN6,True,False
 KBDM8,Kootenai River below Libby Dam near Libby,1,LEOI1,True,False
@@ -274,6 +266,7 @@ NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
 NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
+NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
 NRWI4,North River near Norwalk,1,CSLI4,True,False
 NRWM3,Neponset River at Norwood,1,CANM3,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
@@ -319,6 +312,7 @@ OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
+OWOM4,Shiawassee River at Owosso,1,JTSM4,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 OWTM5,Straight River at Owatonna,1,FRBM5,True,False
 OXDM6,Yocona River near Oxford,1,ENDM6,True,False
