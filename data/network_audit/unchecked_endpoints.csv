@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HAIF1,Lake Marion Near Haines City,0,,True,False
-HAIN1,Arikaree River at Haigler,0,,True,False
-HAIV2,Russell Fork River at Haysi,2,BIGV2;BRFV2,True,False
-HAJT2,Sandy Creek (E TX) at Jasper,0,,True,False
-HAKT2,Sabine River near Hawkins,2,GDWT2;MLAT2,True,False
-HALI1,Big Wood River at Hailey,3,EFGI1;SCBI1;WRMI1,True,False
-HALM1,Kennebec River at Hallowell,2,ASTM1;GIRM1,True,False
-HALT1,Beaver Creek (TN) near Halls Crossroads,0,,True,False
-HALV2,Banister River at Halifax,0,,True,False
-HALW2,Buckhannon River at Hall,2,BKNW2;PHIW2,True,False
-HAMA3,Hassayampa River near Morristown,0,,True,False
-HAMC1,Sacramento River at Hamilton City,2,ORFC1;VWBC1,True,False
-HAMC3,Mill River above Lake Whitney,0,,True,False
-HAMF1,Hampton Lake near Hampton (in NAVD88),0,,True,False
-HAMN4,Royce Brook at Hamilton Road,0,,True,False
-HAMN6,Hutchinson River at Pelham,0,,True,False
-HAMO1,Great Miami River at Hamilton,2,MDTO1;MIAO1,True,False
-HANM2,Tonoloway Creek near Hancock,0,,True,False
-HANM5,Yellow Medicine River near Hanley Falls 4W,0,,True,False
-HANO1,Ohio River at Hannibal Lock and Dam,2,POWO1;SARO1,True,False
-HANW4,Medicine Bow River near Hanna,0,,True,False
-HAPC1,Indian Creek near Happy Camp,0,,True,False
-HARC2,South Platte River above Elevenmile Reservoir,2,SELC2;SPYC2,True,False
-HARF1,Blackwater River NR Harold,0,,True,False
-HARI1,Coeur d'Alene River near Harrison,0,,True,False
 HARO3,Willamette River at Harrisburg,3,CORO3;EUGO3;MRGO3,True,False
 HARP1,Susquehanna River at Harrisburg,2,MRTP1;SBYP1,True,False
 HARV2,South River at Harriston,2,DOOV2;LYWV2,True,False
@@ -459,7 +434,7 @@ HSPF1,Santa Fe River near High Springs (in NAVD88),2,POEF1;RRZF1,True,False
 HSPN7,"French Broad River above Silver Mine Ck, in Hot Springs",2,MARN7;NWPT1,True,False
 HSRF1,Hunter Spring Run at Beach Lane at Crystal River,0,,True,False
 HSSW1,East Fork Lewis River near Heisson,0,,True,False
-HSTA3,Hassayampa River near Arlington,0,,True,False
+HSTA3,Hassayampa River near Arlington,1,HAMA3,True,False
 HSTM4,Thornapple River at Hastings,1,CLDM4,True,False
 HSTM5,Mississippi River Below Lock and Dam 2 - Hastings,2,PREW3;STPM5,True,False
 HSWN7,Hominy Swamp at Wilson,0,,True,False
@@ -2061,7 +2036,7 @@ MBPC1,Marble Fork  Kaweah River,0,,True,False
 MBRC1,Mojave River at Barstow,0,,True,False
 MBRI4,Bloody Run Creek near Marquette,0,,True,False
 MBRW2,Middle Island Creek near Middlebourne,0,,True,False
-MBRW4,Medicine Bow River above Elk Mountain,0,,True,False
+MBRW4,Medicine Bow River above Elk Mountain,1,HANW4,True,False
 MBSL1,Atchafalaya River at Murphy Lake near Bayou Sorrel,0,,True,False
 MBVT2,Cedar Bayou at I-10 near Mont Belvieu,0,,True,False
 MBWC2,Muddy Creek (NC CO) above Kremmling,0,,True,False
@@ -4969,7 +4944,7 @@ ROCW2,Big Sandy Creek at Rockville,0,,True,False
 RODF1,Ocklawaha River below Kirkpatrick Dam (in NAVD88),0,,True,False
 RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
 RODW1,Skagit River  Ross Reservoir,0,,True,False
-ROEF1,Upper Blackwater River,0,,True,False
+ROEF1,Upper Blackwater River,1,HARF1,True,False
 ROEG1,Etowah River at GA 1 Loop near Rome,2,ERRG1;KGTG1,True,False
 ROFN7,Pamlico Sound at Rodanthe Ferry Terminal (in MLLW),0,,True,False
 ROHC1,Copeland Creek at Rohnert Park,1,CTIC1,True,False
