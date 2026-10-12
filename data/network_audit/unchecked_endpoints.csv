@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-FCRF1,Fisheating Creek at SR 70,0,,True,False
-FCRM4,Fish Creek near Crystal,0,,True,False
-FCRM7,Flat Creek (MO) below Jenkins,0,,True,False
-FCRP1,Frankford Creek at Philadelphia,0,,True,False
-FCRS2,Flandreau Creek above Flandreau,0,,True,False
-FCSA3,Fossil Creek near Strawberry,2,EVDA3;VDTA3,True,False
-FCSI3,Fall Creek (IN) at 16th Street in Indianapolis,2,IUPI3;MLRI3,True,False
-FCTC1,San Joaquin River above Fishermans Cut,0,,True,False
-FCTG1,Fausett Creek near Talking Rock,0,,True,False
-FCTI3,Fall Creek at 79th St,2,MLRI3;OLNI3,True,False
-FCTT2,Cibolo Creek near Falls City,2,SRRT2;SUPT2,True,False
-FCTV2,Falling Creek at Turner Road near Ampt Hill,0,,True,False
-FCVK2,Sand Run at Francisville,0,,True,False
-FCWN7,Fishing Creek at US-401 Near Warrenton,0,,True,False
-FCWT2,Lake Creek above The Woodlands,0,,True,False
-FCWW4,Fish Creek (WY) at Wilson,0,,True,False
-FCYP1,Lackawanna River above Forest City,0,,True,False
-FDAN6,Canadaway Creek at Fredonia,0,,True,False
-FDBV2,Rappahannock River above Fredericksburg,2,CLPV2;FEDV2,True,False
-FDCF1,Fort De Soto State Park (in MHHW),0,,True,False
-FDCI2,Fondulac Creek near East Peoria,0,,True,False
-FDDI4,Des Moines River near Fort Dodge Hwy D14--IFC,3,DAKI4;FODI4;HBTI4,True,False
-FDFV2,Dodd Creek at Floyd,0,,True,False
-FDKM2,Monocacy River near Frederick at Interstate 70,1,FRMM2,True,False
-FDLI2,South Branch Kishwaukee River near Fairdale,2,DEKI2;PRYI2,True,False
 FDLK2,Pond Creek (C KY) near Fairdale,0,,True,False
 FDLO1,Blanchard River above Findlay,2,FDYO1;MBLO1,True,False
 FDLP1,Stonycreek River at Ferndale,0,,True,False
@@ -193,7 +168,7 @@ FONN7,Little Tennessee River at FONTANA DAM TVA,2,CHEN7;TKSN7,True,False
 FOPF1,Peace River Near Peace River Heights,1,PLPF1,True,False
 FORB3,Forest City Stream at Forest City,1,VBOM1,True,False
 FORI4,Winnebago River near Forest City Hwy B14--IFC,0,,True,False
-FORM7,White River (MO) at Table Rock Lake,0,,True,False
+FORM7,White River (MO) at Table Rock Lake,1,FCRM7,True,False
 FORS2,James River near Forestburg,2,HURS2;JRMS2,True,False
 FOSC2,Fossil Creek (CO) at Fort Collins,0,,True,False
 FOSM4,Flint River at Fosters,1,FLTM4,True,False
@@ -5124,7 +5099,7 @@ PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLLP1,Pennypack Creek at Philadelphia,0,,True,False
 PLLQ3,Pembina River above Lorne Lake,2,BLNQ3;RLGQ3,True,False
 PLMC2,East Plum Creek (CO) below Castle Rock,2,EPOC2;LOVC2,True,False
-PLMF1,Fisheating Creek at Palmdale,1,FCKF1,True,False
+PLMF1,Fisheating Creek at Palmdale,2,FCKF1;FCRF1,True,False
 PLMI2,Big Muddy River at Plumfield,0,,True,False
 PLMI3,St. Marys River at Pleasant Mills,2,DCRI3;WILO1,True,False
 PLMI4,Mud Creek near Pleasant Hill IA 163--IFC,0,,True,False
@@ -5738,7 +5713,7 @@ REFT2,Mission River at Refugio,0,,True,False
 REGN8,Cannonball River at Regent,1,BREN8,True,False
 RELC2,Resolution Creek at Camp Hale near Red Cliff ,0,,True,False
 RELT2,Colorado River (TX) at Robert Lee,2,BLIT2;SILT2,True,False
-RENV2,Rappahannock River at Remington,0,,True,False
+RENV2,Rappahannock River at Remington,1,FDBV2,True,False
 REPA1,Fivemile Creek near Republic,0,,True,False
 REPN1,Republican River at Harlan Reservoir,2,ORNN1;RVRN1,True,False
 RERC2,Eagle River at Red Cliff,1,EAMC2,True,False
@@ -7197,7 +7172,7 @@ STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIF1,Steinhatchee River at Steinhatchee (in MHHW),0,,True,False
 STII1,South Fork Clearwater River at Stites,0,,True,False
 STII2,Chicago Sanitary and Ship Canal at Stickney,2,CSWI2;LCSI2,True,False
-STIP1,Lackawanna River at Stillwater Dam,0,,True,False
+STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
 STIT2,North Texas Lakes at Stillhouse Hollow Lake,1,BSJT2,True,False
 STJI2,Salt Fork (IL) near St. Joseph,0,,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
