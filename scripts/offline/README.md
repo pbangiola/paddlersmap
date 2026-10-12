@@ -50,3 +50,14 @@ Open http://localhost:8000/ . This serves the current checkout's website immedia
 - Launch name filtering is intentionally restrictive and will exclude unnamed or generically named legitimate public access points. Keep the original inventory.
 - The Overpass endpoint is a community service. Query bounded areas; nationwide collection needs a staged, resumable extraction pipeline. Google Maps scraping is not part of this setup.
 - This initial offline suite does not yet produce an integrated river/lake/launch graph or a verified national launch inventory.
+
+## Download full national USGS 3DHP flowlines
+
+```bash
+python3 scripts/offline/download_national_3dhp.py --max-pages 2  # smoke test
+python3 scripts/offline/download_national_3dhp.py                 # resume; download all
+```
+
+This streams nationwide flowline geometry from USGS 3DHP layer 50 into numbered GeoJSON shards under `local/national_3dhp/flowlines/`, with a resumable `manifest.json`. Stop with Ctrl+C; run the same command to resume. A complete download has `"complete":true` in the manifest. Expect potentially substantial disk space, network traffic and runtime; the full national data has **not** been downloaded or benchmarked here. Data are not committed or deployed. Use `--page-size 500` only when starting in a new output directory; changing page size on an existing manifest is rejected.
+
+The downloader retains all flowlines, including unknown flow direction; later topology work must treat direction as an attribute, not assume every line is downstream-oriented. USGS 3DHP incorporates legacy NHD where elevation-derived coverage is unavailable. These shards are **not yet wired into the gauge reconciliation or map preview**; the next step is a spatial index and streaming matcher, rather than merging all shards into one giant GeoJSON.
