@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LAMC1,Coyote Reservior at (Lake Mendocino),0,,True,False
-LAMF1,Aucilla River at Lamont (US 27),2,ASHF1;NUTF1,True,False
-LAMN3,Lamprey River near Newmarket,0,,True,False
-LAMN8,James River at LaMoure,1,JMSN8,True,False
-LAMV3,Lameshur Bay Tide Gauge,0,,True,False
-LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
-LANM5,Cedar River near Lansing,1,ASTM5,True,False
-LANS1,Reedy River at Greenville Landfill,0,,True,False
-LANW4,Middle Fork Popo Agie River at Sinks Canyon,0,,True,False
-LAON7,Little Alamance Creek at Overbrook Dr,1,LACN7,True,False
-LAPC2,Purgatoire River near Las Animas,0,,True,False
-LAPI1,Lapwai Creek near Lapwai,0,,True,False
-LAPI4,Wolf Creek at La Porte City W Main St--IFC,2,DYSI4;VINI4,True,False
-LAPO3,Little Deschutes River near La Pine,0,,True,False
-LAQM5,Lac Qui Parle Reservoir at Lac Qui Parle Dam Pool,0,,True,False
-LARI4,Mill Creek (NW IA) near Larrabee,0,,True,False
-LARO1,Scioto River at Larue,2,KNTO1;PRGO1,True,False
-LARP4,Rio Guajataca at Lares,1,QUEP4,True,False
-LART2,North Texas Lakes at Lake Arlington,2,ERMT2;GPRT2,True,False
-LAST1,East Fork Stones River near Lascassas,0,,True,False
-LATI2,Rock River at Latham Park,2,RABI2;ROKI2,True,False
-LATN1,Antelope Creek at Lincoln (27th Street),0,,True,False
-LATN5,Pecos River above Lake Arthur,0,,True,False
-LATN6,Long Island Sound above Lattingtown (IN MLLW),0,,True,False
-LATP1,Loyalhanna Creek at Latrobe,2,KINP1;LYLP1,True,False
 LAUF1,Myakka River Near Laurel,2,BOWF1;MKCF1,True,False
 LAUW1,Kettle River near Laurier,1,FRYW1,True,False
 LAVG1,Shoal Creek at Paper Mill Rd near Lawrenceville,0,,True,False
@@ -381,7 +356,7 @@ LLYF1,Lake Lafayette Outfall at Chaires Crossroad (in NAVD88),0,,True,False
 LLYN6,Tioga River near Lindley,0,,True,False
 LLYP4,Rio Yauco above Diversion Monserrate,0,,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
-LMAC2,Arkansas River at Lamar,2,COOK1;LXHC2,True,False
+LMAC2,Arkansas River at Lamar,3,COOK1;LAPC2;LXHC2,True,False
 LMBM5,Cottonwood River (MN) near Lamberton,0,,True,False
 LMBN7,Lumber River at NC 72 in Lumberton,2,LBRN7;PMBN7,True,False
 LMBW4,Little Medicine Bow River at Boles Spring,0,,True,False
@@ -416,7 +391,7 @@ LMWF1,South Fork Little Manatee River at CR579 Near Wimauma,0,,True,False
 LMYC1,Maria Ygnacio Creek near Goleta,0,,True,False
 LNBO1,Little Muskingum at Bloomfield,0,,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
-LNCN1,Holmes Lake,0,,True,False
+LNCN1,Holmes Lake,1,LATN1,True,False
 LNCP1,Conestoga River at Lancaster,1,CNSP1,True,False
 LNDK1,Salt Creek (LNDK1) at Lyndon,0,,True,False
 LNDM6,Wolf River near Landon,1,GLFM6,True,False
@@ -537,7 +512,7 @@ LPZF1,Lake Parker Outlet at Combee Settlement,0,,True,False
 LQAT2,Tide Gauge above La Quinta Channel,0,,True,False
 LQGS2,West Branch Lac Qui Parle River at Gary,0,,True,False
 LQPM5,Lac Qui Parle River at Lac Qui Parle,2,DAWM5;MVOM5,True,False
-LQRM5,Minnesota River at Lac Qui Parle Dam Tail (S of hwy 13),0,,True,False
+LQRM5,Minnesota River at Lac Qui Parle Dam Tail (S of hwy 13),2,LAQM5;MVOM5,True,False
 LRBL1,Little River at Boggy Bayou Road,0,,True,False
 LRBM8,Red Rock River below Lima Reservoir nr Monida,0,,True,False
 LRBN7,Broad River in NC/SC below Lake Lure Dam,2,BSPN7;LRDN7,True,False
@@ -1171,7 +1146,7 @@ MIKM8,Mill Creek near Emigrant,0,,True,False
 MILA1,Tallapoosa River at Milstead,2,CRRA1;MGYA1,True,False
 MILI1,Snake River near Milner,2,CBMI1;MDMI1,True,False
 MILI2,Sugar Creek  (E-IL) at Milford,0,,True,False
-MILM5,Lac Qui Parle Reservoir at Hwy 40 Bridge near Milan,0,,True,False
+MILM5,Lac Qui Parle Reservoir at Hwy 40 Bridge near Milan,2,LAQM5;MLDM5,True,False
 MILM8,Yellowstone River at Miles City,3,FRYM8;GLNM8;MICM8,True,False
 MILN4,Passaic River near Millington,1,CAMN4,True,False
 MILO1,Huron River at Milan,0,,True,False
@@ -1246,13 +1221,13 @@ MLBA4,Mulberry River (AR) near Mulberry,0,,True,False
 MLBK1,Cottonwood River at Marion Reservoir,0,,True,False
 MLBM3,Blackstone River at Millbury ,0,,True,False
 MLBO3,Big Butte Creek near McLeod,0,,True,False
-MLBW4,Middle Fork Popo Agie River near Lander,0,,True,False
+MLBW4,Middle Fork Popo Agie River near Lander,1,LANW4,True,False
 MLCA2,[INACTIVE] Mulchatna River near New Stuyahok,0,,True,False
 MLCM7,St. Francis River at Mill Creek,2,ROZM7;SAZM7,True,False
 MLDC1,Milliken Reservoir  ,0,,True,False
 MLDI1,Malad River near Gooding,0,,True,False
 MLDL1,Comite River at Port Hudson-Pride Rd. near Milldale,0,,True,False
-MLDM5,Minnesota River below Marsh Lake Dam (Tailwater),0,,True,False
+MLDM5,Minnesota River below Marsh Lake Dam (Tailwater),2,MILM5;ODAM5,True,False
 MLDN1,Wehrspann Lake,0,,True,False
 MLEF1,Tide Gauge at Mullet Key (In MHHW),0,,True,False
 MLFG1,Ichawaynochaway Creek at Milford,2,EMOG1;MGNG1,True,False
@@ -1701,7 +1676,7 @@ MVGN6,Mongaup River near Mongaup,0,,True,False
 MVHC1,Mojave River at Helendale,0,,True,False
 MVLO1,Lake Fork Mohican River above Mohicanville Dam,0,,True,False
 MVNC1,Los Gatos Creek at Montevina,0,,True,False
-MVOM5,Minnesota River at Montevideo,5,APPM5;GTEM5;LQPM5;MLNM5;ORTM5,True,False
+MVOM5,Minnesota River at Montevideo,6,APPM5;GTEM5;LQPM5;LQRM5;MLNM5;ORTM5,True,False
 MVRA3,Cerbat Wash at State Route 68 nr Verde Rd,0,,True,False
 MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
 MVSA3,Virgin River at Scenic Bridge,0,,True,False
@@ -2330,7 +2305,7 @@ OCTW3,Oconto River near Oconto,1,GILW3,True,False
 OCUO3,Willamette River above Falls at Oregon City,2,ORCO3;WCFO3,True,False
 OCYW3,Moore Creek near Wilton - County Road T,0,,True,False
 ODAK2,South Fork Kentucky River at Oneida,2,BOOK2;MCHK2,True,False
-ODAM5,Minnesota River near Odessa Hwy 75 Dam (Tailwater),0,,True,False
+ODAM5,Minnesota River near Odessa Hwy 75 Dam (Tailwater),2,MLDM5;ORTM5,True,False
 ODAW3,Bad River (WI) near Odanah,2,BADW3;BDOW3,True,False
 ODBN4,Deep Run at Old Bridge,0,,True,False
 ODBV2,Broad Run at Brentsville Road,0,,True,False
@@ -2502,7 +2477,7 @@ OROP4,Lago Matrullas,0,,True,False
 ORQC1,Old River at Quimby Island NR Bethel Island Ca,0,,True,False
 ORRF1,Orange River Near Buckingham,0,,True,False
 ORSF1,Ochlockonee River at Ochlockonee River State Park (in MHHW),0,,True,False
-ORTM5,Minnesota River at Ortonville,2,BSLM5;MVOM5,True,False
+ORTM5,Minnesota River at Ortonville,3,BSLM5;MVOM5;ODAM5,True,False
 ORTW1,Puyallup River near Orting,2,ELEW1;PUYW1,True,False
 ORWM5,Orwell Lake at Orwell Dam near Fergus Falls,3,ELZM5;FFPM5;OTRM5,True,False
 OSAC1,San Antonio Creek near Orcutt,0,,True,False
@@ -2829,8 +2804,8 @@ PGFM6,Pascagoula River at Graham Ferry,2,BKNM6;MRRM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,3,GIVT2;GNST2;PCST2,True,False
 PGHN7,Prince George Creek at NC Highway 133,0,,True,False
 PGKN7,Pinch Gut Creek at U.S. Highway 17,0,,True,False
-PGMC2,Purgatoire River at Madrid,0,,True,False
-PGRC2,Purgatoire River below Trinidad Lake,0,,True,False
+PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
+PGRC2,Purgatoire River below Trinidad Lake,2,PGMC2;PTRC2,True,False
 PGTC1,Saratoga Creek at Pruneridge Avenue,0,,True,False
 PGVN7,Tar River at Greenville,0,,True,False
 PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
@@ -3289,7 +3264,7 @@ PTMN1,Missouri River at Plattsmouth,2,MTLN1;NEBN1,True,False
 PTNM5,South Branch Root River at Preston,2,CMAM5;LNSM5,True,False
 PTNP1,Schuylkill River at Pottstown,2,NRSP1;RDRP1,True,False
 PTOF1,Halifax River at Port Orange (in MHHW),0,,True,False
-PTRC2,Purgatoire River at Trinidad,0,,True,False
+PTRC2,Purgatoire River at Trinidad,2,LAPC2;PGRC2,True,False
 PTRI3,White River (IN) at Petersburg,2,HAZI3;PETI3,True,False
 PTRM2,Plumtree Run near Bel Air,0,,True,False
 PTRN3,Contoocook River at Peterborough,1,HENN3,True,False

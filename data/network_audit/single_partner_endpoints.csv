@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-LAMN8,James River at LaMoure,1,JMSN8,True,False
-LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
-LANM5,Cedar River near Lansing,1,ASTM5,True,False
-LAON7,Little Alamance Creek at Overbrook Dr,1,LACN7,True,False
-LARP4,Rio Guajataca at Lares,1,QUEP4,True,False
 LAUW1,Kettle River near Laurier,1,FRYW1,True,False
 LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
 LAWK1,Wakarusa River near Lawrence,1,CLIK1,True,False
@@ -43,6 +38,7 @@ LLKW1,Spokane River at Long Lake Dam,1,SPOW1,True,False
 LLYT2,Langham Creek near Addicks,1,ADDT2,True,False
 LMVT2,Murvaul Bayou at Lake Murvaul,1,LPTL1,True,False
 LNBV2,North Meherrin River near Lunenburg,1,SOHV2,True,False
+LNCN1,Holmes Lake,1,LATN1,True,False
 LNCP1,Conestoga River at Lancaster,1,CNSP1,True,False
 LNDM6,Wolf River near Landon,1,GLFM6,True,False
 LNEK1,Pottawatomie Creek at Lane,1,GRTK1,True,False
@@ -137,6 +133,7 @@ MILW3,Crawfish River at Milford,1,CUSW3,True,False
 MIWO3,Johnson Creek at Milwaukie,1,SYCO3,True,False
 MKLM5,Snake River (NW MN) above Warren,1,ALVM5,True,False
 MKSM6,Coldwater River at Marks,1,SARM6,True,False
+MLBW4,Middle Fork Popo Agie River near Lander,1,LANW4,True,False
 MLFK1,Republican River at Milford Lake,1,CYCK1,True,False
 MLII2,Rock River at Moline,1,JOSI2,True,False
 MLIT2,Pecan Bayou near Mullin,1,BWDT2,True,False
@@ -330,6 +327,7 @@ PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
 PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
 PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
+PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
 PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
