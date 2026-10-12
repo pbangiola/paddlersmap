@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
 LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
 LAFI2,Skokie River at Lake Forest,1,HIPI2,True,False
 LAMN8,James River at LaMoure,1,JMSN8,True,False
@@ -613,6 +612,7 @@ TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
 TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
 TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
+TDFS2,Spring Creek near Hill City,1,KSTS2,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False

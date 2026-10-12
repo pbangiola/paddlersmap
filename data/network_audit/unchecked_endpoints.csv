@@ -1,32 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-KRSI1,South Fork Salmon River at Krassel Ranger Station,0,,True,False
-KRVC1,Kern River at Kernville,0,,True,False
-KRWA2,Kashwitna River near Willow,0,,True,False
-KRWK1,N F Solomon River at Kirwin Reservoir,2,GDEK1;PTIK1,True,False
-KRZI3,South Fork Salt Creek at Kurtz,0,,True,False
-KRZL1,Atchafalaya River at Krotz Springs,2,BLRL1;MLVL1,True,False
-KRZP1,Kreutz Creek at Strickler,0,,True,False
-KSBH1,Kauaula Stream at Kauaula Stream Below Diversion,0,,True,False
-KSBN4,Raritan Bay at Keansburg (IN MLLW),0,,True,False
-KSCM6,Yockanookany River near Kosciusko,0,,True,False
-KSDM7,Blue River at Stadium Drive,3,BVCM7;KBPM7;KSVM7,True,False
-KSFA2,Kasilof River near Kasilof,0,,True,False
-KSFH1,South Fork Kaukonahua Stream near Wahiawa,0,,True,False
-KSKA2,[INACTIVE] Kaskanak Creek near Igiugig,0,,True,False
-KSLN8,James River near Kensal,2,GCEN8;JMDN8,True,False
-KSTS2,Spring Creek (SD) near Rockerville,0,,True,False
-KSVM7,Blue River at 17th Street,2,KCTM7;KSDM7,True,False
-KTBA2,Kotzebue tide gage GNSS-R (MHHW),0,,True,False
-KTCN1,Turkey Creek near Kearney,0,,True,False
-KTFW1,Colville River at Kettle Falls,1,CBBW1,True,False
-KTIA2,[INACTIVE] Koktuli River near Iliamna,0,,True,False
-KTKF1,Lake Kanturk at Clifden Drive (in NAVD88,0,,True,False
-KTLM5,Kettle River (MN) near Kettle River,0,,True,False
-KTNN6,Cross River at Katonah,0,,True,False
-KTNT2,Sweetwater Creek at Kelton,0,,True,False
 KTRC1,Kaweah River at Three Rivers,0,,True,False
 KTRG1,Two Run Creek near Kingston,0,,True,False
-KTRM5,Kettle River near Willow River,0,,True,False
+KTRM5,Kettle River near Willow River,2,KTLM5;SANM5,True,False
 KTSI3,Kankakee River near Kouts,2,DBRI3;SLBI3,True,False
 KTTP1,Allegheny River at Kittanning Lock and Dam,2,CLNP1;MOSP1,True,False
 KUCN6,Johnson Creek (NY) at Kuckville,0,,True,False
@@ -1474,7 +1449,7 @@ MOMI2,Kankakee River at Momence,2,SLBI3;WLMI2,True,False
 MOMN1,Missouri River at Highway 92 at Omaha,2,MTLN1;OMHN1,True,False
 MONA2,[INACTIVE] Montana Creek at Parks Highway Bridge,0,,True,False
 MONA3,S Moccasin Wash at Moccasin,0,,True,False
-MONI3,Salt Creek (IN) at Monroe Lake,2,HDBI3;NFSI3,True,False
+MONI3,Salt Creek (IN) at Monroe Lake,3,HDBI3;KRZI3;NFSI3,True,False
 MONL1,Tickfaw River at Montpelier,2,HOLL1;LPOL1,True,False
 MONM4,River Raisin at Monroe City,2,DNDM4;GPEM4,True,False
 MONN7,Deep River near Moncure,0,,True,False
@@ -2415,7 +2390,7 @@ ODOW3,Rullands Coulee Creek near Portland - Oakland Road,0,,True,False
 ODSI4,Lake Odessa at Schafer Landing - Port Louisa National Wildlife Refuge,0,,True,False
 ODSM5,Yellow Bank River near Odessa,0,,True,False
 ODSN1,Platte River near Odessa,2,KEAN1;OVTN1,True,False
-OFAM6,Yockanookany River near Ofahoma,0,,True,False
+OFAM6,Yockanookany River near Ofahoma,2,KSCM6;RATM6,True,False
 OFBM6,Pascagoula River at Old Fort Bayou at Ocean Springs,0,,True,False
 OFFG1,Little Satilla River near Offerman,0,,True,False
 OFFN1,Offutt Ditch (Bellevue Drain) near Offutt AFB,0,,True,False
@@ -3490,7 +3465,7 @@ RAPN7,Roanoke River above Roanoke Rapids Dam,0,,True,False
 RAPV2,Rappahannock River at Tappahannock (IN MLLW),0,,True,False
 RASP1,Sevenmile Run near Rasselas,0,,True,False
 RATF1,St George Island at Rattlesnake Cove (in MHHW),0,,True,False
-RATM6,Pearl River at Ratliff's Ferry,2,GDHM6;JSNM6,True,False
+RATM6,Pearl River at Ratliff's Ferry,3,GDHM6;JSNM6;OFAM6,True,False
 RAUS2,Mud Creek near Rauville,0,,True,False
 RAVK2,Kentucky River near Ravenna,2,CYCK2;WLWK2,True,False
 RAVS2,Rapid Creek above Victoria Creek near Rapid City,2,BIGS2;CYNS2,True,False
@@ -4094,7 +4069,7 @@ SAMP4,Rio Majada at La Plena,0,,True,False
 SANK1,Pawnee River near Sanford,1,ROZK1,True,False
 SANM2,Hawlings River near Sandy Spring,0,,True,False
 SANM3,Atlantic Coast near Sandwich Canal Side (In MLLW),0,,True,False
-SANM5,Kettle River (MN) below Sandstone,0,,True,False
+SANM5,Kettle River (MN) below Sandstone,2,KTRM5;SCFW3,True,False
 SANM6,Tallahala Creek at Sharon/Sandersville,0,,True,False
 SANN3,Exeter River near Sandown,0,,True,False
 SANN6,Sandy Creek near Adams,0,,True,False
@@ -4219,7 +4194,7 @@ SCEV2,Stony Creek at Edinburg,0,,True,False
 SCFI3,Stony Creek (IN) at Fishersburg,0,,True,False
 SCFN3,Sugar River below Lake Sunapee ,0,,True,False
 SCFS2,Spring Creek near Flandreau,0,,True,False
-SCFW3,St. Croix River at St Croix Falls,2,GTBW3;STLM5,True,False
+SCFW3,St. Croix River at St Croix Falls,3,GTBW3;SANM5;STLM5,True,False
 SCGN7,Stony Creek at Bus US 70,0,,True,False
 SCGO3,Sain Creek near Gaston,0,,True,False
 SCGT2,Sandies Creek at FM 108 near Smiley,0,,True,False
@@ -4257,7 +4232,7 @@ SCNI3,Stony Creek (IN) near Noblesville,0,,True,False
 SCNK1,Smoky Hill River above Schoenchen,2,ELSK1;SCSK1,True,False
 SCNM5,St. Louis River at Scanlon,2,CQRM5;FDWM5,True,False
 SCNO3,Sycan River near Beatty,0,,True,False
-SCNS2,Cheyenne River near Scenic,3,CHRS2;OSAS2;WASS2,True,False
+SCNS2,Cheyenne River near Scenic,4,CHRS2;KSTS2;OSAS2;WASS2,True,False
 SCOA2,Scottie Creek at Alaska Hwy near Northway,0,,True,False
 SCOC1,Eel River (CA) near Scotia,2,FRNC1;FTSC1,True,False
 SCOI2,Summit Conduit at Summit,0,,True,False
@@ -5423,7 +5398,7 @@ TDAW1,North Fork Touchet River above Dayton,0,,True,False
 TDBC1,Ellsworth Barranca,0,,True,False
 TDDC2,Trinidad Lake near Trinidad,0,,True,False
 TDDT2,Trinity River at Trinidad,2,LOLT2;RSRT2,True,False
-TDFS2,Spring Creek near Hill City,0,,True,False
+TDFS2,Spring Creek near Hill City,1,KSTS2,True,False
 TDGL1,Tensas River at Tendal,2,NLGL1;TBTL1,True,False
 TEAI1,Teton River (ID) near St. Anthony,2,DGGI1;NFTI1,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
