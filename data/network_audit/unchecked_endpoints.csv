@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MGCO2,McGee Creek at McGee Creek Lake,0,,True,False
-MGCS1,Atlantic Intracoastal Waterway at Myrtle Beach,0,,True,False
-MGDV2,Maggodee Creek above Boones Mill,0,,True,False
-MGEF1,Middle River George English Park at Sunrise Blvd (in MHHW),0,,True,False
-MGFG1,Chattahoochee River below Morgan Falls Dam near Roswell,2,RWLG1;VNPG1,True,False
-MGGM8,Swiftcurrent Creek at Many Glacier near Babb,2,GRGM8;SBUM8,True,False
-MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
-MGIP4,Magueyes Island Tide Gauge (in MLLW),0,,True,False
-MGLT1,Obion River near Mengelwood,0,,True,False
-MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
-MGMO2,Salt Fork of the Red River at Mangum,2,ESFO2;WLGT2,True,False
-MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
-MGNI3,Trail Creek at Michigan City Harbor,0,,True,False
-MGNN7,Morgan Creek near White Cross,1,MGCN7,True,False
-MGOI3,Whiskey Run at Marengo,0,,True,False
-MGOI4,Indian Creek near Mingo,2,MXII4;RSSI4,True,False
-MGPN6,Mongaup River at Mongaup Valley,0,,True,False
-MGPT2,Tide Station (HGX) at Morgan's Point,0,,True,False
-MGRM5,Mississippi River at Grand Rapids Walkbridge,0,,True,False
-MGTN4,Beach Thorofare at Margate (IN MLLW),0,,True,False
-MGTW2,Monongahela River at Hilderbrand Lock and Dam,2,MORW2;OKKW2,True,False
-MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
-MGYN7,Jonathan Creek above Maggie Valley,0,,True,False
-MGYP1,Ohio River at Montgomery Lock and Dam,2,DSHP1;WLVO1,True,False
-MGZC1,Mission Creek below Gutierrez St,0,,True,False
 MGZP4,Mayaguez Tide Gauge (in MLLW),0,,True,False
 MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
 MHBC1,Cosumnes River at Michigan Bar,1,MCNC1,True,False
@@ -1410,7 +1385,7 @@ OSAO1,Scioto River above O'Shaughnessy Reservoir,2,DUBO1;PRGO1,True,False
 OSAS2,Battle Creek (SD) below Hermosa,2,HERS2;SCNS2,True,False
 OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
 OSCI4,Slough Creek near Orchard (IFC),0,,True,False
-OSGA4,Mississippi River at Osceola,3,CRTM7;DYET1;MEMT1,True,False
+OSGA4,Mississippi River at Osceola,4,CRTM7;DYET1;MEMT1;MGLT1,True,False
 OSGI4,Cedar River near Osage (IFC),2,AGRI4;CROI4,True,False
 OSGN6,Lake America at Oswego (NOS),0,,True,False
 OSHF1,Oldsmar Safety Harbor (In MHHW),0,,True,False
@@ -4233,7 +4208,7 @@ TCPC1,Amargosa River near Tecopa,0,,True,False
 TCPM8,Tank Coulee,0,,True,False
 TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
 TCRF1,Townsend Canal near Alva,0,,True,False
-TCRI3,Trail Creek at Michigan City,0,,True,False
+TCRI3,Trail Creek at Michigan City,1,MGNI3,True,False
 TCRK1,Tomahawk Creek at Roe Avenue,0,,True,False
 TCRM1,Nezinscot River at Turner Center,0,,True,False
 TCRN7,Tank Creek at Reilly Rd at Ft Bragg,0,,True,False
@@ -5196,7 +5171,7 @@ WHBC2,White River near Rangely,0,,True,False
 WHBI1,Salmon River at White Bird,0,,True,False
 WHBN6,Sauquoit Creek at Whitesboro,0,,True,False
 WHCI2,Whitley Creek near Allenville,0,,True,False
-WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
+WHCI3,Blue River (IN) at White Cloud,2,FRDI3;MGOI3,True,False
 WHCW4,Wild Horse Creek near Arvada (Closed Gauge),0,,True,False
 WHDC1,White River near Ducor,0,,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False

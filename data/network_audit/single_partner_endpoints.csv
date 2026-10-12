@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MGHW4,Clear Creek at Mosier Gulch,1,CCBW4,True,False
-MGMA1,Alabama River at Montgomery,1,TYLA1,True,False
-MGNG1,Ichawaynochaway Creek near Morgan,1,MLFG1,True,False
-MGNN7,Morgan Creek near White Cross,1,MGCN7,True,False
-MGYA1,Tallapoosa River at Tallapoosa Water Plant,1,MILA1,True,False
 MHAM5,Minnehaha Creek at Minneapolis / Hiawatha Ave.,1,GBDM5,True,False
 MHBC1,Cosumnes River at Michigan Bar,1,MCNC1,True,False
 MHDA1,Tallapoosa River at Harris Dam,1,WDLA1,True,False
@@ -537,6 +532,7 @@ TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
 TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
+TCRI3,Trail Creek at Michigan City,1,MGNI3,True,False
 TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
 TDFS2,Spring Creek near Hill City,1,KSTS2,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
@@ -644,7 +640,6 @@ WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
 WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
 WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
-WHCI3,Blue River (IN) at White Cloud,1,FRDI3,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHEW3,Hay River at Wheeler,1,MENW3,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
