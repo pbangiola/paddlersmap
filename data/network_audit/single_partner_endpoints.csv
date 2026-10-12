@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-CHLT2,Prairie Dog Town Fork of the Red River at Childress 10N,1,BICT2,True,False
 CHSO3,Sprague River near Chiloquin,1,BTYO3,True,False
 CHYO2,Washita River near Cheyenne,1,HMMO2,True,False
 CIBW1,Columbia River at International Boundary,1,GCDW1,True,False
@@ -22,12 +21,14 @@ CMTL1,Comite River near Comite Joor Rd.,1,BAKL1,True,False
 CMTW1,Chehalis River at Montesano,1,CRPW1,True,False
 CNCO3,Canyon Creek near Canyon City,1,CCTO3,True,False
 CNEI4,Cedar River near Conesville,1,CEBI4,True,False
+CNON6,Chenango River near Chenango Forks,1,GNEN6,True,False
 CNWM2,Susquehanna River at Conowingo Dam,1,MRTP1,True,False
 COGO3,Cow Creek above Azalea,1,GSVO3,True,False
 COGW2,Gauley River at Camden-On-Gauley,1,CRAW2,True,False
 COLA1,Chattahoochee River at George W. Andrews Lock and Dam (USACE),1,WDRF1,True,False
 COMO2,Neosho River near Commerce,1,NSOK1,True,False
 CORK2,Lynn Camp Creek at Corbin,1,WLCK2,True,False
+CPWO1,Chippewa Creek (Cuyahoga) at Broadview Heights,1,CHPO1,True,False
 CRAO3,Deschutes River (OR) below Crane Prairie Reservoir,1,WICO3,True,False
 CRBN7,Crabtree Creek at Capitol Blvd (US Rt 1),1,OWFN7,True,False
 CRCA3,Cataract Creek at Redlands Crossing,1,CCHA3,True,False
@@ -112,6 +113,7 @@ FCLN7,Cross Creek at Langdon St,1,CCBN7,True,False
 FDKM2,Monocacy River near Frederick at Interstate 70,1,FRMM2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
+FILT2,Frio River at at Leakey,1,CNCT2,True,False
 FINI3,Big Raccoon Creek near Fincastle,1,CHLI3,True,False
 FKBO2,Blue River (OK) near Franks,1,CNVO2,True,False
 FLAW4,Laramie River near Fort Laramie,1,BOSW4,True,False
@@ -170,6 +172,7 @@ HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOTI1,Bruneau River at Hot Springs,1,BRON2,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
+HRVM4,Chocolay River near Harvey,1,CHOM4,True,False
 HTAK1,Buckner Creek above Horse Thief Reservoir,1,HTRK1,True,False
 HTAT2,Little Wichita River near Henrietta,1,ARRT2,True,False
 HUSA2,Koyukuk River at Huslia,1,KRHA2,True,False
@@ -510,10 +513,12 @@ SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
 SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
 SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
+SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
+SHBN6,Chenango River at Sherburne,1,NWHN6,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
 SHLI2,Little Calumet River at South Holland,1,THNI2,True,False
 SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
