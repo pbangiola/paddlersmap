@@ -44,6 +44,7 @@ CWLI4,Beaver Creek at Colwell (IFC),1,BASI4,True,False
 CWRO2,Washita River at Cumberland Cut near Cumberland,1,TWRO2,True,False
 CYFM4,Michigamme River at Inflow to Michigamme Reservoir,1,CRFM4,True,False
 CYNG1,Chattooga River at Hwy 76,1,BURG1,True,False
+DAEV2,Tinker Creek near Daleville,1,CLOV2,True,False
 DANA4,Petit Jean River at Danville,1,BMTA4,True,False
 DARL1,Amite River near Darlington,1,GVLL1,True,False
 DARM8,Bitterroot River near Darby,1,VICM8,True,False
@@ -102,6 +103,7 @@ FBFL1,Bogue Falaya River near Folsom,1,CGSL1,True,False
 FCEW3,Popple River at Fence,1,BRKW3,True,False
 FCLN7,Cross Creek at Langdon St,1,CCBN7,True,False
 FDKM2,Monocacy River near Frederick at Interstate 70,1,FRMM2,True,False
+FEDV2,Rappahannock River at Fredericksburg,1,FDBV2,True,False
 FFMO1,Sandusky River near S Fremont,1,TFFO1,True,False
 FGOG1,Suwannee River at Fargo,1,SBNF1,True,False
 FILT2,Frio River at at Leakey,1,CNCT2,True,False
@@ -132,6 +134,8 @@ GBBN1,Wood River near Gibbon,1,ALDN1,True,False
 GBRO2,Beaver River at Goodwell,1,BVRO2,True,False
 GBSF1,Tide Gauge at Gibsonton (in MHHW),1,RVWF1,True,False
 GBYW3,Fox River (North) at Green Bay,1,WRGW3,True,False
+GDVM5,Shell Rock River (Northeast IA) near Gordonsville 1W,1,MANI4,True,False
+GEAN1,Loup River Power Canal near Genoa,1,CLSN1,True,False
 GENF1,St. Johns River above Lake Harney,1,SNFF1,True,False
 GFNB3,St. John River at Grand Falls,1,SJEB3,True,False
 GIDN1,Wood River at Grand Island Diversion,1,ALDN1,True,False
@@ -288,6 +292,7 @@ MCGA2,Kuskokwim River at McGrath,1,KLCA2,True,False
 MCHK2,Goose Creek at Manchester,1,ODAK2,True,False
 MCHM4,River Raisin near Manchester,1,TECM4,True,False
 MCKK2,Green River (KY) near McKinney,1,GRLK2,True,False
+MCLM6,Leaf River near McLain,1,NAGM6,True,False
 MCRI4,Winnebago River near Mason City Hwy S56--IFC,1,MCII4,True,False
 MCVT2,Cow Bayou near Mauriceville,1,BCVT2,True,False
 MDBA2,Copper River at Million Dollar bridge near Cordova,1,COBA2,True,False
@@ -491,6 +496,7 @@ RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
 RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
+RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,1,FPOC1,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVRN1,Republican River at Riverton,1,REPN1,True,False
@@ -573,7 +579,6 @@ STPC1,Stampede Reservoir,1,BCVC1,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
-SUSA2,[INACTIVE] Susitna River at Susitna Station,1,YSSA2,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
@@ -585,6 +590,7 @@ TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
+TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,1,MORA4,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
@@ -604,6 +610,7 @@ TYLN1,North Loup River at Taylor,1,ORDN1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
+UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
@@ -625,6 +632,7 @@ WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBXM1,Saco River at West Buxton,1,CNWN3,True,False
+WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
