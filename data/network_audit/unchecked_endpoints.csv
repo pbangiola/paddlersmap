@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HWDS1,Savannah River at Lake Hartwell,2,HRTG1;KEOS1,True,False
-HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
-HWLT2,Clear Fork Brazos River at Hawley,2,NGTT2;ROYT2,True,False
-HWNI4,West Nishnabotna River near Henderson (IFC),2,HNKI4;RDPI4,True,False
-HWRI1,Big Lost River at Howell Ranch,2,BLRI1;MACI1,True,False
-HWRV2,Hardware River below BRIERY RUN NR SCOTTSVILLE,0,,True,False
-HWSH1,Halawa Stream (Oahu) near Honolulu,0,,True,False
-HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
-HWYP1,Lackawaxen River at Hawley,2,HONP1;ROWP1,True,False
-HYAM2,"Soper Branch at Hyattstown, MD",0,,True,False
-HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
-HYDP1,Wills Creek below Hyndman,1,CWCM2,True,False
-HYEP1,West Branch Susquehanna River at Hyde,3,BWRP1;CRVP1;KARP1,True,False
-HYLM5,Partridge River near Hoyt Lakes,0,,True,False
-HYMC1,South Fork Trinity River near Hyampom,0,,True,False
-HYPM3,Atlantic Coast at Hyannisport (IN MLLW),0,,True,False
-HYSK1,Big Creek near Hays,1,ELLK1,True,False
-HYSK2,South Fork Licking River at Hayes,2,CATK2;CYNK2,True,False
-HYST2,Hickory Slough at FM 865 near Pearland,0,,True,False
-HYSV2,Pound River below John Flannagan Lake,0,,True,False
-HYUT2,Hurricane Bayou at US 287 near Crockett,0,,True,False
-HYVN7,Hiwassee River at Hayesville,0,,True,False
-HZHM7,Huzzah Creek near Steelville,0,,True,False
-HZLM7,Gasconade River near Hazelgreen,0,,True,False
-HZNI3,White River (IN) at Old U.S. Highway 41 located at Hazleton,2,HAZI3;MCRI2,True,False
 HZNN8,Knife River (ND) near Hazen,1,KRBN8,True,False
 IACI4,South Branch Ralston Creek at Iowa City,0,,True,False
 IAMF1,Lake Iamonia Outfall at Meridian Road,0,,True,False
@@ -330,7 +305,7 @@ JRDA2,Jordan Creek near Juneau,0,,True,False
 JRKV2,James River (VA) at KANAWHA CANAL near Richmond,0,,True,False
 JRLK1,Neosho River at John Redmond Lake,2,BRLK1;NEOK1,True,False
 JRMI3,Wildcat Creek (IN) near Jerome,0,,True,False
-JRMM7,Gasconade River at Jerome,0,,True,False
+JRMM7,Gasconade River at Jerome,2,HZLM7;RIFM7,True,False
 JRMS2,James River near Mitchell,2,FORS2;SCOS2,True,False
 JRSC1,San Joaquin River at Jersey Point,0,,True,False
 JRSI2,Des Plaines River at Joliet,3,JOLI2;LEMI2;ROMI2,True,False
@@ -3301,7 +3276,7 @@ PANW2,Panther Creek above Panther,0,,True,False
 PARA1,Lost Creek (AL) near Oakman,0,,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
 PARI4,Beaver Creek near Parkersburg Hwy T47--IFC,3,APEI4;APWI4;NHRI4,True,False
-PARM5,"Partridge River near Babbitt, Dunka Rd",0,,True,False
+PARM5,"Partridge River near Babbitt, Dunka Rd",1,HYLM5,True,False
 PARN4,Saddle River at Paramus,0,,True,False
 PARN6,West Branch of the St. Regis River near Parishville,0,,True,False
 PARO1,West Creek above Parma 3SE,2,BRCO1;PRMO1,True,False
@@ -4323,7 +4298,7 @@ RICT1,Little Pigeon River at Richardson Cove (Maples Branch),0,,True,False
 RICV2,James River (VA) at Richmond Locks,2,RMDV2;SWPV2,True,False
 RIDI1,Eastern Idaho Reservoirs at Ririe Dam,0,,True,False
 RIDI3,Mississinewa River at Ridgeville,0,,True,False
-RIFM7,Gasconade River near Rich Fountain,0,,True,False
+RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
 RIGA4,Right Hand Chute Little River at Rivervale,1,PNGA4,True,False
 RIGI1,Little Salmon River at Riggins,0,,True,False
 RIGK1,Big Creek near Ellis,1,ELLK1,True,False

@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-HWEG1,Hiwassee River at Riverside Drive near Hiawassee,1,PSYG1,True,False
-HWYM5,Buffalo River (MN) near Hawley,1,BGLM5,True,False
-HYDK2,Middle Fork Kentucky River near Hyden,1,BUCK2,True,False
-HYDP1,Wills Creek below Hyndman,1,CWCM2,True,False
-HYSK1,Big Creek near Hays,1,ELLK1,True,False
 HZNN8,Knife River (ND) near Hazen,1,KRBN8,True,False
 IBFN7,Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK,1,BKCN7,True,False
 IBOM5,St. Louis River near Skibo,1,FOBM5,True,False
@@ -365,6 +360,7 @@ PAMN7,Pamlico River at Washington (in MLLW),1,GRMN7,True,False
 PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
 PANO2,Poteau River near Panama,1,HJFA4,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
+PARM5,"Partridge River near Babbitt, Dunka Rd",1,HYLM5,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PATP4,Rio Patillas near Patillas,1,PASP4,True,False
@@ -472,6 +468,7 @@ RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
 RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
 RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
+RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
 RIGA4,Right Hand Chute Little River at Rivervale,1,PNGA4,True,False
 RIGK1,Big Creek near Ellis,1,ELLK1,True,False
 RIPI2,La Moine River at Ripley,1,CLMI2,True,False
