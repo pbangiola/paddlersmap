@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
-GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
-GULA2,Gulkana River at the Richardson Highway near Gulkana,1,GRSA2,True,False
 GYNK2,Little Sandy River at Grayson,1,LEOK2,True,False
 HADT1,Hiwassee River above Apalachia Dam,1,HIWN7,True,False
 HBGK1,Little Blue River near Hollenberg,1,FRBN1,True,False
@@ -27,6 +24,7 @@ HOFN7,Drowning Creek at Hoffman,1,MAXN7,True,False
 HOGW4,Encampment River near Encampment,1,ECRW4,True,False
 HOLM3,Quinapoxet River at Canada Mills,1,CLIM3,True,False
 HOMN8,Homme Reservoir near Park River,1,GRNN8,True,False
+HOPC1,Russian River near Hopland,1,HEAC1,True,False
 HORF1,Horse Creek at SR 64 Near Myakka Head,1,HLSF1,True,False
 HOUP1,Spring Creek at Houserville,1,AXEP1,True,False
 HPKV2,Cameron Run at Huntington - Metro Bridge,1,CRPV2,True,False
@@ -109,6 +107,7 @@ LABN7,South Fork Catawba River near Laboratory,1,BESN7,True,False
 LAMN8,James River at LaMoure,1,JMSN8,True,False
 LANG1,Etowah River at GA 136 near Landrum,1,DWSG1,True,False
 LANM5,Cedar River near Lansing,1,ASTM5,True,False
+LARP4,Rio Guajataca at Lares,1,QUEP4,True,False
 LAUF1,Myakka River Near Laurel,1,BOWF1,True,False
 LAUW1,Kettle River near Laurier,1,FRYW1,True,False
 LAVW3,Baraboo River at La Valle,1,RBGW3,True,False
@@ -644,6 +643,7 @@ SUPA3,Havasu Creek at Supai,1,CCHA3,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
+SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),1,RICV2,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
@@ -750,6 +750,7 @@ WIHN6,Lake Champlain near Whitehall,1,PHCN6,True,False
 WILM3,Hoosic River near Williamstown,1,EAGN6,True,False
 WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
+WIVF1,Withlacoochee River at Inverness (in NAVD88),1,HLDF1,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False

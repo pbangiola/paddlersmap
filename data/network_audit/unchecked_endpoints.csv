@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-GTNN4,Millstone River at Griggstown,1,BKWN4,True,False
-GTNN7,Contentnea Creek at Grifton,0,,True,False
-GTOT2,Tide Station (HGX) at NOS Station at Pier 21 Galveston,0,,True,False
-GTRF1,Gator Slough West of US 41,0,,True,False
-GTRO2,Cimarron River near Guthrie,2,DOVO2;PRKO2,True,False
-GTTI4,Mississippi River below Lock and Dam 10 - Guttenberg,5,CLAI4;DLDI4;MUSW3;STEW3;WPNI4,True,False
-GTWF1,Georgetown (in NAVD88),0,,True,False
-GTWO1,White Oak Creek above Georgetown,0,,True,False
-GTWT2,Berry Creek near Georgetown,2,FMFT2;WSGT2,True,False
-GTYP1,Girty's Run at Girty's Run,0,,True,False
-GUAP4,Rio Guajataca below Lago Guajataca,0,,True,False
-GUAW2,Elk River at Guardian,2,RPLW2;SUTW2,True,False
-GUBC1,Guadalupe River (CA) above Branham Lane,0,,True,False
-GUBT2,Guadalupe River at FM474 near Bergheim,2,COMT2;SRGT2,True,False
-GUCO2,Cottonwood Creek (OK) at Guthrie,0,,True,False
-GUDC1,Guadalupe River (CA) above Almaden Expressway,0,,True,False
-GUEC1,Russian River at Guerneville,0,,True,False
-GUFC1,Guadalupe River (CA) at Fish Ladder at Masson Dam,0,,True,False
-GUFP1,Kinzua Creek above Guffey,0,,True,False
-GUGC1,Guadalupe River (CA) at Gold Street,1,GUMC1,True,False
-GUIN1,Republican River at Guide Rock,2,HDYN1;RVRN1,True,False
-GULA2,Gulkana River at the Richardson Highway near Gulkana,1,GRSA2,True,False
-GULF1,Tide Gauge on the Waccasassa River near Gulf Hammock (In MHHW),0,,True,False
-GUMC1,Guadalupe River (CA) at Montague Expressway,2,GSJC1;GUGC1,True,False
-GUMF1,Gum Springs (in NAVD88),0,,True,False
 GUMN7,New River near Gum Branch,0,,True,False
 GUNI2,Des Plaines River near Gurnee,2,LDRI2;RUSI2,True,False
 GURP4,Rio Gurabo at Gurabo,0,,True,False
@@ -200,7 +175,7 @@ HDWT2,Cibolo Creek near St. Hedwig,2,SELT2;SUPT2,True,False
 HDYA4,Spring River (AR) at Hardy,0,,True,False
 HDYN1,Republican River near Hardy,2,GUIN1;SNDK1,True,False
 HDYN6,Hudson River at Hadley,2,FTEN6;NCKN6,True,False
-HEAC1,Russian River near Healdsburg,0,,True,False
+HEAC1,Russian River near Healdsburg,2,GUEC1;HOPC1,True,False
 HEAO2,North Fork of the Red River near Headrick,2,LGTO2;TIPO2,True,False
 HEEA4,Mississippi River at Helena,5,CDGA4;FRPM6;LAMA4;MHOM6;ROSM6,True,False
 HEFO2,Bluff Creek (Central OK) at Lake Hefner,0,,True,False
@@ -299,7 +274,7 @@ HLCG1,Hickory Log Creek near Canton,0,,True,False
 HLCO2,Lake Creek (OK) near Sickels,1,EKCO2,True,False
 HLCT2,Lelia Lake Creek at Hedley,0,,True,False
 HLCV2,Holiday Creek at nr. Andersonville,0,,True,False
-HLDF1,Withlacoochee River near Holder at SR 200 (in NAVD88),2,CRMF1;DNLF1,True,False
+HLDF1,Withlacoochee River near Holder at SR 200 (in NAVD88),4,CRMF1;DNLF1;GUMF1;WIVF1,True,False
 HLDK2,Kentucky River at Heidelberg,2,JKNK2;WLWK2,True,False
 HLEA1,Cahaba River near Helena,0,,True,False
 HLEF1,Holley (In MHHW),0,,True,False
@@ -416,7 +391,7 @@ HONP1,Lackawaxen River at Honesdale,2,HWYP1;PMTP1,True,False
 HOOC1,Trinity River at Hoopa,0,,True,False
 HOOL1,Comite River at Hooper Road near Baton Rouge,0,,True,False
 HOOO1,Big Walnut Creek at Hoover Pool,2,CSCO1;SBYO1,True,False
-HOPC1,Russian River near Hopland,0,,True,False
+HOPC1,Russian River near Hopland,1,HEAC1,True,False
 HOPG1,Flint River (GA) at Riverview Plantation,3,BGEG1;ICHG1;NEWG1,True,False
 HOPI1,Lake Pend Oreille at Hope,2,ALFW1;CBBI1,True,False
 HOPM4,Rabbit River near Hopkins,0,,True,False
@@ -1299,7 +1274,7 @@ LAPO3,Little Deschutes River near La Pine,0,,True,False
 LAQM5,Lac Qui Parle Reservoir at Lac Qui Parle Dam Pool,0,,True,False
 LARI4,Mill Creek (NW IA) near Larrabee,0,,True,False
 LARO1,Scioto River at Larue,2,KNTO1;PRGO1,True,False
-LARP4,Rio Guajataca at Lares,0,,True,False
+LARP4,Rio Guajataca at Lares,1,QUEP4,True,False
 LART2,North Texas Lakes at Lake Arlington,2,ERMT2;GPRT2,True,False
 LAST1,East Fork Stones River near Lascassas,0,,True,False
 LATI2,Rock River at Latham Park,2,RABI2;ROKI2,True,False
@@ -4669,7 +4644,7 @@ QTMT2,Lake Fork Creek near Quitman,0,,True,False
 QUAM3,Quashnet River at Waquoit Village,0,,True,False
 QUAO2,Spring River near Quapaw,1,BXTK1,True,False
 QUCN7,Queen Creek near Hubert,0,,True,False
-QUEP4,Lago Guajataca at Damsite,0,,True,False
+QUEP4,Lago Guajataca at Damsite,2,GUAP4;LARP4,True,False
 QUEW1,Queets R near Clearwater,0,,True,False
 QUSW2,Elk River at Queen Shoals,2,CLYW2;CRSW2,True,False
 QUTG1,Withlacoochee River near Quitman (US 84),3,HRAG1;PINF1;VDRG1,True,False
@@ -6467,7 +6442,7 @@ SWBN7,White Oak River at Swansboro (in MLLW),0,,True,False
 SWCI4,Waterman Creek near Sutherland,0,,True,False
 SWCN2,Sweetwater Creek (NV) near Sonoma,0,,True,False
 SWDN1,Lincoln Creek near Seward,0,,True,False
-SWDO2,Cottonwood Creek (OK) near Seward,0,,True,False
+SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
 SWDP1,Conemaugh River at Seward,2,CNMP1;JHSP1,True,False
 SWEG1,Suwanee Creek at Suwanee,0,,True,False
 SWEM8,Sweet Grass Creek near Big Timber,0,,True,False
@@ -7666,7 +7641,7 @@ WIRW3,Wisconsin River at Wisconsin Rapids,2,PETW3;WDSW3,True,False
 WISH1,Waihi Stream near Manoa,0,,True,False
 WISI4,West Nishnabotna River near Riverton,0,,True,False
 WITN6,Otselic River at Whitney Point Dam,0,,True,False
-WIVF1,Withlacoochee River at Inverness (in NAVD88),0,,True,False
+WIVF1,Withlacoochee River at Inverness (in NAVD88),1,HLDF1,True,False
 WIWC1,Willow Creek (Russian River) near 3rd Bridge,0,,True,False
 WJCT2,Williamson Creek at Jimmy Clay Road near Austin 6SE,0,,True,False
 WKAO3,Williamson River near Klamath Agency,0,,True,False
