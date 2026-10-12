@@ -2,7 +2,7 @@
 """Nearest-watercourse audit for NOAA gauges and graph edges (Shapely >=2)."""
 import argparse,json,math,xml.etree.ElementTree as ET
 from pathlib import Path
-from shapely.geometry import LineString,Point
+from shapely.geometry import LineString,Point,shape
 from shapely.ops import nearest_points
 from shapely.strtree import STRtree
 def read_kml(path):
@@ -19,13 +19,25 @@ def read_kml(path):
     except ValueError:pass
    if len(coords)>1:paths.append((name,LineString(coords)))
  return paths
+def read_geojson(path):
+ data=json.loads(Path(path).read_text());paths=[]
+ for f in data.get("features",[]):
+  geom=f.get("geometry")
+  if not geom:continue
+  g=shape(geom)
+  name=str((f.get("properties") or {}).get("name") or (f.get("properties") or {}).get("river_name") or "")
+  if g.geom_type=="LineString" and len(g.coords)>1:paths.append((name,g))
+  elif g.geom_type=="MultiLineString":
+   paths.extend((name,line) for line in g.geoms if len(line.coords)>1)
+ return paths
 def meters(a,b):
  lat=math.radians((a[1]+b[1])/2)
  return math.hypot((a[0]-b[0])*111320*math.cos(lat),(a[1]-b[1])*111320)
 def main():
- p=argparse.ArgumentParser();p.add_argument("--gauges",required=True);p.add_argument("--edges",required=True);p.add_argument("--kml",required=True);p.add_argument("--out",default="local/output/reconciled.geojson");p.add_argument("--snap-m",type=float,default=1000);a=p.parse_args()
- paths=read_kml(a.kml)
- if not paths:raise SystemExit("No KML LineStrings found")
+ p=argparse.ArgumentParser();p.add_argument("--gauges",required=True);p.add_argument("--edges",required=True);p.add_argument("--kml",help="Optional legacy KML input");p.add_argument("--watercourses",help="GeoJSON LineString/MultiLineString watercourses");p.add_argument("--out",default="local/output/reconciled.geojson");p.add_argument("--snap-m",type=float,default=1000);a=p.parse_args()
+ if not a.kml and not a.watercourses:p.error("Provide --watercourses GEOJSON or --kml KML")
+ paths=read_geojson(a.watercourses) if a.watercourses else read_kml(a.kml)
+ if not paths:raise SystemExit("No watercourse lines found")
  lines=[v[1] for v in paths];tree=STRtree(lines)
  def snap(xy):
   i=int(tree.nearest(Point(xy)));nearest=nearest_points(Point(xy),lines[i])[1];d=meters(xy,(nearest.x,nearest.y))
@@ -44,6 +56,6 @@ def main():
   summary["edges_both_ends_matched"]+=both;summary["edges_same_path"]+=same
   features.append({"type":"Feature","geometry":geom,"properties":{**(f.get("properties") or {}),"record_type":"gauge_edge","start_watercourse":start["watercourse_name"],"end_watercourse":end["watercourse_name"],"start_snap_m":start["snap_distance_m"],"end_snap_m":end["snap_distance_m"],"match_status":"same_path" if same else "review"}})
  out=Path(a.out);out.parent.mkdir(parents=True,exist_ok=True)
- out.write_text(json.dumps({"type":"FeatureCollection","metadata":{"summary":summary,"warning":"Nearest KML line is only a candidate; not verified hydrologic connectivity"},"features":features},indent=2)+"\n")
+ out.write_text(json.dumps({"type":"FeatureCollection","metadata":{"summary":summary,"warning":"Nearest watercourse line is only a candidate; not verified hydrologic connectivity"},"features":features},indent=2)+"\n")
  print(json.dumps(summary,indent=2));print("Output:",out)
 if __name__=="__main__":main()
