@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DOVM3,Charles River at Dover,2,DDHM3;MEDM3,True,False
-DOVO2,Cimarron River near Dover,2,AMCO2;GTRO2,True,False
-DOVT1,Cumberland River at Dover,1,CKVT1,True,False
-DOWM4,Dowagiac River at State Highway 51 near Dowagiac,0,,True,False
-DPBF1,St. Johns River at Dames Point Bridge (I-295) (in MHHW),0,,True,False
-DPCV2,Deep Creek at Deep Creek Lock Park,0,,True,False
-DPDL1,Barataria Bay and Waterway at Davis Pond Freshwater Diversion/Boutte,0,,True,False
-DPFF1,Deer Prairie Slough at S Power Line Trail,0,,True,False
-DPGV2,Pumpkin Creek at Goodyear Blvd in Danville,0,,True,False
-DPKD1,White Clay Creek near Newark,0,,True,False
-DPLF1,Deer Point Lake at Deer Point Dam (in NAVD88),0,,True,False
-DPNM2,Depot Pond at Upper Marlboro,0,,True,False
-DQHP1,Saw Mill Run at Duquesne Heights,0,,True,False
-DQNA4,Rolling Fork near DeQueen,0,,True,False
-DRAP4,Lago de Cidra at Damsite nr Cidra,2,CIEP4;CIFP4,True,False
-DRAT2,Spring Branch at SH 242 near Splendora,0,,True,False
-DRBC2,Clear Creek (CO) at Derby,3,CRTC2;GLDC2;HNDC2,True,False
-DRBI1,Deadwood River at Deadwood Reservoir,1,DEDI1,True,False
-DRBK1,Arkansas River at Derby,2,HAVK1;MULK1,True,False
-DRBM5,"Dunka River near Babbitt, FR423",0,,True,False
-DRBO3,Donner und Blitzen River near Sodhouse Dam,1,DBPO3,True,False
-DRBS2,Big Sioux River above Dell Rapids,2,DERS2;TRES2,True,False
-DRBV2,Difficult Run at Browns Mill Road / Wolf Trap,0,,True,False
-DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
-DRCM7,Dardenne Creek at St. Peters,0,,True,False
 DRCN7,Pigeon House Creek at Dortch St at Raleigh,0,,True,False
 DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
 DRCV2,Cedar Run at Bristow Road,0,,True,False
@@ -802,7 +777,7 @@ FLSI2,Butterfield Creek at Flossmoor,0,,True,False
 FLSI4,Soap Creek near Floris Quail Ave--IFC,0,,True,False
 FLSL1,Tchefuncte River near Folsom,1,CUSL1,True,False
 FLSM4,Swartz Creek near Flint,0,,True,False
-FLTA4,Red River at Fulton,4,DEQA4;INGA4;LCKA4;SBFA4,True,False
+FLTA4,Red River at Fulton,5,DEQA4;HRGA4;INGA4;LCKA4;SBFA4,True,False
 FLTF1,Flatford Swamp Near the Myakka River,0,,True,False
 FLTI2,Mississippi River at Fulton,2,BLVI4;CMMI4,True,False
 FLTI3,Fish Creek (IN) at Hamilton,0,,True,False
@@ -2035,7 +2010,7 @@ HREN2,Humboldt River near Elko,2,DEVN2;HRCN2,True,False
 HRFK2,Rough River at Hartford,0,,True,False
 HRFT1,Pigeon River below Waterville NC near Hartford TN,0,,True,False
 HRFV2,Hughes River at F.T. Valley Road,0,,True,False
-HRGA4,Little River at Horatio,0,,True,False
+HRGA4,Little River at Horatio,2,DQNA4;FLTA4,True,False
 HRHF1,Tide Gauge at Homosassa Springs (In MHHW),0,,True,False
 HRHO2,North Canadian River near Harrah,2,OKBO2;SWNO2,True,False
 HRIN2,Humboldt River near Imlay,2,CMSN2;HRPN2,True,False
@@ -4731,7 +4706,7 @@ NEEP1,Tonoloway Creek near Needmore,0,,True,False
 NEEW1,Nooksack River Overflow at Emerson Rd,0,,True,False
 NEIN6,Oneida Creek at Oneida,0,,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
-NEKD1,White Clay Creek at Newark,0,,True,False
+NEKD1,White Clay Creek at Newark,2,DPKD1;SKVP1,True,False
 NELA1,Little Tallapoosa River near Newell,0,,True,False
 NELA2,[INACTIVE] Little Nelchina River at Glenn Hwy,0,,True,False
 NELN7,NE Cape Fear River at NC Highway 210 ,0,,True,False
@@ -7392,10 +7367,10 @@ SKSC1,San Luis Obispo Creek at Elks Lane,0,,True,False
 SKTA2,Taiya Inlet Tide Gauge at Skagway (MLLW datum),0,,True,False
 SKTF1,Shakett Creek at CR 672 Near Nokomis ,0,,True,False
 SKTK1,Bow Creek near Stockton,0,,True,False
-SKVP1,White Clay Creek at Strickersville,0,,True,False
+SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
 SKVV2,North River near Stokesville,0,,True,False
 SKWA2,Skwentna River at Skwentna,0,,True,False
-SKWM5,South Kawishiwi River above White Iron Lake,0,,True,False
+SKWM5,South Kawishiwi River above White Iron Lake,2,DRBM5;WTNM5,True,False
 SKYI4,Snake Creek near Yorktown,0,,True,False
 SKYN6,Skaneateles Creek near Skaneateles Jct,0,,True,False
 SLAA2,Slate Creek at Coldfoot,0,,True,False
@@ -7554,7 +7529,7 @@ SNKV2,Stony Creek near DINWIDDIE,0,,True,False
 SNLO1,Seneca Fork at Senecaville Dam Pool,0,,True,False
 SNMC2,San Miguel River Brooks Bridge near Nucla,0,,True,False
 SNMI1,Snake River at McDuff Rapids,0,,True,False
-SNMM4,Dowagiac River at Sumnerville,0,,True,False
+SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
 SNNP1,Sinnemahoning Creek at Sinnemahoning,0,,True,False
 SNOA1,Pine Barren Creek near Snow Hill,0,,True,False
 SNOA2,Snow River near Seward,1,COOA2,True,False
@@ -9549,7 +9524,7 @@ WTLW3,Whittlesey Creek near Ashland,0,,True,False
 WTMF1,Withlacoochee River near Madison (SR 6),0,,True,False
 WTNG1,Little  River near Washington,0,,True,False
 WTNK2,Cutshin Creek at Wooton,0,,True,False
-WTNM5,Basswood River near Winton,0,,True,False
+WTNM5,Basswood River near Winton,2,CNLM5;SKWM5,True,False
 WTNW2,West Fork River at Weston,2,BCVW2;STJW2,True,False
 WTPG1,Chattahoochee River at West Point,2,CBUG1;WETG1,True,False
 WTRA1,"Coosa River at State Line, AL/GA",2,CREA1;RMBG1,True,False

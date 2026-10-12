@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DOVT1,Cumberland River at Dover,1,CKVT1,True,False
-DRBI1,Deadwood River at Deadwood Reservoir,1,DEDI1,True,False
-DRBO3,Donner und Blitzen River near Sodhouse Dam,1,DBPO3,True,False
-DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
 DRFI2,North Branch Chicago River at Deerfield,1,NILI2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
@@ -589,6 +585,7 @@ SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
 SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
+SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
 SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
 SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
 SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
@@ -604,6 +601,7 @@ SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SNAW1,Snohomish River at Snohomish,1,MROW1,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
+SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
 SNOA2,Snow River near Seward,1,COOA2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
