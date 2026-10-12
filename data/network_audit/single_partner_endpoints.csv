@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-DARV2,Cranes Nest River at Darwin,1,CNRV2,True,False
-DAVW2,Blackwater River (WV) above Davis,1,BWRW2,True,False
-DAYW4,Tongue River near Dayton ,1,TRMW4,True,False
 DDMN6,Mohawk River at Delta Dam,1,UCAN6,True,False
 DDVC1,Canoas Creek at Dow Drive,1,CAOC1,True,False
 DEBI2,East Branch Du Page River near Downers Grove,1,BOLI2,True,False
@@ -21,6 +18,7 @@ DRBW2,Greenbrier River at Durbin,1,CLLW2,True,False
 DRCP1,Darby Creek at 84th Street Bridge at Eastwick,1,CMMP1,True,False
 DRFI2,North Branch Chicago River at Deerfield,1,NILI2,True,False
 DRMM8,Clark Fork River near Drummond,1,ABOM8,True,False
+DRRC2,Dolores River near Rico,1,DOLC2,True,False
 DRWT2,Onion Creek near Driftwood,1,BDUT2,True,False
 DUBW4,Wind River near Dubois,1,WRCW4,True,False
 DVAC1,Del Valle Reservoir at Del Valle Reservoir,1,LVKC1,True,False
@@ -442,6 +440,7 @@ PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
+PKGM5,Lake Pokegama Dam,1,DAYM5,True,False
 PKTO1,Scioto River at Piketon,1,HIGO1,True,False
 PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
 PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
@@ -690,6 +689,7 @@ WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WIHN6,Lake Champlain near Whitehall,1,PHCN6,True,False
+WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
@@ -708,6 +708,7 @@ WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
 WPTK2,Salt River at West Point,1,SHPK2,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
+WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
 WSIN2,Walker River near Schurz,1,WBWN2,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
 WSTM6,Big Black River at West,1,BTAM6,True,False
