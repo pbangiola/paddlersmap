@@ -1,33 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WATN6,Black River at Watson,1,DADN6,True,False
-WATO2,North Canadian River near Watonga,2,CLMO2;CNOO2,True,False
-WATS1,Lake Wateree,2,CDCS1;CMDS1,True,False
-WATU1,White River near Watson,0,,True,False
-WATV1,Winooski River at Waterbury,2,ESSV1;MONV1,True,False
-WATV2,South Fork Catoctin Creek near Waterford,0,,True,False
-WATW3,Rock River at Watertown,2,JFFW3;LEBW3,True,False
-WAUO3,Columbia River at Wauna,2,CBAO3;SKAW1,True,False
-WAUW3,Milwaukee River at Waubeka,2,CEDW3;SAKW3,True,False
-WAVC1,San Francisquito Creek at Waverly (SFWS),0,,True,False
-WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
-WAVS2,Big Sioux River at Sioux Falls Western Avenue,2,SFMS2;SXFS2,True,False
-WAWN7,Walnut Creek at S. Wilmington St.,2,TRLN7;WSSN7,True,False
-WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
-WAYI2,Kickapoo Creek at Waynesville,0,,True,False
-WAYT2,Prairie Dog Town Fork of the Red River at Wayside,3,BICT2;UMBT2;UMRT2,True,False
-WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
-WAYW2,Twelvepole Creek near Wayne,3,BFLW2;ELSW2;LAVW2,True,False
-WBAN7,EF New River at Bamboo Road,0,,True,False
-WBAT2,Brazos River at Waco,4,ACTT2;ALAT2;AQLT2;HIBT2,True,False
-WBAV2,Accotink Creek at Woodburn Road / Strathmeade Springs,0,,True,False
-WBCI4,Boone River near Webster City,3,CWFI4;GLDI4;STRI4,True,False
-WBCL1,Wilkinson Bay at Wilkinson Bayou Cutoff,0,,True,False
-WBCN7,Atlantic Coast at Banks Channel Wrightsville Beach,0,,True,False
-WBCT1,Browns Creek at Glendale Lane,1,NBCT1,True,False
 WBCW1,White River above Boise Ck,2,MMDW1;WRAW1,True,False
 WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
 WBDW4,West Fork Big Goose Creek near Story,0,,True,False
-WBEN7,EF New River at Deerfield Road,0,,True,False
+WBEN7,EF New River at Deerfield Road,2,NSFN7;WBAN7,True,False
 WBFM3,Quaboag River at West Brimfield,0,,True,False
 WBFN7,Brushy Fork at S.R. 1311,0,,True,False
 WBGC1,West Fork Feather River near Magalia,0,,True,False
@@ -233,7 +208,7 @@ WGPL1,Amite River Basin at Welsh Gully near Prairieville,0,,True,False
 WGRT2,Willis Creek near Granger,0,,True,False
 WGTM3,Squannacook River at West Groton,0,,True,False
 WHAT2,Colorado River (TX) at Wharton,2,BACT2;CBST2,True,False
-WHBC2,White River near Rangely,0,,True,False
+WHBC2,White River near Rangely,2,WATU1;WHIC2,True,False
 WHBI1,Salmon River at White Bird,1,SMNI1,True,False
 WHBN6,Sauquoit Creek at Whitesboro,0,,True,False
 WHCI2,Whitley Creek near Allenville,0,,True,False
@@ -247,7 +222,7 @@ WHEW3,Hay River at Wheeler,1,MENW3,True,False
 WHGG1,Snake Creek  downstream Snake Creek Reservoir near Whitesburg,1,SNKG1,True,False
 WHGM7,Missouri River at Washington,2,HRNM7;SCLM7,True,False
 WHIA1,Tennessee River at Whitesburg,2,DECA1;GVDA1,True,False
-WHIC2,White River below Meeker,0,,True,False
+WHIC2,White River below Meeker,2,WHBC2;WRMC2,True,False
 WHIN4,Whippany River at Morristown,2,PNBN4;WHPN4,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
 WHIW1,White River near Plain,0,,True,False
@@ -550,7 +525,7 @@ WRKM8,West Fork Rock Creek near Red Lodge,0,,True,False
 WRLN7,Walnut Creek at Rose Ln in Raleigh,2,WALN7;WSSN7,True,False
 WRLO2,Beaver Creek (OK) at Waurika Lake,3,DLBO2;HUBO2;WAKO2,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
-WRMC2,White River near Meeker,0,,True,False
+WRMC2,White River near Meeker,1,WHIC2,True,False
 WRMI1,Warm Springs Creek (ID) near Ketchum,2,BWKI1;HALI1,True,False
 WRMN2,Walker River nr mouth at Walker Lake,2,WLHN2;WSIN2,True,False
 WRMO3,Southeast Oregon Reservoirs at Warm Springs Reservoir,0,,True,False

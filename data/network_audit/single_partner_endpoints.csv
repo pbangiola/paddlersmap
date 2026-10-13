@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WATN6,Black River at Watson,1,DADN6,True,False
-WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
-WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
-WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
-WBCT1,Browns Creek at Glendale Lane,1,NBCT1,True,False
 WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
 WBLC1,West Branch Llagas Creek at Cohansey Avenue,1,UMSC1,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
@@ -88,6 +83,7 @@ WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
 WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
+WRMC2,White River near Meeker,1,WHIC2,True,False
 WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False
 WRSM7,Osage River at Warsaw,1,LKSM7,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
