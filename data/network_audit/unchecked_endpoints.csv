@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NMLN4,Hackensack River at New Milford,0,,True,False
-NMOT2,Nueces River at CR 414 near Montell,2,NUBT2;UVAT2,True,False
-NMRM8,North Fork Milk River near International boundary near Browning,0,,True,False
-NMRV2,North Mayo River near Spencer,0,,True,False
-NMSI3,Cicero Creek at Morse Reservoir,3,CCAI3;CCNI3;WHNI3,True,False
-NMSO1,North Fork Licking River (OH) at Newark Main Street,2,NEPO1;NKOO1,True,False
-NMSW3,Fox River near New Munster,2,BRGW3;FLVI2,True,False
-NMTA2,Norton Sound Tide Gauge at Nome (MHHW datum),0,,True,False
-NMWV2,Elizabeth River at Chesapeake VA,0,,True,False
-NNCT2,North Texas Lakes at Lake Nocona,0,,True,False
-NNEO2,Eastern Oklahoma Lakes at Lake Eucha,0,,True,False
-NNIS1,Broad River in NC/SC at NINETY NINE ISLANDS,0,,True,False
-NNKA2,Naknek River Tide Gauge at Naknek (MHHW datum),0,,True,False
-NNRN7,New River near Richlands,1,GUMN7,True,False
-NNRS1,Broad River in NC/SC at Ninety Nine Islands Dam,3,CARS1;CHFS1;NELS1,True,False
-NOBF1,Withlacoochee River at Nobleton (in NAVD88),2,CRMF1;PNLF1,True,False
-NOBG1,No Business Creek at Lee Road near Snellville,0,,True,False
-NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
-NOCF1,Joshua Creek at Nocatee,0,,True,False
-NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
-NOEW1,Nooksack River Overflow At SR544 Everson,0,,True,False
-NOEX1,Experimental,0,,True,False
-NOFW3,Baraboo River at North Freedom,0,,True,False
-NOGA4,White River at Norrell Lock and Dam,0,,True,False
-NOGL1,Mississippi River at Old River Low Sill Structure,0,,True,False
 NOHV2,Colliers Creek at Effinger,0,,True,False
 NOKF1,Donna Bay at US 41 at Nokomis (in MHHW),1,SKTF1,True,False
 NOKM5,Nokasippi River near Ft. Ripley,0,,True,False
@@ -929,7 +904,7 @@ PLOI4,Cedar River at Palo,2,CIDI4;VINI4,True,False
 PLOL1,Pearl River at Lock #1 Chamber,0,,True,False
 PLOP4,Lago Loiza near Trujillo Alto,2,CAGP4;GURP4,True,False
 PLOT2,Brazos River near Palo Pinto,2,DNNT2;PSMT2,True,False
-PLPF1,Peace River at Platt,3,ARCF1;ARHF1;FOPF1,True,False
+PLPF1,Peace River at Platt,4,ARCF1;ARHF1;FOPF1;NOCF1,True,False
 PLPK2,Left Fork Peter Creek at Phelps,0,,True,False
 PLPT2,Placedo Creek near Placedo,0,,True,False
 PLQC1,Lynch Creek (Petaluma) at McDowell Blvd.,0,,True,False
@@ -1110,7 +1085,7 @@ PRII3,Pleasant Run at Arlington Avenue in Indianapolis,0,,True,False
 PRIL1,Sandy Creek (SE LA) near Pride,0,,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRIN6,Peconic River at Riverhead (IN MLLW),0,,True,False
-PRIN7,Mayo River near Price,0,,True,False
+PRIN7,Mayo River near Price,1,NMRV2,True,False
 PRIO1,Mahoning River below Lake Milton at Pricetown,2,LEAO1;NWTO1,True,False
 PRJM5,Pine River near Jenkins,0,,True,False
 PRKA3,Gila River at Painted Rock Lake,2,GDTA3;GRMA3,True,False
@@ -1622,7 +1597,7 @@ RITO1,Chippewa Creek at Rittman,0,,True,False
 RIVF1,Alafia River Near Bell Shoals Road Near Riverview,2,LITF1;RVWF1,True,False
 RIVM4,Paw Paw River at Riverside,0,,True,False
 RIVN1,Wood River near Riverdale,0,,True,False
-RIVN4,Hackensack River at Rivervale,0,,True,False
+RIVN4,Hackensack River at Rivervale,1,NMLN4,True,False
 RJQC1,San Joaquin River below Redinger Lake,0,,True,False
 RJSF1,Tide Gauge at Hudson Creek ,0,,True,False
 RKBO1,Clear Creek above Rockbridge,0,,True,False

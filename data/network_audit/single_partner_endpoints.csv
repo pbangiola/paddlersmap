@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NNRN7,New River near Richlands,1,GUMN7,True,False
-NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
-NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
 NOKF1,Donna Bay at US 41 at Nokomis (in MHHW),1,SKTF1,True,False
 NOLK2,Nolin River at Nolin River Lake,1,WHMK2,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
@@ -166,6 +163,7 @@ PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
 PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
+PRIN7,Mayo River near Price,1,NMRV2,True,False
 PRKQ3,Pembina River near Killarney MB,1,PLLQ3,True,False
 PRLI1,South Fork Payette River at Lowman,1,MFPI1,True,False
 PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
@@ -229,6 +227,7 @@ RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
+RIVN4,Hackensack River at Rivervale,1,NMLN4,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,1,MYRG1,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
