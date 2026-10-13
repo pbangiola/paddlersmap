@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NELA2,[INACTIVE] Little Nelchina River at Glenn Hwy,0,,True,False
-NELN7,NE Cape Fear River at NC Highway 210 ,0,,True,False
-NELS1,Broad River in NC/SC at Neal Shoals Reservoir,0,,True,False
-NEMM5,Nemadji River near Pleasant Valley,0,,True,False
-NEOK1,Neosho River at Neosho Rapids,2,EPRK1;JRLK1,True,False
-NEPF1,St. Marks River near Newport on Old Magnolia Rd (in stage datum),1,MRKF1,True,False
-NEPI4,English River at Parnell,1,KALI4,True,False
-NEPN4,Shark River at Neptune City,0,,True,False
-NEPO1,North Fork Licking River (OH) at Newark Water Plant,2,NMSO1;UTCO1,True,False
-NEPT1,Pigeon River at Newport,3,CTPN7;DUGT1;HRFT1,True,False
-NERN7,Middle Fork New River at Boone,0,,True,False
-NEST2,Nelson Creek at FM 247 near Huntsville,0,,True,False
-NEUN7,Neuse River Below Falls Dam,2,CLYN7;NUDN7,True,False
-NEUU1,Uinta River near Neola,0,,True,False
-NEVN6,Neversink River at Godeffroy,1,BRGN6,True,False
-NEWA1,Choctawhatchee River near Newton (SR 134),3,BELA1;DCRA1;EFKA1,True,False
-NEWG1,Flint River (GA) at Newton (SR 37),2,ABNG1;HOPG1,True,False
-NEWM4,Muskegon River at Newaygo,2,BDGM4;CROM4,True,False
-NEWM7,Little Piney Creek at Newburg,0,,True,False
-NEWW1,Newaukum River near Chehalis,0,,True,False
-NEWW3,Wolf River (WI) at New London,2,SHIW3;WNCW3,True,False
-NEZC1,Martinez  ,0,,True,False
-NFBG1,North Fork Peachtree Creek at Briarwood Road near Atlanta,0,,True,False
-NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
-NFBT2,"North Fork San Gabriel River at 243 near Briggs, TX",1,GNRT2,True,False
 NFBV1,Lewis Creek at North Ferrisburg,0,,True,False
 NFCC1,North Fork Kings River at Cliff Camp,0,,True,False
 NFDA4,Norfork River at Norfork Dam,0,,True,False
@@ -163,7 +138,7 @@ NNEO2,Eastern Oklahoma Lakes at Lake Eucha,0,,True,False
 NNIS1,Broad River in NC/SC at NINETY NINE ISLANDS,0,,True,False
 NNKA2,Naknek River Tide Gauge at Naknek (MHHW datum),0,,True,False
 NNRN7,New River near Richlands,1,GUMN7,True,False
-NNRS1,Broad River in NC/SC at Ninety Nine Islands Dam,2,CARS1;CHFS1,True,False
+NNRS1,Broad River in NC/SC at Ninety Nine Islands Dam,3,CARS1;CHFS1;NELS1,True,False
 NOBF1,Withlacoochee River at Nobleton (in NAVD88),2,CRMF1;PNLF1,True,False
 NOBG1,No Business Creek at Lee Road near Snellville,0,,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
@@ -2446,7 +2421,7 @@ SFMN5,Santa Fe River (NM) at McClure Dam,0,,True,False
 SFMO3,South Fork Malheur River near Riverside,0,,True,False
 SFMS2,Big Sioux River at Sioux Falls Maple Street,2,SFLS2;WAVS2,True,False
 SFNN5,Santa Fe River (NM) at Nichols Dam,0,,True,False
-SFNW1,South Fork Newaukum River near Onalaska,0,,True,False
+SFNW1,South Fork Newaukum River near Onalaska,1,NEWW1,True,False
 SFOR1,Ponaganset River at South Foster,0,,True,False
 SFPG1,South Fork Peachtree Creek at Casa Drive at Clarkston,0,,True,False
 SFPI1,South Fork Coeur d'Alene River above Pine Creek at Pinehurst,0,,True,False
@@ -2870,7 +2845,7 @@ SORN7,South River at NC 24 at Autryville,0,,True,False
 SORV2,South Fork Rivanna River at Hollymead near Charlottesville,0,,True,False
 SOSC1,Middle Fork Cosumnes River near Somerset,0,,True,False
 SOSN7,Currituck Sound at Southern Shores,0,,True,False
-SOSW3,Nemadji River near Superior,0,,True,False
+SOSW3,Nemadji River near Superior,1,NEMM5,True,False
 SOTC1,San Antonio Creek at Old Creek Road,0,,True,False
 SOTN7,North Toe River at Spruce Pine,0,,True,False
 SOUA2,Soule River near Hyder,0,,True,False
@@ -4558,7 +4533,7 @@ WLMM7,Black River above Williamsville,2,LPRM7;PPBM7,True,False
 WLNM6,Hatchie River  Walnut,0,,True,False
 WLOG1,Willeo Creek at GA 120 near Roswell,0,,True,False
 WLON1,Elkhorn River near Winslow,2,WPNN1;WTRN1,True,False
-WLON7,Cape Fear River at Wilmington (IN MLLW),6,BCUN7;BGWN7;CPFN7;LCHN7;LGBN7;STHN7,True,False
+WLON7,Cape Fear River at Wilmington (IN MLLW),7,BCUN7;BGWN7;CPFN7;LCHN7;LGBN7;NELN7;STHN7,True,False
 WLPN3,Connecticut River at North Walpole,2,MNTM3;WLBN3,True,False
 WLRG1,Wheeler Creek at Bill Cheek Road near Auburn,0,,True,False
 WLRI2,Weller Creek at Des Plaines,0,,True,False

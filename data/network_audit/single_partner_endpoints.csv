@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NEPF1,St. Marks River near Newport on Old Magnolia Rd (in stage datum),1,MRKF1,True,False
-NEPI4,English River at Parnell,1,KALI4,True,False
-NEVN6,Neversink River at Godeffroy,1,BRGN6,True,False
-NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
-NFBT2,"North Fork San Gabriel River at 243 near Briggs, TX",1,GNRT2,True,False
 NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
 NFPV2,NF Pound River above Pound,1,PICV2,True,False
 NFSI3,North Fork Salt Creek (IN) at Nashville,1,MONI3,True,False
@@ -333,6 +328,7 @@ SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
 SFLN2,Salmon Falls Creek near San Jacinto,1,HAGI1,True,False
+SFNW1,South Fork Newaukum River near Onalaska,1,NEWW1,True,False
 SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,1,SHLM8,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SGDU1,Sevier River near Sigurd,1,SRKU1,True,False
@@ -381,6 +377,7 @@ SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
+SOSW3,Nemadji River near Superior,1,NEMM5,True,False
 SPAN7,Little River near Sparta,1,LBXN7,True,False
 SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
