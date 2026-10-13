@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OKLM5,Lost River at Oklee,1,LOSM5,True,False
-OKVI4,Iowa River at Oakville,1,WAPI4,True,False
-OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
-OLDO1,Little Miami River near Oldtown,1,LLMO1,True,False
 ONDN6,Onondaga Creek near Nedrow,1,LVRN6,True,False
 ONIM5,Rum River near Onamia,1,MCAM5,True,False
 OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
@@ -240,6 +236,7 @@ SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
+SCMO1,Swan Creek below Monclova,1,OKOO1,True,False
 SCNA2,Salmon Creek at Nash Road near Seward,1,KCSA2,True,False
 SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False

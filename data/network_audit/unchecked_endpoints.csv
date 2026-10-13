@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OKGW1,Osoyoos Lake at Oroville,0,,True,False
-OKKI3,Wildcat Creek (IN) at Kokomo,2,JRMI3;OWCI3,True,False
-OKKW2,Monongahela River at Opekiska Lock and Dam,3,CFXW2;ENTW2;MGTW2,True,False
-OKLK2,Northern Ditch near Okolona,0,,True,False
-OKLM5,Lost River at Oklee,1,LOSM5,True,False
-OKLN4,Ramapo River at Oakland,0,,True,False
-OKMI4,Cedar Creek (IA) near Oakland Mills,0,,True,False
-OKMW1,Okanogan River at Malott,0,,True,False
-OKMW2,Abram Creek at Oakmont,0,,True,False
-OKNW1,Okanogan River at Oroville,0,,True,False
-OKOO1,Swan Creek at Oak Openings Metropark,0,,True,False
-OKPO3,Oak Grove Fork above Powerplant Intake nr Estacada 24SE,0,,True,False
-OKRF1,Ocklawaha River near Ocala,0,,True,False
-OKRN7,Reedy Creek at NC2128 Nr Oak Ridge,0,,True,False
-OKRS1,Okatie River at Okatie,0,,True,False
-OKTM6,Okatibbee Creek at Okatibbee Creek/Hwy 80,2,MRDM6;OARM6,True,False
-OKVI4,Iowa River at Oakville,1,WAPI4,True,False
-OKWI2,Middle Fork Vermilion River above Oakwood,0,,True,False
-OKYK1,Smoky Hill River near Oakley,1,ARNK1,True,False
-OLAC1,Matadero Creek at Palo Alto,0,,True,False
-OLBH1,Opaekaa Stream near Kapaa,0,,True,False
-OLBO2,North Canadian River at NW10th Street at Oklahoma City,2,OKBO2;OVRO2,True,False
-OLDF1,Double Branch at Country Way Blvd Near Oldsmar,0,,True,False
-OLDO1,Little Miami River near Oldtown,1,LLMO1,True,False
-OLGF1,Caloosahatchee River at W.P. Franklin Lock & Dam,0,,True,False
 OLMI2,Ohio River at Olmsted Lock and Dam Headwater,2,OLTI2;PAHK2,True,False
 OLMO1,Minnie Creek at Olmsted Falls,0,,True,False
 OLNI3,Fall Creek (IN) at Geist Reservoir,2,FCFI3;FCTI3,True,False
@@ -1798,7 +1773,7 @@ SCLN6,Raquette River at South Colton,2,PIEN6;RYVN6,True,False
 SCLO3,Scoggins Creek above Henry Hagg Lake,0,,True,False
 SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
 SCLV2,Stony Creek at Fort Blackmore 3NNW,0,,True,False
-SCMO1,Swan Creek below Monclova,0,,True,False
+SCMO1,Swan Creek below Monclova,1,OKOO1,True,False
 SCMS1,Skrine Creek near McClellanville (IN MLLW),0,,True,False
 SCNA2,Salmon Creek at Nash Road near Seward,1,KCSA2,True,False
 SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
@@ -3170,7 +3145,7 @@ TONA1,Aldridge Creek (AL) at Toney Drive in Huntsville,1,SHEA1,True,False
 TONA2,Tonsina River at the Richardson Hwy near Tonsina,0,,True,False
 TONN2,Tonkin Spring abv Denay Creek nr Crescent Vly near Crescent Valley,0,,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
-TONW1,Okanogan River near Tonasket,0,,True,False
+TONW1,Okanogan River near Tonasket,2,OKMW1;OKNW1,True,False
 TOPI1,Portneuf River at Topaz,2,PBLI1;PNKI1,True,False
 TOPK1,Soldier Creek near Topeka,1,DELK1,True,False
 TOPN2,West Walker River at Topaz Lake,2,CLEC1;HOYN2,True,False
