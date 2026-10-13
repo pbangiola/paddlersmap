@@ -1,31 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
-TOWM6,Town Creek (Central MS) above Town Creek/Jackson,0,,True,False
-TOWN8,Souris River near Towner,2,BANN8;VLVN8,True,False
-TOWP1,Susquehanna River at Towanda,2,MHPP1;WVYN6,True,False
-TOWV1,West River below Townshend Lake,0,,True,False
-TOXP4,Lago Toa Vaca at Damsite,0,,True,False
-TPAK1,Kansas River at Topeka,2,BVUK1;LCPK1,True,False
-TPBN7,Intracoastal Waterway at North Topsail Beach (in MLLW),0,,True,False
-TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
-TPIC2,Taylor Park Reservoir,0,,True,False
-TPJF1,Tiger Point (in MHHW),0,,True,False
-TPKN6,Tremper Kill near Andes,0,,True,False
-TPLI4,Wapsipinicon River near Tripoli,2,DKTI4;NWSI4,True,False
-TPLO1,Little Stillwater Creek at Tappan Dam Tailwater,1,TAPO1,True,False
-TPNN8,Red River of the North near Thompson,5,CLXM5;EGFM5;HGRN8;HILN8;SHYM5,True,False
-TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
-TPOM6,Town Creek at Tupelo,0,,True,False
-TPPF1,Tide Gauge at Tropical Point Park (In MHHW),0,,True,False
-TPPO1,Stillwater Creek at Tippecanoe,2,PIEO1;URVO1,True,False
-TPPV2,Piscataway Creek near TAPPAHANNOCK,0,,True,False
-TPTI4,Brushy Fork Creek near Templeton,0,,True,False
-TPTM7,Mississippi River above Tiptonville,2,CRTM7;NMDM7,True,False
-TPWW1,Toppenish Creek above Toppenish Creek,0,,True,False
-TQAP1,Little Schuylkill River at Tamaqua,0,,True,False
-TQCN7,Tusquittee Creek near Hayesville,0,,True,False
 TRAA2,Tok River at Alaska Highway near Tok,0,,True,False
-TRAC2,Taylor River near Taylor Park,2,ALTC2;TYVC2,True,False
+TRAC2,Taylor River near Taylor Park,3,ALTC2;TPIC2;TYVC2,True,False
 TRAI3,Tippecanoe River near Americus,0,,True,False
 TRAI4,Coon Creek at Traer IA 8--IFC,0,,True,False
 TRAM5,Lake Traverse near Wheaton,0,,True,False
@@ -34,7 +9,7 @@ TRAN5,Rio Chama at Heron Dam,0,,True,False
 TRAN7,Tranters Creek above Washington,0,,True,False
 TRAO3,Trask River near Tillamook,0,,True,False
 TRBA2,Tolovana River below Rosebud Creek near Livengood,0,,True,False
-TRBC2,Taylor River below Taylor Park Resv.,0,,True,False
+TRBC2,Taylor River below Taylor Park Resv.,2,ALTC2;TPIC2,True,False
 TRBF1,Withlacoochee River at US 301 Trilby (in NAVD88),2,RITF1;WDAF1,True,False
 TRBO3,McKenzie River below Trail Bridge Dam,3,MUSO3;SUSO3;VIDO3,True,False
 TRCC1,Truckee River near Truckee,2,FARC1;TRTC1,True,False
