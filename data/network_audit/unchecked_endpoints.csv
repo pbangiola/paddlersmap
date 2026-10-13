@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NWMW4,Nowood River near Manderson,0,,True,False
-NWPN7,Newport River at Newport (in MLLW),0,,True,False
-NWPO1,Tuscarawas River at New Philadelphia,2,DVLO1;NCTO1,True,False
-NWPR1,Narragansett Bay at Newport Harbor (IN MLLW),0,,True,False
-NWPT1,French Broad River near Newport,2,DUGT1;HSPN7,True,False
-NWPV1,Clyde River at Newport,0,,True,False
-NWRF1,North New River Canal below S-3,0,,True,False
-NWRV2,Northwest River near Northwest,0,,True,False
-NWSI4,Little Wapsipinicon River at North Washington (IFC),0,,True,False
-NWSW4,Nowood River near Tensleep,0,,True,False
-NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
-NWTO1,Mahoning River at Lake Milton,2,BRWO1;PRIO1,True,False
-NWUM5,Cottonwood River (MN) at New Ulm,3,LVNM5;MNKM5;SPFM5,True,False
-NWYI3,Tippecanoe River at Norway Dam,2,BLOI3;TCNI3,True,False
-NYBT2,New Year Creek at TX 105 near Brenham,0,,True,False
-NYFO3,North Fork Yamhill River near Fairdale,0,,True,False
-NZNN1,Niobrara River near Nenzel 8S,2,NRGN1;SPKN1,True,False
-OAAN1,Lake Zorinsky,0,,True,False
-OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
-OACA3,Oak Creek (AZ) at Page Springs near Cornville,2,DBVA3;OAKA3,True,False
-OACS2,White River (NE-SD) near Oacoma,3,FRDS2;LWRS2;WHRS2,True,False
-OADI3,Tippecanoe River below Oakdale Dam,2,DLPI3;OAKI3,True,False
-OAHN1,Glenn Cunningham Dam,0,,True,False
-OAKA3,Oak Creek (AZ) at Sedona,1,OACA3,True,False
-OAKI2,Midlothian Creek at Oak Forest,0,,True,False
 OAKI3,Tippecanoe River below Oakdale Dam,2,MCXI3;OADI3,True,False
 OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
 OAKO3,Mid Fork Willamette River near Oakridge,3,HCRO3;JASO3;MFSO3,True,False
@@ -3319,7 +3294,7 @@ TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
 TPIC2,Taylor Park Reservoir,0,,True,False
 TPJF1,Tiger Point (in MHHW),0,,True,False
 TPKN6,Tremper Kill near Andes,0,,True,False
-TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
+TPLI4,Wapsipinicon River near Tripoli,2,DKTI4;NWSI4,True,False
 TPLO1,Little Stillwater Creek at Tappan Dam Tailwater,0,,True,False
 TPNN8,Red River of the North near Thompson,4,CLXM5;EGFM5;HGRN8;HILN8,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False

@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NWTI3,Tippecanoe River at North Webster,1,OWGI3,True,False
-OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
-OAKA3,Oak Creek (AZ) at Sedona,1,OACA3,True,False
 OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
 OAWU1,Weber River near Oakley,1,WWPU1,True,False
 OBJI4,West Okoboji Lake near Milford,1,EWOI4,True,False
@@ -429,7 +426,6 @@ TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
 TOPK1,Soldier Creek near Topeka,1,DELK1,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
-TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
