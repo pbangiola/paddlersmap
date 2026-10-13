@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WPCW3,Waupaca River near Waupaca,0,,True,False
-WPGM6,Pascagoula River at U. S. Highway 90 at Gautier,0,,True,False
-WPHL1,Mississippi River at West Pointe a la Hache,2,EMPL1;MRAL1,True,False
-WPHM7,Maries River at Westphalia,0,,True,False
-WPIS1,Waccamaw River at Pawleys Island,2,BUCS1;HAGS1,True,False
-WPKA1,Coosa River at Jordan Dam,2,VRBA1;WETA1,True,False
-WPLW1,Wenatchee River at Plain,1,PESW1,True,False
-WPMP1,Beaver River at Wampum,2,BEAP1;LLWO1,True,False
-WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
-WPNI4,Mississippi River above Waupeton (Pool 11),3,DLDI4;GTTI4;OTUI4,True,False
-WPNN1,Elkhorn River at West Point,2,PLGN1;WLON1,True,False
-WPNW3,South Branch Rock River at Waupun,0,,True,False
-WPPM7,St. Francis River at Wappapello Lake Pool,3,FSKM7;PAZM7;SABM7,True,False
-WPPW4,West Pass Creek near Parkman (Closed Gauge),0,,True,False
-WPRM2,Unnamed Tributary near Middle River,0,,True,False
-WPSL1,Pearl River near Slidell,0,,True,False
-WPSP1,Wappasening Creek near Windham Center,0,,True,False
-WPTK2,Salt River at West Point,1,SHPK2,True,False
-WPTM5,Ashley Creek at Westport,0,,True,False
-WPTM6,Tchoutacabouffa River above White Plains,1,DIBM6,True,False
-WPTM8,Missouri River near Wolf Point,2,CLBM8;FPKM8,True,False
-WPTN6,Hudson River at West Point,0,,True,False
-WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
-WPZW3,Poe Creek at County Road Z,0,,True,False
-WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
 WRAW1,White River at R St. Auburn,2,WBCW1;WRPW1,True,False
 WRBM2,Winters Run near Bel Air,0,,True,False
 WRBS1,Waccamaw River at SC Highway 22 near Red Bluff,2,ACWS1;LNGS1,True,False

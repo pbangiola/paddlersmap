@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WPLW1,Wenatchee River at Plain,1,PESW1,True,False
-WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
-WPTK2,Salt River at West Point,1,SHPK2,True,False
-WPTM6,Tchoutacabouffa River above White Plains,1,DIBM6,True,False
-WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
-WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
 WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
 WRDN4,Wanaque River at Wanaque Reservoir elevation,1,WNQN4,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
