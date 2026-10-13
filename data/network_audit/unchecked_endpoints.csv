@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PNRF1,Panacoochee Retreats (in NAVD88),0,,True,False
-PNSH1,Punaluu Stream near Punaluu ,0,,True,False
-PNSM5,Middle Fork Zumbro River near Pine Island,0,,True,False
-PNTA3,Pantano Wash near Vail,2,CNEA3;PWBA3,True,False
-PNTI2,Vermilion River  at Pontiac,1,LNRI2,True,False
-PNTI3,Patoka River at Princeton,2,MCRI2;WNSI3,True,False
-PNTK2,Paint Creek at Paintsville Lake,0,,True,False
-PNTL1,Tangipahoa River near Ponchatoula,0,,True,False
-PNTN7,Little River near Princeton,0,,True,False
-PNTT2,North Texas Lakes at Lake Tawakoni,2,GNVT2;MLAT2,True,False
-PNTW4,Paint Rock Creek near Hyattville,0,,True,False
-PNVN6,Salmon River near Pineville,0,,True,False
-PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
-PNVO1,Grand River at Painesville,0,,True,False
-PNVS1,Lake Marion,3,CFMS1;LMES1;SNRS1,True,False
-PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
-PNXP1,Mahoning Creek at Punxsutawney,1,PXSP1,True,False
-PNYF1,South Fork Black Creek near Penney Farms,0,,True,False
-POCA4,Black River at Pocahontas,2,BKRA4;CRGA4,True,False
-POCC1,Pole Creek,0,,True,False
-POCS1,Pocotaligo River at I-95 above Manning,1,PCSS1,True,False
-POCT1,Porters Creek 3S Pittman Center (Greenbrier),1,RICT1,True,False
-POCW1,Pend Oreille River at Cusick,2,ALFW1;POIW1,True,False
-PODF1,Pithlachascotee River Below Suncoast Pkwy Near Fivay Jct,2,FVJF1;PTHF1,True,False
-POEF1,Santa Fe River at Poe Springs Pool (in NAVD88),2,FWHF1;HSPF1,True,False
 POET2,West Fork San Jacinto River near Porter,2,CFKT2;HMMT2,True,False
 POHC1,Merced River at Pohono Bridge,2,HPIC1;STVC1,True,False
 POIN7,Roanoke Sound at Pond Island,0,,True,False
@@ -250,7 +225,7 @@ PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTTP1,Ohio River at Pittsburgh,3,BDDP1;EMXP1;SHRP1,True,False
 PTTV2,Smith River at Philpott Dam,2,BASV2;SMWV2,True,False
 PTVC1,Willow Brook at Stony Point Road,0,,True,False
-PTVK2,Levisa Fork at Paintsville,3,DWYK2;FLRK2;PSTK2,True,False
+PTVK2,Levisa Fork at Paintsville,4,DWYK2;FLRK2;PNTK2;PSTK2,True,False
 PTVN4,Lamington (Black) River at Pottersville,0,,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PTVO3,Powder River (OR) above Thief Valley Reservoir,0,,True,False
@@ -696,7 +671,7 @@ RNSI4,South Skunk River near Randall Hwy R61--IFC,2,ESKI4;JEWI4,True,False
 RNSV2,Piney Run at Reston (Northern Sector Pond 1),0,,True,False
 RNTW1,Cedar River (WA) at Renton,1,LNDW1,True,False
 RNYM5,Rainy River at Boat Landing Blw International Falls,3,FFCQ6;LLCM5;MNUM5,True,False
-ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
+ROBL1,Tangipahoa River at Robert,2,AMIL1;PNTL1,True,False
 ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
 ROBV2,Maury River at Rockbridge Baths,1,BVSV2,True,False
 ROCI2,South Fork Sangamon River near Rochester,0,,True,False
