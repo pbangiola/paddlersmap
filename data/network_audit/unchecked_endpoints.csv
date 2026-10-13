@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NOHV2,Colliers Creek at Effinger,0,,True,False
-NOKF1,Donna Bay at US 41 at Nokomis (in MHHW),1,SKTF1,True,False
-NOKM5,Nokasippi River near Ft. Ripley,0,,True,False
-NOLK2,Nolin River at Nolin River Lake,1,WHMK2,True,False
-NOLQ6,"Whitefish River near Nolalu, ON",0,,True,False
-NOLT1,Nolichucky River at Nolichucky Dam HW near Greeneville 8SSW,3,EMBT1;LIMT1;LLDT1,True,False
-NOMC1,Sonoma Creek d/s miles N of Calabazas Creek,0,,True,False
-NOMT1,Obion River near Martin,1,OBNT1,True,False
-NONT1,Nonconnah Creek at Winchester Rd,1,FRST1,True,False
-NOOG1,Noonday Creek at Shallowford River near Woodstock,0,,True,False
-NOPM5,Rabbit River above North Ottawa Impoundment nr Tintah MN,0,,True,False
-NORI3,White River (IN) at 82nd Street Bridge near Nora,2,WHNI3;WRRI3,True,False
-NORL1,Mississippi River at New Orleans,2,BCSL1;HLHL1,True,False
-NORM3,Wading River at Norton,0,,True,False
-NORN4,Maurice River at Norma,1,BVVN4,True,False
-NOSG1,Noses Creek at Powder Springs Road near Powder Springs,0,,True,False
-NOSV1,"North Springfield Dam at North Springfield, VT",0,,True,False
-NOTG1,Nottely River at Nottely Dam,2,BLVG1;NCBN7,True,False
-NOTM4,Prairie River (MI) near Nottawa,0,,True,False
-NOTM5,North Branch Two Rivers River near Northcote North Branch Two Rivers River,0,,True,False
-NOTO3,Long Tom River near Noti,1,FRNO3,True,False
-NOXA1,Noxubee River,0,,True,False
-NPAW4,North Piney Creek above Apperson Creek,0,,True,False
-NPBG1,North Fork Peachtree Creek at Buford Highway at Atlanta,2,AANG1;NFPG1,True,False
-NPBT2,North Prong Medina River at Brewington Creek,0,,True,False
 NPCC1,Napa Creek at Highway 29,0,,True,False
 NPCF1,Tide Gauge at New Pass Bridge (in MHHW),0,,True,False
 NPEN3,Beaver Brook at North Pelham,0,,True,False
