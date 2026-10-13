@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TLUG1,Tallulah River at TALLULAH FALLS DAM,2,TERG1;TFLG1,True,False
-TLVA2,Tolovana River near Livengood,0,,True,False
-TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
-TMAI4,Iowa River near Tama Hwy E49,4,MIWI4;MTWI4;TAMI4;TARI4,True,False
-TMBI4,Bennett Creek near Tama G Ave--IFC,0,,True,False
-TMBT2,Spring Creek at Tomball,1,SPNT2,True,False
-TMCC2,Tomichi Creek at Sargents,0,,True,False
-TMCK2,Twelvemile Creek near Alexandria,0,,True,False
-TMCM5,12 Mile Creek above Wheaton,0,,True,False
-TMGC1,San Tomas Aquino Creek at Mission College Blvd.,0,,True,False
-TMGK1,Mud Creek (KS) near Talmage,0,,True,False
-TMHM8,Tenmile Creek (MT) near Helena,2,HASM8;RIMM8,True,False
-TMJC1,Three Mile Island,0,,True,False
-TMLG1,Ochlockonee River near Thomasville (US 84),2,CLDG1;CONF1,True,False
-TMLS1,Twelve Mile Creek at Lexington,0,,True,False
-TMOG1,Satilla River at GA-158 above Millwood,0,,True,False
-TMPA2,Twelvemile Creek near Petersburg,0,,True,False
-TMPM8,Milk River near Tampico,2,GLWM8;SACM8,True,False
-TMPS2,Vermillion River at Lake Thompson,0,,True,False
-TMRM6,Tallahala Creek at Morriston Road,0,,True,False
-TMRM8,Two Medicine River near bl S Fork nr Browning,0,,True,False
-TMRN4,Toms River at Toms River,0,,True,False
-TMSC1,San Tomas Aquino Creek above Williams Road,1,EAMC1,True,False
-TMSG1,Flint River near Thomaston,0,,True,False
-TMTF1,Hillsborough River at Tampa Dam,3,FOWF1;HLRF1;HPLF1,True,False
 TMVC3,Connecticut River at Thompsonville,2,HFDC3;SPGM3,True,False
 TMVN7,Valley River at Tomotla,2,ANVN7;HIWN7,True,False
 TMYT2,Sabine River at I-10,2,ORNT2;SIPT2,True,False
