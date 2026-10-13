@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-STYW3,Stillwell Creek at Yard Road Near Tomah,2,LFMW3;STCW3,True,False
-STZM7,Sac River below Stockton Dam,0,,True,False
-SUCI1,Succor Creek near Homedale,1,SCJO3,True,False
-SUCM5,Big Sucker Creek near Palmers,0,,True,False
-SUCP1,Sugar Creek at West Burlington,0,,True,False
-SUDA2,Susitna River near Denali,1,SCTA2,True,False
-SUFN6,Mahwah River at Suffern,0,,True,False
-SUGI1,Sugar Creek near Stibnite,0,,True,False
-SUGI2,Sugar Creek (W-Central IL) near Springfield,0,,True,False
-SUGI3,Sugar Creek (central) near Eden,2,NPLI3;SCEI3,True,False
-SUGS1,Sugar Creek NC near Fort Mill,0,,True,False
-SUGW2,Brushy Fork near Sugar Grove,0,,True,False
-SUKF1,"Tide Station at Sunset Cove, Key Largo on Buttonwood Sound (in MHHW)",0,,True,False
-SULF1,Cypress Creek at Bruce B Downs Blvd Near Temple Terrace,2,CNTF1;FOWF1,True,False
-SULW1,South Fork Sultan River near Sultan,0,,True,False
-SULW2,Gauley River at Summersville Lake,0,,True,False
-SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
-SUMM7,Elk Creek near SUMNER 4SSE,0,,True,False
-SUMO3,SOUTH UMPQUA AT MELROSE,0,,True,False
-SUMW1,Sumas River near Sumas,0,,True,False
-SUMW2,Gauley River below Summersville Lake,2,BVAW2;CRAW2,True,False
-SUNA2,Susitna River at Sunshine,3,CLTA2;GCSA2;SUSA2,True,False
-SUNM5,Sunrise River at Sunrise,1,PNCM5,True,False
-SUNM6,Big Sunflower River at Sunflower,2,LCGM6;MRGM6,True,False
-SUNO1,Sunday Creek at Glouster,0,,True,False
 SUNS2,Sunday Gulch near Hill City,0,,True,False
 SUNV2,Back Creek (Bath Co. VA) at Sunrise (blw PSS),2,BKCV2;BKSV2,True,False
 SUPA3,Havasu Creek at Supai,2,CCHA3;HNSA3,True,False
@@ -330,7 +305,7 @@ TJBC1,Tassajara Creek Below Interstate 580,0,,True,False
 TJBN5,Rio Grande below Taos,2,CERN5;EMBN5,True,False
 TJCC1,Big Tujunga Creek below Hansen Dam,0,,True,False
 TJDO1,Sunday Creek at Tom Jenkins Dam (Burr Oak Lake),0,,True,False
-TJLO1,Sunday Creek at Tom Jenkins Dam,0,,True,False
+TJLO1,Sunday Creek at Tom Jenkins Dam,1,SUNO1,True,False
 TJOO2,Joe Creek at Tulsa 6SSE / 61st St.,0,,True,False
 TKDW3,Wisconsin River below Tomahawk Dam,5,GRFW3;JERW3;KNGW3;RRVW3;SPDW3,True,False
 TKLT2,Spring Creek (Concho River Basin) above Tankersley,0,,True,False
@@ -1568,7 +1543,7 @@ WSLO2,Eastern Oklahoma Lakes at Wister Lake,0,,True,False
 WSLO3,Tualatin River at West Linn,1,TUAO3,True,False
 WSLT2,Main Floodway South of Weslaco,1,MITT2,True,False
 WSNN7,Hominy Swamp at Forest Hills Rd near Wilson,0,,True,False
-WSNO3,South Umpqua River near Winston,2,RSBO3;SURO3,True,False
+WSNO3,South Umpqua River near Winston,3,RSBO3;SUMO3;SURO3,True,False
 WSPF1,Suwannee River at White Springs (in NAVD88),2,LIKF1;SBNF1,True,False
 WSPI2,Salt Creek (IL) at Western Springs,2,OBKI2;RVRI2,True,False
 WSPM5,Middle Fork Whitewater River near Whitewater State Park,0,,True,False

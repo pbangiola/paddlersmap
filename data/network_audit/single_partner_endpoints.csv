@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SUCI1,Succor Creek near Homedale,1,SCJO3,True,False
-SUDA2,Susitna River near Denali,1,SCTA2,True,False
-SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
-SUNM5,Sunrise River at Sunrise,1,PNCM5,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SVYA4,Illinois River (AR OK) at Savoy,1,SLSA4,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
@@ -39,6 +35,7 @@ TIGG1,Tallulah River at BURTON DAM,1,NACG1,True,False
 TILO3,South Umpqua River near Tiller,1,SURO3,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
+TJLO1,Sunday Creek at Tom Jenkins Dam,1,SUNO1,True,False
 TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
 TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,1,GASO3,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
