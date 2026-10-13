@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-VBSM7,Big Spring River above Big Spring near Van Buren,0,,True,False
-VBTC1,Stevens Creek below Interstate 280,0,,True,False
-VBUA4,Arkansas River at Van Buren,2,MKGO2;OZGA4,True,False
-VBVS2,Victoria Creek below Victoria Dam nr Rapid City,2,CYNS2;VAVS2,True,False
-VCAC1,Santa Clara River (CA) at Victoria Avenue,1,TSYC1,True,False
-VCAF1,Tide Station at the Western Tip of Vaca Key (in MHHW),0,,True,False
-VCAT2,Tide Gauge at Port Lavaca,0,,True,False
-VCBC1,Virginia Creek (CA) near Bridgeport,0,,True,False
-VCKM4,Portage River near Vicksburg,0,,True,False
-VCKM6,Mississippi River at Vicksburg,4,LKML1;LPVL1;NTZM6;SBSM6,True,False
-VCKT2,Middle Verde Creek at Hwy 173N near Hondo,0,,True,False
-VCNI3,Wabash River at Vincennes,3,CRLI3;MCRI2;RVTI3,True,False
-VCPL1,Tide Station (LCH) at Vermilion Bay near Cypremort Point,0,,True,False
-VCRC2,Los Pinos River at Vallecito Reservoir,2,LPAC2;LPVC2,True,False
-VCRN8,Sheyenne River at Valley City,2,BHTN8;FRSN8,True,False
-VCSI1,Valley Creek at Stanley,1,SRYI1,True,False
-VCVA2,Village Cove at St Paul Island Tide Gage,0,,True,False
-VCVA3,Verde River below Camp Verde,4,VAVA3;VDCA3;VDTA3;WCLA3,True,False
-VCWK1,Vermillion Creek near Wamego,0,,True,False
-VDCA3,Verde River above Clarkdale,3,VAVA3;VCVA3;VDPA3,True,False
-VDPA3,Verde River below Paulden,2,BCWA3;VDCA3,True,False
-VDRG1,Withlacoochee River near Valdosta at US 41,2,QUTG1;VDSG1,True,False
-VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
-VDTA3,Verde River above Horseshoe Dam,3,BRTA3;FCSA3;VCVA3,True,False
-VDWC1,Verdugo Wash at Estrella Ave.,0,,True,False
 VDZA2,Valdez at Valdez Tide Gage,0,,True,False
 VEAF1,Lover's Key Adventures (in MHHW),0,,True,False
 VEBF1,Lover's Key Beach Cove (in MHHW),0,,True,False
