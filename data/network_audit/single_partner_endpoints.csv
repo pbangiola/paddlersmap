@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
-NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
 NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
 NBZN1,Bazile Creek near Niobrara,1,CBCN1,True,False
@@ -549,6 +547,7 @@ WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
 WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
+WBCT1,Browns Creek at Glendale Lane,1,NBCT1,True,False
 WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,False

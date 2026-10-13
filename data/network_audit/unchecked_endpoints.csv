@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NBAN4,North Branch Raritan River at North Branch Village,2,FARN4;RRTN4,True,False
-NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
-NBCN1,North Blackbird Creek at Macy,0,,True,False
-NBCN7,North Buffalo Creek at Greensboro,2,BCMN7;NBUN7,True,False
-NBCT1,Browns Creek at State Fairgrounds in Nashville,0,,True,False
-NBCT2,Comal River at New Braunfels,0,,True,False
-NBDC1,Napa River at Brazos Drawbridge,0,,True,False
-NBDM2,Maidens Choice Run at Westgate in Baltimore,0,,True,False
-NBDM3,Buzzards Bay at New Bedford Hurricane Barrier (IN MLLW),0,,True,False
-NBDN1,Platte River at North Bend,2,FREN1;SHYN1,True,False
-NBDT2,Dry Comal at Loop 337,0,,True,False
-NBFM3,Buzzards Bay at New Bedford Harbor (Inside Barrier),0,,True,False
-NBFN5,Rio Nambe at Nambe Falls Reservoir,0,,True,False
-NBGI2,North Branch Chicago River at Chicago (Grand Ave),3,CSWI2;NBCI2;NBPI2,True,False
-NBGI3,Ohio River at Newburgh Lock and Dam,2,EVVI3;OWBK2,True,False
-NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
-NBHN6,Schoharie Creek near North Blenheim,0,,True,False
-NBLI3,White River (IN) at Noblesville,2,WHNI3;WRSI3,True,False
-NBLP1,Delaware River at Newbold Island (IN MLLW),2,BDRN4;TREN4,True,False
-NBMN6,Schoharie Creek at North Blenheim,0,,True,False
-NBNF1,Tide Station at North Naples Bay (in MHHW),0,,True,False
-NBOI2,Mississippi River at New Boston,2,KHBI2;MUSI4,True,False
-NBPC3,North Branch Park River at Hartford,0,,True,False
-NBPI2,North Branch Chicago River at Chicago (Pulaski Rd),2,NBGI2;NILI2,True,False
-NBRF1,St Marks River above Natural Bridge Road (in NAVD88),0,,True,False
 NBRI2,West Fork North Branch Chicago River at Northbrook,2,DRWI2;NILI2,True,False
 NBRM3,Blackstone River at Northbridge,0,,True,False
 NBRM4,Salt River near North Bradley,0,,True,False
@@ -4281,7 +4256,7 @@ WBAV2,Accotink Creek at Woodburn Road / Strathmeade Springs,0,,True,False
 WBCI4,Boone River near Webster City,3,CWFI4;GLDI4;STRI4,True,False
 WBCL1,Wilkinson Bay at Wilkinson Bayou Cutoff,0,,True,False
 WBCN7,Atlantic Coast at Banks Channel Wrightsville Beach,0,,True,False
-WBCT1,Browns Creek at Glendale Lane,0,,True,False
+WBCT1,Browns Creek at Glendale Lane,1,NBCT1,True,False
 WBCW1,White River above Boise Ck,2,MMDW1;WRAW1,True,False
 WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
 WBDW4,West Fork Big Goose Creek near Story,0,,True,False
