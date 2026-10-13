@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OAKI3,Tippecanoe River below Oakdale Dam,2,MCXI3;OADI3,True,False
-OAKM2,Youghiogheny River near Oakland,1,FRDM2,True,False
-OAKO3,Mid Fork Willamette River near Oakridge,3,HCRO3;JASO3;MFSO3,True,False
-OAKT1,Emory River at Oakdale,2,KGTT1;OBDT1,True,False
-OAKW3,Oak Creek at South Milwaukee,0,,True,False
-OARM6,Okatibbee Creek at Arundel,3,ENSM6;MEIM6;OKTM6,True,False
-OAWA3,West Fork Oak Creek above Sedona,0,,True,False
-OAWU1,Weber River near Oakley,1,WWPU1,True,False
-OAWV2,Levisa Fork at Oakwood,0,,True,False
-OBBC1,Stanislaus River at Orange Blossom Bridge,0,,True,False
-OBCF1,Tide Station at Ohio Key on Ohio Bahia Honda Channel (in MHHW),0,,True,False
-OBCL1,Calcasieu River near Oberlin,2,KDRL1;OKDL1,True,False
-OBCN7,Currituck Sound near OUTER BANK CENTER FOR WILDLIFE EDUCATION IN COROLLA,0,,True,False
-OBCW3,Brush Creek (WI) near Cashton - Opal Road,0,,True,False
-OBDT1,Obed River near Lancing,2,CLCT1;OAKT1,True,False
-OBGN6,Saint Lawrence River at Ogdensburg,0,,True,False
-OBIC1,Sacramento-San Joaquin Delta at Old River At Bacon Island,0,,True,False
-OBJI4,West Okoboji Lake near Milford,1,EWOI4,True,False
-OBKI2,Salt Creek (IL) at Oak Brook,2,EMHI2;WSPI2,True,False
-OBLA1,Tide Gauge near Mobile State Docks (IN MHHW),0,,True,False
-OBLI2,North Fork Embarras River near Oblong,0,,True,False
-OBNK1,Sappa Creek near Oberlin,1,NCRK1,True,False
-OBNT1,Obion River near Obion,3,BOGT1;DRST1;NOMT1,True,False
-OBRA2,O'Brien Creek at Taylor Highway near Eagle,0,,True,False
-OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OCAM8,Otter Creek at Ashland (Closed),0,,True,False
 OCAN7,Pamlico Sound at Ocracoke (in MLLW),0,,True,False
 OCAT1,Ocoee Dam #1 Pool Benton 5S,1,OCET1,True,False
