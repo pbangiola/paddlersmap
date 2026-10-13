@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,1,SHLM8,True,False
-SFWI1,South Fork Coeur d'Alene River at Wallace,1,SKGI1,True,False
-SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
-SGDU1,Sevier River near Sigurd,1,SRKU1,True,False
 SGTC1,Salinas River below Santa Margarita Lake,1,PRBC1,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
@@ -46,7 +42,6 @@ SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SNCC2,Surface Creek near Cedaredge,1,SCCC2,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
-SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
 SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
 SNOA2,Snow River near Seward,1,COOA2,True,False
@@ -125,6 +120,7 @@ SWZF1,Sweetwater Creek at Gunn Hwy Near Sulphur Springs ,1,SCKF1,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
+TAFC2,Spring Creek (CO) at Fort Collins,1,SGCC2,True,False
 TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
 TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TARC3,Farmington River at Tariffville,1,SIMC3,True,False
@@ -175,6 +171,7 @@ TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSCK1,Saline River (KS) at Tescott,1,LINK1,True,False
 TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
+TSHK1,Shunganunga Creek at Topeka,1,SGBK1,True,False
 TTZM7,Thompson River (IA/MO) near Trenton,1,DVSI4,True,False
 TUDM7,Niangua River at Tunnel Dam near Macks Creek,1,NMCM7,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False

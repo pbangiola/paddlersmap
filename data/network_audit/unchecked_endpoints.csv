@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SFRO2,Stillwater Creek (OK) near Stillwater,0,,True,False
-SFRW1,Lewis River at Swift Reservoir,2,LRCW1;YARW1,True,False
-SFRW4,East Fork Smiths Fork near Robertson,0,,True,False
-SFSI1,EF of SF Salmon River at Stibnite,0,,True,False
-SFSO3,South Fork Necanicum River above Seaside,0,,True,False
-SFSV2,South Fork Shenandoah River at Luray,2,FROV2;LYWV2,True,False
-SFTA2,Bering Sea Tide Gauge at Shishmaref (MHHW datum),0,,True,False
-SFTG1,Swift Creek at Rock Chapel Road near Lithonia,0,,True,False
-SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,1,SHLM8,True,False
-SFTN7,Swift Creek above McCuller's Crossroads,0,,True,False
-SFWI1,South Fork Coeur d'Alene River at Wallace,1,SKGI1,True,False
-SFWI3,South Fork Wildcat Creek near Lafayette,0,,True,False
-SFYV2,Clinch River near Speers Ferry,4,CLVV2;DNGV2;FTBV2;LGPT1,True,False
-SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
-SGAF1,Phillippi Creek at Bougainvillea Street Pond,0,,True,False
-SGAT2,Barrilla Draw 13 miles ESE of Saragosa,0,,True,False
-SGBK1,Shunganunga Creek at Topeka Gage Blvd,0,,True,False
-SGCC2,Spring Creek (CO) at Fort Collins,0,,True,False
-SGCF1,Tide Gauge at Crystal River (in MHHW),0,,True,False
-SGCM5,Shingle Creek at Queen Ave N,0,,True,False
-SGCM8,Sweet Grass Creek at Tronrud Bridge near Melville,0,,True,False
-SGCO3,Salmon River near Government Camp,0,,True,False
-SGDU1,Sevier River near Sigurd,1,SRKU1,True,False
-SGET2,Clear Creek near Sanger,0,,True,False
-SGFM7,James River (MO) near Springfield,2,JAMM7;PEAM7,True,False
 SGFO1,Mad River near Springfield,3,CJBO1;EAGO1;MRDO1,True,False
 SGGC1,San Gabriel River (CA) at Spring Street,0,,True,False
 SGGT2,Guadalupe River at FM 1117 near Seguin,2,GWGT2;SEGT2,True,False
@@ -346,7 +321,7 @@ SNCV2,Stone Creek above Stone,0,,True,False
 SNDA2,Sand Point at Sand Point Tide Gage,0,,True,False
 SNDK1,Republican River at Scandia,2,CNKK1;HDYN1,True,False
 SNDN7,Currituck Sound at Currituck Sound at NC 158,0,,True,False
-SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
+SNDO3,Sandy River near Bull Run,2,RUNO3;SRMO3,True,False
 SNDW4,Sand Creek near Beulah,0,,True,False
 SNFF1,St. Johns River near Sanford,3,DLAF1;GENF1;LKJF1,True,False
 SNFM6,Quiver River near Sunflower,2,DODM6;LCGM6,True,False
@@ -563,7 +538,7 @@ SRLN5,Pecos River at Santa Rosa Dam,0,,True,False
 SRLV2,South River at Lyndhurst Rd,0,,True,False
 SRMF1,St Marks River near Rivers Edge Road (in MHHW),0,,True,False
 SRMM5,Sturgeon River near Meadow Brook ,0,,True,False
-SRMO3,Sandy River near Marmot,0,,True,False
+SRMO3,Sandy River near Marmot,2,SGCO3;SNDO3,True,False
 SRMP1,Straight  Run at Marsh Creek,0,,True,False
 SRMQ9,Stewart River at the Mouth-Yukon Territory,0,,True,False
 SRMT2,Sabinal River below Mill Creek near Vanderpool,2,SABT2;SBUT2,True,False
@@ -889,7 +864,7 @@ TACM5,Prairie River (MN) near Taconite,0,,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TADU1,Duchesne River near Tabiona,0,,True,False
 TAFA2,Tanana River at Fairbanks,3,BGDA2;ENNA2;SALA2,True,False
-TAFC2,Spring Creek (CO) at Fort Collins,0,,True,False
+TAFC2,Spring Creek (CO) at Fort Collins,1,SGCC2,True,False
 TALA2,Yukon River at Tanana,2,RBYA2;YRBA2,True,False
 TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
 TAMA2,Tamayariak River near Kaktovik,0,,True,False
@@ -1318,7 +1293,7 @@ TSCM7,Osage River at Tuscumbia,2,LKBM7;STTM7,True,False
 TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
 TSGA2,Tanana River at Tanacross,2,BGDA2;TLNA2,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
-TSHK1,Shunganunga Creek at Topeka,0,,True,False
+TSHK1,Shunganunga Creek at Topeka,1,SGBK1,True,False
 TSIF1,Tarpon Bay Sanibel Island (In MHHW),0,,True,False
 TSLC1,Temescal Creek near Corona,0,,True,False
 TSMF1,Tide Station at San Miguel Str and 23rd Avenue (in MHHW),0,,True,False
