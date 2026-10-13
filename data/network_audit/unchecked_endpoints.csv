@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-STCU1,Santa Clara River near Pine Valley,1,SRSU1,True,False
-STCW1,Stearns Creek near Claquato,0,,True,False
-STCW3,Stillwell Creek at Sixteenth Court Near Tomah,0,,True,False
-STDC1,Stevens Creek  Stevens Creek Reservoir,0,,True,False
-STDC3,Long Island Sound at Stamford (IN MLLW),0,,True,False
-STEF1,Steinhatchee River near Cross City,0,,True,False
-STEM3,Stillwater River near Sterling MA,0,,True,False
-STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
-STEN2,Steptoe Creek nr Ely,0,,True,False
-STEN7,Stewart Creek at State St.,1,SMON7,True,False
-STEW3,Kickapoo River at Steuben,2,GMIW3;GTTI4,True,False
-STFB3,St. Francis River near Connors,0,,True,False
-STFI1,Snake River near Twin Falls,2,CBMI1;SRPI1,True,False
-STFL1,Mississippi River near St. Francisville,2,BTRL1;RRLL1,True,False
-STFM5,Rum River near St. Francis 4 South,2,MCAM5;PRNM5,True,False
-STFN4,Westecunk Creek at Stafford Forge,0,,True,False
-STFN7,Fisher River at S.R. 1100 (Turkey Ford Road),0,,True,False
-STFT2,California Creek (Clear Fk Brazos) near Stamford,0,,True,False
-STGM1,St. George Tides (MLLW),0,,True,False
-STGM5,Maple River near Sterling Center 2NE,0,,True,False
-STGO1,Chippewa Creek at Sterling,1,RITO1,True,False
-STGS2,Deadman Gulch at Sturgis,0,,True,False
-STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
-STHG1,South River at Forrest Park Road at Atlanta,2,SEPG1;SOBG1,True,False
-STHI3,"Sugar Creek at West Terre Haute, IN",0,,True,False
 STHM1,Stonington Harbor (MLLW),0,,True,False
 STHN7,Cape Fear River at Southport,2,TCLN7;WLON7,True,False
 STHW1,Stehekin River at Stehekin,1,STKW1,True,False
@@ -99,7 +74,7 @@ STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 STYN7,Stony Creek at Nashville,0,,True,False
 STYT2,Colorado River (TX) at Stacy,2,BLIT2;WCHT2,True,False
 STYV2,Nottoway River near Stony Creek,2,MKNV2;SEBV2,True,False
-STYW3,Stillwell Creek at Yard Road Near Tomah,0,,True,False
+STYW3,Stillwell Creek at Yard Road Near Tomah,2,LFMW3;STCW3,True,False
 STZM7,Sac River below Stockton Dam,0,,True,False
 SUCI1,Succor Creek near Homedale,1,SCJO3,True,False
 SUCM5,Big Sucker Creek near Palmers,0,,True,False
