@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
-PCMI4,Perry Creek near Millnerville,1,PCHI4,True,False
-PCOO3,Pine Creek (East Oregon) near Oxbow,1,PCHO3,True,False
 PCVU1,Paria River near Cannonville,1,PAKU1,True,False
 PCYP4,Rio Cerrillos  below Lago Cerrillos,1,PCXP4,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
@@ -30,6 +27,7 @@ PHCG1,Line Creek below GA 54 near Peachtree City,1,LMCG1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
+PICC1,Piru Creek below Buck Creek,1,PFFC1,True,False
 PIEN6,Raquette River at Piercefield,1,SCLN6,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
@@ -88,6 +86,7 @@ PRTN8,Goose River near Portland,1,HGRN8,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
+PSFC1,Piru Creek below Santa Felicia Dam,1,PCPC1,True,False
 PSPT1,Elk River near Prospect,1,FYTT1,True,False
 PTIK1,N F Solomon River at Portis,1,KRWK1,True,False
 PTRN3,Contoocook River at Peterborough,1,HENN3,True,False
@@ -167,6 +166,7 @@ RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
 RSAM6,Homochitto River at Rosetta,1,EDDM6,True,False
 RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
+RSGN2,Pine Creek nr Palisade,1,PCKN2,True,False
 RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False

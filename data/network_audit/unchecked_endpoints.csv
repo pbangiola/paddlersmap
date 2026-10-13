@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PCKM4,Portage Creek at Kalamazoo,0,,True,False
-PCKN2,Pine Creek at Modarelli Mine Rd,0,,True,False
-PCKN7,Pages Creek at Bayshore Drive ,0,,True,False
-PCKP1,Pigeon Creek near Pigeon Creek,0,,True,False
-PCKV2,Polecat Creek near PENOLA,0,,True,False
-PCKW1,Peshastin Creek at Green Bridge Road,0,,True,False
-PCKW4,Piney Creek at Kearney,0,,True,False
-PCLF1,Tide Gauge near Pensacola (IN MHHW),0,,True,False
-PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
-PCLM7,Mississippi River above Price Landing,2,BDPM7;COMM7,True,False
-PCMF1,Poley Creek at SR 60 Near Mulberry,0,,True,False
-PCMI4,Perry Creek near Millnerville,1,PCHI4,True,False
-PCMW4,North Fork Powder River below Pass Creek at Mayoworth,0,,True,False
-PCNC1,Palm Canyon Creek at Palm Springs,0,,True,False
-PCNT2,Tide Gauge at Port O'Connor,0,,True,False
-PCNW3,Fox River (North) at Princeton,2,BERW3;PDVW3,True,False
-PCOC1,San Francisco Bay  Port Chicago Tide Gage,0,,True,False
-PCOM4,West Fork Portage Creek near Oshtemo,0,,True,False
-PCON5,Pecos River above Pecos,0,,True,False
-PCOO3,Pine Creek (East Oregon) near Oxbow,1,PCHO3,True,False
-PCPC1,Piru Creek above Lake Piru,0,,True,False
-PCPF1,Phillippi Creek at the Intracoastal Waterway,0,,True,False
-PCPM8,Pryor Creek at Pryor (Closed),0,,True,False
-PCPS2,Platte Creek near Platte,0,,True,False
-PCPW4,Pine Creek below Fremont Lake,0,,True,False
 PCRC1,Petaluma River at Corona Road,0,,True,False
 PCRK2,Pond Creek at Pond Creek,0,,True,False
 PCRO1,Paint Creek at Paint Creek lake Pool,2,BBRO1;GLDO1,True,False
@@ -114,7 +89,7 @@ PEWT2,Peach Creek at Hwy 90 near Waelder,1,DLWT2,True,False
 PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
 PFDF1,Pellicer Creek at Faver Dykes State Park (in MHHW),0,,True,False
 PFDW3,Peshtigo River near Porterfield,2,PESW3;SSDW3,True,False
-PFFC1,Piru Creek above Frenchmans Flat,0,,True,False
+PFFC1,Piru Creek above Frenchmans Flat,2,PCPC1;PICC1,True,False
 PFFF1,Gottfried Creek at Park Forest Blvd,0,,True,False
 PFLI4,Cedar River at Plainfield IA 188--IFC,2,CCYI4;WVLI4,True,False
 PFMN7,Parker's Ferry at Meherrin River,0,,True,False
@@ -163,8 +138,8 @@ PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
 PIAF1,Alligator Creek at US 19 at Clearwater ,3,AGCF1;ALCF1;KAPF1,True,False
 PIAI2,Illinois River at Peoria,2,CHLI2;PRAI2,True,False
 PIBS1,Ballast Creek at Parris Island (IN MLLW),0,,True,False
-PICC1,Piru Creek below Buck Creek,0,,True,False
-PICF1,Phillippi Creek at Pinecraft,2,BFRF1;BJFF1,True,False
+PICC1,Piru Creek below Buck Creek,1,PFFC1,True,False
+PICF1,Phillippi Creek at Pinecraft,3,BFRF1;BJFF1;PCPF1,True,False
 PICN4,Green Pond Brook at Picatinny,0,,True,False
 PICO3,Butter Creek near Pine City,0,,True,False
 PICT1,Tennessee River at Pickwick Dam Tailwater,2,FLOA1;SAVT1,True,False
@@ -542,7 +517,7 @@ PSCM2,Piscataway Creek at Piscataway,0,,True,False
 PSCM8,Pass Creek near Wyola (Closed Gauge),0,,True,False
 PSCW3,St. Croix River near Prescott,2,PREW3;STLM5,True,False
 PSDC1,Puddingstone Dam,0,,True,False
-PSFC1,Piru Creek below Santa Felicia Dam,0,,True,False
+PSFC1,Piru Creek below Santa Felicia Dam,1,PCPC1,True,False
 PSGI4,Soldier River at Pisgah,0,,True,False
 PSGS1,Polk Swamp below St. George,0,,True,False
 PSIL1,Breton Sound Basin at Black Bay near Snake Island,0,,True,False
@@ -1165,7 +1140,7 @@ RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
 RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RSFM5,Root River (MN) above Rushford,3,HOUM5;LNSM5;RPMM5,True,False
 RSFN5,San Francisco River at Reserve,0,,True,False
-RSGN2,Pine Creek nr Palisade,0,,True,False
+RSGN2,Pine Creek nr Palisade,1,PCKN2,True,False
 RSHI3,Flatrock River at Rushville,2,RALI3;STPI3,True,False
 RSIS2,Rapid Creek at Silver City,3,DFBS2;PACS2;RHOS2,True,False
 RSKF1,Rattlesnake Creek at Belleair,0,,True,False
@@ -3855,7 +3830,7 @@ WOXV2,Horsepen Run above Oak Hill (West Ox Road Regional Pond),0,,True,False
 WPAW4,South Piney Creek above Willow Park Reservior,0,,True,False
 WPCC2,West Plum Creek (CO) above Sedalia,0,,True,False
 WPCK2,Woolper Creek near Burlington,0,,True,False
-WPCM4,West Fork Portage Creek at Kalamazoo,0,,True,False
+WPCM4,West Fork Portage Creek at Kalamazoo,2,PCKM4;PCOM4,True,False
 WPCW1,White River at Pacific,2,WABW1;WSTW1,True,False
 WPCW3,Waupaca River near Waupaca,0,,True,False
 WPGM6,Pascagoula River at U. S. Highway 90 at Gautier,0,,True,False
