@@ -1,15 +1,10 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PRHO3,Powder River (OR) near Sumpter,1,PHLO3,True,False
-PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
-PRIN7,Mayo River near Price,1,NMRV2,True,False
-PRKQ3,Pembina River near Killarney MB,1,PLLQ3,True,False
-PRLI1,South Fork Payette River at Lowman,1,MFPI1,True,False
-PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRLT2,Clear Creek above Telephone Road,1,HCCT2,True,False
 PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNM4,Middle Branch Escanaba River near Princeton,1,HUMM4,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRPI1,Payette River at Payette,1,PLEI1,True,False
+PRRM5,Straight River near Park Rapids (CR115),1,PRKM5,True,False
 PRRO3,Powder River (OR) near Richland,1,THFO3,True,False
 PRSG1,Kinchafoonee Creek at Preston (SR 41),1,DSNG1,True,False
 PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
@@ -133,6 +128,7 @@ SBST2,North Floodway Near Sebastian,1,MDET2,True,False
 SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
 SBYO1,Big Walnut Creek at Sunbury,1,HOOO1,True,False
 SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
+SCCT2,Concho River at San Angelo,1,PRKT2,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PRGF1,Pumpkin River near Goodland (in MHHW),0,,True,False
-PRGO1,Scioto River at Prospect,2,LARO1;OSAO1,True,False
-PRGO3,Pringle Creek near Salem Hospital,0,,True,False
-PRGT2,Rio Grande Near Progreso Bridge,2,MADT2;SBNT2,True,False
-PRHM2,Patapsco River at Hollofield,2,ELPM2;WOOM2,True,False
-PRHO3,Powder River (OR) near Sumpter,1,PHLO3,True,False
-PRII1,Potlatch River near Spalding,0,,True,False
-PRII3,Pleasant Run at Arlington Avenue in Indianapolis,0,,True,False
-PRIL1,Sandy Creek (SE LA) near Pride,0,,True,False
-PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
-PRIN6,Peconic River at Riverhead (IN MLLW),0,,True,False
-PRIN7,Mayo River near Price,1,NMRV2,True,False
-PRIO1,Mahoning River below Lake Milton at Pricetown,2,LEAO1;NWTO1,True,False
-PRJM5,Pine River near Jenkins,0,,True,False
-PRKA3,Gila River at Painted Rock Lake,2,GDTA3;GRMA3,True,False
-PRKF1,Prairie Creek at CR 674,2,FOGF1;PUNF1,True,False
-PRKM5,Straight River near Park Rapids,0,,True,False
-PRKM6,Red Creek at Perkinston,0,,True,False
-PRKO2,Cimarron River near Perkins,2,GTRO2;RIPO2,True,False
-PRKQ3,Pembina River near Killarney MB,1,PLLQ3,True,False
-PRKT2,Concho River at Paint Rock,0,,True,False
-PRLI1,South Fork Payette River at Lowman,1,MFPI1,True,False
-PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
-PRLM2,Patuxent River at Avondale Street in Laurel,2,BOWM2;PRNM2,True,False
-PRLO1,East Branch Rocky River at Strongsville,0,,True,False
 PRLO2,Walnut Creek (OK) at Purcell,0,,True,False
 PRLT2,Clear Creek above Telephone Road,1,HCCT2,True,False
 PRLU1,Parleys Creek near Parleys,0,,True,False
@@ -46,7 +21,7 @@ PRPK2,Mill Creek (KY) near Pleasure Ridge Park,0,,True,False
 PRPM6,Pascagoula River at Mile 1 at Pascagoula,0,,True,False
 PRPV2,Rocky Run near Tysons Corner (Pulte/McLean Regional Pond),0,,True,False
 PRRK1,Delaware River (KS) at Perry Lake,0,,True,False
-PRRM5,Straight River near Park Rapids (CR115),0,,True,False
+PRRM5,Straight River near Park Rapids (CR115),1,PRKM5,True,False
 PRRO3,Powder River (OR) near Richland,1,THFO3,True,False
 PRRP1,Pohopoco Creek below Beltzville Lake at Parryville,0,,True,False
 PRRW2,Price Run above Smithfield,0,,True,False
@@ -981,7 +956,7 @@ SCCM8,Saint Mary Canal near Babb at St Mary Crossing,0,,True,False
 SCCN2,Sloan Channel at Charleston Blvd,0,,True,False
 SCCN7,Soco Creek at Wolfetown Road,0,,True,False
 SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
-SCCT2,Concho River at San Angelo,0,,True,False
+SCCT2,Concho River at San Angelo,1,PRKT2,True,False
 SCCV2,Swift Creek at Colonial Heights,0,,True,False
 SCCW1,West Fork Salmon Creek near Conconully,0,,True,False
 SCCW4,South Cottonwood Creek near Big Piney,0,,True,False
@@ -1448,7 +1423,7 @@ SLLP4,Rio Grande De Loiza at Quebrada Arenas,0,,True,False
 SLLT1,Salt Lick Creek near Red Boiling Springs,0,,True,False
 SLMA2,Salmon River near Hyder,0,,True,False
 SLMN6,Allegheny River at Salamanca,2,OLNN6;WRRP1,True,False
-SLMO3,Willamette River at Salem,3,ALBO3;JFFO3;NEBO3,True,False
+SLMO3,Willamette River at Salem,4,ALBO3;JFFO3;NEBO3;PRGO3,True,False
 SLNK1,Mulberry Creek (KS) near Salina,0,,True,False
 SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
 SLNS2,Spearfish Creek near Lead,0,,True,False
@@ -1929,7 +1904,7 @@ STRS1,Rocky River SC near Starr,0,,True,False
 STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSN7,"Steele Creek at Carowinds Blvd, 2.5 SSE Steele Creek",0,,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
-STTI3,White River (IN) at Stout Power Plant,3,ERSI3;INDI3;SOUI3,True,False
+STTI3,White River (IN) at Stout Power Plant,4,ERSI3;INDI3;PRII3;SOUI3,True,False
 STTM7,Osage River near St. Thomas,3,MOAM7;SCZM7;TSCM7,True,False
 STTN1,Republican River at Stratton,3,BEKN1;BENN1;CULN1,True,False
 STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
