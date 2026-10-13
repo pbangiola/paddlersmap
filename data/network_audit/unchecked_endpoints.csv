@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NFBV1,Lewis Creek at North Ferrisburg,0,,True,False
-NFCC1,North Fork Kings River at Cliff Camp,0,,True,False
-NFDA4,Norfork River at Norfork Dam,0,,True,False
-NFDC1,North Fork American River at North Fork Dam,0,,True,False
-NFDI2,West Branch Du Page River at Naperville (Fawell Dam),2,NPVI2;WRNI2,True,False
-NFDM3,Connecticut River near Northfield,0,,True,False
-NFEC1,Feather River at East Branch,0,,True,False
-NFEN6,Eighteenmile Creek at Newfane NY,0,,True,False
-NFES1,N. Fork Edisto River above North,3,CCMS1;CCPS1;ORBS1,True,False
-NFFQ2,North Fork Flathead River at Canadian Border,0,,True,False
-NFFV1,Dog River at Northfield Falls,0,,True,False
-NFFW1,North Fork Newaukum River near Forest,0,,True,False
-NFGV2,North Fork Goose Creek near Lincoln,0,,True,False
-NFHW2,North Fork Hughes River near Cairo,0,,True,False
-NFKN1,Elkhorn River at Norfolk,2,PLGN1;TLDN1,True,False
-NFKN7,N Fork Catawba River at Highway 221,0,,True,False
-NFLI2,Fox River at Fox Lake,0,,True,False
-NFLT2,North Floodway at Llano Grande,0,,True,False
-NFMC1,North Fork Matilija Creek,0,,True,False
-NFMM8,North Fork Milk River above St Mary Canal near Browning,0,,True,False
-NFMU1,"North Fork Mill Creek near Moab, UT",0,,True,False
-NFNW1,North Fork Nooksack River near Glacier,0,,True,False
-NFPG1,North Fork Peachtree Creek at Graves Road near Norcross,1,NPBG1,True,False
-NFPV2,NF Pound River above Pound,1,PICV2,True,False
-NFRV2,North Fork Rivanna River near Earlysville,0,,True,False
 NFRW4,New Fork River above New Fork Lakes near Cora,0,,True,False
 NFSI3,North Fork Salt Creek (IN) at Nashville,1,MONI3,True,False
 NFSM7,North Fork Spring River near Purcell,0,,True,False
@@ -216,7 +191,7 @@ NRGN1,Niobrara River near Gordon 11S,0,,True,False
 NRHF1,Nassau River at US-17 (in MHHW),0,,True,False
 NRHN1,Niobrara River near Hay Springs 14S,0,,True,False
 NRHS1,New River near Hardeeville (IN MLLW),0,,True,False
-NRKW1,Nooksack River at North Cedarvillle,2,MFNW1;NREW1,True,False
+NRKW1,Nooksack River at North Cedarvillle,3,MFNW1;NFNW1;NREW1,True,False
 NRMO2,Little River (OK) at Lake Thunderbird,0,,True,False
 NRMT1,Duck River at Normandy Dam,0,,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
