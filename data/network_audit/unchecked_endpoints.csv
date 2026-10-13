@@ -1,15 +1,1 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ZMBO1,Zimber Ditch at North Canton,0,,True,False
-ZNRC1,New River near New River Westmorland,0,,True,False
-ZOLO3,Zollner Creek near Mt Angel,0,,True,False
-ZONI3,Eagle Creek (IN) at Zionsville,1,ETPI3,True,False
-ZOOM8,Canyon Creek at Billings (Zoo Montana),0,,True,False
-ZPAM5,North Fork Zumbro River near Mazeppa,2,WGOM5;ZUMM5,True,False
-ZPHF1,Hillsborough River near Zephyrhills at State Park,3,HRZF1;KNTF1;MORF1,True,False
-ZPRF1,Hillsborough River Above Crystal Springs Near Zephyrhills,2,HRZF1;WRCF1,True,False
-ZSRC1,South San Ramon Creek above Amador Valley Blvd,0,,True,False
-ZSRM2,Zekiah Swamp Run near Newtown,0,,True,False
-ZTNK2,Pennsylvania Run near Zoneton,0,,True,False
-ZUIN5,Zuni River above Black Rock Reservoir,0,,True,False
-ZUMM5,Zumbro River at Zumbro Falls,4,AMAW3;KELM5;LKZM5;ZPAM5,True,False
-ZUNV2,Blackwater River (VA) near ZUNI,2,DNDV2;FKNV2,True,False
