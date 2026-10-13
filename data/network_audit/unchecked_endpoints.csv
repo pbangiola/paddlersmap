@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SAEI1,Salmon River above East Fork nr Clayton,0,,True,False
-SAFM4,Tittabawassee River at Sanford,0,,True,False
-SAFS1,South Fork Edisto River above Springfield,2,DENS1;SFAS1,True,False
-SAFT2,San Pedro Creek at Furnish Street,0,,True,False
-SAGM4,Saginaw River at Saginaw,0,,True,False
-SAGM5,Watson Sag Weir near Watson 1N - Hwy 9 Bridge,0,,True,False
-SAGT2,West Central Texas Lakes at O. C. Fisher Lake,2,BLKT2;TBRT2,True,False
-SAHM2,at Stonecrest Hills,0,,True,False
-SAIF1,Indian River above St Lucie Inlet (in MHHW),0,,True,False
-SAJA2,Salcha River at Johnsons,0,,True,False
-SAKF1,Shell Bluff Park (in NAVD88),1,DCSF1,True,False
-SAKN6,Lake America at Sackets Harbor,0,,True,False
-SAKW1,Sauk River near Sauk,0,,True,False
-SAKW3,Milwaukee River at Saukville,0,,True,False
-SALA2,Salcha River near Salchaket,0,,True,False
-SALC2,Arkansas River at Salida,3,ARGC2;CHKC2;WSVC2,True,False
-SALI3,Salamonie River at Dora,2,SLAI3;WABI3,True,False
-SALM4,Saline River below SALINE,0,,True,False
-SALN1,Salt Creek at Innovation Campus at Lincoln,2,LCNN1;LUSN1,True,False
-SALP1,Larrys Creek at Salladasburg,0,,True,False
-SALP4,Rio Lapa near Rabo del Buey,0,,True,False
-SALS1,Saluda River at Saluda Lake Dam,0,,True,False
-SALT1,Tennessee River at Saltillo,0,,True,False
-SALT2,Sabinal River near Sabinal,0,,True,False
-SALV2,North Fork Holston River at Saltville,1,GATV2,True,False
 SALW1,North Fork Salmon Creek near Conconully,0,,True,False
 SALW4,Salt River (WY) near Etna,0,,True,False
 SAMA1,North River near Samantha,0,,True,False
@@ -59,7 +34,7 @@ SATI1,St Maries River near Santa,0,,True,False
 SATW1,Satsop River near Satsop,0,,True,False
 SAVM2,Little Patuxent River near Savage,2,BOWM2;LPGM2,True,False
 SAVM5,Minnesota River at Savage,2,FSNM5;JDNM5,True,False
-SAVT1,Tennessee River at Savannah,2,CLNT1;PICT1,True,False
+SAVT1,Tennessee River at Savannah,3,CLNT1;PICT1;SALT1,True,False
 SAXM3,Sudbury River at Saxonville,0,,True,False
 SAXV2,Chesapeake Bay near Starling Creek at Saxis (IN MLLW),0,,True,False
 SAYA1,Locust Fork at Sayre,1,CLEA1,True,False
@@ -125,7 +100,7 @@ SBTM5,"Sand River near Britt, MN",0,,True,False
 SBTN4,Manahawkin Bay at Ship Bottom (IN MLLW),0,,True,False
 SBUI2,Saline Branch above Urbana,0,,True,False
 SBUM8,Swiftcurrent Creek at Sherburne Reservoir near Babb,2,MGGM8;SCSM8,True,False
-SBUT2,Sabinal River at Utopia,0,,True,False
+SBUT2,Sabinal River at Utopia,2,SALT2;SRMT2,True,False
 SBVI3,Big Blue River (IN) at Shelbyville,3,CARI3;DREI3;LBRI3,True,False
 SBVO1,Ohio River at Steubenville,2,NCUW2;WELW2,True,False
 SBXC1,Sespe Creek above Bear Creek,0,,True,False
@@ -941,7 +916,7 @@ SRMM5,Sturgeon River near Meadow Brook ,0,,True,False
 SRMO3,Sandy River near Marmot,0,,True,False
 SRMP1,Straight  Run at Marsh Creek,0,,True,False
 SRMQ9,Stewart River at the Mouth-Yukon Territory,0,,True,False
-SRMT2,Sabinal River below Mill Creek near Vanderpool,1,SABT2,True,False
+SRMT2,Sabinal River below Mill Creek near Vanderpool,2,SABT2;SBUT2,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SRNF1,Suwannee River at Nobles Ferry (in NAVD88),0,,True,False
 SRNO1,Baldwin Creek at Strongsville,0,,True,False
@@ -1263,7 +1238,7 @@ SZRM4,Schweitzer Creek at Schweitzer Reservoir,0,,True,False
 TACM5,Prairie River (MN) near Taconite,0,,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TADU1,Duchesne River near Tabiona,0,,True,False
-TAFA2,Tanana River at Fairbanks,2,BGDA2;ENNA2,True,False
+TAFA2,Tanana River at Fairbanks,3,BGDA2;ENNA2;SALA2,True,False
 TAFC2,Spring Creek (CO) at Fort Collins,0,,True,False
 TALA2,Yukon River at Tanana,2,RBYA2;YRBA2,True,False
 TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
@@ -2082,7 +2057,7 @@ WATV1,Winooski River at Waterbury,2,ESSV1;MONV1,True,False
 WATV2,South Fork Catoctin Creek near Waterford,0,,True,False
 WATW3,Rock River at Watertown,2,JFFW3;LEBW3,True,False
 WAUO3,Columbia River at Wauna,2,CBAO3;SKAW1,True,False
-WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
+WAUW3,Milwaukee River at Waubeka,2,CEDW3;SAKW3,True,False
 WAVC1,San Francisquito Creek at Waverly (SFWS),0,,True,False
 WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
 WAVS2,Big Sioux River at Sioux Falls Western Avenue,2,SFMS2;SXFS2,True,False
@@ -2164,7 +2139,7 @@ WCGU1,South Willow Creek above Grantsville,0,,True,False
 WCHM3,Aberjona River at Winchester,0,,True,False
 WCHM8,Willow Creek (Southwest MT) near Harrison,0,,True,False
 WCHT2,Colorado River (TX) at Winchell,2,SNBT2;STYT2,True,False
-WCHW1,Sauk River above White Chuck R,0,,True,False
+WCHW1,Sauk River above White Chuck R,1,SAKW1,True,False
 WCIC1,West Canal at Clifton Court Intake,0,,True,False
 WCIF1,Tide Gauge at Yankeetown (in MHHW),1,WIGF1,True,False
 WCIN7,Walnut Creek Upstream of I-40,0,,True,False
@@ -2336,7 +2311,7 @@ WHLW4,North Platte River below Whalen Dam,0,,True,False
 WHMK2,Nolin River at White Mills,2,HGVK2;NOLK2,True,False
 WHMM2,Whitemarsh Run at White Marsh,0,,True,False
 WHMS1,Enoree River at Whitmire,0,,True,False
-WHMV2,N Fork Holston River at White Mills 2N,0,,True,False
+WHMV2,N Fork Holston River at White Mills 2N,1,SALV2,True,False
 WHNI3,White River (IN) at 146th Street near Noblesville,4,CCNI3;NBLI3;NMSI3;NORI3,True,False
 WHNN8,Red River of the North at Wahpeton,4,BROM5;BTWM5;DORM5;ENLN8,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False

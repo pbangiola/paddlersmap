@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SAKF1,Shell Bluff Park (in NAVD88),1,DCSF1,True,False
-SALV2,North Fork Holston River at Saltville,1,GATV2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SANK1,Pawnee River near Sanford,1,ROZK1,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
@@ -117,7 +115,6 @@ SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SREC1,Santa Ana River at E St near San Bernardino,1,MWXC1,True,False
 SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
 SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
-SRMT2,Sabinal River below Mill Creek near Vanderpool,1,SABT2,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
@@ -266,7 +263,6 @@ WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WANP1,Antietam Creek near Waynesboro,1,SACM2,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
-WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
 WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
 WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
@@ -280,6 +276,7 @@ WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCCP1,West Conewago Creek at East Berlin,1,MANP1,True,False
 WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
+WCHW1,Sauk River above White Chuck R,1,SAKW1,True,False
 WCIF1,Tide Gauge at Yankeetown (in MHHW),1,WIGF1,True,False
 WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
 WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
@@ -304,6 +301,7 @@ WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHEW3,Hay River at Wheeler,1,MENW3,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
+WHMV2,N Fork Holston River at White Mills 2N,1,SALV2,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHPN4,Whippany River near Morristown,1,WHIN4,True,False
 WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
