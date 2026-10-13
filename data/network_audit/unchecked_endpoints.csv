@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TCRI3,Trail Creek at Michigan City,1,MGNI3,True,False
-TCRK1,Tomahawk Creek at Roe Avenue,0,,True,False
-TCRM1,Nezinscot River at Turner Center,0,,True,False
-TCRN7,Tank Creek at Reilly Rd at Ft Bragg,0,,True,False
-TCSI3,Turkey Creek (IN) at Schererville,1,MTCI3,True,False
-TCSO1,Tenmile Creek at Silica,2,TCMO1;UTOO1,True,False
-TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
-TCVN7,Town Creek at U.S. Highway 17,1,TCLN7,True,False
-TCWF1,Trout Creek at Wesley Chapel,2,TCKF1;TRZF1,True,False
-TCYF1,Cypress Creek Tributary Near Wesley Chapel,0,,True,False
-TDAO3,Columbia River at The Dalles Dam,0,,True,False
-TDAW1,North Fork Touchet River above Dayton,0,,True,False
-TDBC1,Ellsworth Barranca,0,,True,False
-TDDC2,Trinidad Lake near Trinidad,0,,True,False
-TDDT2,Trinity River at Trinidad,3,LOLT2;RSRT2;TRNT2,True,False
-TDFS2,Spring Creek near Hill City,1,KSTS2,True,False
-TDGL1,Tensas River at Tendal,2,NLGL1;TBTL1,True,False
-TEAI1,Teton River (ID) near St. Anthony,2,DGGI1;NFTI1,True,False
-TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
-TECM4,River Raisin near Tecumseh,2,ADRM4;MCHM4,True,False
-TEDA2,Toklat River near East Fork Toklat River at Denali Park Road at Denali Park,0,,True,False
-TEHC1,Sacramento River at Tehama Bridge,2,RDBC1;VWBC1,True,False
-TEKC1,Temecula Creek near Aguanga,0,,True,False
-TELF1,Telogia Creek near Bristol (SR 20),0,,True,False
-TELI3,Ohio River at Tell City,2,CNNI3;OWBK2,True,False
 TELT2,Rio Grande at Johnson Ranch,2,BOQT2;CSTT2,True,False
 TENC1,Tenaya Creek at Yosemite NP At Tenaya Bridge,0,,True,False
 TENF1,Tenmile Canal at Control Near Estero,0,,True,False
@@ -1266,7 +1241,7 @@ WRDW1,White River near Dieringer,2,PUYW1;WSTW1,True,False
 WRDW2,Waites Run near Wardensville,0,,True,False
 WREC1,White River at Road 168 near Earlimart,0,,True,False
 WREM8,West Rosebud Creek near Emerald Lake Campground,0,,True,False
-WRGF1,Cypress Creek at SR 54 Worthington Gardens,2,CNTF1;CSAF1,True,False
+WRGF1,Cypress Creek at SR 54 Worthington Gardens,3,CNTF1;CSAF1;TCYF1,True,False
 WRGW3,Fox River (North) at Rapid Croche,2,APLW3;GBYW3,True,False
 WRIH1,Wailuku River (Maui) at Wailuku River at Iao Valley Road,0,,True,False
 WRIS1,Wando River above Mount Pleasant (IN MLLW),0,,True,False
