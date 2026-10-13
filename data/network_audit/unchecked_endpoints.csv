@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RDBC1,Sacramento River at Red Bluff Diversion Dam,2,BDBC1;TEHC1,True,False
-RDBG1,Coosawattee River near Pine Chapel / Redbud,3,CATG1;CTRG1;PING1,True,False
-RDBN4,Swimming River at Red Bank,0,,True,False
-RDBN5,Delaware River (NM) 11 miles NW of Red Bluff,0,,True,False
-RDBW2,Guyandotte River below R. D. Bailey Lake,2,BAIW2;MNAW2,True,False
-RDCA2,Red Cloud River at Anton Larson Bay Road near Kodiak,0,,True,False
-RDCF1,Water Level at CR95,0,,True,False
-RDCN7,Reedy Creek below I-485 nr Pine Ridge,0,,True,False
-RDDA2,Red Dog Dock Tide Gauge at Red Dog Mine (MHHW datum),0,,True,False
-RDFI4,Middle Raccoon River near Redfield Hwy F59--IFC,2,PANI4;REDI4,True,False
-RDFV2,New River at Radford,3,ALSV2;GLLV2;GRYV2,True,False
-RDGC1,Clear Creek above Igo Near Redding,0,,True,False
-RDGF1,Halifax River at Main St Bridge,0,,True,False
-RDHA2,[INACTIVE] Roadhouse Creek near Iliamna,0,,True,False
-RDHN6,Allegheny River at Red House,0,,True,False
-RDIV2,Atlantic Coast near Rudee Inlet (IN MLLW),0,,True,False
-RDLM5,Clearwater River (MN) at Red Lake Falls,3,CRKM5;LOSM5;PLUM5,True,False
-RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
-RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
-RDNK1,Marais Des Cygnes River near Reading,1,MLVK1,True,False
-RDOI4,East Nishnabotna River at Red Oak,2,COBI4;ELTI4,True,False
-RDOM4,Au Sable River near Red Oak,2,LUZM4;MIOM4,True,False
-RDPI4,West Nishnabotna River near Randolph,1,HWNI4,True,False
-RDPN7,Atlantic Coast at Rodanthe Pier,0,,True,False
-RDRC1,Carmel River at Robles Del Rio,2,CMEC1;LPRC1,True,False
 RDRP1,Schuylkill River at Reading,2,BREP1;PTNP1,True,False
 RDSC1,Reclamation Ditch near Salinas,0,,True,False
 RDTA4,Ouachita River at Remmel Dam above Jones Mill,2,AKDA4;BMDA4,True,False
@@ -164,7 +139,7 @@ RKVM2,Turkey Branch near Aspen Hill,0,,True,False
 RKWN6,East Rockaway Inlet at Atlantic Beach (IN MLLW),0,,True,False
 RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,1,MYRG1,True,False
 RLAN7,Richland Creek (NC) at Autumn Care,0,,True,False
-RLAT2,Pecos River at Red Bluff Reservoir,2,ORLT2;RBFN5,True,False
+RLAT2,Pecos River at Red Bluff Reservoir,3,ORLT2;RBFN5;RDBN5,True,False
 RLBP1,Lycoming Creek at Ralston,2,BODP1;DRXP1,True,False
 RLCG1,Richland Creek at Suwanee Dam Road near Buford,0,,True,False
 RLCN7,Richland Creek (NC) at Waynesville,0,,True,False
