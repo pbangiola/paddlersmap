@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MPRM4,Pine River near Midland,1,ALMM4,True,False
-MPSK1,Solomon River at Minneapolis,2,GLAK1;NLSK1,True,False
-MPTA2,Trail River near Lawing,0,,True,False
-MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
-MPTM4,Chippewa River below Mt. Pleasant,1,CRDM4,True,False
-MQGO1,Mosquito Creek near Greene Center,0,,True,False
-MQLF1,Mosquito Lagoon Biolab (in MHHW),0,,True,False
-MQTT2,Tide Gauge at Bob Hall Pier,0,,True,False
-MRAA2,Moose River 5 mi above Kenai River near Sterling,0,,True,False
-MRAF1,St Marks River at San Marcos State Park (in MHHW),0,,True,False
-MRAL1,Mississippi River at Alliance Refinery,2,MBCL1;WPHL1,True,False
-MRAP1,Tenmile Creek at Mariana,1,JFRP1,True,False
-MRAQ1,Milk River above Milk River AB,0,,True,False
-MRAT2,Navidad River near Morales,2,LSNT2;SPAT2,True,False
-MRAW1,Mad River at Ardenvoir,0,,True,False
-MRBA1,Mobile River at MOBILE RIVER AT BUCKS,0,,True,False
-MRBI1,Malad River near Bliss,0,,True,False
-MRBI4,Shell Rock River near Marble Rock 290th St--IFC,3,GNEI4;RKFI4;SHRI4,True,False
-MRBM2,Cabin Branch near Upper Marlboro / Ritchie Marlboro Road,0,,True,False
-MRCA2,Marguerite Creek 3.6 miles above Emma Creek near Healy,0,,True,False
-MRCM8,Marias River near Chester,2,LOMM8;TBRM8,True,False
-MRCP1,Delaware River at Marcus Hook (IN MLLW),0,,True,False
-MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
-MRDM2,Monocacy River near Dickerson,0,,True,False
-MRDM5,Hawk Creek (MN) near Maynard,1,HAWM5,True,False
 MRDM6,Okatibbee Creek at Okatibbee Reservoir,0,,True,False
 MRDM8,Big Hole River at Maiden Rock near Divide,2,MLRM8;WSVM8,True,False
 MRDN8,Maple River (ND) above Sheldon,2,ENDN8;MPLN8,True,False
@@ -31,7 +6,7 @@ MRDO1,Mad River near Dayton,2,DTNO1;SGFO1,True,False
 MREO1,Little Auglaize River at Melrose OH,0,,True,False
 MRFA1,Alabama River near Miller's Ferry,2,CLBA1;SELA1,True,False
 MRFW2,South Branch Potomac River near Moorefield,0,,True,False
-MRGA2,Marguerite Creek above Emma Creek near Healy,0,,True,False
+MRGA2,Marguerite Creek above Emma Creek near Healy,1,MRCA2,True,False
 MRGI2,Kishwaukee River at Marengo,1,BVDI2,True,False
 MRGI4,Maple River at Galva,1,MIGI4,True,False
 MRGM6,Big Sunflower River near Merigold,2,LBSM6;SUNM6,True,False

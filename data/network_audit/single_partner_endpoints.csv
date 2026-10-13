@@ -1,10 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MPRM4,Pine River near Midland,1,ALMM4,True,False
-MPTC1,Alameda Creek above Div Dam near Sunol,1,ACBC1,True,False
-MPTM4,Chippewa River below Mt. Pleasant,1,CRDM4,True,False
-MRAP1,Tenmile Creek at Mariana,1,JFRP1,True,False
-MRCT2,Colorado River (TX) at Matagorda,1,BACT2,True,False
-MRDM5,Hawk Creek (MN) near Maynard,1,HAWM5,True,False
+MRGA2,Marguerite Creek above Emma Creek near Healy,1,MRCA2,True,False
 MRGI2,Kishwaukee River at Marengo,1,BVDI2,True,False
 MRGI4,Maple River at Galva,1,MIGI4,True,False
 MRMM8,Musselshell River near Martinsdale,1,HLWM8,True,False
