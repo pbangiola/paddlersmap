@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
-MXLM1,Meduxenkeag River at Lowery Rd near Houlton,2,BLVB3;MXKM1,True,False
-MXSC1,Colma Creek at South San Francisco,0,,True,False
-MXWN1,Platte River at Maxwell,1,NPSN1,True,False
-MXYA2,West Fork Kennicott River at McCarthy,0,,True,False
-MYAT2,Atascosa River near McCoy,2,ATCT2;WTTT2,True,False
-MYBS2,North Fork Yellow Bank River near Milbank,0,,True,False
-MYEC1,Monterey Bay  Tide gage,0,,True,False
-MYFK1,Myakka River Upstream Youngs Creek,0,,True,False
-MYFM4,Boardman River near Mayfield,0,,True,False
-MYFO1,Unknown Tributary to Chagrin River at Mayfield Heights,0,,True,False
-MYKF1,Myakka River Upstream Youngs Creek,1,MYTF1,True,False
-MYKO3,McKay Creek above Reservoir,1,MCKO3,True,False
-MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
-MYNO3,North Fk Coquille River near Myrtle Point,0,,True,False
-MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
-MYPO3,South Fk Coquille River at Myrtle Point,2,COQO3;POWO3,True,False
-MYRG1,Yellow River at Gees Mill Road near Milstead,0,,True,False
-MYRK2,Shelby Creek at Myra,0,,True,False
-MYRU1,Duchesne River near Myton,1,DRUU1,True,False
-MYRW2,Mud River (WV) at Hamlin,2,MTNW2;PALW2,True,False
-MYST2,North Texas Lakes at Pat Mayse Lake,0,,True,False
-MYSU1,Sevier River near Marysvale,0,,True,False
-MYTF1,Myakka River at Wauchula Rd Near Myakka City,4,LCKF1;MAPF1;MKAF1;MYKF1,True,False
-MYVK2,Ohio River at Maysville,2,MELO1;PORO1,True,False
 MYVM7,102 River at Maryville,2,BDFI4;RSDM7,True,False
 MYVT1,Little River (TN) near Maryville,2,ALCT1;TWNT1,True,False
 MZBC1,Matanzas Creek at Bennett Valley Rd,0,,True,False
@@ -1962,7 +1937,7 @@ RKRV2,Rockfish River near Greenfield,0,,True,False
 RKVI4,Rock River at Rock Valley,3,LMCI4;LRGI4;RAPI4,True,False
 RKVM2,Turkey Branch near Aspen Hill,0,,True,False
 RKWN6,East Rockaway Inlet at Atlantic Beach (IN MLLW),0,,True,False
-RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,0,,True,False
+RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,1,MYRG1,True,False
 RLAN7,Richland Creek (NC) at Autumn Care,0,,True,False
 RLAT2,Pecos River at Red Bluff Reservoir,2,ORLT2;RBFN5,True,False
 RLBP1,Lycoming Creek at Ralston,2,BODP1;DRXP1,True,False
@@ -4397,7 +4372,7 @@ WBWS2,Big Sioux River at Watertown Broadway Avenue,2,BSWS2;WBSS2,True,False
 WBXM1,Saco River at West Buxton,2,CNHM1;CNWN3,True,False
 WBYA1,Tide Gauge at Weeks Bay (IN MHHW),0,,True,False
 WBYC1,San Francisquito Creek at West Bayshore (SFWB),0,,True,False
-WBYO1,Chagrin River at Willoughby,0,,True,False
+WBYO1,Chagrin River at Willoughby,1,MYFO1,True,False
 WBZT2,Brazos River at Washington,0,,True,False
 WCAN7,Wilson Creek (NC) at Adako Rd 3 SW Collettsville,0,,True,False
 WCAT2,Waller Creek at East 1st Street at Austin,0,,True,False
@@ -5127,7 +5102,7 @@ YLEC1,Arroyo Valle below Lang Canyon near Livermore,0,,True,False
 YLKA2,Yentna River near Lake Creek,2,CLKA2;YSTA2,True,False
 YLLU1,Yellowstone River Utah near Altonah,0,,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
-YLOG1,Yellow River at Pleasant Hill Road near Lithonia,0,,True,False
+YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YMSC2,Yampa River below Stagecoach Reservoir,0,,True,False
 YNHG1,Tugalo River at YONAH DAM,0,,True,False

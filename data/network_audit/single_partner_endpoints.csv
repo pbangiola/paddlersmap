@@ -1,11 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
-MXWN1,Platte River at Maxwell,1,NPSN1,True,False
-MYKF1,Myakka River Upstream Youngs Creek,1,MYTF1,True,False
-MYKO3,McKay Creek above Reservoir,1,MCKO3,True,False
-MYLP1,Big Spring Run near Mylin Corners,1,BSRP1,True,False
-MYPF1,St. Johns River at Mayport (in MHHW),1,DMSF1,True,False
-MYRU1,Duchesne River near Myton,1,DRUU1,True,False
 NACW1,Naches River near Naches,1,CLFW1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NALF1,North Prong Alafia River Near Nichols,1,KEYF1,True,False
@@ -263,6 +256,7 @@ RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
+RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,1,MYRG1,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RMSN7,Deep River at Ramseur,1,MONN7,True,False
 RNDI2,Big Muddy River at Rend Lake Pool,1,PLMI2,True,False
@@ -557,6 +551,7 @@ WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,False
 WBRW4,Green River (WY-UT-CO) at Warren Bridge,1,LABW4,True,False
+WBYO1,Chagrin River at Willoughby,1,MYFO1,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCCP1,West Conewago Creek at East Berlin,1,MANP1,True,False
@@ -649,6 +644,7 @@ XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
 YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
+YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
