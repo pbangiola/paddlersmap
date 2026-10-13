@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TRNI4,Monona-Harrison Ditch near Turin,0,,True,False
-TRNP1,Shenango River near Transfer,2,JMSP1;NCSP1,True,False
-TRNT2,North Texas Lakes at Cedar Creek Lake,2,LTLT2;TDDT2,True,False
-TROI4,South Chequest Creek near Troy Yak Blvd--IFC,0,,True,False
-TROO3,Trout Creek (OR) near Fields,0,,True,False
-TRPA2,[INACTIVE] Twentymile River near Portage,0,,True,False
-TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
-TRRM4,Trap Rock River near Lake Linden,0,,True,False
-TRRM5,Thief River near Thief River Falls,3,AGPM5;HLTM5;TRFM5,True,False
-TRRN2,Truckee River at Reno,3,HNTN2;MOGN2;VISN2,True,False
-TRRO3,Tualatin River at Rood Bridge near Hillsboro,2,FRMO3;TGCO3,True,False
-TRSA1,Cahaba River at Trusville,0,,True,False
-TRSC1,Tice Creek at Rossmoor Basin,0,,True,False
-TRSM5,Tamarac River near Stephen (CSAH22),2,DRTN8;TAMM5,True,False
-TRSO3,Thomas Creek near Scio,0,,True,False
-TRST2,North Wichita River near Truscott,0,,True,False
-TRTA2,Talkeetna River near Talkeetna,1,TKTA2,True,False
-TRTC1,Truckee River at Tahoe City,2,THLC1;TRCC1,True,False
-TRTG1,Tallulah River above Plum Orchard Rd 6 NW Tiger,0,,True,False
-TRTL1,Tangipahoa River near Tickfaw,0,,True,False
-TRTN7,Trent River at Trenton,2,PLLN7;TNTN7,True,False
-TRTN8,Beaver Creek (SW  ND) near Trotters,2,MDAN8;WTFN8,True,False
-TRUP4,Rio Grande De Loiza below Dam,0,,True,False
-TRUV2,Buffalo Creek at Troutville,0,,True,False
-TRVM4,St. Joseph River (MI/IN) at Three Rivers,2,BURM4;MOTM4,True,False
 TRVN7,Tar River near Tar River,1,LOUN7,True,False
 TRWC1,Trinity River near Lewiston,0,,True,False
 TRXP1,Little Lehigh Creek near Trexlertown,0,,True,False
