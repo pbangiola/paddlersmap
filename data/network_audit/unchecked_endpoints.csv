@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PEBN4,North Branch Rancocas Creek at Pemberton,1,IWPN4,True,False
-PECC1,Pescadero Creek near Pescadero,0,,True,False
-PECF1,Pennywash Creek near Deer Park,0,,True,False
-PECK1,Ninnescah River near Peck,3,BLPK1;CHNK1;MDKK1,True,False
-PECM2,Licking Creek at Pecktonville,0,,True,False
-PECM6,Pelahatchie Creek near Fannin/ at Hwy 25,0,,True,False
-PEDF1,Tide Gauge at Safe Harbor Pineland (In MHHW),0,,True,False
-PEDN1,Logan Creek at Pender,2,LCWN1;UEHN1,True,False
-PEDT2,Perdido Creek near Fannin,0,,True,False
-PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
-PEGF1,Atlantic Ocean Tide Gauge at South Port Everglades (in MHHW),0,,True,False
-PEKI1,Clearwater River near Peck,2,DWRI1;SPDI1,True,False
-PELF1,Pellicer Creek near Espanola (in MHHW),0,,True,False
-PELI4,Des Moines River at Red Rock Reservoir,3,DLLI4;RRDI4;SWNI4,True,False
-PELS1,Enoree River at Pelham,0,,True,False
-PELS2,Pelican Lake near Watertown,0,,True,False
-PELT1,Elk River near Pelham,0,,True,False
-PENI2,Elkhorn Creek (IL) near Penrose,0,,True,False
-PENO2,Eastern Oklahoma Lakes at Grand Lake,0,,True,False
-PENT1,Cumberland River at Penitentiary Branch in Jackson County,0,,True,False
-PEOM8,Peoples Creek near Hays,1,KHRM8,True,False
-PEPF1,Pelican Point at Cooks Bayou (in MHHW),0,,True,False
-PEPN6,East Branch Delaware River at Pepacton Reservoir,2,DWNN6;MRGN6,True,False
-PEPP1,Neshaminy Creek near Penns Park,1,LNGP1,True,False
-PERL1,Pearl River near Pearl River,2,BXAL1;PDLL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PERO3,Deschutes River (OR) near Madras,2,DEBO3;MODO3,True,False
