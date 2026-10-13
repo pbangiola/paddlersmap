@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RYLV2,Rabbit Branch at Royal Lake in Burke,0,,True,False
-RYNO1,Blacklick Creek at Reynoldsburg,1,PKNO1,True,False
-RYPN6,Long Island Sound at Rye (IN MLLW),0,,True,False
-RYVN6,Raquette River at Raymondville,2,MSPN6;SCLN6,True,False
-RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
-SAAF1,SR A1A at 11th Street Canal in St Augustine Beach (in NAVD88),0,,True,False
-SAAN7,Currituck Sound at Sanderling Resort,0,,True,False
-SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
-SABM5,South Branch Buffalo River at Sabin,0,,True,False
-SABM7,Big Creek (MO) above Big Creek at Sam A Baker State Park,0,,True,False
-SABT2,Sabinal River at Sabinal,0,,True,False
-SABV1,Lake Champlain at St. Albans Bay Flood Inundation Mapping Site,0,,True,False
-SACA2,[INACTIVE] Sawmill Creek at Nash Road,0,,True,False
-SACC1,Sacramento River at I Street Bridge,2,FPOC1;VONC1,True,False
-SACC2,Sand Creek (CO) near Commerce City,3,CNPC2;ETGC2;HNDC2,True,False
-SACM2,Antietam Creek near Sharpsburg,0,,True,False
-SACM7,South Fork Dry Sac River near Springfield,0,,True,False
-SACM8,Milk River near Saco,2,MALM8;TMPM8,True,False
-SACN6,Sacandaga River at Conklingville - Gt Sac Lk,2,HDLN6;HOPN6,True,False
-SACT2,Salado Creek at Loop 13,1,SSCT2,True,False
-SADA2,Sadie Creek near Kotzebue,0,,True,False
-SADM1,Ellis River at South Andover,0,,True,False
-SADN4,Saddle River at Upper Saddle River,0,,True,False
-SADN6,Long Island Sound at Sands Point (IN MLLW),0,,True,False
-SADW1,Salmon Creek near Okanogan,0,,True,False
 SAEI1,Salmon River above East Fork nr Clayton,0,,True,False
 SAFM4,Tittabawassee River at Sanford,0,,True,False
 SAFS1,South Fork Edisto River above Springfield,2,DENS1;SFAS1,True,False
@@ -111,7 +86,7 @@ SBEL1,Gulf Intracoastal Waterway at IHNC Surge Barrier East/West near Michoud,0,
 SBFA4,Red River at Springbank Ferry,2,FLTA4;SVPL1,True,False
 SBFS2,Belle Fourche River near Sturgis,5,BEFS2;BFVS2;EMSS2;HRSS2;VAES2,True,False
 SBFV1,LaPlatte River at Shelburne Falls,0,,True,False
-SBGM5,South Branch Buffalo River near Glyndon (28th Ave S),0,,True,False
+SBGM5,South Branch Buffalo River near Glyndon (28th Ave S),2,DILM5;SABM5,True,False
 SBHN7,South Buffalo Creek at US220 Nr Greensboro,0,,True,False
 SBIF1,Tide Station near Spring Creek Boat Ramp (In MHHW),0,,True,False
 SBIM5,Swan River (MN) near Sobieski 3ENE,0,,True,False
@@ -966,7 +941,7 @@ SRMM5,Sturgeon River near Meadow Brook ,0,,True,False
 SRMO3,Sandy River near Marmot,0,,True,False
 SRMP1,Straight  Run at Marsh Creek,0,,True,False
 SRMQ9,Stewart River at the Mouth-Yukon Territory,0,,True,False
-SRMT2,Sabinal River below Mill Creek near Vanderpool,0,,True,False
+SRMT2,Sabinal River below Mill Creek near Vanderpool,1,SABT2,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SRNF1,Suwannee River at Nobles Ferry (in NAVD88),0,,True,False
 SRNO1,Baldwin Creek at Strongsville,0,,True,False
@@ -2078,7 +2053,7 @@ WALT1,Waldens Creek 4W Pigeon Forge (Old Valley),0,,True,False
 WANM4,Wanadoga Creek near Battle Creek,0,,True,False
 WANO1,Sandy Creek at Waynesburg,0,,True,False
 WANO2,Cimarron River near Waynoka,2,AMCO2;BFFO2,True,False
-WANP1,Antietam Creek near Waynesboro,0,,True,False
+WANP1,Antietam Creek near Waynesboro,1,SACM2,True,False
 WANW1,Columbia River at Wanapum Dam,2,PRDW1;RISW1,True,False
 WAPF1,East Bay at Watson Bayou Pier (in MHHW),0,,True,False
 WAPI4,Iowa River at Wapello,2,CJTI4;OKVI4,True,False
@@ -2611,7 +2586,7 @@ WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
 WPNI4,Mississippi River above Waupeton (Pool 11),3,DLDI4;GTTI4;OTUI4,True,False
 WPNN1,Elkhorn River at West Point,2,PLGN1;WLON1,True,False
 WPNW3,South Branch Rock River at Waupun,0,,True,False
-WPPM7,St. Francis River at Wappapello Lake Pool,2,FSKM7;PAZM7,True,False
+WPPM7,St. Francis River at Wappapello Lake Pool,3,FSKM7;PAZM7;SABM7,True,False
 WPPW4,West Pass Creek near Parkman (Closed Gauge),0,,True,False
 WPRM2,Unnamed Tributary near Middle River,0,,True,False
 WPSL1,Pearl River near Slidell,0,,True,False

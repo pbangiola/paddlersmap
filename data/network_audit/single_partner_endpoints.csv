@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RYNO1,Blacklick Creek at Reynoldsburg,1,PKNO1,True,False
-RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
-SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
-SACT2,Salado Creek at Loop 13,1,SSCT2,True,False
 SAKF1,Shell Bluff Park (in NAVD88),1,DCSF1,True,False
 SALV2,North Fork Holston River at Saltville,1,GATV2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
@@ -121,6 +117,7 @@ SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SREC1,Santa Ana River at E St near San Bernardino,1,MWXC1,True,False
 SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
 SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
+SRMT2,Sabinal River below Mill Creek near Vanderpool,1,SABT2,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
@@ -267,6 +264,7 @@ VSUV2,South River at Vesuvius,1,CRNV2,True,False
 WAAK1,Saline River (KS) near Wakeeney,1,RUSK1,True,False
 WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
+WANP1,Antietam Creek near Waynesboro,1,SACM2,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAUW3,Milwaukee River at Waubeka,1,CEDW3,True,False
 WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
