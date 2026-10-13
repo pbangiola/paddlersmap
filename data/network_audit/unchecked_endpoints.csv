@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NCUW2,Ohio River at New Cumberland Lock and Dam,2,SBVO1;WLVO1,True,False
-NDCS2,North Deer Creek above Brookings,0,,True,False
-NDGM3,Three Mile River at North Dighton,0,,True,False
-NDMW2,Parker Hollow Run at Needmore,0,,True,False
-NDRI2,Du Page River near Plainfield,3,BOLI2;NAWI2;SORI2,True,False
-NDST2,Beals Creek at Natural Dam Salt Lake,0,,True,False
-NDVV1,Pope Brook (VT) near North Danville,0,,True,False
-NDYG1,Noonday Creek at Hawkins Store Road near Blackwells,1,NBSG1,True,False
-NEAO1,Licking River (OH) near Newark (Stadden Bridge),4,DLFO1;NKOO1;RCNO1;SFHO1,True,False
-NEBA2,Nabesna River at Northway Village,1,NABA2,True,False
-NEBI3,Brush Creek (IN) near Nebraska,0,,True,False
-NEBN1,Missouri River at Nebraska City,2,BRON1;PTMN1,True,False
-NEBN7,Linville River near Nebo,0,,True,False
-NEBO3,Willamette River at Newberg,2,SLMO3;WCFO3,True,False
-NEBS2,White River (NE-SD) near Nebraska-South Dakota State Line,2,WOGS2;WRCN1,True,False
-NECL1,Boeuf River near Fort Necessity,2,ALGL1;JNEL1,True,False
-NECN7,Northeast Creek (NC) near Genlee,0,,True,False
-NEDN7,Northeast Creek (NC) at SS1182 near Lowes Grove,0,,True,False
-NEEN7,Little Tennessee River near NEEDMORE,2,CUSN7;LTIN7,True,False
-NEEP1,Tonoloway Creek near Needmore,0,,True,False
-NEEW1,Nooksack River Overflow at Emerson Rd,0,,True,False
-NEIN6,Oneida Creek at Oneida,0,,True,False
-NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
-NEKD1,White Clay Creek at Newark,2,DPKD1;SKVP1,True,False
-NELA1,Little Tallapoosa River near Newell,0,,True,False
 NELA2,[INACTIVE] Little Nelchina River at Glenn Hwy,0,,True,False
 NELN7,NE Cape Fear River at NC Highway 210 ,0,,True,False
 NELS1,Broad River in NC/SC at Neal Shoals Reservoir,0,,True,False
@@ -4113,7 +4088,7 @@ VRGM8,Missouri River at Virgelle,3,FBNM8;LDKM8;LTRM8,True,False
 VRIL1,Vermilion River above I-10 at Lafayette,0,,True,False
 VRLL1,Vermilion River at Lake Martin Road,2,BVCL1;VLSL1,True,False
 VRNF1,Holmes Creek at Vernon (SR 79),0,,True,False
-VRNI3,Vernon Fork Muscatatuck River near Vernon,0,,True,False
+VRNI3,Vernon Fork Muscatatuck River near Vernon,2,BEDI3;NEBI3,True,False
 VRON4,Peckman River at Verona,0,,True,False
 VRPL1,Vermilion River at Perry,1,VLSL1,True,False
 VRPS2,East Fork Vermillion River near Parker,2,EVMS2;VRCS2,True,False
