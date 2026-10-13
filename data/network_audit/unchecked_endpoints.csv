@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PARI4,Beaver Creek near Parkersburg Hwy T47--IFC,3,APEI4;APWI4;NHRI4,True,False
-PARM5,"Partridge River near Babbitt, Dunka Rd",1,HYLM5,True,False
-PARN4,Saddle River at Paramus,0,,True,False
-PARN6,West Branch of the St. Regis River near Parishville,0,,True,False
-PARO1,West Creek above Parma 3SE,2,BRCO1;PRMO1,True,False
-PARP1,Allegheny River at Parker,2,FRKP1;RMRP1,True,False
-PARV2,North Anna River near Partlow,0,,True,False
-PARW1,Yakima River near Parker,2,KIOW1;UMTW1,True,False
-PARW2,Ohio River at Parkersburg,4,BEVW2;MCFW2;MTAO1;MWLW2,True,False
-PASN1,Stinking Water Creek at Palisade,0,,True,False
-PASP4,Lago Patillas,2,GRPP4;PATP4,True,False
-PASS1,Parr Reservoir,2,ALTS1;CARS1,True,False
-PASV1,Passumpsic River at Passumpsic,2,EHVV1;WELV1,True,False
-PATC1,San Joaquin River at Patterson,2,NWMC1;VNSC1,True,False
-PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
-PATN7,Yadkin River at Patterson,1,WKSN7,True,False
-PATP4,Rio Patillas near Patillas,1,PASP4,True,False
-PATW1,Methow River near Pateros,1,WTHW1,True,False
-PAUM4,Middle Branch Ontonagon River at Paulding,0,,True,False
-PAWL1,Paw Paw Bayou near Greenwood,0,,True,False
-PAWN7,Paw Creek at Wilkinson Blvd,0,,True,False
-PAWO2,Black Bear Creek at Pawnee,0,,True,False
-PAWR1,Blackstone River at Pawtucket,0,,True,False
-PAWW2,Potomac River at Paw Paw,1,HNKM2,True,False
-PAXP4,Canal de Patillas above Guayama Filtration Plant,0,,True,False
 PAYF1,Payne Creek Near Bowling Green,0,,True,False
 PAYI1,North Fork Payette River at McCall,2,CSDI1;LFPI1,True,False
 PAZM7,St. Francis River at Patterson,2,SAZM7;WPPM7,True,False
