@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-YEAA2,Yukon River at Eagle,2,CIRA2;YDAQ9,True,False
-YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
-YELG1,Yellow River at GA 124 near Lithonia,0,,True,False
-YELO1,Yellow Creek at Hammonsville,0,,True,False
-YELW3,North Fork Yellow River near Perkinstown,0,,True,False
-YESG1,Yellow River near Snellville,0,,True,False
-YETG1,Yellow River Tributary at Plantation Road near Lawrenceville,0,,True,False
-YFSI1,Yankee Fork Salmon River near Clayton,3,PNBI1;SQUI1;SRYI1,True,False
-YFYA2,Yukon River at Fort Yukon,2,BVRA2;CIRA2,True,False
-YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
-YGOP1,Youghiogheny River below Youghiogheyny Dam - Outflow (Tailwater),2,CNFP1;FRDM2,True,False
-YGWO1,Mahoning River at Youngstown,3,LLWO1;MSQO1;WRNO1,True,False
-YHCA2,Yukon River at Holy Cross,0,,True,False
-YJCG1,Yellow Jacket Creek at Hammett Road below Hogansville,0,,True,False
-YKTV2,Chesapeake Bay near Yorktown (IN MLLW),0,,True,False
-YKVI2,Fox River at Yorkville (Palmer Dam),3,DAYI2;MNGI2;WBOI2,True,False
-YLEC1,Arroyo Valle below Lang Canyon near Livermore,0,,True,False
-YLKA2,Yentna River near Lake Creek,3,CLKA2;SKWA2;YSTA2,True,False
-YLLU1,Yellowstone River Utah near Altonah,0,,True,False
-YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
-YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
-YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
-YMSC2,Yampa River below Stagecoach Reservoir,2,STMC2;YASC2,True,False
-YNHG1,Tugalo River at YONAH DAM,2,HRTG1;TUGG1,True,False
-YNNS2,James River near Yankton,1,SCOS2,True,False
 YNTC1,Redwood Creek (Napa County) at Mt Veeder Road,0,,True,False
 YNTK2,Elkhorn Creek at Yarnallton,1,PKMK2,True,False
 YNTN6,Lower Niagara River at Youngstown (Fort Niagara),0,,True,False
@@ -31,7 +6,7 @@ YOCK1,near Yocemento,0,,True,False
 YOKO3,Umatilla River near Yoakum,2,PDTO3;UMAO3,True,False
 YORC1,York Creek at Highway 29,0,,True,False
 YPRC1,Coyote Perc Pond 10B,0,,True,False
-YPSA2,Yukon River at Pilot Station,2,EMYA2;NULA2,True,False
+YPSA2,Yukon River at Pilot Station,3,EMYA2;NULA2;YHCA2,True,False
 YRBA2,Yukon River near Stevens Village,3,BVRA2;CIRA2;TALA2,True,False
 YRBF1,Yellow River at Brown's Fishing Camp (in MHHW),0,,True,False
 YRCO3,Yaquina River near Chitwood,0,,True,False
