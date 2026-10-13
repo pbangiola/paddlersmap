@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PGFM6,Pascagoula River at Graham Ferry,2,BKNM6;MRRM6,True,False
-PGFT2,Pecos River 9 miles WNW of Grandfalls,3,GIVT2;GNST2;PCST2,True,False
-PGHN7,Prince George Creek at NC Highway 133,2,PGCN7;WLON7,True,False
-PGKN7,Pinch Gut Creek at U.S. Highway 17,1,LFRN7,True,False
-PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
-PGRC2,Purgatoire River below Trinidad Lake,2,PGMC2;PTRC2,True,False
-PGTC1,Saratoga Creek at Pruneridge Avenue,0,,True,False
-PGVN7,Tar River at Greenville,1,TARN7,True,False
-PGVP1,Swatara Creek near Pine Grove,1,IWDP1,True,False
-PHAO1,Eagle Creek (Trumbull Co) at Phalanx Station,0,,True,False
-PHAW1,Pataha Creek near Mouth,0,,True,False
-PHBC3,Pendlenton Hill Brook near Clarks Falls,0,,True,False
-PHBF1,Bee Branch Near Palm Harbor,0,,True,False
-PHBP1,Delaware River at USCG Station Washington Street (IN MLLW),2,BDRN4;DELD1,True,False
-PHBQ7,Lake Champlain at Philipsburg,0,,True,False
-PHCF1,Tide Gauge at Phillippe Park (in MHHW),0,,True,False
-PHCG1,Line Creek below GA 54 near Peachtree City,1,LMCG1,True,False
-PHCN2,Pete Hanson Creek ,0,,True,False
-PHCN6,Lake Champlain at Port Henry,2,BURV1;WIHN6,True,False
-PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
-PHFM7,Pomme de Terre River (MO) above Hermitage,0,,True,False
-PHFN7,Pigeon House Creek at Fenton St,0,,True,False
-PHIO3,Marys River near Philomath,0,,True,False
-PHIW2,Tygart Valley River at Philippi,3,BELW2;HALW2;TGOW2,True,False
-PHLA2,Phelan Creek near Paxson,0,,True,False
 PHLO1,Clear Fork Mohican River below Pleasant Hill Dam,2,MHWO1;PTHO1,True,False
 PHLO3,Powder River (OR) below Mason Dam,0,,True,False
 PHMM5,Toad River near Perham (CR 8),0,,True,False
@@ -972,7 +947,7 @@ ROSP1,Oil Creek at Rouseville,0,,True,False
 ROST1,Wolf River at Rossville,3,COTT1;GERT1;LGRT1,True,False
 ROST2,Brazos River near Rosharon,3,BCNT2;SLNT2;WCBT2,True,False
 ROTW3,Wisconsin River at Rothschild,3,DUBW3;KELW3;WUUW3,True,False
-ROUN6,Lake Champlain at Rouses Point,5,AUSN6;BURV1;CHZN6;LPHN6;NUTQ7,True,False
+ROUN6,Lake Champlain at Rouses Point,6,AUSN6;BURV1;CHZN6;LPHN6;NUTQ7;PHBQ7,True,False
 ROVP1,West Branch Susquehanna River at Renovo,2,KARP1;LHVP1,True,False
 ROWI4,Iowa River near Rowan,2,BTDI4;IFAI4,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
