@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TYGK2,Tygarts Creek near Greenup,1,OVHK2,True,False
-TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
-TYLN1,North Loup River at Taylor,1,ORDN1,True,False
-TYTF1,Little Withlacoochee River near Tarrytown (in NAVD88) ,1,RERF1,True,False
-TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
-TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
@@ -65,6 +59,7 @@ WCLN3,Sugar River (NH) at West Claremont,1,SCFN3,True,False
 WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
 WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
+WCSA2,West Creek near Skagway,1,TYAA2,True,False
 WDHN2,Owyhee River at Wildhorse Dam,1,OGCN2,True,False
 WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False

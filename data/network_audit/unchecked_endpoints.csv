@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TYAA2,Taiya River near Skagway,0,,True,False
-TYCO3,Tryon Creek near Lake Oswego,0,,True,False
-TYDM8,Tongue River at T & Y Diversion Dam near Miles City (Closed Gauge),0,,True,False
-TYGA4,Tyronza River near Tyronza,0,,True,False
-TYGK2,Tygarts Creek near Greenup,1,OVHK2,True,False
-TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
-TYLA1,Alabama River at Henry Lock and Dam,2,MGMA1;SELA1,True,False
-TYLN1,North Loup River at Taylor,1,ORDN1,True,False
-TYLN5,Canadian River near Taylor Springs,2,SNCN5;SPGN5,True,False
-TYLN7,Tryon Lake,0,,True,False
-TYLV2,Tye River near Lovingston,0,,True,False
-TYLW3,Tyler Forks River near Mellen,0,,True,False
-TYRK2,Kentucky River at Tyrone,2,FFTK2;SLVK2,True,False
-TYRO1,Touby Run at Mansfield,0,,True,False
-TYSA3,Tyson Wash at Quartzsite,0,,True,False
-TYTF1,Little Withlacoochee River near Tarrytown (in NAVD88) ,1,RERF1,True,False
-TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
-TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
-TYWA2,Tyee Lake Outlet near Wrangell,0,,True,False
-TZDO2,Arkansas River at SH 344 near Tulsa,0,,True,False
-TZIA2,Tozitna River near Tanana,0,,True,False
-UBCM6,Eubanks Creek at Eubanks Ck/Jackson,0,,True,False
-UBCW3,Upper Brush Creek near Cashton - Oneida Road,0,,True,False
-UBDW1,Baker River  Baker Lk,0,,True,False
-UBEM6,Eubanks Creek at Eagle Avenue/Jackson,0,,True,False
 UBLA2,Ublutuoch River near Nuiqsut,0,,True,False
 UBNI4,North Walnut Creek at Urbandale 92nd Dr,0,,True,False
 UBNO1,Mad River near Urbana,2,EAGO1;WLBO1,True,False
@@ -440,7 +415,7 @@ WCRI3,Williams Creek at 96th Street on the Hamilton-Marion County Line,0,,True,F
 WCRM7,Wilson Creek near Springfield,0,,True,False
 WCRN6,Canisteo River at West Cameron,2,ASTN6;HORN6,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
-WCSA2,West Creek near Skagway,0,,True,False
+WCSA2,West Creek near Skagway,1,TYAA2,True,False
 WCSG1,Whitewater Creek near Southwest Fayetteville,0,,True,False
 WCSI4,Willow Creek near Soldier,0,,True,False
 WCTC1,Wildcat Creek at Vale Rd Bridge,0,,True,False
