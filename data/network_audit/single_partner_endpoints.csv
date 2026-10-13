@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
-SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
 SMCO2,Mill Creek (OK) near Sulphur,1,MCKO2,True,False
 SMCW4,Sybille Creek near Wheatland,1,GRIW4,True,False
@@ -79,6 +77,7 @@ SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
 SUNM5,Sunrise River at Sunrise,1,PNCM5,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
+SVYA4,Illinois River (AR OK) at Savoy,1,SLSA4,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False

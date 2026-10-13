@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SLPA3,Salt River at Priest Road-Tempe,2,SFFA3;SLRA3,True,False
-SLQC1,Salsipuedes Creek at Highway 129,0,,True,False
-SLRA3,Salt River near Roosevelt,3,CHRA3;SLCA3;SLPA3,True,False
-SLRF1,St Lucie River near Stuart (in MHHW),0,,True,False
-SLRM2,Scotts Level Branch at Rockdale,0,,True,False
-SLRN7,Morgan Creek at Smith Level Rd in Chapel Hill,0,,True,False
-SLRV2,Salters Creek at 25th Street (IN MLLW),0,,True,False
-SLSA4,Illinois River (AR OK) near Siloam Springs 4SE / Hwy 16,2,ELMA4;WTTO2,True,False
-SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
-SLSL1,Atchafalaya River at Bayou Sorrel Landside,0,,True,False
-SLSN7,Slash Creek at Hatteras Village (in MLLW),0,,True,False
-SLTC3,Lake Saltonstall above Lake Saltonstall,0,,True,False
-SLTP1,Loyalhanna Creek at Loyalhanna Dam Tailwater,0,,True,False
-SLTS1,North Saluda River at Highway 11,0,,True,False
-SLTW1,Sultan River near Sultan,0,,True,False
-SLUC1,Salsipuedes Creek near Lompoc,0,,True,False
-SLUC2,Culebra Creek at San Luis,0,,True,False
-SLUF1,St Lucie River in Palm City (in MHHW),0,,True,False
-SLUS1,Saluda River near Riverbanks Zoo,2,COLS1;MURS1,True,False
-SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
-SLVK2,Kentucky River at Salvisa,2,HIBK2;TYRK2,True,False
-SLVM4,Silver River near L`Anse,0,,True,False
-SLVN6,West Branch Delaware River at Stilesville,2,CNNN6;HLEN6,True,False
-SLYP1,Aughwick Creek at Shirleysburg,0,,True,False
-SMAF1,Apalachicola River near Sumatra (in NGVD29),5,ABFF1;APCF1;WAHF1;WWAF1;WWCF1,True,False
 SMAG1,Rottenwood Creek at Interstate North Parkway near Smyrna,0,,True,False
 SMBA2,St. Michael Bay Tide Gauge at St. Michael (MHHW),0,,True,False
 SMBA3,Santa Maria River near Bagdad,0,,True,False
@@ -563,7 +538,7 @@ SVRN6,Silver Creek (NY) at Silver Creek,0,,True,False
 SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SVTV2,Thornton River at Sperryville,0,,True,False
 SVXC1,Stevens Creek above Hwy 85,0,,True,False
-SVYA4,Illinois River (AR OK) at Savoy,0,,True,False
+SVYA4,Illinois River (AR OK) at Savoy,1,SLSA4,True,False
 SVZC1,Stevens Creek below Stevens Creek Reservoir,0,,True,False
 SWAG1,Level Creek at Suwanee Dam Road near Suwanee,0,,True,False
 SWAI1,Snake River near Murphy,2,SKHI1;SNYI1,True,False
