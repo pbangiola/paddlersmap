@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
-SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
 SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
 SDFI3,Sand Creek (IN) at Fishers,1,MCFI3,True,False
 SDGC1,San Diego River at Mast Nr Santee,1,FSNC1,True,False
@@ -41,6 +39,7 @@ SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
 SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
+SILO3,Siletz River at Siletz,1,SCVO3,True,False
 SIOI4,Perry Creek at Sioux City,1,PCHI4,True,False
 SIOT2,Olmos Creek at Dresden Drive,1,MTST2,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
@@ -101,6 +100,7 @@ SRTM5,Swan River near Taconite,1,JACM5,True,False
 SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
 SRVC1,Santa Ana River at Santa Ana,1,MWXC1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
+SSMT2,Seco Creek at Miller Ranch near Utopia,1,SCRT2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
 SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
@@ -136,6 +136,7 @@ SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
+SWMA2,Sawmill Creek below Upper Tailrace near Sitka,1,SCSA2,True,False
 SWOG1,Ohoopee River at GA 297 near Swainsboro,1,REDG1,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SWZF1,Sweetwater Creek at Gunn Hwy Near Sulphur Springs ,1,SCKF1,True,False

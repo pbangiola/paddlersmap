@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCRO1,Sharon Creek at Sharonville,0,,True,False
-SCRO3,Steamboat Creek near Glide,0,,True,False
-SCRS1,Shem Creek near Mount Pleasant,0,,True,False
-SCRT2,Seco Creek at Rowe Ranch near D'Hanis,0,,True,False
-SCRV2,Swift Creek Reservoir at Rt 360 near Woodlake,0,,True,False
-SCRW2,Rockymarsh Run at Scrabble,0,,True,False
-SCSA2,Sawmill Creek near Sitka,0,,True,False
-SCSF1,Spruce Creek near Samsula,0,,True,False
-SCSK1,Smoky Hill River below Schoenchen,2,PFRK1;SCNK1,True,False
-SCSM4,Lake St Clair at St Clair Shores Tidal Gauge,0,,True,False
-SCSM8,Swiftcurrent Creek at Sherburne nr Babb,2,SBUM8;SMYM8,True,False
-SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
-SCSS1,Atlantic Intracoastal Waterway above HIGHWAY 707 BRIDGE AT SOCASTEE,0,,True,False
-SCSU1,Jordan River at Surplus Canal,0,,True,False
-SCSW4,Savery Creek at Savery,0,,True,False
-SCTA2,[INACTIVE] Susitna River near Chulitna,2,GCSA2;SUDA2,True,False
-SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
-SCTF1,Chipola River at Scott's Ferry,2,ALTF1;WWCF1,True,False
-SCTG1,Little Ocmulgee River at GA 149 at Scotland,0,,True,False
-SCTM3,Massachusetts Bay at Scituate (IN MLLW),0,,True,False
-SCTM4,Pere Marquette River near Scottville,0,,True,False
-SCTN7,Tuckasegee River near Scott's Creek inflow,2,DILN7;TKRN7,True,False
-SCVC2,St Charles River at Vineland,2,ADLC2;SBMC2,True,False
-SCVO3,Sunshine Creek near Valsetz,0,,True,False
-SCWM4,Sloan Creek near Williamston,0,,True,False
 SCWN2,Steamboat Ck at Cleanwater Way,0,,True,False
 SCWW1,South Fork Chehalis Rver near Wildwood,0,,True,False
 SCYW1,South Fork Chehalis Rver near Curtis,0,,True,False
@@ -280,7 +255,7 @@ SIGN4,Passaic River at Singac,2,LTFN4;PINN4,True,False
 SILI4,Silver Creek at Silver City (IFC),0,,True,False
 SILN1,Silver Creek near Silver Creek,0,,True,False
 SILO1,Salt Fork at North Salem,0,,True,False
-SILO3,Siletz River at Siletz,0,,True,False
+SILO3,Siletz River at Siletz,1,SCVO3,True,False
 SILS1,Little River near Silver Street,2,IRMS1;LRLS1,True,False
 SILT2,Colorado River (TX) above Silver,5,CCRT2;CDCT2;CLRT2;RELT2;WBRT2,True,False
 SIMC3,Farmington River at Simsbury,2,TARC3;UNVC3,True,False
@@ -766,7 +741,7 @@ SSGC1,San Gabriel River (CA) at Parkway,0,,True,False
 SSIM5,Lake of the Woods at Spring Steel Island near Warroad,0,,True,False
 SSIW1,SF Stillaguamish R at Silverton,0,,True,False
 SSJI2,Spoon River (E-IL) near St. Joseph,0,,True,False
-SSMT2,Seco Creek at Miller Ranch near Utopia,0,,True,False
+SSMT2,Seco Creek at Miller Ranch near Utopia,1,SCRT2,True,False
 SSNA1,Pea River near Samson (CR 52),2,ELBA1;GNVA1,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
@@ -984,7 +959,7 @@ SWFN7,Swift Creek above Streets Ferry,0,,True,False
 SWLA2,Seward at Seward Tide Gage,0,,True,False
 SWLA3,Sacramento Wash above Topock,0,,True,False
 SWLQ3,Pembina River near Outlet of Swan Lake,2,PCCQ3;PLRQ3,True,False
-SWMA2,Sawmill Creek below Upper Tailrace near Sitka,0,,True,False
+SWMA2,Sawmill Creek below Upper Tailrace near Sitka,1,SCSA2,True,False
 SWMC3,Peat Swamp Reservoir above Peat Swamp Reservoir,0,,True,False
 SWMS2,South Fork Whetstone River near Milbank,0,,True,False
 SWNI4,Des Moines River near Swan,7,AKWI4;CSLI4;DESI4;MTCI4;PELI4;PLHI4;PLMI4,True,False
