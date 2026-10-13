@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NVIW3,Rock River at Inflow Lake Koshkonong,0,,True,False
-NVLI3,St. Joseph River (OH/IN) near Newville,3,FLTI3;MONO1;ROOI3,True,False
-NVLW3,Rock River at Lake Koshkonong,2,FATW3;NVEW3,True,False
-NVPC1,Novato Creek at Pacheco and San Jose Creeks,0,,True,False
-NVRC1,Navarro River near Navarro,0,,True,False
-NVRN5,San Juan River at Navajo Dam,0,,True,False
-NVRN6,Neversink River at Neversink Reservoir,2,BRGN6;NVCN6,True,False
-NVXN6,Neversink River below Neversink Reservoir,0,,True,False
-NVZM7,Chariton River near Novinger,2,MOLI4;PRIM7,True,False
-NWBG1,Little River at Newborn Road near Newborn,0,,True,False
-NWBI2,Edwards River near New Boston,0,,True,False
-NWBI3,White River (IN) at Newberry,2,ELLI3;FREI3,True,False
-NWCL1,Tide Station (LIX) near Lakefront,1,SHBL1,True,False
-NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
-NWEF1,Cocoplum Waterway Near North Port,0,,True,False
-NWFM1,Sheepscot River at North Whitefield,0,,True,False
-NWHC3,Long Island Sound at New Haven (IN MLLW),0,,True,False
-NWHN6,Chenango River at Norwich,2,CHON6;SHBN6,True,False
-NWHT1,Mississippi River Northwest TN Harbor,2,HKMK2;NMDM7,True,False
-NWKN4,Passaic River at Newark (IN MLLW),1,DDCN4,True,False
-NWKW3,Moore Creek at Norwalk,0,,True,False
-NWLM5,Middle Fork Crow River near New London 1S,1,MNAM5,True,False
-NWMC1,San Joaquin River at Newman,3,MEEC1;PATC1;STVC1,True,False
-NWMS2,North Fork Whetstone River near Milbank,0,,True,False
-NWMV2,Smith Creek near New Market,0,,True,False
 NWMW4,Nowood River near Manderson,0,,True,False
 NWPN7,Newport River at Newport (in MLLW),0,,True,False
 NWPO1,Tuscarawas River at New Philadelphia,2,DVLO1;NCTO1,True,False
@@ -102,7 +77,7 @@ OCRV2,Occoquan River at VA-123,0,,True,False
 OCTT1,Ocoee Dam #1 Tailwater at Parksville,0,,True,False
 OCTW3,Oconto River near Oconto,1,GILW3,True,False
 OCUO3,Willamette River above Falls at Oregon City,2,ORCO3;WCFO3,True,False
-OCYW3,Moore Creek near Wilton - County Road T,0,,True,False
+OCYW3,Moore Creek near Wilton - County Road T,2,NWKW3;ONTW3,True,False
 ODAK2,South Fork Kentucky River at Oneida,2,BOOK2;MCHK2,True,False
 ODAM5,Minnesota River near Odessa Hwy 75 Dam (Tailwater),2,MLDM5;ORTM5,True,False
 ODAW3,Bad River (WI) near Odanah,2,BADW3;BDOW3,True,False
@@ -214,7 +189,7 @@ ONLC2,Laramie River near Glendevey,0,,True,False
 ONMW1,Ninemile Creek near Oroville,0,,True,False
 ONOM5,North Branch Middle Fork Zumbro River near Oronoco 1W,2,LKZM5;PNLM5,True,False
 ONSC1,Klamath River at Orleans,2,KLMC1;SEIC1,True,False
-ONTW3,Kickapoo River at Ontario,1,LAFW3,True,False
+ONTW3,Kickapoo River at Ontario,2,LAFW3;OCYW3,True,False
 ONYK2,Tradewater River above Olney,0,,True,False
 OOAI4,South Skunk River near Oskaloosa,2,MERI4;RSSI4,True,False
 OOBT1,Oostanaula Creek at Sanford 1SE,0,,True,False
@@ -255,7 +230,7 @@ ORFT2,Cow Bayou at FM 1442,3,BCVT2;COWT2;MCVT2,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
 ORHM8,Rock Creek (NE MT) near Opheim,0,,True,False
 ORIC1,Redwood Creek near Orick,0,,True,False
-ORII2,Edwards River near Orion,0,,True,False
+ORII2,Edwards River near Orion,1,NWBI2,True,False
 ORIN6,Orient Harbor at Orient (IN MLLW),0,,True,False
 ORIN7,Pamlico Sound at Oregon Inlet Marina (in MLLW),0,,True,False
 ORIV2,Town Branch near Fincastle,0,,True,False
