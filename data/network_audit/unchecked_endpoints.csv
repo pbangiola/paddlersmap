@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
-PLYK1,Cottonwood River near Plymouth,2,CTWK1;EMPK1,True,False
-PMAF1,Tide Gauge at Port Manatee (in MHHW),0,,True,False
-PMAN6,Erie Canal at Lock E29 Palmyra,2,ELYN6;MCDN6,True,False
-PMAW2,Cheat River above Cheat Lake - Inflow,0,,True,False
-PMBC1,Permanente Creek above Berry Avenue,0,,True,False
-PMBM2,Bennett Creek at Park Mills,0,,True,False
-PMBN7,Lumber River near Pembroke,2,LMBN7;MAXN7,True,False
-PMDI4,Bluff Creek at Pilot Mound,0,,True,False
-PMEC1,Permanente Creek at Rancho San Antonio,0,,True,False
-PMFC1,Thompsen Creek at Sunnyslope Road,0,,True,False
-PMJC1,Adobe Creek at Manor Lane,0,,True,False
-PMKM8,Pumpkin Creek near Miles City,0,,True,False
-PMNK1,Marais Des Cygnes River near Pomona,2,OTWK1;QNMK1,True,False
-PMOA2,Port Moller Tide Gauge at Port Moller (MLLW datum),0,,True,False
-PMOF1,Phosphate Mine Outfall CS-8 Near Bartow,0,,True,False
-PMPL1,Lake Pontchartrain at Pass Manchac near Ponchatoula,0,,True,False
-PMPN4,Ramapo River at Lakseside Ave at Pompton Lakes,0,,True,False
-PMRP1,Monongahela River at Point Marion Lock and Dam (lower pool),2,GYLP1;MORW2,True,False
-PMTN6,Hudson River at Piermont (IN MLLW),0,,True,False
-PMTP1,Lackawaxen River at Prompton Lake Dam,2,ALDP1;HONP1,True,False
-PMYP1,Swatara Creek near Palmyra,0,,True,False
-PMZM7,Middle Fork Salt River near Holliday,1,CPZM7,True,False
-PNBI1,Paasasikwana Naokwaide below Bruno Ck,0,,True,False
-PNBI4,Burchfield Creek near Panora Sage Trl--IFC,0,,True,False
 PNBN4,Whippany River at Pine Brook,0,,True,False
 PNBT1,Cumberland River near Penington Bend,2,HTGT1;OMOT1,True,False
 PNCM5,Snake River (MN) near Pine City,2,GSTM5;SUNM5,True,False
@@ -43,7 +18,7 @@ PNJC1,Pinole Creek at San Pablo Avenue,0,,True,False
 PNKC1,Piner Creek  Piner Creek Dam,0,,True,False
 PNKI1,"Portneuf River at Inkom, ID",2,PIHI1;TOPI1,True,False
 PNLF1,Withlacoochee River at Pineola (in NAVD88),2,NOBF1;WFLF1,True,False
-PNLI4,Lake Panorama at Panora,2,BAYI4;PANI4,True,False
+PNLI4,Lake Panorama at Panora,3,BAYI4;PANI4;PNBI4,True,False
 PNLM5,Middle Fork Zumbro River at Pine Island,2,BNEM5;ONOM5,True,False
 PNLM6,Tide Station (LIX) at Pascagoula NOAA Lab (IN MHHW),0,,True,False
 PNNC2,Fountain Creek near Piñon,2,FCHC2;FHAC2,True,False
@@ -1046,7 +1021,7 @@ SAVT1,Tennessee River at Savannah,2,CLNT1;PICT1,True,False
 SAXM3,Sudbury River at Saxonville,0,,True,False
 SAXV2,Chesapeake Bay near Starling Creek at Saxis (IN MLLW),0,,True,False
 SAYA1,Locust Fork at Sayre,1,CLEA1,True,False
-SAYI4,Des Moines River at Saylorville Reservoir,3,BODI4;PLKI4;SDTI4,True,False
+SAYI4,Des Moines River at Saylorville Reservoir,4,BODI4;PLKI4;PMDI4;SDTI4,True,False
 SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SAYN6,Great South Bay at West Sayville (IN MLLW),0,,True,False
 SAYO2,North Fork of the Red River near Sayre,2,CARO2;SHAT2,True,False
@@ -2539,7 +2514,7 @@ TOLN8,Tolna Coulee near Tolna,0,,True,False
 TOLS1,Tools Fork Creek near Rock Hill,0,,True,False
 TOLW1,Tolt River near Carnation,0,,True,False
 TOMC2,Tomichi Creek at Gunnison,0,,True,False
-TOMI1,Thompson Creek (ID) near Clayton,0,,True,False
+TOMI1,Thompson Creek (ID) near Clayton,1,PNBI1,True,False
 TOMN7,Black River near Tomahawk,2,BCUN7;BRTN7,True,False
 TONA1,Aldridge Creek (AL) at Toney Drive in Huntsville,1,SHEA1,True,False
 TONA2,Tonsina River at the Richardson Hwy near Tonsina,0,,True,False
@@ -3839,7 +3814,7 @@ YELO1,Yellow Creek at Hammonsville,0,,True,False
 YELW3,North Fork Yellow River near Perkinstown,0,,True,False
 YESG1,Yellow River near Snellville,0,,True,False
 YETG1,Yellow River Tributary at Plantation Road near Lawrenceville,0,,True,False
-YFSI1,Yankee Fork Salmon River near Clayton,0,,True,False
+YFSI1,Yankee Fork Salmon River near Clayton,1,PNBI1,True,False
 YFYA2,Yukon River at Fort Yukon,2,BVRA2;CIRA2,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YGOP1,Youghiogheny River below Youghiogheyny Dam - Outflow (Tailwater),2,CNFP1;FRDM2,True,False
