@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WYNM6,Chickasawhay River near Waynesboro,2,LEKM6;SHBM6,True,False
-WYPV2,James River (VA) at WEYANOKE POINT NEAR CHARLES CITY,0,,True,False
-WYSF1,Withlacoochee River at Wysong Dam (in NAVD88),2,RUTF1;WFLF1,True,False
-WYSS1,Winyah Bay at Georgetown  - NERRS Surface Water Quality,2,HAGS1;PDGS1,True,False
-WYTM1,Wytopitlock Stream near Reed Plantation,0,,True,False
-WYWN2,Walker River at Miller Ln,0,,True,False
-WZRM8,Wise River at Wise River,0,,True,False
-XAOC1,Coyote Creek above Ogier Ponds,0,,True,False
-XAPC1,Aptos Creek at Aptos,0,,True,False
-XBCC1,Berryessa Creek at Old Piedmont Road,0,,True,False
-XBOC1,Coyote Creek below Ogier Ponds,0,,True,False
-XBRM3,Blackstone River near Uxbridge,0,,True,False
-XBVC1,Kern River at BUENA VISTA CANAL,0,,True,False
-XCAC1,Pescadero Creek at Stage Rd,0,,True,False
-XCBC1,Coyote Creek at Berryessa Rd.,1,UMYC1,True,False
-XCHC1,Chabot Canal Below Stonebridge Drive,0,,True,False
-XCMC1,Coyote Creek at Madrone,0,,True,False
-XDSC1,Santa Rosa Creek at Downtown Culverts,0,,True,False
-XESC1,Kern River at EASTSIDE CANAL,0,,True,False
-XKCC1,Kern River at CANAL--ABOVE TRUXTUN AVE,0,,True,False
-XKIC1,Kern River at ISLAND CANAL,0,,True,False
-XLAC1,Little Arthur Creek at Redwood Retreat Rd,0,,True,False
-XLGC1,Line G3 - Fairlands Drive,0,,True,False
-XLSC1,Llagas Creek below Santa Teresa Blvd,2,LCXC1;LSXC1,True,False
-XMHC1,Mojave River at Hodge,0,,True,False
 XMWC1,Mark West Creek at Michele Way,0,,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
 XPCC1,Mark West Creek at Porter Creek Rd,0,,True,False
@@ -120,7 +95,7 @@ ZEEM4,Macatawa River near Zeeland,0,,True,False
 ZENK1,Rattlesnake Creek (KS) near Zenith,1,MACK1,True,False
 ZFSF1,Peace River at Zolfo Springs,3,ARCF1;PWAF1;WLAF1,True,False
 ZKAF1,Gulf Tide Station Near Chassahowitzka,0,,True,False
-ZLGC1,Line G1 - Dublin Blvd,0,,True,False
+ZLGC1,Line G1 - Dublin Blvd,1,XCHC1,True,False
 ZLJC1,Line J1 below Dublin Blvd,0,,True,False
 ZLMC1,Line M - Lindbergh Avenue,0,,True,False
 ZLPP1,Connoquenessing Creek at Zelienople,1,BTRP1,True,False
