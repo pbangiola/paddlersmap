@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PTFI1,Spokane River near Post Falls ID,2,COEI1;SGRW1,True,False
-PTFL1,Tide Station (LIX) at Port Fourchon (IN MHHW),0,,True,False
-PTGN6,Genesee River at Portageville (USACE),0,,True,False
-PTHF1,Pithlachascotee River Near New Port Richey,2,PNPF1;PODF1,True,False
-PTHN7,Currituck Sound at US 158 Near Point Harbor,0,,True,False
-PTHO1,Clear Fork Mohican River above Pleasant Hill Dam,2,BLEO1;PHLO1,True,False
-PTIK1,N F Solomon River at Portis,1,KRWK1,True,False
-PTKC1,Petaluma River at Twin Bridges,0,,True,False
-PTLC2,Saint Vrain Creek near Platteville,2,KERC2;SVLC2,True,False
-PTMC1,Willow Brook at Old Redwood Highway Bridge,0,,True,False
-PTMN1,Missouri River at Plattsmouth,2,MTLN1;NEBN1,True,False
-PTNM5,South Branch Root River at Preston,3,CMAM5;LNSM5;PCCM5,True,False
-PTNP1,Schuylkill River at Pottstown,2,NRSP1;RDRP1,True,False
-PTOF1,Halifax River at Port Orange (in MHHW),0,,True,False
-PTRC2,Purgatoire River at Trinidad,2,LAPC2;PGRC2,True,False
-PTRI3,White River (IN) at Petersburg,2,HAZI3;PETI3,True,False
-PTRM2,Plumtree Run near Bel Air,0,,True,False
-PTRN3,Contoocook River at Peterborough,1,HENN3,True,False
-PTSA1,Patsaliga Creek near Brantley,0,,True,False
-PTSN3,Connecticut River at Pittsburg,0,,True,False
-PTTA4,Cache River at Patterson,2,CPCA4;EGPA4,True,False
-PTTC1,Del Puerto Creek near Patterson,0,,True,False
-PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
-PTTP1,Ohio River at Pittsburgh,3,BDDP1;EMXP1;SHRP1,True,False
-PTTV2,Smith River at Philpott Dam,2,BASV2;SMWV2,True,False
 PTVC1,Willow Brook at Stony Point Road,0,,True,False
 PTVK2,Levisa Fork at Paintsville,4,DWYK2;FLRK2;PNTK2;PSTK2,True,False
 PTVN4,Lamington (Black) River at Pottersville,0,,True,False
