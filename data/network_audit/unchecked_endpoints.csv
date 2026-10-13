@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-YNTC1,Redwood Creek (Napa County) at Mt Veeder Road,0,,True,False
-YNTK2,Elkhorn Creek at Yarnallton,1,PKMK2,True,False
-YNTN6,Lower Niagara River at Youngstown (Fort Niagara),0,,True,False
-YOCK1,near Yocemento,0,,True,False
-YOKO3,Umatilla River near Yoakum,2,PDTO3;UMAO3,True,False
-YORC1,York Creek at Highway 29,0,,True,False
-YPRC1,Coyote Perc Pond 10B,0,,True,False
-YPSA2,Yukon River at Pilot Station,3,EMYA2;NULA2;YHCA2,True,False
-YRBA2,Yukon River near Stevens Village,3,BVRA2;CIRA2;TALA2,True,False
-YRBF1,Yellow River at Brown's Fishing Camp (in MHHW),0,,True,False
-YRCO3,Yaquina River near Chitwood,0,,True,False
-YRCP1,Codorus Creek near York,0,,True,False
-YRDN4,Yards Creek near Blairstown,0,,True,False
-YREC1,Shasta River near Yreka,0,,True,False
-YRGA2,Yukon River at Grayling,0,,True,False
-YRII4,Yellow River near Ion,0,,True,False
-YRKI2,Blackberry Creek at Yorkville,2,BBMI2;DAYI2,True,False
-YRKP1,Central PA Dams  Indian Rock Dam on Codorus Creek,3,CRWP1;KNZP1;SGVP1,True,False
-YRSM6,Yazoo River at Satartia,0,,True,False
-YRYO3,Yachats River near Yachats,0,,True,False
-YSSA2,[INACTIVE] Yentna River near Susitna Station,2,SUSA2;YSTA2,True,False
-YSTA2,Yentna River near Yentna Station,2,YLKA2;YSSA2,True,False
-YTCC3,Yantic River at Yantic,0,,True,False
-YTLC1,Lytle Creek near Colton,0,,True,False
-YTPC1,Coyote Reservior  (Lake Mendocino),0,,True,False
 YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YUCF1,Tide Gauge at Sutherland Bayou (in MHHW),0,,True,False
 YUKO2,North Canadian River near Yukon,2,ELNO2;OVRO2,True,False
@@ -32,7 +7,7 @@ YVLP1,Brokenstraw Creek at Youngsville,0,,True,False
 YWGM6,Yalobusha River at Whaley,2,GREM6;UHGM6,True,False
 YWPC1,Feather River at Yuba City Water Treatment Plant,2,FBLC1;GRIC1,True,False
 YWRQ9,Yukon River above White River-Yukon Territory,2,PRXQ9;YDAQ9,True,False
-YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
+YZOM6,Yazoo River at Yazoo City,2,BELM6;YRSM6,True,False
 ZACT2,Zacate Creek at Laredo,0,,True,False
 ZAJT2,Zacate Creek at Jacaman Road,0,,True,False
 ZANO1,Muskingum River at Zanesville,2,DREO1;MCCO1,True,False
