@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PCVU1,Paria River near Cannonville,1,PAKU1,True,False
-PCYP4,Rio Cerrillos  below Lago Cerrillos,1,PCXP4,True,False
-PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
 PDSG1,Sweetwater Creek at Brownsville Road near Powder Springs,1,NATG1,True,False
 PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
@@ -33,6 +30,7 @@ PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
+PIPM5,Pipestone Creek at Pipestone,1,PSTM5,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PITW1,Klickitat River near Pitt,1,KLCW1,True,False
 PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
@@ -58,6 +56,7 @@ PNTI2,Vermilion River  at Pontiac,1,LNRI2,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
 PNXP1,Mahoning Creek at Punxsutawney,1,PXSP1,True,False
+POCS1,Pocotaligo River at I-95 above Manning,1,PCSS1,True,False
 POCT1,Porters Creek 3S Pittman Center (Greenbrier),1,RICT1,True,False
 POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
@@ -67,6 +66,7 @@ PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
+PRCG1,Proctor Creek at Jackson Parkway at Atlanta,1,PCTG1,True,False
 PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
 PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False

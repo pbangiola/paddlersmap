@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PCRC1,Petaluma River at Corona Road,0,,True,False
-PCRK2,Pond Creek at Pond Creek,0,,True,False
-PCRO1,Paint Creek at Paint Creek lake Pool,2,BBRO1;GLDO1,True,False
-PCRS1,Pacolet River near Fingerville,0,,True,False
-PCRV2,Peak Creek at Pulaski,0,,True,False
-PCRW2,Piney Creek (WV) at Raleigh,0,,True,False
-PCSF1,Peace River at Clear Springs Near Bartow,2,PBZF1;PHOF1,True,False
-PCSG1,Proctor Creek Tributary near Atlanta,0,,True,False
-PCSS1,Pocotaligo River at Sumter,0,,True,False
-PCSS2,Pipestone Creek near Sherman,0,,True,False
-PCST2,Pecos River 2 miles NE of Pecos,2,ORLT2;PGFT2,True,False
-PCTG1,Proctor Creek near Atlanta,0,,True,False
-PCTN4,Stony Brook at Princeton,0,,True,False
-PCTT2,North Texas Lakes at Proctor Lake,3,DLLT2;DSBT2;HMLT2,True,False
-PCUF1,Pottsburg Creek at Beach Boulevard (US 90) (in MHHW),0,,True,False
-PCVF1,St George Island at Pilot's Cove (in MHHW),0,,True,False
-PCVK2,Bacon Creek at Priceville,0,,True,False
-PCVU1,Paria River near Cannonville,1,PAKU1,True,False
-PCWV2,Preddy Creek At Watts Passage,0,,True,False
-PCXC1,Kern River at PIONEER CANAL,0,,True,False
-PCXP4,Lago Cerrillos at Damsite,2,PCEP4;PCYP4,True,False
-PCYO2,Arkansas River near Ponca City,2,ARCK1;RLSO2,True,False
-PCYP4,Rio Cerrillos  below Lago Cerrillos,1,PCXP4,True,False
-PDAC2,Arkansas River above Pueblo,2,ADLC2;PRTC2,True,False
-PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDAT2,Pecos River at Pandale Crossing,2,LTRT2;SPCT2,True,False
 PDAW4,Prairie Dog Creek near Acme ,0,,True,False
 PDBF1,Port Laudania Canal at Port Laudania (in MHHW),0,,True,False
@@ -175,7 +150,7 @@ PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
 PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIOT2,Rio Grande 6 miles WNW of Presidio,2,CDET2;PRST2,True,False
 PIPF1,Choctawhatchee Bay at Pilcher Park (in MHHW),0,,True,False
-PIPM5,Pipestone Creek at Pipestone,0,,True,False
+PIPM5,Pipestone Creek at Pipestone,1,PSTM5,True,False
 PIPS2,Blackpipe Creek near Belvidere,0,,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PIQO1,Great Miami River at Piqua,3,LOCO1;SIDO1;TRYO1,True,False
@@ -344,7 +319,7 @@ PNXP1,Mahoning Creek at Punxsutawney,1,PXSP1,True,False
 PNYF1,South Fork Black Creek near Penney Farms,0,,True,False
 POCA4,Black River at Pocahontas,2,BKRA4;CRGA4,True,False
 POCC1,Pole Creek,0,,True,False
-POCS1,Pocotaligo River at I-95 above Manning,0,,True,False
+POCS1,Pocotaligo River at I-95 above Manning,1,PCSS1,True,False
 POCT1,Porters Creek 3S Pittman Center (Greenbrier),1,RICT1,True,False
 POCW1,Pend Oreille River at Cusick,2,ALFW1;POIW1,True,False
 PODF1,Pithlachascotee River Below Suncoast Pkwy Near Fivay Jct,2,FVJF1;PTHF1,True,False
@@ -409,7 +384,7 @@ PRBM2,"Potomac River at Brunswick, MD",0,,True,False
 PRBQ9,Porcupine River near International Boundary near Old Crow-Yukon Territory,0,,True,False
 PRBT2,Alamito Creek 5 miles ESE of Presidio,0,,True,False
 PRCA2,Porcupine River at Mouth of Coleen River nr Canyon Village,0,,True,False
-PRCG1,Proctor Creek at Jackson Parkway at Atlanta,0,,True,False
+PRCG1,Proctor Creek at Jackson Parkway at Atlanta,1,PCTG1,True,False
 PRCI1,North Fork Coeur d'Alene River near Prichard,0,,True,False
 PRCL1,Amite River Basin at Little Sandy Creek at Peiars Rd. near Milldale,0,,True,False
 PRCM8,Prospect Creek at Thompson Falls,0,,True,False
@@ -537,7 +512,7 @@ PSRI1,Priest River near Coolin ID,0,,True,False
 PSTI1,South Fork Coeur d'Alene River near PINEHURST,0,,True,False
 PSTK2,Levisa Fork at Prestonsburg,2,PKYK2;PTVK2,True,False
 PSTL1,Tide Station (LIX) at Pilot Station,2,GISL1;SHBL1,True,False
-PSTM5,Pipestone Creek below Pipestone,0,,True,False
+PSTM5,Pipestone Creek below Pipestone,2,PCSS2;PIPM5,True,False
 PSTN6,Lake Erie at Sturgeon Point (NOS),0,,True,False
 PSUV2,Unnamed Tributary at New Alexandria Pump Station - Upstream,0,,True,False
 PSVU1,"Pack Creek at Pack Creek Road Bridge near Moab, UT",0,,True,False
