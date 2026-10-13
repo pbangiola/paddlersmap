@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OCTT1,Ocoee Dam #1 Tailwater at Parksville,0,,True,False
-OCTW3,Oconto River near Oconto,1,GILW3,True,False
-OCUO3,Willamette River above Falls at Oregon City,2,ORCO3;WCFO3,True,False
-OCYW3,Moore Creek near Wilton - County Road T,2,NWKW3;ONTW3,True,False
-ODAK2,South Fork Kentucky River at Oneida,2,BOOK2;MCHK2,True,False
-ODAM5,Minnesota River near Odessa Hwy 75 Dam (Tailwater),2,MLDM5;ORTM5,True,False
-ODAW3,Bad River (WI) near Odanah,2,BADW3;BDOW3,True,False
-ODBN4,Deep Run at Old Bridge,0,,True,False
-ODBV2,Broad Run at Brentsville Road,0,,True,False
-ODCT2,Terry Gully at FM 1442,0,,True,False
-ODEM5,Yellow Bank River at Odessa 3SE Hwy 75 Splwy,0,,True,False
-ODOW3,Rullands Coulee Creek near Portland - Oakland Road,0,,True,False
-ODSI4,Lake Odessa at Schafer Landing - Port Louisa National Wildlife Refuge,0,,True,False
-ODSM5,Yellow Bank River near Odessa,0,,True,False
-ODSN1,Platte River near Odessa,2,KEAN1;OVTN1,True,False
-OFAM6,Yockanookany River near Ofahoma,2,KSCM6;RATM6,True,False
-OFBM6,Pascagoula River at Old Fort Bayou at Ocean Springs,0,,True,False
-OFFG1,Little Satilla River near Offerman,0,,True,False
-OFFN1,Offutt Ditch (Bellevue Drain) near Offutt AFB,0,,True,False
-OFPF1,Osprey Fishing Pier,0,,True,False
-OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
-OGCN2,Owyhee River near Wildhorse,0,,True,False
-OGCO3,Oak Grove Fork near Government Camp,0,,True,False
-OGHU1,South Fork Ogden River near Huntsville,0,,True,False
-OGIN6,Oswegatchie River near Oswegatchie,0,,True,False
 OGLF1,Ogleby Creek Downstream From Boggy Creek,0,,True,False
 OGRI3,Yellow River near Oak Grove,2,KNXI3;PYMI3,True,False
 OGSN6,Oswegatchie River near Ogdensburg,1,HEUN6,True,False
@@ -93,7 +68,7 @@ OMBN1,Big Papillion Creek at Pacific Street at Omaha,2,OHAN1;RABN1,True,False
 OMBN7,Williams Old Mill Branch at US 421,0,,True,False
 OMCI2,Mill Creek (IL) at Old Mill Creek,0,,True,False
 OMCN1,Cole Creek at Blondo Street at Omaha,0,,True,False
-OMCN2,Owyhee River near Mountain City,0,,True,False
+OMCN2,Owyhee River near Mountain City,2,OGCN2;ORCI1,True,False
 OMHN1,Missouri River at Omaha,2,BLAN1;MOMN1,True,False
 OMIC1,Atherton Channel at Las Lomitas School,0,,True,False
 OMLN1,Little Papillion Creek at Ak-sar-ben at Omaha,2,IRVN1;RABN1,True,False
@@ -141,7 +116,7 @@ ORBC1,Old River at Byron,0,,True,False
 ORBS1,N. Fork Edisto River at Orangeburg,2,EBRS1;NFES1,True,False
 ORBT2,West Bouldin Creek above Oltorf Road at Austin,0,,True,False
 ORCF1,Tide Gauge at Orange River Bridge (in MHHW),0,,True,False
-ORCI1,East Fork Owyhee River at Crutcher Crossing,0,,True,False
+ORCI1,East Fork Owyhee River at Crutcher Crossing,2,OMCN2;ROMO3,True,False
 ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
 ORCO3,Willamette River below Falls at Oregon City,2,OCUO3;PRTO3,True,False
 ORCT2,Little Cypress Creek near Ore City,1,JFFT2,True,False
@@ -249,7 +224,7 @@ OWSI4,South Beaver Creek near Owasa US 65--IFC,0,,True,False
 OWSN6,Owasco Lake near Auburn,0,,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 OWTM5,Straight River at Owatonna,1,FRBM5,True,False
-OWYO3,Owyhee River at Owyhee Dam,0,,True,False
+OWYO3,Owyhee River at Owyhee Dam,1,ROMO3,True,False
 OXDM6,Yocona River near Oxford,1,ENDM6,True,False
 OXDT2,Sandy Creek near Willow City,0,,True,False
 OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
@@ -1452,7 +1427,7 @@ ROLI2,Salt Creek (IL) at Rolling Meadows,1,EVGI2,True,False
 ROLI4,Bear Creek near Roland 150th St--IFC,0,,True,False
 ROLW2,Cheat River at Rowlesburg,2,PSNW2;ROWW2,True,False
 ROMI2,Chicago Sanitary and Ship Canal at Romeoville,3,JRSI2;LCSI2;LOKI2,True,False
-ROMO3,Owyhee River at Rome,0,,True,False
+ROMO3,Owyhee River at Rome,2,ORCI1;OWYO3,True,False
 ROMT1,Big Creek near Rosemark,1,MLLT1,True,False
 ROMW3,Bark River at Rome,0,,True,False
 RONN6,Rondout Creek at Rondout Rsvr,0,,True,False
@@ -3866,7 +3841,7 @@ WDEM3,Deerfield River at West Deerfield,0,,True,False
 WDEW3,Wisconsin River at Wisconsin Dells,4,CROW3;NLSW3;PORW3;WRMW3,True,False
 WDGO2,North Canadian River near Woodward,2,SEIO2;WDWO2,True,False
 WDHK2,Green River (KY) above Woodbury,3,BNWK2;BWGK2;RCHK2,True,False
-WDHN2,Owyhee River at Wildhorse Dam,0,,True,False
+WDHN2,Owyhee River at Wildhorse Dam,1,OGCN2,True,False
 WDKC1,Ward Creek above Sunnyside,0,,True,False
 WDLA1,Tallapoosa River at Wadley,2,HBPA1;MHDA1,True,False
 WDLM2,Dead Run Tributary near Woodlawn,0,,True,False

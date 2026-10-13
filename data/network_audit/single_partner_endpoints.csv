@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OCTW3,Oconto River near Oconto,1,GILW3,True,False
-OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
 OGSN6,Oswegatchie River near Ogdensburg,1,HEUN6,True,False
 OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
 OKLM5,Lost River at Oklee,1,LOSM5,True,False
@@ -25,6 +23,7 @@ OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
 OWOM4,Shiawassee River at Owosso,1,JTSM4,True,False
 OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
 OWTM5,Straight River at Owatonna,1,FRBM5,True,False
+OWYO3,Owyhee River at Owyhee Dam,1,ROMO3,True,False
 OXDM6,Yocona River near Oxford,1,ENDM6,True,False
 OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
 PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
@@ -493,6 +492,7 @@ WCIF1,Tide Gauge at Yankeetown (in MHHW),1,WIGF1,True,False
 WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
 WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
+WDHN2,Owyhee River at Wildhorse Dam,1,OGCN2,True,False
 WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False
 WDRW3,Yahara River at Windsor,1,MDAW3,True,False
