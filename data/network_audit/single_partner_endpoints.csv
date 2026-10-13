@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NPLI3,Sugar Creek (central) at New Palestine,1,SCBI3,True,False
-NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
-NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
-NPTO1,Loramie Creek near Newport,1,LOCO1,True,False
-NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
 NRMO2,Little River (OK) at Lake Thunderbird,1,NLRO2,True,False
@@ -428,6 +423,7 @@ TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
 TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TARC3,Farmington River at Tariffville,1,SIMC3,True,False
 TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
+TBLL1,Bayou Lafourche at Thibodaux,1,NPVL1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
 TCFP1,Towanda Creek at Franklindale,1,MONP1,True,False

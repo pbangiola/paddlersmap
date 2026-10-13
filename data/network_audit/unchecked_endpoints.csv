@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NPCC1,Napa Creek at Highway 29,0,,True,False
-NPCF1,Tide Gauge at New Pass Bridge (in MHHW),0,,True,False
-NPEN3,Beaver Brook at North Pelham,0,,True,False
-NPGW4,North Fork Popo Agie River at Gallinger Ranch,0,,True,False
-NPLI3,Sugar Creek (central) at New Palestine,1,SCBI3,True,False
-NPOC1,San Luis Obispo Creek at Nipomo St. ,0,,True,False
-NPOF1,Big Slough Canal at Tropicare Blvd,2,BIGF1;NPRF1,True,False
-NPPW4,North Platte River below Pathfinder Dam,2,GRFW4;KORW4,True,False
-NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
-NPRN1,Keya Paha River near Naper,1,WEWS2,True,False
-NPRN7,North Prong Falling Creek at Rockingham Rd,0,,True,False
-NPRO3,North Powder near North Powder,0,,True,False
-NPSF1,Tide Station at Naples,0,,True,False
-NPSN1,South Platte River at North Platte,2,MXWN1;RSON1,True,False
-NPTA4,White River at Newport,2,AUGA4;BAGA4,True,False
-NPTC2,Arkansas River near Nepesta,3,ADLC2;CDMC2;FWLC2,True,False
-NPTD1,Christina River at Newport (IN MLLW),0,,True,False
-NPTN1,North Platte River at North Platte,4,BDYN1;BIRN1;KNGN1;SUTN1,True,False
-NPTO1,Loramie Creek near Newport,1,LOCO1,True,False
-NPTP1,Juniata River at Newport,1,LWSP1,True,False
-NPVI2,West Branch Du Page River at Naperville (Webster St),2,NAWI2;NFDI2,True,False
-NPVI4,South Fork Iowa River near New Providence,5,BKSI4;BLII4;EDBI4;HTII4;MIWI4,True,False
-NPVL1,Bayou Lafourche above Napoleonville,0,,True,False
-NRBF1,New River near Lake Butler (in NAVD88),0,,True,False
-NRBL1,Natalbany River at Baptist,0,,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRBS1,North Rabon Creek near Hickory Tavern,0,,True,False
 NRCA2,Niukluk River above Melsing Creek at Council,0,,True,False
@@ -3183,7 +3158,7 @@ TBFF1,Lake Tarpon Canal at S-551 Near Oldsmar,0,,True,False
 TBFT2,Neches River near Town Bluff,2,EVDT2;TBLT2,True,False
 TBGS1,Tearcoat Branch at I-95 near Manning,0,,True,False
 TBKF1,Turning Basin Ramp at KSC (in MHHW),0,,True,False
-TBLL1,Bayou Lafourche at Thibodaux,0,,True,False
+TBLL1,Bayou Lafourche at Thibodaux,1,NPVL1,True,False
 TBLM6,Bayou Lasalle at Tributary near Diamondhead,0,,True,False
 TBLT2,Neches River at Steinhagen Lake,4,JSPT2;LPTT2;ROKT2;TBFT2,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
@@ -4447,7 +4422,7 @@ WOOR1,Blackstone River at Woonsocket,1,NBRM3,True,False
 WOOU1,Provo River near Woodland,0,,True,False
 WOPU1,Price River above Woodside,0,,True,False
 WORC2,Muddy Creek (NC CO) at Wolford Mountain Reservoir,0,,True,False
-WORF1,Santa Fe River at Worthington Springs (in NAVD88),3,GRMF1;OLPF1;SSSF1,True,False
+WORF1,Santa Fe River at Worthington Springs (in NAVD88),4,GRMF1;NRBF1;OLPF1;SSSF1,True,False
 WORI2,West Okaw River near Lovington,0,,True,False
 WORI3,White River (IN) near Worthington,0,,True,False
 WOWM6,White Oak Creek at Westbrook Road /Jackson,0,,True,False
