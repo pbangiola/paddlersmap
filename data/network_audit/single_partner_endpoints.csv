@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WDRW4,Wind River at Riverton,1,KINW4,True,False
-WDVO1,Portage River at Woodville,1,EOMO1,True,False
-WEAM5,Mustinka River at Wheaton,1,MSKM5,True,False
-WEJO1,Little Darby Creek near West Jefferson,1,DBVO1,True,False
 WEOT2,Oso Creek at Merrett Road,1,OOST2,True,False
 WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
 WESN7,Roanoke River near Westover,1,JAMN7,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WDRW4,Wind River at Riverton,1,KINW4,True,False
-WDSC1,Russian River near Windsor,0,,True,False
-WDSI2,Salt Creek (IL) at Wood Dale,2,EMHI2;EVGI2,True,False
-WDSW3,Wisconsin River below Wisconsin Rapids Dam,2,BIRW3;WIRW3,True,False
-WDTC1,Wildcat Creek at SPRR,0,,True,False
-WDTN4,Salem River at Woodstown,0,,True,False
-WDVA1,Paint Rock River (AL) near Woodville,0,,True,False
-WDVN7,Little  River near old US17 in Woodville,0,,True,False
-WDVO1,Portage River at Woodville,1,EOMO1,True,False
-WDWO2,North Canadian River at Woodward,3,BVRO2;FSPO2;WDGO2,True,False
-WEAM5,Mustinka River at Wheaton,1,MSKM5,True,False
-WEAT2,Clear Fork Trinity River near Weatherford,2,BNBT2;LWFT2,True,False
-WEBH1,NF Wailua River near Lihue,0,,True,False
-WEBM3,French River at Webster,0,,True,False
-WEBM6,Cassidy Bayou at Webb,0,,True,False
-WEBN6,Lake America at Ninemile Point,0,,True,False
-WEBN8,Starkweather Coulee near Webster,0,,True,False
-WECC2,West Creek (CO) at Westcreek,0,,True,False
-WEET2,West Elm Creek at Encino Rio at San Antonio,0,,True,False
-WEGL1,Lake Pontchartrain at West End,0,,True,False
-WEHV1,White River at West Hartford,2,RANV1;WLBN3,True,False
-WEII1,Snake River at Weiser,2,HCDI1;SNYI1,True,False
-WEJO1,Little Darby Creek near West Jefferson,1,DBVO1,True,False
-WEKF1,Wekiva River near Sanford,0,,True,False
-WELC3,Housatonic River above Seymour Wellfield,0,,True,False
 WELK1,Slate Creek (KS) at Wellington,0,,True,False
 WELM3,Charles River at Wellesley,0,,True,False
 WELN6,Genesee River at Wellsville (USACE),0,,True,False
