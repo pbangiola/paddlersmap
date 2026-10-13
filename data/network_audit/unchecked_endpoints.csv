@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MRRV2,Mountain Run At Old Rixeyville Road,0,,True,False
-MRSG1,Pataula Creek near Georgetown,0,,True,False
-MRSI2,Illinois River at Marseilles,0,,True,False
-MRSN7,Mills River near Mills River,0,,True,False
-MRTF1,East Bay at MARTIN BAYOU at US 98,0,,True,False
-MRTM5,Cannon River at Morristown,2,FRLM5;KLKM5,True,False
-MRTN4,West Branch Middle Brook near Martinsville,0,,True,False
-MRTP1,Susquehanna River at Marietta,2,CNWM2;HARP1,True,False
-MRVL1,Bayou Des Glaises Diversion Ch. at Moreauville,1,MRLL1,True,False
-MRVN1,Missouri River near Verdel,2,GRWS2;MRNN1,True,False
-MRVN7,Crabtree Creek at Crabtree Creek Greenway at Morrisville,0,,True,False
-MRXC1,Morro Creek,0,,True,False
-MRYC1,Yuba River above Marysville,0,,True,False
-MRYK1,Big Blue River at Marysville,2,BARN1;BLRK1,True,False
-MSAP4,Rio Mameyes near Sabana,0,,True,False
-MSBF1,St. Johns River at Main Street Bridge (in MHHW),2,DMSF1;SJLF1,True,False
-MSBM5,Mississippi River at Bemidji (CSAH11),2,BEMM5;MSWM5,True,False
-MSBM6,Mississippi Sound at Merrill Shell Bank Lighthouse,0,,True,False
-MSBM8,Musselshell River near Mosby,1,MUSM8,True,False
-MSBP1,Bald Eagle Creek at Milesburg,2,MSCP1;SYDP1,True,False
-MSCK1,Delaware River (KS) near Muscotah,0,,True,False
-MSCM5,Mississippi River below Lock and Dam 5 - Minnesota City,5,ALMW3;AMAW3;BVRM5;EBWM5;WIDM5,True,False
-MSCO2,Soldier Creek (OK) near SE 15th Street at Midwest City,0,,True,False
-MSCP1,Spring Creek at Milesburg,2,AXEP1;MSBP1,True,False
-MSDC1,Morris Dam,0,,True,False
 MSDG1,Yellow River near Milstead,0,,True,False
 MSDT2,Colorado River (TX) at Lake Travis,2,ALKT2;MFDT2,True,False
 MSEC1,Mission Creek (CA) near Mission Street,0,,True,False
