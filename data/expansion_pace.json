@@ -1,10 +1,10 @@
 {
   "layers": {
     "launches": {
-      "next_tile": 7,
+      "next_tile": 8,
       "delay_seconds": 120,
-      "successes": 7,
-      "failures": 5
+      "successes": 8,
+      "failures": 6
     },
     "rivers": {
       "next_tile": 0,
@@ -13,40 +13,13 @@
       "failures": 1
     },
     "gauges": {
-      "next_tile": 85,
+      "next_tile": 107,
       "delay_seconds": 2,
-      "successes": 85,
+      "successes": 107,
       "failures": 1
     }
   },
   "history": [
-    {
-      "layer": "launches",
-      "tile": 0,
-      "seconds": 1.05,
-      "bytes": 0,
-      "features": 0,
-      "added": 0,
-      "result": "HTTP Error 500: Internal Server Error"
-    },
-    {
-      "layer": "rivers",
-      "tile": 0,
-      "seconds": 0.33,
-      "bytes": 0,
-      "features": 0,
-      "added": 0,
-      "result": "HTTP Error 500: Internal Server Error"
-    },
-    {
-      "layer": "gauges",
-      "tile": 0,
-      "seconds": 0.3,
-      "bytes": 0,
-      "features": 0,
-      "added": 0,
-      "result": "HTTP Error 404: "
-    },
     {
       "layer": "launches",
       "tile": 0,
@@ -910,12 +883,228 @@
       "features": 8,
       "added": 8,
       "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 7,
+      "seconds": 1.18,
+      "bytes": 936,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 85,
+      "seconds": 0.88,
+      "bytes": 31709,
+      "features": 15,
+      "added": 15,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 8,
+      "seconds": 6.14,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "layer": "gauges",
+      "tile": 86,
+      "seconds": 0.51,
+      "bytes": 42063,
+      "features": 20,
+      "added": 20,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 87,
+      "seconds": 0.55,
+      "bytes": 66210,
+      "features": 32,
+      "added": 32,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 88,
+      "seconds": 0.84,
+      "bytes": 109895,
+      "features": 53,
+      "added": 53,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 89,
+      "seconds": 0.61,
+      "bytes": 95268,
+      "features": 46,
+      "added": 46,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 90,
+      "seconds": 0.43,
+      "bytes": 13702,
+      "features": 6,
+      "added": 6,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 91,
+      "seconds": 0.51,
+      "bytes": 1506,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 92,
+      "seconds": 0.41,
+      "bytes": 1506,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 93,
+      "seconds": 0.41,
+      "bytes": 1506,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 94,
+      "seconds": 0.39,
+      "bytes": 1506,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 95,
+      "seconds": 0.51,
+      "bytes": 19735,
+      "features": 9,
+      "added": 9,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 96,
+      "seconds": 0.56,
+      "bytes": 53249,
+      "features": 26,
+      "added": 26,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 97,
+      "seconds": 0.46,
+      "bytes": 35542,
+      "features": 17,
+      "added": 17,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 98,
+      "seconds": 0.5,
+      "bytes": 23668,
+      "features": 11,
+      "added": 11,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 99,
+      "seconds": 0.51,
+      "bytes": 15644,
+      "features": 7,
+      "added": 7,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 100,
+      "seconds": 0.62,
+      "bytes": 41699,
+      "features": 20,
+      "added": 20,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 101,
+      "seconds": 0.51,
+      "bytes": 21751,
+      "features": 10,
+      "added": 10,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 102,
+      "seconds": 0.58,
+      "bytes": 56533,
+      "features": 27,
+      "added": 27,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 103,
+      "seconds": 0.88,
+      "bytes": 69445,
+      "features": 33,
+      "added": 33,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 104,
+      "seconds": 0.68,
+      "bytes": 84472,
+      "features": 41,
+      "added": 41,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 105,
+      "seconds": 0.64,
+      "bytes": 50931,
+      "features": 24,
+      "added": 24,
+      "result": "ok"
+    },
+    {
+      "layer": "gauges",
+      "tile": 106,
+      "seconds": 0.56,
+      "bytes": 50717,
+      "features": 24,
+      "added": 24,
+      "result": "ok"
     }
   ],
   "last_run": {
     "requests": 24,
-    "bytes": 747187,
-    "elapsed_seconds": 167.8,
+    "bytes": 889193,
+    "elapsed_seconds": 73.9,
     "probe": false
   }
 }
