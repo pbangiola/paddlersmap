@@ -1,33 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-UXBM3,West River Below West Hill Dam near Uxbridge,0,,True,False
-VAAN7,Swift Creek at Vanceboro,0,,True,False
-VAES2,Whitewood Creek above Vale,2,SBFS2;WNWS2,True,False
-VAKF1,Atlantic Ocean Tide Gauge at Virginia Key (in MHHW),0,,True,False
-VALA1,Valley Creek (AL) at Center Street,0,,True,False
-VALI2,Illinois River at Valley City,2,HARI2;MROI2,True,False
-VALO3,Malheur River at Vale,6,BEUO3;BYCO3;MAOO3;MVCO3;SFMO3;WARO3,True,False
-VALP4,Rio Valenciano near Juncos,0,,True,False
-VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
-VANI4,Raccoon River at Van Meter Hwy R16--IFC,0,,True,False
-VANN7,Van Swamp near Hoke,0,,True,False
-VANO1,Tiffin River near Evansport,2,DEFO1;STRO1,True,False
-VAPW1,Columbia River at Vancouver,2,BONO3;SHNO3,True,False
-VASC1,Los Gatos Creek at Vasona Reservoir,0,,True,False
-VASN7,Flat Creek near Iverness,1,MANN7,True,False
-VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
-VAUM8,Sun River near Vaughn,3,GFLM8;MDYM8;SSRM8,True,False
-VAVA3,Verde River near Camp Verde,0,,True,False
-VAVS2,Victoria Creek above Victoria Dam nr Rapid City,0,,True,False
-VAWA1,Valley Creek (AL-2) at Ave W,0,,True,False
-VBCC2,Van Bibber Creek (CO) near Golden,0,,True,False
-VBHF1,Indian River at Vero Beach (in MHHW),0,,True,False
-VBMN2,Virgin River blo Muddy Confluence,1,MVSA3,True,False
-VBOM1,St. Croix River above Vanceboro,2,BARM1;FORB3,True,False
-VBRA4,Lee Creek near Van Buren LCR,0,,True,False
 VBSM7,Big Spring River above Big Spring near Van Buren,0,,True,False
 VBTC1,Stevens Creek below Interstate 280,0,,True,False
 VBUA4,Arkansas River at Van Buren,2,MKGO2;OZGA4,True,False
-VBVS2,Victoria Creek below Victoria Dam nr Rapid City,0,,True,False
+VBVS2,Victoria Creek below Victoria Dam nr Rapid City,2,CYNS2;VAVS2,True,False
 VCAC1,Santa Clara River (CA) at Victoria Avenue,1,TSYC1,True,False
 VCAF1,Tide Station at the Western Tip of Vaca Key (in MHHW),0,,True,False
 VCAT2,Tide Gauge at Port Lavaca,0,,True,False
@@ -41,9 +16,9 @@ VCRC2,Los Pinos River at Vallecito Reservoir,2,LPAC2;LPVC2,True,False
 VCRN8,Sheyenne River at Valley City,2,BHTN8;FRSN8,True,False
 VCSI1,Valley Creek at Stanley,1,SRYI1,True,False
 VCVA2,Village Cove at St Paul Island Tide Gage,0,,True,False
-VCVA3,Verde River below Camp Verde,3,VDCA3;VDTA3;WCLA3,True,False
+VCVA3,Verde River below Camp Verde,4,VAVA3;VDCA3;VDTA3;WCLA3,True,False
 VCWK1,Vermillion Creek near Wamego,0,,True,False
-VDCA3,Verde River above Clarkdale,2,VCVA3;VDPA3,True,False
+VDCA3,Verde River above Clarkdale,3,VAVA3;VCVA3;VDPA3,True,False
 VDPA3,Verde River below Paulden,2,BCWA3;VDCA3,True,False
 VDRG1,Withlacoochee River near Valdosta at US 41,2,QUTG1;VDSG1,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
@@ -114,7 +89,7 @@ VNDI2,Kaskaskia River at Vandalia,4,CAYI2;CRLI2;CWDI2;KCAI2,True,False
 VNHM3,Vineyard Sound at Vineyard Haven,0,,True,False
 VNKS2,Vanocker Creek near Sturgis,0,,True,False
 VNLA3,Virgin River at Narrows,0,,True,False
-VNMI4,Raccoon River at Van Meter,3,ADEI4;REDI4;WDMI4,True,False
+VNMI4,Raccoon River at Van Meter,4,ADEI4;REDI4;VANI4;WDMI4,True,False
 VNPG1,Chattahoochee River at Powers Ferry + I-285 near Atlanta,2,MGFG1;VIXG1,True,False
 VNRM8,near Van Norman,0,,True,False
 VNSC1,San Joaquin River at Vernalis,2,MOSC1;PATC1,True,False
