@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RMOT2,Brazos River at Richmond,2,BAWT2;SLNT2,True,False
-RMRP1,Allegheny River at Rimer Lock and Dam,2,MOSP1;PARP1,True,False
-RMRV2,Murray Run at Fishburn Park in Roanoke,0,,True,False
-RMSC1,Cache Creek at Rumsey Bridge,3,CLKC1;HOUC1;YLOC1,True,False
-RMSN7,Deep River at Ramseur,1,MONN7,True,False
-RMYT2,Trinity River near Romayor,2,GRIT2;LBYT2,True,False
-RMZG1,Reed Creek near Martinez,0,,True,False
-RNBF1,Rainbow River near Dunnellon (in NAVD88),0,,True,False
-RNDI2,Big Muddy River at Rend Lake Pool,1,PLMI2,True,False
-RNDI4,Volga River near Randalia (IFC),0,,True,False
-RNDO2,Deep Red Creek near Randlett,0,,True,False
-RNDV2,Roanoke River at Randolph,2,BROV2;KERV2,True,False
-RNFM5,North Fork Crow River near Rockford 3W,0,,True,False
-RNGN7,Little Fishing Creek near Ringwood,0,,True,False
-RNKW2,Greenbrier River at Renick,2,BUCW2;CALW2,True,False
-RNOO1,Ohio River at Willow Island Lock,2,MTAO1;SARO1,True,False
-RNOP1,Young Womans Creek near Renovo,0,,True,False
-RNOW3,Brush Creek (WI) near Cashton - Nevada Road,0,,True,False
-RNSI4,South Skunk River near Randall Hwy R61--IFC,2,ESKI4;JEWI4,True,False
-RNSV2,Piney Run at Reston (Northern Sector Pond 1),0,,True,False
-RNTW1,Cedar River (WA) at Renton,1,LNDW1,True,False
-RNYM5,Rainy River at Boat Landing Blw International Falls,3,FFCQ6;LLCM5;MNUM5,True,False
-ROBL1,Tangipahoa River at Robert,2,AMIL1;PNTL1,True,False
-ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
-ROBV2,Maury River at Rockbridge Baths,1,BVSV2,True,False
 ROCI2,South Fork Sangamon River near Rochester,0,,True,False
 ROCM4,Rogue River at Rockford,0,,True,False
 ROCM5,Silver Creek (MN) near Rochester,0,,True,False
@@ -2198,7 +2173,7 @@ VERT2,Pease River near Vernon,1,CDPT2,True,False
 VESF1,Lover's Key State Park Boat Ramp (in MHHW),0,,True,False
 VESM6,Red Creek near Vestry,0,,True,False
 VFGP1,Valley Creek at PA Turnpike Bridge near Valley Forge,0,,True,False
-VGAI4,Volga River at Volga (IFC),0,,True,False
+VGAI4,Volga River at Volga (IFC),2,VLPI4;WADI4,True,False
 VGBP4,Rio Cibuco at Vega Baja,0,,True,False
 VGCM4,Clam River at Vogel Center,0,,True,False
 VGFP1,Kiskiminetas River at Vandergrift,1,LHDP1,True,False
@@ -2225,7 +2200,7 @@ VLCM4,Menominee River at Vulcan,2,NIAW3;PBIW3,True,False
 VLGC1,Green Valley Creek at Green Valley,0,,True,False
 VLIK2,Licking River above Visalia,1,BTLK2,True,False
 VLLM7,Meramec River at Valley Park,2,ERKM7;FNNM7,True,False
-VLPI4,Volga River at Littleport,0,,True,False
+VLPI4,Volga River at Littleport,2,GRBI4;VGAI4,True,False
 VLPN1,North Oak Creek at Valparaiso,0,,True,False
 VLSL1,Vermilion River at Lafayette - Surrey Street,2,VRLL1;VRPL1,True,False
 VLTA3,Virgin River at Littlefield,1,MVSA3,True,False
@@ -2286,7 +2261,7 @@ WABW1,White River near Auburn,2,WPCW1;WRPW1,True,False
 WABW4,Wind River above Boysen Reservoir near Shoshoni,0,,True,False
 WADA2,Wade Creek Tributary near Chicken,0,,True,False
 WADI3,Big Creek (IN) above Wadesville,0,,True,False
-WADI4,Volga River at Wadena (IFC),0,,True,False
+WADI4,Volga River at Wadena (IFC),2,RNDI4;VGAI4,True,False
 WADN2,Truckee River at Wadsworth,2,NIXN2;TBDN2,True,False
 WADT2,Walnut Creek at Dessau Rd near Austin,0,,True,False
 WADW3,Fox River  above dam at Waterford,0,,True,False
