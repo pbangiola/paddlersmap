@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TREF1,Santa Fe River at Three Rivers Estates (in NAVD88),2,FTWF1;FWHF1,True,False
-TREN4,Delaware River at Trenton,2,NBLP1;WASN4,True,False
-TREP1,Spring Creek (PA) at Trexlertown,0,,True,False
-TRES2,Big Sioux River at Trent,2,DRBS2;EGAS2,True,False
-TREW3,Mississippi River below Lock and Dam 6 - Trempealeau,3,DDGW3;DKTM5;WNAM5,True,False
-TRFF1,Trout River at Sherwood Forest (in MHHW),0,,True,False
-TRFM5,Red Lake River at Thief River Falls,2,RLFM5;TRRM5,True,False
-TRFV2,"Tripps Run at Falls Church, VA",0,,True,False
-TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
-TRIF1,Whitaker Canal at Tri-Par,0,,True,False
-TRIW3,Spirit River near Spirit Falls,1,SPDW3,True,False
-TRJC1,Trinity River at Junction City,0,,True,False
-TRJF1,Trout River (FL) at Lem Turner Road (in MHHW),0,,True,False
-TRJP4,Quebrada Grande at Bo. Dos Bocas,0,,True,False
-TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
-TRKF1,Turkey Creek at Palm Bay,0,,True,False
-TRKI4,Tarkio River near Elliot,0,,True,False
-TRLK1,Verdigris River at Toronto Lake,0,,True,False
-TRLN7,Walnut Creek at Trailwood Drive,2,JHSN7;WAWN7,True,False
-TRLO2,Red River near Terral,2,BKBT2;COUO2,True,False
-TRLP1,Lycoming Creek near Trout Run (Camp Susque),2,BODP1;HEPP1,True,False
-TRLV2,Thornton River at Laurel Mills Road,0,,True,False
-TRMF1,Twin Rivers Marina (In MHHW),2,CKBF1;CYXF1,True,False
-TRMW4,Tongue River at Monarch (closed),2,DAYW4;DSLM8,True,False
-TRNC1,Trinity River near Helena 1SSE,0,,True,False
 TRNI4,Monona-Harrison Ditch near Turin,0,,True,False
 TRNP1,Shenango River near Transfer,2,JMSP1;NCSP1,True,False
 TRNT2,North Texas Lakes at Cedar Creek Lake,2,LTLT2;TDDT2,True,False
