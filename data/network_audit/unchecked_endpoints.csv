@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MVNC1,Los Gatos Creek at Montevina,0,,True,False
-MVOM5,Minnesota River at Montevideo,6,APPM5;GTEM5;LQPM5;LQRM5;MLNM5;ORTM5,True,False
-MVRA3,Cerbat Wash at State Route 68 nr Verde Rd,0,,True,False
-MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
-MVSA3,Virgin River at Scenic Bridge,0,,True,False
-MVSN7,Tick Creek Nr Mount Vernon Springs,0,,True,False
-MVVC1,Mojave River near Victorville,0,,True,False
-MVYN2,Meadow Valley Wash near Caliente,0,,True,False
-MWAA3,Mohave Wash at Airway,0,,True,False
-MWBL1,Mississippi River at West Bay,2,VNCL1;WBOL1,True,False
-MWBN1,West Papillion Creek at Millard,2,EWDN1;PWBN1,True,False
-MWCI4,Willow Creek at Mason City US 18 Bus,2,CLKI4;MSPI4,True,False
-MWCK1,Wildcat Creek at Manhattan Scenic Drive,2,MSTK1;WKCK1,True,False
-MWCO2,Crutcho Creek at SE 29th Street at Midwest City,0,,True,False
-MWEC1,Mark West Creek near Mirabel Heights,0,,True,False
-MWLN4,at Midwood,0,,True,False
-MWLW2,Little Tygart Creek (WV) at Mineral Wells,0,,True,False
-MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
-MWRW2,Whetstone Creek at Mannington,0,,True,False
-MWSH1,Makawao Stream near Kailua,0,,True,False
-MWTK2,Floyds Fork near Mt. Washington,3,FNCK2;FSVK2;SHPK2,True,False
-MWXC1,Santa Ana River at MWD Crossing near Arlington,0,,True,False
-MXCF1,Tide Station at Mexico Beach (in MHHW),0,,True,False
-MXDC1,Mojave River at Daggett,0,,True,False
-MXII4,East Indian Creek near Maxwell Hwy S27--IFC,2,DCLI4;MGOI4,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXLM1,Meduxenkeag River at Lowery Rd near Houlton,2,BLVB3;MXKM1,True,False
 MXSC1,Colma Creek at South San Francisco,0,,True,False
@@ -606,7 +581,7 @@ OCAW4,Owl Creek at Arapahoe Ranch,0,,True,False
 OCBA1,Little Claybank Creek near Ozark (US 231),1,DALA1,True,False
 OCBF1,Outer Clam Bay (in MHHW),0,,True,False
 OCCN7,Roanoke River above Occoneechee Creek at NC158,0,,True,False
-OCCO2,Crutcho Creek at SE 50th Street at Oklahoma City,0,,True,False
+OCCO2,Crutcho Creek at SE 50th Street at Oklahoma City,1,MWCO2,True,False
 OCCT1,Ocoee River above Ocoee Dam #3,2,CPHT1;OCET1,True,False
 OCET1,Toccoa River (GA) / Ocoee River (TN) near Emf (Archville 3S),2,OCAT1;OCCT1,True,False
 OCHO3,Ochoco Creek below Ochoco Reservoir,0,,True,False
@@ -932,7 +907,7 @@ PARO1,West Creek above Parma 3SE,2,BRCO1;PRMO1,True,False
 PARP1,Allegheny River at Parker,2,FRKP1;RMRP1,True,False
 PARV2,North Anna River near Partlow,0,,True,False
 PARW1,Yakima River near Parker,2,KIOW1;UMTW1,True,False
-PARW2,Ohio River at Parkersburg,3,BEVW2;MCFW2;MTAO1,True,False
+PARW2,Ohio River at Parkersburg,4,BEVW2;MCFW2;MTAO1;MWLW2,True,False
 PASN1,Stinking Water Creek at Palisade,0,,True,False
 PASP4,Lago Patillas,2,GRPP4;PATP4,True,False
 PASS1,Parr Reservoir,2,ALTS1;CARS1,True,False
@@ -1417,7 +1392,7 @@ PPDT2,Pinto Creek near Del Rio 17SE,0,,True,False
 PPFK1,Neosho River near Parsons,2,EREK1;OSWK1,True,False
 PPKO1,Unknown Tributary to Chagrin River at Pepper Pike,0,,True,False
 PPLT1,Bradley Creek near Prairie Plains,0,,True,False
-PPPN4,Pompton River at Pompton Plains,0,,True,False
+PPPN4,Pompton River at Pompton Plains,1,MWLN4,True,False
 PPPU1,Provo River near Provo,0,,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
@@ -3199,7 +3174,7 @@ SRDM2,Savage River at Savage River Dam,2,BTNM2;SRVM2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SRDO3,Smith River near Drain,0,,True,False
 SRDS1,Little Salkehatchie River below Denmark,0,,True,False
-SREC1,Santa Ana River at E St near San Bernardino,0,,True,False
+SREC1,Santa Ana River at E St near San Bernardino,1,MWXC1,True,False
 SREN6,St. Regis River at Hogansburg 1.5 SW,0,,True,False
 SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
 SRFN7,Atlantic Intracoastal Waterway at Surf City Bridge,0,,True,False
@@ -3253,7 +3228,7 @@ SRTO3,Silvies River near Trout Creek,2,BUSO3;SVSO3,True,False
 SRUF1,St Marks River at US-98 (in NAVD88),0,,True,False
 SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
 SRUV2,Youngs Branch at Manassas Battlefield,0,,True,False
-SRVC1,Santa Ana River at Santa Ana,0,,True,False
+SRVC1,Santa Ana River at Santa Ana,1,MWXC1,True,False
 SRVM2,Savage River near Bloomington,2,LUKM2;SRDM2,True,False
 SRVM8,Sun River near Augusta,3,AGSM8;ELCM8;WLLM8,True,False
 SRWG1,Satilla River at Woodbine (in MHHW),0,,True,False
@@ -4179,7 +4154,7 @@ VAVS2,Victoria Creek above Victoria Dam nr Rapid City,0,,True,False
 VAWA1,Valley Creek (AL-2) at Ave W,0,,True,False
 VBCC2,Van Bibber Creek (CO) near Golden,0,,True,False
 VBHF1,Indian River at Vero Beach (in MHHW),0,,True,False
-VBMN2,Virgin River blo Muddy Confluence,0,,True,False
+VBMN2,Virgin River blo Muddy Confluence,1,MVSA3,True,False
 VBOM1,St. Croix River above Vanceboro,2,BARM1;FORB3,True,False
 VBRA4,Lee Creek near Van Buren LCR,0,,True,False
 VBSM7,Big Spring River above Big Spring near Van Buren,0,,True,False
@@ -4253,7 +4228,7 @@ VLLM7,Meramec River at Valley Park,2,ERKM7;FNNM7,True,False
 VLPI4,Volga River at Littleport,0,,True,False
 VLPN1,North Oak Creek at Valparaiso,0,,True,False
 VLSL1,Vermilion River at Lafayette - Surrey Street,2,VRLL1;VRPL1,True,False
-VLTA3,Virgin River at Littlefield,0,,True,False
+VLTA3,Virgin River at Littlefield,1,MVSA3,True,False
 VLVK2,Kentucky River at Valley View,2,CPNK2;FODK2,True,False
 VLVN8,Souris River at Velva,2,SWRN8;TOWN8,True,False
 VLYM7,Blackwater River near Valley City,1,BLVM7,True,False

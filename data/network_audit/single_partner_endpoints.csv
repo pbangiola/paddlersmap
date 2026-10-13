@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
-MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
 MXWN1,Platte River at Maxwell,1,NPSN1,True,False
 MYKF1,Myakka River Upstream Youngs Creek,1,MYTF1,True,False
@@ -91,6 +89,7 @@ OBNK1,Sappa Creek near Oberlin,1,NCRK1,True,False
 OBUA2,[INACTIVE] Kobuk River at Kobuk,1,ABLA2,True,False
 OCAT1,Ocoee Dam #1 Pool Benton 5S,1,OCET1,True,False
 OCBA1,Little Claybank Creek near Ozark (US 231),1,DALA1,True,False
+OCCO2,Crutcho Creek at SE 50th Street at Oklahoma City,1,MWCO2,True,False
 OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
 OCTW3,Oconto River near Oconto,1,GILW3,True,False
 OFRP1,Lackawanna River at Old Forge,1,PKIP1,True,False
@@ -193,6 +192,7 @@ POCT1,Porters Creek 3S Pittman Center (Greenbrier),1,RICT1,True,False
 POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
 PORI1,Kootenai River at Porthill,1,BFEI1,True,False
 POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False
+PPPN4,Pompton River at Pompton Plains,1,MWLN4,True,False
 PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
@@ -412,12 +412,14 @@ SRBS1,Salkehatchie River near Barnwell,1,MILS1,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
+SREC1,Santa Ana River at E St near San Bernardino,1,MWXC1,True,False
 SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SRTM5,Swan River near Taconite,1,JACM5,True,False
 SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
+SRVC1,Santa Ana River at Santa Ana,1,MWXC1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
@@ -527,6 +529,7 @@ UVBC1,Uvas Creek below Uvas Reservoir,1,LUVC1,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VASN7,Flat Creek near Iverness,1,MANN7,True,False
 VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
+VBMN2,Virgin River blo Muddy Confluence,1,MVSA3,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
 VERT2,Pease River near Vernon,1,CDPT2,True,False
@@ -534,6 +537,7 @@ VGFP1,Kiskiminetas River at Vandergrift,1,LHDP1,True,False
 VIMT2,Village Creek near Village Mills,1,KOUT2,True,False
 VIRU1,Virgin River near Virgin,1,HURU1,True,False
 VLIK2,Licking River above Visalia,1,BTLK2,True,False
+VLTA3,Virgin River at Littlefield,1,MVSA3,True,False
 VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
 VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
