@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OLMI2,Ohio River at Olmsted Lock and Dam Headwater,2,OLTI2;PAHK2,True,False
-OLMO1,Minnie Creek at Olmsted Falls,0,,True,False
-OLNI3,Fall Creek (IN) at Geist Reservoir,2,FCFI3;FCTI3,True,False
-OLNN6,Allegheny River at Olean,2,ELRP1;SLMN6,True,False
-OLPF1,Santa Fe River at O'leno State Park (in NAVD88),2,RRZF1;WORF1,True,False
-OLPO1,Cuyahoga River at Old Portage,3,ECAO1;HRPO1;JAIO1,True,False
-OLSA2,Nikolski Tide Gauge at Nikolski (MLLW datum),0,,True,False
-OLTI2,Ohio River at Olmsted Lock and Dam Tailwater,2,CIRI2;OLMI2,True,False
-OLTM2,Town Creek (MD) near Oldtown,0,,True,False
-OLVG1,Ogeechee River near Oliver,2,EDEG1;RFDG1,True,False
-OLVL1,Comite River near Olive Branch,2,CMTL1;COML1,True,False
-OLVM6,Coldwater River at Olive Branch,0,,True,False
-OLYG1,Olley Creek at Clay Road near Austell,0,,True,False
-OMAN1,Standing Bear Lake and Dam,0,,True,False
-OMAT1,East Fork Little Pigeon River 3SSE Fair Garden (Oma Lee),0,,True,False
-OMBN1,Big Papillion Creek at Pacific Street at Omaha,2,OHAN1;RABN1,True,False
-OMBN7,Williams Old Mill Branch at US 421,0,,True,False
-OMCI2,Mill Creek (IL) at Old Mill Creek,0,,True,False
-OMCN1,Cole Creek at Blondo Street at Omaha,0,,True,False
-OMCN2,Owyhee River near Mountain City,2,OGCN2;ORCI1,True,False
-OMHN1,Missouri River at Omaha,2,BLAN1;MOMN1,True,False
-OMIC1,Atherton Channel at Las Lomitas School,0,,True,False
-OMLN1,Little Papillion Creek at Ak-sar-ben at Omaha,2,IRVN1;RABN1,True,False
-OMNM7,Cuivre River at Old Monroe,0,,True,False
-OMOT1,Cumberland River at Omohundro,2,NAST1;PNBT1,True,False
 OMRC1,Sacramento-San Joaquin Delta above Old And Middle Rivers Tidally Filtered Est,0,,True,False
 OMWT2,White Oak Creek near Omaha at Interstate 30,0,,True,False
 ONAV2,South Branch Onancock Creek at Onancock,0,,True,False
@@ -3261,7 +3236,7 @@ TRVN7,Tar River near Tar River,1,LOUN7,True,False
 TRWC1,Trinity River near Lewiston,0,,True,False
 TRXP1,Little Lehigh Creek near Trexlertown,0,,True,False
 TRYF1,Troy Spring at Troy Spring State Park,0,,True,False
-TRYM7,Cuivre River at Troy,0,,True,False
+TRYM7,Cuivre River at Troy,1,OMNM7,True,False
 TRYM8,Yaak River near Troy,0,,True,False
 TRYN6,Hudson River at Troy,2,ALBN6;WTFN6,True,False
 TRYO1,Great Miami River at Troy,2,PIQO1;TAYO1,True,False
