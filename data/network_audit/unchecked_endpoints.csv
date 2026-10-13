@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MSPM5,Mississippi River at Fridley abv 37th Ave NE,2,ANKM5;STPM5,True,False
-MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
-MSPN6,Raquette River at Massena Springs,0,,True,False
-MSQM4,Manistique River near Manistique,0,,True,False
-MSQO1,Mosquito Creek below Mosquito Creek Lake,2,MISO1;YGWO1,True,False
-MSRF1,MS-3 CMR Near SR 72,0,,True,False
-MSRS1,Middle Saluda river near Cleveland,0,,True,False
-MSSC1,McCloud River above Above Shasta Lake,0,,True,False
-MSSF1,Ocklawaha River at Moss Bluff Dam,0,,True,False
-MSSI1,Middle Fork Salmon River at Mouth,1,MIDI1,True,False
-MSSI3,Northern Indiana Lakes at Mississinewa Lake,2,MISI3;MROI3,True,False
-MSSN6,Grass River at Massena,1,CHAN6,True,False
-MSSN7,Hiwassee River above Mission Dam at Brasstown,0,,True,False
-MSSO3,"Mill Creek (Marion Co., OR) at Spenner Road near Sublimity",1,MTTO3,True,False
-MSTK1,Wildcat Creek at Manhattan Seth Childs Rd,0,,True,False
-MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False
-MSVI4,Boyer River near Missouri Valley (IFC),1,LGNI4,True,False
-MSVL1,Tchefuncte River above Madisonville,1,TRCL1,True,False
-MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
-MSWI4,Willow Creek at Mason City 1st St SW--IFC,2,MCII4;MSPI4,True,False
-MSWM5,Mississippi River near Wilton (CSAH7),2,MSBM5;MSVM5,True,False
-MSZM7,Little Sac River near Morrisville,0,,True,False
-MTAF1,Tide Gauge at Matlacha Community Park (In MHHW),0,,True,False
-MTAO1,Ohio River at Marietta Pumphouse,3,PARW2;RNOO1;WHPO1,True,False
-MTBA1,Cahaba River near Mountain Brook,0,,True,False
 MTBT2,Nueces River at Mathis,2,GWNT2;MTHT2,True,False
 MTCI3,Turkey Creek (IN) at Merrillville,0,,True,False
 MTCI4,Camp Creek near Mitchellville IA 163--IFC,0,,True,False
@@ -136,7 +111,7 @@ MWAA3,Mohave Wash at Airway,0,,True,False
 MWBL1,Mississippi River at West Bay,2,VNCL1;WBOL1,True,False
 MWBN1,West Papillion Creek at Millard,2,EWDN1;PWBN1,True,False
 MWCI4,Willow Creek at Mason City US 18 Bus,2,CLKI4;MSPI4,True,False
-MWCK1,Wildcat Creek at Manhattan Scenic Drive,0,,True,False
+MWCK1,Wildcat Creek at Manhattan Scenic Drive,2,MSTK1;WKCK1,True,False
 MWCO2,Crutcho Creek at SE 29th Street at Midwest City,0,,True,False
 MWEC1,Mark West Creek near Mirabel Heights,0,,True,False
 MWLN4,at Midwood,0,,True,False
@@ -1298,7 +1273,7 @@ PICV2,Pound River above Indian Creek near Pound,2,NFPV2;PBCV2,True,False
 PIDC2,Piedra River near Arboles,0,,True,False
 PIDO1,Stillwater Creek at Piedmont Dam Pool,0,,True,False
 PIEL1,Bayou Pierre at Shreveport,0,,True,False
-PIEN6,Raquette River at Piercefield,0,,True,False
+PIEN6,Raquette River at Piercefield,1,SCLN6,True,False
 PIEO1,Stillwater Creek at Piedmont Dam Tailwater,0,,True,False
 PIEP4,Rio Humacao at Las Piedras,0,,True,False
 PIES2,Missouri River at Oahe Dam,4,BIWN8;EBSS2;MMRN8;PIRS2,True,False
@@ -2385,7 +2360,7 @@ RYGO3,Rogue River below Gold Ray Dam,2,EGLO3;GRAO3,True,False
 RYLV2,Rabbit Branch at Royal Lake in Burke,0,,True,False
 RYNO1,Blacklick Creek at Reynoldsburg,0,,True,False
 RYPN6,Long Island Sound at Rye (IN MLLW),0,,True,False
-RYVN6,Raquette River at Raymondville,0,,True,False
+RYVN6,Raquette River at Raymondville,2,MSPN6;SCLN6,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAF1,SR A1A at 11th Street Canal in St Augustine Beach (in NAVD88),0,,True,False
 SAAN7,Currituck Sound at Sanderling Resort,0,,True,False
@@ -2594,7 +2569,7 @@ SCKV2,Stoney Creek above Stoney Creek,0,,True,False
 SCLF1,Soldier Creek near Longwood,0,,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
 SCLM8,Swiftcurrent Creek above Swiftcurrent Lake at Many Glacier,0,,True,False
-SCLN6,Raquette River at South Colton,0,,True,False
+SCLN6,Raquette River at South Colton,2,PIEN6;RYVN6,True,False
 SCLO3,Scoggins Creek above Henry Hagg Lake,0,,True,False
 SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
 SCLV2,Stony Creek at Fort Blackmore 3NNW,0,,True,False
@@ -4812,7 +4787,7 @@ WIWC1,Willow Creek (Russian River) near 3rd Bridge,0,,True,False
 WJCT2,Williamson Creek at Jimmy Clay Road near Austin 6SE,0,,True,False
 WKAO3,Williamson River near Klamath Agency,0,,True,False
 WKAS2,Vermillion River near Wakonda,2,DVSS2;VERS2,True,False
-WKCK1,Wildcat Creek at Keats,0,,True,False
+WKCK1,Wildcat Creek at Keats,1,MWCK1,True,False
 WKEC1,Walker Creek (Marin) near Marshall,0,,True,False
 WKEF1,Wulfert Keys Power line Sanibel (In MHHW),0,,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False

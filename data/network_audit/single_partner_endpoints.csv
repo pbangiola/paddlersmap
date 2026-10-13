@@ -1,12 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
-MSSI1,Middle Fork Salmon River at Mouth,1,MIDI1,True,False
-MSSN6,Grass River at Massena,1,CHAN6,True,False
-MSSO3,"Mill Creek (Marion Co., OR) at Spenner Road near Sublimity",1,MTTO3,True,False
-MSTO1,Deer Creek at Mount Sterling,1,DCRO1,True,False
-MSVI4,Boyer River near Missouri Valley (IFC),1,LGNI4,True,False
-MSVL1,Tchefuncte River above Madisonville,1,TRCL1,True,False
-MSVM5,Mississippi River near Vern (CSAH37),1,MSWM5,True,False
 MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
 MTGK2,Johns Creek near Meta,1,DWYK2,True,False
 MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
@@ -179,6 +171,7 @@ PHCG1,Line Creek below GA 54 near Peachtree City,1,LMCG1,True,False
 PHDP1,Schuylkill River near Philadelphia near 30th Street,1,PADP1,True,False
 PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
 PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
+PIEN6,Raquette River at Piercefield,1,SCLN6,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
@@ -605,6 +598,7 @@ WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WIVF1,Withlacoochee River at Inverness (in NAVD88),1,HLDF1,True,False
+WKCK1,Wildcat Creek at Keats,1,MWCK1,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
