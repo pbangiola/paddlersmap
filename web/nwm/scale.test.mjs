@@ -28,13 +28,13 @@ test('join by exact feature ID without moving or mutating geometry', () => {
 import {DOMAINS,geometryTileUrl} from './national.mjs';
 test('national geometry uses bounded NOAA tiles with scale-aware stream detail',()=>{
   assert.deepEqual(DOMAINS.map(d=>d.id),['conus','alaska','hawaii','prvi']);
-  for(const domain of DOMAINS)for(const detail of [false,true]){
-    const url=new URL(geometryTileUrl(domain,detail));
+  for(const domain of DOMAINS)for(const order of [7,6,5,4,3,1]){
+    const url=new URL(geometryTileUrl(domain,order));
     assert.equal(url.hostname,'maps.water.noaa.gov');
     assert.equal(url.searchParams.get('bbox'),'{bbox-epsg-3857}');
     const [layer]=JSON.parse(url.searchParams.get('dynamicLayers'));
     assert.equal(layer.minScale,0);
-    assert.equal(layer.definitionExpression,detail?'1=1':'strm_order >= 4');
+    assert.equal(layer.definitionExpression,'strm_order >= '+order);
     assert.deepEqual(layer.drawingInfo.renderer.symbol.color,[136,146,155,255]);
   }
 });
