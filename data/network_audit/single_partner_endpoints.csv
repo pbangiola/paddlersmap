@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
-MTGK2,Johns Creek near Meta,1,DWYK2,True,False
 MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
 MTRF1,Tide Gauge on the Manatee River (In MHHW),1,RYEF1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
@@ -477,6 +475,7 @@ TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
 TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
 TCRI3,Trail Creek at Michigan City,1,MGNI3,True,False
+TCSI3,Turkey Creek (IN) at Schererville,1,MTCI3,True,False
 TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
 TDFS2,Spring Creek near Hill City,1,KSTS2,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False

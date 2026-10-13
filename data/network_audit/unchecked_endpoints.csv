@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MTBT2,Nueces River at Mathis,2,GWNT2;MTHT2,True,False
-MTCI3,Turkey Creek (IN) at Merrillville,0,,True,False
-MTCI4,Camp Creek near Mitchellville IA 163--IFC,0,,True,False
-MTCK2,Beaver Creek (Cumberland River KY) near Monticello,0,,True,False
-MTCM4,Clinton River at Mount Clemens,1,FSRM4,True,False
-MTCM6,Pearl River near Monticello,2,CLMM6;ROCM6,True,False
-MTCM8,Musselshell River at Martinsdale Supply Canal,0,,True,False
-MTCS1,Little River near Mt Carmel,0,,True,False
-MTCV2,Appomattox River at Matoaca,3,ARPV2;MNBV2;MTXV2,True,False
-MTDF1,Manatee River at Manatee Dam,2,MKHF1;RYEF1,True,False
-MTEC1,San Clemente Dam  ,0,,True,False
-MTGK2,Johns Creek near Meta,1,DWYK2,True,False
-MTGN4,Delaware River at Montague,2,MTMP1;TKSN4,True,False
-MTGN7,Pee Dee River at Lake Tillery,0,,True,False
-MTHI2,Silver Creek near Mascoutah,0,,True,False
-MTHM3,Spicket River near Methuen,0,,True,False
-MTHN8,Little Missouri River at Marmarth,2,CACS2;MDAN8,True,False
-MTHT2,Nueces River at Lake Corpus Christi,2,CBVT2;MTBT2,True,False
-MTIF1,Atlantic Ocean at Matanzas River Inlet Bridge (in MHHW),0,,True,False
-MTKM5,Lake Minnetonka above Gray's Dam,0,,True,False
-MTKN6,Fort Pond Bay at Montauk (IN MLLW),0,,True,False
-MTKP1,Mountain Creek near Pine Grove Furnace,0,,True,False
-MTLG1,Murder Creek near Monticello,0,,True,False
-MTLN1,Missouri River at Highway 370 at Bellevue,2,MOMN1;PTMN1,True,False
-MTLN4,Barnegat Bay at Mantoloking (IN MLLW),0,,True,False
 MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
 MTLS1,Middle Tyger River near Lyman,0,,True,False
 MTMP1,Delaware River at Matamoras/Port Jervis,2,BRYN6;MTGN4,True,False
@@ -3595,7 +3570,7 @@ SWLQ3,Pembina River near Outlet of Swan Lake,2,PCCQ3;PLRQ3,True,False
 SWMA2,Sawmill Creek below Upper Tailrace near Sitka,0,,True,False
 SWMC3,Peat Swamp Reservoir above Peat Swamp Reservoir,0,,True,False
 SWMS2,South Fork Whetstone River near Milbank,0,,True,False
-SWNI4,Des Moines River near Swan,5,AKWI4;CSLI4;DESI4;PELI4;PLHI4,True,False
+SWNI4,Des Moines River near Swan,6,AKWI4;CSLI4;DESI4;MTCI4;PELI4;PLHI4,True,False
 SWNM2,Swan Creek at Swan Creek,0,,True,False
 SWNM6,Tallahatchie River near Swan Lake,2,LOGM6;MOGM6,True,False
 SWNO2,North Canadian River near Shawnee,2,HRHO2;SNCO2,True,False
@@ -3736,7 +3711,7 @@ TCRI3,Trail Creek at Michigan City,1,MGNI3,True,False
 TCRK1,Tomahawk Creek at Roe Avenue,0,,True,False
 TCRM1,Nezinscot River at Turner Center,0,,True,False
 TCRN7,Tank Creek at Reilly Rd at Ft Bragg,0,,True,False
-TCSI3,Turkey Creek (IN) at Schererville,0,,True,False
+TCSI3,Turkey Creek (IN) at Schererville,1,MTCI3,True,False
 TCSO1,Tenmile Creek at Silica,0,,True,False
 TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
 TCVN7,Town Creek at U.S. Highway 17,0,,True,False
@@ -4816,7 +4791,7 @@ WLBN3,Connecticut River at West Lebanon,2,WELV1;WLPN3,True,False
 WLBN6,Boquet River above Willsboro,0,,True,False
 WLBO1,Mad River at West Liberty,1,UBNO1,True,False
 WLCA2,Wolverine Creek near Lawing,0,,True,False
-WLCK2,Cumberland River at Lake Cumberland,6,BLWK2;BRKK2;CFAK2;CLAT1;CORK2;STRK2,True,False
+WLCK2,Cumberland River at Lake Cumberland,7,BLWK2;BRKK2;CFAK2;CLAT1;CORK2;MTCK2;STRK2,True,False
 WLCM5,Cannon River at Welch,4,CFLM5;CNFM5;NRFM5;REDM5,True,False
 WLCN8,Willow Creek (ND) near Willow City,0,,True,False
 WLCT2,Waller Creek at Koenig Lane,0,,True,False
