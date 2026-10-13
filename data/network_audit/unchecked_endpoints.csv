@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OGLF1,Ogleby Creek Downstream From Boggy Creek,0,,True,False
-OGRI3,Yellow River near Oak Grove,2,KNXI3;PYMI3,True,False
-OGSN6,Oswegatchie River near Ogdensburg,1,HEUN6,True,False
-OHAN1,Big Papillion Creek at Fort Street at Omaha,2,BEBN1;OMBN1,True,False
-OHBT2,Barton Creek above Hwy 71 near Oak Hill,1,ABTT2,True,False
-OHCA1,Ohatchee Creek,0,,True,False
-OHFC1,Old River near Byron Ca (Old River at Hwy 4),0,,True,False
-OHGH1,Oheo Gulch at Oheo Gulch,0,,True,False
-OHGT1,Cumberland River below Old Hickory Dam,0,,True,False
-OHHT1,Cumberland River above Old Hickory Dam,0,,True,False
-OHIT1,Cumberland River at Old Hickory Dam,2,EDWT1;HNTT1,True,False
-OHIT2,West Central Texas Lakes at O.H. Ivie Reservoir,2,HORT2;NAST2,True,False
-OHOC2,Ohio Creek above Gunnison,0,,True,False
-OIBN7,Intracoastal Waterway at Ocean Isle Beach,0,,True,False
-OILC1,Poso Creek near Oildale,0,,True,False
-OKAG1,Okapilco Creek near Quitman (SR 333),0,,True,False
-OKBO2,North Canadian River at Britton Road at Oklahoma City,2,HRHO2;OLBO2,True,False
-OKCM6,Okatoma Creek at Sanford,0,,True,False
-OKCW1,Omak Creek near Omak,0,,True,False
-OKDL1,Calcasieu River near Oakdale,2,GLML1;OBCL1,True,False
-OKEO2,Sand Creek (OK) near Okesa,0,,True,False
-OKFG1,Flint River (GA) near Oakfield (SR 32),2,ABNG1;WWCG1,True,False
-OKFI2,Sangamon River near Oakford,2,CDLI2;PETI2,True,False
-OKGF1,Yellow River near Oak Grove,0,,True,False
-OKGM4,Little Muskegon River near Oak Grove,0,,True,False
 OKGW1,Osoyoos Lake at Oroville,0,,True,False
 OKKI3,Wildcat Creek (IN) at Kokomo,2,JRMI3;OWCI3,True,False
 OKKW2,Monongahela River at Opekiska Lock and Dam,3,CFXW2;ENTW2;MGTW2,True,False
@@ -539,7 +514,7 @@ PILC1,Pilarcitos Lake  ,0,,True,False
 PILL1,Tide Station (LIX) at Pilottown near Venice,0,,True,False
 PILM5,North Branch Middle Fork Zumbro River at Pine Island Main Street,0,,True,False
 PILW1,Pilchuck River near Snohomish,0,,True,False
-PINF1,Withlacoochee River near Pinetta - CR 150 (in NAVD88),2,BLSF1;QUTG1,True,False
+PINF1,Withlacoochee River near Pinetta - CR 150 (in NAVD88),3,BLSF1;OKAG1;QUTG1,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINI2,Big Bureau Creek at Princeton,0,,True,False
 PINM6,STRONG RIVER AT ROBERT BUSH ROAD NR PINOLA,2,DLAM6;SRRM6,True,False
@@ -1052,7 +1027,7 @@ RADI4,Chariton River at Rathbun Reservoir,2,CHTI4;RABI4,True,False
 RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAMN6,Ramapo River at Ramapo,1,SFFN6,True,False
-RAMO2,Caney River near Ramona,2,BVLO2;CVLO2,True,False
+RAMO2,Caney River near Ramona,3,BVLO2;CVLO2;OKEO2,True,False
 RAMT1,Mid. Prong Little Pigeon River 4SSE Pittman Center (Ramsey Prong),0,,True,False
 RANM5,Chub Creek at Hwy 47 near Randolph 3W,0,,True,False
 RANV1,Ayers Brook at Randolph,0,,True,False
