@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SSQO2,Squirrel Creek near Shawnee,0,,True,False
-SSRF1,Sulphur Springs Run at Sulphur Springs,0,,True,False
-SSRM8,Sun River near Simms,2,ELCM8;VAUM8,True,False
-SSRN5,South Seven Rivers 1 mile SE of Seven Rivers,0,,True,False
-SSRS1,South Saluda River near Cleveland,0,,True,False
-SSSF1,Sampson River at Sampson City (in NAVD88),2,LSSF1;WORF1,True,False
-SSSN7,Soules Swamp at Slippery Log Road,0,,True,False
-SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
-SSTC1,San Joaquin River near Stevinson,0,,True,False
-SSTM7,Platte River at Sharps Station,2,AGYM7;PLCM7,True,False
-SSUW1,South Fork Skokomish River near Union,1,SRCW1,True,False
-SSVW1,South Fork Stillaguamish River above Verlot,2,GFLW1;SSIW1,True,False
-SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
-SSWU1,Jordan River at 90th South,0,,True,False
-STAK1,Blue River near Stanley,1,KBRM7,True,False
-STAO3,Strawberry Creek near Prairie City,0,,True,False
-STBA3,Santa Cruz River near Tubac,2,SCCA3;SCNA3,True,False
-STBI4,Iowa River at Steamboat Rock,2,IFAI4;MIWI4,True,False
-STBN4,Stony Brook at North Plainfield,0,,True,False
-STBN8,Wild Rice River (ND) near St. Benedict,2,ABRN8;FGON8,True,False
-STCG1,Stone Mountain Creek at Silver Hill Road near Stone Mountain,1,SOCG1,True,False
-STCI2,Stony Creek at Worth,0,,True,False
-STCI4,Keigley Branch near Story City,0,,True,False
-STCK1,S F Solomon River at Webster Reservoir,2,DMRK1;WODK1,True,False
-STCM5,Sauk River at St. Cloud,0,,True,False
 STCU1,Santa Clara River near Pine Valley,1,SRSU1,True,False
 STCW1,Stearns Creek near Claquato,0,,True,False
 STCW3,Stillwell Creek at Sixteenth Court Near Tomah,0,,True,False
