@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RHBN5,Rio Grande at Hayners Bridge near Rincon,2,CAAN5;LBDN5,True,False
-RHBV2,Hortons Branch at Forest Park Elementary in Roanoke,0,,True,False
-RHCC1,Rio Hondo below Whittier Narrows Dam,0,,True,False
-RHCS1,Horlbeck Creek near Mount Pleasant,0,,True,False
-RHGC1,Rio Hondo at Garvey,0,,True,False
-RHIS1,Catawba River above  Rock Hill,2,CTBS1;FOMS1,True,False
-RHIW3,Wisconsin River above Rhinelander,2,KNGW3;LTKW3,True,False
-RHLL1,Little River of Louisiana near Rochelle,0,,True,False
-RHON7,Catawba River at Lake Rhodhiss Dam,2,BRWN7;OXFN7,True,False
-RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
-RHRN6,Genesee River at Rochester,1,AVON6,True,False
-RHSC1,Rio Hondo (CA) above Stewart and Gray Road,0,,True,False
-RHTC1,Rodeo Creek at Hawthorne Drive,0,,True,False
-RIBW3,Big Rib River at Rib Falls,0,,True,False
-RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
-RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
-RICM2,Octoraro Creek near Richardsmere,0,,True,False
-RICM7,Crooked River near Richmond,0,,True,False
-RICQ8,Battle Creek at Richardson Ditch nr Consul 5NNW,0,,True,False
-RICT1,Little Pigeon River at Richardson Cove (Maples Branch),2,LPNT1;POCT1,True,False
-RICV2,James River (VA) at Richmond Locks,3,JPHV2;RMDV2;SWPV2,True,False
-RIDI1,Eastern Idaho Reservoirs at Ririe Dam,0,,True,False
-RIDI3,Mississinewa River at Ridgeville,2,MROI3;RGVI3,True,False
-RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
-RIGA4,Right Hand Chute Little River at Rivervale,3,MDEA4;MTOA4;PNGA4,True,False
 RIGI1,Little Salmon River at Riggins,0,,True,False
 RIGK1,Big Creek near Ellis,1,ELLK1,True,False
 RIGL1,Lake Pontchartrain at Rigolets,0,,True,False
@@ -38,7 +13,7 @@ RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
 RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
-RIRI1,Willow Creek (Eastern ID) below Ririe Dam near Ririe,0,,True,False
+RIRI1,Willow Creek (Eastern ID) below Ririe Dam near Ririe,2,RIDI1;SHYI1,True,False
 RISM6,Mississippi Sound at Round Island near Pascagoula,0,,True,False
 RISW1,Columbia River at Rock Island Dam,2,RRHW1;WANW1,True,False
 RITC1,Ritchey Creek at Bothe State Park,0,,True,False
@@ -845,7 +820,7 @@ SHVM3,North River at Shattuckville,0,,True,False
 SHVT1,Duck River near Shelbyville,1,COLT1,True,False
 SHWF1,Tide Station at Big Pine Key on Spanish Harbor Channel (in MHHW),0,,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
-SHYI1,Snake River near Shelley,2,SIFI1;SNAI1,True,False
+SHYI1,Snake River near Shelley,3,RIRI1;SIFI1;SNAI1,True,False
 SHYM5,Marsh River near Shelly,0,,True,False
 SHYN1,Platte River near Schuyler,2,DNCN1;NBDN1,True,False
 SIBF1,Tide Station at Shired Island Boat Ramp (in MHHW),0,,True,False
@@ -3108,14 +3083,14 @@ WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WTVP1,Pine Creek near Waterville,0,,True,False
 WTWF1,Tide Gauge at Sweetwater Creek,0,,True,False
 WTWS2,Whitewood Creek above Whitewood,2,DWDS2;WNWS2,True,False
-WTXI1,Willow Creek (Eastern ID) below Tex Creek,0,,True,False
+WTXI1,Willow Creek (Eastern ID) below Tex Creek,1,RIDI1,True,False
 WTYT2,North Texas Lakes at Whitney Lake,6,ALAT2;AQLT2;BUMT2;GLRT2;GQQT2;GROT2,True,False
 WULA2,Wulik River below Tutak Creek near Kivalina,0,,True,False
 WUMW2,Meathouse Fork near West Union,0,,True,False
 WUNO1,Ohio Brush Creek near West Union,0,,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
 WURP1,Slippery Rock Creek at Wurtemburg,0,,True,False
-WUUW3,Wisconsin River below Wausau Dam,2,ROTW3;RRLW3,True,False
+WUUW3,Wisconsin River below Wausau Dam,3,RIBW3;ROTW3;RRLW3,True,False
 WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 WVLI4,Cedar River at Waverly,2,JANI4;PFLI4,True,False
 WVQP1,Chillisquaque Creek at Washingtonville,0,,True,False

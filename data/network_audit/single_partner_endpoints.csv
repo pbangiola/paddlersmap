@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
-RHRN6,Genesee River at Rochester,1,AVON6,True,False
-RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
-RICG1,Ogeechee River near Richmond Hill,1,ELLG1,True,False
-RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
 RIGK1,Big Creek near Ellis,1,ELLK1,True,False
 RIPI2,La Moine River at Ripley,1,CLMI2,True,False
 RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
@@ -414,6 +409,7 @@ WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
 WTTP1,French Creek at Wattsburg,1,UCTP1,True,False
 WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
 WTVO1,Maumee River at Waterville,1,GRRO1,True,False
+WTXI1,Willow Creek (Eastern ID) below Tex Creek,1,RIDI1,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
 WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 WVRV1,North Branch Winooski River at Wrightsville Detention Reservoir,1,WRTV1,True,False
