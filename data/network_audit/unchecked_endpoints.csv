@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OSTL1,Whiskey Chitto Creek at HWY 399,0,,True,False
-OSWC1,Guadalupe River  Ostwald,0,,True,False
-OSWK1,Neosho River at Oswego,4,COMO2;MCNK1;NSOK1;PPFK1,True,False
-OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
-OTCA2,Old Tom Creek near Kasaan,0,,True,False
-OTKA2,Otuk Creek at Ivotuk,0,,True,False
-OTKG1,Oothkalooga Creek at GA 53 Spur at Calhoun,0,,True,False
-OTMI4,Des Moines River at Ottumwa,3,BCOI4;CHII4;KEQI4,True,False
-OTQV1,Ottauquechee River near West Bridgewater,1,NHDV1,True,False
-OTRI4,Cedar River near Otranto (IFC),2,AGRI4;ASNM5,True,False
-OTRM1,Otter Creek (ME) near Acadia National Park,0,,True,False
-OTRM3,Otter River at Otter River,0,,True,False
-OTRM5,Otter Tail River below Orwell Dam near Fergus Falls,2,BROM5;ORWM5,True,False
-OTSM4,Flint River near Otisville,2,COLM4;FLTM4,True,False
-OTTC1,Deer Creek above Scott Road,0,,True,False
-OTTM7,Lamine River near Otterville,0,,True,False
-OTTN7,Little Tennessee River near Otto,0,,True,False
-OTTO1,Blanchard River at Ottawa,3,DFCO1;DUPO1;GILO1,True,False
-OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
-OTUI4,Turkey River at Osterdock (IFC),0,,True,False
-OTWI2,Illinois River at Ottawa,2,MMOI2;SRDI2,True,False
-OTWK1,Marais Des Cygnes River at Ottawa,2,OSMK1;PMNK1,True,False
-OTWN5,Rio Grande at Otowi,3,CTDN5;EMBN5;ESPN5,True,False
-OTWN7,Ward Creek at Otway (in MLLW),0,,True,False
-OUDV2,Occoquan River above Occoquan Upper Dam,0,,True,False
 OURC1,Middle Fork Yuba River at Our House,0,,True,False
 OVBC1,Olema Creek at Vedanta Bridge,0,,True,False
 OVEN1,Buffalo Creek near Overton,0,,True,False
@@ -4041,7 +4016,7 @@ WPKA1,Coosa River at Jordan Dam,2,VRBA1;WETA1,True,False
 WPLW1,Wenatchee River at Plain,1,PESW1,True,False
 WPMP1,Beaver River at Wampum,2,BEAP1;LLWO1,True,False
 WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
-WPNI4,Mississippi River above Waupeton (Pool 11),2,DLDI4;GTTI4,True,False
+WPNI4,Mississippi River above Waupeton (Pool 11),3,DLDI4;GTTI4;OTUI4,True,False
 WPNN1,Elkhorn River at West Point,2,PLGN1;WLON1,True,False
 WPNW3,South Branch Rock River at Waupun,0,,True,False
 WPPM7,St. Francis River at Wappapello Lake Pool,2,FSKM7;PAZM7,True,False
