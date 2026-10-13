@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RUSM5,Redwood River at Russell,1,MSHM5,True,False
-RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
-RVDV2,Nottoway River near RIVERDALE,1,SEBV2,True,False
-RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
-RVLS2,South Branch Tributary Mud Creek near Rauville,1,RAUS2,True,False
-RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
 RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
 RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
@@ -327,7 +321,6 @@ WILM3,Hoosic River near Williamstown,1,EAGN6,True,False
 WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
-WIVF1,Withlacoochee River at Inverness (in NAVD88),1,HLDF1,True,False
 WKCK1,Wildcat Creek at Keats,1,MWCK1,True,False
 WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False

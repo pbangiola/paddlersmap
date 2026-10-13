@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RULN1,Missouri River at Rulo,2,BRON1;SJSM7,True,False
-RUMN3,Baker River at Rumney,0,,True,False
-RUMN4,Shrewsbury River at Oceanic Bridge,0,,True,False
-RUNO3,Bull Run River near Bull Run,2,BURO3;SNDO3,True,False
-RUPM8,Musselshell River near Roundup,2,LVNM8;MUSM8,True,False
-RUSG1,Russell Creek (GA) at 0.3 miles downstream of Head Lake near Dawsonville,0,,True,False
-RUSK1,Saline River (KS) near Russell,2,WAAK1;WLSK1,True,False
-RUSM5,Redwood River at Russell,1,MSHM5,True,False
-RUSS2,Battle Creek (SD) near Keystone,2,HERS2;JUDS2,True,False
-RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
-RVBC1,Sacramento River at Rio Vista Bridge,2,FPOC1;LSBC1,True,False
-RVDM2,Northeast Branch Anacostia River at Riverdale,0,,True,False
-RVDV2,Nottoway River near RIVERDALE,1,SEBV2,True,False
-RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
-RVFI2,Des Plaines River at River Forest,2,DMPI2;RVRI2,True,False
-RVHN3,Contoocook River at River Hill,0,,True,False
-RVLS2,South Branch Tributary Mud Creek near Rauville,1,RAUS2,True,False
-RVLT1,Big Creek near Rogersville,0,,True,False
-RVLW3,Platte River (WI) at Rockville,0,,True,False
-RVNI3,White River (IN) at Ravenswood,2,BRDI3;WRRI3,True,False
-RVNN1,South Loup River at Ravenna,2,PRSN1;SMIN1,True,False
-RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
-RVPK2,Ohio River at Riverview Park,2,CNNI3;MLPK2,True,False
-RVRI2,Des Plaines River at Riverside,4,BWDI2;LYNI2;RVFI2;WSPI2,True,False
-RVRN1,Republican River at Riverton,2,GUIN1;REPN1,True,False
 RVRN6,Schroon River at Riverbank,0,,True,False
 RVRT2,Trinity River at Riverside,3,CRKT2;LVDT2;MDST2,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
@@ -2482,7 +2457,7 @@ WIRW3,Wisconsin River at Wisconsin Rapids,2,PETW3;WDSW3,True,False
 WISH1,Waihi Stream near Manoa,0,,True,False
 WISI4,West Nishnabotna River near Riverton,0,,True,False
 WITN6,Otselic River at Whitney Point Dam,0,,True,False
-WIVF1,Withlacoochee River at Inverness (in NAVD88),1,HLDF1,True,False
+WIVF1,Withlacoochee River at Inverness (in NAVD88),2,HLDF1;RUTF1,True,False
 WIWC1,Willow Creek (Russian River) near 3rd Bridge,0,,True,False
 WJCT2,Williamson Creek at Jimmy Clay Road near Austin 6SE,0,,True,False
 WKAO3,Williamson River near Klamath Agency,0,,True,False
