@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WSFH1,Wailua River near Lihue,0,,True,False
-WSFM3,Westfield River at Westfield,0,,True,False
-WSFN8,Sheyenne River at West Fargo,2,HRCN8;HWDN8,True,False
-WSGT2,"San Gabriel River near Weir, TX",5,GERT2;GETT2;GGLT2;GNGT2;GTWT2,True,False
-WSHK1,Mill Creek (WSHK1) at Washington,0,,True,False
-WSHL1,Bayou Courtableau at Washington,0,,True,False
-WSHM1,Aroostook River at Washburn,2,MASM1;TINB3,True,False
-WSHS1,Saluda River near WARE SHOALS,3,CHAS1;CHPS1;WLSS1,True,False
-WSHW1,Wishkah-Chehalis Tide Gage,0,,True,False
-WSIN2,Walker River near Schurz,3,WBWN2;WLHN2;WRMN2,True,False
-WSKF1,Whiskey Creek at Fort Myers,0,,True,False
-WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
-WSKW1,Wishkah River near Nisson,0,,True,False
-WSLF1,Tide Station at West Summerland Key on Spanish Harbor Channel (in MHHW),0,,True,False
-WSLM1,Old Stream near Wesley,0,,True,False
-WSLO2,Eastern Oklahoma Lakes at Wister Lake,0,,True,False
-WSLO3,Tualatin River at West Linn,1,TUAO3,True,False
-WSLT2,Main Floodway South of Weslaco,1,MITT2,True,False
-WSNN7,Hominy Swamp at Forest Hills Rd near Wilson,0,,True,False
-WSNO3,South Umpqua River near Winston,3,RSBO3;SUMO3;SURO3,True,False
-WSPF1,Suwannee River at White Springs (in NAVD88),2,LIKF1;SBNF1,True,False
-WSPI2,Salt Creek (IL) at Western Springs,2,OBKI2;RVRI2,True,False
-WSPM5,Middle Fork Whitewater River near Whitewater State Park,0,,True,False
-WSPV2,York River near West Point (IN MLLW),0,,True,False
-WSRI1,Weiser River at Weiser,2,CAMI1;CRWI1,True,False
 WSRN6,Susquehanna River at Windsor,2,BAIN6;CKLN6,True,False
 WSSC1,Warm Springs Creek below Strawberry Creek,0,,True,False
 WSSN7,Walnut Creek (NC) at S. State St.,2,WAWN7;WRLN7,True,False
@@ -109,7 +84,7 @@ WWKH1,West Wailuaiki Stream near Hana,0,,True,False
 WWLH1,Waikele Stream near Wheeler AFB,0,,True,False
 WWLO2,North Deer Creek at Wes Watkins Reservoir,0,,True,False
 WWMN6,Willowemoc Creek near Livingston Manor,0,,True,False
-WWPM5,Middle Fork Whitewater River at Whitewater State Park Group Camp,0,,True,False
+WWPM5,Middle Fork Whitewater River at Whitewater State Park Group Camp,2,MSCM5;WSPM5,True,False
 WWPU1,Weber River near Plain City,2,GATU1;OAWU1,True,False
 WWRM3,Swift River at West Ware,0,,True,False
 WWRN7,West Prong Roaring River at S.R. 1745 ,0,,True,False
