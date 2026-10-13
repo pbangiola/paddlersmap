@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PLOI1,Palouse River near Potlatch,1,HOPW1,True,False
-PLOI4,Cedar River at Palo,2,CIDI4;VINI4,True,False
-PLOL1,Pearl River at Lock #1 Chamber,0,,True,False
-PLOP4,Lago Loiza near Trujillo Alto,2,CAGP4;GURP4,True,False
-PLOT2,Brazos River near Palo Pinto,2,DNNT2;PSMT2,True,False
-PLPF1,Peace River at Platt,4,ARCF1;ARHF1;FOPF1;NOCF1,True,False
-PLPK2,Left Fork Peter Creek at Phelps,0,,True,False
-PLPT2,Placedo Creek near Placedo,0,,True,False
-PLQC1,Lynch Creek (Petaluma) at McDowell Blvd.,0,,True,False
-PLRM5,Platte River (MN) near Royalton 1SE,0,,True,False
-PLRM8,Poplar River near Poplar,2,BDPM8;EPRM8,True,False
-PLRQ3,Pembina River near La Riviere,2,SWLQ3;WNDQ3,True,False
-PLRW1,Pilchuck River at Menzel Lk Rd,0,,True,False
-PLSM5,Willow River near Palisade,0,,True,False
-PLSW4,Piney Creek below Lake DeSmet,0,,True,False
-PLTA2,[INACTIVE] Goodnews Bay at Platinum,0,,True,False
-PLTL1,Pearl River at Lock #2 Outside,0,,True,False
-PLTN6,Platte Kill at Dunraven,0,,True,False
-PLUM5,Clearwater River (MN) at Plummer,0,,True,False
-PLUN4,Ramapo River at Pompton Lakes Dam,2,MAWN4;PPTN4,True,False
-PLUO1,Plum Creek near Olmsted Falls,0,,True,False
-PLVO2,Washita River near Pauls Valley,2,DURO2;LNDO2,True,False
-PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
-PLXA2,Port Alexander Tide Gauge at Port Alexander (MLLW datum),0,,True,False
-PLXT2,Rio Grande at Pipeline Crossing,2,FALT2;LDOT2,True,False
 PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
 PLYK1,Cottonwood River near Plymouth,2,CTWK1;EMPK1,True,False
 PMAF1,Tide Gauge at Port Manatee (in MHHW),0,,True,False
@@ -565,7 +540,7 @@ RDGF1,Halifax River at Main St Bridge,0,,True,False
 RDHA2,[INACTIVE] Roadhouse Creek near Iliamna,0,,True,False
 RDHN6,Allegheny River at Red House,0,,True,False
 RDIV2,Atlantic Coast near Rudee Inlet (IN MLLW),0,,True,False
-RDLM5,Clearwater River (MN) at Red Lake Falls,2,CRKM5;LOSM5,True,False
+RDLM5,Clearwater River (MN) at Red Lake Falls,3,CRKM5;LOSM5;PLUM5,True,False
 RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
 RDLO3,Cow Creek near Riddle,1,CWMO3,True,False
 RDNK1,Marais Des Cygnes River near Reading,1,MLVK1,True,False
