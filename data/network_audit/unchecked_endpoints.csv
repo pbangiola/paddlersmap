@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PVUC1,Pier Avenue,0,,True,False
-PVUM7,Cedar Creek near Pleasant View,0,,True,False
-PVYK2,Floyds Fork near Pewee Valley,0,,True,False
-PWAC1,Washington Creek at McDowell Blvd.,0,,True,False
-PWAF1,Peace River at SR 664A,3,BGPF1;PAYF1;ZFSF1,True,False
-PWBA3,Pantano Wash at Broadway Blvd,2,PNTA3;RILA3,True,False
-PWBC1,Potrero Creek,0,,True,False
-PWBN1,West Papillion Creek at Papillion,3,FCKN1;MWBN1;PSBN1,True,False
-PWCC1,Washington Creek at Holly Lane,0,,True,False
-PWCT2,Pedernales River at LBJ Ranch Near Stonewall,0,,True,False
-PWCW4,Prairie Dog Creek near Sheridan (Closed Gauge),0,,True,False
-PWDM7,Current River above Powder Mill,2,AKFM7;VNBM7,True,False
-PWDO3,Powder River (OR) at Baker City,2,PHLO3;THFO3,True,False
-PWET2,Little Pine Island Bayou at Pine Wood Estates,0,,True,False
-PWNG1,Savannah River at Port Wentworth (IN MLLW),2,CLYG1;GCYG1,True,False
-PWRN7,Pee Dee River near Ansonville,0,,True,False
-PWRT2,North Wichita River at Paducah 14SE,0,,True,False
-PWSC1,Pope Creek at Walter Springs,0,,True,False
-PWTA2,Thorne River near Thorne Bay,0,,True,False
-PXCK1,Mill Creek (PXCK1) at Paxico,0,,True,False
-PXNP1,Paxton Creek at Cameron,0,,True,False
-PXSP1,Mahoning Creek below Punxsutawney,2,MHGP1;PNXP1,True,False
-PXTN1,South Platte River at Paxton,0,,True,False
-PYAV2,Rivanna River at Palmyra,0,,True,False
-PYMI3,Yellow River at Plymouth,2,BMNI3;OGRI3,True,False
 PYNW2,at Payne Branch,0,,True,False
 PYRM8,Pryor Creek near Huntley,0,,True,False
 PYSC1,Petaluma River at Payran Street Bridge,0,,True,False
