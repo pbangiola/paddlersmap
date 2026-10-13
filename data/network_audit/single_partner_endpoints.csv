@@ -1,11 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PQTN4,Pequest River at Pequest,1,HUNN4,True,False
-PRAM4,Paint River near Alpha,1,CRYM4,True,False
-PRBL1,Pearl River above Slidell,1,PDLL1,True,False
-PRCG1,Proctor Creek at Jackson Parkway at Atlanta,1,PCTG1,True,False
-PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
-PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
-PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRHO3,Powder River (OR) near Sumpter,1,PHLO3,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRIN7,Mayo River near Price,1,NMRV2,True,False
@@ -173,6 +166,7 @@ SFNW1,South Fork Newaukum River near Onalaska,1,NEWW1,True,False
 SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,1,SHLM8,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SGDU1,Sevier River near Sigurd,1,SRKU1,True,False
+SGTC1,Salinas River below Santa Margarita Lake,1,PRBC1,True,False
 SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
 SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHBN6,Chenango River at Sherburne,1,NWHN6,True,False

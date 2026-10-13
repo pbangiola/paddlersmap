@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PQTN4,Pequest River at Pequest,1,HUNN4,True,False
-PRAI2,Illinois River at Peoria Lock and Dam,3,HAVI2;KNGI2;PIAI2,True,False
-PRAI4,Buffalo Creek (IA) at Prairieburg,0,,True,False
-PRAM4,Paint River near Alpha,1,CRYM4,True,False
-PRBC1,Salinas River at Paso Robles,0,,True,False
-PRBL1,Pearl River above Slidell,1,PDLL1,True,False
-PRBM2,"Potomac River at Brunswick, MD",0,,True,False
-PRBQ9,Porcupine River near International Boundary near Old Crow-Yukon Territory,0,,True,False
-PRBT2,Alamito Creek 5 miles ESE of Presidio,0,,True,False
-PRCA2,Porcupine River at Mouth of Coleen River nr Canyon Village,0,,True,False
-PRCG1,Proctor Creek at Jackson Parkway at Atlanta,1,PCTG1,True,False
-PRCI1,North Fork Coeur d'Alene River near Prichard,0,,True,False
-PRCL1,Amite River Basin at Little Sandy Creek at Peiars Rd. near Milldale,0,,True,False
-PRCM8,Prospect Creek at Thompson Falls,0,,True,False
-PRCN1,North Fork Elkhorn River near Pierce,0,,True,False
-PRCO2,Canadian River at Purcell,2,KCRO2;NRCO2,True,False
-PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
-PRDA2,Prudhoe Bay Tide Gauge at Prudhoe Bay (MHHW datum),0,,True,False
-PRDI3,Pogues Run above Dam near I-70 in Eastern Marion County,0,,True,False
-PRDK2,Green River (KY) at Paradise,2,RCHK2;RCPK2,True,False
-PRDL1,Pearl River at Lock #2 Chamber,0,,True,False
-PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
-PRDT2,Rio Grande 5 miles SE of Presidio,2,EMDT2;PRST2,True,False
-PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
-PREW3,Mississippi River at Prescott - Pool 3,3,HSTM5;PSCW3;RDWM5,True,False
 PRGF1,Pumpkin River near Goodland (in MHHW),0,,True,False
 PRGO1,Scioto River at Prospect,2,LARO1;OSAO1,True,False
 PRGO3,Pringle Creek near Salem Hospital,0,,True,False
@@ -96,7 +71,7 @@ PRTV2,Chesapeake Bay at Port Isobel/Tangier Island (IN MLLW),0,,True,False
 PRUI3,Wabash River at Peru,3,LGNI3;MISI3;WABI3,True,False
 PRUL1,Pearl River at Navigational Canal #1 near Pearl River,0,,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
-PRVI3,Pogues Run at Vermont Street in Indianapolis,0,,True,False
+PRVI3,Pogues Run at Vermont Street in Indianapolis,2,INDI3;PRDI3,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRVP1,Muddy Creek above Portersville,0,,True,False
 PRVS1,Pee Dee River below Pee Dee - 4 Miles South,2,PDES1;PDPS1,True,False
@@ -1270,7 +1245,7 @@ SGOT2,Pecan Creek (Concho River Basin) near San Angelo,0,,True,False
 SGRA2,Sagavanirktok River near Pump Station 3,0,,True,False
 SGRW1,Spokane River below Green St at Spokane,2,PTFI1;SPOW1,True,False
 SGSM2,St. George Creek at Straits Point (IN MLLW),0,,True,False
-SGTC1,Salinas River below Santa Margarita Lake,0,,True,False
+SGTC1,Salinas River below Santa Margarita Lake,1,PRBC1,True,False
 SGTI3,Sugar Creek (IN) near Thorntown,2,CRWI3;PCLI3,True,False
 SGVP1,Codorus Creek at Spring Grove,0,,True,False
 SGWN7,Watauga River near Sugar Grove,2,FOSN7;WTGT1,True,False
