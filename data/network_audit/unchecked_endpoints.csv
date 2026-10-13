@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SNSN7,Atlantic Coast at Sunset Beach,0,,True,False
-SNTN7,Cheoah river above SANTEETLAH DAM,0,,True,False
-SNWF1,New River near Sumatra (CR 22),0,,True,False
-SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
-SNYI1,Snake River at Nyssa,2,SWAI1;WEII1,True,False
-SNZM7,Grand River near Sumner,2,BRNM7;CHZM7,True,False
-SNZW1,Oso,0,,True,False
-SOBG1,South River at Bouldercrest Road at Atlanta,2,SFMG1;STHG1,True,False
-SOCF1,Fox Branch Near Socrum,0,,True,False
-SOCG1,Stone Mountain Creek at GA 124 near Lithonia,0,,True,False
-SOCS1,Atlantic Intracoastal Waterway above Aiw At Hwy 544 At Socastee,0,,True,False
-SODN6,Lake America at Sodus Point,0,,True,False
-SOGC1,Saratoga Creek at Saratoga,0,,True,False
-SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
-SOGM7,White River (MO) at School of the Ozarks,0,,True,False
-SOGW3,Kickapoo River at Soldiers Grove,2,GMIW3;REAW3,True,False
-SOHN3,Souhegan River at Merrimack,0,,True,False
-SOHV2,Meherrin River near SOUTH HILL,2,LAWV2;LNBV2,True,False
-SOLC1,Arroyo Seco (Monterey) near Soledad,2,ARRC1;GRFC1,True,False
-SOLT1,Beaver Creek (TN) at Solway,2,BCPT1;MHDT1,True,False
-SOLT2,Pine Island Bayou near Sour Lake,2,JYNT2;JZBT2,True,False
-SOMC1,San Antonio Dam,0,,True,False
-SOMC2,Gunnison River near Somerset,2,ACSC2;MDCC2,True,False
-SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
-SOMT1,Loosahatchie River near Sommerville 1N,0,,True,False
 SOMT2,Yegua Creek at Lake Somerville,4,DEYT2;DMYT2;HPDT2;SMVT2,True,False
 SOMW3,Apple River (WI) at Somerset,0,,True,False
 SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
@@ -269,7 +244,7 @@ STBA3,Santa Cruz River near Tubac,2,SCCA3;SCNA3,True,False
 STBI4,Iowa River at Steamboat Rock,2,IFAI4;MIWI4,True,False
 STBN4,Stony Brook at North Plainfield,0,,True,False
 STBN8,Wild Rice River (ND) near St. Benedict,2,ABRN8;FGON8,True,False
-STCG1,Stone Mountain Creek at Silver Hill Road near Stone Mountain,0,,True,False
+STCG1,Stone Mountain Creek at Silver Hill Road near Stone Mountain,1,SOCG1,True,False
 STCI2,Stony Creek at Worth,0,,True,False
 STCI4,Keigley Branch near Story City,0,,True,False
 STCK1,S F Solomon River at Webster Reservoir,2,DMRK1;WODK1,True,False

@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
-SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
-SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
 SOSW3,Nemadji River near Superior,1,NEMM5,True,False
 SPAN7,Little River near Sparta,1,LBXN7,True,False
@@ -39,6 +36,7 @@ SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
 SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
+STCG1,Stone Mountain Creek at Silver Hill Road near Stone Mountain,1,SOCG1,True,False
 STCU1,Santa Clara River near Pine Valley,1,SRSU1,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
