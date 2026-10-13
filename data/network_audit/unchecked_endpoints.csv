@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
-VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
-VMAT2,North Bosque River at Valley Mills,2,ACTT2;CTNT2,True,False
-VMLF1,Venice Minerals Lake,0,,True,False
-VMRF1,Venice Myakka River Park (in NAVD88),0,,True,False
-VNBC2,Vallecito Creek near Bayfield,0,,True,False
-VNBM7,Current River at Van Buren,4,AKFM7;DNZM7;EMCM7;PWDM7,True,False
-VNCC1,Sacramento-San Joaquin Delta at Venice Island,1,MLIC1,True,False
-VNCL1,Mississippi River at Venice,1,MWBL1,True,False
-VNCN4,South Branch Rancocas Creek at Vincentown,0,,True,False
-VNCN7,Neuse River at Spring Garden,0,,True,False
-VNDI2,Kaskaskia River at Vandalia,4,CAYI2;CRLI2;CWDI2;KCAI2,True,False
-VNHM3,Vineyard Sound at Vineyard Haven,0,,True,False
-VNKS2,Vanocker Creek near Sturgis,0,,True,False
-VNLA3,Virgin River at Narrows,0,,True,False
-VNMI4,Raccoon River at Van Meter,4,ADEI4;REDI4;VANI4;WDMI4,True,False
-VNPG1,Chattahoochee River at Powers Ferry + I-285 near Atlanta,2,MGFG1;VIXG1,True,False
-VNRM8,near Van Norman,0,,True,False
-VNSC1,San Joaquin River at Vernalis,2,MOSC1;PATC1,True,False
-VNVM2,Gwynns Falls at Villa Nova,0,,True,False
-VOJC1,Ventura River at Camino Cielo,0,,True,False
-VONC1,Sacramento River at Verona,3,FMWC1;NCOC1;SACC1,True,False
-VQIC1,Los Gatos Creek above Vasona Reservoir,2,LGLC1;LRKC1,True,False
-VRBA1,Coosa River at Mitchell Dam,2,CLTA1;WPKA1,True,False
-VRBU1,Virgin River near Bloomington,0,,True,False
 VRCS2,Vermillion River near Chancellor,3,DVSS2;PKRS2;VRPS2,True,False
 VRDN1,Niobrara River near Verdel,4,NIBN1;NSBN1;SPCN1;SPKN1,True,False
 VRGM8,Missouri River at Virgelle,3,FBNM8;LDKM8;LTRM8,True,False
