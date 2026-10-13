@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SFJO3,S. Fork John Day River near Dayville,0,,True,False
-SFKA2,South Fork Koyukuk River at the Dalton Highway near Coldfoot,0,,True,False
-SFKN7,Straight Fork Creek near the Tribal Hatchery,0,,True,False
-SFKW2,Sand Fork Creek above Sand Fork,0,,True,False
-SFLI4,West Fork Cedar River near Sheffield 190th St--IFC,2,KESI4;RWDI4,True,False
-SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
-SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
-SFLN2,Salmon Falls Creek near San Jacinto,1,HAGI1,True,False
-SFLS2,Big Sioux River at Sioux Falls I-90,2,DERS2;SFMS2,True,False
-SFMG1,South River at Flakes Mill Road near Snapfinger,2,SOBG1;SOUG1,True,False
-SFMN5,Santa Fe River (NM) at McClure Dam,0,,True,False
-SFMO3,South Fork Malheur River near Riverside,0,,True,False
-SFMS2,Big Sioux River at Sioux Falls Maple Street,2,SFLS2;WAVS2,True,False
-SFNN5,Santa Fe River (NM) at Nichols Dam,0,,True,False
-SFNW1,South Fork Newaukum River near Onalaska,1,NEWW1,True,False
-SFOR1,Ponaganset River at South Foster,0,,True,False
-SFPG1,South Fork Peachtree Creek at Casa Drive at Clarkston,0,,True,False
-SFPI1,South Fork Coeur d'Alene River above Pine Creek at Pinehurst,0,,True,False
-SFPN5,Rio Grande above San Felipe Pueblo,2,ABQN5;CTDN5,True,False
-SFPW2,Price Run near Price Run,0,,True,False
-SFRA4,St. Francis River at St. Francis,2,FSKM7;LCRA4,True,False
-SFRF1,South Fork New River near Secret Woods Nature Center (in MHHW),0,,True,False
-SFRI1,Southwest Idaho Reservoirs at Salmon Falls Creek Reservoir,0,,True,False
-SFRI4,Floyd River at Sheldon,0,,True,False
-SFRM4,Rouge River at Southfield,2,BHRM4;DETM4,True,False
 SFRO2,Stillwater Creek (OK) near Stillwater,0,,True,False
 SFRW1,Lewis River at Swift Reservoir,2,LRCW1;YARW1,True,False
 SFRW4,East Fork Smiths Fork near Robertson,0,,True,False
@@ -34,7 +9,7 @@ SFTA2,Bering Sea Tide Gauge at Shishmaref (MHHW datum),0,,True,False
 SFTG1,Swift Creek at Rock Chapel Road near Lithonia,0,,True,False
 SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,1,SHLM8,True,False
 SFTN7,Swift Creek above McCuller's Crossroads,0,,True,False
-SFWI1,South Fork Coeur d'Alene River at Wallace,0,,True,False
+SFWI1,South Fork Coeur d'Alene River at Wallace,1,SKGI1,True,False
 SFWI3,South Fork Wildcat Creek near Lafayette,0,,True,False
 SFYV2,Clinch River near Speers Ferry,4,CLVV2;DNGV2;FTBV2;LGPT1,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
@@ -202,7 +177,7 @@ SKCT2,Striker Creek at Lake Striker,0,,True,False
 SKEC2,Snake River (CO) near Montezuma,0,,True,False
 SKFF1,Tide Gauge at the Skyway Fishing Pier (In MHHW),0,,True,False
 SKGA2,Skagway River at Skagway,0,,True,False
-SKGI1,South Fork Coeur d'Alene River near Kellogg,0,,True,False
+SKGI1,South Fork Coeur d'Alene River near Kellogg,2,SFPI1;SFWI1,True,False
 SKHF1,Myakka River at Snook Haven (in NAVD88),2,BOWF1;MRNF1,True,False
 SKHI1,Snake River at King Hill,2,BUHI1;SWAI1,True,False
 SKLA2,Kenai River below Skilak Lake Outlet near Sterling,3,COCA2;COOA2;KEYA2,True,False
@@ -488,7 +463,7 @@ SPHN7,Tar River at NC581 Nr Spring Hope,0,,True,False
 SPHW1,Stillaguamish River at Pioneer Hwy,0,,True,False
 SPIF1,Tide Station at Shell Point Canal (in MHHW),0,,True,False
 SPII4,Little Sioux River near Spencer / Highway 18,2,LSSI4;SPWI4,True,False
-SPJG1,South Fork Peachtree Creek at Johnson Road near Atlanta,0,,True,False
+SPJG1,South Fork Peachtree Creek at Johnson Road near Atlanta,2,AANG1;SFPG1,True,False
 SPKF1,Spring Creek at Spring Creek Park (in NAVD88),0,,True,False
 SPKI3,East Fork White River at Sparksville,0,,True,False
 SPKN1,Niobrara River near Sparks,4,BOXN1;NISN1;NZNN1;VRDN1,True,False
@@ -1530,7 +1505,7 @@ VAES2,Whitewood Creek above Vale,2,SBFS2;WNWS2,True,False
 VAKF1,Atlantic Ocean Tide Gauge at Virginia Key (in MHHW),0,,True,False
 VALA1,Valley Creek (AL) at Center Street,0,,True,False
 VALI2,Illinois River at Valley City,2,HARI2;MROI2,True,False
-VALO3,Malheur River at Vale,5,BEUO3;BYCO3;MAOO3;MVCO3;WARO3,True,False
+VALO3,Malheur River at Vale,6,BEUO3;BYCO3;MAOO3;MVCO3;SFMO3;WARO3,True,False
 VALP4,Rio Valenciano near Juncos,0,,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VANI4,Raccoon River at Van Meter Hwy R16--IFC,0,,True,False

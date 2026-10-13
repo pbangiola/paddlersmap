@@ -1,9 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
-SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
-SFLN2,Salmon Falls Creek near San Jacinto,1,HAGI1,True,False
-SFNW1,South Fork Newaukum River near Onalaska,1,NEWW1,True,False
 SFTM8,Birch Creek (MT) near Swift Dam near Dupuyer,1,SHLM8,True,False
+SFWI1,South Fork Coeur d'Alene River at Wallace,1,SKGI1,True,False
 SFZM5,South Fork Zumbro River near Rochester,1,RCSM5,True,False
 SGDU1,Sevier River near Sigurd,1,SRKU1,True,False
 SGTC1,Salinas River below Santa Margarita Lake,1,PRBC1,True,False
