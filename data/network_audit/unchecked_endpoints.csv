@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SVGC1,Santa Ynez River at Solvang,0,,True,False
-SVHC1,Searsville Lake  ,0,,True,False
-SVLC2,Saint Vrain Creek below Longmont,5,BOLC2;CCNC2;LLHC2;PTLC2;SVCC2,True,False
-SVLN4,Great Egg Harbor River near Sicklerville,0,,True,False
-SVNM3,Seven Mile River near Spencer,0,,True,False
-SVPF1,Tide Gauge at Sirenia Vista Park (In MHHW),0,,True,False
-SVPL1,Red River at Shreveport,6,BCHL1;CRLL1;CSHL1;DIXL1;LCOL1;SBFA4,True,False
-SVPW3,Eau Galle River above Spring Valley,0,,True,False
-SVRM4,Pigeon River (N Lower MI) near Vanderbilt,0,,True,False
-SVRM7,Mississippi River at Saverton Lock and Dam 22,2,HNNM7;LUSM7,True,False
-SVRN6,Silver Creek (NY) at Silver Creek,0,,True,False
-SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
-SVTV2,Thornton River at Sperryville,0,,True,False
-SVXC1,Stevens Creek above Hwy 85,0,,True,False
-SVYA4,Illinois River (AR OK) at Savoy,1,SLSA4,True,False
-SVZC1,Stevens Creek below Stevens Creek Reservoir,0,,True,False
-SWAG1,Level Creek at Suwanee Dam Road near Suwanee,0,,True,False
-SWAI1,Snake River near Murphy,2,SKHI1;SNYI1,True,False
-SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
-SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
-SWBL1,Mississippi River at Southwest Pass at East Jetty,2,CKBL1;MPEL1,True,False
-SWBN4,Raccoon Creek at SWEDESBORO,0,,True,False
-SWBN7,White Oak River at Swansboro (in MLLW),0,,True,False
-SWCI4,Waterman Creek near Sutherland,0,,True,False
-SWCN2,Sweetwater Creek (NV) near Sonoma,0,,True,False
 SWDN1,Lincoln Creek near Seward,0,,True,False
 SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
 SWDP1,Conemaugh River at Seward,2,CNMP1;JHSP1,True,False
