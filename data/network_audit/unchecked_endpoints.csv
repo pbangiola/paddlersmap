@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-VRCS2,Vermillion River near Chancellor,3,DVSS2;PKRS2;VRPS2,True,False
-VRDN1,Niobrara River near Verdel,4,NIBN1;NSBN1;SPCN1;SPKN1,True,False
-VRGM8,Missouri River at Virgelle,3,FBNM8;LDKM8;LTRM8,True,False
-VRIL1,Vermilion River above I-10 at Lafayette,0,,True,False
-VRLL1,Vermilion River at Lake Martin Road,2,BVCL1;VLSL1,True,False
-VRNF1,Holmes Creek at Vernon (SR 79),0,,True,False
-VRNI3,Vernon Fork Muscatatuck River near Vernon,2,BEDI3;NEBI3,True,False
-VRON4,Peckman River at Verona,0,,True,False
-VRPL1,Vermilion River at Perry,1,VLSL1,True,False
-VRPS2,East Fork Vermillion River near Parker,2,EVMS2;VRCS2,True,False
-VRVC1,Ventura River at Foster Park,0,,True,False
-VSSM4,Cass River at Vassar,2,FRNM4;WAHM4,True,False
-VSTN6,Susquehanna River at Vestal,2,BNGN6;OWGN6,True,False
-VSTV2,South Fork Holston River near Damascus,3,DMCV2;SHDT1;SHLV2,True,False
-VSUV2,South River at Vesuvius,1,CRNV2,True,False
-VTBT2,Tide Gauge above Viola Turning Basin,0,,True,False
-VTLS2,Little White River near Vetal,3,LBKS2;LITS2;RSBS2,True,False
-VTPK2,West Hickman Creek at Veterans Park,0,,True,False
-VTRC1,Ventura River at Santa Ana Blvd.,0,,True,False
-VWBC1,Sacramento River at Vina-Woodson Bridge,3,DCVC1;HAMC1;TEHC1,True,False
-VYWK2,Mill Creek (KY) near Valley Station,0,,True,False
-WAAH1,Waiaha Stream near Holualoa,0,,True,False
-WAAK1,Saline River (KS) near Wakeeney,1,RUSK1,True,False
-WABI3,Wabash River at Wabash,4,HNTI3;LRHI3;PRUI3;SALI3,True,False
-WABM5,Mississippi River at Wabasha - Pool 4,2,ALMW3;LKCM5,True,False
 WABW1,White River near Auburn,2,WPCW1;WRPW1,True,False
 WABW4,Wind River above Boysen Reservoir near Shoshoni,0,,True,False
 WADA2,Wade Creek Tributary near Chicken,0,,True,False

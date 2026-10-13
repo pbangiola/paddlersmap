@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-VRPL1,Vermilion River at Perry,1,VLSL1,True,False
-VSUV2,South River at Vesuvius,1,CRNV2,True,False
-WAAK1,Saline River (KS) near Wakeeney,1,RUSK1,True,False
 WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WANP1,Antietam Creek near Waynesboro,1,SACM2,True,False
