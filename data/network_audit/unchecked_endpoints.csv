@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PRVS1,Pee Dee River below Pee Dee - 4 Miles South,2,PDES1;PDPS1,True,False
-PRVT1,Tennessee River at Perryville,2,CLNT1;NJNT1,True,False
-PRXC1,Sacramento-San Joaquin Delta at Prisoners Point Near Terminous - San Joaquin River,0,,True,False
-PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
-PRYC1,Pacific Ocean  Point Reyes Tide gage,0,,True,False
-PRYI2,Kishwaukee River near Perryville,3,BVDI2;BYRI2;FDLI2,True,False
-PRYP1,Pohopoco Creek at Beltzville Dam,1,PRRP1,True,False
-PRZU1,Little Bear River at Paradise,0,,True,False
-PSAS1,Polk Swamp above St. George,0,,True,False
-PSBC2,Piney River near State Bridge,0,,True,False
-PSBF1,Possum Branch (In MHHW),0,,True,False
-PSBM1,Passamamaquoddy Bay at Eastport (IN MLLW),0,,True,False
-PSBN1,South Papillion Creek at Chalco,2,GSBN1;PWBN1,True,False
-PSBN5,Pecos River below Brantley Reservoir,2,CBLN5;CSBN5,True,False
-PSCM2,Piscataway Creek at Piscataway,0,,True,False
-PSCM8,Pass Creek near Wyola (Closed Gauge),0,,True,False
-PSCW3,St. Croix River near Prescott,2,PREW3;STLM5,True,False
-PSDC1,Puddingstone Dam,0,,True,False
-PSFC1,Piru Creek below Santa Felicia Dam,1,PCPC1,True,False
-PSGI4,Soldier River at Pisgah,0,,True,False
-PSGS1,Polk Swamp below St. George,0,,True,False
-PSIL1,Breton Sound Basin at Black Bay near Snake Island,0,,True,False
-PSJF1,St Joseph Bay at Port St Joe (in MHHW),0,,True,False
-PSLI1,Priest Lake at Outlet near Coolin,1,PRTI1,True,False
-PSMT2,North Texas Lakes at Possum Kingdom Lake,3,LMGT2;PLOT2;SOUT2,True,False
 PSNM5,North Branch Pipestone Creek near Pipestone,0,,True,False
 PSNW2,Cheat River at Parsons,3,BOWW2;HENW2;ROLW2,True,False
 PSPC2,San Juan River at Pagosa Springs,0,,True,False
