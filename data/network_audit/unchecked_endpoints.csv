@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TOGA2,Togiak River near Togiak,0,,True,False
-TOLF1,Tolomato River above St. Augustine Airport (in MHHW),0,,True,False
-TOLI4,Deer Creek near Toledo,0,,True,False
-TOLN8,Tolna Coulee near Tolna,0,,True,False
-TOLS1,Tools Fork Creek near Rock Hill,0,,True,False
-TOLW1,Tolt River near Carnation,0,,True,False
-TOMC2,Tomichi Creek at Gunnison,0,,True,False
-TOMI1,Thompson Creek (ID) near Clayton,2,PNBI1;SQUI1,True,False
-TOMN7,Black River near Tomahawk,2,BCUN7;BRTN7,True,False
-TONA1,Aldridge Creek (AL) at Toney Drive in Huntsville,1,SHEA1,True,False
-TONA2,Tonsina River at the Richardson Hwy near Tonsina,0,,True,False
-TONN2,Tonkin Spring abv Denay Creek nr Crescent Vly near Crescent Valley,0,,True,False
-TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
-TONW1,Okanogan River near Tonasket,2,OKMW1;OKNW1,True,False
-TOPI1,Portneuf River at Topaz,3,PBLI1;PIHI1;PNKI1,True,False
-TOPK1,Soldier Creek near Topeka,1,DELK1,True,False
-TOPN2,West Walker River at Topaz Lake,2,CLEC1;HOYN2,True,False
-TOPW1,Toppenish Creek near Fort Simcoe,0,,True,False
-TORN7,Torrence Creek near Huntersville,0,,True,False
-TORW2,Coal River (WV) at Tornado,2,ASHW2;DANW2,True,False
-TOSM8,Missouri River at Toston,3,CYNM8;LOGM8;TFKM8,True,False
-TOTW1,Toutle River at Tower Road near Silver Lake,1,SRBW1,True,False
-TOUC1,Guadalupe River  Trout Creek,0,,True,False
-TOVP4,Rio Toa Vaca above Lago Toa Vaca,0,,True,False
-TOWG1,Towaliga River at GA 83 near Juliette,0,,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TOWM6,Town Creek (Central MS) above Town Creek/Jackson,0,,True,False
 TOWN8,Souris River near Towner,2,BANN8;VLVN8,True,False
