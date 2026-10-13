@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RCHV1,Ranch Brook at Ranch Camp near Stowe 5NW,0,,True,False
-RCJD2,Rock Creek at Joyce Road in Washington,0,,True,False
-RCKD2,Rock Creek at Sherrill Drive/DC,0,,True,False
-RCKF1,Suwannee River at Rock Bluff  near Bell - CR 340 (in NAVD88),4,BFDF1;FTWF1;HSGF1;WCXF1,True,False
-RCKI2,Mississippi River at Rock Island,2,FAII4;LECI4,True,False
-RCKN1,Middle Loup River at Rockville,0,,True,False
-RCKN2,Roberts Creek nr Eureka,0,,True,False
-RCKN6,Unadilla River at Rockdale,0,,True,False
-RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
-RCKW2,Little Kanawha River above Rocksdale,0,,True,False
-RCLC1,Rush Creek (CA) near Lewiston,0,,True,False
-RCLM8,Rosebud Creek near Lame Deer,0,,True,False
-RCLN7,Mill Swamp at Richlands,0,,True,False
-RCLT2,Rio Grande at Canutillo,2,EPRT2;MSLN5,True,False
-RCMC1,San Francisco Bay  Richmond Tide gage,0,,True,False
-RCMC2,Rock Creek at McCoy,0,,True,False
-RCMI3,"Redwood Creek near Marshfield, IN",0,,True,False
-RCMM4,Kalamazoo River near New Richmond,1,CMSM4,True,False
-RCMO1,Euclid Creek at Richmond Heights,0,,True,False
-RCNF1,Tide Station at Raccoon Key on Boca Chica Channel (in MHHW),0,,True,False
-RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
-RCNO1,Raccoon Creek at Newark below Wilson St.,2,GRNO1;NEAO1,True,False
-RCOI4,Rock Creek near Orchard (IFC),2,CROI4;OSRI4,True,False
-RCOM5,North Branch Middle Fork Zumbro River at Roscoe - Cty Rd 27,1,PILM5,True,False
-RCPK2,Green River (KY) above Rockport,2,LVMK2;PRDK2,True,False
 RCPT2,Tide Gauge at Rockport,0,,True,False
 RCRF1,Reedy Creek above SR531 Nr Poinciana,0,,True,False
 RCRM5,Cascade Creek near Rochester,1,RCCM5,True,False
@@ -1352,7 +1327,7 @@ SPKI3,East Fork White River at Sparksville,0,,True,False
 SPKN1,Niobrara River near Sparks,4,BOXN1;NISN1;NZNN1;VRDN1,True,False
 SPKP1,Little Juniata River at Spruce Creek,0,,True,False
 SPLI4,Turkey River at Spillville,2,FTKI4;SPVI4,True,False
-SPLN1,Middle Loup River near St. Paul,0,,True,False
+SPLN1,Middle Loup River near St. Paul,2,GELN1;RCKN1,True,False
 SPMT2,Palo Duro Creek at Spearman,0,,True,False
 SPMV2,Appomattox River near Stony Point Mills,2,FRMV2;MTXV2,True,False
 SPNI3,White River (IN) at Spencer,2,CENI3;ELLI3,True,False
@@ -2290,7 +2265,7 @@ UCAC1,Salinas River at San Lucas Bridge,2,BRDC1;KCBC1,True,False
 UCAN6,Mohawk River at Utica,2,DDMN6;LTLN6,True,False
 UCDP1,French Creek at Union City Dam,2,CBSP1;UCTP1,True,False
 UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
-UCLO1,Euclid Creek at Cleveland,1,EUCO1,True,False
+UCLO1,Euclid Creek at Cleveland,2,EUCO1;RCMO1,True,False
 UCRA2,Chickaloon River 1.5 miles above confluence with Mystery Creek near Sterling,0,,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False

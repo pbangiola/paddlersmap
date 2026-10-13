@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
-RCMM4,Kalamazoo River near New Richmond,1,CMSM4,True,False
-RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
-RCOM5,North Branch Middle Fork Zumbro River at Roscoe - Cty Rd 27,1,PILM5,True,False
 RCRM5,Cascade Creek near Rochester,1,RCCM5,True,False
 RCSN6,Erie Canal above Rochester,1,MCDN6,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
@@ -300,7 +296,6 @@ TYLN1,North Loup River at Taylor,1,ORDN1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
-UCLO1,Euclid Creek at Cleveland,1,EUCO1,True,False
 UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
 UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
 UEHN1,Logan Creek at Uehling,1,PEDN1,True,False
