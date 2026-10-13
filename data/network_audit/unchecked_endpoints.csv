@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TRVN7,Tar River near Tar River,1,LOUN7,True,False
-TRWC1,Trinity River near Lewiston,0,,True,False
-TRXP1,Little Lehigh Creek near Trexlertown,0,,True,False
-TRYF1,Troy Spring at Troy Spring State Park,0,,True,False
-TRYM7,Cuivre River at Troy,1,OMNM7,True,False
-TRYM8,Yaak River near Troy,0,,True,False
-TRYN6,Hudson River at Troy,2,ALBN6;WTFN6,True,False
-TRYO1,Great Miami River at Troy,2,PIQO1;TAYO1,True,False
-TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
-TRZF1,Trout Creek at Chancey Rd at Wesley Chapel,1,TCWF1,True,False
-TRZN2,Carson River near Fallon,1,CBLN2,True,False
-TSBN7,Banks Channel at Topsail Beach,0,,True,False
-TSCA3,Santa Cruz River at Congress Street,2,CSCA3;SCCA3,True,False
-TSCG1,Tucsawhatchee Creek near Hawkinsville,0,,True,False
-TSCK1,Saline River (KS) at Tescott,1,LINK1,True,False
-TSCM7,Osage River at Tuscumbia,2,LKBM7;STTM7,True,False
-TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
-TSGA2,Tanana River at Tanacross,2,BGDA2;TLNA2,True,False
-TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
-TSHK1,Shunganunga Creek at Topeka,1,SGBK1,True,False
-TSIF1,Tarpon Bay Sanibel Island (In MHHW),0,,True,False
-TSLC1,Temescal Creek near Corona,0,,True,False
-TSMF1,Tide Station at San Miguel Str and 23rd Avenue (in MHHW),0,,True,False
-TSPL1,Tickfaw River at Springfield,0,,True,False
-TSRA1,Cahaba River at Trussville,0,,True,False
 TSTW4,Tensleep Creek near Tensleep,0,,True,False
 TSYC1,Santa Clara River at Torrey Road,2,SCPC1;VCAC1,True,False
 TTDM2,Tributary to Dead Run Tributary at Woodlawn,0,,True,False
