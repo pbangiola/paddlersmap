@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WBCW1,White River above Boise Ck,2,MMDW1;WRAW1,True,False
-WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
-WBDW4,West Fork Big Goose Creek near Story,0,,True,False
-WBEN7,EF New River at Deerfield Road,2,NSFN7;WBAN7,True,False
-WBFM3,Quaboag River at West Brimfield,0,,True,False
-WBFN7,Brushy Fork at S.R. 1311,0,,True,False
-WBGC1,West Fork Feather River near Magalia,0,,True,False
-WBGC3,Lake Dawson above Lake Dawson,0,,True,False
-WBGM2,Gwynns Falls at Washington Blvd in Baltimore,0,,True,False
-WBGW4,West Fork Big Goose Creek near Big Horn,0,,True,False
-WBHC1,Matadero Creek at West Bayshore Road,0,,True,False
-WBHL1,White Bayou near Zachary,0,,True,False
-WBHT1,Web Creek at Branam Hollow Rd,0,,True,False
-WBLC1,West Branch Llagas Creek at Cohansey Avenue,1,UMSC1,True,False
-WBLF1,Black Creek at Black Creek Landing (in NAVD88),0,,True,False
-WBLM7,Weaubleau Creek near Weableau,0,,True,False
-WBMM4,Whetstone Brook at Altamont St. at Marquette,0,,True,False
-WBMN2,Walker River below Mason WMA at RR Xing,2,WALN2;WRYN2,True,False
-WBMN7,MF New River at Deerfield Road,0,,True,False
-WBNO1,West Branch Nimishillen Creek at North Canton,0,,True,False
-WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
-WBOI2,Waubonse Creek at Oswego,0,,True,False
-WBOL1,Mississippi River at West Bay Receiving Area Outlfow,2,HPGL1;MWBL1,True,False
-WBOM5,Blue Earth River near Winnebago 1W,0,,True,False
-WBOT1,Tennessee River above Watts Bar Dam,2,KGTT1;WBTT1,True,False
 WBPM6,Bayou Pierre near Willows,0,,True,False
 WBRL1,Amite River Basin at Ward Creek at Government St.,0,,True,False
 WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,False
@@ -418,7 +393,7 @@ WNAC2,South Platte River near Weldona,2,FOMC2;KERC2,True,False
 WNAM5,Mississippi River at Winona - Pool 6,2,TREW3;WIDM5,True,False
 WNBA3,Jackrabbit Wash near Wickenburg,0,,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
-WNBN7,MF SF New River at U.S. 221/321,0,,True,False
+WNBN7,MF SF New River at U.S. 221/321,1,WBMN7,True,False
 WNCN6,Walnut Creek (NY) at Silver Creek,0,,True,False
 WNCV2,West Neck Creek near Mapleton,0,,True,False
 WNCW3,Wolf River (WI) near Lake Poygan,1,NEWW3,True,False
@@ -764,7 +739,7 @@ YGWO1,Mahoning River at Youngstown,3,LLWO1;MSQO1;WRNO1,True,False
 YHCA2,Yukon River at Holy Cross,0,,True,False
 YJCG1,Yellow Jacket Creek at Hammett Road below Hogansville,0,,True,False
 YKTV2,Chesapeake Bay near Yorktown (IN MLLW),0,,True,False
-YKVI2,Fox River at Yorkville (Palmer Dam),2,DAYI2;MNGI2,True,False
+YKVI2,Fox River at Yorkville (Palmer Dam),3,DAYI2;MNGI2;WBOI2,True,False
 YLEC1,Arroyo Valle below Lang Canyon near Livermore,0,,True,False
 YLKA2,Yentna River near Lake Creek,3,CLKA2;SKWA2;YSTA2,True,False
 YLLU1,Yellowstone River Utah near Altonah,0,,True,False
