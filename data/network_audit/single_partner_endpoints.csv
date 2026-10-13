@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
-WRDN4,Wanaque River at Wanaque Reservoir elevation,1,WNQN4,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WRMC2,White River near Meeker,1,WHIC2,True,False
 WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False

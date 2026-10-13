@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WRAW1,White River at R St. Auburn,2,WBCW1;WRPW1,True,False
-WRBM2,Winters Run near Bel Air,0,,True,False
-WRBS1,Waccamaw River at SC Highway 22 near Red Bluff,2,ACWS1;LNGS1,True,False
-WRCF1,Withlacoochee-Hillsborough Overflow at US 98 Near Richland,2,CUMF1;ZPRF1,True,False
-WRCI2,Rayse Creek above Waltonville,0,,True,False
-WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
-WRCS1,Wando River at Cainhoy (IN MLLW),0,,True,False
-WRCW4,Wind River above Red Creek,3,CROW4;DUBW4;EFWW4,True,False
-WRDM5,Lake of the Woods at Warroad,0,,True,False
-WRDM8,West Rosebud Creek near Roscoe,0,,True,False
-WRDN4,Wanaque River at Wanaque Reservoir elevation,1,WNQN4,True,False
-WRDP1,Turtle Creek at Wilmerding,0,,True,False
-WRDV2,Warwick River at Denbigh Blvd (IN MLLW),0,,True,False
-WRDW1,White River near Dieringer,2,PUYW1;WSTW1,True,False
-WRDW2,Waites Run near Wardensville,0,,True,False
-WREC1,White River at Road 168 near Earlimart,0,,True,False
-WREM8,West Rosebud Creek near Emerald Lake Campground,0,,True,False
-WRGF1,Cypress Creek at SR 54 Worthington Gardens,3,CNTF1;CSAF1;TCYF1,True,False
-WRGW3,Fox River (North) at Rapid Croche,2,APLW3;GBYW3,True,False
-WRIH1,Wailuku River (Maui) at Wailuku River at Iao Valley Road,0,,True,False
-WRIS1,Wando River above Mount Pleasant (IN MLLW),0,,True,False
-WRKH1,Wailuku River nr Kaumana,0,,True,False
-WRKM8,West Fork Rock Creek near Red Lodge,0,,True,False
-WRLN7,Walnut Creek at Rose Ln in Raleigh,2,WALN7;WSSN7,True,False
-WRLO2,Beaver Creek (OK) at Waurika Lake,3,DLBO2;HUBO2;WAKO2,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WRMC2,White River near Meeker,1,WHIC2,True,False
 WRMI1,Warm Springs Creek (ID) near Ketchum,2,BWKI1;HALI1,True,False
