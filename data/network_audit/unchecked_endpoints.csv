@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
-SRPN7,Swift Creek Upstream of Regency Pkwy,0,,True,False
-SRPW1,Skokomish River near Potlatch,1,SRCW1,True,False
-SRQC1,San Gabriel River above Whittier Narrows Dam,0,,True,False
-SRRA2,[INACTIVE] Resurrection River at Seward Hwy Bridge near Seward,0,,True,False
-SRRL1,Lower Grand River at Bayou Sorrel,0,,True,False
-SRRM6,STRONG RIVER NEAR ROCKPORT,2,PINM6;ROCM6,True,False
-SRRN4,Spruce Run Reservoir at Clinton,0,,True,False
-SRRO3,Salmon River of Lincoln Co. at Rose Lodge,0,,True,False
-SRRP1,Driftwood Branch Sinnemahoning Creek at Sterling Run,0,,True,False
-SRRT2,San Antonio River at SH 72 near Runge,3,FACT2;FCTT2;GLIT2,True,False
-SRSA1,Styx River at Styx River at Seminole,0,,True,False
-SRSI2,Sangamon River near Springfield,0,,True,False
-SRSN7,Shallotte River at Shallotte,0,,True,False
-SRSU1,Santa Clara River near St. George,2,SCGU1;STCU1,True,False
-SRTM2,Jones Falls at Sorrento,0,,True,False
-SRTM5,Swan River near Taconite,1,JACM5,True,False
-SRTO3,Silvies River near Trout Creek,2,BUSO3;SVSO3,True,False
-SRUF1,St Marks River at US-98 (in NAVD88),0,,True,False
-SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
-SRUV2,Youngs Branch at Manassas Battlefield,0,,True,False
-SRVC1,Santa Ana River at Santa Ana,1,MWXC1,True,False
-SRVM2,Savage River near Bloomington,2,LUKM2;SRDM2,True,False
-SRVM8,Sun River near Augusta,3,AGSM8;ELCM8;WLLM8,True,False
-SRWG1,Satilla River at Woodbine (in MHHW),0,,True,False
 SRYA2,Situk River near Yakutat,0,,True,False
 SRYI1,Salmon River below Yankee Fork,0,,True,False
 SSAC1,Santa Rosa Creek at Santa Rosa,0,,True,False
