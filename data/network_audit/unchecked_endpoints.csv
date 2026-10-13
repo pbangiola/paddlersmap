@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SRGN4,Spruce Run at Glen Gardner,1,SRCN4,True,False
-SRGT2,Guadalupe River near Spring Branch,2,GUBT2;SMCT2,True,False
-SRHF1,Suwannee River at Interstate 10 Bridge (in NAVD88),0,,True,False
-SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
-SRIS1,Saluda River at I-20 near Columbia,0,,True,False
-SRKK2,Rock Lick Creek near Sharkey,0,,True,False
-SRKU1,Sevier River near East Fork nr Kingston,2,SEKU1;SGDU1,True,False
-SRKW1,Skagit River at Rockport,0,,True,False
-SRLI4,Storm Lake at Storm Lake,0,,True,False
-SRLM8,Stillwater River at Lawrence Park at Kalispell,0,,True,False
-SRLN5,Pecos River at Santa Rosa Dam,0,,True,False
-SRLV2,South River at Lyndhurst Rd,0,,True,False
-SRMF1,St Marks River near Rivers Edge Road (in MHHW),0,,True,False
-SRMM5,Sturgeon River near Meadow Brook ,0,,True,False
-SRMO3,Sandy River near Marmot,2,SGCO3;SNDO3,True,False
-SRMP1,Straight  Run at Marsh Creek,0,,True,False
-SRMQ9,Stewart River at the Mouth-Yukon Territory,1,SRFQ9,True,False
-SRMT2,Sabinal River below Mill Creek near Vanderpool,2,SABT2;SBUT2,True,False
-SRMW1,Skagit River at Marblemount,1,CONW1,True,False
-SRNF1,Suwannee River at Nobles Ferry (in NAVD88),0,,True,False
-SRNO1,Baldwin Creek at Strongsville,0,,True,False
-SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
-SRPF1,St. Johns River at Racy Point (in MHHW),0,,True,False
-SRPI1,Snake River at Pigeon Cove near Twin Falls,2,BUHI1;STFI1,True,False
-SRPM2,Nanticoke River at Sharptown,0,,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SRPN7,Swift Creek Upstream of Regency Pkwy,0,,True,False
 SRPW1,Skokomish River near Potlatch,1,SRCW1,True,False
