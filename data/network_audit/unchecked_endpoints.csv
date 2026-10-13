@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WALT1,Waldens Creek 4W Pigeon Forge (Old Valley),2,TIGT1;WLVT1,True,False
-WANM4,Wanadoga Creek near Battle Creek,0,,True,False
-WANO1,Sandy Creek at Waynesburg,0,,True,False
-WANO2,Cimarron River near Waynoka,2,AMCO2;BFFO2,True,False
-WANP1,Antietam Creek near Waynesboro,1,SACM2,True,False
-WANW1,Columbia River at Wanapum Dam,2,PRDW1;RISW1,True,False
-WAPF1,East Bay at Watson Bayou Pier (in MHHW),0,,True,False
-WAPI4,Iowa River at Wapello,2,CJTI4;OKVI4,True,False
-WAPN6,Wappingers Creek at Wappinger Falls,0,,True,False
-WAPP1,Wapwallopen Creek near Wapwallopen,0,,True,False
-WARA4,Saline River at Warren,2,JHNA4;RYEA4,True,False
-WARC1,Warthan Creek above Coalinga,0,,True,False
-WARO3,Malheur River below Warm Springs Reservoir,3,MADO3;NAMO3;VALO3,True,False
-WARP1,East Fork Sinnemahoning Creek at Wharton Township,0,,True,False
-WART2,Waller Creek at Red River Street,0,,True,False
-WASD2,Washington Channel at SW Waterfront (IN MLLW),0,,True,False
-WASI4,Miller Creek near Washburn Miller Creek Rd--IFC,0,,True,False
-WASN4,Delaware River at Washington Crossing,2,NHPP1;TREN4,True,False
-WASR1,South Branch Pawtuxet River at Washington,0,,True,False
-WASS2,Cheyenne River near Wasta,3,PLNS2;SCNS2;UNDS2,True,False
-WASW1,Washougal River at Washougal,0,,True,False
-WATC2,South Platte River at Waterton,2,CFDC2;SPTC2,True,False
-WATD2,Watts Branch at Washington,0,,True,False
-WATG1,Watson Creek Tributary at Tanglewood Drive near Snellville,0,,True,False
-WATN4,Barnegat Bay at Waretown (IN MLLW),0,,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WATO2,North Canadian River near Watonga,2,CLMO2;CNOO2,True,False
 WATS1,Lake Wateree,2,CDCS1;CMDS1,True,False
