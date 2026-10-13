@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SUNS2,Sunday Gulch near Hill City,0,,True,False
-SUNV2,Back Creek (Bath Co. VA) at Sunrise (blw PSS),2,BKCV2;BKSV2,True,False
-SUPA3,Havasu Creek at Supai,2,CCHA3;HNSA3,True,False
-SUPF1,Courtney Campbell Sunset Point (in MHHW),0,,True,False
-SUPT2,Cibolo Creek at Sutherland Springs,2,FCTT2;HDWT2,True,False
-SURO3,South Umpqua River near Riddle,2,TILO3;WSNO3,True,False
-SUSA2,[INACTIVE] Susitna River at Susitna Station,2,SUNA2;YSSA2,True,False
-SUSC1,Susan River at Susanville,0,,True,False
-SUSO3,Smith River (OR) above Belknap Springs,0,,True,False
-SUSW2,Elk River below Sutton Lake,0,,True,False
-SUSW3,Siskiwit R nr Cornucopia,0,,True,False
-SUTA1,Cahaba River at Suttle,2,CKLA1;MNJA1,True,False
-SUTI3,Sugar Creek (IN) at Thorntown,0,,True,False
-SUTN1,North Platte River near Sutherland,2,KNGN1;NPTN1,True,False
-SUTW2,Elk River at Sutton Lake,2,FRMW2;GUAW2,True,False
-SUUC1,Sulphur Creek at Pope Street,0,,True,False
-SUVO3,Luckiamute River near Suver,0,,True,False
-SUWF1,Suwannee River above Gopher River Confluence (in MHHW),0,,True,False
-SUYC1,Santa Maria River at Suey Crossing,0,,True,False
-SVBN6,Oneida Lake at Sylvan Beach,0,,True,False
-SVCC2,Saint Vrain Creek at Hygiene,2,LNSC2;SVLC2,True,False
-SVCT1,Sevenmile Creek at Blackman Road,0,,True,False
-SVDG1,Savannah River at Savannah (IN MLLW),2,FPKG1;GCYG1,True,False
-SVEV2,James River (VA) at Scottsville,3,BECV2;BREV2;CARV2,True,False
-SVEW3,Eau Galle River at Spring Valley,0,,True,False
 SVGC1,Santa Ynez River at Solvang,0,,True,False
 SVHC1,Searsville Lake  ,0,,True,False
 SVLC2,Saint Vrain Creek below Longmont,5,BOLC2;CCNC2;LLHC2;PTLC2;SVCC2,True,False
@@ -461,7 +436,7 @@ TRAO3,Trask River near Tillamook,0,,True,False
 TRBA2,Tolovana River below Rosebud Creek near Livengood,0,,True,False
 TRBC2,Taylor River below Taylor Park Resv.,0,,True,False
 TRBF1,Withlacoochee River at US 301 Trilby (in NAVD88),2,RITF1;WDAF1,True,False
-TRBO3,McKenzie River below Trail Bridge Dam,2,MUSO3;VIDO3,True,False
+TRBO3,McKenzie River below Trail Bridge Dam,3,MUSO3;SUSO3;VIDO3,True,False
 TRCC1,Truckee River near Truckee,2,FARC1;TRTC1,True,False
 TRCI4,Des Moines River near Tracy,3,EDYI4;KECI4;RRDI4,True,False
 TRCK1,Hackberry Creek near Trego Center 9WSW,0,,True,False
