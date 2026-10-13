@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NBRI2,West Fork North Branch Chicago River at Northbrook,2,DRWI2;NILI2,True,False
-NBRM3,Blackstone River at Northbridge,0,,True,False
-NBRM4,Salt River near North Bradley,0,,True,False
-NBRO3,N Fk Bull Run River near Multnomah Falls,0,,True,False
-NBRT2,Guadalupe River above Comal River at New Braunfels,2,GBCT2;GRTT2,True,False
-NBSC1,Napa River at Berry Street,0,,True,False
-NBSG1,Noonday Creek Upstream of Chastain Meadows Parkway near Kennesaw,0,,True,False
-NBSM3,Farmington River at W. Br. Nr. New Boston,0,,True,False
-NBSP1,Sugar Creek near Columbia Crossroads,0,,True,False
-NBUN7,North Buffalo Creek at Church St in Greensboro,2,NBCN7;NBWN7,True,False
-NBWC3,Lake Gaillard above Lake Gaillard - Weir,0,,True,False
-NBWL1,Amite River Basin at North Branch Ward Creek at Westminster,0,,True,False
-NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
-NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
-NBZN1,Bazile Creek near Niobrara,1,CBCN1,True,False
-NCAC1,New Chicago Marsh at Alviso,0,,True,False
-NCAW3,Yellow River (WI) at Necedah,2,BBCW3;CROW3,True,False
-NCBN7,Nottely River at Nottely River/Cook Bridge,0,,True,False
-NCCC1,North Fork Cache Creek near Chalk Mountain,0,,True,False
-NCCT1,North Chickamauga Creek at Mile Straight,0,,True,False
-NCCT2,Big Cow Creek near Newton,0,,True,False
-NCDC1,New Chicago Marsh at Don Edwards,0,,True,False
-NCDG1,Nancy Creek at Johnson Ferry Road near Chamblee,0,,True,False
-NCDV2,Upper Machodoc Creek near Dahlgren (IN MLLW),0,,True,False
-NCEN8,Pembina River at Neche,2,PBNN8;WLHN8,True,False
 NCET2,East Fork San Jacinto River near New Caney,2,CLDT2;HSJT2,True,False
 NCFV2,Naked Creek near Furnace,0,,True,False
 NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,False
@@ -31,7 +6,7 @@ NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCHS1,Little Pee Dee River near Nichols,2,DLLS1;GALS1,True,False
 NCHT2,Tide Station (HGX) at Manchester,0,,True,False
 NCHV2,Appomattox River at Namozine Creek at Rt 625 near Hebron,0,,True,False
-NCKG1,Nancy Creek at Rickenbacker Drive at Atlanta,0,,True,False
+NCKG1,Nancy Creek at Rickenbacker Drive at Atlanta,1,NCDG1,True,False
 NCKN6,Hudson River at North Creek,2,HDYN6;NWCN6,True,False
 NCMA2,National Creek near McCarthy,0,,True,False
 NCMK1,Smoky Hill River near New Cambria,2,ABIK1;MTRK1,True,False
@@ -56,7 +31,7 @@ NDMW2,Parker Hollow Run at Needmore,0,,True,False
 NDRI2,Du Page River near Plainfield,3,BOLI2;NAWI2;SORI2,True,False
 NDST2,Beals Creek at Natural Dam Salt Lake,0,,True,False
 NDVV1,Pope Brook (VT) near North Danville,0,,True,False
-NDYG1,Noonday Creek at Hawkins Store Road near Blackwells,0,,True,False
+NDYG1,Noonday Creek at Hawkins Store Road near Blackwells,1,NBSG1,True,False
 NEAO1,Licking River (OH) near Newark (Stadden Bridge),4,DLFO1;NKOO1;RCNO1;SFHO1,True,False
 NEBA2,Nabesna River at Northway Village,1,NABA2,True,False
 NEBI3,Brush Creek (IN) near Nebraska,0,,True,False
@@ -266,7 +241,7 @@ NORM3,Wading River at Norton,0,,True,False
 NORN4,Maurice River at Norma,1,BVVN4,True,False
 NOSG1,Noses Creek at Powder Springs Road near Powder Springs,0,,True,False
 NOSV1,"North Springfield Dam at North Springfield, VT",0,,True,False
-NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
+NOTG1,Nottely River at Nottely Dam,2,BLVG1;NCBN7,True,False
 NOTM4,Prairie River (MI) near Nottawa,0,,True,False
 NOTM5,North Branch Two Rivers River near Northcote North Branch Two Rivers River,0,,True,False
 NOTO3,Long Tom River near Noti,1,FRNO3,True,False
@@ -1138,7 +1113,7 @@ PLKT1,Richland Creek near Pulaski,0,,True,False
 PLLN7,Trent River at Pollocksville,2,BERN7;TRTN7,True,False
 PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLLP1,Pennypack Creek at Philadelphia,0,,True,False
-PLLQ3,Pembina River above Lorne Lake,2,BLNQ3;RLGQ3,True,False
+PLLQ3,Pembina River above Lorne Lake,3,BLNQ3;PRKQ3;RLGQ3,True,False
 PLMC2,East Plum Creek (CO) below Castle Rock,2,EPOC2;LOVC2,True,False
 PLMF1,Fisheating Creek at Palmdale,2,FCKF1;FCRF1,True,False
 PLMI2,Big Muddy River at Plumfield,2,MURI2;RNDI2,True,False
@@ -1343,7 +1318,7 @@ PRKF1,Prairie Creek at CR 674,2,FOGF1;PUNF1,True,False
 PRKM5,Straight River near Park Rapids,0,,True,False
 PRKM6,Red Creek at Perkinston,0,,True,False
 PRKO2,Cimarron River near Perkins,2,GTRO2;RIPO2,True,False
-PRKQ3,Pembina River near Killarney MB,0,,True,False
+PRKQ3,Pembina River near Killarney MB,1,PLLQ3,True,False
 PRKT2,Concho River at Paint Rock,0,,True,False
 PRLI1,South Fork Payette River at Lowman,1,MFPI1,True,False
 PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
@@ -2666,7 +2641,7 @@ SILO1,Salt Fork at North Salem,0,,True,False
 SILO3,Siletz River at Siletz,0,,True,False
 SILS1,Little River near Silver Street,2,IRMS1;LRLS1,True,False
 SILT2,Colorado River (TX) above Silver,5,CCRT2;CDCT2;CLRT2;RELT2;WBRT2,True,False
-SIMC3,Farmington River at Simsbury,0,,True,False
+SIMC3,Farmington River at Simsbury,2,TARC3;UNVC3,True,False
 SIMS1,Reedy River near Highway 418,2,GVLS1;WRLS1,True,False
 SINF1,Tide Station at Eastern Tip of St George Island (in MHHW),0,,True,False
 SINW4,North Platte River near Sinclair,3,CPRW4;KORW4;SRAW4,True,False
@@ -3435,7 +3410,7 @@ TAPN7,Cheoah river near Tapoco,0,,True,False
 TAPO1,Little Stillwater Creek at Tappan Dam Pool,0,,True,False
 TAQT2,Tide Gauge at Texas State Aquarium,0,,True,False
 TARC1,Santa Rosa Creek at Willowside Road NR Santa Rosa,0,,True,False
-TARC3,Farmington River at Tariffville,0,,True,False
+TARC3,Farmington River at Tariffville,1,SIMC3,True,False
 TARI4,Raven Creek near Tama Hwy E49--IFC,0,,True,False
 TARN7,Tar River at Tarboro,2,PGVN7;ROKN7,True,False
 TASM8,Tongue River at Ashland,0,,True,False
@@ -3980,7 +3955,7 @@ UNLA2,Unalaska at Unalaska,0,,True,False
 UNNM7,Bourbeuse River at Union,1,HTGM7,True,False
 UNRA2,Upper Nuka River near Park Boundary near Homer,0,,True,False
 UNRC2,Uncompahgre River below Ridgway Reservoir,3,CLOC2;DCKC2;UCRC2,True,False
-UNVC3,Farmington River at Unionville,0,,True,False
+UNVC3,Farmington River at Unionville,2,NBSM3;SIMC3,True,False
 UNVN6,Wallkill at Unionville,0,,True,False
 UNVV1,Ompompanoosuc River at Union Village Dam,0,,True,False
 UNWK2,Ohio River at J.T. Myers Lock and Dam,2,MTVI3;SHNI2,True,False
@@ -4718,7 +4693,7 @@ WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
 WOOM6,Buffalo River at Woodville,0,,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
 WOON3,Pemigewasset River at Woodstock,2,LINN3;PLMN3,True,False
-WOOR1,Blackstone River at Woonsocket,0,,True,False
+WOOR1,Blackstone River at Woonsocket,1,NBRM3,True,False
 WOOU1,Provo River near Woodland,0,,True,False
 WOPU1,Price River above Woodside,0,,True,False
 WORC2,Muddy Creek (NC CO) at Wolford Mountain Reservoir,0,,True,False

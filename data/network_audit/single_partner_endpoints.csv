@@ -1,10 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
-NBYC1,Nacimiento River below Sapaque Creek Near Bryson,1,NACC1,True,False
-NBZN1,Bazile Creek near Niobrara,1,CBCN1,True,False
 NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,False
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
+NCKG1,Nancy Creek at Rickenbacker Drive at Atlanta,1,NCDG1,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
+NDYG1,Noonday Creek at Hawkins Store Road near Blackwells,1,NBSG1,True,False
 NEBA2,Nabesna River at Northway Village,1,NABA2,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
 NEPF1,St. Marks River near Newport on Old Magnolia Rd (in stage datum),1,MRKF1,True,False
@@ -35,7 +34,6 @@ NOLK2,Nolin River at Nolin River Lake,1,WHMK2,True,False
 NOMT1,Obion River near Martin,1,OBNT1,True,False
 NONT1,Nonconnah Creek at Winchester Rd,1,FRST1,True,False
 NORN4,Maurice River at Norma,1,BVVN4,True,False
-NOTG1,Nottely River at Nottely Dam,1,BLVG1,True,False
 NOTO3,Long Tom River near Noti,1,FRNO3,True,False
 NPLI3,Sugar Creek (central) at New Palestine,1,SCBI3,True,False
 NPRF1,Big Slough Canal at W Price Blvd,1,NPOF1,True,False
@@ -190,6 +188,7 @@ PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
 PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
+PRKQ3,Pembina River near Killarney MB,1,PLLQ3,True,False
 PRLI1,South Fork Payette River at Lowman,1,MFPI1,True,False
 PRLI3,Patoka River at Patoka Lake,1,CZCI3,True,False
 PRLT2,Clear Creek above Telephone Road,1,HCCT2,True,False
@@ -451,6 +450,7 @@ SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
 TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
 TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
+TARC3,Farmington River at Tariffville,1,SIMC3,True,False
 TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
@@ -614,6 +614,7 @@ WODI1,Little Wood River near Carey,1,LWRI1,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
+WOOR1,Blackstone River at Woonsocket,1,NBRM3,True,False
 WPLW1,Wenatchee River at Plain,1,PESW1,True,False
 WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
 WPTK2,Salt River at West Point,1,SHPK2,True,False
