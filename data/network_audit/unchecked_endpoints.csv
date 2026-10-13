@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WTHW1,Methow River at Winthrop,2,MZMW1;PATW1,True,False
-WTIC1,Whitewater River (CA) at Indio,0,,True,False
-WTIN7,Currituck Sound at Walnut Island near Grandy,0,,True,False
-WTLO3,S. Santiam River at Waterloo,2,JFFO3;SSFO3,True,False
-WTLW3,Whittlesey Creek near Ashland,0,,True,False
-WTMF1,Withlacoochee River near Madison (SR 6),0,,True,False
-WTNG1,Little  River near Washington,0,,True,False
-WTNK2,Cutshin Creek at Wooton,0,,True,False
-WTNM5,Basswood River near Winton,2,CNLM5;SKWM5,True,False
-WTNW2,West Fork River at Weston,2,BCVW2;STJW2,True,False
-WTPG1,Chattahoochee River at West Point,2,CBUG1;WETG1,True,False
-WTRA1,"Coosa River at State Line, AL/GA",2,CREA1;RMBG1,True,False
-WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
-WTRS2,Big Sioux River near Watertown,2,FLOS2;KAMS2,True,False
-WTRU1,Whiterocks River near Whiterocks,0,,True,False
-WTRW4,Laramie River at Wheatland Reservoir No 2,0,,True,False
-WTSC3,West River above Lake Watrous,0,,True,False
-WTSM5,Chippewa River (MN) near Watson 1NE (tailwater),0,,True,False
-WTSO3,Wilson River at Sollie Smith Br at Tillamook,1,TLMO3,True,False
-WTTO2,Illinois River (AR OK) near Watts,2,CWYO2;SLSA4,True,False
-WTTP1,French Creek at Wattsburg,1,UCTP1,True,False
-WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
-WTVO1,Maumee River at Waterville,1,GRRO1,True,False
-WTVP1,Pine Creek near Waterville,0,,True,False
-WTWF1,Tide Gauge at Sweetwater Creek,0,,True,False
 WTWS2,Whitewood Creek above Whitewood,2,DWDS2;WNWS2,True,False
 WTXI1,Willow Creek (Eastern ID) below Tex Creek,1,RIDI1,True,False
 WTYT2,North Texas Lakes at Whitney Lake,6,ALAT2;AQLT2;BUMT2;GLRT2;GQQT2;GROT2,True,False
@@ -54,7 +29,7 @@ WWDA3,Whitewater Draw near Douglas,0,,True,False
 WWDI3,West Fork White Lick Creek at Danville,0,,True,False
 WWDI4,Beaver Creek near Woodward,2,BEAI4;GRMI4,True,False
 WWHN2,West Walker River near Hudson,2,HOYN2;MASN2,True,False
-WWIC1,Whitewater River (CA) at Rancho Mirage,0,,True,False
+WWIC1,Whitewater River (CA) at Rancho Mirage,1,WTIC1,True,False
 WWKH1,West Wailuaiki Stream near Hana,0,,True,False
 WWLH1,Waikele Stream near Wheeler AFB,0,,True,False
 WWLO2,North Deer Creek at Wes Watkins Reservoir,0,,True,False

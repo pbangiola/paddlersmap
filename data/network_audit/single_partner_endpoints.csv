@@ -1,15 +1,11 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
-WTSO3,Wilson River at Sollie Smith Br at Tillamook,1,TLMO3,True,False
-WTTP1,French Creek at Wattsburg,1,UCTP1,True,False
-WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
-WTVO1,Maumee River at Waterville,1,GRRO1,True,False
 WTXI1,Willow Creek (Eastern ID) below Tex Creek,1,RIDI1,True,False
 WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
 WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
 WVRV1,North Branch Winooski River at Wrightsville Detention Reservoir,1,WRTV1,True,False
 WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
+WWIC1,Whitewater River (CA) at Rancho Mirage,1,WTIC1,True,False
 WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 XCBC1,Coyote Creek at Berryessa Rd.,1,UMYC1,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
