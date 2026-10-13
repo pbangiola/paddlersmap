@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
-MTRF1,Tide Gauge on the Manatee River (In MHHW),1,RYEF1,True,False
-MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
-MTVG1,Oconee River at Highway 280 near Mount Vernon,1,DBNG1,True,False
 MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False
 MUCN7,Mud Creek (NC) at Erkwood Dr. 1 S Hendersonville,1,MNMN7,True,False
 MUCW4,Muddy Creek above Olson Creek near Dad,1,MCYW4,True,False
@@ -134,6 +130,7 @@ PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
 PACW1,Cowlitz River at Packwood,1,RAWW1,True,False
 PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
 PALP1,Allegheny River at Port Allegany,1,ELRP1,True,False
+PALW2,Mud River (WV) at Palermo,1,MYRW2,True,False
 PAMN7,Pamlico River at Washington (in MLLW),1,GRMN7,True,False
 PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
 PARI1,Boise River near Parma,1,CDWI1,True,False
@@ -377,6 +374,7 @@ SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
 SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
+SIOT2,Olmos Creek at Dresden Drive,1,MTST2,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
 SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
 SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
@@ -401,7 +399,6 @@ SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
 SNOA2,Snow River near Seward,1,COOA2,True,False
-SNPT2,San Antonio River at Loop 410,1,ELMT2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
@@ -515,6 +512,7 @@ TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
+TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
 TYLN1,North Loup River at Taylor,1,ORDN1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
