@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SKEC2,Snake River (CO) near Montezuma,0,,True,False
-SKFF1,Tide Gauge at the Skyway Fishing Pier (In MHHW),0,,True,False
-SKGA2,Skagway River at Skagway,0,,True,False
-SKGI1,South Fork Coeur d'Alene River near Kellogg,2,SFPI1;SFWI1,True,False
-SKHF1,Myakka River at Snook Haven (in NAVD88),2,BOWF1;MRNF1,True,False
-SKHI1,Snake River at King Hill,2,BUHI1;SWAI1,True,False
-SKLA2,Kenai River below Skilak Lake Outlet near Sterling,3,COCA2;COOA2;KEYA2,True,False
-SKLM1,Saco River at Skelton Dam,0,,True,False
-SKLO2,Eastern Oklahoma Lakes at Skiatook Lake,0,,True,False
-SKLW4,Spring Creek (WY) at Laramie,0,,True,False
-SKMF1,Siesta Key Bayfront Marina,0,,True,False
-SKMT2,Aransas River near Skidmore,0,,True,False
-SKMW1,Skookumchuck River Below Bloody Run,0,,True,False
-SKOM1,Kennebec River at Skowhegan,3,BNGM1;MDSM1;SIDM1,True,False
-SKOW1,North Fork Skokomish River near Hoodsport,0,,True,False
-SKPA1,West Fork Choctawhatchee River near Skipperville (SR 105),0,,True,False
-SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
-SKPF1,Tide Station at Skipper Bay near Panacea (in MHHW),0,,True,False
-SKPM5,Minnesota River at Shakopee,0,,True,False
-SKRC1,South Fork Kern River near ONYX,0,,True,False
-SKRM5,South Kawishiwi River near Ely,2,KAWM5;SKWM5,True,False
-SKRW1,Skookumchuck Reservoir,2,BCDW1;VALW1,True,False
-SKSC1,San Luis Obispo Creek at Elks Lane,0,,True,False
-SKTA2,Taiya Inlet Tide Gauge at Skagway (MLLW datum),0,,True,False
-SKTF1,Shakett Creek at CR 672 Near Nokomis ,2,KGAF1;NOKF1,True,False
 SKTK1,Bow Creek near Stockton,0,,True,False
 SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
 SKVV2,North River near Stokesville,0,,True,False
