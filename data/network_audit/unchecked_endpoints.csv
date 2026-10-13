@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WELK1,Slate Creek (KS) at Wellington,0,,True,False
-WELM3,Charles River at Wellesley,0,,True,False
-WELN6,Genesee River at Wellsville (USACE),0,,True,False
-WELV1,Connecticut River at Wells River,3,DLTN3;PASV1;WLBN3,True,False
-WELW1,Columbia River at Wells Dam,2,CHJW1;RRHW1,True,False
-WELW2,Ohio River at Wellsburg,2,SBVO1;WHLW2,True,False
-WENM1,Penobscot River at West Enfield,4,EDDM1;GRNM1;MFDM1;WLDM1,True,False
-WENN7,Dan River near Wentworth,3,DEDN7;DROV2;PNHN7,True,False
-WEOC1,Bull Creek near Weott,0,,True,False
-WEOT2,Oso Creek at Merrett Road,1,OOST2,True,False
-WEPS1,Saluda River at West Pelzer,3,CHAS1;GSLS1;WLSS1,True,False
-WERN7,East Prong Roaring River at S.R. 1002,0,,True,False
-WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
-WESH1,Waihee Stream near Kahaluu,0,,True,False
-WESM2,Cranberry Branch near Westminster,0,,True,False
-WESN6,West Pond at Glen Cove (IN MLLW),0,,True,False
-WESN7,Roanoke River near Westover,1,JAMN7,True,False
-WESP1,Kettle Creek near Westport,0,,True,False
-WESS2,Elm River near Westport,2,ERFS2;ORDS2,True,False
-WESU1,West Canyon Creek near Cedar Fort,0,,True,False
-WETA1,Coosa River at Wetumpka,1,WPKA1,True,False
-WETC2,West Divide Creek near Raven,0,,True,False
-WETG1,Chattahoochee River at West Point Lake near West Point,2,FRNG1;WTPG1,True,False
-WETN4,Millstone River at Weston,1,BKWN4,True,False
-WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WEWS2,Keyapaha River at Wewala,2,NPRN1;PAHS2,True,False
 WFAM1,Presumpscot River above West Falmouth,0,,True,False
 WFBM8,West Fork Bitterroot River near Conner,0,,True,False
@@ -392,7 +367,7 @@ WROW4,Laramie River Wheatland Reservoir No. 2 Outflow,2,BOSW4;LRDW4,True,False
 WRPN7,Waccamaw River at Highway 904 near Pireway,2,FREN7;LNGS1,True,False
 WRPW1,White River at Roegner Pk. nr Auburn,2,WABW1;WRAW1,True,False
 WRRI3,White River (IN) near Ravenswood,2,NORI3;RVNI3,True,False
-WRRN7,Roaring River at S.R. 1993,0,,True,False
+WRRN7,Roaring River at S.R. 1993,1,WERN7,True,False
 WRRP1,Allegheny River at Warren,3,KIZP1;SLMN6;WHKP1,True,False
 WRRV2,South River at Waynesboro near Rife Road,0,,True,False
 WRRW1,White River Bridge,0,,True,False

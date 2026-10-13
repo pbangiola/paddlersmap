@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WEOT2,Oso Creek at Merrett Road,1,OOST2,True,False
-WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
-WESN7,Roanoke River near Westover,1,JAMN7,True,False
-WETA1,Coosa River at Wetumpka,1,WPKA1,True,False
-WETN4,Millstone River at Weston,1,BKWN4,True,False
-WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
 WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
 WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
@@ -61,6 +55,7 @@ WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WRMC2,White River near Meeker,1,WHIC2,True,False
 WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False
+WRRN7,Roaring River at S.R. 1993,1,WERN7,True,False
 WRSM7,Osage River at Warsaw,1,LKSM7,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
