@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
-SMCO2,Mill Creek (OK) near Sulphur,1,MCKO2,True,False
-SMCW4,Sybille Creek near Wheatland,1,GRIW4,True,False
-SMFV2,Middle Fork Holston River at Seven Mile Ford,1,MFHV2,True,False
-SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
@@ -299,6 +294,7 @@ WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
+YDRC1,Santa Margarita River at Ysidora,1,SMHC1,True,False
 YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
 YFSI1,Yankee Fork Salmon River near Clayton,1,PNBI1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False

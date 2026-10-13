@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SMAG1,Rottenwood Creek at Interstate North Parkway near Smyrna,0,,True,False
-SMBA2,St. Michael Bay Tide Gauge at St. Michael (MHHW),0,,True,False
-SMBA3,Santa Maria River near Bagdad,0,,True,False
-SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
-SMBN7,"Simmons Branch at Lail Court near Raleigh, NC",0,,True,False
-SMCG1,Sewell Mill Creek at GA 120 near Marietta,0,,True,False
-SMCO2,Mill Creek (OK) near Sulphur,1,MCKO2,True,False
-SMCS2,Sixmile Creek above Brookings,0,,True,False
-SMCT2,Guadalupe River at Canyon Lake,2,SRGT2;STLT2,True,False
-SMCW4,Sybille Creek near Wheatland,1,GRIW4,True,False
-SMDP1,Sherman Creek at Shermans Dale,0,,True,False
-SMFF1,Tide Station at St Augustine Municipal Marina (in MHHW),0,,True,False
-SMFG1,Whitewater Creek at Starrs Mill,0,,True,False
-SMFN5,Rio Grande near San Marcial,2,EBNN5;SNAN5,True,False
-SMFN7,Neuse River at Smithfield,2,CLYN7;GLDN7,True,False
-SMFV2,Middle Fork Holston River at Seven Mile Ford,1,MFHV2,True,False
-SMFW2,Morgan Run near Morgan Run,0,,True,False
-SMGS1,Sampit River below Highway 17 near Georgetown,0,,True,False
-SMHC1,Santa Margarita River near Temecula,0,,True,False
-SMHM7,Little Platte River at Smithville,0,,True,False
-SMHM8,Smith River (MT) below Eagle Creek near Fort Logan,2,EDNM8;SFLM8,True,False
-SMHS1,Smith Branch (SC) at North Main St,0,,True,False
-SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
-SMIT2,Colorado River (TX) near Smithville,2,BRTT2;LGRT2,True,False
-SMIV2,Roanoke River at Smith Mountain Lake,2,ALTV2;NIAV2,True,False
 SMKA4,Smackover Creek near Smackover,0,,True,False
 SMKT2,Millers Creek at Millers Creek Reservoir near Bomarton,0,,True,False
 SMLI2,Ohio River at Smithland Lock and Dam,3,BARK2;GOLI2;PAHK2,True,False
@@ -2198,7 +2173,7 @@ YBUP4,Rio Guayanes at Yabucoa,0,,True,False
 YDAQ9,Yukon River at Dawson-Yukon Territory,2,YEAA2;YWRQ9,True,False
 YDLC2,Yampa River near Deerlodge Park,3,JESU1;LILC2;MBLC2,True,False
 YDMC1,East Fork Russian River below Coyote Dam,0,,True,False
-YDRC1,Santa Margarita River at Ysidora,0,,True,False
+YDRC1,Santa Margarita River at Ysidora,1,SMHC1,True,False
 YEAA2,Yukon River at Eagle,2,CIRA2;YDAQ9,True,False
 YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
 YELG1,Yellow River at GA 124 near Lithonia,0,,True,False
