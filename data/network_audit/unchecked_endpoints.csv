@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ROWI4,Iowa River near Rowan,2,BTDI4;IFAI4,True,False
-ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
-ROWW2,Cheat River at Rowlesburg,2,ABRW2;ROLW2,True,False
-ROXM1,Swift River at Roxbury,0,,True,False
-ROXN6,East Branch Delaware River at Roxbury,1,MRGN6,True,False
-ROYT2,Clear Fork Brazos River near Roby,1,HWLT2,True,False
-ROYW3,Little Wolf River at Royalton,0,,True,False
-ROZK1,Pawnee River near Rozel,2,BTTK1;SANK1,True,False
-ROZM7,St. Francis River near Roselle,1,MLCM7,True,False
-RPCO2,Pennington Creek near Reagan,1,MCPO2,True,False
-RPCV2,Peters Creek at Strauss Park,0,,True,False
-RPDM5,Le Sueur River near Rapidan,0,,True,False
-RPIL1,Bayou Anacoco near Rosepine,0,,True,False
-RPLW2,Elk River near Replete (Left Fork Holly),2,CFRW2;GUAW2,True,False
-RPMM5,Root River (MN) near Pilot Mound,2,FLMM5;RSFM5,True,False
-RPOP4,Rio Piedras at Hato Rey,0,,True,False
-RPPC1,Kern River at Reclamation Canal,0,,True,False
-RPTF1,Tampa Bay at Rocky Point (in MHHW),0,,True,False
-RPTN7,Reedy Patch Creek near Bat Cave,0,,True,False
-RPWA3,Reata Pass Wash above Scottsdale,0,,True,False
-RRAL1,Red River above Red River Lock 1,0,,True,False
-RRBL1,Red River above Red River Lock 2,0,,True,False
-RRBM8,Ruby River below Ruby Reservoir near Alder,2,ALRM8;RTBM8,True,False
-RRCM8,Redwater River (MT) at Circle,0,,True,False
-RRCV2,Rappahannock River At Crest Hill Road,0,,True,False
 RRDI4,Des Moines River at Red Rock Tail,2,PELI4;TRCI4,True,False
 RRDM5,Red Lake River near Red Lake,2,HIGM5;RLDM5,True,False
 RRDN7,Roanoke River at Roanoke Rapids,2,GASN7;HFXN7,True,False
