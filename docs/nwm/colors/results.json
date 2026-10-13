@@ -1,0 +1,47 @@
+{
+  "views": [
+    {
+      "view": "national",
+      "colored_rendered_features": 3930,
+      "status": "32209 national major-river reaches \u00b7 22400 colored \u00b7 NOAA update: 2026-10-13 00:50:51 UTC"
+    },
+    {
+      "view": "west",
+      "colored_rendered_features": 5716,
+      "status": "6/6 cells \u00b7 10373 colored reaches \u00b7 0 unavailable cells \u00b7 NOAA update: 2026-10-13 00:50:51 UTC"
+    },
+    {
+      "view": "east",
+      "colored_rendered_features": 5884,
+      "status": "6/6 cells \u00b7 12149 colored reaches \u00b7 0 unavailable cells \u00b7 NOAA update: 2026-10-13 00:50:51 UTC"
+    }
+  ],
+  "query_count": 168,
+  "asset_failures": [
+    {
+      "url": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0/query",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0/query",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0/query",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0/query",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0/query",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0/query",
+      "error": "The read operation timed out"
+    }
+  ],
+  "popup": "NWM feature ID: 23832751\nCurrent discharge: 55.79722475 ft\u00b3/s\nLow anchor: 0.289 ft\u00b3/s\nCentral anchor: 0.779 ft\u00b3/s\nUpper anchor: 6888.68 ft\u00b3/s\nScale position: 0.2559907464643438\nNOAA update: 2026-10-13 00:50:51 UTC\n\u00d7"
+}
