@@ -1,13 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SSBT2,San Saba River at San Saba,1,BSST2,True,False
-SSGC1,San Gabriel River (CA) at Parkway,1,SGGC1,True,False
-SSMT2,Seco Creek at Miller Ranch near Utopia,1,SCRT2,True,False
-SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
-SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
-SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
 SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
 SSUW1,South Fork Skokomish River near Union,1,SRCW1,True,False
-SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STCG1,Stone Mountain Creek at Silver Hill Road near Stone Mountain,1,SOCG1,True,False
@@ -18,6 +11,7 @@ STGO1,Chippewa Creek at Sterling,1,RITO1,True,False
 STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
 STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
+STJI2,Salt Fork (IL) near St. Joseph,1,SSJI2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STKA2,Stikine River near Wrangell,1,ISKQ2,True,False
 STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
@@ -135,6 +129,7 @@ VASN7,Flat Creek near Iverness,1,MANN7,True,False
 VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VBMN2,Virgin River blo Muddy Confluence,1,MVSA3,True,False
 VCAC1,Santa Clara River (CA) at Victoria Avenue,1,TSYC1,True,False
+VCSI1,Valley Creek at Stanley,1,SRYI1,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
 VERT2,Pease River near Vernon,1,CDPT2,True,False

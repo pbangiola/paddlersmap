@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SRYA2,Situk River near Yakutat,0,,True,False
-SRYI1,Salmon River below Yankee Fork,0,,True,False
-SSAC1,Santa Rosa Creek at Santa Rosa,0,,True,False
-SSAP4,Rio Sabana at Sabana,0,,True,False
-SSBT2,San Saba River at San Saba,1,BSST2,True,False
-SSCN1,Missouri River at Sioux City,2,DCTN1;MRPN1,True,False
-SSCO3,S. Santiam River below Cascadia,0,,True,False
-SSCT2,Salado Creek at NE Loop 410,2,BSWT2;SACT2,True,False
-SSDN6,Seneca River at State Ditch,0,,True,False
-SSDW3,Peshtigo River at Sandstone Dam,2,JOFW3;PFDW3,True,False
-SSFN7,Cashie River at Sans Souci Ferry,0,,True,False
-SSFO3,S. Santiam River near Foster,2,GPRO3;WTLO3,True,False
-SSFW1,South Fork Stillaguamish River at Jordan Rd. Bridge,2,ARLW1;GFLW1,True,False
-SSGC1,San Gabriel River (CA) at Parkway,1,SGGC1,True,False
-SSIM5,Lake of the Woods at Spring Steel Island near Warroad,0,,True,False
-SSIW1,SF Stillaguamish R at Silverton,0,,True,False
-SSJI2,Spoon River (E-IL) near St. Joseph,0,,True,False
-SSMT2,Seco Creek at Miller Ranch near Utopia,1,SCRT2,True,False
-SSNA1,Pea River near Samson (CR 52),2,ELBA1;GNVA1,True,False
-SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
-SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
-SSOC2,South Boulder Creek (CO) below Eldorado Springs,0,,True,False
-SSPM5,Mississippi River at South St. Paul - Pool 2,0,,True,False
-SSPV1,Lake Champlain at Sandbar State Park Flood Inundation Mapping Site,0,,True,False
-SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
 SSQO2,Squirrel Creek near Shawnee,0,,True,False
 SSRF1,Sulphur Springs Run at Sulphur Springs,0,,True,False
 SSRM8,Sun River near Simms,2,ELCM8;VAUM8,True,False
@@ -35,7 +10,7 @@ SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
 SSTC1,San Joaquin River near Stevinson,0,,True,False
 SSTM7,Platte River at Sharps Station,2,AGYM7;PLCM7,True,False
 SSUW1,South Fork Skokomish River near Union,1,SRCW1,True,False
-SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
+SSVW1,South Fork Stillaguamish River above Verlot,2,GFLW1;SSIW1,True,False
 SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
 SSWU1,Jordan River at 90th South,0,,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
@@ -82,7 +57,7 @@ STII1,South Fork Clearwater River at Stites,0,,True,False
 STII2,Chicago Sanitary and Ship Canal at Stickney,2,CSWI2;LCSI2,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
 STIT2,North Texas Lakes at Stillhouse Hollow Lake,2,BSJT2;KEMT2,True,False
-STJI2,Salt Fork (IL) near St. Joseph,0,,True,False
+STJI2,Salt Fork (IL) near St. Joseph,1,SSJI2,True,False
 STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
 STJV1,Sleepers River near St. Johnsbury,0,,True,False
 STJW2,West Fork River below Stonewall Jackson Lake,2,JACW2;WTNW2,True,False
@@ -939,7 +914,7 @@ VCNI3,Wabash River at Vincennes,3,CRLI3;MCRI2;RVTI3,True,False
 VCPL1,Tide Station (LCH) at Vermilion Bay near Cypremort Point,0,,True,False
 VCRC2,Los Pinos River at Vallecito Reservoir,2,LPAC2;LPVC2,True,False
 VCRN8,Sheyenne River at Valley City,2,BHTN8;FRSN8,True,False
-VCSI1,Valley Creek at Stanley,0,,True,False
+VCSI1,Valley Creek at Stanley,1,SRYI1,True,False
 VCVA2,Village Cove at St Paul Island Tide Gage,0,,True,False
 VCVA3,Verde River below Camp Verde,3,VDCA3;VDTA3;WCLA3,True,False
 VCWK1,Vermillion Creek near Wamego,0,,True,False
@@ -1881,7 +1856,7 @@ YELO1,Yellow Creek at Hammonsville,0,,True,False
 YELW3,North Fork Yellow River near Perkinstown,0,,True,False
 YESG1,Yellow River near Snellville,0,,True,False
 YETG1,Yellow River Tributary at Plantation Road near Lawrenceville,0,,True,False
-YFSI1,Yankee Fork Salmon River near Clayton,2,PNBI1;SQUI1,True,False
+YFSI1,Yankee Fork Salmon River near Clayton,3,PNBI1;SQUI1;SRYI1,True,False
 YFYA2,Yukon River at Fort Yukon,2,BVRA2;CIRA2,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YGOP1,Youghiogheny River below Youghiogheyny Dam - Outflow (Tailwater),2,CNFP1;FRDM2,True,False
