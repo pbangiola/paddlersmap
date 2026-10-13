@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-STNG1,Alapaha River at Statenville,2,ALAG1;JNAF1,True,False
-STNN7,Contentnea Creek near Stantonsburg,0,,True,False
-STOM2,Stony Run at Loyola University in Baltimore,0,,True,False
-STOM5,"Stony River near Babbitt, Tomahawk Rd",0,,True,False
-STON7,Stony Creek near Rocky Mount,0,,True,False
-STPC1,Stampede Reservoir,2,BCVC1;SGNC1,True,False
-STPI3,Flatrock River at St. Paul,2,FLCI3;RSHI3,True,False
-STPM5,Mississippi River at St. Paul,3,FSNM5;HSTM5;MSPM5,True,False
-STPN7,Cape Fear River at W.O. Huske Lock,2,ELZN7;FAYN7,True,False
-STPS1,Lake Moultrie at Rediversion Canal near St. Stephen,0,,True,False
-STPW3,Wisconsin River below Stevens Point Dam,2,DUBW3;WTGW3,True,False
-STRA2,Starrigavan Creek near Sitka,0,,True,False
-STRI4,Des Moines River near Stratford,3,FODI4;FRAI4;WBCI4,True,False
-STRK2,South Fork Cumberland River near Stearns,2,LTWT1;WLCK2,True,False
-STRM4,Rifle River near Sterling,0,,True,False
-STRM8,St. Regis River near St. Regis,0,,True,False
-STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
-STRO1,Tiffin River at Stryker,0,,True,False
-STRS1,Rocky River SC near Starr,0,,True,False
-STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
-STSN7,"Steele Creek at Carowinds Blvd, 2.5 SSE Steele Creek",0,,True,False
-STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
-STTI3,White River (IN) at Stout Power Plant,4,ERSI3;INDI3;PRII3;SOUI3,True,False
-STTM7,Osage River near St. Thomas,3,MOAM7;SCZM7;TSCM7,True,False
-STTN1,Republican River at Stratton,3,BEKN1;BENN1;CULN1,True,False
 STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
 STTQ2,Stikine River at Telegraph Creek-British Columbia,1,STKA2,True,False
 STTW1,Stetattle Creek at Diablo,0,,True,False
@@ -810,7 +785,7 @@ VALP4,Rio Valenciano near Juncos,0,,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VANI4,Raccoon River at Van Meter Hwy R16--IFC,0,,True,False
 VANN7,Van Swamp near Hoke,0,,True,False
-VANO1,Tiffin River near Evansport,0,,True,False
+VANO1,Tiffin River near Evansport,2,DEFO1;STRO1,True,False
 VAPW1,Columbia River at Vancouver,2,BONO3;SHNO3,True,False
 VASC1,Los Gatos Creek at Vasona Reservoir,0,,True,False
 VASN7,Flat Creek near Iverness,1,MANN7,True,False
