@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PTVC1,Willow Brook at Stony Point Road,0,,True,False
-PTVK2,Levisa Fork at Paintsville,4,DWYK2;FLRK2;PNTK2;PSTK2,True,False
-PTVN4,Lamington (Black) River at Pottersville,0,,True,False
-PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
-PTVO3,Powder River (OR) above Thief Valley Reservoir,0,,True,False
-PTXM7,Pomme De Terre River at Pomme De Terre Dam,1,PLKM7,True,False
-PTYI1,Portneuf River at Tyhee,2,AFRI1;PIHI1,True,False
-PTZM7,Pomme de Terre River (MO) near Hermitage,0,,True,False
-PUCA3,Puerco River near Chambers,0,,True,False
-PUEN5,Pecos River below Puerto De Luna,2,ACMN5;LAKN5,True,False
-PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
-PULW1,South Fork Palouse River at Pullman,0,,True,False
-PUNF1,Shell Creek Near Punta Gorda,2,PRKF1;SHEF1,True,False
-PUTC3,Quinebaug River at Putnam,0,,True,False
-PUWO3,Pudding River near Woodburn,3,ABQO3;AURO3;SCSO3,True,False
-PUYW1,Puyallup River at Puyallup,2,ORTW1;WRDW1,True,False
-PVCC1,Los Angeles River below Sepulveda Dam,1,LRTC1,True,False
-PVHC1,Pallet Creek,0,,True,False
-PVHM3,Atlantic Coast at Provincetown Harbor (IN MLLW),0,,True,False
-PVLK2,Cumberland River at Pineville,2,BBVK2;BXTK2,True,False
-PVLL1,Amite River at Port Vincent,3,BMPL1;BYML1;FSLL1,True,False
-PVLM5,North Fork Crow River near Paynesville,1,MNHM5,True,False
-PVRC1,Chiles Creek at Lake Hennessey,0,,True,False
-PVRM5,Lac Qui Parle River near Providence,0,,True,False
-PVRS2,Little Minnesota River near Peever,0,,True,False
 PVUC1,Pier Avenue,0,,True,False
 PVUM7,Cedar Creek near Pleasant View,0,,True,False
 PVYK2,Floyds Fork near Pewee Valley,0,,True,False
