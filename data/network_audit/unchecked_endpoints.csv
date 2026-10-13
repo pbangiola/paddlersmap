@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PSNM5,North Branch Pipestone Creek near Pipestone,0,,True,False
-PSNW2,Cheat River at Parsons,3,BOWW2;HENW2;ROLW2,True,False
-PSPC2,San Juan River at Pagosa Springs,0,,True,False
-PSPI2,Tinley Creek near Palos Park,0,,True,False
-PSPI3,Lost River (IN) near Prospect,0,,True,False
-PSPT1,Elk River near Prospect,1,FYTT1,True,False
-PSQM4,Presque Isle River near Connorville,0,,True,False
-PSQN7,Pasquotank River near South Mills,0,,True,False
-PSRC1,Prosser Creek Reservoir near Truckee,0,,True,False
-PSRI1,Priest River near Coolin ID,0,,True,False
-PSTI1,South Fork Coeur d'Alene River near PINEHURST,0,,True,False
-PSTK2,Levisa Fork at Prestonsburg,2,PKYK2;PTVK2,True,False
-PSTL1,Tide Station (LIX) at Pilot Station,2,GISL1;SHBL1,True,False
-PSTM5,Pipestone Creek below Pipestone,2,PCSS2;PIPM5,True,False
-PSTN6,Lake Erie at Sturgeon Point (NOS),0,,True,False
-PSUV2,Unnamed Tributary at New Alexandria Pump Station - Upstream,0,,True,False
-PSVU1,"Pack Creek at Pack Creek Road Bridge near Moab, UT",0,,True,False
-PSWK2,Houston Creek (KY) at Paris,0,,True,False
-PSYG1,Hiwassee River near Streak Hill Road near Hiawassee,2,CHAN7;HWEG1,True,False
-PSZM7,White River (MO) at Ozark Beach Dam,0,,True,False
-PTAO2,Poteau River near Poteau,2,LVNO2;PANO2,True,False
-PTBC1,Petaluma River at D Street Bridge,0,,True,False
-PTCV2,Potts Creek near Covington,0,,True,False
-PTDC1,Upper Penitencia Creek at Dorel Drive,0,,True,False
-PTDW4,Reservoirs at Pathfinder Reservoir,0,,True,False
 PTFI1,Spokane River near Post Falls ID,2,COEI1;SGRW1,True,False
 PTFL1,Tide Station (LIX) at Port Fourchon (IN MHHW),0,,True,False
 PTGN6,Genesee River at Portageville (USACE),0,,True,False
@@ -1259,7 +1234,7 @@ SIXA2,Sixmile Creek near Hope,0,,True,False
 SIXF1,Sixmile Cypress Creek Near Ft Myers,0,,True,False
 SIXN7,"Six Mile Creek below Marvin Rd, 2 NW Marvin",0,,True,False
 SJBM4,St. Joseph River (MI/IN) at Main Chan. at BL-94 at Benton Harbor,0,,True,False
-SJCC2,San Juan River near Carracas,2,ARCN5;NAVC2,True,False
+SJCC2,San Juan River near Carracas,3,ARCN5;NAVC2;PSPC2,True,False
 SJDF1,Steinhatchee River at Jena Boat Ramp (in MHHW),0,,True,False
 SJEB3,St. John River at Edmundston,2,FTKM1;GFNB3,True,False
 SJEC1,San Jose Creek near Goleta,0,,True,False
