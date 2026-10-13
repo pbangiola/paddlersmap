@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WMCA2,Wiseman Creek at Wiseman,0,,True,False
-WMCI3,Tippecanoe River at Winamac,2,BLOI3;ORAI3,True,False
-WMDC1,Walnut Creek at Marsh Drive,0,,True,False
-WMGK1,Kansas River at Wamego,2,BVUK1;MHKK1,True,False
-WMHM2,Honeygo Run near White Marsh,0,,True,False
-WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
-WMPG1,Cloud Creek near Watson Mill Park,0,,True,False
-WMPM4,Detroit River at Windmill Pointe Tidal Gauge,0,,True,False
-WMSH1,Waikamoi Stream above Kailua,0,,True,False
-WMSM4,Red Cedar River near Williamston,1,ELNM4,True,False
-WMSM8,Silver Bow Creek at Warm Springs MT,0,,True,False
-WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
-WMSO3,Williamson River below Chiloquin,1,WKAO3,True,False
-WMWN7,White Marsh at U.S. 74 near Whiteville,0,,True,False
-WMYF1,Cow Pen Slough at WM-49,1,KGAF1,True,False
-WNAC2,South Platte River near Weldona,2,FOMC2;KERC2,True,False
-WNAM5,Mississippi River at Winona - Pool 6,2,TREW3;WIDM5,True,False
-WNBA3,Jackrabbit Wash near Wickenburg,0,,True,False
-WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
-WNBN7,MF SF New River at U.S. 221/321,1,WBMN7,True,False
-WNCN6,Walnut Creek (NY) at Silver Creek,0,,True,False
-WNCV2,West Neck Creek near Mapleton,0,,True,False
-WNCW3,Wolf River (WI) near Lake Poygan,1,NEWW3,True,False
-WNDI4,North Walnut Creek at Windsor Heights College Dr--IFC,2,DOSI4;URBI4,True,False
-WNDM3,Millers River at Winchendon,0,,True,False
 WNDN7,Cashie River near Windsor,0,,True,False
 WNDQ3,Pembina River near Windygates,2,PLRQ3;WLHN8,True,False
 WNDV2,Chesapeake Bay at Windmill Point (IN MLLW),0,,True,False
