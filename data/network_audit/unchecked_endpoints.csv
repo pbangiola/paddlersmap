@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WLON1,Elkhorn River near Winslow,2,WPNN1;WTRN1,True,False
-WLON7,Cape Fear River at Wilmington (IN MLLW),8,BCUN7;BGWN7;CPFN7;LCHN7;LGBN7;NELN7;PGHN7;STHN7,True,False
-WLPN3,Connecticut River at North Walpole,2,MNTM3;WLBN3,True,False
-WLRG1,Wheeler Creek at Bill Cheek Road near Auburn,0,,True,False
-WLRI2,Weller Creek at Des Plaines,0,,True,False
-WLRI4,Walnut Creek near Runnells Adkins St--IFC,0,,True,False
-WLRM2,Pocomoke River near Willards,0,,True,False
-WLRV1,Wells River at Wells River,0,,True,False
-WLSH1,Waimanalo Stream near Waimanalo,0,,True,False
-WLSI2,Flag Creek near Willow Springs,0,,True,False
-WLSK1,Saline River (KS) at Wilson Lake,2,LINK1;RUSK1,True,False
-WLSM4,Manistee River near Wellston (Tippy Dam),2,HOXM4;MSKM4,True,False
-WLSS1,Saluda River near WILLIAMSTON,2,WEPS1;WSHS1,True,False
-WLTM3,Charles River at Waltham,1,DDHM3,True,False
-WLTN6,White Brook (NY) near White Brook near Wilmington NY,0,,True,False
-WLTN8,Missouri River near Williston,2,CLBM8;GARN8,True,False
-WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
-WLTP1,Redstone Creek at Waltersburg,0,,True,False
-WLUH1,Wailuku River at Piihonoua,0,,True,False
-WLVO1,Ohio River at Wellsville,2,MGYP1;NCUW2,True,False
-WLVT1,Waldens Creek 6WSW Pigeon Forge (Little Valley),1,WALT1,True,False
-WLWA2,Willow Creek near Willow,1,WILA2,True,False
-WLWI1,Willow Creek (Eastern ID) near Spring Crk Ranch Nr Bellevue,0,,True,False
-WLWK2,Kentucky River at Lock 13 near Willow,2,HLDK2;RAVK2,True,False
-WMBT2,Blanco River at Wimberley,3,BFST2;HFXT2;LBFT2,True,False
 WMCA2,Wiseman Creek at Wiseman,0,,True,False
 WMCI3,Tippecanoe River at Winamac,2,BLOI3;ORAI3,True,False
 WMDC1,Walnut Creek at Marsh Drive,0,,True,False
@@ -206,7 +181,7 @@ WSGT2,"San Gabriel River near Weir, TX",5,GERT2;GETT2;GGLT2;GNGT2;GTWT2,True,Fal
 WSHK1,Mill Creek (WSHK1) at Washington,0,,True,False
 WSHL1,Bayou Courtableau at Washington,0,,True,False
 WSHM1,Aroostook River at Washburn,2,MASM1;TINB3,True,False
-WSHS1,Saluda River near WARE SHOALS,2,CHPS1;WLSS1,True,False
+WSHS1,Saluda River near WARE SHOALS,3,CHAS1;CHPS1;WLSS1,True,False
 WSHW1,Wishkah-Chehalis Tide Gage,0,,True,False
 WSIN2,Walker River near Schurz,3,WBWN2;WLHN2;WRMN2,True,False
 WSKF1,Whiskey Creek at Fort Myers,0,,True,False
