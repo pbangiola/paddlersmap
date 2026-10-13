@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
-YUCF1,Tide Gauge at Sutherland Bayou (in MHHW),0,,True,False
-YUKO2,North Canadian River near Yukon,2,ELNO2;OVRO2,True,False
-YUMW1,Yakima River at Cle Elum,2,EASW1;HLKW1,True,False
-YVLP1,Brokenstraw Creek at Youngsville,0,,True,False
-YWGM6,Yalobusha River at Whaley,2,GREM6;UHGM6,True,False
-YWPC1,Feather River at Yuba City Water Treatment Plant,2,FBLC1;GRIC1,True,False
-YWRQ9,Yukon River above White River-Yukon Territory,2,PRXQ9;YDAQ9,True,False
-YZOM6,Yazoo River at Yazoo City,2,BELM6;YRSM6,True,False
-ZACT2,Zacate Creek at Laredo,0,,True,False
-ZAJT2,Zacate Creek at Jacaman Road,0,,True,False
-ZANO1,Muskingum River at Zanesville,2,DREO1;MCCO1,True,False
-ZAPN8,Spring Creek (ND) at Zap,0,,True,False
-ZAYL1,Comite River near Zachary,2,BAKL1;MLDL1,True,False
-ZBQN7,Atlantic Coast at Zeeks Basin,0,,True,False
-ZCCC1,Zaca Creek near Buelton,0,,True,False
-ZCRM7,Castor River above Zalma,0,,True,False
-ZEEM4,Macatawa River near Zeeland,0,,True,False
-ZENK1,Rattlesnake Creek (KS) near Zenith,1,MACK1,True,False
-ZFSF1,Peace River at Zolfo Springs,3,ARCF1;PWAF1;WLAF1,True,False
-ZKAF1,Gulf Tide Station Near Chassahowitzka,0,,True,False
-ZLGC1,Line G1 - Dublin Blvd,1,XCHC1,True,False
-ZLJC1,Line J1 below Dublin Blvd,0,,True,False
-ZLMC1,Line M - Lindbergh Avenue,0,,True,False
-ZLPP1,Connoquenessing Creek at Zelienople,1,BTRP1,True,False
 ZMBO1,Zimber Ditch at North Canton,0,,True,False
 ZNRC1,New River near New River Westmorland,0,,True,False
 ZOLO3,Zollner Creek near Mt Angel,0,,True,False
