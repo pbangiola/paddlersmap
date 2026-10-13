@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PIPM5,Pipestone Creek at Pipestone,1,PSTM5,True,False
-PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
-PITW1,Klickitat River near Pitt,1,KLCW1,True,False
-PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
-PKGM5,Lake Pokegama Dam,1,DAYM5,True,False
 PKPM8,Prickly Pear Creek near Clancy,1,HVDM8,True,False
 PKRS2,West Fork Vermillion River near Parker,1,VRCS2,True,False
 PKTO1,Scioto River at Piketon,1,HIGO1,True,False
@@ -522,6 +517,7 @@ YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
+YNTK2,Elkhorn Creek at Yarnallton,1,PKMK2,True,False
 YTUK2,Blaine Creek at Yatesville Lake,1,BLCK2,True,False
 YZOM6,Yazoo River at Yazoo City,1,BELM6,True,False
 ZENK1,Rattlesnake Creek (KS) near Zenith,1,MACK1,True,False

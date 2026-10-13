@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PIPF1,Choctawhatchee Bay at Pilcher Park (in MHHW),0,,True,False
-PIPM5,Pipestone Creek at Pipestone,1,PSTM5,True,False
-PIPS2,Blackpipe Creek near Belvidere,0,,True,False
-PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
-PIQO1,Great Miami River at Piqua,3,LOCO1;SIDO1;TRYO1,True,False
-PIRS2,Missouri River at Pierre,2,LFIS2;PIES2,True,False
-PIRV2,Piney River at Piney River,0,,True,False
-PISM8,Sun River at Pishkun Reservoir near Augusta,0,,True,False
-PITC1,Pit River above Near Montgomery,0,,True,False
-PITF1,Choctawhatchee River near Pittman (SR 2),2,CARF1;GNVA1,True,False
-PITN4,Mantua Creek at Pitman,0,,True,False
-PITW1,Klickitat River near Pitt,1,KLCW1,True,False
-PITW3,Yellow River (WI) at Pittsville,1,BBCW3,True,False
-PIXW4,Bear River below Pixley Dam,2,BRWU1;COKW4,True,False
-PJMC1,Pajaro River at Main Street,0,,True,False
-PKCN1,"Rock Creek at Parks, NE",0,,True,False
-PKCN5,Pecos River 6 miles NE of Lakewood,3,ATSN5;CBLN5;DAYN5,True,False
-PKCN7,Parker Creek above Greenville,0,,True,False
-PKEC1,Kelly Creek at Sunnyslope Road,0,,True,False
-PKFI4,Flood Creek near Packard 130th St--IFC,0,,True,False
-PKGM5,Lake Pokegama Dam,1,DAYM5,True,False
-PKIP1,Lackawanna River at Parker St Bridge,2,ARHP1;OFRP1,True,False
-PKLN6,Platter Kill at Gilboa,0,,True,False
-PKMK2,Elkhorn Creek at Peaks Mill,5,DLPK2;FTSK2;GEOK2;GSTK2;HLSK2,True,False
-PKMN6,Hudson River near Poughkeepsie,2,ALBN6;BATN6,True,False
 PKMS1,Reedy River at Parkins Mill Rd.,0,,True,False
 PKNO1,Blacklick Creek at Pickerington,0,,True,False
 PKPM8,Prickly Pear Creek near Clancy,1,HVDM8,True,False
@@ -3433,7 +3408,7 @@ WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
 WHRM8,Whitefish River near Kalispell,0,,True,False
 WHRP1,First Fork Sinnemahoning Creek at Wharton,0,,True,False
 WHRQ9,White River at kilometer 1881.6 Alaska Hwy near Beaver Creek-Yukon Territory,0,,True,False
-WHRS2,White River (NE-SD) near White River,2,KDKS2;OACS2,True,False
+WHRS2,White River (NE-SD) near White River,3,KDKS2;OACS2;PIPS2,True,False
 WHRW3,White River (WI) near Ashland,0,,True,False
 WHRW4,Bighorn River above Worland,2,BHWW4;SBDW4,True,False
 WHSH1,Waiahole Stream above Kamehameha Hwy,0,,True,False
@@ -3958,7 +3933,7 @@ YMSC2,Yampa River below Stagecoach Reservoir,0,,True,False
 YNHG1,Tugalo River at YONAH DAM,2,HRTG1;TUGG1,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 YNTC1,Redwood Creek (Napa County) at Mt Veeder Road,0,,True,False
-YNTK2,Elkhorn Creek at Yarnallton,0,,True,False
+YNTK2,Elkhorn Creek at Yarnallton,1,PKMK2,True,False
 YNTN6,Lower Niagara River at Youngstown (Fort Niagara),0,,True,False
 YOCK1,near Yocemento,0,,True,False
 YOKO3,Umatilla River near Yoakum,2,PDTO3;UMAO3,True,False
