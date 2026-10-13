@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NCET2,East Fork San Jacinto River near New Caney,2,CLDT2;HSJT2,True,False
-NCFV2,Naked Creek near Furnace,0,,True,False
-NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,False
-NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
-NCHS1,Little Pee Dee River near Nichols,2,DLLS1;GALS1,True,False
-NCHT2,Tide Station (HGX) at Manchester,0,,True,False
-NCHV2,Appomattox River at Namozine Creek at Rt 625 near Hebron,0,,True,False
-NCKG1,Nancy Creek at Rickenbacker Drive at Atlanta,1,NCDG1,True,False
-NCKN6,Hudson River at North Creek,2,HDYN6;NWCN6,True,False
-NCMA2,National Creek near McCarthy,0,,True,False
-NCMK1,Smoky Hill River near New Cambria,2,ABIK1;MTRK1,True,False
-NCMM5,Mustinka River near Norcross (MN9),0,,True,False
-NCNC1,Napa River at Downtown Napa,0,,True,False
-NCOC1,Feather River at Nicolaus,3,BRWC1;FBLC1;VONC1,True,False
-NCOF1,North Creek at the Oaks G.C.,0,,True,False
-NCRG1,Chattahoochee River at Highway 141 near Norcross,2,RWLG1;WSWG1,True,False
-NCRK1,Sappa Creek near Norcatur,2,BVSN1;OBNK1,True,False
-NCRN7,N.E. Cape Fear River at Wilmington,0,,True,False
-NCRW1,Nason Creek above Plain,0,,True,False
-NCSI3,Nameless Creek at Stringtown,0,,True,False
-NCSP1,Shenango River at New Castle,0,,True,False
-NCST2,Neches River near Neches,2,ATOT2;LPTT2,True,False
-NCTM5,North Branch Two Rivers River near Northcote North Branch Two Rivers River,0,,True,False
-NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
-NCUC1,North Fork Cache Creek above slide near Clearlake Oaks,0,,True,False
 NCUW2,Ohio River at New Cumberland Lock and Dam,2,SBVO1;WLVO1,True,False
 NDCS2,North Deer Creek above Brookings,0,,True,False
 NDGM3,Three Mile River at North Dighton,0,,True,False
@@ -2563,7 +2538,7 @@ SHBN6,Chenango River at Sherburne,1,NWHN6,True,False
 SHBW4,Goose Creek at Sheridan,0,,True,False
 SHCT2,Rowlette Creek near Sachse,0,,True,False
 SHDC2,Dry Creek (CO) above Fort Collins,0,,True,False
-SHDP1,Shenango River at Shenango Dam Tailwater,0,,True,False
+SHDP1,Shenango River at Shenango Dam Tailwater,2,NCSP1;SHPP1,True,False
 SHDT1,South Fork Holston River above South Holston Dam,3,BOOT1;MFHV2;VSTV2,True,False
 SHEA1,Aldridge Creek (AL) at Sherwood Drive in Huntsville,2,FRYA1;TONA1,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
@@ -2604,7 +2579,7 @@ SHPG1,Shoal Creek at GA 54 near Sharpsburg,0,,True,False
 SHPK2,Salt River (KY) at Shepherdsville,4,BRCK2;MWTK2;TVLK2;WPTK2,True,False
 SHPM2,School House Pond at Upper Marlboro,0,,True,False
 SHPN7,Contentnea Creek at Sheppard Ferry,0,,True,False
-SHPP1,Shenango River at Shenango Dam Pool,0,,True,False
+SHPP1,Shenango River at Shenango Dam Pool,1,SHDP1,True,False
 SHRC2,Bear Creek (CO) at Sheridan,2,BCDC2;DNVC2,True,False
 SHRI4,Shell Rock River at Shell Rock,3,CEDI4;CLRI4;MRBI4,True,False
 SHRM4,Manistee River near Sherman,2,GYMM4;MSKM4,True,False
@@ -3783,7 +3758,7 @@ TRMF1,Twin Rivers Marina (In MHHW),2,CKBF1;CYXF1,True,False
 TRMW4,Tongue River at Monarch (closed),2,DAYW4;DSLM8,True,False
 TRNC1,Trinity River near Helena 1SSE,0,,True,False
 TRNI4,Monona-Harrison Ditch near Turin,0,,True,False
-TRNP1,Shenango River near Transfer,1,JMSP1,True,False
+TRNP1,Shenango River near Transfer,2,JMSP1;NCSP1,True,False
 TRNT2,North Texas Lakes at Cedar Creek Lake,2,LTLT2;TDDT2,True,False
 TROI4,South Chequest Creek near Troy Yak Blvd--IFC,0,,True,False
 TROO3,Trout Creek (OR) near Fields,0,,True,False

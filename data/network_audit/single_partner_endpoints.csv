@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,False
-NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
-NCKG1,Nancy Creek at Rickenbacker Drive at Atlanta,1,NCDG1,True,False
-NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NDYG1,Noonday Creek at Hawkins Store Road near Blackwells,1,NBSG1,True,False
 NEBA2,Nabesna River at Northway Village,1,NABA2,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
@@ -353,6 +349,7 @@ SHLT2,San Jacinto River near Sheldon,1,HSJT2,True,False
 SHLV2,South Fork Holston River at Riverside nr Chilhowie,1,VSTV2,True,False
 SHNI4,East Nishnabotna River near Shenandoah (IFC),1,COBI4,True,False
 SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
+SHPP1,Shenango River at Shenango Dam Pool,1,SHDP1,True,False
 SHVT1,Duck River near Shelbyville,1,COLT1,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
@@ -488,7 +485,6 @@ TPLI4,Wapsipinicon River near Tripoli,1,DKTI4,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
-TRNP1,Shenango River near Transfer,1,JMSP1,True,False
 TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
 TRVN7,Tar River near Tar River,1,LOUN7,True,False
 TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
