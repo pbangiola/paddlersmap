@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WFWR1,Blackstone River above Woonsocket,0,,True,False
-WGCM8,Middle Fork Flathead River near West Glacier,0,,True,False
-WGLM1,West Grand Lake at Grand Lake Stream,0,,True,False
-WGLV2,Sideburn Branch at Woodglen Lake,0,,True,False
-WGOM5,North Fork Zumbro River near Wanamingo,0,,True,False
-WGPL1,Amite River Basin at Welsh Gully near Prairieville,0,,True,False
-WGRT2,Willis Creek near Granger,0,,True,False
-WGTM3,Squannacook River at West Groton,0,,True,False
-WHAT2,Colorado River (TX) at Wharton,2,BACT2;CBST2,True,False
-WHBC2,White River near Rangely,2,WATU1;WHIC2,True,False
-WHBI1,Salmon River at White Bird,1,SMNI1,True,False
-WHBN6,Sauquoit Creek at Whitesboro,0,,True,False
-WHCI2,Whitley Creek near Allenville,0,,True,False
-WHCI3,Blue River (IN) at White Cloud,2,FRDI3;MGOI3,True,False
-WHCW4,Wild Horse Creek near Arvada (Closed Gauge),0,,True,False
-WHDC1,White River near Ducor,0,,True,False
-WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
-WHEI2,Buffalo Creek (IL) at Wheeling,0,,True,False
-WHEW2,Wheeling Creek WV at Elm Grove,0,,True,False
-WHEW3,Hay River at Wheeler,1,MENW3,True,False
-WHGG1,Snake Creek  downstream Snake Creek Reservoir near Whitesburg,1,SNKG1,True,False
-WHGM7,Missouri River at Washington,2,HRNM7;SCLM7,True,False
-WHIA1,Tennessee River at Whitesburg,2,DECA1;GVDA1,True,False
-WHIC2,White River below Meeker,2,WHBC2;WRMC2,True,False
-WHIN4,Whippany River at Morristown,2,PNBN4;WHPN4,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
 WHIW1,White River near Plain,0,,True,False
 WHIW3,Trempealeau River at Whitehall,3,IDPW3;PIGW3;TBLW3,True,False
@@ -629,12 +604,12 @@ ZNRC1,New River near New River Westmorland,0,,True,False
 ZOLO3,Zollner Creek near Mt Angel,0,,True,False
 ZONI3,Eagle Creek (IN) at Zionsville,1,ETPI3,True,False
 ZOOM8,Canyon Creek at Billings (Zoo Montana),0,,True,False
-ZPAM5,North Fork Zumbro River near Mazeppa,0,,True,False
+ZPAM5,North Fork Zumbro River near Mazeppa,2,WGOM5;ZUMM5,True,False
 ZPHF1,Hillsborough River near Zephyrhills at State Park,3,HRZF1;KNTF1;MORF1,True,False
 ZPRF1,Hillsborough River Above Crystal Springs Near Zephyrhills,2,HRZF1;WRCF1,True,False
 ZSRC1,South San Ramon Creek above Amador Valley Blvd,0,,True,False
 ZSRM2,Zekiah Swamp Run near Newtown,0,,True,False
 ZTNK2,Pennsylvania Run near Zoneton,0,,True,False
 ZUIN5,Zuni River above Black Rock Reservoir,0,,True,False
-ZUMM5,Zumbro River at Zumbro Falls,3,AMAW3;KELM5;LKZM5,True,False
+ZUMM5,Zumbro River at Zumbro Falls,4,AMAW3;KELM5;LKZM5;ZPAM5,True,False
 ZUNV2,Blackwater River (VA) near ZUNI,2,DNDV2;FKNV2,True,False
