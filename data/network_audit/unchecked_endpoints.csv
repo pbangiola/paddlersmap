@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SDSW3,Siskiwit R at Cornucopia,0,,True,False
-SDTI4,Des Moines River at Saylorville Tail,2,DMOI4;SAYI4,True,False
-SDTM4,Tittabawassee River below Secord Dam near Gladwin,0,,True,False
-SDVK2,Eagle Creek (KY) near Sadieville,0,,True,False
-SDVN5,AMAFCA at South Diversion Channel above Tijeras Arroyo,0,,True,False
-SDXC1,Pilarcitos Creek above Stone Dam,0,,True,False
-SDYM5,Sandy Lake Dam,1,ATDM5,True,False
-SEBF1,South Prong St Sebastian River,0,,True,False
-SEBN4,Shrewsbury River at Rumson - Seabright,0,,True,False
-SEBP4,Rio Grande De Anasco near San Sebastian,0,,True,False
-SEBV2,Nottoway River near Sebrell,2,RVDV2;STYV2,True,False
-SEBW3,Sheboygan River at Sheboygan,0,,True,False
-SECF1,Halifax River at Spruce Creek Park (in MHHW),0,,True,False
-SECM1,Sebec River at Sebec,0,,True,False
-SEDK1,Little Arkansas River near Sedgwick,1,HTDK1,True,False
-SEDN7,Walnut Creek (NC) below Maynard St in Cary,0,,True,False
-SEEM7,Meramec River near Steelville,2,CSNM7;SLLM7,True,False
-SEEN4,Cohansey River at Seeley,1,GRWN4,True,False
-SEET1,Sewee Creek at Decatur 5NE,0,,True,False
-SEFN6,Seneca River near Seneca Falls,0,,True,False
-SEGT2,Guadalupe River at Seguin,2,GBCT2;SGGT2,True,False
-SEIC1,Klamath River near Seiad Valley,2,IRGC1;ONSC1,True,False
-SEIM1,Atlantic Coast at Seavey Island (IN MLLW),0,,True,False
-SEIO2,North Canadian River near Seiling,2,CNLO2;WDGO2,True,False
-SEKC1,San Luisito Creek,0,,True,False
 SEKU1,Sevier River near Kingston,2,HATU1;SRKU1,True,False
 SELA1,Alabama River at Selma,2,MRFA1;TYLA1,True,False
 SELC2,South Platte River near Lake George,2,CHSC2;HARC2,True,False
