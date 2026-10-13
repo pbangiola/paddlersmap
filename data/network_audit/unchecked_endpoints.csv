@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WIKC2,Williams Fork at Mouth near Hamilton,0,,True,False
-WILA1,Big Creek (Al) near Wilmer,0,,True,False
-WILA2,Willow Creek at Parks Highway near Willow,0,,True,False
-WILL1,Breton Sound Basin at Reggio Canal near Wills Point,0,,True,False
-WILM3,Hoosic River near Williamstown,1,EAGN6,True,False
-WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
-WILN2,Willow Creek at Allison Ranch,0,,True,False
-WILN6,Ellicott Creek below Williamsville,0,,True,False
-WILO1,St. Marys River at Willshire,2,PLMI3;RFDO1,True,False
-WILP1,West Branch Susquehanna River at Williamsport,2,JRSP1;MCYP1,True,False
-WILW1,Willapa River at Willapa,0,,True,False
-WILW2,Tug Fork River at Williamson,2,KRMW2;LITW2,True,False
-WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
-WIMD1,Christina River at Wilmington (IN MLLW),0,,True,False
-WIMF1,Little Manatee River near Wimauma at US 301,2,LMWF1;LRFF1,True,False
-WINM3,Priest Brook at Winchendon,0,,True,False
-WINN3,Winnicut River near Portsmouth,0,,True,False
-WINO3,North Umpqua River at Winchester Dam,2,GLIO3;WNRO3,True,False
-WINW1,Chewuch River at Winthrop,0,,True,False
-WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
-WIPF1,Indian River at Williams Point Cocoa (in MHHW),0,,True,False
-WIRW3,Wisconsin River at Wisconsin Rapids,2,PETW3;WDSW3,True,False
-WISH1,Waihi Stream near Manoa,0,,True,False
-WISI4,West Nishnabotna River near Riverton,0,,True,False
-WITN6,Otselic River at Whitney Point Dam,0,,True,False
 WIVF1,Withlacoochee River at Inverness (in NAVD88),2,HLDF1;RUTF1,True,False
 WIWC1,Willow Creek (Russian River) near 3rd Bridge,0,,True,False
 WJCT2,Williamson Creek at Jimmy Clay Road near Austin 6SE,0,,True,False
@@ -120,7 +95,7 @@ WLTP1,Redstone Creek at Waltersburg,0,,True,False
 WLUH1,Wailuku River at Piihonoua,0,,True,False
 WLVO1,Ohio River at Wellsville,2,MGYP1;NCUW2,True,False
 WLVT1,Waldens Creek 6WSW Pigeon Forge (Little Valley),1,WALT1,True,False
-WLWA2,Willow Creek near Willow,0,,True,False
+WLWA2,Willow Creek near Willow,1,WILA2,True,False
 WLWI1,Willow Creek (Eastern ID) near Spring Crk Ranch Nr Bellevue,0,,True,False
 WLWK2,Kentucky River at Lock 13 near Willow,2,HLDK2;RAVK2,True,False
 WMBT2,Blanco River at Wimberley,3,BFST2;HFXT2;LBFT2,True,False

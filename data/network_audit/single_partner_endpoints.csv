@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WILM3,Hoosic River near Williamstown,1,EAGN6,True,False
-WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
-WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
-WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKCK1,Wildcat Creek at Keats,1,MWCK1,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
@@ -18,6 +14,7 @@ WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
 WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
 WLVT1,Waldens Creek 6WSW Pigeon Forge (Little Valley),1,WALT1,True,False
+WLWA2,Willow Creek near Willow,1,WILA2,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WMSM4,Red Cedar River near Williamston,1,ELNM4,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
