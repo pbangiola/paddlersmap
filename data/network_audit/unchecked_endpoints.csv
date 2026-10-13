@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-QPTR1,Narragansett Bay at Quonset Point (IN MLLW),0,,True,False
-QSAC1,San Antonio Creek at Indian Creek Road,2,ACSC1;ANOC1,True,False
-QSCC1,Kern River at STINE CANAL,0,,True,False
-QSGC1,Saratoga Creek at Saratoga,0,,True,False
-QSTC1,San Tomas Aquino Creek at San Tomas Creek at Scott Blvd,0,,True,False
-QTHW1,Quinault River near Tahola,0,,True,False
-QTMM6,Chickasawhay River at Quitman,2,ENSM6;SHBM6,True,False
-QTMT2,Lake Fork Creek near Quitman,2,HAKT2;LFKT2,True,False
-QUAM3,Quashnet River at Waquoit Village,0,,True,False
-QUAO2,Spring River near Quapaw,1,BXTK1,True,False
-QUCN7,Queen Creek near Hubert,0,,True,False
-QUEP4,Lago Guajataca at Damsite,2,GUAP4;LARP4,True,False
-QUEW1,Queets R near Clearwater,0,,True,False
-QUSW2,Elk River at Queen Shoals,2,CLYW2;CRSW2,True,False
-QUTG1,Withlacoochee River near Quitman (US 84),3,HRAG1;PINF1;VDRG1,True,False
-RABF1,Rainbow River above Dunnellon (in NAVD88),0,,True,False
-RABI2,Rock River at Rockford (Auburn Street),2,LATI2;RFDI2,True,False
-RABI4,Chariton River at Rathbun Tail,2,MOLI4;RADI4,True,False
-RABN1,Big Papillion Creek at Q Street at Omaha,3,FCKN1;OMBN1;OMLN1,True,False
-RACC1,San Ramon Creek at San Ramon,0,,True,False
-RACI1,Rainey Creek at Swan Valley,0,,True,False
-RACW2,Ohio River at Racine Lock,2,BEVW2;POMO1,True,False
-RACW3,Root River at Racine,2,FAKW3;FRKW3,True,False
-RADF1,Lake Ocklawaha near Kirkpatrick Dam (in NAVD88),0,,True,False
-RADI4,Chariton River at Rathbun Reservoir,3,CHTI4;PRMI4;RABI4,True,False
 RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAMN6,Ramapo River at Ramapo,1,SFFN6,True,False
@@ -2790,7 +2765,7 @@ WCMW3,Sleighton Creek near Wilton - County Road M,0,,True,False
 WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
 WCNN6,Canisteo River near West Cameron,0,,True,False
 WCNW1,Wind River near Carson,0,,True,False
-WCOM7,Spring River  near Waco,3,BXTK1;CHTM7;NFSM7,True,False
+WCOM7,Spring River  near Waco,4,BXTK1;CHTM7;NFSM7;QUAO2,True,False
 WCPC1,Walnut Creek,0,,True,False
 WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRC2,Willow Creek (CO) at Willow Creek Reservoir,0,,True,False
