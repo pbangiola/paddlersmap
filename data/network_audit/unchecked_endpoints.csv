@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
-RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
-RAMN6,Ramapo River at Ramapo,1,SFFN6,True,False
-RAMO2,Caney River near Ramona,3,BVLO2;CVLO2;OKEO2,True,False
-RAMT1,Mid. Prong Little Pigeon River 4SSE Pittman Center (Ramsey Prong),0,,True,False
-RANM5,Chub Creek at Hwy 47 near Randolph 3W,0,,True,False
-RANV1,Ayers Brook at Randolph,0,,True,False
-RANW2,Sewell Creek above abv. Little Sewell Crk. at Rainelle,0,,True,False
-RAPI4,Rock River at Rock Rapids,2,LUVM5;RKVI4,True,False
-RAPM5,Blue Earth River near Rapidan,2,BUEM5;GRDM5,True,False
-RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
-RAPN7,Roanoke River above Roanoke Rapids Dam,0,,True,False
-RAPV2,Rappahannock River at Tappahannock (IN MLLW),0,,True,False
-RASP1,Sevenmile Run near Rasselas,0,,True,False
-RATF1,St George Island at Rattlesnake Cove (in MHHW),0,,True,False
-RATM6,Pearl River at Ratliff's Ferry,3,GDHM6;JSNM6;OFAM6,True,False
-RAUS2,Mud Creek near Rauville,0,,True,False
-RAVK2,Kentucky River near Ravenna,2,CYCK2;WLWK2,True,False
-RAVS2,Rapid Creek above Victoria Creek near Rapid City,2,BIGS2;CYNS2,True,False
-RAWV2,Nottoway River near Rawlings,2,MKNV2;NRNV2,True,False
-RAWW1,Cowlitz River at Randle,2,MAYW1;PACW1,True,False
-RAYN1,Branched Oak Reservoir,1,LOKN1,True,False
-RAYN3,Lamprey River at Raymond,0,,True,False
-RAYW3,Root River Canal near Raymond,0,,True,False
-RBBF1,Rose Bay Bridge (in MHHW),0,,True,False
 RBBT2,Tide Station (LCH) at Rainbow Bridge,0,,True,False
 RBCM5,Bear Creek (MN) near Rochester,0,,True,False
 RBDM8,Rosebud Creek near Rosebud (Closed Gauge),0,,True,False
@@ -515,7 +490,7 @@ RVDV2,Nottoway River near RIVERDALE,1,SEBV2,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
 RVFI2,Des Plaines River at River Forest,2,DMPI2;RVRI2,True,False
 RVHN3,Contoocook River at River Hill,0,,True,False
-RVLS2,South Branch Tributary Mud Creek near Rauville,0,,True,False
+RVLS2,South Branch Tributary Mud Creek near Rauville,1,RAUS2,True,False
 RVLT1,Big Creek near Rogersville,0,,True,False
 RVLW3,Platte River (WI) at Rockville,0,,True,False
 RVNI3,White River (IN) at Ravenswood,2,BRDI3;WRRI3,True,False
@@ -2827,7 +2802,7 @@ WEBN8,Starkweather Coulee near Webster,0,,True,False
 WECC2,West Creek (CO) at Westcreek,0,,True,False
 WEET2,West Elm Creek at Encino Rio at San Antonio,0,,True,False
 WEGL1,Lake Pontchartrain at West End,0,,True,False
-WEHV1,White River at West Hartford,0,,True,False
+WEHV1,White River at West Hartford,2,RANV1;WLBN3,True,False
 WEII1,Snake River at Weiser,2,HCDI1;SNYI1,True,False
 WEJO1,Little Darby Creek near West Jefferson,1,DBVO1,True,False
 WEKF1,Wekiva River near Sanford,0,,True,False
@@ -3012,7 +2987,7 @@ WLAF1,Little Charlie Creek at Mouth Near Wauchula,0,,True,False
 WLAO3,South Yamhill River near Willamina,2,MCMO3;WAWO3,True,False
 WLBK2,Cumberland River at Williamsburg,2,BBVK2;CFAK2,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
-WLBN3,Connecticut River at West Lebanon,2,WELV1;WLPN3,True,False
+WLBN3,Connecticut River at West Lebanon,3,WEHV1;WELV1;WLPN3,True,False
 WLBN6,Boquet River above Willsboro,0,,True,False
 WLBO1,Mad River at West Liberty,1,UBNO1,True,False
 WLCA2,Wolverine Creek near Lawing,0,,True,False

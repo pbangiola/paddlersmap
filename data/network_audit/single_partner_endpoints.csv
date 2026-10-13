@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
-RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
-RAMN6,Ramapo River at Ramapo,1,SFFN6,True,False
-RAPN6,Tonawanda Creek at Rapids,1,BTVN6,True,False
-RAYN1,Branched Oak Reservoir,1,LOKN1,True,False
 RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
 RBNM4,Grand River at Robinson Township,1,EASM4,True,False
 RBPF1,Braden Point (in MHHW),1,LWDF1,True,False
@@ -74,6 +69,7 @@ RUSM5,Redwood River at Russell,1,MSHM5,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVDV2,Nottoway River near RIVERDALE,1,SEBV2,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
+RVLS2,South Branch Tributary Mud Creek near Rauville,1,RAUS2,True,False
 RVNO1,West Branch Mahoning River above Ravenna,1,KIRO1,True,False
 RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
 RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
