@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NSPN7,New Hope Creek at NC-54,1,NHCN7,True,False
-NSSW1,South Fork Nooksack River near Saxon Bridge,1,NRKW1,True,False
-NSTN3,Connecticut River at North Stratford,1,DLTN3,True,False
-NTFV2,Catawba Creek near Howell Mills,1,CTWV2,True,False
 NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
 NTYV1,Missisquoi River at North Troy,1,EBKV1,True,False
 NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
@@ -365,6 +361,7 @@ SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
+SRPW1,Skokomish River near Potlatch,1,SRCW1,True,False
 SRTM5,Swan River near Taconite,1,JACM5,True,False
 SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
 SRVC1,Santa Ana River at Santa Ana,1,MWXC1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NSLN3,Spicket River at North Salem,0,,True,False
-NSNN4,South Branch Raritan River at Neshanic Station,0,,True,False
-NSNS1,North Santee River near North Santee,0,,True,False
-NSOK1,Neosho River near Oswego,2,COMO2;OSWK1,True,False
-NSPN7,New Hope Creek at NC-54,1,NHCN7,True,False
-NSPV1,"Black River at North Springfield, VT",0,,True,False
-NSPW1,North Fork Skokomish River near Potlatch,0,,True,False
-NSRT1,Dry Creek near Edenwold,0,,True,False
-NSSN7,Neuse River at Main St in Seven Springs,2,GLDN7;KINN7,True,False
-NSSW1,South Fork Nooksack River near Saxon Bridge,1,NRKW1,True,False
-NSTA2,[INACTIVE] Nushagak River at New Stuyahok,0,,True,False
-NSTM5,Seven Mile Creek (MN) near St. Peter 6S,0,,True,False
-NSTN3,Connecticut River at North Stratford,1,DLTN3,True,False
-NSVC2,North Saint Vrain Creek (CO) above Lyons,0,,True,False
-NSWM2,Nassawango Creek near Snow Hill,0,,True,False
-NSWV2,Nassawadox Creek near Bayford (IN MLLW),0,,True,False
-NTAN7,Alligator Bay near North Topsail Beach,0,,True,False
-NTCT2,Big Cow Creek at FM1416,0,,True,False
-NTDK1,Prairie Dog Creek at Norton Dam #2-DCP,2,CLNK1;WDRK1,True,False
-NTDN2,North Truckee Drain at Spanish Springs Road,0,,True,False
-NTFN7,North Toe River near Plumtree and Frank,0,,True,False
-NTFV2,Catawba Creek near Howell Mills,1,CTWV2,True,False
-NTKM3,Nantucket Harbor at Nantucket (IN MLLW),0,,True,False
-NTLV2,South Mayo River near Nettleridge,0,,True,False
-NTNI2,Embarras River (IL) at Newton,2,CMGI2;STMI2,True,False
 NTNN7,North Toe River below Newland,0,,True,False
 NTRV2,N.F. Thornton River at Lee Highway,0,,True,False
 NTSC1,Nathanson Creek at Sonoma,0,,True,False
@@ -2716,7 +2691,7 @@ SRCO1,Shade River near Chester,0,,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRCS1,South Rabon Creek near Gray Court,0,,True,False
 SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
-SRCW1,Skokomish River at Combined Forks Virtual Gage,0,,True,False
+SRCW1,Skokomish River at Combined Forks Virtual Gage,2,NSPW1;SRPW1,True,False
 SRDA2,Sanctuary River at Denali Park Road at Denali Park,0,,True,False
 SRDF1,Forked Creek at Stoner Rd,0,,True,False
 SRDI2,Illinois River at Starved Rock Lock (tailwater),2,LSLI2;OTWI2,True,False
@@ -2759,7 +2734,7 @@ SRPI1,Snake River at Pigeon Cove near Twin Falls,2,BUHI1;STFI1,True,False
 SRPM2,Nanticoke River at Sharptown,0,,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
 SRPN7,Swift Creek Upstream of Regency Pkwy,0,,True,False
-SRPW1,Skokomish River near Potlatch,0,,True,False
+SRPW1,Skokomish River near Potlatch,1,SRCW1,True,False
 SRQC1,San Gabriel River above Whittier Narrows Dam,0,,True,False
 SRRA2,[INACTIVE] Resurrection River at Seward Hwy Bridge near Seward,0,,True,False
 SRRL1,Lower Grand River at Bayou Sorrel,0,,True,False
@@ -3347,7 +3322,7 @@ TNMF1,Tide Gauge at Tarpon Point Marina (In MHHW),0,,True,False
 TNMM3,Mill River at Taunton,0,,True,False
 TNRA3,Tonto Creek near Roosevelt,0,,True,False
 TNRK1,Kansas River at Turner Bridge,0,,True,False
-TNTN2,Truckee River near Tracy,2,TBDN2;VISN2,True,False
+TNTN2,Truckee River near Tracy,3,NTDN2;TBDN2;VISN2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TNTP1,Tionesta Creek at Tionesta Dam Tailwater,1,TIOP1,True,False
 TNUA2,Tununak Tidal Gauge at Tununak (MHHW datum),0,,True,False
