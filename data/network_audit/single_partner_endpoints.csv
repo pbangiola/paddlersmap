@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-REGN8,Cannonball River at Regent,1,BREN8,True,False
-RENV2,Rappahannock River at Remington,1,FDBV2,True,False
-RERC2,Eagle River at Red Cliff,1,EAMC2,True,False
-REVS2,South Fork Grand River at Hwy 79,1,CSHS2,True,False
-REYG1,Spring Creek near Reynoldsville St. Park (SR 253),1,IRCG1,True,False
-RFDO1,St. Marys River at Rockford,1,WILO1,True,False
 RHOS2,Rhoads Fork near Rochford,1,RSIS2,True,False
 RHRN6,Genesee River at Rochester,1,AVON6,True,False
 RICA3,Rillito Creek at La Cholla,1,RILA3,True,False
@@ -285,6 +279,7 @@ TXPT2,Tide Station (LCH) at Texas Point,1,RBBT2,True,False
 TYGK2,Tygarts Creek near Greenup,1,OVHK2,True,False
 TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
 TYLN1,North Loup River at Taylor,1,ORDN1,True,False
+TYTF1,Little Withlacoochee River near Tarrytown (in NAVD88) ,1,RERF1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 UCHA2,Chena River near Two Rivers,1,CRHA2,True,False

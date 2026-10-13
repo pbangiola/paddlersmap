@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-REFN7,Reedy Fork at Old NC-87,0,,True,False
-REFT2,Mission River at Refugio,0,,True,False
-REGN8,Cannonball River at Regent,1,BREN8,True,False
-RELC2,Resolution Creek at Camp Hale near Red Cliff ,0,,True,False
-RELT2,Colorado River (TX) at Robert Lee,2,BLIT2;SILT2,True,False
-RENV2,Rappahannock River at Remington,1,FDBV2,True,False
-REPA1,Fivemile Creek near Republic,0,,True,False
-REPN1,Republican River at Harlan Reservoir,2,ORNN1;RVRN1,True,False
-RERC2,Eagle River at Red Cliff,1,EAMC2,True,False
-RERF1,Little Withlacoochee River at Rerdell (in NAVD88),0,,True,False
-RESA2,Resurrection River at Exit Glacier Road near Seward,2,EXTA2;GROA2,True,False
-RESV2,Jones Creek at Rescue Road,0,,True,False
-REVS2,South Fork Grand River at Hwy 79,1,CSHS2,True,False
-REXI1,Henrys Fork near Rexburg,3,ANTI1;MENI1;NFTI1,True,False
-REYG1,Spring Creek near Reynoldsville St. Park (SR 253),1,IRCG1,True,False
-REYM5,Redeye River near Aldrich (221st Ave),0,,True,False
-REYN6,Reynolds Channel at Point Lookout (IN MLLW),0,,True,False
-REYN7,Reedy Creek at SR 2803,0,,True,False
-RFCN7,Little Rockfish Creek at Wallace,0,,True,False
-RFDG1,Ogeechee River near Rocky Ford,2,MDVG1;OLVG1,True,False
-RFDI2,Rock River at Rockford (Fordam Dam),2,BYRI2;RABI2,True,False
-RFDN7,Rockfish Creek near Raeford,0,,True,False
-RFDO1,St. Marys River at Rockford,1,WILO1,True,False
-RFDS2,James River near Redfield,2,ATNS2;HURS2,True,False
-RFGA4,St. Francis River at Riverfront,0,,True,False
 RFKT1,Roaring Fork River above Gatlinburg,0,,True,False
 RFPL1,Lake Pontchartrain 8 miles ESE of Slidell at Rigolets on U S Hwy 90,0,,True,False
 RFRV2,Broad Run at Rollins Ford Road,0,,True,False
@@ -2172,7 +2147,7 @@ TYLW3,Tyler Forks River near Mellen,0,,True,False
 TYRK2,Kentucky River at Tyrone,2,FFTK2;SLVK2,True,False
 TYRO1,Touby Run at Mansfield,0,,True,False
 TYSA3,Tyson Wash at Quartzsite,0,,True,False
-TYTF1,Little Withlacoochee River near Tarrytown (in NAVD88) ,0,,True,False
+TYTF1,Little Withlacoochee River near Tarrytown (in NAVD88) ,1,RERF1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
 TYVC2,Taylor River above Trail Creek near Taylor Park CO,1,TRAC2,True,False
 TYWA2,Tyee Lake Outlet near Wrangell,0,,True,False
