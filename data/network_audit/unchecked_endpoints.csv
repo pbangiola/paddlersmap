@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TAPO1,Little Stillwater Creek at Tappan Dam Pool,0,,True,False
-TAQT2,Tide Gauge at Texas State Aquarium,0,,True,False
-TARC1,Santa Rosa Creek at Willowside Road NR Santa Rosa,0,,True,False
-TARC3,Farmington River at Tariffville,1,SIMC3,True,False
-TARI4,Raven Creek near Tama Hwy E49--IFC,0,,True,False
-TARN7,Tar River at Tarboro,2,PGVN7;ROKN7,True,False
-TASM8,Tongue River at Ashland,0,,True,False
-TATA2,Tatalina River near Takotna,0,,True,False
-TATF1,Spring Creek at South Tamiami Trail (in MHHW),0,,True,False
-TATQ9,Tatshenshini River near Dalton Post-Yukon Territory,0,,True,False
-TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
-TAYM7,South Fabius River near Taylor,0,,True,False
-TAYO1,Great Miami River near Taylorsville,2,DTNO1;TRYO1,True,False
-TAYV2,Catoctin Creek at Taylorstown,0,,True,False
-TAZA2,Tazlina River near Glennallen,0,,True,False
-TAZT1,Clinch River above Tazewell,2,LGPT1;NRST1,True,False
-TBAM8,"Tobacco River at Eureka, MT",0,,True,False
-TBBM6,Tibbee Creek near Tibbee,0,,True,False
-TBCM7,Bryant Creek near Tecumseh,0,,True,False
-TBCN5,Rio Pueblo De Taos below Taos,0,,True,False
-TBCS2,Bachelor Creek (SD) near Trent,0,,True,False
-TBDN2,Truckee River below Derby Dam,2,TNTN2;WADN2,True,False
-TBFF1,Lake Tarpon Canal at S-551 Near Oldsmar,0,,True,False
-TBFT2,Neches River near Town Bluff,2,EVDT2;TBLT2,True,False
-TBGS1,Tearcoat Branch at I-95 near Manning,0,,True,False
 TBKF1,Turning Basin Ramp at KSC (in MHHW),0,,True,False
 TBLL1,Bayou Lafourche at Thibodaux,1,NPVL1,True,False
 TBLM6,Bayou Lasalle at Tributary near Diamondhead,0,,True,False
@@ -177,7 +152,7 @@ TISC1,Sacramento River at Tisdale Weir,2,CLUC1;FMWC1,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TJAC1,Tijuana River near San Ysidro,0,,True,False
 TJBC1,Tassajara Creek Below Interstate 580,0,,True,False
-TJBN5,Rio Grande below Taos,2,CERN5;EMBN5,True,False
+TJBN5,Rio Grande below Taos,3,CERN5;EMBN5;TBCN5,True,False
 TJCC1,Big Tujunga Creek below Hansen Dam,0,,True,False
 TJDO1,Sunday Creek at Tom Jenkins Dam (Burr Oak Lake),0,,True,False
 TJLO1,Sunday Creek at Tom Jenkins Dam,1,SUNO1,True,False
@@ -227,7 +202,7 @@ TLTN3,Winnipesaukee River at Tilton,0,,True,False
 TLUG1,Tallulah River at TALLULAH FALLS DAM,2,TERG1;TFLG1,True,False
 TLVA2,Tolovana River near Livengood,0,,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
-TMAI4,Iowa River near Tama Hwy E49,3,MIWI4;MTWI4;TAMI4,True,False
+TMAI4,Iowa River near Tama Hwy E49,4,MIWI4;MTWI4;TAMI4;TARI4,True,False
 TMBI4,Bennett Creek near Tama G Ave--IFC,0,,True,False
 TMBT2,Spring Creek at Tomball,1,SPNT2,True,False
 TMCC2,Tomichi Creek at Sargents,0,,True,False
@@ -312,7 +287,7 @@ TPIC2,Taylor Park Reservoir,0,,True,False
 TPJF1,Tiger Point (in MHHW),0,,True,False
 TPKN6,Tremper Kill near Andes,0,,True,False
 TPLI4,Wapsipinicon River near Tripoli,2,DKTI4;NWSI4,True,False
-TPLO1,Little Stillwater Creek at Tappan Dam Tailwater,0,,True,False
+TPLO1,Little Stillwater Creek at Tappan Dam Tailwater,1,TAPO1,True,False
 TPNN8,Red River of the North near Thompson,5,CLXM5;EGFM5;HGRN8;HILN8;SHYM5,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TPOM6,Town Creek at Tupelo,0,,True,False

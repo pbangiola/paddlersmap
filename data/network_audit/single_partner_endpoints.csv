@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TARC3,Farmington River at Tariffville,1,SIMC3,True,False
-TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
 TBLL1,Bayou Lafourche at Thibodaux,1,NPVL1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
@@ -38,6 +36,7 @@ TOPK1,Soldier Creek near Topeka,1,DELK1,True,False
 TOTW1,Toutle River at Tower Road near Silver Lake,1,SRBW1,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
+TPLO1,Little Stillwater Creek at Tappan Dam Tailwater,1,TAPO1,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRIW3,Spirit River near Spirit Falls,1,SPDW3,True,False
