@@ -7,7 +7,8 @@ from pathlib import Path
 DOMAINS={'conus':[-125,24,-66,50],'alaska-west':[-180,50,-129,72],'alaska-east':[172,50,180,72],
          'hawaii':[-179,18,-154,29],'puerto-rico-usvi':[-68.1,17.6,-64.4,18.6],
          'guam-cnmi':[144,13,146.5,21],'american-samoa':[-172,-15,-168,-10]}
-ENDPOINT='https://overpass-api.de/api/interpreter'
+PROVIDERS={'de':'https://overpass-api.de/api/interpreter','coffee':'https://overpass.private.coffee/api/interpreter'}
+ENDPOINT=PROVIDERS['de']
 def norm(name):return ' '.join(re.findall(r'\w+',str(name).casefold()))
 def distance(a,b):return math.hypot((a[0]-b[0])*111320*math.cos(math.radians((a[1]+b[1])/2)),(a[1]-b[1])*111320)
 def atomic(path,data):
@@ -69,13 +70,13 @@ def publish(source,curated,output,report,legacy_count,verified=(),max_m=40,legac
 
 def fetch_cell(bbox,endpoint=ENDPOINT):
     w,s,e,n=bbox
-    query=f'[out:json][timeout:90];area["ISO3166-1"="US"]["boundary"="administrative"]->.us;nwr["name"~"canoe launch",i](area.us)({s},{w},{n},{e});out body center geom;'
+    query=f'[out:json][timeout:90];area["ISO3166-1"~"^(US|PR|VI|GU|MP|AS)$"]["boundary"="administrative"]->.us;nwr["name"~"canoe launch",i](area.us)({s},{w},{n},{e});out body center geom;'
     for attempt in range(3):
         try:
             req=urllib.request.Request(endpoint,data=urllib.parse.urlencode({'data':query}).encode(),headers={'User-Agent':'PaddlersMap/1.0 canonical-launch-import'})
             with urllib.request.urlopen(req,timeout=120) as response:data=json.load(response)
             if data.get('remark') or not isinstance(data.get('elements'),list):raise ValueError('Partial or invalid Overpass response')
-            data['_retrieved_at']=datetime.now(timezone.utc).isoformat();time.sleep(1);return data
+            data['_area_scope']='US|PR|VI|GU|MP|AS';data['_retrieved_at']=datetime.now(timezone.utc).isoformat();time.sleep(1);return data
         except Exception as error:
             if isinstance(error,urllib.error.HTTPError) and error.code not in (429,500,502,503,504):raise
             if attempt==2:raise
@@ -84,7 +85,7 @@ def fetch_cell(bbox,endpoint=ENDPOINT):
             except ValueError:delay=2**attempt*2
             time.sleep(max(0,min(60,delay)))
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source',type=Path);p.add_argument('--retrieve',action='store_true');p.add_argument('--checkpoint',type=Path,default=Path('local/output/canonical-launches'));p.add_argument('--output',type=Path,default=Path('web/nwm/launches/canonical.geojson'));p.add_argument('--report',type=Path,default=Path('docs/nwm/launch-reconciliation.json'));p.add_argument('--max-m',type=float,default=40);a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source',type=Path);p.add_argument('--retrieve',action='store_true');p.add_argument('--provider',choices=PROVIDERS,default='de');p.add_argument('--checkpoint',type=Path,default=Path('local/output/canonical-launches'));p.add_argument('--output',type=Path,default=Path('web/nwm/launches/canonical.geojson'));p.add_argument('--report',type=Path,default=Path('docs/nwm/launch-reconciliation.json'));p.add_argument('--max-m',type=float,default=40);a=p.parse_args()
     curated=[]
     for name in ['regional_launches.geojson','putins.geojson']:curated+=json.loads((Path('data')/name).read_text())['features']
     registry=json.loads(Path('data/verified_launches.json').read_text()).get('verified_ids',[])
@@ -99,7 +100,8 @@ def main():
                     b=[bbox[0]+10*x,bbox[1]+10*y,min(bbox[2],bbox[0]+10*(x+1)),min(bbox[3],bbox[1]+10*(y+1))]
                     try:
                         if failures>=2 and not path.exists():raise ValueError('Deferred after two source failures; resume later')
-                        data=json.loads(path.read_text()) if path.exists() else fetch_cell(b)
+                        data=json.loads(path.read_text()) if path.exists() else fetch_cell(b,PROVIDERS[a.provider])
+                        if domain in ['puerto-rico-usvi','guam-cnmi','american-samoa'] and data.get('_area_scope')!='US|PR|VI|GU|MP|AS':data=fetch_cell(b,PROVIDERS[a.provider])
                         if data.get('remark') or not isinstance(data.get('elements'),list):raise ValueError('Incomplete checkpoint')
                         atomic(path,data);print(key, 'complete:',len(data['elements']),'source records',flush=True);coverage[key]={'complete':True,'osm_timestamp':data.get('osm3s',{}).get('timestamp_osm_base'),'retrieved_at':data.get('_retrieved_at')}
                         for el in data['elements']:elements[(el['type'],el['id'])]=(el,data.get('_retrieved_at',started))
@@ -113,7 +115,7 @@ def main():
                 if f:features.append(f)
             except ValueError as error:invalid.append({'id':f"{el['type']}/{el['id']}",'reason':str(error)})
         complete=complete and not invalid
-        raw={'type':'FeatureCollection','metadata':{'complete':complete,'invalid_records':invalid,'coverage':coverage,'domains':DOMAINS,'retrieved_at':started,'filter':'primary name case-insensitive literal canoe launch','attribution':'© OpenStreetMap contributors'},'features':features}
+        raw={'type':'FeatureCollection','metadata':{'complete':complete,'invalid_records':invalid,'coverage':coverage,'domains':DOMAINS,'retrieved_at':started,'filter':'primary name case-insensitive literal canoe launch','attribution':'© OpenStreetMap contributors','area_scope':'US|PR|VI|GU|MP|AS administrative-area union','minor_outlying_islands':'Not comprehensively covered; records inside listed bounding boxes may be included'},'features':features}
         atomic(a.checkpoint/'source.geojson',raw)
         if not complete:
             atomic(a.checkpoint/'incomplete-report.json',raw['metadata']);raise SystemExit('Incomplete national retrieval; active inventory untouched. See checkpoint report.')

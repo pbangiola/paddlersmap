@@ -19,7 +19,7 @@ for(const domain of DOMAINS)document.getElementById(domain.id).onclick=()=>map.f
 const status=document.getElementById('status');
 async function get(path){const r=await fetch(path);if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
 function popup(lines,xy){const node=document.createElement('div');node.textContent=lines.join('\n');new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);}
-map.on('load',async()=>{
+map.once('style.load',async()=>{
   const nationalIds=addNationalGeometry(map);
   let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36;
   const modeled=new Map();

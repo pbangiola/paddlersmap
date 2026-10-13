@@ -6,6 +6,11 @@ on:
         description: Optional prior run ID containing raw checkpoints
         required: false
         type: string
+      provider:
+        description: Existing Overpass provider
+        type: choice
+        default: de
+        options: [de, coffee]
 permissions:
   contents: read
   actions: read
@@ -37,7 +42,9 @@ jobs:
           mkdir -p local/output/canonical-launches
           cp -a /tmp/launch-resume/local/output/canonical-launches/. local/output/canonical-launches/
       - name: Retrieve complete national inventory and reconcile curated sources
-        run: python scripts/nwm/launch_inventory.py --retrieve
+        env:
+          OVERPASS_PROVIDER: ${{ inputs.provider }}
+        run: python scripts/nwm/launch_inventory.py --retrieve --provider "$OVERPASS_PROVIDER"
       - name: Upload inventory and coverage for review (never commit partial output)
         if: always()
         uses: actions/upload-artifact@v4
