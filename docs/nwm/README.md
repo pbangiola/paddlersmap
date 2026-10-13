@@ -53,7 +53,7 @@ Click a custom-colored river for its exact ID, discharge, all anchors, normalize
 
 ## Retrieval, caching and expansion
 
-Default Chicago-region bbox: `[-88.5,41.2,-87.0,42.5]`. Expand with bounded `--bbox WEST SOUTH EAST NORTH` requests. Use `--output` to keep exploratory regions separate. No national downloads are run.
+Default Chicago-region bbox: `[-88.5,41.2,-87.0,42.5]`. Expand with bounded `--bbox WEST SOUTH EAST NORTH` requests. Use `--output` to keep exploratory regions separate. No full-network national vector downloads are run. The national geometry overlay uses NOAA-rendered bounded raster tiles.
 
 Static geometry and recurrence references are cached separately by service configuration and bbox. Refreshes reuse that cache and fetch the anomaly fields once per refresh. Object-ID batches honor the smaller of 200 and the service limit; missing IDs or truncated batches fail rather than silently publishing partial results. Requests are serial, paced, capped at 25,000 regional reaches and retry HTTP 429 / transient server failures with bounded backoff and Retry-After. Snapshot flow files are versioned and the manifest is replaced last; browsers never redownload the national network. Superseded prototype flow files may be removed after confirming the manifest no longer references them.
 
@@ -63,4 +63,15 @@ Refresh after NOAA's daily cycle when needed. Source update and local retrieval 
 
 Tests cover all color anchors, interpolation, clamping, zero/missing/invalid inputs, exact feature-ID joins, source immutability, ArcGIS batch limits, truncation rejection, schema validation and rate-limit retries. Live regional retrieval was executed twice and reused identical static geometry on refresh. Chromium rendering and launch toggling/popups are checked against the actual included snapshot. See [validation.md](validation.md) for representative Chicago reach comparisons. Optional browser check: `python3 scripts/nwm/browser_smoke.py` (requires Playwright and system Chromium; the cloud environment already provides both).
 
-Some static reaches are absent from the current anomaly service, and some have incomplete or unordered anchors. They are explicitly gray. NWM version differences are retained as a limitation rather than repaired through guessed IDs. This prototype is bounded to Chicago; national-scale deployment would require regional tiles / partitioned caches. No production deployment, merge, replacement of production datasets or live launch verification writes are performed.
+Some static reaches are absent from the current anomaly service, and some have incomplete or unordered anchors. They are explicitly gray. NWM version differences are retained as a limitation rather than repaired through guessed IDs. Custom flow colors and numerical popups are bounded to Chicago. Geometry is available through NOAA’s tiled rendering across CONUS, Alaska, Hawaii, and Puerto Rico/USVI. No production deployment, merge, replacement of production datasets or live launch verification writes are performed.
+
+
+## National geometry test
+
+Use the Contiguous US, Alaska, Hawaii, and Puerto Rico / USVI buttons on the prototype. National geometry is enabled by default beneath the Chicago color layer. It displays NOAA's actual static NWM flowline geometry in gray, without downloading or reconstructing the national vector network. The National geometry toggle switches this overlay off independently.
+
+NOAA's default layer scale cutoff suppresses broad-zoom tiles. The dynamic export requests explicitly remove that cutoff and apply a stream-order filter: order 4 and above at zooms below 7, all stream orders at zoom 7 and above. This keeps the full-map network legible while providing smaller waterways when zoomed in. NOAA renders the gray unavailable-data style; custom numerical flow colors have not been extended nationally.
+
+A basemap fetch failure falls back to a plain background and a visible notice, so it does not prevent NOAA geometry or launch data from loading.
+
+Run `python3 scripts/nwm/national_smoke.py` (Playwright, Pillow, and system Chromium required). The test renders the contiguous-US overview, western and eastern detail views, Alaska, Hawaii, and Puerto Rico/USVI. It checks that NOAA returned actual nontransparent geometry pixels, captures each map, and checks the geometry toggle. External HTTPS assets use the existing OS certificate trust with at most four concurrent downloads; TLS verification remains enabled. Results and screenshots are saved under `/tmp/nwm-national` by default. See [national-validation.md](national-validation.md) for measured results.

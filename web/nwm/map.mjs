@@ -1,12 +1,22 @@
 import {rivers} from './scale.mjs';
+import {addNationalGeometry,DOMAINS} from './national.mjs';
 const bounds=[[-88.5,41.2],[-87.0,42.5]];
-export const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',bounds,fitBoundsOptions:{padding:25}});
+let basemapAvailable=true;
+const basemap=await fetch('https://tiles.openfreemap.org/styles/liberty',{signal:AbortSignal.timeout(15000)}).then(response=>{
+  if(!response.ok)throw new Error('Basemap unavailable');return response.json();
+}).catch(()=>{basemapAvailable=false;return {version:8,sources:{},layers:[{id:'background',type:'background',paint:{'background-color':'#f4f5f1'}}]};});
+export const map=new maplibregl.Map({container:'map',style:basemap,bounds,fitBoundsOptions:{padding:25}});
+if(!basemapAvailable)document.getElementById('basemap-note').hidden=false;
 map.addControl(new maplibregl.NavigationControl());
+map.on('error',event=>{if(event.sourceId?.startsWith('national-'))document.getElementById('national-error').hidden=false;});
 document.getElementById('chicago').onclick=()=>map.fitBounds(bounds,{padding:25});
+for(const domain of DOMAINS)document.getElementById(domain.id).onclick=()=>map.fitBounds(domain.bounds,{padding:25});
 const status=document.getElementById('status');
 async function get(path){const r=await fetch(path);if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
 function popup(lines,xy){const node=document.createElement('div');node.textContent=lines.join('\n');new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);}
 map.on('load',async()=>{
+  addNationalGeometry(map);
+  document.getElementById('national-geometry').onchange=e=>{for(const domain of DOMAINS)for(const suffix of ['', '-detail'])map.setLayoutProperty('national-'+domain.id+suffix,'visibility',e.target.checked?'visible':'none');};
   // Launch loading is independent of NOAA service availability.
   let launchCount=0,launchError=null;
   try{
