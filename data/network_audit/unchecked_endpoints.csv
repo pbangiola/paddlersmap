@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MYVM7,102 River at Maryville,2,BDFI4;RSDM7,True,False
-MYVT1,Little River (TN) near Maryville,2,ALCT1;TWNT1,True,False
-MZBC1,Matanzas Creek at Bennett Valley Rd,0,,True,False
-MZMW1,Methow River above Goat Creek near Mazama,0,,True,False
-MZSC1,Matanzas Creek at Santa Rosa,0,,True,False
-MZSF1,Matanzas River at Schimdt Park Boat Ramp (in MHHW),0,,True,False
-MZXC1,San Francisco Bay  Martinez-Amorco Pier Tide gage,0,,True,False
-NAAC1,Napa River at Lincoln Avenue,0,,True,False
-NABA2,Nabesna River near Northway,0,,True,False
-NACC1,Nacimiento River at Nacimiento Reservoir,2,NASC1;NBYC1,True,False
-NACF1,North Archie Creek at Progress Blvd Near Tampa,0,,True,False
-NACG1,Tallulah River at NACOOCHEE DAM,0,,True,False
-NACW1,Naches River near Naches,1,CLFW1,True,False
-NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
-NADT2,La Nana Creek at Nacogdoches,0,,True,False
-NADV2,Unnamed Tributary below New Alexandria Tide Gate,0,,True,False
-NAFC1,Redwood Creek (Napa County) at Forest Drive,0,,True,False
-NAGM6,Leaf River near New Augusta,2,HATM6;MCLM6,True,False
-NAGN7,Roanoke Sound at Nags Head (in MLLW),0,,True,False
-NAHD2,Hickey Run at National Arboretum,0,,True,False
-NAHN7,Nahunta Swamp near Shine,0,,True,False
-NAKA2,[INACTIVE] Naknek River at Lake Camp,0,,True,False
-NALF1,North Prong Alafia River Near Nichols,1,KEYF1,True,False
-NALW2,Meadow River at Nallen,1,HNEW2,True,False
-NAMO3,Malheur River at Namorf,1,MVCO3,True,False
 NAMP4,Rio Guadiana near Guadiana,0,,True,False
 NANA1,Tombigbee River near Nanafalia,2,CLDA1;DLDA1,True,False
 NANG1,Nancy Creek at West Wesley Road at Atlanta,0,,True,False
@@ -133,7 +108,7 @@ NDST2,Beals Creek at Natural Dam Salt Lake,0,,True,False
 NDVV1,Pope Brook (VT) near North Danville,0,,True,False
 NDYG1,Noonday Creek at Hawkins Store Road near Blackwells,0,,True,False
 NEAO1,Licking River (OH) near Newark (Stadden Bridge),4,DLFO1;NKOO1;RCNO1;SFHO1,True,False
-NEBA2,Nabesna River at Northway Village,0,,True,False
+NEBA2,Nabesna River at Northway Village,1,NABA2,True,False
 NEBI3,Brush Creek (IN) near Nebraska,0,,True,False
 NEBN1,Missouri River at Nebraska City,2,BRON1;PTMN1,True,False
 NEBN7,Linville River near Nebo,0,,True,False
@@ -891,7 +866,7 @@ PATC1,San Joaquin River at Patterson,2,NWMC1;VNSC1,True,False
 PATM7,Grand River near Pattonsburg,1,GAZM7,True,False
 PATN7,Yadkin River at Patterson,1,WKSN7,True,False
 PATP4,Rio Patillas near Patillas,1,PASP4,True,False
-PATW1,Methow River near Pateros,0,,True,False
+PATW1,Methow River near Pateros,1,WTHW1,True,False
 PAUM4,Middle Branch Ontonagon River at Paulding,0,,True,False
 PAWL1,Paw Paw Bayou near Greenwood,0,,True,False
 PAWN7,Paw Creek at Wilkinson Blvd,0,,True,False
@@ -3614,7 +3589,7 @@ TENI4,Turkey River near Elgin (IFC),3,CMTI4;EGNI4;EKDI4,True,False
 TENN6,Tenmile River near Gaylordsville,0,,True,False
 TENO2,Eastern Oklahoma Lakes at Tenkiller Lake,0,,True,False
 TERC2,Alamosa River above Terrace Reservoir,0,,True,False
-TERG1,Tallulah River at MATHIS-TERRORA DAM,0,,True,False
+TERG1,Tallulah River at MATHIS-TERRORA DAM,2,NACG1;TLUG1,True,False
 TERI3,Wabash River at Terre Haute...US Hwy 150 Eastbound,4,CLNI3;HUFI3;HUTI2;MTZI3,True,False
 TERN6,Shelter Island Sound at Shelter Island (IN MLLW),0,,True,False
 TESC1,Tres Pinos Creek near Tres Pinos,0,,True,False
@@ -3624,7 +3599,7 @@ TFAI1,Rock Creek at Twin Falls,0,,True,False
 TFDM7,Little North Fork River at Thornfield,0,,True,False
 TFFO1,Sandusky River at Tiffin,4,CWFO1;FFMO1;MLMO1;UPPO1,True,False
 TFKM8,Jefferson River near Three Forks,3,BLDM8;PBRM8;TOSM8,True,False
-TFLG1,Tallulah River above TALLULAH FALLS PWR HOUSE,0,,True,False
+TFLG1,Tallulah River above TALLULAH FALLS PWR HOUSE,2,TLUG1;TUGG1,True,False
 TFLW4,Lamar River near Tower Falls,0,,True,False
 TFMN7,Third Fork Creek at ML King Pkwy in Durham,0,,True,False
 TFPV2,Tract Fork near Pulaski,0,,True,False
@@ -3670,7 +3645,7 @@ TICW1,Tieton River at Tieton Headworks,0,,True,False
 TIDO3,Alsea River near Tidewater,0,,True,False
 TIDT2,Frio River at Tilden,2,CHOT2;DBYT2,True,False
 TIFM7,Elk River (MO) near Tiff City,1,INCM7,True,False
-TIGG1,Tallulah River at BURTON DAM,0,,True,False
+TIGG1,Tallulah River at BURTON DAM,1,NACG1,True,False
 TIGT1,Waldens Creek 2NW Pigeon Forge (Tiger Drive),0,,True,False
 TIJC1,Tijuana River at International Border,0,,True,False
 TIKV2,Orchard Lake Outflow at Glebe Mills,0,,True,False
@@ -3732,7 +3707,7 @@ TLRW1,South Fork Tolt above S Fk Tolt Reservoir,0,,True,False
 TLSO2,Arkansas River at Tulsa,2,HSKO2;RLSO2,True,False
 TLTA2,Bering Sea Tide Gauge at Teller (MHHW datum),0,,True,False
 TLTN3,Winnipesaukee River at Tilton,0,,True,False
-TLUG1,Tallulah River at TALLULAH FALLS DAM,0,,True,False
+TLUG1,Tallulah River at TALLULAH FALLS DAM,2,TERG1;TFLG1,True,False
 TLVA2,Tolovana River near Livengood,0,,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TMAI4,Iowa River near Tama Hwy E49,3,MIWI4;MTWI4;TAMI4,True,False
@@ -3945,7 +3920,7 @@ TUCO2,Canadian River near Mustang,2,BRIO2;NRCO2,True,False
 TUCO3,Tucca Creek near Blaine,0,,True,False
 TUCW1,Tucannon River near Starbuck,0,,True,False
 TUDM7,Niangua River at Tunnel Dam near Macks Creek,0,,True,False
-TUGG1,Tallulah River at TUGALO DAM,0,,True,False
+TUGG1,Tallulah River at TUGALO DAM,2,TFLG1;YNHG1,True,False
 TUKA1,Tuckabum Creek near Butler,0,,True,False
 TUKC2,Turkey Creek below Tates Gulch near Red Cliff,0,,True,False
 TUKN4,Tuckahoe River at Tuckahoe,0,,True,False
@@ -4294,7 +4269,7 @@ WAPN6,Wappingers Creek at Wappinger Falls,0,,True,False
 WAPP1,Wapwallopen Creek near Wapwallopen,0,,True,False
 WARA4,Saline River at Warren,2,JHNA4;RYEA4,True,False
 WARC1,Warthan Creek above Coalinga,0,,True,False
-WARO3,Malheur River below Warm Springs Reservoir,2,MADO3;VALO3,True,False
+WARO3,Malheur River below Warm Springs Reservoir,3,MADO3;NAMO3;VALO3,True,False
 WARP1,East Fork Sinnemahoning Creek at Wharton Township,0,,True,False
 WART2,Waller Creek at Red River Street,0,,True,False
 WASD2,Washington Channel at SW Waterfront (IN MLLW),0,,True,False
@@ -4957,7 +4932,7 @@ WTGT1,Watauga River above Watauga Dam,2,EZBT1;SGWN7,True,False
 WTGW3,Wisconsin River below Whiting Dam,2,BIRW3;STPW3,True,False
 WTHF1,Withlacoochee River near Lee (in NAVD88),2,BLSF1;ELLF1,True,False
 WTHM3,Old Swamp River at Weymouth,0,,True,False
-WTHW1,Methow River at Winthrop,0,,True,False
+WTHW1,Methow River at Winthrop,2,MZMW1;PATW1,True,False
 WTIC1,Whitewater River (CA) at Indio,0,,True,False
 WTIN7,Currituck Sound at Walnut Island near Grandy,0,,True,False
 WTLO3,S. Santiam River at Waterloo,2,JFFO3;SSFO3,True,False
@@ -5105,7 +5080,7 @@ YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
 YMSC2,Yampa River below Stagecoach Reservoir,0,,True,False
-YNHG1,Tugalo River at YONAH DAM,0,,True,False
+YNHG1,Tugalo River at YONAH DAM,2,HRTG1;TUGG1,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 YNTC1,Redwood Creek (Napa County) at Mt Veeder Road,0,,True,False
 YNTK2,Elkhorn Creek at Yarnallton,0,,True,False
