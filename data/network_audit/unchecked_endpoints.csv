@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MRLV2,Lewis Creek At Middlebrook Road and Rt. 262,0,,True,False
-MRLW2,Greenbrier River at Marlinton,3,BUCW2;CLLW2;MINW2,True,False
-MRLW3,Prairie River  near Merrill,0,,True,False
-MRMC1,Middle Fork Feather River near Merrimac,0,,True,False
-MRML1,Mermentau River at Mermentau,4,BDCL1;BSLL1;LCSL1;MLAL1,True,False
-MRMM4,Miners River near Munising,0,,True,False
-MRMM8,Musselshell River near Martinsdale,1,HLWM8,True,False
-MRNC1,South Fork Eel River near Miranda,0,,True,False
-MRNF1,Tide Gauge at North Port Charlotte (In MHHW),1,SKHF1,True,False
-MRNI4,Indian Creek (Eastern IA) at Marion,0,,True,False
-MRNN1,Missouri River at Niobrara,2,MRVN1;SPGS2,True,False
-MRNN6,Esopus Creek at Mount Marion,1,ASEN6,True,False
-MROI2,Illinois River at Meredosia,2,NLGI2;VALI2,True,False
-MROI3,Mississinewa River at Marion,2,MSSI3;RIDI3,True,False
-MROI4,Iowa River at Marengo,2,BPLI4;CRVI4,True,False
-MROS1,Atlantic Coast at Myrtle Beach Springmaid Pier (IN MLLW),0,,True,False
-MROW1,Snohomish River near Monroe,3,CRNW1;GLBW1;SNAW1,True,False
-MRPF1,Whitaker Canal at Myrtle Park,0,,True,False
-MRPM4,Maple River at Maple Rapids,0,,True,False
-MRPM8,Madison River above Powerplant near McAllister,2,CMRM8;MADM8,True,False
-MRPN1,Missouri River near Ponca,2,MKLN1;SSCN1,True,False
-MRPS2,Moreau River (SD) at Promise,0,,True,False
-MRRC2,Bear Creek (CO) at Morrison,2,BCDC2;CGCC2,True,False
-MRRM6,Pascagoula River at Merrill,2,LEKM6;PGFM6,True,False
-MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
 MRRV2,Mountain Run At Old Rixeyville Road,0,,True,False
 MRSG1,Pataula Creek near Georgetown,0,,True,False
 MRSI2,Illinois River at Marseilles,0,,True,False
@@ -2340,7 +2315,7 @@ RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
 RRLN4,at Ryerson,0,,True,False
 RRLT2,North Texas Lakes at Lake Ray Roberts,2,GLLT2;LEWT2,True,False
 RRLV2,Rappahannock River At  Lee Highway,0,,True,False
-RRLW3,Wisconsin River at Merrill,2,ALXW3;WUUW3,True,False
+RRLW3,Wisconsin River at Merrill,3,ALXW3;MRLW3;WUUW3,True,False
 RRMN6,Irondequoit Creek at Railroad Mills,0,,True,False
 RROC1,Russian River at Hwy 1 Bridge,0,,True,False
 RROV2,Robinson River at Quaker Run Road,0,,True,False
