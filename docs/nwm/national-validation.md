@@ -1,5 +1,7 @@
 # National geometry validation
 
+These results record the earlier geometry-only phase. National CONUS colors have since been added; see [color-validation.md](color-validation.md).
+
 The full contiguous-US map renders NOAA’s actual NWM flowline geometry, not just the Chicago snapshot. Western and eastern detail views and the separate Alaska, Hawaii and Puerto Rico/USVI services also rendered nonempty river imagery. Screenshots and raw results are saved in [national/](national/).
 
 | View | Tile responses observed | Image bytes | Nontransparent line pixels | Screenshot |

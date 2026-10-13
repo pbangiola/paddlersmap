@@ -1,10 +1,10 @@
 # NWM flow prototype
 
-Standalone page: `nwm-prototype.html`, linked from the existing About page. The production homepage, app scripts and datasets are unchanged. GitHub Pages serves the entire checkout, but the production workflow does not publish feature branches.
+Open `nwm-prototype.html`, linked from About. The prototype now colors major rivers across the contiguous US and retrieves finer flow colors for the visible area as you zoom in. Production homepage, app scripts, datasets, and deployment remain unchanged.
 
-## Local execution
+## Run locally
 
-From `/workspace/paddlersmap` (or your clone's root):
+From the checkout root:
 
 ```sh
 python3 -m venv .venv
@@ -12,66 +12,62 @@ python3 -m venv .venv
 .venv/bin/python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open `nwm-prototype.html` on that server. A real, bounded NOAA snapshot is included; no refresh is necessary to try the page. The launch layer contains all 1,553 existing records, unchanged coordinates and original metadata from `data/putins_consolidated.geojson`. Green/yellow markers reuse the existing verification registry. Nothing retrieves new launches or snaps their locations.
+Open the standalone page on that server. Use **Contiguous US** for the national color overview, then zoom into an area for finer flow colors. The bundled overview contains 32,209 actual NWM reaches of stream order 7+, with 22,400 usable color records. NOAA source update: `2026-10-13 00:50:51 UTC`. The remaining overview reaches lack a retrieved matching anomaly record or have invalid anchors and remain gray.
 
-Refresh the regional snapshot explicitly:
+All 1,553 existing launch records retain their original coordinates and metadata. Green/yellow markers use the existing verification registry. No launch discovery, fuzzy matching, snapping or verification writes occur.
 
-```sh
-.venv/bin/python scripts/nwm/retrieve.py --config web/nwm/services.json
-node --test web/nwm/scale.test.mjs
-.venv/bin/python -m unittest discover -s scripts -p 'test_*.py' -v
-```
+## Data sources and joins
 
-## Verified NOAA sources
-
-Inspected ArcGIS layer schemas are recorded in [service-fields.json](service-fields.json); the exact field mapping is [services.json](../../web/nwm/services.json).
-
-| Purpose | NOAA layer | Field | Published units |
+| Purpose | NOAA ArcGIS layer | Field | Published units |
 | --- | --- | --- | --- |
-| Actual flowline geometry / ID | `reference/static_nwm_flowlines/FeatureServer/0` | `feature_id`, polyline geometry | WGS84 output coordinates |
-| Low flow | `nwm/ana_anomaly/MapServer/0` | `prcntle_10` | cfs |
+| Actual geometry / ID | `reference/static_nwm_flowlines/FeatureServer/0` | `feature_id`, polyline paths | WGS84 output coordinates |
+| Low | `nwm/ana_anomaly/MapServer/0` | `prcntle_10` | cfs |
 | Provisional central flow | Same anomaly layer | `(prcntle_25 + prcntle_75) / 2` | cfs |
-| Latest published modeled discharge | Same anomaly layer | `latest_flow` | cfs |
-| Provisional upper anchor | Static flowline reference | `rf_2_0_17c` (50% annual exceedance, 2-year recurrence) | cfs |
+| Latest published discharge | Same anomaly layer | `latest_flow` | cfs |
+| Provisional upper anchor | Static flowline reference | `rf_2_0_17c` (50% annual exceedance / two-year recurrence) | cfs |
 | Source update | Anomaly layer | `update_time` | UTC string |
 
-All numerical units above are NOAA's published field aliases. No unit conversions or inferred substitutes are applied. The anomaly service publishes seasonal percentile references and 7-day-average anomaly categories and describes a **daily** update cadence. The page uses its `latest_flow`, not its 7-day average, as discharge. This is the latest published daily service snapshot, not a continuously refreshed instantaneous observation.
+Services are under `https://maps.water.noaa.gov/server/rest/services/`. Inspect [service-fields.json](service-fields.json) and [services.json](../../web/nwm/services.json) for the verified mappings. The browser validates field availability and published cfs aliases before querying. Values use those published units without inferred conversions. The static reference reports NWM 3.0; current anomaly records report 3.1. Joins use exact string feature IDs, with no name matching, nearest neighbors, or reconstructed geometry.
 
-Service URLs:
+The anomaly service describes daily updates, seasonal percentile references, and 7-day-average anomaly categories. This prototype colors its latest published discharge, not its 7-day average. NOAA's comparison toggle shows the original 7-day anomaly raster and its different category colors.
 
-- https://maps.water.noaa.gov/server/rest/services/reference/static_nwm_flowlines/FeatureServer/0
-- https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0
-- NOAA documentation and visualization: https://www.weather.gov/owp/operations
-
-The static reference reports NWM 3.0; the current anomaly records report 3.1. Joins use exact string `feature_id` only. No name matching, nearest-neighbor attribution or reconstructed river paths are used. The Chicago snapshot contains 3,433 static reaches, of which 1,661 have usable discharge and strictly ordered anchors. There are 1,415 unmatched reaches and 357 matched reaches with equal or unordered anchors; both remain gray. The two-year recurrence anchor is an experimental relative-flow upper reference, not a claim that flooding occurs at that value.
+**Availability:** the catalog lists only the CONUS `ana_anomaly` service; bounded queries returned zero records for Alaska, Hawaii and Puerto Rico/USVI. Their actual geometry remains visible, but the required percentile anchors are unavailable. No substitute anchors or national colors are fabricated for those domains.
 
 ## Color scale
 
-Reuse brown `#85512c`, blue `#0867d9`, yellow `#f0cf31`, red `#cf2929` from the existing atlas. Low maps to 0, provisional central flow to 0.25, and upper flow to 1. Normalize discharge with piecewise linear interpolation on either side of central; then interpolate RGB continuously through yellow at 0.625. Values beyond the anchors are clamped. Zero discharge is valid. Missing, negative, nonnumeric, equal or unordered anchors produce gray `#88929b`; no replacement thresholds are fabricated. These colors describe relative modeled flow, not paddling suitability.
+Reuse brown `#85512c`, blue `#0867d9`, yellow `#f0cf31`, and red `#cf2929`. Low maps to 0, central to 0.25 and upper to 1. Discharge is normalized piecewise linearly on either side of central; RGB colors interpolate continuously through yellow at 0.625. Values outside the anchor range are clamped. Zero flow is valid. Missing, negative, nonnumeric, equal or unordered anchors produce gray `#88929b`.
 
-Click a custom-colored river for its exact ID, discharge, all anchors, normalized position and NOAA update time. Launch popups retain available metadata. The NOAA comparison toggle switches to NOAA's own 7-day anomaly raster visualization, using its own category colors. Its categories are based on 7-day averages and are intentionally different from our latest-discharge scale; switch it off to inspect our numbers.
+Colors represent relative modeled flow, not paddling suitability. The central and two-year recurrence anchors are provisional. Click a river to inspect its ID, discharge, anchors, normalized position and source time. Live colors take precedence over the overview and Chicago fallback; a single popup is selected even where layers overlap. Launch markers remain above river lines.
 
-## Retrieval, caching and expansion
+## National overview and refresh
 
-Default Chicago-region bbox: `[-88.5,41.2,-87.0,42.5]`. Expand with bounded `--bbox WEST SOUTH EAST NORTH` requests. Use `--output` to keep exploratory regions separate. No full-network national vector downloads are run. The national geometry overlay uses NOAA-rendered bounded raster tiles.
+```sh
+.venv/bin/python scripts/nwm/overview.py
+```
 
-Static geometry and recurrence references are cached separately by service configuration and bbox. Refreshes reuse that cache and fetch the anomaly fields once per refresh. Object-ID batches honor the smaller of 200 and the service limit; missing IDs or truncated batches fail rather than silently publishing partial results. Requests are serial, paced, capped at 25,000 regional reaches and retry HTTP 429 / transient server failures with bounded backoff and Retry-After. Snapshot flow files are versioned and the manifest is replaced last; browsers never redownload the national network. Superseded prototype flow files may be removed after confirming the manifest no longer references them.
+The refresh queries west/east geographic partitions with stream order 7+, each below the 25,000-reach guard. Static geometry / recurrence references are cached under ignored `local/output/nwm-overview/`; refreshed flow values are stored separately. NOAA applies 0.02-degree cartographic generalization at nationwide scale; feature IDs are preserved. The resulting overview assets are under `web/nwm/overview/`, not production `data/`. No full 2.7-million-reach network download occurs.
 
-Refresh after NOAA's daily cycle when needed. Source update and local retrieval timestamps are displayed separately. Missing or mixed timestamps are explicitly unavailable. The bundled snapshot has NOAA update `2026-10-12 00:51:39 UTC`; it will age until refreshed.
+Refresh after NOAA's daily cycle. Flow filenames are versioned; the manifest is replaced last. Superseded assets may be removed only after confirming no manifest references them. To refresh the original Chicago fallback, use `.venv/bin/python scripts/nwm/retrieve.py --config web/nwm/services.json`. CLI options include bounded `--bbox`, `--min-order`, `--geometry-offset`, `--batch-size`, and `--output`.
 
-## Validation and limitations
+## Viewport detail and caching
 
-Tests cover all color anchors, interpolation, clamping, zero/missing/invalid inputs, exact feature-ID joins, source immutability, ArcGIS batch limits, truncation rejection, schema validation and rate-limit retries. Live regional retrieval was executed twice and reused identical static geometry on refresh. Chromium rendering and launch toggling/popups are checked against the actual included snapshot. See [validation.md](validation.md) for representative Chicago reach comparisons. Optional browser check: `python3 scripts/nwm/browser_smoke.py` (requires Playwright and system Chromium; the cloud environment already provides both).
+At zooms below 5, the national snapshot renders immediately. At zooms 5–7 the live loader requests order 5+, at 7–9 order 3+, and at 9+ all stream orders. It partitions only the visible CONUS bounds into geographic cells, caps each view at 24 cells and each cell at 25,000 reaches, and processes three cells concurrently.
 
-Some static reaches are absent from the current anomaly service, and some have incomplete or unordered anchors. They are explicitly gray. NWM version differences are retained as a limitation rather than repaired through guessed IDs. Custom flow colors and numerical popups are bounded to Chicago. Geometry is available through NOAA’s tiled rendering across CONUS, Alaska, Hawaii, and Puerto Rico/USVI. No production deployment, merge, replacement of production datasets or live launch verification writes are performed.
+Static geometry / recurrence references and flow values use separate browser memory and IndexedDB caches. Flow values expire after 15 minutes. A fresh cached revisit requires no further feature queries; when flow expires, geometry is reused. Static geometry is generalized by NOAA appropriately for the cell's zoom, preserving IDs and geographic paths. Clear the prototype IndexedDB cache if NOAA replaces its static model/reference version.
 
+Queries honor service record limits, reject truncated batches, validate exact flow-ID membership, and retry transient HTTP/network failures with bounded backoff. Panning aborts obsolete requests. Comparison mode stops hidden custom-color retrieval. Status reports cell progress, colored reaches, unavailable cells and actual NOAA update times. Unavailable cells retain gray geometry. A failed basemap falls back to a plain background; failed national raster tiles show a partial-coverage notice.
 
-## National geometry test
+Live NOAA requests can be slow, especially on a first uncached detail view. The bundled overview avoids waiting for national live queries. Validation encountered six timed-out feature requests that recovered; both detail views eventually completed with zero unavailable cells. This remains a prototype, with source-service latency a material limitation.
 
-Use the Contiguous US, Alaska, Hawaii, and Puerto Rico / USVI buttons on the prototype. National geometry is enabled by default beneath the Chicago color layer. It displays NOAA's actual static NWM flowline geometry in gray, without downloading or reconstructing the national vector network. The National geometry toggle switches this overlay off independently.
+## Validation
 
-NOAA's default layer scale cutoff suppresses broad-zoom tiles. The dynamic export requests explicitly remove that cutoff and apply a stream-order filter: order 4 and above at zooms below 7, all stream orders at zoom 7 and above. This keeps the full-map network legible while providing smaller waterways when zoomed in. NOAA renders the gray unavailable-data style; custom numerical flow colors have not been extended nationally.
+```sh
+node --test web/nwm/*.test.mjs
+.venv/bin/python -m unittest discover -s scripts -p 'test_*.py' -v
+python3 scripts/nwm/colors_smoke.py
+python3 scripts/nwm/browser_smoke.py
+```
 
-A basemap fetch failure falls back to a plain background and a visible notice, so it does not prevent NOAA geometry or launch data from loading.
+Optional browser checks require Playwright and system Chromium; geometry image validation also requires Pillow. These are available in the cloud environment. HTTPS validation uses the existing OS trust, with TLS verification enabled.
 
-Run `python3 scripts/nwm/national_smoke.py` (Playwright, Pillow, and system Chromium required). The test renders the contiguous-US overview, western and eastern detail views, Alaska, Hawaii, and Puerto Rico/USVI. It checks that NOAA returned actual nontransparent geometry pixels, captures each map, and checks the geometry toggle. External HTTPS assets use the existing OS certificate trust with at most four concurrent downloads; TLS verification remains enabled. Results and screenshots are saved under `/tmp/nwm-national` by default. See [national-validation.md](national-validation.md) for measured results.
+All 29 unit tests passed. Real browser checks passed for national colors, western/eastern detail, cached revisits without additional feature reads, numerical popups, all unchanged launch coordinates, visibility controls, and continued launches when the Chicago snapshot fails. See [color-validation.md](color-validation.md), [original Chicago comparisons](validation.md), and [national geometry checks](national-validation.md). Production datasets and deployment have not been changed or published.

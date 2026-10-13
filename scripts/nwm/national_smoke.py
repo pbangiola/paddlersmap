@@ -24,8 +24,8 @@ async def main():
     optional_failures=[]
     retries=[]
     semaphore=asyncio.Semaphore(4)
-    def download(url):
-        request=urllib.request.Request(url,headers={'User-Agent':'PaddlersMapPrototypeValidation/1.0'})
+    def download(url,method="GET",payload=None):
+        request=urllib.request.Request(url,data=payload.encode() if payload else None,method=method,headers={'User-Agent':'PaddlersMapPrototypeValidation/1.0',**({'Content-Type':'application/x-www-form-urlencoded'} if payload else {})})
         for attempt in range(2):
             try:
                 with urllib.request.urlopen(request,timeout=45) as response:
@@ -40,7 +40,7 @@ async def main():
         url=route.request.url
         try:
             async with semaphore:
-                status,body,headers=await asyncio.to_thread(download,url)
+                status,body,headers=await asyncio.to_thread(download,url,route.request.method,route.request.post_data)
             if '/reference/static_nwm_flowlines' in url and '/export?' in url:
                 image=Image.open(io.BytesIO(body)).convert('RGBA')
                 pixels=sum(image.getchannel('A').histogram()[1:])

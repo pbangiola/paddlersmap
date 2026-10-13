@@ -8,15 +8,20 @@ import argparse
 import asyncio
 import json
 import urllib.request
+import urllib.error
 from pathlib import Path
 from playwright.async_api import async_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
 
 
-def download(url):
-    request=urllib.request.Request(url,headers={"User-Agent":"PaddlersMapPrototypeValidation/1.0"})
-    with urllib.request.urlopen(request,timeout=30) as response:
+def download(url,method="GET",payload=None):
+    request=urllib.request.Request(url,data=payload.encode() if payload else None,method=method,headers={"User-Agent":"PaddlersMapPrototypeValidation/1.0",**({"Content-Type":"application/x-www-form-urlencoded"} if payload else {})})
+    try:
+        response=urllib.request.urlopen(request,timeout=45)
+    except urllib.error.HTTPError as error:
+        response=error
+    with response:
         headers={key:response.headers[key] for key in ("content-type","access-control-allow-origin") if key in response.headers}
         return response.status,response.read(),headers
 
@@ -32,7 +37,7 @@ async def main():
     async def transport(route):
         try:
             async with semaphore:
-                status,body,headers=await asyncio.to_thread(download,route.request.url)
+                status,body,headers=await asyncio.to_thread(download,route.request.url,route.request.method,route.request.post_data)
             await route.fulfill(status=status,body=body,headers=headers)
         except Exception as error:
             print("External asset unavailable:",route.request.url,error,flush=True)

@@ -14,7 +14,13 @@ DEFAULT_BBOX = [-88.5, 41.2, -87.0, 42.5]
 
 def get(url, params, attempts=4):
     for attempt in range(attempts):
-        response = requests.get(url, params={"f": "json", **params}, timeout=45)
+        try:
+            response = requests.get(url, params={"f": "json", **params}, timeout=45)
+        except requests.Timeout:
+            if attempt + 1 == attempts:
+                raise
+            time.sleep(2 ** attempt)
+            continue
         if response.status_code in (429, 500, 502, 503, 504) and attempt + 1 < attempts:
             retry = response.headers.get("Retry-After", "")
             time.sleep(min(60, int(retry)) if retry.isdigit() else 2 ** attempt)
@@ -36,9 +42,9 @@ def validate_schema(service, fields):
     return metadata
 
 
-def query(service, bbox, fields, geometry):
+def query(service, bbox, fields, geometry, where="1=1", offset=None, batch=200):
     spatial = {"geometry": ",".join(map(str, bbox)), "geometryType": "esriGeometryEnvelope",
-               "inSR": 4326, "spatialRel": "esriSpatialRelIntersects", "where": "1=1"}
+               "inSR": 4326, "spatialRel": "esriSpatialRelIntersects", "where": where}
     ids_response = get(service + "/query", {**spatial, "returnIdsOnly": "true"})
     ids = ids_response.get("objectIds")
     if ids is None:
@@ -48,11 +54,11 @@ def query(service, bbox, fields, geometry):
     features = []
     # ID batches avoid offset pagination races and honor the layer record limit.
     metadata = validate_schema(service, fields)
-    batch_size = min(200, metadata.get("maxRecordCount", 200))
+    batch_size = min(batch, metadata.get("maxRecordCount", 2000))
     for start in range(0, len(ids), batch_size):
         batch = ids[start:start + batch_size]
         result = get(service + "/query", {"objectIds": ",".join(map(str, batch)), "outFields": ",".join(fields),
-                     "returnGeometry": str(geometry).lower(), "outSR": 4326})
+                     "returnGeometry": str(geometry).lower(), "outSR": 4326, **({"maxAllowableOffset": offset, "geometryPrecision": 5} if offset else {})})
         if result.get("exceededTransferLimit") or len(result.get("features", [])) != len(batch):
             raise RuntimeError("Truncated ArcGIS batch; refusing to publish a partial snapshot")
         features.extend(result["features"])
@@ -70,6 +76,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--inspect", help="NOAA ArcGIS catalog or layer URL: print metadata only")
     parser.add_argument("--config", type=Path, help="Verified service/field/unit mapping JSON")
+    parser.add_argument("--min-order", type=int, default=1)
+    parser.add_argument("--geometry-offset", type=float, default=0)
+    parser.add_argument("--batch-size", type=int, default=200)
     parser.add_argument("--bbox", type=float, nargs=4, default=DEFAULT_BBOX)
     parser.add_argument("--output", type=Path, default=Path("web/nwm/data"))
     args = parser.parse_args()
@@ -78,18 +87,20 @@ def main():
         return
     if not args.config:
         parser.error("--config is required; no unverified service field names are assumed")
+    if not (1 <= args.min_order <= 12 and 1 <= args.batch_size <= 2000 and args.geometry_offset >= 0):
+        parser.error("Invalid stream order, batch size, or geometry offset")
     config = json.loads(args.config.read_text())
     if not (-180 <= args.bbox[0] < args.bbox[2] <= 180 and -90 <= args.bbox[1] < args.bbox[3] <= 90):
         parser.error("Invalid bbox")
     if config["units"] not in ("m³/s", "ft³/s"):
         parser.error("Units must be verified as m³/s or ft³/s; values are not silently converted")
     args.output.mkdir(parents=True, exist_ok=True)
-    signature = hashlib.sha256(json.dumps([config["geometry"], args.bbox], sort_keys=True).encode()).hexdigest()[:16]
+    signature = hashlib.sha256(json.dumps([config["geometry"], args.bbox, args.min_order, args.geometry_offset], sort_keys=True).encode()).hexdigest()[:16]
     geometry_file = "geometry-" + signature + ".geojson"
     g = config["geometry"]
     if not (args.output / geometry_file).exists():
         geometry_fields = [g["id"]] + [g[k] for k in ("flood", "name", "version", "order") if g.get(k)]
-        features = query(g["url"], args.bbox, geometry_fields, True)
+        features = query(g["url"], args.bbox, geometry_fields, True, where=f"strm_order >= {args.min_order}", offset=args.geometry_offset, batch=args.batch_size)
         converted = []
         for feature in features:
             paths = feature.get("geometry", {}).get("paths")
@@ -115,7 +126,7 @@ def main():
                 other_fields.extend(value for key, value in related.items() if key != "url" and value)
         cache_key = mapping["url"]
         if cache_key not in query_cache:
-            query_cache[cache_key] = query(mapping["url"], args.bbox, list(dict.fromkeys(fields + other_fields)), False)
+            query_cache[cache_key] = query(mapping["url"], args.bbox, list(dict.fromkeys(fields + other_fields)), False, where=f"strm_order >= {args.min_order}", batch=args.batch_size)
         for feature in query_cache[cache_key]:
             attrs = feature["attributes"]
             record = records.get(str(attrs.get(mapping["id"])))
@@ -138,7 +149,7 @@ def main():
     write(args.output / flow_file, {"records": list(records.values()), "noaa_updated_at": next(iter(updates)) if len(updates) == 1 else None,
                                    "noaa_update_values": sorted(updates), "retrieved_at": now})
     write(args.output / "manifest.json", {"geometry": geometry_file, "flow": flow_file, "bbox": args.bbox,
-                                         "units": config["units"], "sources": config})
+                                         "units": config["units"], "sources": config, "min_order": args.min_order, "geometry_offset": args.geometry_offset})
     print(f"Saved {len(records)} regional NWM reaches to {args.output}")
 
 

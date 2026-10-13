@@ -1,3 +1,4 @@
+import {attachLiveColors} from './live.mjs';
 import {rivers} from './scale.mjs';
 import {addNationalGeometry,DOMAINS} from './national.mjs';
 const bounds=[[-88.5,41.2],[-87.0,42.5]];
@@ -37,18 +38,42 @@ map.on('load',async()=>{
     const data=rivers(geometry,flow.records);
     map.addSource('nwm',{type:'geojson',data});
     map.addLayer({id:'nwm',type:'line',source:'nwm',paint:{'line-color':['get','color'],'line-width':['interpolate',['linear'],['zoom'],5,1.5,12,4],'line-opacity':0.95}},map.getLayer('launches')?'launches':undefined);
-    map.on('click','nwm',e=>{const p=e.features[0].properties, units=manifest.units;popup(['NWM feature ID: '+p.feature_id,...[['Current discharge','discharge'],['Low anchor','low'],['Central anchor','average'],['Upper anchor','flood']].map(([label,key])=>label+': '+(p[key]??'unavailable')+(p[key]===null||p[key]===undefined?'':' '+units)),'Scale position: '+(p.scale_position??'unavailable'),'NOAA update: '+(p.noaa_updated_at??flow.noaa_updated_at??'unavailable')],e.lngLat);});
+    map.on('click',event=>{
+      if(map.getLayer('launches')&&map.queryRenderedFeatures(event.point,{layers:['launches']}).length)return;
+      for(const id of ['nwm-live','nwm-national-colors','nwm']){
+        if(!map.getLayer(id))continue;
+        const feature=map.queryRenderedFeatures(event.point,{layers:[id]})[0];if(!feature)continue;
+        const p=feature.properties;
+        popup(['NWM feature ID: '+p.feature_id,...[['Current discharge','discharge'],['Low anchor','low'],['Central anchor','average'],['Upper anchor','flood']].map(([label,key])=>label+': '+(p[key]??'unavailable')+(p[key]==null?'':' ft³/s')),'Scale position: '+(p.scale_position??'unavailable'),'NOAA update: '+(p.noaa_updated_at??(id==='nwm'?flow.noaa_updated_at:null)??'unavailable')],event.lngLat);
+        break;
+      }
+    });
     const anomaly='https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer';
     map.addSource('noaa-comparison',{type:'raster',tileSize:256,tiles:[anomaly+'/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&layers=show:0&format=png32&transparent=true&f=image']});
     map.addLayer({id:'noaa-comparison',type:'raster',source:'noaa-comparison',layout:{visibility:'none'}},map.getLayer('launches')?'launches':undefined);
     document.getElementById('noaa-comparison').onchange=e=>{
       map.setLayoutProperty('noaa-comparison','visibility',e.target.checked?'visible':'none');
-      map.setLayoutProperty('nwm','visibility',e.target.checked?'none':'visible');
+      for(const id of ['nwm','nwm-national-colors','nwm-live'])if(map.getLayer(id))map.setLayoutProperty(id,'visibility',e.target.checked?'none':'visible');
       document.getElementById('legend').style.display=e.target.checked?'none':'flex';
       document.getElementById('comparison-note').hidden=!e.target.checked;
     };
     const available=data.features.filter(f=>f.properties.scale_position!==null).length;
     status.textContent=data.features.length+' NOAA reaches · '+available+' with calibrated colors · '+(launchError?'launch locations unavailable':launchCount+' launch records')+'. Coverage: '+manifest.bbox.join(', ');
-    document.getElementById('updated').textContent='NOAA data update: '+(flow.noaa_updated_at??'unavailable')+' · Retrieved: '+flow.retrieved_at;
+    document.getElementById('updated').textContent='Chicago fallback update: '+(flow.noaa_updated_at??'unavailable')+' · Retrieved: '+flow.retrieved_at;
+    try{
+      const national=await get('web/nwm/overview/manifest.json');
+      const [nationalGeometry,nationalFlow]=await Promise.all([get('web/nwm/overview/'+national.geometry),get('web/nwm/overview/'+national.flow)]);
+      const nationalData=rivers(nationalGeometry,nationalFlow.records);
+      map.addSource('nwm-national-colors',{type:'geojson',data:nationalData});
+      map.addLayer({id:'nwm-national-colors',type:'line',source:'nwm-national-colors',maxzoom:5,paint:{'line-color':['get','color'],'line-width':1.8,'line-opacity':0.95}},map.getLayer('launches')?'launches':undefined);
+      const colored=nationalData.features.filter(f=>f.properties.scale_position!==null).length;
+      document.getElementById('national-overview').textContent=nationalData.features.length+' national major-river reaches · '+colored+' colored · NOAA update: '+(nationalFlow.noaa_updated_at??'unavailable');
+      attachLiveColors(map,text=>document.getElementById('live-status').textContent=text);
+      for(const id of ['nwm-national-colors','nwm-live']){
+        map.setLayoutProperty(id,'visibility',document.getElementById('noaa-comparison').checked?'none':'visible');
+
+      }
+    }catch(error){document.getElementById('national-overview').textContent='National flow snapshot unavailable; geometry remains visible.';console.warn(error);}
+
   }catch(e){status.textContent='NOAA data unavailable. '+(launchError?'Launch locations are also unavailable.':'Launch locations remain available.')+' Try again later.';}
 });
