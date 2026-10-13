@@ -1,11 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MRGA2,Marguerite Creek above Emma Creek near Healy,1,MRCA2,True,False
-MRGI2,Kishwaukee River at Marengo,1,BVDI2,True,False
-MRGI4,Maple River at Galva,1,MIGI4,True,False
 MRMM8,Musselshell River near Martinsdale,1,HLWM8,True,False
 MRNF1,Tide Gauge at North Port Charlotte (In MHHW),1,SKHF1,True,False
 MRNN6,Esopus Creek at Mount Marion,1,ASEN6,True,False
 MRRO3,Abernethy Creek at Mompano Reservoir,1,ACRO3,True,False
+MRVL1,Bayou Des Glaises Diversion Ch. at Moreauville,1,MRLL1,True,False
 MSBM8,Musselshell River near Mosby,1,MUSM8,True,False
 MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
@@ -27,7 +25,6 @@ MUCN7,Mud Creek (NC) at Erkwood Dr. 1 S Hendersonville,1,MNMN7,True,False
 MUCW4,Muddy Creek above Olson Creek near Dad,1,MCYW4,True,False
 MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
 MUDK2,Beech Fork at Maud,1,BTDK2,True,False
-MUDN2,Muddy River near Glendale,1,MOAN2,True,False
 MVCS1,Stevens Creek near Murphy Village,1,MODS1,True,False
 MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
 MVLO1,Lake Fork Mohican River above Mohicanville Dam,1,MCHO1,True,False
@@ -53,6 +50,7 @@ NCHC2,North Fork Cache La Poudre River below Halligan Reservoir,1,NSEC2,True,Fal
 NCHN3,Suncook River at North Chichester,1,ALLN3,True,False
 NCTO1,Tuscarawas River at Newcomerstown,1,NWPO1,True,False
 NEIW3,Black River (WI) at Neillsville,1,HAAW3,True,False
+NEPF1,St. Marks River near Newport on Old Magnolia Rd (in stage datum),1,MRKF1,True,False
 NEPI4,English River at Parnell,1,KALI4,True,False
 NEVN6,Neversink River at Godeffroy,1,BRGN6,True,False
 NFBI1,North Fork Big Wood River near Ketchum,1,BWKI1,True,False
