@@ -1,30 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SRBW1,N Fk Toutle River below Sediment Retention Structure near Toutle,0,,True,False
-SRCI2,Robinson Creek (IL) near Shelbyville,0,,True,False
-SRCM8,Shields River above Wilsall,0,,True,False
-SRCN4,Spruce Run at Clinton,0,,True,False
-SRCN7,Six Runs Creek at US 421,0,,True,False
-SRCO1,Shade River near Chester,0,,True,False
-SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
-SRCS1,South Rabon Creek near Gray Court,0,,True,False
-SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
-SRCW1,Skokomish River at Combined Forks Virtual Gage,2,NSPW1;SRPW1,True,False
-SRDA2,Sanctuary River at Denali Park Road at Denali Park,0,,True,False
-SRDF1,Forked Creek at Stoner Rd,0,,True,False
-SRDI2,Illinois River at Starved Rock Lock (tailwater),2,LSLI2;OTWI2,True,False
-SRDM2,Savage River at Savage River Dam,2,BTNM2;SRVM2,True,False
-SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
-SRDO3,Smith River near Drain,0,,True,False
-SRDS1,Little Salkehatchie River below Denmark,0,,True,False
-SREC1,Santa Ana River at E St near San Bernardino,1,MWXC1,True,False
-SREN6,St. Regis River at Hogansburg 1.5 SW,0,,True,False
-SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
-SRFN7,Atlantic Intracoastal Waterway at Surf City Bridge,0,,True,False
-SRFQ9,Stewart River near Mayo-Yukon Territory,0,,True,False
-SRGC2,South Fork Rio Grande at South Fork,0,,True,False
-SRGM5,Sprague Creek near Sprague,0,,True,False
-SRGM8,Clark Fork River at St. Regis,2,BELM8;PLNM8,True,False
-SRGN4,Spruce Run at Glen Gardner,0,,True,False
+SRGN4,Spruce Run at Glen Gardner,1,SRCN4,True,False
 SRGT2,Guadalupe River near Spring Branch,2,GUBT2;SMCT2,True,False
 SRHF1,Suwannee River at Interstate 10 Bridge (in NAVD88),0,,True,False
 SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
@@ -40,7 +15,7 @@ SRMF1,St Marks River near Rivers Edge Road (in MHHW),0,,True,False
 SRMM5,Sturgeon River near Meadow Brook ,0,,True,False
 SRMO3,Sandy River near Marmot,2,SGCO3;SNDO3,True,False
 SRMP1,Straight  Run at Marsh Creek,0,,True,False
-SRMQ9,Stewart River at the Mouth-Yukon Territory,0,,True,False
+SRMQ9,Stewart River at the Mouth-Yukon Territory,1,SRFQ9,True,False
 SRMT2,Sabinal River below Mill Creek near Vanderpool,2,SABT2;SBUT2,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SRNF1,Suwannee River at Nobles Ferry (in NAVD88),0,,True,False
@@ -109,7 +84,7 @@ SSSN7,Soules Swamp at Slippery Log Road,0,,True,False
 SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
 SSTC1,San Joaquin River near Stevinson,0,,True,False
 SSTM7,Platte River at Sharps Station,2,AGYM7;PLCM7,True,False
-SSUW1,South Fork Skokomish River near Union,0,,True,False
+SSUW1,South Fork Skokomish River near Union,1,SRCW1,True,False
 SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
 SSWU1,Jordan River at 90th South,0,,True,False
@@ -670,7 +645,7 @@ TOPW1,Toppenish Creek near Fort Simcoe,0,,True,False
 TORN7,Torrence Creek near Huntersville,0,,True,False
 TORW2,Coal River (WV) at Tornado,2,ASHW2;DANW2,True,False
 TOSM8,Missouri River at Toston,3,CYNM8;LOGM8;TFKM8,True,False
-TOTW1,Toutle River at Tower Road near Silver Lake,0,,True,False
+TOTW1,Toutle River at Tower Road near Silver Lake,1,SRBW1,True,False
 TOUC1,Guadalupe River  Trout Creek,0,,True,False
 TOVP4,Rio Toa Vaca above Lago Toa Vaca,0,,True,False
 TOWG1,Towaliga River at GA 83 near Juliette,0,,True,False

@@ -1,10 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
-SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
-SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
-SREC1,Santa Ana River at E St near San Bernardino,1,MWXC1,True,False
-SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
+SRGN4,Spruce Run at Glen Gardner,1,SRCN4,True,False
 SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
+SRMQ9,Stewart River at the Mouth-Yukon Territory,1,SRFQ9,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False
@@ -19,6 +16,7 @@ SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
 SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
 SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
+SSUW1,South Fork Skokomish River near Union,1,SRCW1,True,False
 SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
@@ -98,6 +96,7 @@ TOAP4,Rio De La Plata near Toa Alta,1,NASP4,True,False
 TONA1,Aldridge Creek (AL) at Toney Drive in Huntsville,1,SHEA1,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
 TOPK1,Soldier Creek near Topeka,1,DELK1,True,False
+TOTW1,Toutle River at Tower Road near Silver Lake,1,SRBW1,True,False
 TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
