@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MOSR1,Moshassuck River at Providence,0,,True,False
-MOSV1,Little River (Vermont) at Moscow,2,BMFV1;WRSV1,True,False
-MOTM4,St. Joseph River (MI/IN) at Mottville,3,CTVM4;EKMI3;TRVM4,True,False
-MOUN7,Catawba River at Mountain Island Lake and Dam,2,CWAN7;FOMS1,True,False
-MOUS1,Mountain Creek at Mountain Creek Church Rd. 2 W Taylors,0,,True,False
-MOUW2,Ohio River at Moundsville,2,POWO1;WLGW2,True,False
-MOWA2,Moose Creek at Oilwell Road near Trapper Creek,0,,True,False
-MOWO3,Molalla River near Wilhoit,0,,True,False
-MOWV2,New River at Mouth of Wilson,3,CLFN7;GAXV2;JFRN7,True,False
-MOXI2,Aux Sable Creek near Morris,0,,True,False
-MOZI2,Mississippi River at Mozier Landing,2,CAGM7;CLKM7,True,False
-MOZW2,South Mill Creek near Mozer,0,,True,False
-MPBF1,Matlacha (in MHHW),0,,True,False
-MPBV2,Bull Run near Manassas Park,1,CTHV2,True,False
-MPCF1,Inundation Sensor at Boca Ciega Millenium Park (in AGL),0,,True,False
-MPCO2,Pennington Creek 5 miles NNE of Mill Creek,1,MCPO2,True,False
-MPCW4,Middle Piney Creek above Forest Boundary,0,,True,False
-MPDH1,Manoa Stream at Manoa Palolo Drainage Canal,0,,True,False
-MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
-MPFC1,Mariposa Creek near Laughlin 4N,0,,True,False
-MPHT1,Fletcher Creek at Bartlett,0,,True,False
-MPLN8,Maple River (ND) near Mapleton (South of I-94),2,MAPN8;MRDN8,True,False
-MPLO3,Siuslaw River near Mapleton,0,,True,False
-MPLP1,Juniata River at Mapleton Depot,2,HUJP1;LWSP1,True,False
-MPPV2,North Landing River at Munden Point Park,0,,True,False
 MPRM4,Pine River near Midland,1,ALMM4,True,False
 MPSK1,Solomon River at Minneapolis,2,GLAK1;NLSK1,True,False
 MPTA2,Trail River near Lawing,0,,True,False
@@ -2275,7 +2250,7 @@ RLFM5,Red Lake River at Red Lake Falls (CR13),3,CRKM5;HIGM5;TRFM5,True,False
 RLGF1,Haw Creek above Russell Landing (in NAVD88),0,,True,False
 RLGN8,Cedar Creek (ND) near Raleigh,0,,True,False
 RLGQ3,Rock Lake near Glenora MB,2,PCCQ3;PLLQ3,True,False
-RLGT1,Wolf River at Raleigh,0,,True,False
+RLGT1,Wolf River at Raleigh,2,MEMT1;MPHT1,True,False
 RLHN7,Crabtree Creek at Glenwood Ave,2,ADRN7;EBNN7,True,False
 RLKA2,Russell Lake near Yakutat,0,,True,False
 RLLI2,Salt Creek (IL) near Rowell,2,DEWI2;FMCI2,True,False
