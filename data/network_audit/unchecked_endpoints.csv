@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NAMP4,Rio Guadiana near Guadiana,0,,True,False
-NANA1,Tombigbee River near Nanafalia,2,CLDA1;DLDA1,True,False
-NANG1,Nancy Creek at West Wesley Road at Atlanta,0,,True,False
-NANM1,Carrabassett River at North Anson,0,,True,False
-NANN7,Nantahala River at Nantahala Dam,2,HEWN7;RAIN7,True,False
-NAOL1,Barataria Bay and Waterway at Naomi Diversion Canal near Naomi,0,,True,False
-NAPM6,Pearl River at NSTL Station near Stennis,0,,True,False
-NAPM7,Missouri River at Napoleon,2,KCDM7;WVYM7,True,False
-NAPN1,Turkey Creek (trib. to Republican River) at Naponee,0,,True,False
-NARP4,Lago La Plata,0,,True,False
-NASC1,Nacimiento River below Dam,2,BRDC1;NACC1,True,False
-NASI2,Kaskaskia River at New Athens,2,CHSI2;KCAI2,True,False
-NASP4,Rio De La Plata below La Plata Dam,0,,True,False
-NASQ8,Battle Creek at Nashlyn Canal nr Consul 5SW,0,,True,False
-NAST1,Cumberland River at Nashville,3,BDXT1;CTHT1;OMOT1,True,False
-NAST2,West Central Texas Lakes at Lake Nasworthy,2,OHIT2;TBRT2,True,False
-NASW1,Naselle River near Naselle,0,,True,False
-NATF1,Nassau River near Tisonia (in MHHW),0,,True,False
-NATG1,Sweetwater Creek near Northwest Austell,0,,True,False
-NATP1,Allegheny River at Natrona Lock and Dam,2,ACMP1;FREP1,True,False
-NAVC2,Navajo River near Chromo,0,,True,False
-NAVF1,Navarre Beach Gulf of America (In MHHW),0,,True,False
-NAVT2,Navasota River at SH 6 near Navasota,0,,True,False
-NAWI2,West Branch Du Page River near Naperville,0,,True,False
-NBAM2,Northwest Branch Anacostia River at Brentwood MD,0,,True,False
 NBAN4,North Branch Raritan River at North Branch Village,2,FARN4;RRTN4,True,False
 NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
 NBCN1,North Blackbird Creek at Macy,0,,True,False
@@ -103,7 +78,7 @@ NCUW2,Ohio River at New Cumberland Lock and Dam,2,SBVO1;WLVO1,True,False
 NDCS2,North Deer Creek above Brookings,0,,True,False
 NDGM3,Three Mile River at North Dighton,0,,True,False
 NDMW2,Parker Hollow Run at Needmore,0,,True,False
-NDRI2,Du Page River near Plainfield,2,BOLI2;SORI2,True,False
+NDRI2,Du Page River near Plainfield,3,BOLI2;NAWI2;SORI2,True,False
 NDST2,Beals Creek at Natural Dam Salt Lake,0,,True,False
 NDVV1,Pope Brook (VT) near North Danville,0,,True,False
 NDYG1,Noonday Creek at Hawkins Store Road near Blackwells,0,,True,False
@@ -153,7 +128,7 @@ NFBV1,Lewis Creek at North Ferrisburg,0,,True,False
 NFCC1,North Fork Kings River at Cliff Camp,0,,True,False
 NFDA4,Norfork River at Norfork Dam,0,,True,False
 NFDC1,North Fork American River at North Fork Dam,0,,True,False
-NFDI2,West Branch Du Page River at Naperville (Fawell Dam),0,,True,False
+NFDI2,West Branch Du Page River at Naperville (Fawell Dam),2,NPVI2;WRNI2,True,False
 NFDM3,Connecticut River near Northfield,0,,True,False
 NFEC1,Feather River at East Branch,0,,True,False
 NFEN6,Eighteenmile Creek at Newfane NY,0,,True,False
@@ -344,7 +319,7 @@ NPTD1,Christina River at Newport (IN MLLW),0,,True,False
 NPTN1,North Platte River at North Platte,4,BDYN1;BIRN1;KNGN1;SUTN1,True,False
 NPTO1,Loramie Creek near Newport,1,LOCO1,True,False
 NPTP1,Juniata River at Newport,1,LWSP1,True,False
-NPVI2,West Branch Du Page River at Naperville (Webster St),0,,True,False
+NPVI2,West Branch Du Page River at Naperville (Webster St),2,NAWI2;NFDI2,True,False
 NPVI4,South Fork Iowa River near New Providence,5,BKSI4;BLII4;EDBI4;HTII4;MIWI4,True,False
 NPVL1,Bayou Lafourche above Napoleonville,0,,True,False
 NRBF1,New River near Lake Butler (in NAVD88),0,,True,False
@@ -989,7 +964,7 @@ PDLL1,Pearl River at Davis Landing near Pearl River,0,,True,False
 PDOV2,Powell River at Dorchester,0,,True,False
 PDPS1,Pee Dee River above Poston at US 378,2,PDBS1;PRVS1,True,False
 PDSF1,Peace River Distributary at Dover Sink Near Bartow,0,,True,False
-PDSG1,Sweetwater Creek at Brownsville Road near Powder Springs,0,,True,False
+PDSG1,Sweetwater Creek at Brownsville Road near Powder Springs,1,NATG1,True,False
 PDSK1,Paradise Creek below Paradise,0,,True,False
 PDSW3,Wisconsin River below Prairie Du Sac Dam,2,MUSW3;PORW3,True,False
 PDTN7,Pee Dee River at NC730 below Lake Tillery,0,,True,False
@@ -1365,7 +1340,7 @@ PRCL1,Amite River Basin at Little Sandy Creek at Peiars Rd. near Milldale,0,,Tru
 PRCM8,Prospect Creek at Thompson Falls,0,,True,False
 PRCN1,North Fork Elkhorn River near Pierce,0,,True,False
 PRCO2,Canadian River at Purcell,2,KCRO2;NRCO2,True,False
-PRCP4,Rio De La Plata below Comerio,0,,True,False
+PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
 PRDA2,Prudhoe Bay Tide Gauge at Prudhoe Bay (MHHW datum),0,,True,False
 PRDI3,Pogues Run above Dam near I-70 in Eastern Marion County,0,,True,False
 PRDK2,Green River (KY) at Paradise,2,RCHK2;RCPK2,True,False
@@ -2734,7 +2709,7 @@ SIXA2,Sixmile Creek near Hope,0,,True,False
 SIXF1,Sixmile Cypress Creek Near Ft Myers,0,,True,False
 SIXN7,"Six Mile Creek below Marvin Rd, 2 NW Marvin",0,,True,False
 SJBM4,St. Joseph River (MI/IN) at Main Chan. at BL-94 at Benton Harbor,0,,True,False
-SJCC2,San Juan River near Carracas,0,,True,False
+SJCC2,San Juan River near Carracas,2,ARCN5;NAVC2,True,False
 SJDF1,Steinhatchee River at Jena Boat Ramp (in MHHW),0,,True,False
 SJEB3,St. John River at Edmundston,2,FTKM1;GFNB3,True,False
 SJEC1,San Jose Creek near Goleta,0,,True,False
@@ -3753,7 +3728,7 @@ TNTP1,Tionesta Creek at Tionesta Dam Tailwater,1,TIOP1,True,False
 TNUA2,Tununak Tidal Gauge at Tununak (MHHW datum),0,,True,False
 TNYN6,Little Salmon River at Mount near Texas NY,0,,True,False
 TNZM7,North Fork White River near Tecumseh,0,,True,False
-TOAP4,Rio De La Plata near Toa Alta,0,,True,False
+TOAP4,Rio De La Plata near Toa Alta,1,NASP4,True,False
 TOBG1,Tobesofkee Creek near Macon,0,,True,False
 TODA1,Black Warrior River at Oliver Lock and Dam,2,TCLA1;WLDA1,True,False
 TODA4,Arkansas River at Toad Suck Lock and Dam,2,LITA4;MORA4,True,False
@@ -4308,7 +4283,7 @@ WBCL1,Wilkinson Bay at Wilkinson Bayou Cutoff,0,,True,False
 WBCN7,Atlantic Coast at Banks Channel Wrightsville Beach,0,,True,False
 WBCT1,Browns Creek at Glendale Lane,0,,True,False
 WBCW1,White River above Boise Ck,2,MMDW1;WRAW1,True,False
-WBDI2,West Branch Du Page River near West Chicago,0,,True,False
+WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
 WBDW4,West Fork Big Goose Creek near Story,0,,True,False
 WBEN7,EF New River at Deerfield Road,0,,True,False
 WBFM3,Quaboag River at West Brimfield,0,,True,False
@@ -4840,7 +4815,7 @@ WRMO3,Southeast Oregon Reservoirs at Warm Springs Reservoir,0,,True,False
 WRMW3,Wisconsin River below Castle Rock Dam near Mauston,2,CROW3;WDEW3,True,False
 WRNC3,Mount Hope River at Warrenville,0,,True,False
 WRNG1,Brushy Creek at Campground Road near Wrens,0,,True,False
-WRNI2,West Branch Du Page River near Warrenville,0,,True,False
+WRNI2,West Branch Du Page River near Warrenville,2,NFDI2;WBDI2,True,False
 WRNI3,Salamonie River near Warren,0,,True,False
 WRNN7,Swannanoa River at Warren Wilson,2,BLTN7;BMPN7,True,False
 WRNO1,Mahoning River at Warren,2,LEAO1;YGWO1,True,False
