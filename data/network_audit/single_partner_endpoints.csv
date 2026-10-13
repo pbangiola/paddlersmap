@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
-OWOM4,Shiawassee River at Owosso,1,JTSM4,True,False
-OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
-OWTM5,Straight River at Owatonna,1,FRBM5,True,False
 OWYO3,Owyhee River at Owyhee Dam,1,ROMO3,True,False
 OXDM6,Yocona River near Oxford,1,ENDM6,True,False
 OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
@@ -416,6 +412,7 @@ TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TWPK2,Tradewater River above Providence,1,ONYK2,True,False
+TYGK2,Tygarts Creek near Greenup,1,OVHK2,True,False
 TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
 TYLN1,North Loup River at Taylor,1,ORDN1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OURC1,Middle Fork Yuba River at Our House,0,,True,False
-OVBC1,Olema Creek at Vedanta Bridge,0,,True,False
-OVEN1,Buffalo Creek near Overton,0,,True,False
-OVHK2,Tygarts Creek above Olive Hill,0,,True,False
-OVIA2,Seldovia Tide Gauge at Seldovia (MLLW datum),0,,True,False
-OVON1,Spring Creek near Overton,0,,True,False
-OVRO2,North Canadian River at Lake Overholser,2,OLBO2;YUKO2,True,False
-OVTN1,Platte River near Overton,2,DARN1;ODSN1,True,False
-OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
-OWBK2,Ohio River at Owensboro,2,NBGI3;TELI3,True,False
-OWCF1,Tide Gauge at Owl Creek (in MHHW),0,,True,False
-OWCI3,Wildcat Creek (IN) at Owasco,2,LYTI3;OKKI3,True,False
-OWCN6,Owego Creek near Owego,0,,True,False
-OWFN7,Crabtree Creek at Old Wake Forest Road,2,ADRN7;CRBN7,True,False
-OWGI3,Tippecanoe River at Oswego,2,NWTI3;ORAI3,True,False
-OWGN6,Susquehanna River at Owego,2,VSTN6;WVYN6,True,False
-OWHO1,Old Woman Creek at Berlin Road,0,,True,False
-OWIN6,Owasco Lake at Moravia Inlet,0,,True,False
-OWLW4,South Fork Owl Creek above Anchor Reservior,0,,True,False
-OWMM5,Maple Creek (MN) at Owatonna,0,,True,False
-OWOM4,Shiawassee River at Owosso,1,JTSM4,True,False
-OWSI4,South Beaver Creek near Owasa US 65--IFC,0,,True,False
-OWSN6,Owasco Lake near Auburn,0,,True,False
-OWSO2,Bird Creek near Owasso,1,SPEO2,True,False
-OWTM5,Straight River at Owatonna,1,FRBM5,True,False
 OWYO3,Owyhee River at Owyhee Dam,1,ROMO3,True,False
 OXDM6,Yocona River near Oxford,1,ENDM6,True,False
 OXDT2,Sandy Creek near Willow City,0,,True,False
@@ -3186,7 +3161,7 @@ TYAA2,Taiya River near Skagway,0,,True,False
 TYCO3,Tryon Creek near Lake Oswego,0,,True,False
 TYDM8,Tongue River at T & Y Diversion Dam near Miles City (Closed Gauge),0,,True,False
 TYGA4,Tyronza River near Tyronza,0,,True,False
-TYGK2,Tygarts Creek near Greenup,0,,True,False
+TYGK2,Tygarts Creek near Greenup,1,OVHK2,True,False
 TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
 TYLA1,Alabama River at Henry Lock and Dam,2,MGMA1;SELA1,True,False
 TYLN1,North Loup River at Taylor,1,ORDN1,True,False
