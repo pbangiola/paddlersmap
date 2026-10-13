@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-VDZA2,Valdez at Valdez Tide Gage,0,,True,False
-VEAF1,Lover's Key Adventures (in MHHW),0,,True,False
-VEBF1,Lover's Key Beach Cove (in MHHW),0,,True,False
-VEDN1,Verdigre Creek near Verdigre,0,,True,False
-VEDP4,Rio Espiritu Santo near Rio Grande,0,,True,False
-VENN1,Platte River near Venice,2,ASLN1;LESN1,True,False
-VENO3,Nehalem River near Vernonia,0,,True,False
-VERN1,Ponca Creek at Verdel,0,,True,False
-VERO1,Vermilion River near Mill Hollow MP,0,,True,False
-VERP4,Rio Grande nr Verde at Rio Grande,0,,True,False
-VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
-VERT1,Piney River near Vernon,0,,True,False
-VERT2,Pease River near Vernon,1,CDPT2,True,False
-VESF1,Lover's Key State Park Boat Ramp (in MHHW),0,,True,False
-VESM6,Red Creek near Vestry,0,,True,False
-VFGP1,Valley Creek at PA Turnpike Bridge near Valley Forge,0,,True,False
-VGAI4,Volga River at Volga (IFC),2,VLPI4;WADI4,True,False
-VGBP4,Rio Cibuco at Vega Baja,0,,True,False
-VGCM4,Clam River at Vogel Center,0,,True,False
-VGFP1,Kiskiminetas River at Vandergrift,1,LHDP1,True,False
-VGRA1,Village Creek at 86th Street,0,,True,False
-VGSA2,Valdez Glacier River at Valdez Glacier Lake near Valdez,0,,True,False
-VGTA1,Cahaba River near Trussville,0,,True,False
-VICM8,Bitterroot River at Bell Crossing near Victor,2,BITM8;DARM8,True,False
-VICT2,Guadalupe River at Victoria,2,CUET2;DUPT2,True,False
 VICV1,Moose River at Victory,0,,True,False
 VIDO3,McKenzie River near Vida,3,CGRO3;MKLO3;TRBO3,True,False
 VILP4,Lago El Guineo at Damsite,0,,True,False
