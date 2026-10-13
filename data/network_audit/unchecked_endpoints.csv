@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WLFS2,Wolf Creek (SD) near Freeman,0,,True,False
-WLFW4,Wolf Creek near Sheridan,0,,True,False
-WLGT2,Salt Fork of the Red River at Wellington,2,GRET2;MGMO2,True,False
-WLGW2,Ohio River at Wheeling,2,MOUW2;WHLW2,True,False
-WLHN2,Walker River at Walker Lake,1,WRMN2,True,False
-WLHN8,Pembina River at Walhalla,2,NCEN8;WNDQ3,True,False
-WLKC1,Sacramento River below Wilkins Slough,0,,True,False
-WLKF1,Walker Creek Near Sarasota,0,,True,False
-WLKM4,Michigamme River near Witch Lake,3,BNGM4;CRFM4;CYFM4,True,False
-WLKN7,Yadkin River at W. Kerr Scott Reservoir,0,,True,False
-WLKW2,West Fork River at Walkersville,1,JACW2,True,False
-WLLI3,East Fork White River at Williams,3,BFRI3;HDBI3;SHLI3,True,False
-WLLM2,Potomac River at Williamsport,1,SHEW2,True,False
-WLLM8,Sun River at Willow Creek Reservoir,2,ADDM8;SRVM8,True,False
-WLLN6,Genesee River at Wellsville,1,PRTN6,True,False
-WLLN7,Roanoke River at Williamston,2,HMLN7;JAMN7,True,False
-WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
-WLLW4,Shoshone River below Willwood Dam,0,,True,False
-WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
-WLMC3,Shetucket River at Willimantic,0,,True,False
-WLMI2,Kankakee River near Wilmington,2,KRDI2;MOMI2,True,False
-WLMM3,Shawsheen River at Wilmington,0,,True,False
-WLMM7,Black River above Williamsville,2,LPRM7;PPBM7,True,False
-WLNM6,Hatchie River  Walnut,0,,True,False
-WLOG1,Willeo Creek at GA 120 near Roswell,0,,True,False
 WLON1,Elkhorn River near Winslow,2,WPNN1;WTRN1,True,False
 WLON7,Cape Fear River at Wilmington (IN MLLW),8,BCUN7;BGWN7;CPFN7;LCHN7;LGBN7;NELN7;PGHN7;STHN7,True,False
 WLPN3,Connecticut River at North Walpole,2,MNTM3;WLBN3,True,False
@@ -233,7 +208,7 @@ WSHL1,Bayou Courtableau at Washington,0,,True,False
 WSHM1,Aroostook River at Washburn,2,MASM1;TINB3,True,False
 WSHS1,Saluda River near WARE SHOALS,2,CHPS1;WLSS1,True,False
 WSHW1,Wishkah-Chehalis Tide Gage,0,,True,False
-WSIN2,Walker River near Schurz,2,WBWN2;WRMN2,True,False
+WSIN2,Walker River near Schurz,3,WBWN2;WLHN2;WRMN2,True,False
 WSKF1,Whiskey Creek at Fort Myers,0,,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False
 WSKW1,Wishkah River near Nisson,0,,True,False
