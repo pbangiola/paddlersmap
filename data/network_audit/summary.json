@@ -1,9 +1,9 @@
 {
   "gauges": 12931,
-  "checked": 7984,
-  "pending": 4947,
-  "distinct_connected_endpoints": 9704,
-  "unchecked_endpoints": 4947,
+  "checked": 8009,
+  "pending": 4922,
+  "distinct_connected_endpoints": 9697,
+  "unchecked_endpoints": 4922,
   "single_partner_endpoints": 641,
   "definitions": {
     "unchecked": "not in noaa_graph_state.json visited, including queued and known gauge points",

@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
 NISW1,Nisqually River near National,1,MKNW1,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
 NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
@@ -391,6 +390,7 @@ SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
 SREC1,Santa Ana River at E St near San Bernardino,1,MWXC1,True,False
 SRFM5,Sandhill River near Fertile (450th St SW),1,CLXM5,True,False
+SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
 SRMW1,Skagit River at Marblemount,1,CONW1,True,False
 SROM5,South Branch Root River near Ostrander 5WNW,1,CMAM5,True,False
 SRPN1,Big Blue River at Surprise,1,SAPN1,True,False

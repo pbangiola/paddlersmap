@@ -1,32 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NHLN6,Sandy Creek (WNY) at North Hamlin,0,,True,False
-NHMM3,Connecticut River at Northampton,2,HLUM3;MNTM3,True,False
-NHOF1,Tide Station at Marker 14 Near Homosassa,0,,True,False
-NHPN7,Haw River at Jordan Lake,2,BYNN7;HRMN7,True,False
-NHPP1,Delaware River at New Hope-Lambertville Bridge,2,STKN4;WASN4,True,False
-NHRI3,Wabash River at New Harmony,2,MCRI2;SHNI2,True,False
-NHRI4,Beaver Creek at New Hartford,2,CEDI4;PARI4,True,False
-NHSH1,North Halawa Stream near Quarantine Station,0,,True,False
-NHSO1,Nimishillen Creek at North Industry,3,CTNO1;DVRO1;LOSO1,True,False
-NHVI3,Maumee River at New Haven,2,ANTO1;COMI3,True,False
-NHVK2,Rolling Fork River at New Haven,2,BSNK2;CLVK2,True,False
-NHVV1,New Haven River at Brooksville,0,,True,False
-NIAV2,Roanoke River at Niagara,2,RONV2;SMIV2,True,False
-NIAW3,Menominee River at Niagara,3,BGQW3;BRKW3;VLCM4,True,False
-NIBN1,Niobrara River near Butte,0,,True,False
-NICF1,Thirtymile Creek Near Nichols,0,,True,False
-NICG1,Nickajack Creek at US Highway 78 and 278 near Mableton,0,,True,False
-NICS1,Lumber River near Nichols,2,FBLN7;GALS1,True,False
-NILC1,Alameda Creek near Niles,3,ALFC1;AOLC1;ASLC1,True,False
-NILI2,North Branch Chicago River at Niles,4,DRFI2;HIPI2;NBPI2;NBRI2,True,False
-NILM4,St. Joseph River (MI/IN) at Niles,2,JCRI3;SBNI3,True,False
-NIMM5,Crow Wing River at Nimrod,0,,True,False
-NINA2,Ninilchik River at Ninilchik,0,,True,False
-NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
-NIPI2,Nippersink Creek near Spring Grove,0,,True,False
 NIQS1,Atlantic Coast at North Inlet Estuary - NERRS,0,,True,False
 NIRQ9,Nisling River below Onion Creek-Yukon Territory,0,,True,False
-NISN1,Niobrara River at Mariaville,0,,True,False
+NISN1,Niobrara River at Mariaville,2,NIBN1;SPKN1,True,False
 NISW1,Nisqually River near National,1,MKNW1,True,False
 NITS1,Atlantic Coast at North Inlet Estuary (IN MLLW),0,,True,False
 NITW1,Similkameen River near Nighthawk,0,,True,False
@@ -162,9 +137,9 @@ NRFA3,New River Maricopa near New River,0,,True,False
 NRFF1,New River at Riverwalk Fort Lauderdale (in MHHW),0,,True,False
 NRFM5,Cannon River at Northfield,4,CFLM5;FRBM5;FRLM5;WLCM5,True,False
 NRGC1,Coyote Creek near Gilroy,0,,True,False
-NRGN1,Niobrara River near Gordon 11S,0,,True,False
+NRGN1,Niobrara River near Gordon 11S,2,NRHN1;NZNN1,True,False
 NRHF1,Nassau River at US-17 (in MHHW),0,,True,False
-NRHN1,Niobrara River near Hay Springs 14S,0,,True,False
+NRHN1,Niobrara River near Hay Springs 14S,2,BOXN1;NRGN1,True,False
 NRHS1,New River near Hardeeville (IN MLLW),0,,True,False
 NRKW1,Nooksack River at North Cedarvillle,3,MFNW1;NFNW1;NREW1,True,False
 NRMO2,Little River (OK) at Lake Thunderbird,0,,True,False
@@ -290,7 +265,7 @@ NWUM5,Cottonwood River (MN) at New Ulm,3,LVNM5;MNKM5;SPFM5,True,False
 NWYI3,Tippecanoe River at Norway Dam,2,BLOI3;TCNI3,True,False
 NYBT2,New Year Creek at TX 105 near Brenham,0,,True,False
 NYFO3,North Fork Yamhill River near Fairdale,0,,True,False
-NZNN1,Niobrara River near Nenzel 8S,0,,True,False
+NZNN1,Niobrara River near Nenzel 8S,2,NRGN1;SPKN1,True,False
 OAAN1,Lake Zorinsky,0,,True,False
 OABT2,Adams Bayou at FM 3247,1,ADMT2,True,False
 OACA3,Oak Creek (AZ) at Page Springs near Cornville,2,DBVA3;OAKA3,True,False
@@ -976,7 +951,7 @@ PLFA3,Paria River at Lees Ferry,0,,True,False
 PLGA4,L'Anguille River at Palestine,2,COTA4;LAMA4,True,False
 PLGF1,Palatlakaha River at Cherry Lk nr Groveland,0,,True,False
 PLGM4,Pilgrim River at Paradise Road,0,,True,False
-PLGM5,Crow Wing River near Pillager,3,FTRM5;LFEM5;LGPM5,True,False
+PLGM5,Crow Wing River near Pillager,4,FTRM5;LFEM5;LGPM5;NIMM5,True,False
 PLGN1,Elkhorn River at Pilger,2,NFKN1;WPNN1,True,False
 PLGN7,Catawba River near Pleasant Gardens,2,BRWN7;CRMN7,True,False
 PLHI4,Fourmile Creek at Pleasant Hill Vandalia Rd--IFC,2,DFMI4;SWNI4,True,False
@@ -2814,7 +2789,7 @@ SPBN6,Salmon River at South Plattsburgh,0,,True,False
 SPBN7,Contentnea Creek at Speights Bridge,0,,True,False
 SPBW4,South Piney Creek below Snider Basin,0,,True,False
 SPCM5,Middle Fork Crow River near Spicer,0,,True,False
-SPCN1,Niobrara River near Spencer,0,,True,False
+SPCN1,Niobrara River near Spencer,2,NIBN1;VRDN1,True,False
 SPCN7,Speight Branch Upstream of SE Cary Pkwy,0,,True,False
 SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
 SPCT2,Pecos River 3 miles ESE of Sheffield,3,BTNT2;GIVT2;PDAT2,True,False
@@ -2849,7 +2824,7 @@ SPII4,Little Sioux River near Spencer / Highway 18,2,LSSI4;SPWI4,True,False
 SPJG1,South Fork Peachtree Creek at Johnson Road near Atlanta,0,,True,False
 SPKF1,Spring Creek at Spring Creek Park (in NAVD88),0,,True,False
 SPKI3,East Fork White River at Sparksville,0,,True,False
-SPKN1,Niobrara River near Sparks,2,BOXN1;VRDN1,True,False
+SPKN1,Niobrara River near Sparks,4,BOXN1;NISN1;NZNN1;VRDN1,True,False
 SPKP1,Little Juniata River at Spruce Creek,0,,True,False
 SPLI4,Turkey River at Spillville,2,FTKI4;SPVI4,True,False
 SPLN1,Middle Loup River near St. Paul,0,,True,False
@@ -2935,7 +2910,7 @@ SRGM8,Clark Fork River at St. Regis,2,BELM8;PLNM8,True,False
 SRGN4,Spruce Run at Glen Gardner,0,,True,False
 SRGT2,Guadalupe River near Spring Branch,2,GUBT2;SMCT2,True,False
 SRHF1,Suwannee River at Interstate 10 Bridge (in NAVD88),0,,True,False
-SRHM5,Shell River near Huntersville (CSAH24),0,,True,False
+SRHM5,Shell River near Huntersville (CSAH24),1,NIMM5,True,False
 SRIS1,Saluda River at I-20 near Columbia,0,,True,False
 SRKK2,Rock Lick Creek near Sharkey,0,,True,False
 SRKU1,Sevier River near East Fork nr Kingston,2,SEKU1;SGDU1,True,False
@@ -4008,7 +3983,7 @@ VQIC1,Los Gatos Creek above Vasona Reservoir,2,LGLC1;LRKC1,True,False
 VRBA1,Coosa River at Mitchell Dam,2,CLTA1;WPKA1,True,False
 VRBU1,Virgin River near Bloomington,0,,True,False
 VRCS2,Vermillion River near Chancellor,3,DVSS2;PKRS2;VRPS2,True,False
-VRDN1,Niobrara River near Verdel,2,NSBN1;SPKN1,True,False
+VRDN1,Niobrara River near Verdel,3,NSBN1;SPCN1;SPKN1,True,False
 VRGM8,Missouri River at Virgelle,3,FBNM8;LDKM8;LTRM8,True,False
 VRIL1,Vermilion River above I-10 at Lafayette,0,,True,False
 VRLL1,Vermilion River at Lake Martin Road,2,BVCL1;VLSL1,True,False
