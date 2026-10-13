@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SHBM6,Chickasawhay River at Shubuta,2,QTMM6;WYNM6,True,False
-SHBN4,Great Channel at Stone Harbor (IN MLLW),0,,True,False
-SHBN6,Chenango River at Sherburne,1,NWHN6,True,False
-SHBW4,Goose Creek at Sheridan,0,,True,False
-SHCT2,Rowlette Creek near Sachse,0,,True,False
-SHDC2,Dry Creek (CO) above Fort Collins,0,,True,False
-SHDP1,Shenango River at Shenango Dam Tailwater,2,NCSP1;SHPP1,True,False
-SHDT1,South Fork Holston River above South Holston Dam,3,BOOT1;MFHV2;VSTV2,True,False
-SHEA1,Aldridge Creek (AL) at Sherwood Drive in Huntsville,2,FRYA1;TONA1,True,False
-SHEC1,Napa River near St. Helena,1,APCC1,True,False
-SHEF1,Shell Creek at CR 674,2,CCGF1;PUNF1,True,False
-SHEL1,Shettleworth Bayou near Blanchard,0,,True,False
-SHEN1,Clear Creek near Shelby,0,,True,False
-SHEW2,Potomac River at Shepherdstown,2,HFEW2;WLLM2,True,False
-SHEW3,Jump River at Sheldon,0,,True,False
-SHEW4,Shell Creek near Shell,0,,True,False
-SHIA2,Ship Creek near Anchorage,0,,True,False
-SHIF1,Shingle Creek at Campbell,0,,True,False
-SHIN6,Shinnecock Bay at Ponquogue (IN MLLW),0,,True,False
-SHIW3,Wolf River (WI) at Shiocton,3,MORW3;NEWW3;SHAW3,True,False
-SHJC1,Bear Creek (SFJPA) at Sand Hill Road (BCSH),0,,True,False
-SHKN6,Canaseraga Creek at Shakers Crossing,0,,True,False
-SHKN7,Shelter Creek at Shaw Highway,0,,True,False
-SHKT1,South Fork Holston River at Kingsport,2,FPHT1;JSKT1,True,False
-SHLG1,Shoal Creek at Shoal Creek Road near Griffin,0,,True,False
 SHLI1,Blackfoot River near Shelley (Wolverine Canyon),2,BKHI1;BLFI1,True,False
 SHLI2,Little Calumet River at South Holland,2,LCMI3;THNI2,True,False
 SHLI3,East Fork White River at Shoals,2,PETI3;WLLI3,True,False
