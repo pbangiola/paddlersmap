@@ -1,13 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
-PDSG1,Sweetwater Creek at Brownsville Road near Powder Springs,1,NATG1,True,False
-PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
-PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
 PEBN4,North Branch Rancocas Creek at Pemberton,1,IWPN4,True,False
 PEFF1,Phillippi Creek at Palmer East,1,BFRF1,True,False
 PEOM8,Peoples Creek near Hays,1,KHRM8,True,False
 PEPP1,Neshaminy Creek near Penns Park,1,LNGP1,True,False
-PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
@@ -66,6 +61,7 @@ PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
 PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
+PRBL1,Pearl River above Slidell,1,PDLL1,True,False
 PRCG1,Proctor Creek at Jackson Parkway at Atlanta,1,PCTG1,True,False
 PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
 PRDP1,Pequea Creek at Paradise,1,RONP1,True,False

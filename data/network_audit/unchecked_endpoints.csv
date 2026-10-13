@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PDAT2,Pecos River at Pandale Crossing,2,LTRT2;SPCT2,True,False
-PDAW4,Prairie Dog Creek near Acme ,0,,True,False
-PDBF1,Port Laudania Canal at Port Laudania (in MHHW),0,,True,False
-PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
-PDBS1,Pee Dee River near Bucksport,4,JSNS1;LPCS1;PDGS1;PDPS1,True,False
-PDDW4,Park Diversion Ditch near Story,0,,True,False
-PDES1,Pee Dee River at Pee Dee,3,BCRS1;PDFS1;PRVS1,True,False
-PDFS1,Pee Dee River at Interstate 95 near Florence,2,BENS1;PDES1,True,False
-PDGS1,Pee Dee River at Georgetown,3,BRPS1;PDBS1;WYSS1,True,False
-PDLC2,Arkansas River at Parkdale,2,CNCC2;WSVC2,True,False
-PDLF1,Indian River at Ponce De Leon South (in MHHW),0,,True,False
-PDLL1,Pearl River at Davis Landing near Pearl River,0,,True,False
-PDOV2,Powell River at Dorchester,0,,True,False
-PDPS1,Pee Dee River above Poston at US 378,2,PDBS1;PRVS1,True,False
-PDSF1,Peace River Distributary at Dover Sink Near Bartow,0,,True,False
-PDSG1,Sweetwater Creek at Brownsville Road near Powder Springs,1,NATG1,True,False
-PDSK1,Paradise Creek below Paradise,0,,True,False
-PDSW3,Wisconsin River below Prairie Du Sac Dam,2,MUSW3;PORW3,True,False
-PDTN7,Pee Dee River at NC730 below Lake Tillery,0,,True,False
-PDTO3,Umatilla River at Pendleton,2,PDUO3;YOKO3,True,False
-PDUO3,Umatilla River above Pendleton,2,GIBO3;PDTO3,True,False
-PDVW3,Fox River (North) at Pardeeville,1,PCNW3,True,False
-PEAM1,Pearce Brook near Houlton,0,,True,False
-PEAM7,Pearson Creek near Springfield,1,SGFM7,True,False
-PEAN3,Peabody River at Gorham,0,,True,False
 PEBN4,North Branch Rancocas Creek at Pemberton,1,IWPN4,True,False
 PECC1,Pescadero Creek near Pescadero,0,,True,False
 PECF1,Pennywash Creek near Deer Park,0,,True,False
@@ -48,7 +23,7 @@ PEOM8,Peoples Creek near Hays,1,KHRM8,True,False
 PEPF1,Pelican Point at Cooks Bayou (in MHHW),0,,True,False
 PEPN6,East Branch Delaware River at Pepacton Reservoir,2,DWNN6;MRGN6,True,False
 PEPP1,Neshaminy Creek near Penns Park,1,LNGP1,True,False
-PERL1,Pearl River near Pearl River,1,BXAL1,True,False
+PERL1,Pearl River near Pearl River,2,BXAL1;PDLL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PERO3,Deschutes River (OR) near Madras,2,DEBO3;MODO3,True,False
@@ -379,7 +354,7 @@ PRAI2,Illinois River at Peoria Lock and Dam,3,HAVI2;KNGI2;PIAI2,True,False
 PRAI4,Buffalo Creek (IA) at Prairieburg,0,,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
 PRBC1,Salinas River at Paso Robles,0,,True,False
-PRBL1,Pearl River above Slidell,0,,True,False
+PRBL1,Pearl River above Slidell,1,PDLL1,True,False
 PRBM2,"Potomac River at Brunswick, MD",0,,True,False
 PRBQ9,Porcupine River near International Boundary near Old Crow-Yukon Territory,0,,True,False
 PRBT2,Alamito Creek 5 miles ESE of Presidio,0,,True,False
@@ -969,7 +944,7 @@ RMBN7,Tar River at US301 Bypass at Rocky Mount,0,,True,False
 RMCC2,Roaring Fork River below Aspen,3,APNC2;EMMC2;MACC2,True,False
 RMCV2,Mudlick Creek in Roanoke,0,,True,False
 RMDV2,James River (VA) at Richmond-Westham,2,CARV2;RICV2,True,False
-RMFM1,Androscoggin River at Rumford,3,AUBM1;GILM1;GRMN3,True,False
+RMFM1,Androscoggin River at Rumford,4,AUBM1;GILM1;GRMN3;PEAN3,True,False
 RMHL1,EABPL Borrow Pit near Ramah,0,,True,False
 RMKC1,Maacama Creek near Kellogg,0,,True,False
 RMLN7,Shallowbag Bay at Manteo (in MLLW),0,,True,False
