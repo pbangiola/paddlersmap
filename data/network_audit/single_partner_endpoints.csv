@@ -1,6 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
 PCLI3,Praire Creek (IN) near Lebanon,1,SGTI3,True,False
+PCMI4,Perry Creek near Millnerville,1,PCHI4,True,False
+PCOO3,Pine Creek (East Oregon) near Oxbow,1,PCHO3,True,False
 PCVU1,Paria River near Cannonville,1,PAKU1,True,False
+PCYP4,Rio Cerrillos  below Lago Cerrillos,1,PCXP4,True,False
 PDAP1,Little Pine Creek at Little Pine Dam,1,JEMP1,True,False
 PDBM8,Milk River near Del Bonita nr Cut Bank,1,ERNM8,True,False
 PDSG1,Sweetwater Creek at Brownsville Road near Powder Springs,1,NATG1,True,False
@@ -247,6 +250,7 @@ SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
 SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
 SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
+SIOI4,Perry Creek at Sioux City,1,PCHI4,True,False
 SIOT2,Olmos Creek at Dresden Drive,1,MTST2,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
 SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
