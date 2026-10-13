@@ -35,11 +35,13 @@ jobs:
           assert any(f.get('properties',{}).get('stage') is not None for f in features), 'No current stage readings'
           print(f'Validated {len(features)} gauge features')
           PY
+      - name: Refresh prototype observations independently of topology
+        run: python scripts/nwm/gauge_assignments.py --observations-only
       - name: Commit readings
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/gauges.geojson
+          git add data/gauges.geojson web/nwm/gauges/observations.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh USGS stream gauge readings"
             git pull --rebase origin main

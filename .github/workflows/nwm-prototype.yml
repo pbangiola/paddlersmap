@@ -4,7 +4,8 @@ on:
     paths:
       - 'web/nwm/**'
       - 'scripts/nwm/**'
-      - 'scripts/test_nwm_retrieve.py'
+      - 'scripts/test_nwm_*.py'
+      - '.github/workflows/named-canoe-launches.yml'
       - 'nwm-prototype.html'
       - '.github/workflows/nwm-prototype.yml'
 permissions:

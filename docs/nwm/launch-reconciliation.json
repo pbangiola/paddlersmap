@@ -1,0 +1,843 @@
+{
+  "osm_input": 0,
+  "curated_input": 101,
+  "stable_unique": 101,
+  "output": 101,
+  "duplicate_groups": [],
+  "ambiguous_groups": [],
+  "preserved_curated_ids": [
+    "kml-014",
+    "kml-015",
+    "kml-018",
+    "kml-019",
+    "kml-021",
+    "kml-023",
+    "kml-024",
+    "kml-027",
+    "kml-029",
+    "kml-032",
+    "kml-036",
+    "kml-037",
+    "kml-039",
+    "kml-047",
+    "osm-node-12096138040",
+    "osm-node-12099691982",
+    "osm-node-12107026033",
+    "osm-node-12175378118",
+    "osm-node-12364765067",
+    "osm-node-12396073908",
+    "osm-node-12396353833",
+    "osm-node-1887768201",
+    "osm-node-4330284526",
+    "osm-node-4346138933",
+    "osm-node-4532869181",
+    "osm-node-802883669",
+    "regional-001",
+    "regional-002",
+    "regional-003",
+    "regional-004",
+    "regional-005",
+    "regional-006",
+    "regional-007",
+    "regional-008",
+    "regional-009",
+    "regional-010",
+    "regional-011",
+    "regional-012",
+    "regional-013",
+    "regional-014",
+    "regional-015",
+    "regional-016",
+    "regional-017",
+    "regional-018",
+    "regional-019",
+    "regional-020",
+    "regional-021",
+    "regional-022",
+    "regional-023",
+    "regional-024",
+    "regional-025",
+    "regional-026",
+    "regional-027",
+    "regional-028",
+    "regional-029",
+    "regional-030",
+    "regional-031",
+    "regional-032",
+    "regional-033",
+    "regional-034",
+    "regional-035",
+    "regional-036",
+    "regional-037",
+    "regional-038",
+    "regional-039",
+    "regional-040",
+    "regional-041",
+    "regional-042",
+    "regional-043",
+    "regional-044",
+    "regional-045",
+    "regional-046",
+    "regional-047",
+    "regional-048",
+    "regional-049",
+    "regional-050",
+    "regional-051",
+    "regional-052",
+    "regional-053",
+    "regional-054",
+    "regional-055",
+    "regional-056",
+    "regional-057",
+    "regional-058",
+    "regional-059",
+    "regional-060",
+    "regional-061",
+    "regional-062",
+    "regional-063",
+    "regional-064",
+    "regional-065",
+    "regional-066",
+    "regional-067",
+    "regional-068",
+    "regional-069",
+    "regional-070",
+    "regional-071",
+    "regional-072",
+    "regional-073",
+    "regional-074",
+    "regional-075"
+  ],
+  "distance_threshold_m": 40,
+  "coverage": {
+    "complete": false,
+    "source": "75 regional CSV records, 14 resolved Google catalogue records, 12 explicitly reviewed OSM identities",
+    "filter": "OSM primary name contains literal canoe launch, case insensitive",
+    "national_osm_status": "unavailable",
+    "failures": [
+      "No complete national snapshot exists in main; latest national import workflows failed/cancelled.",
+      "Overpass private.coffee timed out for national and Chicago queries; nchc proxy denied; overpass-api.de returned HTTP504 and HTTP406."
+    ],
+    "territories": "US/PR/VI/GU/MP/AS area union; US Minor Outlying Islands not comprehensively covered.",
+    "point_method": "Curated coordinates unchanged. OSM nodes original coordinate; ways/relations bounding-box center with raw geometry retained."
+  },
+  "legacy_input_count": 1553,
+  "legacy_records_removed": 1466,
+  "verified_ids_preserved": [
+    "osm-node-12096138040",
+    "osm-node-12099691982",
+    "osm-node-12107026033",
+    "osm-node-12175378118",
+    "osm-node-12364765067",
+    "osm-node-12396073908",
+    "osm-node-12396353833",
+    "osm-node-1887768201",
+    "osm-node-4330284526",
+    "osm-node-4346138933",
+    "osm-node-4532869181",
+    "osm-node-802883669",
+    "regional-027",
+    "regional-061"
+  ],
+  "verified_ids_excluded_pending_review": [],
+  "curated_unresolved_catalogue": [
+    {
+      "id": "kml-001",
+      "name": "Hennepin Canal Lock #2",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Hennepin%20Canal%20Lock%20%232"
+    },
+    {
+      "id": "kml-002",
+      "name": "Spring Valley Barto Boat Landing",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Spring%20Valley%20Barto%20Boat%20Landing"
+    },
+    {
+      "id": "kml-003",
+      "name": "Vermillion River Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Vermillion%20River%20Boat%20Launch"
+    },
+    {
+      "id": "kml-004",
+      "name": "Seneca Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Seneca%20Boat%20Launch"
+    },
+    {
+      "id": "kml-005",
+      "name": "Ruby St. Canoe Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ruby%20St.%20Canoe%20Launch"
+    },
+    {
+      "id": "kml-006",
+      "name": "Boy Scout Island Park Boat Ramp",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Boy%20Scout%20Island%20Park%20Boat%20Ramp"
+    },
+    {
+      "id": "kml-007",
+      "name": "South Street Canoe Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=South%20Street%20Canoe%20Launch"
+    },
+    {
+      "id": "kml-008",
+      "name": "Lake Atwood Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Lake%20Atwood%20Boat%20Launch"
+    },
+    {
+      "id": "kml-009",
+      "name": "Miller Riverfront Park & Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Miller%20Riverfront%20Park%20%26%20Boat%20Launch"
+    },
+    {
+      "id": "kml-010",
+      "name": "Fox River Canoe Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Fox%20River%20Canoe%20Launch"
+    },
+    {
+      "id": "kml-011",
+      "name": "Busse Lake North Pool Boat Ramp",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Busse%20Lake%20North%20Pool%20Boat%20Ramp"
+    },
+    {
+      "id": "kml-012",
+      "name": "Living Canoe Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Living%20Canoe%20Launch"
+    },
+    {
+      "id": "kml-013",
+      "name": "Canoe, Kayak, and Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Canoe%2C%20Kayak%2C%20and%20Boat%20Launch"
+    },
+    {
+      "id": "kml-016",
+      "name": "Rivershire Park Des Plaines River Access",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Rivershire%20Park%20Des%20Plaines%20River%20Access"
+    },
+    {
+      "id": "kml-017",
+      "name": "Lake Park Boating & Sailing",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Lake%20Park%20Boating%20%26%20Sailing"
+    },
+    {
+      "id": "kml-020",
+      "name": "Long Lake Public Access Site",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Long%20Lake%20Public%20Access%20Site"
+    },
+    {
+      "id": "kml-022",
+      "name": "Veterans Memorial Boat Ramp",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Veterans%20Memorial%20Boat%20Ramp"
+    },
+    {
+      "id": "kml-025",
+      "name": "Thousand Trails Bear Cave",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Thousand%20Trails%20Bear%20Cave"
+    },
+    {
+      "id": "kml-026",
+      "name": "Paw Paw River Access @ Stevens Street",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Paw%20Paw%20River%20Access%20%40%20Stevens%20Street"
+    },
+    {
+      "id": "kml-028",
+      "name": "City of St. Joseph Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=City%20of%20St.%20Joseph%20Boat%20Launch"
+    },
+    {
+      "id": "kml-030",
+      "name": "Kankakee River State Park Boat Ramp",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Kankakee%20River%20State%20Park%20Boat%20Ramp"
+    },
+    {
+      "id": "kml-031",
+      "name": "New Buffalo,MI Boat Ramp",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=New%20Buffalo%2CMI%20Boat%20Ramp"
+    },
+    {
+      "id": "kml-033",
+      "name": "Riverside Canoe Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Riverside%20Canoe%20Launch"
+    },
+    {
+      "id": "kml-034",
+      "name": "McEvilly Rd Canoe & Kayak Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=McEvilly%20Rd%20Canoe%20%26%20Kayak%20Launch"
+    },
+    {
+      "id": "kml-035",
+      "name": "Kankakee Conservation Area- Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Kankakee%20Conservation%20Area-%20Boat%20Launch"
+    },
+    {
+      "id": "kml-038",
+      "name": "Ping Tom Boathouse",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ping%20Tom%20Boathouse"
+    },
+    {
+      "id": "kml-040",
+      "name": "Lincoln Park Boat Club - Eleanor Boathouse",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Park%20Boat%20Club%20-%20Eleanor%20Boathouse"
+    },
+    {
+      "id": "kml-041",
+      "name": "Chicago River Canoe and Kayak at Clark Park",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Chicago%20River%20Canoe%20and%20Kayak%20at%20Clark%20Park"
+    },
+    {
+      "id": "kml-042",
+      "name": "Paddle Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Paddle%20Launch"
+    },
+    {
+      "id": "kml-043",
+      "name": "River Park Kayak/Canoe Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=River%20Park%20Kayak%2FCanoe%20Boat%20Launch"
+    },
+    {
+      "id": "kml-044",
+      "name": "Wilmette Park Sailing",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Wilmette%20Park%20Sailing"
+    },
+    {
+      "id": "kml-045",
+      "name": "River Park Canoe and Kayak Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=River%20Park%20Canoe%20and%20Kayak%20Launch"
+    },
+    {
+      "id": "kml-046",
+      "name": "Maywood Picnic Grove",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Maywood%20Picnic%20Grove"
+    },
+    {
+      "id": "kml-048",
+      "name": "Plank Road Meadow Boat Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Plank%20Road%20Meadow%20Boat%20Launch"
+    },
+    {
+      "id": "kml-049",
+      "name": "Stone Park North Chicago River Kayak Launch",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Stone%20Park%20North%20Chicago%20River%20Kayak%20Launch"
+    },
+    {
+      "id": "kml-050",
+      "name": "Stony Ford Canoe Landing",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Stony%20Ford%20Canoe%20Landing"
+    }
+  ],
+  "partial_source_retrieval": {
+    "complete": false,
+    "invalid_records": [],
+    "coverage": {
+      "conus-0-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:54:21Z",
+        "retrieved_at": "2026-10-13T13:56:32.865999+00:00"
+      },
+      "conus-0-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:55:21Z",
+        "retrieved_at": "2026-10-13T13:58:11.301519+00:00"
+      },
+      "conus-0-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:56:21Z",
+        "retrieved_at": "2026-10-13T13:59:34.023376+00:00"
+      },
+      "conus-1-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:07:36Z",
+        "retrieved_at": "2026-10-13T14:09:57.075167+00:00"
+      },
+      "conus-1-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:08:35Z",
+        "retrieved_at": "2026-10-13T14:11:22.978882+00:00"
+      },
+      "conus-1-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:09:36Z",
+        "retrieved_at": "2026-10-13T14:12:33.762786+00:00"
+      },
+      "conus-2-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:11:35Z",
+        "retrieved_at": "2026-10-13T14:13:57.986524+00:00"
+      },
+      "conus-2-1": {
+        "complete": false,
+        "error": "HTTP Error 504: Gateway Timeout"
+      },
+      "conus-2-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:12:41Z",
+        "retrieved_at": "2026-10-13T14:15:35.161463+00:00"
+      },
+      "conus-3-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:13:44Z",
+        "retrieved_at": "2026-10-13T14:16:44.829639+00:00"
+      },
+      "conus-3-1": {
+        "complete": false,
+        "error": "HTTP Error 504: Gateway Timeout"
+      },
+      "conus-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "puerto-rico-usvi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "guam-cnmi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "american-samoa-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      }
+    },
+    "domains": {
+      "conus": [
+        -125,
+        24,
+        -66,
+        50
+      ],
+      "alaska-west": [
+        -180,
+        50,
+        -129,
+        72
+      ],
+      "alaska-east": [
+        172,
+        50,
+        180,
+        72
+      ],
+      "hawaii": [
+        -179,
+        18,
+        -154,
+        29
+      ],
+      "puerto-rico-usvi": [
+        -68.1,
+        17.6,
+        -64.4,
+        18.6
+      ],
+      "guam-cnmi": [
+        144,
+        13,
+        146.5,
+        21
+      ],
+      "american-samoa": [
+        -172,
+        -15,
+        -168,
+        -10
+      ]
+    },
+    "retrieved_at": "2026-10-13T14:08:47.476979+00:00",
+    "filter": "primary name case-insensitive literal canoe launch",
+    "attribution": "\u00a9 OpenStreetMap contributors",
+    "review_run": "https://github.com/pbangiola/paddlersmap/actions/runs/38410739041",
+    "retrieved_source_records": 21,
+    "completed_cells": 9,
+    "total_cells": 48
+  },
+  "alternate_provider_retrieval": {
+    "complete": false,
+    "invalid_records": [],
+    "coverage": {
+      "conus-0-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:54:21Z",
+        "retrieved_at": "2026-10-13T13:56:32.865999+00:00"
+      },
+      "conus-0-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:55:21Z",
+        "retrieved_at": "2026-10-13T13:58:11.301519+00:00"
+      },
+      "conus-0-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:56:21Z",
+        "retrieved_at": "2026-10-13T13:59:34.023376+00:00"
+      },
+      "conus-1-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:07:36Z",
+        "retrieved_at": "2026-10-13T14:09:57.075167+00:00"
+      },
+      "conus-1-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:08:35Z",
+        "retrieved_at": "2026-10-13T14:11:22.978882+00:00"
+      },
+      "conus-1-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:09:36Z",
+        "retrieved_at": "2026-10-13T14:12:33.762786+00:00"
+      },
+      "conus-2-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:11:35Z",
+        "retrieved_at": "2026-10-13T14:13:57.986524+00:00"
+      },
+      "conus-2-1": {
+        "complete": false,
+        "error": "The read operation timed out"
+      },
+      "conus-2-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:12:41Z",
+        "retrieved_at": "2026-10-13T14:15:35.161463+00:00"
+      },
+      "conus-3-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:13:44Z",
+        "retrieved_at": "2026-10-13T14:16:44.829639+00:00"
+      },
+      "conus-3-1": {
+        "complete": false,
+        "error": "The read operation timed out"
+      },
+      "conus-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "puerto-rico-usvi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "guam-cnmi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "american-samoa-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      }
+    },
+    "domains": {
+      "conus": [
+        -125,
+        24,
+        -66,
+        50
+      ],
+      "alaska-west": [
+        -180,
+        50,
+        -129,
+        72
+      ],
+      "alaska-east": [
+        172,
+        50,
+        180,
+        72
+      ],
+      "hawaii": [
+        -179,
+        18,
+        -154,
+        29
+      ],
+      "puerto-rico-usvi": [
+        -68.1,
+        17.6,
+        -64.4,
+        18.6
+      ],
+      "guam-cnmi": [
+        144,
+        13,
+        146.5,
+        21
+      ],
+      "american-samoa": [
+        -172,
+        -15,
+        -168,
+        -10
+      ]
+    },
+    "retrieved_at": "2026-10-13T14:31:33.215519+00:00",
+    "filter": "primary name case-insensitive literal canoe launch",
+    "attribution": "\u00a9 OpenStreetMap contributors",
+    "area_scope": "US|PR|VI|GU|MP|AS administrative-area union",
+    "minor_outlying_islands": "Not comprehensively covered; records inside listed bounding boxes may be included",
+    "review_run": "https://github.com/pbangiola/paddlersmap/actions/runs/38414020073",
+    "retrieved_source_records": 21,
+    "completed_cells": 9,
+    "total_cells": 48
+  }
+}

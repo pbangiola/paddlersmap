@@ -1,3 +1,4 @@
+import {zoomPolicy,lineLayer} from './policy.mjs';
 import {rivers} from './scale.mjs';
 const STATIC='https://maps.water.noaa.gov/server/rest/services/reference/static_nwm_flowlines/FeatureServer/0';
 const FLOW='https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0';
@@ -20,7 +21,7 @@ async function save(key,value){
   memory.set(key,value);if(memory.size>80)memory.delete(memory.keys().next().value);
   try{(await db()).transaction('cache','readwrite').objectStore('cache').put(value,key);}catch{/* A full cache must not hide available NOAA data. */}
 }
-export function tier(zoom){return zoom<5?{order:7,z:4}:zoom<7?{order:5,z:Math.floor(zoom)}:zoom<9?{order:3,z:Math.floor(zoom)}:{order:1,z:Math.min(12,Math.floor(zoom))};}
+export function tier(zoom){return {order:zoomPolicy(zoom).order,z:Math.max(4,Math.min(12,Math.floor(zoom)))};}
 const latitude=(y,n)=>Math.atan(Math.sinh(Math.PI*(1-2*y/n)))*180/Math.PI;
 export function cellsForBounds([west,south,east,north],zoom){
   west=Math.max(-125,west);east=Math.min(-66,east);south=Math.max(24,south);north=Math.min(50,north);
@@ -55,8 +56,9 @@ export function normalize(attributes){
     p25:a,p75:b,noaa_updated_at:attributes.update_time};
 }
 let schema;
-async function schemas(signal){
-  if(!schema)schema=Promise.all([arcgis(STATIC,{},signal),arcgis(FLOW,{},signal)]).then(([s,f])=>{
+// Metadata is shared across views; aborting one pan must not poison a newer view.
+async function schemas(){
+  if(!schema)schema=Promise.all([arcgis(STATIC,{}),arcgis(FLOW,{})]).then(([s,f])=>{
     for(const [metadata,fields] of [[s,['feature_id','name','strm_order','rf_2_0_17c']],[f,['feature_id','latest_flow','prcntle_10','prcntle_25','prcntle_75','update_time']]])
       for(const name of fields){
         const field=metadata.fields.find(field=>field.name===name);if(!field)throw new Error('NOAA schema missing '+name);
@@ -67,11 +69,13 @@ async function schemas(signal){
   return schema;
 }
 export async function loadCell(cell,signal){
-  const limits=await schemas(signal);
+  const limits=await schemas();
   let geometry=await cached('geometry:'+cell.key);
   if(!geometry){
     const spatial={geometry:cell.bbox.join(','),geometryType:'esriGeometryEnvelope',inSR:4326,spatialRel:'esriSpatialRelIntersects',where:'strm_order >= '+cell.order};
-    const ids=(await arcgis(STATIC+'/query',{...spatial,returnIdsOnly:true},signal)).objectIds;
+    const idResponse=await arcgis(STATIC+'/query',{...spatial,returnIdsOnly:true},signal);
+    // ArcGIS represents a legitimate empty spatial result with objectIds:null.
+    const ids=idResponse.objectIds===null&&typeof idResponse.objectIdFieldName==='string'?[]:idResponse.objectIds;
     if(!Array.isArray(ids)||ids.length>25000)throw new Error('NOAA cell missing IDs or exceeds the 25,000-reach bound');
     const features=[];
     for(let i=0;i<ids.length;i+=limits.staticLimit){
@@ -101,13 +105,13 @@ export async function loadCell(cell,signal){
   const floodById=new Map(geometry.features.map(f=>[f.properties.feature_id,f.properties.flood]));
   return rivers(geometry,flow.records.map(record=>({...record,flood:floodById.get(record.feature_id)})));
 }
-export function attachLiveColors(map,onStatus){
+export function attachLiveColors(map,onStatus,onData=()=>{},loader=loadCell){
   map.addSource('nwm-live',{type:'geojson',data:EMPTY});
-  map.addLayer({id:'nwm-live',type:'line',source:'nwm-live',minzoom:5,paint:{'line-color':['get','color'],'line-width':['interpolate',['linear'],['zoom'],5,1.2,12,4],'line-opacity':0.95}},map.getLayer('launches')?'launches':undefined);
+  map.addLayer(lineLayer('nwm-live','nwm-live',{minzoom:5}),map.getLayer('launches')?'launches':undefined);
   let controller,sequence=0;
   async function update(){
     controller?.abort();controller=new AbortController();const signal=controller.signal,version=++sequence;
-    map.getSource('nwm-live').setData(EMPTY);
+    map.getSource('nwm-live').setData(EMPTY);onData(EMPTY);
     if(map.getLayoutProperty('nwm-live','visibility')==='none'){onStatus('Custom flow colors are hidden during NOAA comparison.');return;}
     if(map.getZoom()<5){onStatus('National major-river snapshot. Zoom in for more flow colors.');return;}
     const b=map.getBounds();let cells;
@@ -117,15 +121,16 @@ export function attachLiveColors(map,onStatus){
     onStatus('Loading NOAA flow colors for this view…');
     async function worker(){
       while(next<cells.length&&!signal.aborted){const cell=cells[next++];try{
-        const data=await loadCell(cell,signal);if(version!==sequence)return;
+        const data=await loader(cell,signal);if(version!==sequence)return;
         for(const feature of data.features){features.set(feature.properties.feature_id,feature);if(feature.properties.noaa_updated_at)dates.add(feature.properties.noaa_updated_at);}
-        map.getSource('nwm-live').setData({type:'FeatureCollection',features:[...features.values()]});
+        const merged={type:'FeatureCollection',features:[...features.values()]};map.getSource('nwm-live').setData(merged);onData(merged);
       }catch(error){if(signal.aborted)return;failed++;console.warn('NWM flow cell unavailable',cell.key,error.message);}finally{completed++;}
       if(version===sequence){const available=[...features.values()].filter(f=>f.properties.scale_position!==null).length;onStatus(`${completed}/${cells.length} cells · ${available} colored reaches · ${failed} unavailable cells · NOAA update: ${[...dates].sort().join(', ')||'unavailable'}`);}
       }
     }
     await Promise.all([worker(),worker(),worker()]);
   }
+  map.on('movestart',()=>{controller?.abort();sequence++;map.getSource('nwm-live').setData(EMPTY);onData(EMPTY);});
   map.on('moveend',update);document.getElementById('noaa-comparison').addEventListener('change',update);update();
   return {update};
 }

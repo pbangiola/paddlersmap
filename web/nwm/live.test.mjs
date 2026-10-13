@@ -4,7 +4,7 @@ import {tier,cellsForBounds,normalize,loadCell,arcgis} from './live.mjs';
 import {position} from './scale.mjs';
 
 test('national tiers and bounded geographic cells avoid unsupported domains',()=>{
-  assert.equal(tier(4).order,7);assert.equal(tier(6).order,5);assert.equal(tier(8).order,3);assert.equal(tier(10).order,1);
+  assert.equal(tier(4).order,7);assert.equal(tier(6).order,6);assert.equal(tier(8).order,5);assert.equal(tier(10).order,4);
   for(const bbox of [[-170,60,-140,70],[-160,19,-155,22],[-68,17,-64,19]])assert.deepEqual(cellsForBounds(bbox,7),[]);
   const cells=cellsForBounds([-123,44,-121,46],7);
   assert.ok(cells.length>0&&cells.length<=24);
@@ -36,6 +36,9 @@ test('live cells join exact IDs and reuse separately cached geometry and flow',a
     assert.equal(result.features[1].properties.scale_position,null);
     assert.deepEqual(result.features[0].geometry.coordinates,[[[1,1],[1,2]]]);
     const count=calls.length;await loadCell(cell);assert.equal(calls.length,count);
+    const cacheFetcher=globalThis.fetch;
+    globalThis.fetch=async()=>({ok:true,status:200,json:async()=>({objectIdFieldName:'oid',objectIds:null})});
+    assert.equal((await loadCell({...cell,key:'test-empty'})).features.length,0);globalThis.fetch=cacheFetcher;
     const now=Date.now,initial=now();
     try{Date.now=()=>initial+16*60*1000;await loadCell(cell);}finally{Date.now=now;}
     assert.equal(calls.length,count+1);
@@ -52,4 +55,32 @@ test('transient network errors retry without substituting data',async()=>{
     return {ok:true,status:200,json:async()=>({features:[]})};
   });
   assert.equal(calls,2);assert.deepEqual(data,{features:[]});
+});
+
+import {attachLiveColors} from './live.mjs';
+function fakeMap(){
+ const sources=new Map(),layers=new Map(),events={};
+ return {events,addSource:(id,s)=>sources.set(id,{data:s.data,setData(data){this.data=data;}}),getSource:id=>sources.get(id),
+ addLayer:l=>layers.set(l.id,{...l,visibility:'visible'}),getLayer:id=>layers.get(id),getLayoutProperty:id=>layers.get(id).visibility,
+ on:(name,fn)=>events[name]=fn,getZoom:()=>9,getBounds:()=>({getWest:()=>-87.8,getSouth:()=>41.8,getEast:()=>-87.79,getNorth:()=>41.81}),layers};
+}
+test('late request cannot resurrect comparison-hidden colors',async()=>{
+ const original=globalThis.document,listeners={};globalThis.document={getElementById:()=>({addEventListener:(name,fn)=>listeners[name]=fn})};
+ try{
+  const map=fakeMap(),pending=[];
+  attachLiveColors(map,()=>{},()=>{},()=>new Promise(resolve=>pending.push(resolve)));
+  assert.equal(pending.length,1);map.layers.get('nwm-live').visibility='none';await listeners.change();
+  pending[0]({type:'FeatureCollection',features:[{properties:{feature_id:'old',scale_position:.5}}]});
+  await new Promise(resolve=>setImmediate(resolve));assert.equal(map.getSource('nwm-live').data.features.length,0);
+ }finally{globalThis.document=original;}
+});
+test('obsolete viewport response cannot overwrite current view',async()=>{
+ const original=globalThis.document;globalThis.document={getElementById:()=>({addEventListener(){}})};
+ try{
+  const map=fakeMap(),pending=[];const live=attachLiveColors(map,()=>{},()=>{},()=>new Promise(resolve=>pending.push(resolve)));
+  map.events.movestart();const current=live.update();assert.equal(pending.length,2);
+  pending[1]({type:'FeatureCollection',features:[{properties:{feature_id:'current',scale_position:.5}}]});await current;
+  pending[0]({type:'FeatureCollection',features:[{properties:{feature_id:'old',scale_position:.5}}]});await new Promise(resolve=>setImmediate(resolve));
+  assert.deepEqual(map.getSource('nwm-live').data.features.map(f=>f.properties.feature_id),['current']);
+ }finally{globalThis.document=original;}
 });

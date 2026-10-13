@@ -1,45 +1,61 @@
-name: Replace launches with OSM named canoe launches
+name: Review national named canoe launch inventory
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/named-canoe-launches.yml'
-      - 'scripts/fetch_named_canoe_launches.py'
   workflow_dispatch:
+    inputs:
+      resume_run:
+        description: Optional prior run ID containing raw checkpoints
+        required: false
+        type: string
+      provider:
+        description: Existing Overpass provider
+        type: choice
+        default: de
+        options: [de, coffee]
 permissions:
-  contents: write
+  contents: read
+  actions: read
 concurrency:
   group: named-canoe-launch-import
   cancel-in-progress: false
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Fetch name-matched launches
-        run: python scripts/fetch_named_canoe_launches.py
-      - name: Validate output
+      - uses: actions/cache/restore@v4
+        with:
+          path: local/output/canonical-launches
+          key: named-canoe-${{ github.run_id }}
+          restore-keys: named-canoe-
+      - name: Resume raw checkpoints from a prior review artifact
+        if: inputs.resume_run != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESUME_RUN: ${{ inputs.resume_run }}
         run: |
-          python - <<'PY'
-          import json
-          p='data/putins_named_canoe_launches.geojson'
-          fs=json.load(open(p))['features']
-          assert fs and all('canoe launch' in f['properties']['name'].lower() for f in fs)
-          assert len({(f['properties']['osm_type'],f['properties']['osm_id']) for f in fs})==len(fs)
-          print('Validated',len(fs),'named canoe launches')
-          PY
-      - name: Commit replacement inventory
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/putins_named_canoe_launches.geojson
-          if ! git diff --cached --quiet; then
-            git commit -m "Replace launch inventory with OSM features named canoe launch"
-            git push
-          fi
+          [[ "$RESUME_RUN" =~ ^[0-9]+$ ]]
+          gh run download "$RESUME_RUN" --name canonical-launch-review --dir /tmp/launch-resume
+          mkdir -p local/output/canonical-launches
+          cp -a /tmp/launch-resume/local/output/canonical-launches/. local/output/canonical-launches/
+      - name: Retrieve complete national inventory and reconcile curated sources
+        env:
+          OVERPASS_PROVIDER: ${{ inputs.provider }}
+        run: python scripts/nwm/launch_inventory.py --retrieve --provider "$OVERPASS_PROVIDER"
+      - name: Upload inventory and coverage for review (never commit partial output)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canonical-launch-review
+          path: |
+            web/nwm/launches/
+            docs/nwm/launch-reconciliation.json
+            local/output/canonical-launches/
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: local/output/canonical-launches
+          key: named-canoe-${{ github.run_id }}
