@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,1,GASO3,True,False
-TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TMBT2,Spring Creek at Tomball,1,SPNT2,True,False
 TMSC1,San Tomas Aquino Creek above Williams Road,1,EAMC1,True,False
@@ -184,6 +182,7 @@ WSLT2,Main Floodway South of Weslaco,1,MITT2,True,False
 WSTN8,Souris River near Westhope,1,BANN8,True,False
 WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
 WTRN1,Elkhorn River at Waterloo,1,WLON1,True,False
+WTSO3,Wilson River at Sollie Smith Br at Tillamook,1,TLMO3,True,False
 WTTP1,French Creek at Wattsburg,1,UCTP1,True,False
 WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
 WTVO1,Maumee River at Waterville,1,GRRO1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TLAG1,Tallapoosa River at US 78 near Tallapoosa,0,,True,False
-TLBM8,Bighorn River at Two Leggins Bridge,2,BGHM8;SXVM8,True,False
-TLCN5,Tularosa Creek near Bent,0,,True,False
-TLCN7,Currituck Sound at Tulls Creek near Sligo,0,,True,False
-TLCT2,Sulphur River near Talco,3,COPT2;CPPT2;DSPT2,True,False
-TLDN1,Elkhorn River near Tilden,2,NFKN1;NLIN1,True,False
-TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,1,GASO3,True,False
-TLFS1,Tullifinny River near Ridgeland,0,,True,False
-TLKF1,Telegraph Creek at Olga,0,,True,False
-TLLA1,Tallapoosa River at Martin Dam,2,CRRA1;HBPA1,True,False
-TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
-TLMC1,Russian River near Talmage,0,,True,False
-TLMO3,Wilson River near Tillamook,0,,True,False
-TLNA2,Tanana River at Tetlin Junction Bridge near Tok,2,CRNA2;TSGA2,True,False
-TLNG1,Conasauga River at Tilton,2,DLBG1;ETNG1,True,False
-TLPF1,Lake Talquin at Pat Thomas Landing Park (in NGVD29),0,,True,False
-TLPT2,Middle Wichita River at Guthrie 19NE,0,,True,False
-TLRA2,[INACTIVE] Upper Talarik Creek near Iliamna,0,,True,False
-TLRC1,South Fork Tule River near Cholollo,0,,True,False
-TLRN1,Calamus River near Harrop,0,,True,False
-TLRT1,Tellico River near Tellico Plains,0,,True,False
-TLRW1,South Fork Tolt above S Fk Tolt Reservoir,0,,True,False
-TLSO2,Arkansas River at Tulsa,2,HSKO2;RLSO2,True,False
-TLTA2,Bering Sea Tide Gauge at Teller (MHHW datum),0,,True,False
-TLTN3,Winnipesaukee River at Tilton,0,,True,False
 TLUG1,Tallulah River at TALLULAH FALLS DAM,2,TERG1;TFLG1,True,False
 TLVA2,Tolovana River near Livengood,0,,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
@@ -1267,7 +1242,7 @@ WTRU1,Whiterocks River near Whiterocks,0,,True,False
 WTRW4,Laramie River at Wheatland Reservoir No 2,0,,True,False
 WTSC3,West River above Lake Watrous,0,,True,False
 WTSM5,Chippewa River (MN) near Watson 1NE (tailwater),0,,True,False
-WTSO3,Wilson River at Sollie Smith Br at Tillamook,0,,True,False
+WTSO3,Wilson River at Sollie Smith Br at Tillamook,1,TLMO3,True,False
 WTTO2,Illinois River (AR OK) near Watts,2,CWYO2;SLSA4,True,False
 WTTP1,French Creek at Wattsburg,1,UCTP1,True,False
 WTTT2,Atascosa River at Whitsett,1,MYAT2,True,False
