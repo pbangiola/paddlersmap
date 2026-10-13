@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SFAO1,Scioto River at Columbus 5th Avenue,2,COLO1;DUBO1,True,False
-SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
-SFBM8,South Fork Milk River near Babb,0,,True,False
-SFBN7,South Fork New River at SR 1100 near Brownwood,2,JFRN7;WRON7,True,False
-SFCA3,San Francisco River at Clifton,1,GSFN5,True,False
-SFCC1,San Francisquito Creek at Stanford University,0,,True,False
-SFCG1,Snapfinger Creek at Redan Road near Glen Haven,0,,True,False
-SFCM8,South Fork Flathead River near Columbia Falls,0,,True,False
-SFCN7,Swift Creek at SR1555 Nr Clayton,0,,True,False
-SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
-SFCQ3,Snowflake Creek near Snowflake MB,0,,True,False
-SFCT2,San Felipe Creek near Del Rio 1SE,0,,True,False
-SFDN1,Springfield Creek at Springfield,0,,True,False
-SFDS2,James River near Stratford,2,ATNS2;CMBS2,True,False
-SFEN1,South Fork of the Elkhorn River near Ewing,2,EWSN1;NLIN1,True,False
-SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
-SFFN6,Ramapo River at Suffern,2,MAWN4;RAMN6,True,False
-SFFP1,First Fork Sinnemahoning Creek near Sinnemahoning,0,,True,False
-SFFW3,S. Fork Flambeau River near Phillips,0,,True,False
-SFHC1,San Gabriel River below Santa Fe Dam,0,,True,False
-SFHG1,Snapfinger Creek at Thompson Mill Road near Lithonia,0,,True,False
-SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
-SFHO1,South Fork Licking River (OH) near Heath,2,BEEO1;NEAO1,True,False
-SFHS2,Spearfish Creek at Spearfish,2,LSLS2;SPRS2,True,False
-SFIT2,Independence Creek 18 miles SSE of Sheffield,0,,True,False
 SFJO3,S. Fork John Day River near Dayville,0,,True,False
 SFKA2,South Fork Koyukuk River at the Dalton Highway near Coldfoot,0,,True,False
 SFKN7,Straight Fork Creek near the Tribal Hatchery,0,,True,False
@@ -293,7 +268,7 @@ SLMN6,Allegheny River at Salamanca,2,OLNN6;WRRP1,True,False
 SLMO3,Willamette River at Salem,4,ALBO3;JFFO3;NEBO3;PRGO3,True,False
 SLNK1,Mulberry Creek (KS) near Salina,0,,True,False
 SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
-SLNS2,Spearfish Creek near Lead,0,,True,False
+SLNS2,Spearfish Creek near Lead,1,SFHS2,True,False
 SLNT2,Brazos River at US 59,2,RMOT2;ROST2,True,False
 SLOC1,San Luis Rey River at Oceanside,0,,True,False
 SLOF1,Miami Canal at Lake Harbor,0,,True,False

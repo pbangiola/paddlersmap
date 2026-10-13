@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
-SFCA3,San Francisco River at Clifton,1,GSFN5,True,False
-SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
-SFFA3,Salt River at 51st Ave-Phoenix,1,SLPA3,True,False
-SFHN2,South Fork Humboldt River above Ten Mile Creek,1,DIXN2,True,False
 SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
 SFLN2,Salmon Falls Creek near San Jacinto,1,HAGI1,True,False
@@ -41,6 +36,7 @@ SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
 SLIM2,Patuxent River at Solomons Island (IN MLLW),1,BRIM2,True,False
 SLKM7,Reservoirs  Smithville Reservoir,1,LNZM7,True,False
 SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
+SLNS2,Spearfish Creek near Lead,1,SFHS2,True,False
 SLSI1,Snake River below Lower Salmon Falls near Hagerman,1,BUHI1,True,False
 SLVI2,Kaskaskia River at Shelbyville,1,CWDI2,True,False
 SMBM8,Saint Mary River at International boundary,1,SMYM8,True,False
