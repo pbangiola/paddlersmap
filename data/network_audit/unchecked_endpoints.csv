@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PAYF1,Payne Creek Near Bowling Green,0,,True,False
-PAYI1,North Fork Payette River at McCall,2,CSDI1;LFPI1,True,False
-PAZM7,St. Francis River at Patterson,2,SAZM7;WPPM7,True,False
-PBAC2,Pueblo Reservoir near Pueblo,0,,True,False
-PBAN5,Pecos River below Avalon Reservoir,2,CMCN5;CPDN5,True,False
-PBCG1,Pole Bridge Creek at Evans Mill Road near Lithonia,0,,True,False
-PBCV2,Pound River below Bold Camp Creek near Pound,2,GFPV2;PICV2,True,False
-PBDF1,Pinebrook at Bryan Dairy Rd ,0,,True,False
-PBEC1,Petaluma River at Shollenberger Park,0,,True,False
-PBEF1,Pearl Bayou in East Bay (in MHHW),0,,True,False
-PBFA4,Arkansas River at Pine Bluff,2,LITA4;PFAA4,True,False
-PBGN6,Saranac River at Plattsburgh,0,,True,False
-PBGT2,Big Cypress Creek near Pittsburg,1,JFET2,True,False
-PBIV2,Peach Bottom Creek at Independence,0,,True,False
-PBIW3,Menominee River near Pembine,2,BANM4;VLCM4,True,False
-PBLI1,Portneuf River at Pebble ID,2,CHSI1;TOPI1,True,False
-PBNN8,Red River of the North at Pembina,4,DRTN8;EMRQ3;HLLM5;NCEN8,True,False
-PBOI1,Silver Creek (ID) near Picabo,0,,True,False
-PBPC1,Pacheco Creek below Pacheco Reservoir,0,,True,False
-PBPI3,Portage-Burns Waterway at Portage (Lake Michigan outlet),2,HLGI3;LAKI3,True,False
-PBPV2,Purcell Branch at Purcell Road,0,,True,False
-PBRC1,Pope Creek at Lake Berryessa,0,,True,False
-PBRM8,Jefferson River near Silver Star at Parsons Bridge,2,TFKM8;TWIM8,True,False
-PBRS1,Pen Branch at Brentwood Dr,0,,True,False
-PBSC1,Pacheco Creek near Bell Station,0,,True,False
 PBTA2,Beaufort Sea at Point Barrow,0,,True,False
 PBYN6,Lake Champlain at Plattsburgh Bay Flood Inundation Mapping site,0,,True,False
 PBZF1,Peace River Near Bartow,2,BARF1;PCSF1,True,False
@@ -678,7 +653,7 @@ PVUC1,Pier Avenue,0,,True,False
 PVUM7,Cedar Creek near Pleasant View,0,,True,False
 PVYK2,Floyds Fork near Pewee Valley,0,,True,False
 PWAC1,Washington Creek at McDowell Blvd.,0,,True,False
-PWAF1,Peace River at SR 664A,2,BGPF1;ZFSF1,True,False
+PWAF1,Peace River at SR 664A,3,BGPF1;PAYF1;ZFSF1,True,False
 PWBA3,Pantano Wash at Broadway Blvd,2,PNTA3;RILA3,True,False
 PWBC1,Potrero Creek,0,,True,False
 PWBN1,West Papillion Creek at Papillion,3,FCKN1;MWBN1;PSBN1,True,False
@@ -3876,7 +3851,7 @@ WNYM7,Niangua River near Windyville,0,,True,False
 WNYN6,Hackensack River at West Nyack,0,,True,False
 WOCT2,White Oak Creek near Talco,1,OMWT2,True,False
 WODG1,Little River at GA 5 near Woodstock,0,,True,False
-WODI1,Little Wood River near Carey,1,LWRI1,True,False
+WODI1,Little Wood River near Carey,2,LWRI1;PBOI1,True,False
 WODK1,S F Solomon River at Woodston,2,OSBK1;STCK1,True,False
 WODN7,Waccamaw River at Dock Road,2,FREN7;WHSN7,True,False
 WODR1,Pawcatuck above Wood River Junction,0,,True,False
