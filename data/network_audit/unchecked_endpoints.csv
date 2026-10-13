@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
-SMYM4,Flat River at Smyrna,0,,True,False
-SMYM8,Saint Mary River near Babb,3,SCIM8;SCSM8;SMBM8,True,False
-SNAI1,Snake River at Blackfoot,2,BFTI1;SHYI1,True,False
-SNAI2,Illinois River at Seneca,0,,True,False
-SNAN5,Rio Grande near San Acacia,2,ABQN5;SMFN5,True,False
-SNAW1,Snohomish River at Snohomish,2,MROW1;PILW1,True,False
-SNBT2,Colorado River (TX) near San Saba,2,BUDT2;WCHT2,True,False
-SNCA3,San Carlos River above Peridot,0,,True,False
-SNCC2,Surface Creek near Cedaredge,1,SCCC2,True,False
-SNCF1,Shingle Creek at Airport near Kissimmee,0,,True,False
-SNCG1,Oconee River at Lake Sinclair,2,MLGG1;WDMG1,True,False
-SNCK1,Turkey Creek (KS) near Seneca,0,,True,False
-SNCM5,Sand Creek near Jordan,0,,True,False
-SNCN5,Canadian River near Sanchez,2,CNCN5;TYLN5,True,False
-SNCO1,Seneca Fork at Senecaville Dam Tailwater,0,,True,False
-SNCO2,North Canadian River at Shawnee,2,SWNO2;WETO2,True,False
-SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
-SNCV2,Stone Creek above Stone,0,,True,False
-SNDA2,Sand Point at Sand Point Tide Gage,0,,True,False
-SNDK1,Republican River at Scandia,2,CNKK1;HDYN1,True,False
-SNDN7,Currituck Sound at Currituck Sound at NC 158,0,,True,False
-SNDO3,Sandy River near Bull Run,2,RUNO3;SRMO3,True,False
-SNDW4,Sand Creek near Beulah,0,,True,False
-SNFF1,St. Johns River near Sanford,3,DLAF1;GENF1;LKJF1,True,False
 SNFM6,Quiver River near Sunflower,2,DODM6;LCGM6,True,False
 SNFW2,Sand Run near Buckhannon,0,,True,False
 SNGW1,NF Skykomish R at Galena,0,,True,False
@@ -34,7 +9,7 @@ SNKA2,Snake River near Nome,0,,True,False
 SNKG1,Snake Creek near Whitesburg,0,,True,False
 SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
 SNKV2,Stony Creek near DINWIDDIE,0,,True,False
-SNLO1,Seneca Fork at Senecaville Dam Pool,0,,True,False
+SNLO1,Seneca Fork at Senecaville Dam Pool,1,SNCO1,True,False
 SNMC2,San Miguel River Brooks Bridge near Nucla,2,SMPC2;SMUC2,True,False
 SNMI1,Snake River at McDuff Rapids,0,,True,False
 SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False

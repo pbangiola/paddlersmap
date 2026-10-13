@@ -1,8 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
-SNCC2,Surface Creek near Cedaredge,1,SCCC2,True,False
-SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
+SNLO1,Seneca Fork at Senecaville Dam Pool,1,SNCO1,True,False
 SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
 SNOA2,Snow River near Seward,1,COOA2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
