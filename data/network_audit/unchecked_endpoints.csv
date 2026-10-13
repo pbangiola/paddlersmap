@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RCPT2,Tide Gauge at Rockport,0,,True,False
-RCRF1,Reedy Creek above SR531 Nr Poinciana,0,,True,False
-RCRM5,Cascade Creek near Rochester,1,RCCM5,True,False
-RCRM8,Rosebud Creek at Reservation Boundary near Kirby,0,,True,False
-RCRN6,Lake America at Rochester (NOS),0,,True,False
-RCRV2,Rich Creek at Peterstown,0,,True,False
-RCSC1,Santa Clara River at MRCA Bridge,0,,True,False
-RCSF1,Reedy Creek near S-40 nr Loughman,0,,True,False
-RCSI2,South Fork Sangamon River below Rochester - AUX,0,,True,False
-RCSL1,Reine Canal at Slidell,0,,True,False
-RCSM5,South Fork Zumbro River at Rochester Beltline,2,RCHM5;SFZM5,True,False
-RCSN6,Erie Canal above Rochester,1,MCDN6,True,False
-RCSN7,Roaring Creek (NC) at Roaring Creek rd near Valley,0,,True,False
-RCSO1,Todd Fork near Roachester,0,,True,False
-RCSS1,Rocky Swamp Creek near Norway,0,,True,False
-RCTA2,Red Cloud River Tributary near Kodiak,0,,True,False
-RCUM5,Rice Creek below Old Hwy 8 in Mounds View,0,,True,False
-RCVC1,Cherokee Canal Near Richvale,0,,True,False
-RCVN7,Bull Creek (NC) at Riceville road near Riceville,0,,True,False
-RCVS2,Rapid Creek above Water Reclamation Facility near Rapid City,2,FARS2;HAWS2,True,False
-RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
-RCWW2,Cranberry River below Richwood,0,,True,False
-RCYC2,Crystal River near Redstone,0,,True,False
-RCYF1,St. Johns River at Racy Point (in MHHW),2,BKBF1;PALF1,True,False
-RCYS2,Rapid Creek at Founders Park,3,CYNS2;ECHS2;HAWS2,True,False
 RDBC1,Sacramento River at Red Bluff Diversion Dam,2,BDBC1;TEHC1,True,False
 RDBG1,Coosawattee River near Pine Chapel / Redbud,3,CATG1;CTRG1;PING1,True,False
 RDBN4,Swimming River at Red Bank,0,,True,False
@@ -1071,7 +1046,7 @@ SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
 SLAW1,Sprague Lake near Sprague,0,,True,False
 SLBI1,Snake River at Loveridge Bridge near Bruneau,0,,True,False
 SLBI3,Kankakee River at Shelby,2,KTSI3;MOMI2,True,False
-SLBO1,Little Miami River near South Lebanon,2,LLMO1;MLGO1,True,False
+SLBO1,Little Miami River near South Lebanon,3,LLMO1;MLGO1;RCSO1,True,False
 SLCA3,Salt River near Chrysotile -Salt River Canyon,3,CRZA3;EWFA3;SLRA3,True,False
 SLCC1,San Lorenzo Creek (Alameda) at San Lorenzo,2,CVCC1;LRZC1,True,False
 SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
