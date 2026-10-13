@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
-SANK1,Pawnee River near Sanford,1,ROZK1,True,False
-SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
 SASO2,Little River (OK) near Sasakwa,1,TCMO2,True,False
 SAYA1,Locust Fork at Sayre,1,CLEA1,True,False
 SAYK2,Licking River near Salyersville,1,CRLK2,True,False
@@ -105,6 +102,7 @@ SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
 SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
+SPPA3,San Pedro River near Palominas,1,SAPA3,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False

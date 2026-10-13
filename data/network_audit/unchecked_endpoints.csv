@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SALW1,North Fork Salmon Creek near Conconully,0,,True,False
-SALW4,Salt River (WY) near Etna,0,,True,False
-SAMA1,North River near Samantha,0,,True,False
-SAMA2,Salmon River at Gustavus,0,,True,False
-SAMC1,American River at H Street,0,,True,False
-SAMM5,Sauk River near St. Martin,0,,True,False
-SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
-SAMP4,Rio Majada at La Plena,0,,True,False
-SANK1,Pawnee River near Sanford,1,ROZK1,True,False
-SANM2,Hawlings River near Sandy Spring,0,,True,False
-SANM3,Atlantic Coast near Sandwich Canal Side (In MLLW),0,,True,False
-SANM5,Kettle River (MN) below Sandstone,2,KTRM5;SCFW3,True,False
-SANM6,Tallahala Creek at Sharon/Sandersville,2,LURM6;WALM6,True,False
-SANN3,Exeter River near Sandown,0,,True,False
-SANN6,Sandy Creek near Adams,0,,True,False
-SANV2,Pigg River near Sandy Level,0,,True,False
-SAPA3,San Pedro River at Charleston,0,,True,False
-SAPF1,Tide Gauge at St. Petersburg (in MHHW),0,,True,False
-SAPN1,Big Blue River at Staplehurst,2,SRPN1;SWRN1,True,False
-SARA1,Bayou Sara at Saraland,0,,True,False
-SARF1,Catfish Creek at Central Sarasota Pkwy,0,,True,False
-SARG1,Beaverdam Creek near Sardis,0,,True,False
-SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
-SARM6,Coldwater River near Sarah,2,ARKM6;MKSM6,True,False
-SARO1,Ohio River above Sardis,2,HANO1;RNOO1,True,False
 SARO3,Sardine Creek near Niagra,0,,True,False
 SASC2,South Platte River above Spinney Mountain Reservoir,2,ANTC2;SPYC2,True,False
 SASI3,St. Marys River near Fort Wayne,2,DCRI3;FWAI3,True,False
@@ -829,7 +804,7 @@ SPOF1,Tide Station at Saprito Pier,0,,True,False
 SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
 SPOO1,Unnamed Tributary to WB Rocky River near Berea,2,BRRO1;CSNO1,True,False
 SPOW1,Spokane River at Spokane,2,LLKW1;SGRW1,True,False
-SPPA3,San Pedro River near Palominas,0,,True,False
+SPPA3,San Pedro River near Palominas,1,SAPA3,True,False
 SPPC1,Santa Paula Creek near Santa Paula,0,,True,False
 SPQC1,Tule River near Springville,0,,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
@@ -841,7 +816,7 @@ SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPRW3,Eau Galle River above Spring Valley,0,,True,False
 SPSI1,Spring Creek (Eastern ID) near Fort Hall,0,,True,False
 SPSM1,Little Androscoggin River near South Paris,0,,True,False
-SPTA3,San Pedro River near Tombstone,2,BABA3;SPRA3,True,False
+SPTA3,San Pedro River near Tombstone,3,BABA3;SAPA3;SPRA3,True,False
 SPTC2,South Platte River at South Platte,3,DKRC2;GRNC2;WATC2,True,False
 SPTF1,St Lucie River at Steele Point (in MHHW),0,,True,False
 SPTG1,Spirit Creek at U.S. Hwy 1 near Augusta,0,,True,False
