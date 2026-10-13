@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RIGI1,Little Salmon River at Riggins,0,,True,False
-RIGK1,Big Creek near Ellis,1,ELLK1,True,False
-RIGL1,Lake Pontchartrain at Rigolets,0,,True,False
-RIHF1,St Joseph's Bay at Richardson Hammock (in MHHW),0,,True,False
-RILA3,Rillito Creek at Dodge Boulevard,2,PWBA3;RICA3,True,False
-RIMM8,Tenmile Creek (MT) near Rimini,0,,True,False
-RINA3,Rincon Creek at Rincon Creek,0,,True,False
-RIOC1,Russian River near Guerneville,0,,True,False
-RIPC1,Stanislaus River at Ripon,0,,True,False
-RIPC3,Rippowam River at Stamford,0,,True,False
-RIPI2,La Moine River at Ripley,1,CLMI2,True,False
-RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
-RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
-RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
-RIRI1,Willow Creek (Eastern ID) below Ririe Dam near Ririe,2,RIDI1;SHYI1,True,False
-RISM6,Mississippi Sound at Round Island near Pascagoula,0,,True,False
-RISW1,Columbia River at Rock Island Dam,2,RRHW1;WANW1,True,False
-RITC1,Ritchey Creek at Bothe State Park,0,,True,False
-RITF1,Withlacoochee River near Rital (in NAVD88),2,CRMF1;TRBF1,True,False
-RITO1,Chippewa Creek at Rittman,0,,True,False
-RIVF1,Alafia River Near Bell Shoals Road Near Riverview,2,LITF1;RVWF1,True,False
-RIVM4,Paw Paw River at Riverside,0,,True,False
-RIVN1,Wood River near Riverdale,0,,True,False
-RIVN4,Hackensack River at Rivervale,1,NMLN4,True,False
-RJQC1,San Joaquin River below Redinger Lake,0,,True,False
 RJSF1,Tide Gauge at Hudson Creek ,0,,True,False
 RKBO1,Clear Creek above Rockbridge,0,,True,False
 RKDI4,Middle Fork Little Maquoketa at Rickardsville,0,,True,False
@@ -877,7 +852,7 @@ SJSC1,San Jose Creek,0,,True,False
 SJSL1,Bayou Saint John at Southlake at New Orleans,0,,True,False
 SJSM7,Missouri River at St. Joseph,2,ATCK1;RULN1,True,False
 SJWF1,St Johns River at Welaka (in MHHW),0,,True,False
-SJXC1,San Joaquin River near HWY 41,0,,True,False
+SJXC1,San Joaquin River near HWY 41,1,RJQC1,True,False
 SJZC2,Silver Jack Reservoir near Cimarron,0,,True,False
 SJZM7,Sac River below Highway J near Stockton,0,,True,False
 SKAW1,Columbia River at Skamokawa,2,ASTO3;WAUO3,True,False
@@ -1377,7 +1352,7 @@ STFN7,Fisher River at S.R. 1100 (Turkey Ford Road),0,,True,False
 STFT2,California Creek (Clear Fk Brazos) near Stamford,0,,True,False
 STGM1,St. George Tides (MLLW),0,,True,False
 STGM5,Maple River near Sterling Center 2NE,0,,True,False
-STGO1,Chippewa Creek at Sterling,0,,True,False
+STGO1,Chippewa Creek at Sterling,1,RITO1,True,False
 STGS2,Deadman Gulch at Sturgis,0,,True,False
 STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
 STHG1,South River at Forrest Park Road at Atlanta,0,,True,False
@@ -1843,7 +1818,7 @@ TMCK2,Twelvemile Creek near Alexandria,0,,True,False
 TMCM5,12 Mile Creek above Wheaton,0,,True,False
 TMGC1,San Tomas Aquino Creek at Mission College Blvd.,0,,True,False
 TMGK1,Mud Creek (KS) near Talmage,0,,True,False
-TMHM8,Tenmile Creek (MT) near Helena,0,,True,False
+TMHM8,Tenmile Creek (MT) near Helena,2,HASM8;RIMM8,True,False
 TMJC1,Three Mile Island,0,,True,False
 TMLG1,Ochlockonee River near Thomasville (US 84),2,CLDG1;CONF1,True,False
 TMLS1,Twelve Mile Creek at Lexington,0,,True,False

@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RIGK1,Big Creek near Ellis,1,ELLK1,True,False
-RIPI2,La Moine River at Ripley,1,CLMI2,True,False
-RIPM1,Ripogenus Dam Discharge,1,DLBM1,True,False
-RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
-RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
-RIVN4,Hackensack River at Rivervale,1,NMLN4,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,1,MYRG1,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
@@ -123,6 +117,7 @@ SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
 SIOI4,Perry Creek at Sioux City,1,PCHI4,True,False
 SIOT2,Olmos Creek at Dresden Drive,1,MTST2,True,False
 SJRI1,St Joe River at Ramsdell near St Maries,1,SJMI1,True,False
+SJXC1,San Joaquin River near HWY 41,1,RJQC1,True,False
 SKPC1,Scotts Creek near Lakeport,1,CLKC1,True,False
 SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
 SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
@@ -184,6 +179,7 @@ SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
+STGO1,Chippewa Creek at Sterling,1,RITO1,True,False
 STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
 STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
