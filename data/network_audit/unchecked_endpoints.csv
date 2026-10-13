@@ -1,32 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PERM8,Flathead River at Perma,1,FPOM8,True,False
-PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
-PERO3,Deschutes River (OR) near Madras,2,DEBO3;MODO3,True,False
-PESW1,Wenatchee River at Peshastin,2,MONW1;WPLW1,True,False
-PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
-PETI2,Sangamon River at Petersburg,2,OKFI2;RVTI2,True,False
-PETI3,White River (IN) above Petersburg,4,BCSI3;EDWI3;PTRI3;SHLI3,True,False
-PETT2,Petronila Creek at FM665 Nr Driscoll,0,,True,False
-PETW2,South Branch Potomac River near Petersburg,2,FKLW2;SPRW2,True,False
-PETW3,Wisconsin River at Petenwell Dam,2,CROW3;WIRW3,True,False
-PEWC1,East Washington Creek at Garfield Drive,0,,True,False
-PEWT2,Peach Creek at Hwy 90 near Waelder,1,DLWT2,True,False
-PFAA4,Arkansas River at Pendleton,1,PBFA4,True,False
-PFDF1,Pellicer Creek at Faver Dykes State Park (in MHHW),0,,True,False
-PFDW3,Peshtigo River near Porterfield,2,PESW3;SSDW3,True,False
-PFFC1,Piru Creek above Frenchmans Flat,2,PCPC1;PICC1,True,False
-PFFF1,Gottfried Creek at Park Forest Blvd,0,,True,False
-PFLI4,Cedar River at Plainfield IA 188--IFC,2,CCYI4;WVLI4,True,False
-PFMN7,Parker's Ferry at Meherrin River,0,,True,False
-PFRK1,Smoky Hill River near Pfeifer,1,SCSK1,True,False
-PFSC1,Willow Brook at Penngrove Park,0,,True,False
-PGAF1,Gamble Creek near Parrish,1,GCPF1,True,False
-PGBN7,Prince George Creek at Blue Clay Road,0,,True,False
-PGCN7,Prince George Creek at Highway 117 ,0,,True,False
-PGEN8,Pipestem Creek near Pingree,1,JAMN8,True,False
 PGFM6,Pascagoula River at Graham Ferry,2,BKNM6;MRRM6,True,False
 PGFT2,Pecos River 9 miles WNW of Grandfalls,3,GIVT2;GNST2;PCST2,True,False
-PGHN7,Prince George Creek at NC Highway 133,0,,True,False
+PGHN7,Prince George Creek at NC Highway 133,2,PGCN7;WLON7,True,False
 PGKN7,Pinch Gut Creek at U.S. Highway 17,1,LFRN7,True,False
 PGMC2,Purgatoire River at Madrid,1,PGRC2,True,False
 PGRC2,Purgatoire River below Trinidad Lake,2,PGMC2;PTRC2,True,False
@@ -3658,7 +3633,7 @@ WLMM7,Black River above Williamsville,2,LPRM7;PPBM7,True,False
 WLNM6,Hatchie River  Walnut,0,,True,False
 WLOG1,Willeo Creek at GA 120 near Roswell,0,,True,False
 WLON1,Elkhorn River near Winslow,2,WPNN1;WTRN1,True,False
-WLON7,Cape Fear River at Wilmington (IN MLLW),7,BCUN7;BGWN7;CPFN7;LCHN7;LGBN7;NELN7;STHN7,True,False
+WLON7,Cape Fear River at Wilmington (IN MLLW),8,BCUN7;BGWN7;CPFN7;LCHN7;LGBN7;NELN7;PGHN7;STHN7,True,False
 WLPN3,Connecticut River at North Walpole,2,MNTM3;WLBN3,True,False
 WLRG1,Wheeler Creek at Bill Cheek Road near Auburn,0,,True,False
 WLRI2,Weller Creek at Des Plaines,0,,True,False
