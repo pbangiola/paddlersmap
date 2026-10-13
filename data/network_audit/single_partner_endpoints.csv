@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TTZM7,Thompson River (IA/MO) near Trenton,1,DVSI4,True,False
-TUDM7,Niangua River at Tunnel Dam near Macks Creek,1,NMCM7,True,False
-TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
-TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TWPK2,Tradewater River above Providence,1,ONYK2,True,False
