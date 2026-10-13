@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NLSK1,Solomon River at Niles,1,MPSK1,True,False
-NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
-NLWW4,North Fork Little Wind River near Fort Washakie,1,FWRW4,True,False
-NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
 NNRN7,New River near Richlands,1,GUMN7,True,False
 NOCA2,Nome Creek above Beaver Creek near Livengood,1,BCFA2,True,False
 NOCG1,North Oconee River at College Street at Athens,1,CMRG1,True,False
@@ -19,8 +15,10 @@ NPTO1,Loramie Creek near Newport,1,LOCO1,True,False
 NPTP1,Juniata River at Newport,1,LWSP1,True,False
 NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
 NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
+NRMO2,Little River (OK) at Lake Thunderbird,1,NLRO2,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
 NRNV2,Nottoway River at Nottoway Falls Reservoir,1,RAWV2,True,False
+NRSV2,Nansemond River at Sleepy Hole Park (IN MLLW),1,NMDV2,True,False
 NRVT1,New River near New River,1,LTWT1,True,False
 NRWC1,Santa Ynez River at Narrows,1,LLYC1,True,False
 NRWI4,North River near Norwalk,1,CSLI4,True,False
@@ -280,6 +278,7 @@ SALV2,North Fork Holston River at Saltville,1,GATV2,True,False
 SAMN4,Manasquan River at Squankum,1,ALLN4,True,False
 SANK1,Pawnee River near Sanford,1,ROZK1,True,False
 SARI4,North Raccoon River near Sac City 230th St--IFC,1,SCRI4,True,False
+SASO2,Little River (OK) near Sasakwa,1,TCMO2,True,False
 SAYA1,Locust Fork at Sayre,1,CLEA1,True,False
 SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBCF1,Brushy Creek at Ehrlich Rd Near Sulfur Springs,1,CTPF1,True,False
@@ -480,6 +479,7 @@ TSCK1,Saline River (KS) at Tescott,1,LINK1,True,False
 TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
 TSGF1,Brooker Creek Near Tarpon Springs,1,BWCF1,True,False
 TTZM7,Thompson River (IA/MO) near Trenton,1,DVSI4,True,False
+TUDM7,Niangua River at Tunnel Dam near Macks Creek,1,NMCM7,True,False
 TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False

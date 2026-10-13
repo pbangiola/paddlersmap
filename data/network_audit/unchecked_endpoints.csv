@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NLIH1,Honolii Stream near Papaikou,0,,True,False
-NLIN1,Elkhorn River at Neligh,3,EWIN1;SFEN1;TLDN1,True,False
-NLIV2,North Landing River at Indian River Road,0,,True,False
-NLLO1,Walhonding River at Nellie,2,MHWO1;WHDO1,True,False
-NLPN1,Mira Creek near North Loup,0,,True,False
-NLRO2,Little River (OK) near Norman,0,,True,False
-NLRV2,North Landing River near Creeds,0,,True,False
-NLSA2,Nelson Lagoon Tide Gauge at Nelson Lagoon (MLLW datum),0,,True,False
-NLSK1,Solomon River at Niles,1,MPSK1,True,False
-NLSM8,Milk River at Nelson Reservoir,0,,True,False
-NLSW3,Lemonweir River at New Lisbon,0,,True,False
-NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
-NLWW4,North Fork Little Wind River near Fort Washakie,1,FWRW4,True,False
-NMCI3,Eel River (IN) at North Manchester,1,DENI3,True,False
-NMCM7,Niangua River near Macks Creek,0,,True,False
-NMCV2,New Market Creek near Hampton (IN MLLW),0,,True,False
-NMDI3,Buck Creek (S IN) near New Middletown,0,,True,False
-NMDM7,Mississippi River at New Madrid,2,NWHT1;TPTM7,True,False
-NMDV2,Nansemond River at Suffolk (IN MLLW),0,,True,False
-NMFC1,North Fork of Middle Fork American River - Foresthill,0,,True,False
-NMFO3,N Fk of Middle Fk Willamette River near Oakridge,0,,True,False
-NMIM3,Mill River at Northampton,0,,True,False
-NMKN6,Normans Kill at Albany,0,,True,False
-NMLA4,Fourche LaFave River at Nimrod Dam,2,GRVA4;HUSA4,True,False
-NMLI1,Ninemile Creek near Wallace,0,,True,False
 NMLN4,Hackensack River at New Milford,0,,True,False
 NMOT2,Nueces River at CR 414 near Montell,2,NUBT2;UVAT2,True,False
 NMRM8,North Fork Milk River near International boundary near Browning,0,,True,False
@@ -117,7 +92,7 @@ NRHF1,Nassau River at US-17 (in MHHW),0,,True,False
 NRHN1,Niobrara River near Hay Springs 14S,2,BOXN1;NRGN1,True,False
 NRHS1,New River near Hardeeville (IN MLLW),0,,True,False
 NRKW1,Nooksack River at North Cedarvillle,4,MFNW1;NFNW1;NREW1;NSSW1,True,False
-NRMO2,Little River (OK) at Lake Thunderbird,0,,True,False
+NRMO2,Little River (OK) at Lake Thunderbird,1,NLRO2,True,False
 NRMT1,Duck River at Normandy Dam,0,,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
 NRNV2,Nottoway River at Nottoway Falls Reservoir,1,RAWV2,True,False
@@ -128,7 +103,7 @@ NRSI4,Shell Rock River near Nora Springs 277th St--IFC,2,MANI4;RKFI4,True,False
 NRSL1,Amite River Basin at New River Canal near Sorrento,0,,True,False
 NRSP1,Schuylkill River at Norristown,2,PADP1;PTNP1,True,False
 NRST1,Clinch River above Norris Dam,2,NRTT1;TAZT1,True,False
-NRSV2,Nansemond River at Sleepy Hole Park (IN MLLW),0,,True,False
+NRSV2,Nansemond River at Sleepy Hole Park (IN MLLW),1,NMDV2,True,False
 NRTT1,Clinch River below Norris Dam,2,CCLT1;NRST1,True,False
 NRVG1,New River at GA 100 near Franklin,0,,True,False
 NRVT1,New River near New River,1,LTWT1,True,False
@@ -2010,7 +1985,7 @@ SARO1,Ohio River above Sardis,2,HANO1;RNOO1,True,False
 SARO3,Sardine Creek near Niagra,0,,True,False
 SASC2,South Platte River above Spinney Mountain Reservoir,2,ANTC2;SPYC2,True,False
 SASI3,St. Marys River near Fort Wayne,2,DCRI3;FWAI3,True,False
-SASO2,Little River (OK) near Sasakwa,0,,True,False
+SASO2,Little River (OK) near Sasakwa,1,TCMO2,True,False
 SATA1,Satilpa Creek near Coffeeville,0,,True,False
 SATA2,Norton Sound at St Michael,0,,True,False
 SATI1,St Maries River near Santa,0,,True,False
@@ -3299,7 +3274,7 @@ TCLF1,Thomas Creek (FL) at SR 115 near Callahan (in NAVD88),0,,True,False
 TCLN7,Town Creek at NC Route 133,2,BSBN7;STHN7,True,False
 TCMF1,Trout Creek Marina near St. Johns River (in MHHW),0,,True,False
 TCMO1,Tenmile Creek at Mitchaw,0,,True,False
-TCMO2,Little River (OK) near Tecumseh,0,,True,False
+TCMO2,Little River (OK) near Tecumseh,2,NLRO2;SASO2,True,False
 TCNI3,Tippecanoe River at Norway,2,MCXI3;NWYI3,True,False
 TCOI1,Trapper Creek near Oakley,0,,True,False
 TCOW3,Tri Creek near Norwalk - Dam Outlet,0,,True,False
@@ -3669,7 +3644,7 @@ TUAO3,Tualatin River at Tualatin,3,DURO3;FRMO3;WSLO3,True,False
 TUCO2,Canadian River near Mustang,2,BRIO2;NRCO2,True,False
 TUCO3,Tucca Creek near Blaine,0,,True,False
 TUCW1,Tucannon River near Starbuck,0,,True,False
-TUDM7,Niangua River at Tunnel Dam near Macks Creek,0,,True,False
+TUDM7,Niangua River at Tunnel Dam near Macks Creek,1,NMCM7,True,False
 TUGG1,Tallulah River at TUGALO DAM,2,TFLG1;YNHG1,True,False
 TUKA1,Tuckabum Creek near Butler,0,,True,False
 TUKC2,Turkey Creek below Tates Gulch near Red Cliff,0,,True,False
@@ -4163,7 +4138,7 @@ WDCF1,Tide Gauge at Weedon Island (in MHHW),0,,True,False
 WDCG1,Woodall Creek at Defoors Ferry Road at Atlanta,0,,True,False
 WDCN7,Dutch Creek at Broadstone Road ,0,,True,False
 WDEM3,Deerfield River at West Deerfield,0,,True,False
-WDEW3,Wisconsin River at Wisconsin Dells,3,CROW3;PORW3;WRMW3,True,False
+WDEW3,Wisconsin River at Wisconsin Dells,4,CROW3;NLSW3;PORW3;WRMW3,True,False
 WDGO2,North Canadian River near Woodward,2,SEIO2;WDWO2,True,False
 WDHK2,Green River (KY) above Woodbury,3,BNWK2;BWGK2;RCHK2,True,False
 WDHN2,Owyhee River at Wildhorse Dam,0,,True,False
