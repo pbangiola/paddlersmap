@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SYDO2,Otter Creek (OK) near Snyder,0,,True,False
-SYDP1,Central PA Dams  Sayers Dam on Bald Eagle Creek,4,BCHP1;MSBP1;RTDP1;STVP1,True,False
-SYIC1,Sleepy Hollow Creek at RVFD Fire Station 20,0,,True,False
-SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
-SYMA3,Sycamore Creek (AZ) above Verde River near Clarkdale,0,,True,False
-SYMT2,Brazos River at Seymour,2,AMTT2;SOUT2,True,False
-SYOT2,Wichita River at Lake Kemp,2,MBLT2;SEYT2,True,False
-SYQC1,Sunnyvale East above Hwy 101,0,,True,False
-SYRK1,Arkansas River at Syracuse,2,COOK1;KENK1,True,False
-SZCM4,Schweitzer Creek near Palmer,0,,True,False
-SZRM4,Schweitzer Creek at Schweitzer Reservoir,0,,True,False
-TACM5,Prairie River (MN) near Taconite,0,,True,False
-TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
-TADU1,Duchesne River near Tabiona,0,,True,False
-TAFA2,Tanana River at Fairbanks,3,BGDA2;ENNA2;SALA2,True,False
-TAFC2,Spring Creek (CO) at Fort Collins,1,SGCC2,True,False
-TALA2,Yukon River at Tanana,2,RBYA2;YRBA2,True,False
-TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
-TAMA2,Tamayariak River near Kaktovik,0,,True,False
-TAMC1,Coyote Creek (Marin) at Tam Valley,0,,True,False
-TAMI4,Iowa River near Tama US 63,2,BPLI4;TMAI4,True,False
-TAMM5,Tamarac River near Florian (CSAH1),0,,True,False
-TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
-TAPM4,Tahquamenon River near Paradise,0,,True,False
-TAPN7,Cheoah river near Tapoco,0,,True,False
 TAPO1,Little Stillwater Creek at Tappan Dam Pool,0,,True,False
 TAQT2,Tide Gauge at Texas State Aquarium,0,,True,False
 TARC1,Santa Rosa Creek at Willowside Road NR Santa Rosa,0,,True,False
@@ -412,7 +387,7 @@ TRRN2,Truckee River at Reno,3,HNTN2;MOGN2;VISN2,True,False
 TRRO3,Tualatin River at Rood Bridge near Hillsboro,2,FRMO3;TGCO3,True,False
 TRSA1,Cahaba River at Trusville,0,,True,False
 TRSC1,Tice Creek at Rossmoor Basin,0,,True,False
-TRSM5,Tamarac River near Stephen (CSAH22),0,,True,False
+TRSM5,Tamarac River near Stephen (CSAH22),2,DRTN8;TAMM5,True,False
 TRSO3,Thomas Creek near Scio,0,,True,False
 TRST2,North Wichita River near Truscott,0,,True,False
 TRTA2,Talkeetna River near Talkeetna,0,,True,False
@@ -1582,7 +1557,7 @@ XRCC1,Kern River above ROSEDALE CANAL,0,,True,False
 XRVN6,Cross River near Cross River,0,,True,False
 XSAC1,San Andreas Lake near Millbrae,0,,True,False
 XSCC1,Spring Creek at Diversion,0,,True,False
-XSEC1,Sunnyvale East below Caribbean Drive,0,,True,False
+XSEC1,Sunnyvale East below Caribbean Drive,1,SYQC1,True,False
 XSRC1,Salinas River near San Miguel,0,,True,False
 XTOC1,San Tomas Creek at SPRR,0,,True,False
 XXCC1,Kern River at CALLOWAY CANAL,0,,True,False

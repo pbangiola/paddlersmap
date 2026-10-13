@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
-TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
-TAFC2,Spring Creek (CO) at Fort Collins,1,SGCC2,True,False
-TALO2,Illinois River (AR OK) near Tahlequah,1,CWYO2,True,False
-TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TARC3,Farmington River at Tariffville,1,SIMC3,True,False
 TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
 TBLL1,Bayou Lafourche at Thibodaux,1,NPVL1,True,False
@@ -218,6 +213,7 @@ WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
+XSEC1,Sunnyvale East below Caribbean Drive,1,SYQC1,True,False
 YASC2,Yampa River above Stagecoach Reservoir,1,YMSC2,True,False
 YDRC1,Santa Margarita River at Ysidora,1,SMHC1,True,False
 YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
