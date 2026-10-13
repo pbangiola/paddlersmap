@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RLGQ3,Rock Lake near Glenora MB,2,PCCQ3;PLLQ3,True,False
-RLGT1,Wolf River at Raleigh,2,MEMT1;MPHT1,True,False
-RLHN7,Crabtree Creek at Glenwood Ave,2,ADRN7;EBNN7,True,False
-RLKA2,Russell Lake near Yakutat,0,,True,False
-RLLI2,Salt Creek (IL) near Rowell,2,DEWI2;FMCI2,True,False
-RLLI4,Long Dick Creek near Roland 110th St--IFC,0,,True,False
-RLMV2,Little Calfpasture River above Lake Merriweather,0,,True,False
-RLOT2,Tide Station (HGX) at Rollover Pass,0,,True,False
-RLRT2,Little River near Rockdale,2,CMNT2;LRIT2,True,False
-RLRV2,Clinch River near Richlands,3,CLIV2;CLVV2;NTWV2,True,False
-RLSO2,Arkansas River at Ralston,2,PCYO2;TLSO2,True,False
-RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
-RLVI3,Big Walnut Creek (IN) near Reelsville,3,BOLI3;PCBI3;RCHI3,True,False
-RLYA2,Riley Creek at Parks Highway at Denali Park,0,,True,False
-RMBC1,Redwood Creek (Marin County) above Highway 1 Bridge at Muir Beach,0,,True,False
-RMBG1,Coosa River at Mayos Bar Lock and Dam near Rome,2,HMMG1;WTRA1,True,False
-RMBN7,Tar River at US301 Bypass at Rocky Mount,0,,True,False
-RMCC2,Roaring Fork River below Aspen,3,APNC2;EMMC2;MACC2,True,False
-RMCV2,Mudlick Creek in Roanoke,0,,True,False
-RMDV2,James River (VA) at Richmond-Westham,2,CARV2;RICV2,True,False
-RMFM1,Androscoggin River at Rumford,4,AUBM1;GILM1;GRMN3;PEAN3,True,False
-RMHL1,EABPL Borrow Pit near Ramah,0,,True,False
-RMKC1,Maacama Creek near Kellogg,0,,True,False
-RMLN7,Shallowbag Bay at Manteo (in MLLW),0,,True,False
-RMMV2,South River AT McMullen Mill,0,,True,False
 RMOT2,Brazos River at Richmond,2,BAWT2;SLNT2,True,False
 RMRP1,Allegheny River at Rimer Lock and Dam,2,MOSP1;PARP1,True,False
 RMRV2,Murray Run at Fishburn Park in Roanoke,0,,True,False
