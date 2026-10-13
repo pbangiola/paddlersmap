@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
-STTQ2,Stikine River at Telegraph Creek-British Columbia,1,STKA2,True,False
-STTW1,Stetattle Creek at Diablo,0,,True,False
-STUI4,Floyd River near Struble,2,ALTI4;LMRI4,True,False
-STUM5,Stewart River near Two Harbors,0,,True,False
-STUN7,Pamlico Sound at Stumpy Point (in MLLW),0,,True,False
-STUS2,Bear Butte Creek at Avalanche Rd at Sturgis,2,BOUS2;EMSS2,True,False
-STVC1,Merced River at Stevinson,2,NWMC1;POHC1,True,False
-STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
-STVF1,Shady Brook (in NAVD88),0,,True,False
-STVL1,Bayou Millhome near Stephensville,0,,True,False
-STVP1,Central PA Dams  Stevenson Dam on First Fork Sinnemahoning Creek,2,SYDP1;TGAP1,True,False
-STVW1,Columbia River at Stevenson,1,LWWW1,True,False
-STWG1,Sweetwater Creek (E ATL) at Club Drive near Lilburn,0,,True,False
-STWN2,Carson River near Carson City,2,DRRN2;GRDN2,True,False
-STWT1,Caney Fork at Stonewall,0,,True,False
-STWW1,Stillaguamish River near Stanwood,1,SPHW1,True,False
-STXA1,Styx River near Elsanor,0,,True,False
-STXM7,Sac River at Stockton Dam,0,,True,False
-STXM8,Bighorn River near St. Xavier,2,BHRM8;SXVM8,True,False
-STYA2,[INACTIVE] Stuyahok River near New Stuyahok,0,,True,False
-STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
-STYN7,Stony Creek at Nashville,0,,True,False
-STYT2,Colorado River (TX) at Stacy,2,BLIT2;WCHT2,True,False
-STYV2,Nottoway River near Stony Creek,2,MKNV2;SEBV2,True,False
 STYW3,Stillwell Creek at Yard Road Near Tomah,2,LFMW3;STCW3,True,False
 STZM7,Sac River below Stockton Dam,0,,True,False
 SUCI1,Succor Creek near Homedale,1,SCJO3,True,False
