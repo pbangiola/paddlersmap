@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
-PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
-PICC1,Piru Creek below Buck Creek,1,PFFC1,True,False
-PIEN6,Raquette River at Piercefield,1,SCLN6,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
 PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
 PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
@@ -48,6 +44,7 @@ PRCG1,Proctor Creek at Jackson Parkway at Atlanta,1,PCTG1,True,False
 PRCP4,Rio De La Plata below Comerio,1,NARP4,True,False
 PRDP1,Pequea Creek at Paradise,1,RONP1,True,False
 PRDW1,Columbia River below Priest Rapids Dam,1,WANW1,True,False
+PRHO3,Powder River (OR) near Sumpter,1,PHLO3,True,False
 PRIM7,Chariton River near Prairie Hill,1,NVZM7,True,False
 PRIN7,Mayo River near Price,1,NMRV2,True,False
 PRKQ3,Pembina River near Killarney MB,1,PLLQ3,True,False
@@ -58,6 +55,7 @@ PRMO1,West Creek above Parma,1,PARO1,True,False
 PRNM4,Middle Branch Escanaba River near Princeton,1,HUMM4,True,False
 PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
 PRPI1,Payette River at Payette,1,PLEI1,True,False
+PRRO3,Powder River (OR) near Richland,1,THFO3,True,False
 PRSG1,Kinchafoonee Creek at Preston (SR 41),1,DSNG1,True,False
 PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
 PRTN8,Goose River near Portland,1,HGRN8,True,False
@@ -392,6 +390,7 @@ UMAO3,Umatilla River at Umatilla,1,YOKO3,True,False
 UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
 UNNM7,Bourbeuse River at Union,1,HTGM7,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
+URVO1,Stillwater Creek at Uhrichsville,1,TPPO1,True,False
 USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
 UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False

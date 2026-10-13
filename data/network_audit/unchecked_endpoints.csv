@@ -1,30 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PHLO1,Clear Fork Mohican River below Pleasant Hill Dam,2,MHWO1;PTHO1,True,False
-PHLO3,Powder River (OR) below Mason Dam,0,,True,False
-PHMM5,Toad River near Perham (CR 8),0,,True,False
-PHNA2,[INACTIVE] Bristol Bay at Port Heiden,0,,True,False
-PHOC1,Pacheco Creek near Dunneville,0,,True,False
-PHOF1,Peace River Near Homeland,2,FTMF1;PCSF1,True,False
-PHRM1,Williams Brook near Presque Isle,0,,True,False
-PHRN1,Papillion Creek at Harlan Lewis Road near La Platte,1,FCKN1,True,False
-PHSF1,Elligraw Bayou at Pinehurst St,0,,True,False
-PHXN6,Oswego River above Phoenix,0,,True,False
-PHYK2,Grapevine Creek near Phyllis,1,FTLK2,True,False
-PIAF1,Alligator Creek at US 19 at Clearwater ,3,AGCF1;ALCF1;KAPF1,True,False
-PIAI2,Illinois River at Peoria,2,CHLI2;PRAI2,True,False
-PIBS1,Ballast Creek at Parris Island (IN MLLW),0,,True,False
-PICC1,Piru Creek below Buck Creek,1,PFFC1,True,False
-PICF1,Phillippi Creek at Pinecraft,3,BFRF1;BJFF1;PCPF1,True,False
-PICN4,Green Pond Brook at Picatinny,0,,True,False
-PICO3,Butter Creek near Pine City,0,,True,False
-PICT1,Tennessee River at Pickwick Dam Tailwater,2,FLOA1;SAVT1,True,False
-PICT2,Cowhouse Creek near Pidcoke,0,,True,False
-PICV2,Pound River above Indian Creek near Pound,2,NFPV2;PBCV2,True,False
-PIDC2,Piedra River near Arboles,0,,True,False
-PIDO1,Stillwater Creek at Piedmont Dam Pool,0,,True,False
-PIEL1,Bayou Pierre at Shreveport,0,,True,False
-PIEN6,Raquette River at Piercefield,1,SCLN6,True,False
-PIEO1,Stillwater Creek at Piedmont Dam Tailwater,0,,True,False
+PIEO1,Stillwater Creek at Piedmont Dam Tailwater,2,PIDO1;TPPO1,True,False
 PIEP4,Rio Humacao at Las Piedras,0,,True,False
 PIES2,Missouri River at Oahe Dam,4,BIWN8;EBSS2;MMRN8;PIRS2,True,False
 PIGN7,Pigeon House Creek at Cameron Village,0,,True,False
@@ -304,7 +279,7 @@ PRGO1,Scioto River at Prospect,2,LARO1;OSAO1,True,False
 PRGO3,Pringle Creek near Salem Hospital,0,,True,False
 PRGT2,Rio Grande Near Progreso Bridge,2,MADT2;SBNT2,True,False
 PRHM2,Patapsco River at Hollofield,2,ELPM2;WOOM2,True,False
-PRHO3,Powder River (OR) near Sumpter,0,,True,False
+PRHO3,Powder River (OR) near Sumpter,1,PHLO3,True,False
 PRII1,Potlatch River near Spalding,0,,True,False
 PRII3,Pleasant Run at Arlington Avenue in Indianapolis,0,,True,False
 PRIL1,Sandy Creek (SE LA) near Pride,0,,True,False
@@ -347,7 +322,7 @@ PRPM6,Pascagoula River at Mile 1 at Pascagoula,0,,True,False
 PRPV2,Rocky Run near Tysons Corner (Pulte/McLean Regional Pond),0,,True,False
 PRRK1,Delaware River (KS) at Perry Lake,0,,True,False
 PRRM5,Straight River near Park Rapids (CR115),0,,True,False
-PRRO3,Powder River (OR) near Richland,0,,True,False
+PRRO3,Powder River (OR) near Richland,1,THFO3,True,False
 PRRP1,Pohopoco Creek below Beltzville Lake at Parryville,0,,True,False
 PRRW2,Price Run above Smithfield,0,,True,False
 PRRW4,East Fork Big Goose Creek at Park Reservoir near Big Horn,0,,True,False
@@ -486,7 +461,7 @@ PWCC1,Washington Creek at Holly Lane,0,,True,False
 PWCT2,Pedernales River at LBJ Ranch Near Stonewall,0,,True,False
 PWCW4,Prairie Dog Creek near Sheridan (Closed Gauge),0,,True,False
 PWDM7,Current River above Powder Mill,2,AKFM7;VNBM7,True,False
-PWDO3,Powder River (OR) at Baker City,0,,True,False
+PWDO3,Powder River (OR) at Baker City,2,PHLO3;THFO3,True,False
 PWET2,Little Pine Island Bayou at Pine Wood Estates,0,,True,False
 PWNG1,Savannah River at Port Wentworth (IN MLLW),2,CLYG1;GCYG1,True,False
 PWRN7,Pee Dee River near Ansonville,0,,True,False
@@ -2548,7 +2523,7 @@ THCO2,Haikey Creek at Tulsa 12SE / 101st St. Bridge,0,,True,False
 THDM8,Big Hole River near bl Hamilton Ditch nr Twin Bridges,2,GNLM8;TWIM8,True,False
 THDN1,Dismal River near Thedford,0,,True,False
 THET2,Nueces River near Three Rivers,2,GWNT2;TILT2,True,False
-THFO3,Powder River (OR) below Thief Valley Reservoir,0,,True,False
+THFO3,Powder River (OR) below Thief Valley Reservoir,2,PRRO3;PWDO3,True,False
 THHF1,Tomoka River near Holly Hill,0,,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
 THMF1,Thomas Creek (in NAVD88),0,,True,False
@@ -2725,7 +2700,7 @@ TPNN8,Red River of the North near Thompson,4,CLXM5;EGFM5;HGRN8;HILN8,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TPOM6,Town Creek at Tupelo,0,,True,False
 TPPF1,Tide Gauge at Tropical Point Park (In MHHW),0,,True,False
-TPPO1,Stillwater Creek at Tippecanoe,0,,True,False
+TPPO1,Stillwater Creek at Tippecanoe,2,PIEO1;URVO1,True,False
 TPPV2,Piscataway Creek near TAPPAHANNOCK,0,,True,False
 TPTI4,Brushy Fork Creek near Templeton,0,,True,False
 TPTM7,Mississippi River above Tiptonville,2,CRTM7;NMDM7,True,False
@@ -2974,7 +2949,7 @@ URRU1,Uinta River at Randlett,0,,True,False
 URSC2,Uncompahgre River above South Canal,2,CLOC2;UNBC2,True,False
 URSP1,Laurel Hill Creek at Ursina,0,,True,False
 URUA2,Unalakleet River above Chiroskey River near Unalakleet,0,,True,False
-URVO1,Stillwater Creek at Uhrichsville,0,,True,False
+URVO1,Stillwater Creek at Uhrichsville,1,TPPO1,True,False
 URWA2,Unuk River below Blue River near Wrangell,0,,True,False
 USAM5,Mississippi River at Upper St. Anthony Falls,0,,True,False
 USAP4,Rio Usabon at HWY 162 nr Barranquitas,0,,True,False
