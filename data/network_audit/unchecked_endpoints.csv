@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCOA2,Scottie Creek at Alaska Hwy near Northway,0,,True,False
-SCOC1,Eel River (CA) near Scotia,2,FRNC1;FTSC1,True,False
-SCOI2,Summit Conduit at Summit,0,,True,False
-SCOI3,Pigeon River near Scott,2,AQPI3;EKMI3,True,False
-SCOM5,Mississippi River at St. Cloud,2,AKAM5;BLHM5,True,False
-SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
-SCOO3,Scoggins Creek below Scoggins Dam,0,,True,False
-SCOS2,James River near Scotland,2,JRMS2;YNNS2,True,False
-SCOV2,Swift Creek at Otterdale Rd near Hallsboro,0,,True,False
-SCPC1,Santa Clara River (CA) near Piru,0,,True,False
-SCPC2,Sand Creek (CO) at Aurora,0,,True,False
-SCPI3,Smothers Creek (IN) near Plainville,0,,True,False
-SCPM7,S Fork Saline Creek above Perryville,0,,True,False
-SCPN7,Scuppernong River near Woodley,0,,True,False
-SCPV2,Swift Creek at Pocahontas State Park Pedestrian Bridge,0,,True,False
-SCQN7,Swift Creek Upstream of Queensferry Rd,0,,True,False
-SCRA1,Tennessee River near Scottsboro,4,CHAT1;GVDA1;GVHA1;SPTT1,True,False
-SCRI3,Salt Creek (IN) at Valparaiso,0,,True,False
-SCRI4,North Raccoon River near Sac City,2,LKCI4;SARI4,True,False
-SCRM4,St Clair River at St Clair State Police Tidal Gage,0,,True,False
-SCRM5,Le Sueur River at St. Clair,0,,True,False
-SCRM7,South Creek near Springfield .,0,,True,False
-SCRM8,Big Hole River above Spring Creek near Jackson,2,JKSM8;MCKM8,True,False
-SCRN2,Steamboat Creek (NV) at Steamboat,0,,True,False
-SCRN7,Sandy Creek at Cornwallis Rd,0,,True,False
 SCRO1,Sharon Creek at Sharonville,0,,True,False
 SCRO3,Steamboat Creek near Glide,0,,True,False
 SCRS1,Shem Creek near Mount Pleasant,0,,True,False
@@ -1500,7 +1475,7 @@ TSMF1,Tide Station at San Miguel Str and 23rd Avenue (in MHHW),0,,True,False
 TSPL1,Tickfaw River at Springfield,0,,True,False
 TSRA1,Cahaba River at Trussville,0,,True,False
 TSTW4,Tensleep Creek near Tensleep,0,,True,False
-TSYC1,Santa Clara River at Torrey Road,0,,True,False
+TSYC1,Santa Clara River at Torrey Road,2,SCPC1;VCAC1,True,False
 TTDM2,Tributary to Dead Run Tributary at Woodlawn,0,,True,False
 TTKP1,Thompson Run at Turtle Creek,0,,True,False
 TTVC1,Trout Creek near Tahoe Valley,0,,True,False
@@ -1703,7 +1678,7 @@ VBSM7,Big Spring River above Big Spring near Van Buren,0,,True,False
 VBTC1,Stevens Creek below Interstate 280,0,,True,False
 VBUA4,Arkansas River at Van Buren,2,MKGO2;OZGA4,True,False
 VBVS2,Victoria Creek below Victoria Dam nr Rapid City,0,,True,False
-VCAC1,Santa Clara River (CA) at Victoria Avenue,0,,True,False
+VCAC1,Santa Clara River (CA) at Victoria Avenue,1,TSYC1,True,False
 VCAF1,Tide Station at the Western Tip of Vaca Key (in MHHW),0,,True,False
 VCAT2,Tide Gauge at Port Lavaca,0,,True,False
 VCBC1,Virginia Creek (CA) near Bridgeport,0,,True,False
@@ -1759,7 +1734,7 @@ VING1,Chattahoochee River at Atlanta,3,CHAG1;FBNG1;VIXG1,True,False
 VINI4,Cedar River at Vinton,3,ALOI4;LAPI4;PLOI4,True,False
 VIOW3,Kickapoo River at Viola,2,LAFW3;REAW3,True,False
 VIRU1,Virgin River near Virgin,1,HURU1,True,False
-VISN2,Truckee River at Vista,2,TNTN2;TRRN2,True,False
+VISN2,Truckee River at Vista,3,SCRN2;TNTN2;TRRN2,True,False
 VIVW4,Reservoirs at Viva Naughton Reservoir,0,,True,False
 VIXG1,Chattahoochee River at US 41 at Atlanta,2,VING1;VNPG1,True,False
 VLBP1,Brush Creek at Valley Brook,0,,True,False

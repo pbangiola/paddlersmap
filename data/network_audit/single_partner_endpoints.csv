@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
 SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
@@ -225,6 +224,7 @@ VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VASN7,Flat Creek near Iverness,1,MANN7,True,False
 VASV2,Levisa Fork River at Vansant,1,GRUV2,True,False
 VBMN2,Virgin River blo Muddy Confluence,1,MVSA3,True,False
+VCAC1,Santa Clara River (CA) at Victoria Avenue,1,TSYC1,True,False
 VDSG1,Withlacoochee River above Valdosta (Skipper Bridge Rd),1,VDRG1,True,False
 VERS2,Vermillion River at Vermillion,1,WKAS2,True,False
 VERT2,Pease River near Vernon,1,CDPT2,True,False
