@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
-SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
-SPDN1,Cedar River near Spalding,1,FULN1,True,False
 SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
 SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
@@ -112,6 +109,7 @@ TOWK1,Whitewater River (KS) near Towanda,1,AGSK1,True,False
 TPHT2,Hondo Creek near Tarpley,1,KWHT2,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
+TRIW3,Spirit River near Spirit Falls,1,SPDW3,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
 TRVN7,Tar River near Tar River,1,LOUN7,True,False

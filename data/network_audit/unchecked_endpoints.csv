@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPAQ8,Lodge Creek at Spangler Ditch,0,,True,False
-SPAT2,Navidad River near Speaks,2,MRAT2;SBMT2,True,False
-SPAW3,La Crosse River at Sparta,5,ANOW3;BVCW3;FMCW3;LCRW3;LFMW3,True,False
-SPBN6,Salmon River at South Plattsburgh,0,,True,False
-SPBN7,Contentnea Creek at Speights Bridge,0,,True,False
-SPBW4,South Piney Creek below Snider Basin,0,,True,False
-SPCM5,Middle Fork Crow River near Spicer,0,,True,False
-SPCN1,Niobrara River near Spencer,2,NIBN1;VRDN1,True,False
-SPCN7,Speight Branch Upstream of SE Cary Pkwy,0,,True,False
-SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
-SPCT2,Pecos River 3 miles ESE of Sheffield,3,BTNT2;GIVT2;PDAT2,True,False
-SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
-SPDN1,Cedar River near Spalding,1,FULN1,True,False
-SPDN7,Deep Creek at Dickens Rd,0,,True,False
-SPDT2,Peach Creek near Splendora,0,,True,False
-SPDV2,Cripple Creek near Speedwell,0,,True,False
-SPDW3,Spirit River at Spirit Reservoir,0,,True,False
-SPEI3,Little Eagle Creek at Speedway,0,,True,False
-SPEO2,Bird Creek near Sperry,2,AVTO2;OWSO2,True,False
-SPEW1,South Prairie Creek at South Prairie,0,,True,False
-SPFI2,Spring Creek (IL) at Springfield,0,,True,False
-SPFM5,Cottonwood River (MN) above Springfield,3,LMBM5;LVNM5;NWUM5,True,False
-SPFN2,Shoshone Pond Outflow,0,,True,False
-SPFS2,Spearfish Creek above Spearfish,0,,True,False
-SPGG1,South River at GA 81 at Snapping Shoals,2,JKNG1;SOUG1,True,False
 SPGI2,Spring Brook at Naperville (87th Street),0,,True,False
 SPGM3,Connecticut River at Springfield,2,HLYM3;TMVC3,True,False
 SPGN1,Bluestem Lake,0,,True,False
@@ -657,7 +632,7 @@ TJCC1,Big Tujunga Creek below Hansen Dam,0,,True,False
 TJDO1,Sunday Creek at Tom Jenkins Dam (Burr Oak Lake),0,,True,False
 TJLO1,Sunday Creek at Tom Jenkins Dam,0,,True,False
 TJOO2,Joe Creek at Tulsa 6SSE / 61st St.,0,,True,False
-TKDW3,Wisconsin River below Tomahawk Dam,4,GRFW3;JERW3;KNGW3;RRVW3,True,False
+TKDW3,Wisconsin River below Tomahawk Dam,5,GRFW3;JERW3;KNGW3;RRVW3;SPDW3,True,False
 TKLT2,Spring Creek (Concho River Basin) above Tankersley,0,,True,False
 TKMM2,Northwest Branch Anacostia River at Adelphi Mill,0,,True,False
 TKPM2,Sligo Creek near Takoma Park,0,,True,False
@@ -834,7 +809,7 @@ TRFM5,Red Lake River at Thief River Falls,2,RLFM5;TRRM5,True,False
 TRFV2,"Tripps Run at Falls Church, VA",0,,True,False
 TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRIF1,Whitaker Canal at Tri-Par,0,,True,False
-TRIW3,Spirit River near Spirit Falls,0,,True,False
+TRIW3,Spirit River near Spirit Falls,1,SPDW3,True,False
 TRJC1,Trinity River at Junction City,0,,True,False
 TRJF1,Trout River (FL) at Lem Turner Road (in MHHW),0,,True,False
 TRJP4,Quebrada Grande at Bo. Dos Bocas,0,,True,False
