@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-XMWC1,Mark West Creek at Michele Way,0,,True,False
-XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
-XPCC1,Mark West Creek at Porter Creek Rd,0,,True,False
-XPSC1,Pilarcitos Creek below Pilarcitos Lake Spillway,0,,True,False
-XRCC1,Kern River above ROSEDALE CANAL,0,,True,False
-XRVN6,Cross River near Cross River,0,,True,False
-XSAC1,San Andreas Lake near Millbrae,0,,True,False
-XSCC1,Spring Creek at Diversion,0,,True,False
-XSEC1,Sunnyvale East below Caribbean Drive,1,SYQC1,True,False
-XSRC1,Salinas River near San Miguel,0,,True,False
-XTOC1,San Tomas Creek at SPRR,0,,True,False
-XXCC1,Kern River at CALLOWAY CANAL,0,,True,False
-YADN7,Yadkin River at Yadkin College,3,ENNN7;HGRN7;MCKN7,True,False
-YAHC2,Yampa River near Hayden,2,CGGC2;ENMC2,True,False
-YANS2,Missouri River at Yankton,2,GPDN1;MSJN1,True,False
-YARM1,Royal River at Yarmouth,0,,True,False
-YARW1,Lewis River at Yale Reservoir,2,MERW1;SFRW1,True,False
-YASC2,Yampa River above Stagecoach Reservoir,1,YMSC2,True,False
-YATA2,Yakutat Bay Tide Gauge at Yakutat (MLLW datum),0,,True,False
-YATK2,Blaine Creek below Yatesville Lake,0,,True,False
-YBUP4,Rio Guayanes at Yabucoa,0,,True,False
-YDAQ9,Yukon River at Dawson-Yukon Territory,2,YEAA2;YWRQ9,True,False
-YDLC2,Yampa River near Deerlodge Park,3,JESU1;LILC2;MBLC2,True,False
-YDMC1,East Fork Russian River below Coyote Dam,0,,True,False
-YDRC1,Santa Margarita River at Ysidora,1,SMHC1,True,False
 YEAA2,Yukon River at Eagle,2,CIRA2;YDAQ9,True,False
 YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
 YELG1,Yellow River at GA 124 near Lithonia,0,,True,False
