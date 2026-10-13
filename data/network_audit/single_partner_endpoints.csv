@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NISW1,Nisqually River near National,1,MKNW1,True,False
-NIXN2,Truckee River near Nixon,1,WADN2,True,False
-NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
-NKSW1,Nooksack River at Ferndale,1,NREW1,True,False
 NLSK1,Solomon River at Niles,1,MPSK1,True,False
 NLVT1,Mill Creek near Nolensville,1,ANTT1,True,False
 NLWW4,North Fork Little Wind River near Fort Washakie,1,FWRW4,True,False
@@ -33,6 +29,7 @@ NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSFW1,South Fork Nooksack River at Potter Rd,1,HUTW1,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
 NSPN7,New Hope Creek at NC-54,1,NHCN7,True,False
+NSSW1,South Fork Nooksack River near Saxon Bridge,1,NRKW1,True,False
 NSTN3,Connecticut River at North Stratford,1,DLTN3,True,False
 NTFV2,Catawba Creek near Howell Mills,1,CTWV2,True,False
 NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False

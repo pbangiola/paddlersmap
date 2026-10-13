@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NIQS1,Atlantic Coast at North Inlet Estuary - NERRS,0,,True,False
-NIRQ9,Nisling River below Onion Creek-Yukon Territory,0,,True,False
-NISN1,Niobrara River at Mariaville,2,NIBN1;SPKN1,True,False
-NISW1,Nisqually River near National,1,MKNW1,True,False
-NITS1,Atlantic Coast at North Inlet Estuary (IN MLLW),0,,True,False
-NITW1,Similkameen River near Nighthawk,0,,True,False
-NIXN2,Truckee River near Nixon,1,WADN2,True,False
-NIXS1,Atlantic Intracoastal Waterway at Nixons Crossroads,0,,True,False
-NJNM4,Sturgeon River - Delta Co near Nahma Junction,0,,True,False
-NJNT1,Tennessee River at Johnsonville,2,KYDK2;PRVT1,True,False
-NKDC1,North Fork Kings River above Dinkey Creek,0,,True,False
-NKHO2,Little Washita River near Ninnekah,1,CMTO2,True,False
-NKJT1,Tennessee River above Nickajack Dam (Jasper 5S),2,CHAT1;NKTT1,True,False
-NKLW1,Nooksack River near Lynden,0,,True,False
-NKMF1,Tide Gauge at Nokomis (In MHHW),0,,True,False
-NKOO1,North Fork Licking River (OH) at Newark (Ohio Street),2,NEAO1;NMSO1,True,False
-NKRN1,Maple Creek near Nickerson,0,,True,False
-NKSW1,Nooksack River at Ferndale,1,NREW1,True,False
-NKTA2,Nikiski at Nikiski Tide Gage,0,,True,False
-NKTT1,Tennessee River below Nickajack Dam (Jasper 5S),2,NKJT1;SPTT1,True,False
-NLBN4,Greenwood Branch at New Lisbon,0,,True,False
-NLDM7,Salt River (MO) at New London,2,CPZM7;CTZM7,True,False
-NLGI2,Illinois River at LaGrange Lock and Dam,2,BEAI2;MROI2,True,False
-NLGL1,Tensas River near Newlight,2,CYNL1;TDGL1,True,False
-NLHC3,Long Island Sound near New London Harbor (IN MLLW),0,,True,False
 NLIH1,Honolii Stream near Papaikou,0,,True,False
 NLIN1,Elkhorn River at Neligh,3,EWIN1;SFEN1;TLDN1,True,False
 NLIV2,North Landing River at Indian River Road,0,,True,False
@@ -141,7 +116,7 @@ NRGN1,Niobrara River near Gordon 11S,2,NRHN1;NZNN1,True,False
 NRHF1,Nassau River at US-17 (in MHHW),0,,True,False
 NRHN1,Niobrara River near Hay Springs 14S,2,BOXN1;NRGN1,True,False
 NRHS1,New River near Hardeeville (IN MLLW),0,,True,False
-NRKW1,Nooksack River at North Cedarvillle,3,MFNW1;NFNW1;NREW1,True,False
+NRKW1,Nooksack River at North Cedarvillle,4,MFNW1;NFNW1;NREW1;NSSW1,True,False
 NRMO2,Little River (OK) at Lake Thunderbird,0,,True,False
 NRMT1,Duck River at Normandy Dam,0,,True,False
 NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
@@ -183,7 +158,7 @@ NSPV1,"Black River at North Springfield, VT",0,,True,False
 NSPW1,North Fork Skokomish River near Potlatch,0,,True,False
 NSRT1,Dry Creek near Edenwold,0,,True,False
 NSSN7,Neuse River at Main St in Seven Springs,2,GLDN7;KINN7,True,False
-NSSW1,South Fork Nooksack River near Saxon Bridge,0,,True,False
+NSSW1,South Fork Nooksack River near Saxon Bridge,1,NRKW1,True,False
 NSTA2,[INACTIVE] Nushagak River at New Stuyahok,0,,True,False
 NSTM5,Seven Mile Creek (MN) near St. Peter 6S,0,,True,False
 NSTN3,Connecticut River at North Stratford,1,DLTN3,True,False
