@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MONL1,Tickfaw River at Montpelier,2,HOLL1;LPOL1,True,False
-MONM4,River Raisin at Monroe City,2,DNDM4;GPEM4,True,False
-MONN7,Deep River near Moncure,0,,True,False
-MONO1,St. Joseph River (OH/IN) at Montpelier,2,JOEM4;NVLI3,True,False
-MONO3,North Fork John Day River near Monument,0,,True,False
-MONP1,Towanda Creek at Monroeton,0,,True,False
-MONV1,Winooski River at Montpelier,4,CABV1;LNGV1;WATV1;WRTV1,True,False
-MONW1,Wenatchee River at Monitor,0,,True,False
-MOOA2,Moose Creek near Palmer,0,,True,False
-MOOI3,White Lick Creek at Mooresville,2,BROI3;CNTI3,True,False
-MOOM2,Moores Run at Moravia Park in Baltimore,0,,True,False
-MOOV1,Mad River near Moretown,0,,True,False
-MOOV2,Lake Moomaw at Gathright Dam,3,BCVV2;CVGV2;FLGV2,True,False
-MORA4,Arkansas River at Morrilton,2,DARA4;TODA4,True,False
-MORF1,Hillsborough River at Morris Bridge,2,FOWF1;ZPHF1,True,False
-MORI1,Mores Creek above Robie Creek,0,,True,False
-MORI2,Illinois River at Morris,4,CDII2;COLI2;MMOI2;SORI2,True,False
-MORM4,Little Muskegon River at Morley,0,,True,False
-MORP4,Rio Grande De Manati at HWY 115 nr Morovis,0,,True,False
-MORW1,Cedar River (WA) at Chester Morse Lk at Cedar Falls,0,,True,False
-MORW2,Monongahela River at Morgantown Lock and Dam,2,MGTW2;PMRP1,True,False
-MORW3,Red River (WI) near Gresham,0,,True,False
-MOSC1,San Joaquin River at Mossdale Bridge,1,VNSC1,True,False
-MOSH1,Moanalua Stream near Honolulu,0,,True,False
-MOSP1,Allegheny River at Mosgrove Lock and Dam,2,KTTP1;RMRP1,True,False
 MOSR1,Moshassuck River at Providence,0,,True,False
 MOSV1,Little River (Vermont) at Moscow,2,BMFV1;WRSV1,True,False
 MOTM4,St. Joseph River (MI/IN) at Mottville,3,CTVM4;EKMI3;TRVM4,True,False
@@ -1402,7 +1377,7 @@ PERL1,Pearl River near Pearl River,1,BXAL1,True,False
 PERM8,Flathead River at Perma,1,FPOM8,True,False
 PERO1,East Fork Little Miami River at Perintown,1,BHDO1,True,False
 PERO3,Deschutes River (OR) near Madras,2,DEBO3;MODO3,True,False
-PESW1,Wenatchee River at Peshastin,0,,True,False
+PESW1,Wenatchee River at Peshastin,2,MONW1;WPLW1,True,False
 PESW3,Peshtigo River at Peshtigo,1,PFDW3,True,False
 PETI2,Sangamon River at Petersburg,2,OKFI2;RVTI2,True,False
 PETI3,White River (IN) above Petersburg,4,BCSI3;EDWI3;PTRI3;SHLI3,True,False
@@ -2328,7 +2303,7 @@ RMOT2,Brazos River at Richmond,2,BAWT2;SLNT2,True,False
 RMRP1,Allegheny River at Rimer Lock and Dam,2,MOSP1;PARP1,True,False
 RMRV2,Murray Run at Fishburn Park in Roanoke,0,,True,False
 RMSC1,Cache Creek at Rumsey Bridge,3,CLKC1;HOUC1;YLOC1,True,False
-RMSN7,Deep River at Ramseur,0,,True,False
+RMSN7,Deep River at Ramseur,1,MONN7,True,False
 RMYT2,Trinity River near Romayor,2,GRIT2;LBYT2,True,False
 RMZG1,Reed Creek near Martinez,0,,True,False
 RNBF1,Rainbow River near Dunnellon (in NAVD88),0,,True,False
@@ -3026,7 +3001,7 @@ SHEW4,Shell Creek near Shell,0,,True,False
 SHIA2,Ship Creek near Anchorage,0,,True,False
 SHIF1,Shingle Creek at Campbell,0,,True,False
 SHIN6,Shinnecock Bay at Ponquogue (IN MLLW),0,,True,False
-SHIW3,Wolf River (WI) at Shiocton,2,NEWW3;SHAW3,True,False
+SHIW3,Wolf River (WI) at Shiocton,3,MORW3;NEWW3;SHAW3,True,False
 SHJC1,Bear Creek (SFJPA) at Sand Hill Road (BCSH),0,,True,False
 SHKN6,Canaseraga Creek at Shakers Crossing,0,,True,False
 SHKN7,Shelter Creek at Shaw Highway,0,,True,False
@@ -3907,7 +3882,7 @@ TCCS1,Thompson Creek above Cheraw,0,,True,False
 TCES1,Turkey Creek Below Johnston,0,,True,False
 TCFC2,Tenmile Creek (CO) at Frisco,0,,True,False
 TCFM6,TALLAHOMA CREEK AT FLYNT ROAD,0,,True,False
-TCFP1,Towanda Creek at Franklindale,0,,True,False
+TCFP1,Towanda Creek at Franklindale,1,MONP1,True,False
 TCGF1,Taylor Creek at Grassy Island,0,,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TCGM6,Turkey Creek (MS) at Airport Road at Gulfport,0,,True,False
@@ -5163,7 +5138,7 @@ WPHL1,Mississippi River at West Pointe a la Hache,2,EMPL1;MRAL1,True,False
 WPHM7,Maries River at Westphalia,0,,True,False
 WPIS1,Waccamaw River at Pawleys Island,2,BUCS1;HAGS1,True,False
 WPKA1,Coosa River at Jordan Dam,2,VRBA1;WETA1,True,False
-WPLW1,Wenatchee River at Plain,0,,True,False
+WPLW1,Wenatchee River at Plain,1,PESW1,True,False
 WPMP1,Beaver River at Wampum,2,BEAP1;LLWO1,True,False
 WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
 WPNI4,Mississippi River above Waupeton (Pool 11),2,DLDI4;GTTI4,True,False

@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MOSC1,San Joaquin River at Mossdale Bridge,1,VNSC1,True,False
 MPBV2,Bull Run near Manassas Park,1,CTHV2,True,False
 MPCO2,Pennington Creek 5 miles NNE of Mill Creek,1,MCPO2,True,False
 MPEL1,Mississippi River at Port Eads,1,SWBL1,True,False
@@ -301,6 +300,7 @@ RIPN5,Rio Puerco above Guadalupe,1,BNDN5,True,False
 RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
+RMSN7,Deep River at Ramseur,1,MONN7,True,False
 RNTW1,Cedar River (WA) at Renton,1,LNDW1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
@@ -495,6 +495,7 @@ TANW1,Middle Fork Snoqualmie River near Tanner,1,SQUW1,True,False
 TATT1,North Fork Forked Deer River below Tatumville,1,DYET1,True,False
 TBLW3,Trempealeau River at Blair,1,WHIW3,True,False
 TBTL1,Tensas Bayou at Transylvania,1,TDGL1,True,False
+TCFP1,Towanda Creek at Franklindale,1,MONP1,True,False
 TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
 TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
 TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
@@ -643,6 +644,7 @@ WODI1,Little Wood River near Carey,1,LWRI1,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
+WPLW1,Wenatchee River at Plain,1,PESW1,True,False
 WPMT2,West Prong Medina River at Carpenter Creek Road,1,MERT2,True,False
 WPTK2,Salt River at West Point,1,SHPK2,True,False
 WPTM6,Tchoutacabouffa River above White Plains,1,DIBM6,True,False
