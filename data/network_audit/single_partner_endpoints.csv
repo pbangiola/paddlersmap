@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
-WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WANP1,Antietam Creek near Waynesboro,1,SACM2,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
@@ -23,6 +21,7 @@ WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
 WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WCSA2,West Creek near Skagway,1,TYAA2,True,False
+WDCA2,Jack Wade Creek at MP 85 Taylor Hwy near Chicken,1,WADA2,True,False
 WDHN2,Owyhee River at Wildhorse Dam,1,OGCN2,True,False
 WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
 WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False
@@ -57,7 +56,6 @@ WILM5,Mississippi River at Willow Beach,1,DAYM5,True,False
 WILW3,Tomahawk River at Willow Reservoir,1,RRVW3,True,False
 WINW2,Kanawha River below Winfield Locks,1,CHLW2,True,False
 WKCK1,Wildcat Creek at Keats,1,MWCK1,True,False
-WKEW3,Fox River at Waukesha,1,RSRW3,True,False
 WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
 WLBO1,Mad River at West Liberty,1,UBNO1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WABW1,White River near Auburn,2,WPCW1;WRPW1,True,False
-WABW4,Wind River above Boysen Reservoir near Shoshoni,0,,True,False
-WADA2,Wade Creek Tributary near Chicken,0,,True,False
-WADI3,Big Creek (IN) above Wadesville,0,,True,False
-WADI4,Volga River at Wadena (IFC),2,RNDI4;VGAI4,True,False
-WADN2,Truckee River at Wadsworth,2,NIXN2;TBDN2,True,False
-WADT2,Walnut Creek at Dessau Rd near Austin,0,,True,False
-WADW3,Fox River  above dam at Waterford,0,,True,False
-WAEI4,Elk Run Creek near Waterloo Independence Ave--IFC,0,,True,False
-WAGL1,Wallace Lake,0,,True,False
-WAGO2,Eastern Oklahoma Lakes at Chouteau Lock and Dam,0,,True,False
-WAHF1,Apalachicola River at Wewahitchka at Mile 44 (USACE),3,BLOF1;SMAF1;WWAF1,True,False
-WAHI1,Lake Waha at Waha,0,,True,False
-WAHI3,Wabash River at Andrews,0,,True,False
-WAHM4,Cass River at Wahjamega,2,CSSM4;VSSM4,True,False
-WAHP1,Chartiers Creek at Wylie,2,CATP1;PIKP1,True,False
-WAHV2,Atlantic Coast at Wachapreague (IN MLLW),0,,True,False
-WAKO2,Beaver Creek (OK) at Waurika,2,ADDO2;WRLO2,True,False
-WALA2,Bering Sea at Wales,0,,True,False
-WALC3,Quinnipiac River above Wallingford,0,,True,False
-WALG1,Shoal Creek at GA 108 near Waleska,0,,True,False
-WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
-WALN2,Walker River near Wabuska,2,WBMN2;WVRN2,True,False
-WALN6,West Branch Delaware River at Walton,2,CNNN6;DELN6,True,False
-WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
 WALT1,Waldens Creek 4W Pigeon Forge (Old Valley),2,TIGT1;WLVT1,True,False
 WANM4,Wanadoga Creek near Battle Creek,0,,True,False
 WANO1,Sandy Creek at Waynesburg,0,,True,False
@@ -175,7 +150,7 @@ WCXF1,Suwannee River near Wilcox - US 19 (in NAVD88),3,HSGF1;MTSF1;RCKF1,True,Fa
 WCXP1,West Branch Clarion River at Wilcox,0,,True,False
 WDAF1,Withlacoochee River near Dade City (in NAVD88),2,CUMF1;TRBF1,True,False
 WDBC1,Walnut Creek at Diamond Blvd Bridge,0,,True,False
-WDCA2,Jack Wade Creek at MP 85 Taylor Hwy near Chicken,0,,True,False
+WDCA2,Jack Wade Creek at MP 85 Taylor Hwy near Chicken,1,WADA2,True,False
 WDCF1,Tide Gauge at Weedon Island (in MHHW),0,,True,False
 WDCG1,Woodall Creek at Defoors Ferry Road at Atlanta,0,,True,False
 WDCN7,Dutch Creek at Broadstone Road ,0,,True,False
@@ -382,7 +357,7 @@ WKAS2,Vermillion River near Wakonda,2,DVSS2;VERS2,True,False
 WKCK1,Wildcat Creek at Keats,1,MWCK1,True,False
 WKEC1,Walker Creek (Marin) near Marshall,0,,True,False
 WKEF1,Wulfert Keys Power line Sanibel (In MHHW),0,,True,False
-WKEW3,Fox River at Waukesha,1,RSRW3,True,False
+WKEW3,Fox River at Waukesha,2,RSRW3;WADW3,True,False
 WKGH1,Waiakeakua Stream at Honolulu,0,,True,False
 WKGR1,Chipuxet River at West Kingston,0,,True,False
 WKLF1,Wakulla River at Wakulla Springs State Park (in NAVD88),0,,True,False
