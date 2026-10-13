@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PYNW2,at Payne Branch,0,,True,False
-PYRM8,Pryor Creek near Huntley,0,,True,False
-PYSC1,Petaluma River at Payran Street Bridge,0,,True,False
-QBAC1,Coyote Creek below Anderson Reservoir,0,,True,False
-QBCC1,Kern River at Beardsley Canal,0,,True,False
-QBMC1,Kern River above BERENDA MESA PIPELINE TURNOUT,0,,True,False
-QBNM4,Quaker Brook at M-66 near Nashville,0,,True,False
-QCBP1,Quittapahilla Creek near Bellegrove,0,,True,False
-QCCF1,Quincy Creek at Quincy - SR 267 (in NAVD88),0,,True,False
-QCCO3,Quartzville Creek near Cascadia,1,GPRO3,True,False
-QCDN7,Queen Creek at QUEENS CREEK DAM,0,,True,False
-QCDV2,Quantico Creek at Dumfries,0,,True,False
-QCYF1,Little  River near Quincy,1,ATPG1,True,False
-QFSC1,Kern River at Farmer Stine Canal,0,,True,False
-QGCT2,Groesbeck Creek near Quanah,0,,True,False
-QJOP4,Rio Piedras at Quebrada Josefina,0,,True,False
-QLAT2,South Fork Sabine River near Quinlan,0,,True,False
-QLDI2,Mississippi River at Quincy Lock and Dam 21,2,HNNM7;UINI2,True,False
-QLTW1,Quinault River at Quinault Lake,0,,True,False
-QMAP4,Rio Piedras at Quebrada Margarita,0,,True,False
-QMSC1,San Luis Obispo Creek at Marsh St.,0,,True,False
-QNMK1,Marais Des Cygnes River near Quenemo,2,MLVK1;PMNK1,True,False
-QNRN2,Quinn River,0,,True,False
-QPCC3,Quinnipiac River at Southington,0,,True,False
-QPDO2,Quanah Creek at Quanah Parker Lake near Lawton,0,,True,False
 QPTR1,Narragansett Bay at Quonset Point (IN MLLW),0,,True,False
 QSAC1,San Antonio Creek at Indian Creek Road,2,ACSC1;ANOC1,True,False
 QSCC1,Kern River at STINE CANAL,0,,True,False
