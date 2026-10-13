@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-UNVV1,Ompompanoosuc River at Union Village Dam,0,,True,False
-UNWK2,Ohio River at J.T. Myers Lock and Dam,2,MTVI3;SHNI2,True,False
-UNYO3,Burnt River below Unity Reservoir,2,BBPO3;NFSO3,True,False
-UPAG1,Upatoi Creek near Columbus,0,,True,False
-UPBA1,Sepulga River near Mckenzie,0,,True,False
-UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
-UPCC1,Upper Penitencia Creek at Piedmont Road,1,UMYC1,True,False
-UPCN7,Walnut Creek at Clay St,0,,True,False
-UPPO1,Sandusky River near Upper Sandusky,2,BCYO1;TFFO1,True,False
-UPRM2,Western Branch at Upper Marlboro,0,,True,False
-URBI4,North Walnut Creek at Urbandale Hickman Rd--IFC,2,UBNI4;WNDI4,True,False
-URCS2,Rabbit Creek at Usta Road,0,,True,False
-URHM7,South Grand River near Urich,0,,True,False
-URRU1,Uinta River at Randlett,0,,True,False
-URSC2,Uncompahgre River above South Canal,2,CLOC2;UNBC2,True,False
-URSP1,Laurel Hill Creek at Ursina,0,,True,False
-URUA2,Unalakleet River above Chiroskey River near Unalakleet,0,,True,False
-URVO1,Stillwater Creek at Uhrichsville,1,TPPO1,True,False
-URWA2,Unuk River below Blue River near Wrangell,0,,True,False
-USAM5,Mississippi River at Upper St. Anthony Falls,0,,True,False
-USAP4,Rio Usabon at HWY 162 nr Barranquitas,0,,True,False
-USEA3,Sacramento Wash at Highway 68,0,,True,False
-USHC1,Brush Creek at Badger Road,0,,True,False
-USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
-USQR1,Usquepaug River near Usquepaug,0,,True,False
 USVC1,Upper San Leandro Reservoir  ,0,,True,False
 USYC1,Upper Silver Creek at Yerba Buena Rd,0,,True,False
 UTBF1,Upper Tampa Bay Park (In MHHW),0,,True,False
@@ -604,7 +579,7 @@ WLAF1,Little Charlie Creek at Mouth Near Wauchula,0,,True,False
 WLAO3,South Yamhill River near Willamina,2,MCMO3;WAWO3,True,False
 WLBK2,Cumberland River at Williamsburg,3,BBVK2;CFAK2;SXTK2,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
-WLBN3,Connecticut River at West Lebanon,3,WEHV1;WELV1;WLPN3,True,False
+WLBN3,Connecticut River at West Lebanon,4,UNVV1;WEHV1;WELV1;WLPN3,True,False
 WLBN6,Boquet River above Willsboro,0,,True,False
 WLBO1,Mad River at West Liberty,1,UBNO1,True,False
 WLCA2,Wolverine Creek near Lawing,0,,True,False
