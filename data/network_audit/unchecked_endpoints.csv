@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TRAA2,Tok River at Alaska Highway near Tok,0,,True,False
-TRAC2,Taylor River near Taylor Park,3,ALTC2;TPIC2;TYVC2,True,False
-TRAI3,Tippecanoe River near Americus,0,,True,False
-TRAI4,Coon Creek at Traer IA 8--IFC,0,,True,False
-TRAM5,Lake Traverse near Wheaton,0,,True,False
-TRAM8,Teton River above Teton River abv Springhill near Choteau,0,,True,False
-TRAN5,Rio Chama at Heron Dam,0,,True,False
-TRAN7,Tranters Creek above Washington,0,,True,False
-TRAO3,Trask River near Tillamook,0,,True,False
-TRBA2,Tolovana River below Rosebud Creek near Livengood,0,,True,False
-TRBC2,Taylor River below Taylor Park Resv.,2,ALTC2;TPIC2,True,False
-TRBF1,Withlacoochee River at US 301 Trilby (in NAVD88),2,RITF1;WDAF1,True,False
-TRBO3,McKenzie River below Trail Bridge Dam,3,MUSO3;SUSO3;VIDO3,True,False
-TRCC1,Truckee River near Truckee,2,FARC1;TRTC1,True,False
-TRCI4,Des Moines River near Tracy,3,EDYI4;KECI4;RRDI4,True,False
-TRCK1,Hackberry Creek near Trego Center 9WSW,0,,True,False
-TRCL1,Tchefuncte River near Three Rivers at Covington,2,CUSL1;MSVL1,True,False
-TRCM5,Turtle Creek near Austin,0,,True,False
-TRCN6,Trout Creek (NY) near Trout Creek,0,,True,False
-TRCQ6,Turtle River near Mine Centre,0,,True,False
-TRCS2,Turkey Ridge Creek near Centerville,0,,True,False
-TRCW1,Touchet River at Cummings Road,0,,True,False
-TRDC1,Little River near Trinidad,0,,True,False
-TRDF1,Canaveral Barge Canal at Trident Pier Tide Gauge (in MHHW),0,,True,False
-TRDM5,Lateral 1 near State Ditch #95 at 440th Ave,0,,True,False
 TREF1,Santa Fe River at Three Rivers Estates (in NAVD88),2,FTWF1;FWHF1,True,False
 TREN4,Delaware River at Trenton,2,NBLP1;WASN4,True,False
 TREP1,Spring Creek (PA) at Trexlertown,0,,True,False
@@ -746,7 +721,7 @@ WHPN4,Whippany River near Morristown,1,WHIN4,True,False
 WHPO1,Duck Creek below Whipple,2,MACO1;MTAO1,True,False
 WHRH1,Waihee River at Dam,0,,True,False
 WHRI1,Wildhorse River at Brownlee,0,,True,False
-WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
+WHRM5,Bois de Sioux River at White Rock Dam,2,DORM5;TRAM5,True,False
 WHRM8,Whitefish River near Kalispell,0,,True,False
 WHRP1,First Fork Sinnemahoning Creek at Wharton,0,,True,False
 WHRQ9,White River at kilometer 1881.6 Alaska Hwy near Beaver Creek-Yukon Territory,0,,True,False
