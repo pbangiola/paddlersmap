@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
-SIGI4,North Skunk River near Sigourney,3,KLGI4;LCYI4;MERI4,True,False
-SIGN4,Passaic River at Singac,2,LTFN4;PINN4,True,False
-SILI4,Silver Creek at Silver City (IFC),0,,True,False
-SILN1,Silver Creek near Silver Creek,0,,True,False
-SILO1,Salt Fork at North Salem,0,,True,False
-SILO3,Siletz River at Siletz,1,SCVO3,True,False
-SILS1,Little River near Silver Street,2,IRMS1;LRLS1,True,False
-SILT2,Colorado River (TX) above Silver,5,CCRT2;CDCT2;CLRT2;RELT2;WBRT2,True,False
-SIMC3,Farmington River at Simsbury,2,TARC3;UNVC3,True,False
-SIMS1,Reedy River near Highway 418,2,GVLS1;WRLS1,True,False
-SINF1,Tide Station at Eastern Tip of St George Island (in MHHW),0,,True,False
-SINW4,North Platte River near Sinclair,3,CPRW4;KORW4;SRAW4,True,False
-SIOI4,Perry Creek at Sioux City,1,PCHI4,True,False
-SIOT2,Olmos Creek at Dresden Drive,1,MTST2,True,False
-SIPL1,Breton Sound Basin at Black Bay near Stone Island,0,,True,False
-SIPT2,Sabine River at International Paper,2,DWYT2;TMYT2,True,False
-SIRI2,Pecatonica River near Shirland,2,FEEI2;ROKI2,True,False
-SISF1,Tide Gauge at Crystal River (in MHHW),0,,True,False
-SISW2,Pocatalico River at Sissonville,0,,True,False
-SITF1,Tide Gauge at Selfors Inlet and Preserve,0,,True,False
-SIVN1,Prairie Creek near Silver Creek,0,,True,False
-SIVW1,Stillaguamish River at I-5,0,,True,False
-SIXA2,Sixmile Creek near Hope,0,,True,False
-SIXF1,Sixmile Cypress Creek Near Ft Myers,0,,True,False
 SIXN7,"Six Mile Creek below Marvin Rd, 2 NW Marvin",0,,True,False
 SJBM4,St. Joseph River (MI/IN) at Main Chan. at BL-94 at Benton Harbor,0,,True,False
 SJCC2,San Juan River near Carracas,3,ARCN5;NAVC2;PSPC2,True,False
