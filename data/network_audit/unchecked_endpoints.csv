@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NFRW4,New Fork River above New Fork Lakes near Cora,0,,True,False
-NFSI3,North Fork Salt Creek (IN) at Nashville,1,MONI3,True,False
-NFSM7,North Fork Spring River near Purcell,0,,True,False
-NFSM8,North Fork Sun River near Augusta,0,,True,False
-NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
-NFSW4,North Fork Shoshone River at Wapiti,0,,True,False
-NFTI1,North Fork Teton River near Sugar City,2,REXI1;TEAI1,True,False
-NFVU1,North Fork Virgin River near Springdale,0,,True,False
-NFWO3,NF Walla Walla above Milton Freewater,0,,True,False
-NGCT2,Garcitas Creek near Inez,0,,True,False
-NGET2,Navasota River near Normangee,2,EAST2;HPDT2,True,False
-NGFM3,Quinsigamond River at North Grafton,0,,True,False
-NGIL1,Barataria Bay and Waterway at 13NNE Grand Isle,2,DOSL1;GTEL1,True,False
-NGIP4,Rio Icacos near Naguabo,0,,True,False
-NGKP4,Rio Blanco at Florida,1,LBLP4,True,False
-NGLM2,North Glade Run near Swanton,0,,True,False
-NGRF1,Gordon River near Naples Airport (in MHHW),0,,True,False
-NGRN6,Northrup Creek at North Greece,0,,True,False
-NGTC2,North Platte River near Northgate,3,IRRC2;SRAW4;WDNC2,True,False
-NGTN4,East Branch Bass River at New Gretna,0,,True,False
-NGTT2,Clear Fork Brazos River at Nugent,2,ABYT2;HWLT2,True,False
-NHCN7,New Hope Creek near Blands,0,,True,False
-NHDV1,Ottauquechee River at North Hartland,0,,True,False
-NHHM4,Huron River near New Hudson,1,HMGM4,True,False
-NHKW4,North Horse Creek near Sherman RS,0,,True,False
 NHLN6,Sandy Creek (WNY) at North Hamlin,0,,True,False
 NHMM3,Connecticut River at Northampton,2,HLUM3;MNTM3,True,False
 NHOF1,Tide Station at Marker 14 Near Homosassa,0,,True,False
@@ -228,7 +203,7 @@ NSLN3,Spicket River at North Salem,0,,True,False
 NSNN4,South Branch Raritan River at Neshanic Station,0,,True,False
 NSNS1,North Santee River near North Santee,0,,True,False
 NSOK1,Neosho River near Oswego,2,COMO2;OSWK1,True,False
-NSPN7,New Hope Creek at NC-54,0,,True,False
+NSPN7,New Hope Creek at NC-54,1,NHCN7,True,False
 NSPV1,"Black River at North Springfield, VT",0,,True,False
 NSPW1,North Fork Skokomish River near Potlatch,0,,True,False
 NSRT1,Dry Creek near Edenwold,0,,True,False
@@ -582,7 +557,7 @@ OTCA2,Old Tom Creek near Kasaan,0,,True,False
 OTKA2,Otuk Creek at Ivotuk,0,,True,False
 OTKG1,Oothkalooga Creek at GA 53 Spur at Calhoun,0,,True,False
 OTMI4,Des Moines River at Ottumwa,3,BCOI4;CHII4;KEQI4,True,False
-OTQV1,Ottauquechee River near West Bridgewater,0,,True,False
+OTQV1,Ottauquechee River near West Bridgewater,1,NHDV1,True,False
 OTRI4,Cedar River near Otranto (IFC),2,AGRI4;ASNM5,True,False
 OTRM1,Otter Creek (ME) near Acadia National Park,0,,True,False
 OTRM3,Otter River at Otter River,0,,True,False
@@ -2656,7 +2631,7 @@ SLNT2,Brazos River at US 59,2,RMOT2;ROST2,True,False
 SLOC1,San Luis Rey River at Oceanside,0,,True,False
 SLOF1,Miami Canal at Lake Harbor,0,,True,False
 SLOV2,Bechner Branch at Buchanan,0,,True,False
-SLOW4,Shoshone River near Lovell,0,,True,False
+SLOW4,Shoshone River near Lovell,2,BHRM8;NFSW4,True,False
 SLPA3,Salt River at Priest Road-Tempe,2,SFFA3;SLRA3,True,False
 SLQC1,Salsipuedes Creek at Highway 129,0,,True,False
 SLRA3,Salt River near Roosevelt,3,CHRA3;SLCA3;SLPA3,True,False
@@ -4215,7 +4190,7 @@ WCMW3,Sleighton Creek near Wilton - County Road M,0,,True,False
 WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
 WCNN6,Canisteo River near West Cameron,0,,True,False
 WCNW1,Wind River near Carson,0,,True,False
-WCOM7,Spring River  near Waco,2,BXTK1;CHTM7,True,False
+WCOM7,Spring River  near Waco,3,BXTK1;CHTM7;NFSM7,True,False
 WCPC1,Walnut Creek,0,,True,False
 WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
 WCRC2,Willow Creek (CO) at Willow Creek Reservoir,0,,True,False

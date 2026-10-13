@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NFSI3,North Fork Salt Creek (IN) at Nashville,1,MONI3,True,False
-NFSO3,North Fork Burnt River above Second Creek,1,UNYO3,True,False
-NGKP4,Rio Blanco at Florida,1,LBLP4,True,False
-NHHM4,Huron River near New Hudson,1,HMGM4,True,False
 NINM1,St. John River at Nine Mile Bridge,1,DICM1,True,False
 NISW1,Nisqually River near National,1,MKNW1,True,False
 NIXN2,Truckee River near Nixon,1,WADN2,True,False
@@ -37,6 +33,7 @@ NRWM3,Neponset River at Norwood,1,CANM3,True,False
 NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
 NSFW1,South Fork Nooksack River at Potter Rd,1,HUTW1,True,False
 NSHM8,Milk River at Nashua,1,GLWM8,True,False
+NSPN7,New Hope Creek at NC-54,1,NHCN7,True,False
 NSTN3,Connecticut River at North Stratford,1,DLTN3,True,False
 NTFV2,Catawba Creek near Howell Mills,1,CTWV2,True,False
 NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
@@ -82,6 +79,7 @@ ORLO1,Ottawa River at Lima,1,KALO1,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
 OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
+OTQV1,Ottauquechee River near West Bridgewater,1,NHDV1,True,False
 OTTW3,Wisconsin River above Otter Rapids Dam,1,LTKW3,True,False
 OWBI4,Beaver Creek near Owasa 170th St--IFC,1,EDBI4,True,False
 OWOM4,Shiawassee River at Owosso,1,JTSM4,True,False
