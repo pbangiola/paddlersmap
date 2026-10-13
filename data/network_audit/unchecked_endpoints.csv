@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPGI2,Spring Brook at Naperville (87th Street),0,,True,False
-SPGM3,Connecticut River at Springfield,2,HLYM3;TMVC3,True,False
-SPGN1,Bluestem Lake,0,,True,False
-SPGN4,Rahway River at Springfield,0,,True,False
-SPGN5,Cimarron River (NM) at Springer,2,CMMN5;TYLN5,True,False
-SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
-SPGS2,Missouri River at Springfield,2,GPDN1;MRNN1,True,False
-SPHC1,Sulphur Creek at White Sulphur Springs Road,0,,True,False
-SPHF1,Fisher Creek above Hilliardville on Springhill Road,0,,True,False
-SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
-SPHN7,Tar River at NC581 Nr Spring Hope,0,,True,False
-SPHW1,Stillaguamish River at Pioneer Hwy,0,,True,False
-SPIF1,Tide Station at Shell Point Canal (in MHHW),0,,True,False
-SPII4,Little Sioux River near Spencer / Highway 18,2,LSSI4;SPWI4,True,False
-SPJG1,South Fork Peachtree Creek at Johnson Road near Atlanta,2,AANG1;SFPG1,True,False
-SPKF1,Spring Creek at Spring Creek Park (in NAVD88),0,,True,False
-SPKI3,East Fork White River at Sparksville,0,,True,False
-SPKN1,Niobrara River near Sparks,4,BOXN1;NISN1;NZNN1;VRDN1,True,False
-SPKP1,Little Juniata River at Spruce Creek,0,,True,False
-SPLI4,Turkey River at Spillville,2,FTKI4;SPVI4,True,False
-SPLN1,Middle Loup River near St. Paul,2,GELN1;RCKN1,True,False
-SPMT2,Palo Duro Creek at Spearman,0,,True,False
-SPMV2,Appomattox River near Stony Point Mills,2,FRMV2;MTXV2,True,False
-SPNI3,White River (IN) at Spencer,2,CENI3;ELLI3,True,False
-SPNT2,Spring Creek near Spring,2,HMMT2;LWCT2,True,False
 SPNW2,Bluestone River near Spanishburg,2,BRVV2;PIPW2,True,False
 SPOF1,Tide Station at Saprito Pier,0,,True,False
 SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
@@ -36,7 +11,7 @@ SPRA3,San Pedro River near Redington,1,SPTA3,True,False
 SPRC1,Salinas River near Spreckels,2,CHLC1;SLGC1,True,False
 SPRO3,Mohawk River (OR) near Springfield,0,,True,False
 SPRS2,Spearfish Creek below Spearfish,2,RWRS2;SFHS2,True,False
-SPRT2,Palo Duro Creek at Palo Duro Reservoir,0,,True,False
+SPRT2,Palo Duro Creek at Palo Duro Reservoir,1,SPMT2,True,False
 SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPRW3,Eau Galle River above Spring Valley,0,,True,False
 SPSI1,Spring Creek (Eastern ID) near Fort Hall,0,,True,False
@@ -290,7 +265,7 @@ STVW1,Columbia River at Stevenson,1,LWWW1,True,False
 STWG1,Sweetwater Creek (E ATL) at Club Drive near Lilburn,0,,True,False
 STWN2,Carson River near Carson City,2,DRRN2;GRDN2,True,False
 STWT1,Caney Fork at Stonewall,0,,True,False
-STWW1,Stillaguamish River near Stanwood,0,,True,False
+STWW1,Stillaguamish River near Stanwood,1,SPHW1,True,False
 STXA1,Styx River near Elsanor,0,,True,False
 STXM7,Sac River at Stockton Dam,0,,True,False
 STXM8,Bighorn River near St. Xavier,2,BHRM8;SXVM8,True,False
@@ -679,7 +654,7 @@ TLVA2,Tolovana River near Livengood,0,,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
 TMAI4,Iowa River near Tama Hwy E49,3,MIWI4;MTWI4;TAMI4,True,False
 TMBI4,Bennett Creek near Tama G Ave--IFC,0,,True,False
-TMBT2,Spring Creek at Tomball,0,,True,False
+TMBT2,Spring Creek at Tomball,1,SPNT2,True,False
 TMCC2,Tomichi Creek at Sargents,0,,True,False
 TMCK2,Twelvemile Creek near Alexandria,0,,True,False
 TMCM5,12 Mile Creek above Wheaton,0,,True,False

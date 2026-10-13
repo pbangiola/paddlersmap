@@ -1,9 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
-SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
 SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
 SPPA3,San Pedro River near Palominas,1,SAPA3,True,False
 SPRA3,San Pedro River near Redington,1,SPTA3,True,False
+SPRT2,Palo Duro Creek at Palo Duro Reservoir,1,SPMT2,True,False
 SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
 SRBS1,Salkehatchie River near Barnwell,1,MILS1,True,False
@@ -50,6 +49,7 @@ STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STVW1,Columbia River at Stevenson,1,LWWW1,True,False
+STWW1,Stillaguamish River near Stanwood,1,SPHW1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
 SUCI1,Succor Creek near Homedale,1,SCJO3,True,False
 SUDA2,Susitna River near Denali,1,SCTA2,True,False
@@ -95,6 +95,7 @@ TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
 TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,1,GASO3,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
+TMBT2,Spring Creek at Tomball,1,SPNT2,True,False
 TMSC1,San Tomas Aquino Creek above Williams Road,1,EAMC1,True,False
 TNGK1,Stranger Creek near Tonganoxie,1,ESTK1,True,False
 TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
