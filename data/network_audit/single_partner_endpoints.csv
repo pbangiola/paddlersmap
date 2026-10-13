@@ -1,11 +1,8 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TCFP1,Towanda Creek at Franklindale,1,MONP1,True,False
-TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
-TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
-TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
 TCRI3,Trail Creek at Michigan City,1,MGNI3,True,False
 TCSI3,Turkey Creek (IN) at Schererville,1,MTCI3,True,False
 TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
+TCVN7,Town Creek at U.S. Highway 17,1,TCLN7,True,False
 TDFS2,Spring Creek near Hill City,1,KSTS2,True,False
 TECL1,Bayou Teche near Port Barre,1,BCDL1,True,False
 TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
@@ -42,6 +39,7 @@ TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
 TRVN7,Tar River near Tar River,1,LOUN7,True,False
 TRYM7,Cuivre River at Troy,1,OMNM7,True,False
 TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
+TRZF1,Trout Creek at Chancey Rd at Wesley Chapel,1,TCWF1,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSCK1,Saline River (KS) at Tescott,1,LINK1,True,False
 TSFM8,Teton River near Choteau below South Fork,1,TCHM8,True,False
@@ -73,6 +71,7 @@ UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
 URVO1,Stillwater Creek at Uhrichsville,1,TPPO1,True,False
 USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
 UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
+UTOO1,Ottawa River at University of Toledo,1,TCSO1,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 UVBC1,Uvas Creek below Uvas Reservoir,1,LUVC1,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False

@@ -1,38 +1,13 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TCFP1,Towanda Creek at Franklindale,1,MONP1,True,False
-TCGF1,Taylor Creek at Grassy Island,0,,True,False
-TCGI4,Turkey River near Cresco (IFC),1,SPVI4,True,False
-TCGM6,Turkey Creek (MS) at Airport Road at Gulfport,0,,True,False
-TCHM8,Teton River above Teton River abv Hwy 221 bridge,2,DTTM8;TSFM8,True,False
-TCHW1,Walla Walla River near Touchet,0,,True,False
-TCIW3,Tri Creek near Norwalk - Dam Inlet,0,,True,False
-TCKA3,Trout Creek above Knight Creek,0,,True,False
-TCKF1,Trout Creek at Bruce B Downs Blvd Near Sulphur Springs,0,,True,False
-TCKI1,Trail Creek (ID) at Ketchum,1,EFGI1,True,False
-TCKM7,Turkey Creek (MO) at Hollister,0,,True,False
-TCKW4,Tantalus Creek at Norris Junction,0,,True,False
-TCLA1,Black Warrior River at Holt Lock and Dam,2,BLDA1;TODA1,True,False
-TCLF1,Thomas Creek (FL) at SR 115 near Callahan (in NAVD88),0,,True,False
-TCLN7,Town Creek at NC Route 133,2,BSBN7;STHN7,True,False
-TCMF1,Trout Creek Marina near St. Johns River (in MHHW),0,,True,False
-TCMO1,Tenmile Creek at Mitchaw,0,,True,False
-TCMO2,Little River (OK) near Tecumseh,2,NLRO2;SASO2,True,False
-TCNI3,Tippecanoe River at Norway,2,MCXI3;NWYI3,True,False
-TCOI1,Trapper Creek near Oakley,0,,True,False
-TCOW3,Tri Creek near Norwalk - Dam Outlet,0,,True,False
-TCPC1,Amargosa River near Tecopa,0,,True,False
-TCPM8,Tank Coulee,0,,True,False
-TCRC1,Thomes Creek at Paskenta,1,DCVC1,True,False
-TCRF1,Townsend Canal near Alva,0,,True,False
 TCRI3,Trail Creek at Michigan City,1,MGNI3,True,False
 TCRK1,Tomahawk Creek at Roe Avenue,0,,True,False
 TCRM1,Nezinscot River at Turner Center,0,,True,False
 TCRN7,Tank Creek at Reilly Rd at Ft Bragg,0,,True,False
 TCSI3,Turkey Creek (IN) at Schererville,1,MTCI3,True,False
-TCSO1,Tenmile Creek at Silica,0,,True,False
+TCSO1,Tenmile Creek at Silica,2,TCMO1;UTOO1,True,False
 TCTS2,Turtle Creek near Tulare,1,IDBS2,True,False
-TCVN7,Town Creek at U.S. Highway 17,0,,True,False
-TCWF1,Trout Creek at Wesley Chapel,0,,True,False
+TCVN7,Town Creek at U.S. Highway 17,1,TCLN7,True,False
+TCWF1,Trout Creek at Wesley Chapel,2,TCKF1;TRZF1,True,False
 TCYF1,Cypress Creek Tributary Near Wesley Chapel,0,,True,False
 TDAO3,Columbia River at The Dalles Dam,0,,True,False
 TDAW1,North Fork Touchet River above Dayton,0,,True,False
@@ -358,7 +333,7 @@ TRYM8,Yaak River near Troy,0,,True,False
 TRYN6,Hudson River at Troy,2,ALBN6;WTFN6,True,False
 TRYO1,Great Miami River at Troy,2,PIQO1;TAYO1,True,False
 TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
-TRZF1,Trout Creek at Chancey Rd at Wesley Chapel,0,,True,False
+TRZF1,Trout Creek at Chancey Rd at Wesley Chapel,1,TCWF1,True,False
 TRZN2,Carson River near Fallon,1,CBLN2,True,False
 TSBN7,Banks Channel at Topsail Beach,0,,True,False
 TSCA3,Santa Cruz River at Congress Street,2,CSCA3;SCCA3,True,False
@@ -533,7 +508,7 @@ UTEN5,Canadian River at Ute Lake,0,,True,False
 UTFV2,Flat Branch near Unnamed Tributary At Amherst Drive,0,,True,False
 UTHC1,Upper Truckee River above Meyers,0,,True,False
 UTHP4,Rio Tanama near Utuado,0,,True,False
-UTOO1,Ottawa River at University of Toledo,0,,True,False
+UTOO1,Ottawa River at University of Toledo,1,TCSO1,True,False
 UTQA2,Utqiagvik tide gage,0,,True,False
 UTRC1,Upper Truckee River at South Lake Tahoe,0,,True,False
 UTRS1,Upper Three Runs near New Ellenton,0,,True,False
