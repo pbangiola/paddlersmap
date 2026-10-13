@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SGFO1,Mad River near Springfield,3,CJBO1;EAGO1;MRDO1,True,False
-SGGC1,San Gabriel River (CA) at Spring Street,0,,True,False
-SGGT2,Guadalupe River at FM 1117 near Seguin,2,GWGT2;SEGT2,True,False
-SGHT2,"San Geronimo Creek near Helotes, TX",0,,True,False
-SGKF1,Tide Station at Spring Creek Boat Ramp (in MHHW),0,,True,False
-SGLA2,[INACTIVE] Solomon Gulch at Top of Falls near Valdez,0,,True,False
-SGLT1,Fighting Creek above Sugarlands,0,,True,False
-SGNC1,Sagehen Creek nr Truckee,0,,True,False
-SGNT2,Tide Station (HGX) at Sargent,0,,True,False
-SGOT2,Pecan Creek (Concho River Basin) near San Angelo,0,,True,False
-SGRA2,Sagavanirktok River near Pump Station 3,0,,True,False
-SGRW1,Spokane River below Green St at Spokane,2,PTFI1;SPOW1,True,False
-SGSM2,St. George Creek at Straits Point (IN MLLW),0,,True,False
-SGTC1,Salinas River below Santa Margarita Lake,1,PRBC1,True,False
-SGTI3,Sugar Creek (IN) near Thorntown,2,CRWI3;PCLI3,True,False
-SGVP1,Codorus Creek at Spring Grove,0,,True,False
-SGWN7,Watauga River near Sugar Grove,2,FOSN7;WTGT1,True,False
-SGWO3,Glenn Creek at Wallace Road,0,,True,False
-SHAM8,Musselshell River near Shawmut,2,HLWM8;LVNM8,True,False
-SHAS2,Shadehill Reservoir,3,CSHS2;GRAS2;LIES2,True,False
-SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
-SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
-SHAW1,Baker River at Concrete,0,,True,False
-SHAW3,Wolf River (WI) near Shawano,2,LGLW3;SHIW3,True,False
-SHBL1,Tide Station (LIX) near Shell Beach (IN MHHW),2,NWCL1;PSTL1,True,False
 SHBM6,Chickasawhay River at Shubuta,2,QTMM6;WYNM6,True,False
 SHBN4,Great Channel at Stone Harbor (IN MLLW),0,,True,False
 SHBN6,Chenango River at Sherburne,1,NWHN6,True,False
@@ -587,7 +562,7 @@ SSDW3,Peshtigo River at Sandstone Dam,2,JOFW3;PFDW3,True,False
 SSFN7,Cashie River at Sans Souci Ferry,0,,True,False
 SSFO3,S. Santiam River near Foster,2,GPRO3;WTLO3,True,False
 SSFW1,South Fork Stillaguamish River at Jordan Rd. Bridge,2,ARLW1;GFLW1,True,False
-SSGC1,San Gabriel River (CA) at Parkway,0,,True,False
+SSGC1,San Gabriel River (CA) at Parkway,1,SGGC1,True,False
 SSIM5,Lake of the Woods at Spring Steel Island near Warroad,0,,True,False
 SSIW1,SF Stillaguamish R at Silverton,0,,True,False
 SSJI2,Spoon River (E-IL) near St. Joseph,0,,True,False
@@ -679,7 +654,7 @@ STNN7,Contentnea Creek near Stantonsburg,0,,True,False
 STOM2,Stony Run at Loyola University in Baltimore,0,,True,False
 STOM5,"Stony River near Babbitt, Tomahawk Rd",0,,True,False
 STON7,Stony Creek near Rocky Mount,0,,True,False
-STPC1,Stampede Reservoir,1,BCVC1,True,False
+STPC1,Stampede Reservoir,2,BCVC1;SGNC1,True,False
 STPI3,Flatrock River at St. Paul,2,FLCI3;RSHI3,True,False
 STPM5,Mississippi River at St. Paul,3,FSNM5;HSTM5;MSPM5,True,False
 STPN7,Cape Fear River at W.O. Huske Lock,2,ELZN7;FAYN7,True,False
@@ -2491,7 +2466,7 @@ YREC1,Shasta River near Yreka,0,,True,False
 YRGA2,Yukon River at Grayling,0,,True,False
 YRII4,Yellow River near Ion,0,,True,False
 YRKI2,Blackberry Creek at Yorkville,2,BBMI2;DAYI2,True,False
-YRKP1,Central PA Dams  Indian Rock Dam on Codorus Creek,2,CRWP1;KNZP1,True,False
+YRKP1,Central PA Dams  Indian Rock Dam on Codorus Creek,3,CRWP1;KNZP1;SGVP1,True,False
 YRSM6,Yazoo River at Satartia,0,,True,False
 YRYO3,Yachats River near Yachats,0,,True,False
 YSSA2,[INACTIVE] Yentna River near Susitna Station,2,SUSA2;YSTA2,True,False

@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SGTC1,Salinas River below Santa Margarita Lake,1,PRBC1,True,False
-SHAT2,North Fork of the Red River at Shamrock,1,SAYO2,True,False
-SHAV2,South Fork Roanoke River near Shawsville,1,LAAV2,True,False
 SHBN6,Chenango River at Sherburne,1,NWHN6,True,False
 SHEC1,Napa River near St. Helena,1,APCC1,True,False
 SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
@@ -76,6 +73,7 @@ SRTM5,Swan River near Taconite,1,JACM5,True,False
 SRUT2,San Marcos River at San Marcos,1,SMRT2,True,False
 SRVC1,Santa Ana River at Santa Ana,1,MWXC1,True,False
 SSBT2,San Saba River at San Saba,1,BSST2,True,False
+SSGC1,San Gabriel River (CA) at Parkway,1,SGGC1,True,False
 SSMT2,Seco Creek at Miller Ranch near Utopia,1,SCRT2,True,False
 SSNM8,South Fork Sun River near Augusta,1,AGSM8,True,False
 SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
@@ -97,7 +95,6 @@ STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
 STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
 STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
 STND1,Red Clay Creek at Stanton,1,RCCD1,True,False
-STPC1,Stampede Reservoir,1,BCVC1,True,False
 STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
 STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
