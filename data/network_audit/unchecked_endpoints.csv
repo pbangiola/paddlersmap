@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-UBLA2,Ublutuoch River near Nuiqsut,0,,True,False
-UBNI4,North Walnut Creek at Urbandale 92nd Dr,0,,True,False
-UBNO1,Mad River near Urbana,2,EAGO1;WLBO1,True,False
-UBWI4,Walnut Creek at Urbandale 142nd St,2,CWAI4;WCBI4,True,False
-UCAC1,Salinas River at San Lucas Bridge,2,BRDC1;KCBC1,True,False
-UCAN6,Mohawk River at Utica,2,DDMN6;LTLN6,True,False
-UCDP1,French Creek at Union City Dam,2,CBSP1;UCTP1,True,False
-UCHA2,Chena River near Two Rivers,1,CRHA2,True,False
-UCLO1,Euclid Creek at Cleveland,2,EUCO1;RCMO1,True,False
-UCRA2,Chickaloon River 1.5 miles above confluence with Mystery Creek near Sterling,0,,True,False
-UCRC2,Uncompahgre River near Ridgway,1,UNRC2,True,False
-UCTN7,Walnut Creek above Cary Towne,1,BKJN7,True,False
-UCTP1,French Creek above Union City Lake,3,LVLP1;UCDP1;WTTP1,True,False
-UDET2,Frio River below Dry Frio near Uvalde,2,CNCT2;DBYT2,True,False
-UEHN1,Logan Creek at Uehling,1,PEDN1,True,False
-UGGC1,Smugglers Gulch at International Border,0,,True,False
-UGRL1,Upper Grand River near Plaquemine,0,,True,False
-UHGM6,Yalobusha River at Holcomb,2,GRYM6;YWGM6,True,False
-UIDI4,Upper Iowa River near Decorah (IFC),2,BLFI4;DEHI4,True,False
-UINI2,Mississippi River at Quincy,2,LGRM7;QLDI2,True,False
-UION1,Weeping Water Creek at Union,0,,True,False
-UJCV2,Upper Johns Creek below Maggie,0,,True,False
-UKAC1,Russian River near Ukiah,0,,True,False
-UKRN1,Maple Creek near North Bend,0,,True,False
-UKVI4,Upper Iowa River at Kendallville (IFC),2,BLFI4;ULSI4,True,False
 ULLM8,Smith River (MT) at Truly,0,,True,False
 ULMM8,Missouri River near Ulm,3,CASM8;EDNM8;GFLM8,True,False
 ULNC1,Paulin Creek at Chanate Rd d/s Piner Reservoir,0,,True,False
@@ -59,7 +34,7 @@ UPCC1,Upper Penitencia Creek at Piedmont Road,0,,True,False
 UPCN7,Walnut Creek at Clay St,0,,True,False
 UPPO1,Sandusky River near Upper Sandusky,2,BCYO1;TFFO1,True,False
 UPRM2,Western Branch at Upper Marlboro,0,,True,False
-URBI4,North Walnut Creek at Urbandale Hickman Rd--IFC,0,,True,False
+URBI4,North Walnut Creek at Urbandale Hickman Rd--IFC,2,UBNI4;WNDI4,True,False
 URCS2,Rabbit Creek at Usta Road,0,,True,False
 URHM7,South Grand River near Urich,0,,True,False
 URRU1,Uinta River at Randlett,0,,True,False
@@ -747,7 +722,7 @@ WNBN7,MF SF New River at U.S. 221/321,0,,True,False
 WNCN6,Walnut Creek (NY) at Silver Creek,0,,True,False
 WNCV2,West Neck Creek near Mapleton,0,,True,False
 WNCW3,Wolf River (WI) near Lake Poygan,1,NEWW3,True,False
-WNDI4,North Walnut Creek at Windsor Heights College Dr--IFC,0,,True,False
+WNDI4,North Walnut Creek at Windsor Heights College Dr--IFC,2,DOSI4;URBI4,True,False
 WNDM3,Millers River at Winchendon,0,,True,False
 WNDN7,Cashie River near Windsor,0,,True,False
 WNDQ3,Pembina River near Windygates,2,PLRQ3;WLHN8,True,False
