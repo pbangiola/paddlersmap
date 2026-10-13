@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WOGS2,White River (NE-SD) near Oglala,2,IRRS2;NEBS2,True,False
-WOLM2,Dead Run Tributary at Woodlawn,0,,True,False
-WOLM4,Sturgeon River at Wolverine,0,,True,False
-WOLV2,Wolf Creek near Narrows,0,,True,False
-WONI4,Wonder Creek near Spillville,0,,True,False
-WONN7,Chowan River near Winton @ US 13,0,,True,False
-WOOC1,West Fork Carson River at Woodfords,0,,True,False
-WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
-WOOM6,Buffalo River at Woodville,0,,True,False
-WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
-WOON3,Pemigewasset River at Woodstock,2,LINN3;PLMN3,True,False
-WOOR1,Blackstone River at Woonsocket,1,NBRM3,True,False
-WOOU1,Provo River near Woodland,0,,True,False
-WOPU1,Price River above Woodside,0,,True,False
-WORC2,Muddy Creek (NC CO) at Wolford Mountain Reservoir,0,,True,False
-WORF1,Santa Fe River at Worthington Springs (in NAVD88),4,GRMF1;NRBF1;OLPF1;SSSF1,True,False
-WORI2,West Okaw River near Lovington,0,,True,False
-WORI3,White River (IN) near Worthington,0,,True,False
-WOWM6,White Oak Creek at Westbrook Road /Jackson,0,,True,False
-WOXV2,Horsepen Run above Oak Hill (West Ox Road Regional Pond),0,,True,False
-WPAW4,South Piney Creek above Willow Park Reservior,0,,True,False
-WPCC2,West Plum Creek (CO) above Sedalia,0,,True,False
-WPCK2,Woolper Creek near Burlington,0,,True,False
-WPCM4,West Fork Portage Creek at Kalamazoo,2,PCKM4;PCOM4,True,False
-WPCW1,White River at Pacific,2,WABW1;WSTW1,True,False
 WPCW3,Waupaca River near Waupaca,0,,True,False
 WPGM6,Pascagoula River at U. S. Highway 90 at Gautier,0,,True,False
 WPHL1,Mississippi River at West Pointe a la Hache,2,EMPL1;MRAL1,True,False
