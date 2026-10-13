@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
-TJAC1,Tijuana River near San Ysidro,0,,True,False
-TJBC1,Tassajara Creek Below Interstate 580,0,,True,False
-TJBN5,Rio Grande below Taos,3,CERN5;EMBN5;TBCN5,True,False
-TJCC1,Big Tujunga Creek below Hansen Dam,0,,True,False
-TJDO1,Sunday Creek at Tom Jenkins Dam (Burr Oak Lake),0,,True,False
-TJLO1,Sunday Creek at Tom Jenkins Dam,1,SUNO1,True,False
-TJOO2,Joe Creek at Tulsa 6SSE / 61st St.,0,,True,False
-TKDW3,Wisconsin River below Tomahawk Dam,5,GRFW3;JERW3;KNGW3;RRVW3;SPDW3,True,False
-TKLT2,Spring Creek (Concho River Basin) above Tankersley,0,,True,False
-TKMM2,Northwest Branch Anacostia River at Adelphi Mill,0,,True,False
-TKPM2,Sligo Creek near Takoma Park,0,,True,False
-TKPN6,Hudson River near Turkey Point,0,,True,False
-TKRG1,Talking Rock Creek near Hinton,0,,True,False
-TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
-TKSN4,Delaware River at Tocks Island,2,BVDN4;MTGN4,True,False
-TKSN7,"Tuckasegee River below Everett St, in Bryson City",4,BIRN7;BRYN7;DILN7;FONN7,True,False
-TKST2,Middle Concho River above Tankersley,0,,True,False
-TKSV2,Glade Creek at Smith Cemetary,0,,True,False
-TKTA2,Talkeetna River at Alaska Railroad Bridge 227.1 at Talkeetna,0,,True,False
-TKTN4,Little Egg Inlet at Tuckerton (IN MLLW),0,,True,False
-TKUA2,Taku River near Juneau,0,,True,False
-TKYA1,Turkey Creek near Pinson,0,,True,False
-TKZA2,Takatz Creek at Takatz Lake Outlet near Baranof,0,,True,False
-TKZM7,Osage River at Truman Dam,2,LKSM7;TBVM7,True,False
 TLAG1,Tallapoosa River at US 78 near Tallapoosa,0,,True,False
 TLBM8,Bighorn River at Two Leggins Bridge,2,BGHM8;SXVM8,True,False
 TLCN5,Tularosa Creek near Bent,0,,True,False
@@ -215,7 +190,7 @@ TRSC1,Tice Creek at Rossmoor Basin,0,,True,False
 TRSM5,Tamarac River near Stephen (CSAH22),2,DRTN8;TAMM5,True,False
 TRSO3,Thomas Creek near Scio,0,,True,False
 TRST2,North Wichita River near Truscott,0,,True,False
-TRTA2,Talkeetna River near Talkeetna,0,,True,False
+TRTA2,Talkeetna River near Talkeetna,1,TKTA2,True,False
 TRTC1,Truckee River at Tahoe City,2,THLC1;TRCC1,True,False
 TRTG1,Tallulah River above Plum Orchard Rd 6 NW Tiger,0,,True,False
 TRTL1,Tangipahoa River near Tickfaw,0,,True,False

@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
-TJLO1,Sunday Creek at Tom Jenkins Dam,1,SUNO1,True,False
-TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
 TLFO3,Tualatin River below Lee Falls nr Gaston 6WNW,1,GASO3,True,False
 TLLK2,Middle Fork Kentucky River near Tallega,1,BUCK2,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
@@ -24,6 +21,7 @@ TRGM5,Thief River at Agassiz NWR near Gatzke,1,AGDM5,True,False
 TRIW3,Spirit River near Spirit Falls,1,SPDW3,True,False
 TRKC2,Tarryall Creek below Jefferson,1,ALLC2,True,False
 TRPM5,South Branch Two Rivers River at Pelan (MN11),1,LBRM5,True,False
+TRTA2,Talkeetna River near Talkeetna,1,TKTA2,True,False
 TRVN7,Tar River near Tar River,1,LOUN7,True,False
 TRYM7,Cuivre River at Troy,1,OMNM7,True,False
 TRYO3,Grande Ronde River at Troy,1,LGNO3,True,False
