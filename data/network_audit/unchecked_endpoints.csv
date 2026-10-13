@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WDBC1,Walnut Creek at Diamond Blvd Bridge,0,,True,False
-WDCA2,Jack Wade Creek at MP 85 Taylor Hwy near Chicken,1,WADA2,True,False
-WDCF1,Tide Gauge at Weedon Island (in MHHW),0,,True,False
-WDCG1,Woodall Creek at Defoors Ferry Road at Atlanta,0,,True,False
-WDCN7,Dutch Creek at Broadstone Road ,0,,True,False
-WDEM3,Deerfield River at West Deerfield,0,,True,False
-WDEW3,Wisconsin River at Wisconsin Dells,4,CROW3;NLSW3;PORW3;WRMW3,True,False
-WDGO2,North Canadian River near Woodward,2,SEIO2;WDWO2,True,False
-WDHK2,Green River (KY) above Woodbury,3,BNWK2;BWGK2;RCHK2,True,False
-WDHN2,Owyhee River at Wildhorse Dam,1,OGCN2,True,False
-WDKC1,Ward Creek above Sunnyside,0,,True,False
-WDLA1,Tallapoosa River at Wadley,2,HBPA1;MHDA1,True,False
-WDLM2,Dead Run Tributary near Woodlawn,0,,True,False
-WDMG1,Oconee River at Lake Oconee,2,PNFG1;SNCG1,True,False
-WDMI4,Raccoon River near West Des Moines,2,DMWI4;VNMI4,True,False
-WDNC2,Michigan River (CO) at Walden,1,NGTC2,True,False
-WDNF1,Whidden Creek at US 17 Near Fort Meade,0,,True,False
-WDNM2,Dead Run at Woodlawn,0,,True,False
-WDOM5,West Fork Des Moines River above Windom,2,AVOM5;JCKM5,True,False
-WDPV2,Wilcox Lake Dam at Petersburg,0,,True,False
-WDRA3,Little Colorado River at Woodruff,2,LCSA3;LHBA3,True,False
-WDRF1,Apalachicola River at Woodruff Dam (in NGVD29),3,BGEG1;CHAF1;COLA1,True,False
-WDRI1,Malad River at WOODRUFF,0,,True,False
-WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False
-WDRW3,Yahara River at Windsor,1,MDAW3,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
 WDSC1,Russian River near Windsor,0,,True,False
 WDSI2,Salt Creek (IL) at Wood Dale,2,EMHI2;EVGI2,True,False
