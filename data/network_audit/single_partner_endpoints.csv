@@ -1,11 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PKPM8,Prickly Pear Creek near Clancy,1,HVDM8,True,False
-PKRS2,West Fork Vermillion River near Parker,1,VRCS2,True,False
-PKTO1,Scioto River at Piketon,1,HIGO1,True,False
-PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
-PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
-PLCM7,Platte River near Platte City,1,SSTM7,True,False
-PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
 PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
 PLMN3,Pemigewasset River at Plymouth,1,WOON3,True,False
 PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
@@ -147,6 +140,7 @@ RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
 RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
 RWDN4,Saddle River at Ridgewood,1,LODN4,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
+RYNO1,Blacklick Creek at Reynoldsburg,1,PKNO1,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
 SAAT2,Medina River at San Antonio US 281S,1,MMDT2,True,False
 SACT2,Salado Creek at Loop 13,1,SSCT2,True,False

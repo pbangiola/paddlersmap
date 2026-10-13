@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PKMS1,Reedy River at Parkins Mill Rd.,0,,True,False
-PKNO1,Blacklick Creek at Pickerington,0,,True,False
-PKPM8,Prickly Pear Creek near Clancy,1,HVDM8,True,False
-PKRN4,Pascack River at Park Ridge,0,,True,False
-PKRS2,West Fork Vermillion River near Parker,1,VRCS2,True,False
-PKSH1,Pukele Stream near Honolulu,0,,True,False
-PKTM2,Gunpowder Falls near Parkton,0,,True,False
-PKTO1,Scioto River at Piketon,1,HIGO1,True,False
-PKVF1,Park Avenue Drainage at Violet Street (in NAVD88),0,,True,False
-PKVK1,Neosho River near Parkerville,1,CNGK1,True,False
-PKVM7,Missouri River above Parkville,2,KCDM7;LEVK1,True,False
-PKWC1,Packwood Creek  Jackson Ranch,0,,True,False
-PKYK2,Levisa Fork at Pikeville,3,ELKK2;FTLK2;PSTK2,True,False
-PLAL1,Lake Pontchartrain at Lakefront Airport,0,,True,False
-PLAM6,Pearl River near Philadelphia/at Burnside,1,ENBM6,True,False
-PLBM5,Long Prairie River at Philbrook,0,,True,False
-PLCM7,Platte River near Platte City,1,SSTM7,True,False
-PLCW1,Pilchuck Creek above Pilchuck Creek,0,,True,False
-PLDI1,Eastern Idaho Reservoirs at Palisades,1,PALI1,True,False
-PLDN1,Twin Lakes Reservoir,0,,True,False
-PLEI1,Payette River at Letha,2,EMMI1;PRPI1,True,False
-PLEI4,Spring Creek near Pleasant Hill SE 32nd Ave--IFC,0,,True,False
-PLEL1,Pearl River at Lock #3 Chamber,0,,True,False
-PLFA3,Paria River at Lees Ferry,0,,True,False
-PLGA4,L'Anguille River at Palestine,2,COTA4;LAMA4,True,False
 PLGF1,Palatlakaha River at Cherry Lk nr Groveland,0,,True,False
 PLGM4,Pilgrim River at Paradise Road,0,,True,False
 PLGM5,Crow Wing River near Pillager,4,FTRM5;LFEM5;LGPM5;NIMM5,True,False
@@ -1033,7 +1008,7 @@ RYEF1,Manatee River at Rye Bridge,2,MTDF1;MTRF1,True,False
 RYET2,Menard Creek near Rye,0,,True,False
 RYGO3,Rogue River below Gold Ray Dam,2,EGLO3;GRAO3,True,False
 RYLV2,Rabbit Branch at Royal Lake in Burke,0,,True,False
-RYNO1,Blacklick Creek at Reynoldsburg,0,,True,False
+RYNO1,Blacklick Creek at Reynoldsburg,1,PKNO1,True,False
 RYPN6,Long Island Sound at Rye (IN MLLW),0,,True,False
 RYVN6,Raquette River at Raymondville,2,MSPN6;SCLN6,True,False
 RZLI3,Iroquois River at Rensselaer,1,FSMI3,True,False
