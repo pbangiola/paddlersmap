@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WCCP1,West Conewago Creek at East Berlin,1,MANP1,True,False
-WCCS1,Wildcat Creek below Rock Hill,0,,True,False
-WCCS2,Willow Creek near Crooks,0,,True,False
-WCCV2,Cedar Creek (VA) near Winchester,0,,True,False
-WCDN7,Wolf Creek (NC) at WOLF CREEK DAM,0,,True,False
-WCDP1,Woodcock Creek at Woodcock Creek Dam Outflow,2,MEAP1;MEDP1,True,False
-WCDV2,West Creek near Denaro,0,,True,False
-WCEG1,Whitewater Creek near Northwest Fayetteville,0,,True,False
-WCEL1,Amite River Basin at Ward Creek near Inniswold,0,,True,False
-WCFO3,Willamette River at Canby Ferry near Canby,2,NEBO3;OCUO3,True,False
-WCFW2,Clear Fork (Big Coal) at Whitesville,1,ASHW2,True,False
-WCGU1,South Willow Creek above Grantsville,0,,True,False
-WCHM3,Aberjona River at Winchester,0,,True,False
-WCHM8,Willow Creek (Southwest MT) near Harrison,0,,True,False
-WCHT2,Colorado River (TX) at Winchell,2,SNBT2;STYT2,True,False
-WCHW1,Sauk River above White Chuck R,1,SAKW1,True,False
-WCIC1,West Canal at Clifton Court Intake,0,,True,False
-WCIF1,Tide Gauge at Yankeetown (in MHHW),1,WIGF1,True,False
-WCIN7,Walnut Creek Upstream of I-40,0,,True,False
-WCKC2,Willow Creek (CO) below Willow Creek Reservoir,0,,True,False
-WCKG1,West Chickamauga Creek at GA 146 near Lakeview,0,,True,False
-WCKO3,Willow Creek (SE Oregon) near Vale,0,,True,False
-WCKV2,Piankatank River above Wharf Creek near Hudgins VA (IN MLLW),0,,True,False
-WCLA3,West Clear Creek near Camp Verde,2,VCVA3;WBVA3,True,False
-WCLF1,Wacissa River near Wacissa,0,,True,False
 WCLN3,Sugar River (NH) at West Claremont,1,SCFN3,True,False
 WCLO1,Wills Creek at Wills Creek Dam Pool,2,CDIO1;WLLO1,True,False
 WCLO3,Winberry Creek at Winberry Creek,0,,True,False
@@ -41,7 +16,7 @@ WCRM7,Wilson Creek near Springfield,0,,True,False
 WCRN6,Canisteo River at West Cameron,2,ASTN6;HORN6,True,False
 WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
 WCSA2,West Creek near Skagway,1,TYAA2,True,False
-WCSG1,Whitewater Creek near Southwest Fayetteville,0,,True,False
+WCSG1,Whitewater Creek near Southwest Fayetteville,1,WCEG1,True,False
 WCSI4,Willow Creek near Soldier,0,,True,False
 WCTC1,Wildcat Creek at Vale Rd Bridge,0,,True,False
 WCTO3,Wagner Creek at Talent,0,,True,False
