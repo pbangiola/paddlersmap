@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TMVC3,Connecticut River at Thompsonville,2,HFDC3;SPGM3,True,False
-TMVN7,Valley River at Tomotla,2,ANVN7;HIWN7,True,False
-TMYT2,Sabine River at I-10,2,ORNT2;SIPT2,True,False
-TNAW1,Teanaway River near Cle Elum,0,,True,False
-TNCF1,Courtney Campbell Causeway Trail North (in MHHW),0,,True,False
-TNCM8,South Fork Flathead River above Twin Creek near Hungry Horse,0,,True,False
-TNGK1,Stranger Creek near Tonganoxie,1,ESTK1,True,False
-TNGT2,Terlingua Creek 7 miles S of Terlingua,0,,True,False
-TNKP1,Tunkhannock Creek at Tunkhannock,0,,True,False
-TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
-TNLT2,San Miguel Creek near Tilden,0,,True,False
-TNMF1,Tide Gauge at Tarpon Point Marina (In MHHW),0,,True,False
-TNMM3,Mill River at Taunton,0,,True,False
-TNRA3,Tonto Creek near Roosevelt,0,,True,False
-TNRK1,Kansas River at Turner Bridge,0,,True,False
-TNTN2,Truckee River near Tracy,3,NTDN2;TBDN2;VISN2,True,False
-TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
-TNTP1,Tionesta Creek at Tionesta Dam Tailwater,1,TIOP1,True,False
-TNUA2,Tununak Tidal Gauge at Tununak (MHHW datum),0,,True,False
-TNYN6,Little Salmon River at Mount near Texas NY,0,,True,False
-TNZM7,North Fork White River near Tecumseh,0,,True,False
-TOAP4,Rio De La Plata near Toa Alta,1,NASP4,True,False
-TOBG1,Tobesofkee Creek near Macon,0,,True,False
-TODA1,Black Warrior River at Oliver Lock and Dam,2,TCLA1;WLDA1,True,False
-TODA4,Arkansas River at Toad Suck Lock and Dam,2,LITA4;MORA4,True,False
 TOGA2,Togiak River near Togiak,0,,True,False
 TOLF1,Tolomato River above St. Augustine Airport (in MHHW),0,,True,False
 TOLI4,Deer Creek near Toledo,0,,True,False
