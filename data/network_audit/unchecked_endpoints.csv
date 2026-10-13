@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
-WHIW1,White River near Plain,0,,True,False
-WHIW3,Trempealeau River at Whitehall,3,IDPW3;PIGW3;TBLW3,True,False
-WHKP1,Allegheny River at West Hickory,2,FRKP1;WRRP1,True,False
-WHLI3,Muscatatuck River at Wheeler Hollow,0,,True,False
-WHLN1,South Omaha Creek at Walthill,0,,True,False
-WHLR1,Atlantic Coast at Watch Hill Cove (IN MLLW),0,,True,False
-WHLW2,Ohio River at Pike Island Lock and Dam,2,WELW2;WLGW2,True,False
-WHLW4,North Platte River below Whalen Dam,0,,True,False
-WHMK2,Nolin River at White Mills,2,HGVK2;NOLK2,True,False
-WHMM2,Whitemarsh Run at White Marsh,0,,True,False
-WHMS1,Enoree River at Whitmire,0,,True,False
-WHMV2,N Fork Holston River at White Mills 2N,1,SALV2,True,False
-WHNI3,White River (IN) at 146th Street near Noblesville,5,CCNI3;NBLI3;NMSI3;NORI3;SCNI3,True,False
-WHNN8,Red River of the North at Wahpeton,4,BROM5;BTWM5;DORM5;ENLN8,True,False
-WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
-WHOT2,Sandies Creek near Westhoff,1,SCGT2,True,False
-WHPM5,Rainy River near Boat Landing at Wheelers Point,2,CLEM5;MNUM5,True,False
-WHPN4,Whippany River near Morristown,1,WHIN4,True,False
-WHPO1,Duck Creek below Whipple,2,MACO1;MTAO1,True,False
-WHRH1,Waihee River at Dam,0,,True,False
-WHRI1,Wildhorse River at Brownlee,0,,True,False
-WHRM5,Bois de Sioux River at White Rock Dam,2,DORM5;TRAM5,True,False
-WHRM8,Whitefish River near Kalispell,0,,True,False
-WHRP1,First Fork Sinnemahoning Creek at Wharton,0,,True,False
 WHRQ9,White River at kilometer 1881.6 Alaska Hwy near Beaver Creek-Yukon Territory,0,,True,False
 WHRS2,White River (NE-SD) near White River,3,KDKS2;OACS2;PIPS2,True,False
 WHRW3,White River (WI) near Ashland,0,,True,False
@@ -222,7 +197,7 @@ WODI1,Little Wood River near Carey,2,LWRI1;PBOI1,True,False
 WODK1,S F Solomon River at Woodston,2,OSBK1;STCK1,True,False
 WODN7,Waccamaw River at Dock Road,2,FREN7;WHSN7,True,False
 WODR1,Pawcatuck above Wood River Junction,0,,True,False
-WODS1,Enoree River near Woodruff,0,,True,False
+WODS1,Enoree River near Woodruff,2,PELS1;WHMS1,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOGS2,White River (NE-SD) near Oglala,2,IRRS2;NEBS2,True,False
 WOLM2,Dead Run Tributary at Woodlawn,0,,True,False
