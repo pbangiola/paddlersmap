@@ -1,5 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSSI1,Middle Fork Salmon River at Mouth,1,MIDI1,True,False
 MSSN6,Grass River at Massena,1,CHAN6,True,False
@@ -311,6 +310,7 @@ RSDM7,102 River at Rosendale,1,MYVM7,True,False
 RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
+RUSM5,Redwood River at Russell,1,MSHM5,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVDV2,Nottoway River near RIVERDALE,1,SEBV2,True,False
 RVFA1,Conecuh River at River Falls,1,BWTA1,True,False
@@ -582,6 +582,7 @@ WDRK1,Prairie Dog Creek near Woodruff,1,NTDK1,True,False
 WDRW3,Yahara River at Windsor,1,MDAW3,True,False
 WDRW4,Wind River at Riverton,1,KINW4,True,False
 WDVO1,Portage River at Woodville,1,EOMO1,True,False
+WEAM5,Mustinka River at Wheaton,1,MSKM5,True,False
 WEJO1,Little Darby Creek near West Jefferson,1,DBVO1,True,False
 WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
 WESN7,Roanoke River near Westover,1,JAMN7,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MSDG1,Yellow River near Milstead,0,,True,False
-MSDT2,Colorado River (TX) at Lake Travis,2,ALKT2;MFDT2,True,False
-MSEC1,Mission Creek (CA) near Mission Street,0,,True,False
-MSEW4,Snake River near Moose,2,JKSW4;JLKW4,True,False
-MSFA4,St. Francis River at Marianna 2 NE,0,,True,False
-MSGC1,Mormon Slough at Bellota,0,,True,False
-MSGK2,Slate Creek at Highway 713 near Mount Sterling,0,,True,False
-MSHA3,Short Creek at Colorado City,0,,True,False
-MSHM5,Redwood River at Marshall,0,,True,False
-MSHN7,Marsh Creek (NC) at New Hope,0,,True,False
-MSJN1,Missouri River near St. James,2,MKLN1;YANS2,True,False
-MSKM4,Manistee River near Mesick (Hodenpyl Dam),2,SHRM4;WLSM4,True,False
-MSKM5,Mustinka River above Wheaton,0,,True,False
-MSKN7,Lake Mattamuskeet near Fairfield,0,,True,False
-MSLN5,Rio Grande near Mesilla,2,LBDN5;RCLT2,True,False
-MSLV2,Unnamed Tributary above Lake Morning Star Dam,0,,True,False
-MSLW1,Crab Creek near Moses Lake,1,CRBW1,True,False
-MSMF1,Deer Prairie Slough MS-7,0,,True,False
-MSNA4,St. Francis River at Madison,2,LCRA4;PNGA4,True,False
-MSNF1,MS-1 at SR 72,0,,True,False
-MSNN4,Watson Creek at Manasquan (IN MLLW),0,,True,False
-MSON1,Union Creek at Madison,0,,True,False
-MSON7,Montgomery Slough at EF Middleton Blvd,0,,True,False
-MSPF1,Suwannee River at Manatee Springs - Source (in NAVD88),0,,True,False
-MSPI4,Willow Creek at Mason City N Pierce Ave--IFC,3,MCCI4;MSWI4;MWCI4,True,False
 MSPM5,Mississippi River at Fridley abv 37th Ave NE,2,ANKM5;STPM5,True,False
 MSPM7,Current River at Montauk State Park,1,AKFM7,True,False
 MSPN6,Raquette River at Massena Springs,0,,True,False
@@ -77,7 +52,7 @@ MTLN4,Barnegat Bay at Mantoloking (IN MLLW),0,,True,False
 MTLP1,Swatara Creek at Middletown,1,HERP1,True,False
 MTLS1,Middle Tyger River near Lyman,0,,True,False
 MTMP1,Delaware River at Matamoras/Port Jervis,2,BRYN6;MTGN4,True,False
-MTNM5,Minnesota River near Morton,3,GRNM5;GTEM5;NULM5,True,False
+MTNM5,Minnesota River near Morton,4,GRNM5;GTEM5;NULM5;RWDM5,True,False
 MTNO2,West Otter Creek at Tom Steed Lake,0,,True,False
 MTNW2,Mud River (WV) above Milton,0,,True,False
 MTNW3,Pecatonica River at Martintown,3,BCHW3;DARW3;FEEI2,True,False
@@ -91,7 +66,7 @@ MTRC3,Lake Maltby above Maltby Lake #3,0,,True,False
 MTRF1,Tide Gauge on the Manatee River (In MHHW),1,RYEF1,True,False
 MTRK1,Smoky Hill River near Mentor,2,LNSK1;NCMK1,True,False
 MTRN6,Esopus Creek at Cold Brook,1,ASEN6,True,False
-MTSF1,Suwannee River at Manatee Springs (in NAVD88),2,FWBF1;WCXF1,True,False
+MTSF1,Suwannee River at Manatee Springs (in NAVD88),3,FWBF1;MSPF1;WCXF1,True,False
 MTST2,San Antonio River at Mitchell Street,0,,True,False
 MTTC3,Lake Maltby above Maltby Lake #2,0,,True,False
 MTTK1,Big Blue River at Tuttle Creek Lake,2,BLRK1;MNTK1,True,False
@@ -2356,7 +2331,7 @@ RUNO3,Bull Run River near Bull Run,2,BURO3;SNDO3,True,False
 RUPM8,Musselshell River near Roundup,2,LVNM8;MUSM8,True,False
 RUSG1,Russell Creek (GA) at 0.3 miles downstream of Head Lake near Dawsonville,0,,True,False
 RUSK1,Saline River (KS) near Russell,2,WAAK1;WLSK1,True,False
-RUSM5,Redwood River at Russell,0,,True,False
+RUSM5,Redwood River at Russell,1,MSHM5,True,False
 RUSS2,Battle Creek (SD) near Keystone,2,HERS2;JUDS2,True,False
 RUTF1,Withlacoochee River at Rutland (in NAVD88),1,WYSF1,True,False
 RVBC1,Sacramento River at Rio Vista Bridge,2,FPOC1;LSBC1,True,False
@@ -2388,7 +2363,7 @@ RVVN1,Long Pine Creek near Riverview,0,,True,False
 RVWF1,Alafia River at US 301 Riverview,2,GBSF1;RIVF1,True,False
 RWCN1,"Red Willow Creek at 4W Indianola, Nebraska",0,,True,False
 RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
-RWDM5,Redwood River at Redwood Falls,0,,True,False
+RWDM5,Redwood River at Redwood Falls,2,MSHM5;MTNM5,True,False
 RWDN4,Saddle River at Ridgewood,1,LODN4,True,False
 RWDT2,Dry Frio River near Reagan Wells near Uvalde 23N,0,,True,False
 RWGC2,Rio Grande at Wagon Wheel Gap,0,,True,False
@@ -4667,7 +4642,7 @@ WDVA1,Paint Rock River (AL) near Woodville,0,,True,False
 WDVN7,Little  River near old US17 in Woodville,0,,True,False
 WDVO1,Portage River at Woodville,1,EOMO1,True,False
 WDWO2,North Canadian River at Woodward,3,BVRO2;FSPO2;WDGO2,True,False
-WEAM5,Mustinka River at Wheaton,0,,True,False
+WEAM5,Mustinka River at Wheaton,1,MSKM5,True,False
 WEAT2,Clear Fork Trinity River near Weatherford,2,BNBT2;LWFT2,True,False
 WEBH1,NF Wailua River near Lihue,0,,True,False
 WEBM3,French River at Webster,0,,True,False
