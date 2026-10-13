@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NTNN7,North Toe River below Newland,0,,True,False
-NTRV2,N.F. Thornton River at Lee Highway,0,,True,False
-NTSC1,Nathanson Creek at Sonoma,0,,True,False
-NTTN4,Jumping Brook near Neptune,0,,True,False
-NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
-NTYV1,Missisquoi River at North Troy,1,EBKV1,True,False
-NTZM6,Mississippi River at Natchez,2,KLML1;VCKM6,True,False
-NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
-NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
-NUCT2,Nueces River at FM 1025 Near Crystal City,2,ASRT2;UVLT2,True,False
-NUDN7,Neuse River at Falls Lake,1,NEUN7,True,False
-NUET2,Tide Gauge at Nueces Bay,0,,True,False
-NUIA2,Fish Creek near Nuiqsut,0,,True,False
-NULA2,Yukon River at Nulato,2,GYRA2;YPSA2,True,False
-NULM5,Minnesota River at New Ulm,2,JUDM5;MTNM5,True,False
-NUMO3,North Umpqua River above Copeland Creek,0,,True,False
-NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
-NUTP1,Walnut Creek near Erie,0,,True,False
-NUTQ7,Richelieu River above L'Ile-aux-Noix,2,ROUN6;STJQ7,True,False
-NVAC1,Novato Creek at Novato (ALERT),0,,True,False
-NVBF1,North Canal near Vero Beach,0,,True,False
-NVCC1,Novato Creek at Novato (USGS),0,,True,False
-NVCN6,Neversink River below Claryville,1,NVRN6,True,False
-NVDM7,Marmaton River near Nevada,3,DWEM7;RCCM7;SCZM7,True,False
-NVEW3,Rock River at Newville,2,AFTW3;NVLW3,True,False
 NVIW3,Rock River at Inflow Lake Koshkonong,0,,True,False
 NVLI3,St. Joseph River (OH/IN) near Newville,3,FLTI3;MONO1;ROOI3,True,False
 NVLW3,Rock River at Lake Koshkonong,2,FATW3;NVEW3,True,False
@@ -1508,7 +1483,7 @@ RLLI4,Long Dick Creek near Roland 110th St--IFC,0,,True,False
 RLMV2,Little Calfpasture River above Lake Merriweather,0,,True,False
 RLOT2,Tide Station (HGX) at Rollover Pass,0,,True,False
 RLRT2,Little River near Rockdale,2,CMNT2;LRIT2,True,False
-RLRV2,Clinch River near Richlands,2,CLVV2;NTWV2,True,False
+RLRV2,Clinch River near Richlands,3,CLIV2;CLVV2;NTWV2,True,False
 RLSO2,Arkansas River at Ralston,2,PCYO2;TLSO2,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RLVI3,Big Walnut Creek (IN) near Reelsville,2,BOLI3;RCHI3,True,False
@@ -3649,7 +3624,7 @@ UTUP4,Rio Grande De Arecibo above Utuado,0,,True,False
 UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
 UTYG1,Utoy Creek at Great Southwest Parkway near Atlanta,0,,True,False
 UUUK1,Marmaton River near Uniontown,0,,True,False
-UVAT2,Nueces River at Laguna,3,BTVT2;NMOT2;UVLT2,True,False
+UVAT2,Nueces River at Laguna,4,BTVT2;NMOT2;NUCT2;UVLT2,True,False
 UVBC1,Uvas Creek below Uvas Reservoir,1,LUVC1,True,False
 UVGC1,Uvas Creek above W Luchessa Ave.,0,,True,False
 UVHC1,Uvas Creek at Heritage Way,0,,True,False

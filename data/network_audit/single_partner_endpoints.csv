@@ -1,11 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NTWV2,Clinch River at North Tazewell,1,RLRV2,True,False
-NTYV1,Missisquoi River at North Troy,1,EBKV1,True,False
-NUAI4,Little Cedar River at Nashua (IFC),1,IONI4,True,False
-NUBT2,Nueces River near Barksdale,1,NMOT2,True,False
-NUDN7,Neuse River at Falls Lake,1,NEUN7,True,False
-NUTF1,Aucilla River near Nutall Rise (in MHHW),1,LAMF1,True,False
-NVCN6,Neversink River below Claryville,1,NVRN6,True,False
 NWCL1,Tide Station (LIX) near Lakefront,1,SHBL1,True,False
 NWCN6,Hudson River near Newcomb,1,NCKN6,True,False
 NWKN4,Passaic River at Newark (IN MLLW),1,DDCN4,True,False
