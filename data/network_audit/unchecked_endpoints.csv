@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TUSW2,Tuscarora Creek above Martinsburg,0,,True,False
-TVCA3,Tanque Verde Creek near Sabino Canyon Rd.,2,RILA3;SBCA3,True,False
-TVCM7,Tavern Creek near St. Elizabeth,0,,True,False
-TVLK2,Salt River (KY) at Taylorsville Lake,2,GNBK2;SHPK2,True,False
-TVLT2,Guadalupe River above Tivoli,0,,True,False
-TVMF1,Tide Station at Plantation Key on Tavernier Creek (in MHHW),0,,True,False
-TVRC1,South Fork Tule River near Indian Reservation Boundary,0,,True,False
-TWAA3,Thirteenmile Wash at Aquarius Dr,0,,True,False
-TWBM8,Beaverhead River at Twin Bridges,3,RTBM8;TWIM8;TWNM8,True,False
-TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
-TWDF1,Gottfried Creek at Tangerine Woods Blvd,0,,True,False
-TWFM4,Menominee River at Twin Falls,3,COMW3;FLOW3;KFDM4,True,False
-TWGA4,Tyronza River near Twist,0,,True,False
-TWIM8,Jefferson River near Twin Bridges,3,PBRM8;THDM8;TWBM8,True,False
-TWIW1,Twisp River near Twisp,0,,True,False
-TWLW4,Coney Creek below Twin Lakes,0,,True,False
-TWMF1,Atlantic Ocean Tide Gauge at Town Marina Palm Beach (in MHHW),0,,True,False
-TWNM8,Beaverhead River near Twin Bridges,2,DILM8;TWBM8,True,False
-TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
-TWPK2,Tradewater River above Providence,1,ONYK2,True,False
-TWRN2,S Twin River nr Round Mountain,0,,True,False
-TWRO2,Washita River near Tishomingo,2,CWRO2;DURO2,True,False
-TWVA3,Truxton Wash near Valentine,0,,True,False
-TWVM5,Wild Rice River (MN) at Twin Valley,2,ADSM5;MWRM5,True,False
-TXPT2,Tide Station (LCH) at Texas Point,1,RBBT2,True,False
 TYAA2,Taiya River near Skagway,0,,True,False
 TYCO3,Tryon Creek near Lake Oswego,0,,True,False
 TYDM8,Tongue River at T & Y Diversion Dam near Miles City (Closed Gauge),0,,True,False
