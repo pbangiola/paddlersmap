@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RJSF1,Tide Gauge at Hudson Creek ,0,,True,False
-RKBO1,Clear Creek above Rockbridge,0,,True,False
-RKDI4,Middle Fork Little Maquoketa at Rickardsville,0,,True,False
-RKFI4,Shell Rock River near Rockford Foothill Ave--IFC,2,MRBI4;NRSI4,True,False
-RKFM5,Crow River at Rockford,2,DELM5;MNHM5,True,False
-RKFO1,Rocky Fork (Mohican River) at Lucas,0,,True,False
-RKGV1,Williams River near Rockingham,0,,True,False
-RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
-RKMG1,Euharlee Creek at US 287 at Rockmart,0,,True,False
-RKRV2,Rockfish River near Greenfield,0,,True,False
-RKVI4,Rock River at Rock Valley,3,LMCI4;LRGI4;RAPI4,True,False
-RKVM2,Turkey Branch near Aspen Hill,0,,True,False
-RKWN6,East Rockaway Inlet at Atlantic Beach (IN MLLW),0,,True,False
-RKYG1,Yellow River at Rocky Plains Road near Rocky Plains,1,MYRG1,True,False
-RLAN7,Richland Creek (NC) at Autumn Care,0,,True,False
-RLAT2,Pecos River at Red Bluff Reservoir,3,ORLT2;RBFN5;RDBN5,True,False
-RLBP1,Lycoming Creek at Ralston,2,BODP1;DRXP1,True,False
-RLCG1,Richland Creek at Suwanee Dam Road near Buford,0,,True,False
-RLCN7,Richland Creek (NC) at Waynesville,0,,True,False
-RLCP4,Canal de Riego de Lajas Abv Lajas Filtration Plant,0,,True,False
-RLDM5,Lower Red Lake near Red Lake,2,RRDM5;WSKM5,True,False
-RLFI4,Pilot Creek near Rolfe,0,,True,False
-RLFM5,Red Lake River at Red Lake Falls (CR13),3,CRKM5;HIGM5;TRFM5,True,False
-RLGF1,Haw Creek above Russell Landing (in NAVD88),0,,True,False
-RLGN8,Cedar Creek (ND) near Raleigh,0,,True,False
 RLGQ3,Rock Lake near Glenora MB,2,PCCQ3;PLLQ3,True,False
 RLGT1,Wolf River at Raleigh,2,MEMT1;MPHT1,True,False
 RLHN7,Crabtree Creek at Glenwood Ave,2,ADRN7;EBNN7,True,False
