@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPTV2,Po River near Spotsylvania,0,,True,False
-SPUF1,Deep Creek at Spuds (in MHHW),0,,True,False
-SPUN1,North Loup River near St. Paul,2,GELN1;ORDN1,True,False
-SPUT1,West Prong Little Pigeon River 2SE Pigeon Forge (Spur),4,GATT1;HJBT1;RDVT1;RFKT1,True,False
-SPVI4,Turkey River near Spillville (IFC),2,SPLI4;TCGI4,True,False
-SPWI4,Little Sioux River at Spencer,2,LNNI4;SPII4,True,False
-SPWW4,South Piney Creek below Willow Park Reservior,0,,True,False
-SPYC1,Pilot Creek above Stumpy Meadows Reservoir,0,,True,False
-SPYC2,South Platte River at Spinney Mountain Reservoir,2,HARC2;SASC2,True,False
-SPYI3,Spy Run Creek at Ft. Wayne Childrens Zoo,0,,True,False
-SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
-SPYN7,Symphony Lake near Cary,0,,True,False
-SPYT1,Loosahatchie River at Singleton Parkway,0,,True,False
-SQKO3,Whychus Creek near Sisters,0,,True,False
-SQUI1,Squaw Creek (ID) below Bruno Creek,0,,True,False
-SQUW1,Snoqualmie River at Snoqualmie Falls,4,CRNW1;GARW1;SNQW1;TANW1,True,False
-SQWI1,Squaw Creek near Sweet,0,,True,False
-SRAA2,Swanson River at Oil Field Service Road Bridge near Kenai,0,,True,False
-SRAG1,Savannah River at Jefferson Davis Bridge in Augusta,2,AUGG1;EVSG1,True,False
-SRAM8,Stillwater River (South Central MT) near Absarokee,0,,True,False
-SRAW4,North Platte River at Saratoga,2,NGTC2;SINW4,True,False
-SRBM5,Snake River (NW MN) at Retention Pond Outlet near Radium,0,,True,False
-SRBN1,Pebble Creek at Scribner,0,,True,False
-SRBS1,Salkehatchie River near Barnwell,1,MILS1,True,False
-SRBV2,Slate Run at Old Church Rd,0,,True,False
 SRBW1,N Fk Toutle River below Sediment Retention Structure near Toutle,0,,True,False
 SRCI2,Robinson Creek (IL) near Shelbyville,0,,True,False
 SRCM8,Shields River above Wilsall,0,,True,False
@@ -681,7 +656,7 @@ TOLN8,Tolna Coulee near Tolna,0,,True,False
 TOLS1,Tools Fork Creek near Rock Hill,0,,True,False
 TOLW1,Tolt River near Carnation,0,,True,False
 TOMC2,Tomichi Creek at Gunnison,0,,True,False
-TOMI1,Thompson Creek (ID) near Clayton,1,PNBI1,True,False
+TOMI1,Thompson Creek (ID) near Clayton,2,PNBI1;SQUI1,True,False
 TOMN7,Black River near Tomahawk,2,BCUN7;BRTN7,True,False
 TONA1,Aldridge Creek (AL) at Toney Drive in Huntsville,1,SHEA1,True,False
 TONA2,Tonsina River at the Richardson Hwy near Tonsina,0,,True,False
@@ -1981,7 +1956,7 @@ YELO1,Yellow Creek at Hammonsville,0,,True,False
 YELW3,North Fork Yellow River near Perkinstown,0,,True,False
 YESG1,Yellow River near Snellville,0,,True,False
 YETG1,Yellow River Tributary at Plantation Road near Lawrenceville,0,,True,False
-YFSI1,Yankee Fork Salmon River near Clayton,1,PNBI1,True,False
+YFSI1,Yankee Fork Salmon River near Clayton,2,PNBI1;SQUI1,True,False
 YFYA2,Yukon River at Fort Yukon,2,BVRA2;CIRA2,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YGOP1,Youghiogheny River below Youghiogheyny Dam - Outflow (Tailwater),2,CNFP1;FRDM2,True,False

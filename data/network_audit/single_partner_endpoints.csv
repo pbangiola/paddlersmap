@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
-SRBS1,Salkehatchie River near Barnwell,1,MILS1,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
 SRCT2,North Concho River at Sterling City,1,CLBT2,True,False
 SRDM6,Tallahatchie River at Sardis Dam,1,LMGM6,True,False
@@ -97,7 +95,6 @@ TNKV2,Tinker Creek above Glade Creek at Roanoke,1,CLOV2,True,False
 TNTN7,Trent River  West of Trenton,1,TRTN7,True,False
 TNTP1,Tionesta Creek at Tionesta Dam Tailwater,1,TIOP1,True,False
 TOAP4,Rio De La Plata near Toa Alta,1,NASP4,True,False
-TOMI1,Thompson Creek (ID) near Clayton,1,PNBI1,True,False
 TONA1,Aldridge Creek (AL) at Toney Drive in Huntsville,1,SHEA1,True,False
 TONO2,Salt Fork Arkansas River at Tonkawa,1,GSPO2,True,False
 TOPK1,Soldier Creek near Topeka,1,DELK1,True,False
@@ -279,7 +276,6 @@ WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
 YDRC1,Santa Margarita River at Ysidora,1,SMHC1,True,False
 YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
-YFSI1,Yankee Fork Salmon River near Clayton,1,PNBI1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
