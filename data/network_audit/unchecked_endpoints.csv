@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ORFC1,Sacramento River at Ord Ferry,2,BTCC1;HAMC1,True,False
-ORFI1,Clearwater River at Orofino,0,,True,False
-ORFT2,Cow Bayou at FM 1442,3,BCVT2;COWT2;MCVT2,True,False
-ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
-ORHM8,Rock Creek (NE MT) near Opheim,0,,True,False
-ORIC1,Redwood Creek near Orick,0,,True,False
-ORII2,Edwards River near Orion,1,NWBI2,True,False
-ORIN6,Orient Harbor at Orient (IN MLLW),0,,True,False
-ORIN7,Pamlico Sound at Oregon Inlet Marina (in MLLW),0,,True,False
-ORIV2,Town Branch near Fincastle,0,,True,False
-ORIW4,North Platte River near Orin,3,GLBW4;GLNW4;HENN1,True,False
-ORKF1,Ortega River at Argyle Forest Boulevard (in NAVD88),0,,True,False
-ORKN6,Oriskany Creek near Oriskany,0,,True,False
-ORLN7,Neuse River at Oriental (in MLLW),0,,True,False
-ORLO1,Ottawa River at Lima,1,KALO1,True,False
-ORLT2,Pecos River 6 miles NE of Orla,2,PCST2;RLAT2,True,False
-ORMW2,Island Creek near Logan,0,,True,False
-ORNI4,Little Wapsipinicon River near Oran,0,,True,False
-ORNN1,Republican River near Orleans,2,CBGN1;REPN1,True,False
-ORNT2,Sabine River at Orange,1,TMYT2,True,False
-OROC2,Boulder Creek (CO) near Orodell,3,BLFC2;BOCC2;MBNC2,True,False
-OROI1,Orofino Creek near Orofino,0,,True,False
-OROL1,Old River Iflow/Outflow Channel at Outflow Channel below Hydropower,0,,True,False
-OROP4,Lago Matrullas,0,,True,False
-ORQC1,Old River at Quimby Island NR Bethel Island Ca,0,,True,False
 ORRF1,Orange River Near Buckingham,1,ORCF1,True,False
 ORSF1,Ochlockonee River at Ochlockonee River State Park (in MHHW),0,,True,False
 ORTM5,Minnesota River at Ortonville,3,BSLM5;MVOM5;ODAM5,True,False
