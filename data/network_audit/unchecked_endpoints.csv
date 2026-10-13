@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RVRN6,Schroon River at Riverbank,0,,True,False
-RVRT2,Trinity River at Riverside,3,CRKT2;LVDT2;MDST2,True,False
-RVSA4,Eleven Point River at Ravenden Springs,1,EPGM7,True,False
-RVSC1,Revolon Slough,0,,True,False
-RVST1,Obion River near Rives 6S,0,,True,False
-RVTI2,Sangamon River at Riverton,2,MNTI2;PETI2,True,False
-RVTI3,Wabash River at Riverton,2,HUTI2;VCNI3,True,False
-RVTN1,Thompson Creek at Riverton,0,,True,False
-RVTO2,Elk Creek (OK) near Roosevelt,0,,True,False
-RVTW4,Little Wind River near Riverton,1,FWRW4,True,False
-RVVN1,Long Pine Creek near Riverview,0,,True,False
-RVWF1,Alafia River at US 301 Riverview,2,GBSF1;RIVF1,True,False
-RWCN1,"Red Willow Creek at 4W Indianola, Nebraska",0,,True,False
-RWDI4,East Branch Beaver Dam Creek near Rockwell US 65--IFC,1,SFLI4,True,False
-RWDM5,Redwood River at Redwood Falls,2,MSHM5;MTNM5,True,False
-RWDN4,Saddle River at Ridgewood,1,LODN4,True,False
-RWDT2,Dry Frio River near Reagan Wells near Uvalde 23N,0,,True,False
-RWGC2,Rio Grande at Wagon Wheel Gap,0,,True,False
-RWHV2,Rapidan River at Wolftown-Hood Road,0,,True,False
-RWLG1,Chattahoochee River above Roswell,2,MGFG1;NCRG1,True,False
-RWRN5,Rio Hondo at Rocky Arroyo Reservoir,0,,True,False
-RWRS2,Redwater River (SD) above Belle Fourche,3,FRUS2;RDWS2;SPRS2,True,False
-RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
-RWYN4,Rahway River at Rahway,0,,True,False
-RWYN6,Jamaica Bay at Rockaway Inlet (IN MLLW),0,,True,False
 RXYV2,Hazel River at Rixeyville,0,,True,False
 RYAC1,San Francisco Bay  Coyote Creek,0,,True,False
 RYAN7,Ryan Creek below US220 at Greensboro,0,,True,False
