@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCJO3,Succor Creek near Jordan Valley,0,,True,False
-SCJU1,Silver Creek near Silver Creek Junction,0,,True,False
-SCKA2,Staney Creek near Klawock,0,,True,False
-SCKC2,Saguache Creek near Saguache,0,,True,False
-SCKF1,Sweetwater Creek at Veterans Expy Near Tampa,0,,True,False
-SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
-SCKL1,State Canal near Krotz Springs,0,,True,False
-SCKN7,Scotts Creek near Beta,0,,True,False
-SCKV2,Stoney Creek above Stoney Creek,0,,True,False
-SCLF1,Soldier Creek near Longwood,0,,True,False
-SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
-SCLM8,Swiftcurrent Creek above Swiftcurrent Lake at Many Glacier,0,,True,False
-SCLN6,Raquette River at South Colton,2,PIEN6;RYVN6,True,False
-SCLO3,Scoggins Creek above Henry Hagg Lake,0,,True,False
-SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
-SCLV2,Stony Creek at Fort Blackmore 3NNW,0,,True,False
-SCMO1,Swan Creek below Monclova,1,OKOO1,True,False
-SCMS1,Skrine Creek near McClellanville (IN MLLW),0,,True,False
-SCNA2,Salmon Creek at Nash Road near Seward,1,KCSA2,True,False
-SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
-SCNI3,Stony Creek (IN) near Noblesville,2,SCFI3;WHNI3,True,False
-SCNK1,Smoky Hill River above Schoenchen,2,ELSK1;SCSK1,True,False
-SCNM5,St. Louis River at Scanlon,2,CQRM5;FDWM5,True,False
-SCNO3,Sycan River near Beatty,0,,True,False
-SCNS2,Cheyenne River near Scenic,4,CHRS2;KSTS2;OSAS2;WASS2,True,False
 SCOA2,Scottie Creek at Alaska Hwy near Northway,0,,True,False
 SCOC1,Eel River (CA) near Scotia,2,FRNC1;FTSC1,True,False
 SCOI2,Summit Conduit at Summit,0,,True,False
@@ -951,7 +926,7 @@ STYT2,Colorado River (TX) at Stacy,2,BLIT2;WCHT2,True,False
 STYV2,Nottoway River near Stony Creek,2,MKNV2;SEBV2,True,False
 STYW3,Stillwell Creek at Yard Road Near Tomah,0,,True,False
 STZM7,Sac River below Stockton Dam,0,,True,False
-SUCI1,Succor Creek near Homedale,0,,True,False
+SUCI1,Succor Creek near Homedale,1,SCJO3,True,False
 SUCM5,Big Sucker Creek near Palmers,0,,True,False
 SUCP1,Sugar Creek at West Burlington,0,,True,False
 SUDA2,Susitna River near Denali,1,SCTA2,True,False
@@ -1056,7 +1031,7 @@ SWTO2,Sweetwater Creek near Sweetwater,0,,True,False
 SWVP1,East Branch Perkiomen Creek at Schwenksville,0,,True,False
 SWYA3,Sacramento Wash near Yucca,0,,True,False
 SWYF1,Tide Gauge at South Spreader Waterway (In MHHW),0,,True,False
-SWZF1,Sweetwater Creek at Gunn Hwy Near Sulphur Springs ,0,,True,False
+SWZF1,Sweetwater Creek at Gunn Hwy Near Sulphur Springs ,1,SCKF1,True,False
 SXCC1,San Antonio Creek at Camp Comfort,0,,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SXFS2,Big Sioux River at Sioux Falls N. Cliff Avenue,2,BBSS2;WAVS2,True,False

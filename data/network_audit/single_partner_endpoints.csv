@@ -1,10 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
-SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
-SCLT2,North Texas Lakes at Jim Chapman Lake,1,COPT2,True,False
-SCMO1,Swan Creek below Monclova,1,OKOO1,True,False
-SCNA2,Salmon Creek at Nash Road near Seward,1,KCSA2,True,False
-SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
 SCON7,Roanoke River near Scotland Neck,1,HFXN7,True,False
 SCSO3,Silver Creek at Silverton,1,PUWO3,True,False
 SCTA3,Santa Cruz River at Trico Road,1,CSCA3,True,False
@@ -135,6 +129,7 @@ STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STVW1,Columbia River at Stevenson,1,LWWW1,True,False
 STYM2,North Branch Potomac River at Steyer,1,KITM2,True,False
+SUCI1,Succor Creek near Homedale,1,SCJO3,True,False
 SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUMG1,Chattooga River at Summerville,1,GAYA1,True,False
 SUNM5,Sunrise River at Sunrise,1,PNCM5,True,False
@@ -144,6 +139,7 @@ SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
 SWOG1,Ohoopee River at GA 297 near Swainsboro,1,REDG1,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
+SWZF1,Sweetwater Creek at Gunn Hwy Near Sulphur Springs ,1,SCKF1,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
 TACN4,Assunpink Creek at Trenton,1,CLKN4,True,False
