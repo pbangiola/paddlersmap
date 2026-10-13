@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WBPM6,Bayou Pierre near Willows,0,,True,False
-WBRL1,Amite River Basin at Ward Creek at Government St.,0,,True,False
-WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,False
-WBRP1,Susquehanna River at Wilkes Barre,2,BMBP1;MHPP1,True,False
-WBRT2,Beals Creek 11 miles S of Westbrook,2,CMHT2;SILT2,True,False
-WBRW4,Green River (WY-UT-CO) at Warren Bridge,1,LABW4,True,False
-WBSS2,Big Sioux River at Watertown Sioux Conifer Road,2,KAMS2;WBWS2,True,False
-WBTT1,Tennessee River below Watts Bar Dam,2,CKDT1;WBOT1,True,False
-WBVA3,Wet Beaver Creek near Rimrock,2,DBVA3;WCLA3,True,False
-WBWM5,Warroad River above West Branch nr Warroad CSAH5,0,,True,False
-WBWN2,Walker River above PT Site below Weber Reservoir near Schurz,2,WSIN2;WVRN2,True,False
-WBWS2,Big Sioux River at Watertown Broadway Avenue,2,BSWS2;WBSS2,True,False
-WBXM1,Saco River at West Buxton,2,CNHM1;CNWN3,True,False
-WBYA1,Tide Gauge at Weeks Bay (IN MHHW),0,,True,False
-WBYC1,San Francisquito Creek at West Bayshore (SFWB),0,,True,False
-WBYO1,Chagrin River at Willoughby,2,MYFO1;PPKO1,True,False
-WBZT2,Brazos River at Washington,2,HPDT2;SMVT2,True,False
-WCAN7,Wilson Creek (NC) at Adako Rd 3 SW Collettsville,0,,True,False
-WCAT2,Waller Creek at East 1st Street at Austin,0,,True,False
-WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
-WCBT2,Brazos River near West Columbia,1,ROST2,True,False
-WCCA1,Walnut Creek (AL) above Clanton,0,,True,False
-WCCL1,Barataria Bay and Waterway at West Closure CPX1 near Woodmere,0,,True,False
-WCCM7,Wilson Creek at Springfield,0,,True,False
-WCCN7,Williams Creek Upstream of Gregson Dr,0,,True,False
 WCCP1,West Conewago Creek at East Berlin,1,MANP1,True,False
 WCCS1,Wildcat Creek below Rock Hill,0,,True,False
 WCCS2,Willow Creek near Crooks,0,,True,False
