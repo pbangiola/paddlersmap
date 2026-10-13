@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PLGF1,Palatlakaha River at Cherry Lk nr Groveland,0,,True,False
-PLGM4,Pilgrim River at Paradise Road,0,,True,False
-PLGM5,Crow Wing River near Pillager,4,FTRM5;LFEM5;LGPM5;NIMM5,True,False
-PLGN1,Elkhorn River at Pilger,2,NFKN1;WPNN1,True,False
-PLGN7,Catawba River near Pleasant Gardens,2,BRWN7;CRMN7,True,False
-PLHI4,Fourmile Creek at Pleasant Hill Vandalia Rd--IFC,2,DFMI4;SWNI4,True,False
-PLHL1,Breton Sound Basin at American Bay near Pointe a la Hache,0,,True,False
-PLKI4,Big Creek Lake near Polk City,2,BIGI4;SAYI4,True,False
-PLKK1,110 Mile Creek at Pomona Lake,0,,True,False
-PLKM7,Lindley Creek near Polk,0,,True,False
-PLKT1,Richland Creek near Pulaski,0,,True,False
-PLLN7,Trent River at Pollocksville,2,BERN7;TRTN7,True,False
-PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
-PLLP1,Pennypack Creek at Philadelphia,0,,True,False
-PLLQ3,Pembina River above Lorne Lake,3,BLNQ3;PRKQ3;RLGQ3,True,False
-PLMC2,East Plum Creek (CO) below Castle Rock,2,EPOC2;LOVC2,True,False
-PLMF1,Fisheating Creek at Palmdale,2,FCKF1;FCRF1,True,False
-PLMI2,Big Muddy River at Plumfield,2,MURI2;RNDI2,True,False
-PLMI3,St. Marys River at Pleasant Mills,2,DCRI3;WILO1,True,False
-PLMI4,Mud Creek near Pleasant Hill IA 163--IFC,0,,True,False
-PLMN3,Pemigewasset River at Plymouth,1,WOON3,True,False
-PLMT1,Obion River near Palmersville,0,,True,False
-PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
-PLNS2,Cheyenne River near Plainview,4,EBSS2;ELCS2;EMSS2;WASS2,True,False
-PLOF1,Tide Station at Lora Point (in MHHW),0,,True,False
 PLOI1,Palouse River near Potlatch,1,HOPW1,True,False
 PLOI4,Cedar River at Palo,2,CIDI4;VINI4,True,False
 PLOL1,Pearl River at Lock #1 Chamber,0,,True,False
@@ -354,7 +329,7 @@ PTVK2,Levisa Fork at Paintsville,3,DWYK2;FLRK2;PSTK2,True,False
 PTVN4,Lamington (Black) River at Pottersville,0,,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
 PTVO3,Powder River (OR) above Thief Valley Reservoir,0,,True,False
-PTXM7,Pomme De Terre River at Pomme De Terre Dam,0,,True,False
+PTXM7,Pomme De Terre River at Pomme De Terre Dam,1,PLKM7,True,False
 PTYI1,Portneuf River at Tyhee,2,AFRI1;PIHI1,True,False
 PTZM7,Pomme de Terre River (MO) near Hermitage,0,,True,False
 PUCA3,Puerco River near Chambers,0,,True,False
@@ -2245,7 +2220,7 @@ SWLQ3,Pembina River near Outlet of Swan Lake,2,PCCQ3;PLRQ3,True,False
 SWMA2,Sawmill Creek below Upper Tailrace near Sitka,0,,True,False
 SWMC3,Peat Swamp Reservoir above Peat Swamp Reservoir,0,,True,False
 SWMS2,South Fork Whetstone River near Milbank,0,,True,False
-SWNI4,Des Moines River near Swan,6,AKWI4;CSLI4;DESI4;MTCI4;PELI4;PLHI4,True,False
+SWNI4,Des Moines River near Swan,7,AKWI4;CSLI4;DESI4;MTCI4;PELI4;PLHI4;PLMI4,True,False
 SWNM2,Swan Creek at Swan Creek,0,,True,False
 SWNM6,Tallahatchie River near Swan Lake,2,LOGM6;MOGM6,True,False
 SWNO2,North Canadian River near Shawnee,2,HRHO2;SNCO2,True,False

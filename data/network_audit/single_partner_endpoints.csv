@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PLLO1,Stillwater River near Pleasant Hill,1,ENGO1,True,False
-PLMN3,Pemigewasset River at Plymouth,1,WOON3,True,False
-PLNM8,Clark Fork River near Plains,1,SRGM8,True,False
 PLOI1,Palouse River near Potlatch,1,HOPW1,True,False
 PLVP1,Tulpehocken Creek at Blue Marsh Dam,1,BMRP1,True,False
 PLYC1,South Fk Pit River near Likely,1,CNBC1,True,False
@@ -52,6 +49,7 @@ PTIK1,N F Solomon River at Portis,1,KRWK1,True,False
 PTRN3,Contoocook River at Peterborough,1,HENN3,True,False
 PTTK1,South Fork Ninnescah River at Pratt,1,MDKK1,True,False
 PTVN6,Schoharie Creek at Prattsville,1,GILN6,True,False
+PTXM7,Pomme De Terre River at Pomme De Terre Dam,1,PLKM7,True,False
 PUKC1,Alameda Creek Flood Channel at Union City,1,ALFC1,True,False
 PVCC1,Los Angeles River below Sepulveda Dam,1,LRTC1,True,False
 PVLM5,North Fork Crow River near Paynesville,1,MNHM5,True,False
