@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PAHI1,Pahsimeroi River at Ellis,0,,True,False
-PAHK2,Ohio River at Paducah,4,BIGT1;KYDK2;OLMI2;SMLI2,True,False
-PAHS2,Keyapaha River near Keyapaha,3,ANTS2;HTBS2;WEWS2,True,False
-PAJC1,Pajaro River at Watsonville,1,AROC1,True,False
-PAKI1,Pack River near Colburn,0,,True,False
-PAKU1,Paria River near Kanab,0,,True,False
-PALF1,St. Johns River at Buffalo Bluff (in MHHW),2,ASTF1;RCYF1,True,False
-PALI1,Snake River near Irwin,3,ALPW4;HEII1;PLDI1,True,False
-PALL1,Intracoastal Waterway at Port Allen Lock,0,,True,False
-PALM7,North River (MO) at Palmyra,0,,True,False
-PALN1,Frenchman Creek at Palisade,0,,True,False
-PALN2,Humboldt River at Palisade,2,HRCN2;HRDN2,True,False
-PALP1,Allegheny River at Port Allegany,1,ELRP1,True,False
-PALS2,Split Rock Creek near Garretson,2,COSS2;JSPM5,True,False
-PALW2,Mud River (WV) at Palermo,1,MYRW2,True,False
-PAMN7,Pamlico River at Washington (in MLLW),1,GRMN7,True,False
-PAMV2,Pamunkey River near Hanover,1,DOSV2,True,False
-PANI4,Middle Raccoon River at Panora,2,PNLI4;RDFI4,True,False
-PANK2,South Fork Panther Creek near Whitesville,0,,True,False
-PANL1,Amite River Basin at Panama Canal at Hwy 44 near Gonzales,0,,True,False
-PANO2,Poteau River near Panama,2,HJFA4;PTAO2,True,False
-PANP4,Rio Marin near Patillas,0,,True,False
-PANW2,Panther Creek above Panther,0,,True,False
-PARA1,Lost Creek (AL) near Oakman,0,,True,False
-PARI1,Boise River near Parma,1,CDWI1,True,False
 PARI4,Beaver Creek near Parkersburg Hwy T47--IFC,3,APEI4;APWI4;NHRI4,True,False
 PARM5,"Partridge River near Babbitt, Dunka Rd",1,HYLM5,True,False
 PARN4,Saddle River at Paramus,0,,True,False
@@ -141,7 +116,7 @@ PCTT2,North Texas Lakes at Proctor Lake,3,DLLT2;DSBT2;HMLT2,True,False
 PCUF1,Pottsburg Creek at Beach Boulevard (US 90) (in MHHW),0,,True,False
 PCVF1,St George Island at Pilot's Cove (in MHHW),0,,True,False
 PCVK2,Bacon Creek at Priceville,0,,True,False
-PCVU1,Paria River near Cannonville,0,,True,False
+PCVU1,Paria River near Cannonville,1,PAKU1,True,False
 PCWV2,Preddy Creek At Watts Passage,0,,True,False
 PCXC1,Kern River at PIONEER CANAL,0,,True,False
 PCXP4,Lago Cerrillos at Damsite,0,,True,False
@@ -2253,7 +2228,7 @@ SPTA3,San Pedro River near Tombstone,2,BABA3;SPRA3,True,False
 SPTC2,South Platte River at South Platte,3,DKRC2;GRNC2;WATC2,True,False
 SPTF1,St Lucie River at Steele Point (in MHHW),0,,True,False
 SPTG1,Spirit Creek at U.S. Hwy 1 near Augusta,0,,True,False
-SPTK2,Green River (KY) above Spottsville,2,CALK2;EVVI3,True,False
+SPTK2,Green River (KY) above Spottsville,3,CALK2;EVVI3;PANK2,True,False
 SPTM5,Minnesota River at St Peter,2,HENM5;MNKM5,True,False
 SPTN4,Manalapan Brook at Spotswood,0,,True,False
 SPTT1,Tennessee River at South Pittsburg,2,NKTT1;SCRA1,True,False
