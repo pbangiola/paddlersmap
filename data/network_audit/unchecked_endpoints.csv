@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SBUM8,Swiftcurrent Creek at Sherburne Reservoir near Babb,2,MGGM8;SCSM8,True,False
-SBUT2,Sabinal River at Utopia,2,SALT2;SRMT2,True,False
-SBVI3,Big Blue River (IN) at Shelbyville,3,CARI3;DREI3;LBRI3,True,False
-SBVO1,Ohio River at Steubenville,2,NCUW2;WELW2,True,False
-SBXC1,Sespe Creek above Bear Creek,0,,True,False
-SBYC3,Pomperaug River above Southbury,0,,True,False
-SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
-SBYO1,Big Walnut Creek at Sunbury,1,HOOO1,True,False
-SBYP1,Susquehanna River at Sunbury,3,DANP1;FABP1;HARP1,True,False
-SCAS1,Shaw Creek near Aiken,0,,True,False
-SCAS2,Snake Creek above Ashton,0,,True,False
-SCAT2,Slaughter Creek at FM 1826 near Austin ,0,,True,False
-SCBC1,Spanish Creek above Keddie,0,,True,False
-SCBI1,Big Wood River at Stanton Crossing,2,HALI1;MAGI1,True,False
-SCBI3,Sugar Creek (central) near Boggstown,3,ACTI3;EDNI3;NPLI3,True,False
-SCBV2,Swift Creek at Bailey Bridge Rd near Midlothian,0,,True,False
-SCCA3,Santa Cruz River at Green Valley,2,STBA3;TSCA3,True,False
-SCCC1,Santa Cruz Creek near Santa Ynez,0,,True,False
-SCCC2,Surface Creek at Cedaredge,0,,True,False
-SCCM5,Second Creek near Aurora ,0,,True,False
-SCCM8,Saint Mary Canal near Babb at St Mary Crossing,0,,True,False
-SCCN2,Sloan Channel at Charleston Blvd,0,,True,False
-SCCN7,Soco Creek at Wolfetown Road,0,,True,False
-SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
-SCCT2,Concho River at San Angelo,1,PRKT2,True,False
 SCCV2,Swift Creek at Colonial Heights,1,SBBV2,True,False
 SCCW1,West Fork Salmon Creek near Conconully,0,,True,False
 SCCW4,South Cottonwood Creek near Big Piney,0,,True,False
@@ -46,7 +21,7 @@ SCHI2,Ferson Creek near St Charles,0,,True,False
 SCHL1,Barataria Bay and Waterway at Sellers Canal at Hwy 90,0,,True,False
 SCHN6,Mohawk River at Schenectady (Freeman's Bridge),2,COHN6;LTLN6,True,False
 SCHV2,Siebert Creek at Harrisonburg,0,,True,False
-SCIM8,Saint Mary Canal near Babb,0,,True,False
+SCIM8,Saint Mary Canal near Babb,2,SCCM8;SMYM8,True,False
 SCIR1,North Branch Pawtuxet River at Scituate Reservoir,0,,True,False
 SCJA2,Salmon Creek near Juneau,0,,True,False
 SCJO3,Succor Creek near Jordan Valley,0,,True,False
@@ -576,14 +551,14 @@ SMVN4,Peters Brook at Somerville,0,,True,False
 SMVT2,"Yegua Creek near Somerville, TX",0,,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SMYM4,Flat River at Smyrna,0,,True,False
-SMYM8,Saint Mary River near Babb,2,SCSM8;SMBM8,True,False
+SMYM8,Saint Mary River near Babb,3,SCIM8;SCSM8;SMBM8,True,False
 SNAI1,Snake River at Blackfoot,2,BFTI1;SHYI1,True,False
 SNAI2,Illinois River at Seneca,0,,True,False
 SNAN5,Rio Grande near San Acacia,2,ABQN5;SMFN5,True,False
 SNAW1,Snohomish River at Snohomish,2,MROW1;PILW1,True,False
 SNBT2,Colorado River (TX) near San Saba,2,BUDT2;WCHT2,True,False
 SNCA3,San Carlos River above Peridot,0,,True,False
-SNCC2,Surface Creek near Cedaredge,0,,True,False
+SNCC2,Surface Creek near Cedaredge,1,SCCC2,True,False
 SNCF1,Shingle Creek at Airport near Kissimmee,0,,True,False
 SNCG1,Oconee River at Lake Sinclair,2,MLGG1;WDMG1,True,False
 SNCK1,Turkey Creek (KS) near Seneca,0,,True,False
@@ -607,7 +582,7 @@ SNIC1,Santa Anita Dam,0,,True,False
 SNIW1,NF Skykomish River at Index,0,,True,False
 SNKA2,Snake River near Nome,0,,True,False
 SNKG1,Snake Creek near Whitesburg,0,,True,False
-SNKS2,Snake Creek near Ashton,0,,True,False
+SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
 SNKV2,Stony Creek near DINWIDDIE,0,,True,False
 SNLO1,Seneca Fork at Senecaville Dam Pool,0,,True,False
 SNMC2,San Miguel River Brooks Bridge near Nucla,0,,True,False

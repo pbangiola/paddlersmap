@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
-SBYO1,Big Walnut Creek at Sunbury,1,HOOO1,True,False
-SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
-SCCT2,Concho River at San Angelo,1,PRKT2,True,False
 SCCV2,Swift Creek at Colonial Heights,1,SBBV2,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
@@ -76,8 +72,10 @@ SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
+SNCC2,Surface Creek near Cedaredge,1,SCCC2,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
+SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
 SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
 SNOA2,Snow River near Seward,1,COOA2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
