@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WRSN1,Willow Creek near Pierce,0,,True,False
-WRST2,Fifteenmile Creek near Weser,0,,True,False
-WRSU1,White River (UT) below Tabbyune Creek near Soldier Summit,0,,True,False
-WRSV1,Little River (Vermont) at Waterbury Reservoir,2,MOSV1;WTBV1,True,False
-WRSV2,Warwick River at Shellabarger Dr (IN MLLW),0,,True,False
-WRTF1,Wrights Creek near Bonifay,0,,True,False
-WRTO1,Olentangy River near Worthington,2,DELO1;HRKO1,True,False
-WRTT1,Wartrace Creek at Wartrace,0,,True,False
-WRTV1,North Branch Winooski River at Wrightsville,3,LNGV1;MONV1;WVRV1,True,False
-WRVH1,Waimea River at Waimea River,0,,True,False
-WRVV2,Ware River near Schley (IN MLLW),0,,True,False
-WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
-WRWM2,Western Run at Western Run,0,,True,False
-WRWN6,Oatka Creek at Warsaw,0,,True,False
-WRWN8,Sheyenne River near Warwick,2,BRMN8;MVCN8,True,False
-WRWO2,Deep Fork River near Warwick,2,ACDO2;SDFO2,True,False
-WRYN2,Walker River below Yerington Weir near Yerington,2,MASN2;WBMN2,True,False
-WSAA2,[INACTIVE] Wasilla Creek near Palmer,0,,True,False
-WSBT2,Buffalo Bayou at West Belt Drive,3,ADDT2;BAKT2;PPTT2,True,False
-WSCI2,Kress Creek near West Chicago,0,,True,False
-WSCO1,Great Miami River at West Carrollton,2,DTNO1;MMGO1,True,False
-WSDC1,Warm Springs Reservoir (Lake Sonoma)  ,0,,True,False
-WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
-WSDN4,Pascack River at Westwood,0,,True,False
-WSEG1,Flint River at Woolsey Road near Woolsey,2,GRFG1;LOVG1,True,False
 WSFH1,Wailua River near Lihue,0,,True,False
 WSFM3,Westfield River at Westfield,0,,True,False
 WSFN8,Sheyenne River at West Fargo,2,HRCN8;HWDN8,True,False
