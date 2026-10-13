@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WWCS2,Willow Creek near Watertown,0,,True,False
-WWDA3,Whitewater Draw near Douglas,0,,True,False
-WWDI3,West Fork White Lick Creek at Danville,0,,True,False
-WWDI4,Beaver Creek near Woodward,2,BEAI4;GRMI4,True,False
-WWHN2,West Walker River near Hudson,2,HOYN2;MASN2,True,False
-WWIC1,Whitewater River (CA) at Rancho Mirage,1,WTIC1,True,False
-WWKH1,West Wailuaiki Stream near Hana,0,,True,False
-WWLH1,Waikele Stream near Wheeler AFB,0,,True,False
-WWLO2,North Deer Creek at Wes Watkins Reservoir,0,,True,False
-WWMN6,Willowemoc Creek near Livingston Manor,0,,True,False
-WWPM5,Middle Fork Whitewater River at Whitewater State Park Group Camp,2,MSCM5;WSPM5,True,False
-WWPU1,Weber River near Plain City,2,GATU1;OAWU1,True,False
-WWRM3,Swift River at West Ware,0,,True,False
-WWRN7,West Prong Roaring River at S.R. 1745 ,0,,True,False
-WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
-WWVT2,Walnut Creek at Webberville Road,0,,True,False
-WXKC1,Arroyo Simi above White Oak,0,,True,False
-WYAA2,Whittier AMHS Dock Tide Gauge at Whittier (MLLW datum),0,,True,False
-WYBS1,Winyah Bay at Georgetown - NERRS Water Quality Station Bottom,0,,True,False
-WYCM6,Tide Station (LIX) near Waveland Yacht (IN MHHW),0,,True,False
-WYDW1,Wynoochee River at Wynoochee Lk,0,,True,False
-WYGC1,Walnut Creek at Ygnacio Valley Road,0,,True,False
-WYGI2,Indian Creek (IL) near Wyoming,0,,True,False
-WYLM7,Fox River (IA/MO) at Wayland,0,,True,False
-WYNI2,Skillet Fork River at Wayne City,0,,True,False
 WYNM6,Chickasawhay River near Waynesboro,2,LEKM6;SHBM6,True,False
 WYPV2,James River (VA) at WEYANOKE POINT NEAR CHARLES CITY,0,,True,False
 WYSF1,Withlacoochee River at Wysong Dam (in NAVD88),2,RUTF1;WFLF1,True,False
