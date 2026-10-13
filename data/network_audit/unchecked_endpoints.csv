@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCWN2,Steamboat Ck at Cleanwater Way,0,,True,False
-SCWW1,South Fork Chehalis Rver near Wildwood,0,,True,False
-SCYW1,South Fork Chehalis Rver near Curtis,0,,True,False
-SCZC1,Sage Creek at Lake Hennessey,0,,True,False
-SCZM7,Osage River near Schell City,3,NVDM7;STTM7;TBVM7,True,False
-SDAT2,Caney Creek near Splendora,0,,True,False
-SDDC1,Salinas River at Soledad,2,CHLC1;KCBC1,True,False
-SDEF1,Saddle Creek at Polk Pkwy,0,,True,False
-SDEI4,Little Turkey River near Saude (IFC),1,ELRI4,True,False
-SDFI3,Sand Creek (IN) at Fishers,1,MCFI3,True,False
-SDFO2,Deep Fork River near Stroud,2,BGSO2;WRWO2,True,False
-SDGC1,San Diego River at Mast Nr Santee,1,FSNC1,True,False
-SDHN4,New Jersey Atlantic Coast at Sandy Hook (IN MLLW),0,,True,False
-SDIC1,San Dimas Dam,0,,True,False
-SDKN6,Sheldrake Stream at Thompsonville,0,,True,False
-SDLF1,Saddle Creek at SR 542,0,,True,False
-SDLV2,Totopotomoy Creek near STUDLEY,0,,True,False
-SDMI3,State Ditch at Mars Hill,0,,True,False
-SDMM3,Paskamanset River near South Dartmouth,0,,True,False
-SDNA2,Sheridan River near Cordova,0,,True,False
-SDNN4,Sluice Creek at S. Dennis (IN MLLW),0,,True,False
-SDQW1,Sol Duc R at Quillayute,0,,True,False
-SDRN6,Carrs Creek near Sidney Center,0,,True,False
-SDRT2,Tide Gauge at Seadrift,0,,True,False
-SDRV2,Sandy River near Danville,0,,True,False
 SDSW3,Siskiwit R at Cornucopia,0,,True,False
 SDTI4,Des Moines River at Saylorville Tail,2,DMOI4;SAYI4,True,False
 SDTM4,Tittabawassee River below Secord Dam near Gladwin,0,,True,False
@@ -1709,7 +1684,7 @@ VING1,Chattahoochee River at Atlanta,3,CHAG1;FBNG1;VIXG1,True,False
 VINI4,Cedar River at Vinton,3,ALOI4;LAPI4;PLOI4,True,False
 VIOW3,Kickapoo River at Viola,2,LAFW3;REAW3,True,False
 VIRU1,Virgin River near Virgin,1,HURU1,True,False
-VISN2,Truckee River at Vista,3,SCRN2;TNTN2;TRRN2,True,False
+VISN2,Truckee River at Vista,4,SCRN2;SCWN2;TNTN2;TRRN2,True,False
 VIVW4,Reservoirs at Viva Naughton Reservoir,0,,True,False
 VIXG1,Chattahoochee River at US 41 at Atlanta,2,VING1;VNPG1,True,False
 VLBP1,Brush Creek at Valley Brook,0,,True,False
