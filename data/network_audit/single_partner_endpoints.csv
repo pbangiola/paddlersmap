@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
-WRMC2,White River near Meeker,1,WHIC2,True,False
-WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False
-WRRN7,Roaring River at S.R. 1993,1,WERN7,True,False
-WRSM7,Osage River at Warsaw,1,LKSM7,True,False
 WRWK1,Wakarusa River at Wakarusa,1,RCHK1,True,False
 WSDM5,West Branch Lac Qui Parle River near Madison 5S,1,DAWM5,True,False
 WSKM5,Red Lake River at Upper Red Lake at Waskish,1,RLDM5,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
-WRMC2,White River near Meeker,1,WHIC2,True,False
-WRMI1,Warm Springs Creek (ID) near Ketchum,2,BWKI1;HALI1,True,False
-WRMN2,Walker River nr mouth at Walker Lake,2,WLHN2;WSIN2,True,False
-WRMO3,Southeast Oregon Reservoirs at Warm Springs Reservoir,0,,True,False
-WRMW3,Wisconsin River below Castle Rock Dam near Mauston,2,CROW3;WDEW3,True,False
-WRNC3,Mount Hope River at Warrenville,0,,True,False
-WRNG1,Brushy Creek at Campground Road near Wrens,0,,True,False
-WRNI2,West Branch Du Page River near Warrenville,2,NFDI2;WBDI2,True,False
-WRNI3,Salamonie River near Warren,2,PORI3;SLAI3,True,False
-WRNN7,Swannanoa River at Warren Wilson,2,BLTN7;BMPN7,True,False
-WRNO1,Mahoning River at Warren,2,LEAO1;YGWO1,True,False
-WRON7,SF New River at Roby Green Road,2,NSFN7;SFBN7,True,False
-WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False
-WROW4,Laramie River Wheatland Reservoir No. 2 Outflow,2,BOSW4;LRDW4,True,False
-WRPN7,Waccamaw River at Highway 904 near Pireway,2,FREN7;LNGS1,True,False
-WRPW1,White River at Roegner Pk. nr Auburn,2,WABW1;WRAW1,True,False
-WRRI3,White River (IN) near Ravenswood,2,NORI3;RVNI3,True,False
-WRRN7,Roaring River at S.R. 1993,1,WERN7,True,False
-WRRP1,Allegheny River at Warren,3,KIZP1;SLMN6;WHKP1,True,False
-WRRV2,South River at Waynesboro near Rife Road,0,,True,False
-WRRW1,White River Bridge,0,,True,False
-WRSH1,Wahiawa Reservoir at Spillway,0,,True,False
-WRSI3,White River (IN) near Strawtown,4,ADNI3;BDCI3;FTNI3;NBLI3,True,False
-WRSM7,Osage River at Warsaw,1,LKSM7,True,False
 WRSN1,Willow Creek near Pierce,0,,True,False
 WRST2,Fifteenmile Creek near Weser,0,,True,False
 WRSU1,White River (UT) below Tabbyune Creek near Soldier Summit,0,,True,False
