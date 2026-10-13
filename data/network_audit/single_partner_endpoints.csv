@@ -1,9 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SBCF1,Brushy Creek at Ehrlich Rd Near Sulfur Springs,1,CTPF1,True,False
-SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
-SBMI3,School Branch (IN) near Brownsburg,1,SBCI3,True,False
-SBMT2,Navidad River at Sublime,1,SPAT2,True,False
 SBNV2,Dan River at South Boston,1,PCEV2,True,False
+SBPN7,South Buffalo Creek near Pomona,1,SBHN7,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SBRN4,North Branch Raritan River at South Branch,1,RRTN4,True,False
 SBST2,North Floodway Near Sebastian,1,MDET2,True,False

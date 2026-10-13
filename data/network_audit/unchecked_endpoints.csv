@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SBCF1,Brushy Creek at Ehrlich Rd Near Sulfur Springs,1,CTPF1,True,False
-SBCI3,School Branch (IN) near Brownsburg,2,SBBI3;SBMI3,True,False
-SBCL1,Inner Harbor Navigational Canal at Seabrook Control Structure,0,,True,False
-SBCM8,Soda Butte Creek near Silver Gate,0,,True,False
-SBCN1,South Blackbird Creek near Macy,0,,True,False
-SBCN7,South Buffalo Creek at McConnell Rd Nr Greensboro,0,,True,False
-SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
-SBED1,Jefferson Creek at South Bethany Beach (IN MLLW),0,,True,False
-SBEL1,Gulf Intracoastal Waterway at IHNC Surge Barrier East/West near Michoud,0,,True,False
-SBFA4,Red River at Springbank Ferry,2,FLTA4;SVPL1,True,False
-SBFS2,Belle Fourche River near Sturgis,5,BEFS2;BFVS2;EMSS2;HRSS2;VAES2,True,False
-SBFV1,LaPlatte River at Shelburne Falls,0,,True,False
-SBGM5,South Branch Buffalo River near Glyndon (28th Ave S),2,DILM5;SABM5,True,False
-SBHN7,South Buffalo Creek at US220 Nr Greensboro,0,,True,False
-SBIF1,Tide Station near Spring Creek Boat Ramp (In MHHW),0,,True,False
-SBIM5,Swan River (MN) near Sobieski 3ENE,0,,True,False
-SBIN4,Shrewsbury River at Sea Bright (IN MLLW),0,,True,False
-SBLM6,Steele Bayou above at Low Water Bridge,0,,True,False
-SBMC2,St Charles River at Burnt Mill,0,,True,False
-SBMF1,Mickler at 16th Street Culvert in St Augustine Beach (in NAVD88),0,,True,False
-SBMI3,School Branch (IN) near Brownsburg,1,SBCI3,True,False
-SBMT2,Navidad River at Sublime,1,SPAT2,True,False
-SBNF1,Suwannee River near Benton (in NAVD88),2,FGOG1;WSPF1,True,False
-SBNG1,Brunswick River at Brunswick,0,,True,False
-SBNI3,St. Joseph River (MI/IN) at South Bend,2,EKMI3;NILM4,True,False
 SBNL1,Inner Harbor Navigational Canal near Gentilly Woods,0,,True,False
 SBNN4,South Branch Raritan River at South Branch,0,,True,False
 SBNN7,Atlantic Intracoastal Waterway at Sunset Blvd Bridge ,0,,True,False
@@ -31,7 +6,7 @@ SBNT2,Rio Grande near San Benito,2,LOBT2;PRGT2,True,False
 SBNV2,Dan River at South Boston,1,PCEV2,True,False
 SBPF1,Tide Gauge at Seabreeze Point (In MHHW),0,,True,False
 SBPN3,South Branch Piscataquog River near Goffstown,0,,True,False
-SBPN7,South Buffalo Creek near Pomona,0,,True,False
+SBPN7,South Buffalo Creek near Pomona,1,SBHN7,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
 SBRC1,Salmon River at Somes Bar,0,,True,False
 SBRF1,Carter Creek at Arbuckle Creek Rd Near Sebring,0,,True,False
@@ -171,7 +146,7 @@ SCTG1,Little Ocmulgee River at GA 149 at Scotland,0,,True,False
 SCTM3,Massachusetts Bay at Scituate (IN MLLW),0,,True,False
 SCTM4,Pere Marquette River near Scottville,0,,True,False
 SCTN7,Tuckasegee River near Scott's Creek inflow,2,DILN7;TKRN7,True,False
-SCVC2,St Charles River at Vineland,0,,True,False
+SCVC2,St Charles River at Vineland,2,ADLC2;SBMC2,True,False
 SCVO3,Sunshine Creek near Valsetz,0,,True,False
 SCWM4,Sloan Creek near Williamston,0,,True,False
 SCWN2,Steamboat Ck at Cleanwater Way,0,,True,False
