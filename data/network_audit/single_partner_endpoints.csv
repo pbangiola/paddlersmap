@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WOCT2,White Oak Creek near Talco,1,OMWT2,True,False
-WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
 WOON1,Wahoo Creek at Wahoo,1,ITHN1,True,False
 WOOR1,Blackstone River at Woonsocket,1,NBRM3,True,False
@@ -11,6 +9,7 @@ WPTM6,Tchoutacabouffa River above White Plains,1,DIBM6,True,False
 WPUW3,West Branch Rock River near Waupun,1,HCNW3,True,False
 WRAN7,Watauga River at Aldridge Road,1,FOSN7,True,False
 WRCN1,White River (WY) at Crawford,1,NEBS2,True,False
+WRDN4,Wanaque River at Wanaque Reservoir elevation,1,WNQN4,True,False
 WRLS1,Reedy River above Waterloo,1,SIMS1,True,False
 WRMC2,White River near Meeker,1,WHIC2,True,False
 WROV2,Reed Creek at Old Stage Road near Wytheville,1,GRHV2,True,False

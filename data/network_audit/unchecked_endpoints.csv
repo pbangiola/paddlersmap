@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WNDN7,Cashie River near Windsor,0,,True,False
-WNDQ3,Pembina River near Windygates,2,PLRQ3;WLHN8,True,False
-WNDV2,Chesapeake Bay at Windmill Point (IN MLLW),0,,True,False
-WNFV2,North Fork Catoctin Creek near Waterford,0,,True,False
-WNIH1,Wainiha River near Hanalei,0,,True,False
-WNIV2,West Neck Creek at Indian River Road,0,,True,False
-WNNI2,Nippersink Creek at Wonder Lake,0,,True,False
-WNQN4,Wanaque River at Wanaque,0,,True,False
-WNRG1,Mulberry Creek (GA) near Winder,0,,True,False
-WNRN7,Cashie River at Windsor at S. King St,0,,True,False
-WNRO3,North Umpqua River near Winchester,2,EKTO3;WINO3,True,False
-WNRV2,West Neck Creek at West Neck Road,0,,True,False
-WNSI3,Patoka River above Winslow,2,JPRI3;PNTI3,True,False
-WNTP1,Lehigh River at Walnutport,2,BETP1;LHTP1,True,False
-WNWS2,Whitewood Creek near Whitewood,2,VAES2;WTWS2,True,False
-WNYM7,Niangua River near Windyville,0,,True,False
-WNYN6,Hackensack River at West Nyack,0,,True,False
-WOCT2,White Oak Creek near Talco,1,OMWT2,True,False
-WODG1,Little River at GA 5 near Woodstock,0,,True,False
-WODI1,Little Wood River near Carey,2,LWRI1;PBOI1,True,False
-WODK1,S F Solomon River at Woodston,2,OSBK1;STCK1,True,False
-WODN7,Waccamaw River at Dock Road,2,FREN7;WHSN7,True,False
-WODR1,Pawcatuck above Wood River Junction,0,,True,False
-WODS1,Enoree River near Woodruff,2,PELS1;WHMS1,True,False
-WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOGS2,White River (NE-SD) near Oglala,2,IRRS2;NEBS2,True,False
 WOLM2,Dead Run Tributary at Woodlawn,0,,True,False
 WOLM4,Sturgeon River at Wolverine,0,,True,False
@@ -84,7 +59,7 @@ WRCS1,Wando River at Cainhoy (IN MLLW),0,,True,False
 WRCW4,Wind River above Red Creek,3,CROW4;DUBW4;EFWW4,True,False
 WRDM5,Lake of the Woods at Warroad,0,,True,False
 WRDM8,West Rosebud Creek near Roscoe,0,,True,False
-WRDN4,Wanaque River at Wanaque Reservoir elevation,0,,True,False
+WRDN4,Wanaque River at Wanaque Reservoir elevation,1,WNQN4,True,False
 WRDP1,Turtle Creek at Wilmerding,0,,True,False
 WRDV2,Warwick River at Denbigh Blvd (IN MLLW),0,,True,False
 WRDW1,White River near Dieringer,2,PUYW1;WSTW1,True,False
