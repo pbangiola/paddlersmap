@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-POET2,West Fork San Jacinto River near Porter,2,CFKT2;HMMT2,True,False
-POHC1,Merced River at Pohono Bridge,2,HPIC1;STVC1,True,False
-POIN7,Roanoke Sound at Pond Island,0,,True,False
-POIW1,Pend Oreille River at Ione,2,BCAW1;POCW1,True,False
-POKM5,Pokegama Lake Elevation,0,,True,False
-POKM7,Pomme de Terre River (MO) near Polk,0,,True,False
-POLA3,Polacca Wash near Second Mesa,1,DINA3,True,False
-POLI3,Lick Creek at Paoli,0,,True,False
-POMM2,Mattawoman Creek near Pomonkey,0,,True,False
-POMN4,Ramapo River at Dawes Highway at Pompton Lakes,0,,True,False
-POMO1,Ohio River at Pomeroy,2,POPW2;RACW2,True,False
-PONS2,Big Sioux River at Lake Poinsett Inlet/Outlet,0,,True,False
-POOC3,Pootatuck River at Sandy Hook,0,,True,False
-POPA1,Clear Creek,0,,True,False
-POPM3,Atlantic Coast at Mashpee Popponesset Bay(IN MLLW),0,,True,False
-POPM5,Poplar River (MN) near Lutsen,0,,True,False
-POPW2,Ohio River at Point Pleasant,2,GALW2;POMO1,True,False
-PORI1,Kootenai River at Porthill,1,BFEI1,True,False
-PORI3,Salamonie River at Portland,0,,True,False
-PORM2,Potomac River at Point of Rocks,2,EDFM2;HFEW2,True,False
-PORM4,Grand River at Portland,2,GDLM4;IONM4,True,False
-PORO1,Ohio River at Portsmouth,2,GNUK2;MYVK2,True,False
-PORP1,Tuscarora Creek near Port Royal,0,,True,False
-PORT1,Red River near Port Royal,0,,True,False
-PORW3,Wisconsin River at Portage,2,PDSW3;WDEW3,True,False
 POTG1,Potato Creek at County Line Road near Orchard Hill,0,,True,False
 POTN6,Dodge Creek (NY) above Portville,0,,True,False
 POTN7,Potecasi Creek near Union,0,,True,False
@@ -923,7 +898,7 @@ SAKW1,Sauk River near Sauk,0,,True,False
 SAKW3,Milwaukee River at Saukville,0,,True,False
 SALA2,Salcha River near Salchaket,0,,True,False
 SALC2,Arkansas River at Salida,3,ARGC2;CHKC2;WSVC2,True,False
-SALI3,Salamonie River at Dora,0,,True,False
+SALI3,Salamonie River at Dora,2,SLAI3;WABI3,True,False
 SALM4,Saline River below SALINE,0,,True,False
 SALN1,Salt Creek at Innovation Campus at Lincoln,2,LCNN1;LUSN1,True,False
 SALP1,Larrys Creek at Salladasburg,0,,True,False
@@ -1491,7 +1466,7 @@ SKYI4,Snake Creek near Yorktown,0,,True,False
 SKYN6,Skaneateles Creek near Skaneateles Jct,0,,True,False
 SLAA2,Slate Creek at Coldfoot,0,,True,False
 SLAC2,Straight Creek (CO) near Dillon,0,,True,False
-SLAI3,Northern Indiana Lakes at Salamonie Lake Dam,0,,True,False
+SLAI3,Northern Indiana Lakes at Salamonie Lake Dam,2,SALI3;WRNI3,True,False
 SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
 SLAW1,Sprague Lake near Sprague,0,,True,False
 SLBI1,Snake River at Loveridge Bridge near Bruneau,0,,True,False
@@ -2930,7 +2905,7 @@ VWBC1,Sacramento River at Vina-Woodson Bridge,3,DCVC1;HAMC1;TEHC1,True,False
 VYWK2,Mill Creek (KY) near Valley Station,0,,True,False
 WAAH1,Waiaha Stream near Holualoa,0,,True,False
 WAAK1,Saline River (KS) near Wakeeney,1,RUSK1,True,False
-WABI3,Wabash River at Wabash,3,HNTI3;LRHI3;PRUI3,True,False
+WABI3,Wabash River at Wabash,4,HNTI3;LRHI3;PRUI3;SALI3,True,False
 WABM5,Mississippi River at Wabasha - Pool 4,2,ALMW3;LKCM5,True,False
 WABW1,White River near Auburn,2,WPCW1;WRPW1,True,False
 WABW4,Wind River above Boysen Reservoir near Shoshoni,0,,True,False
@@ -3541,7 +3516,7 @@ WRMW3,Wisconsin River below Castle Rock Dam near Mauston,2,CROW3;WDEW3,True,Fals
 WRNC3,Mount Hope River at Warrenville,0,,True,False
 WRNG1,Brushy Creek at Campground Road near Wrens,0,,True,False
 WRNI2,West Branch Du Page River near Warrenville,2,NFDI2;WBDI2,True,False
-WRNI3,Salamonie River near Warren,0,,True,False
+WRNI3,Salamonie River near Warren,2,PORI3;SLAI3,True,False
 WRNN7,Swannanoa River at Warren Wilson,2,BLTN7;BMPN7,True,False
 WRNO1,Mahoning River at Warren,2,LEAO1;YGWO1,True,False
 WRON7,SF New River at Roby Green Road,2,NSFN7;SFBN7,True,False
