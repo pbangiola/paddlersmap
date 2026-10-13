@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OPKC1,Copeland Creek at Copeland Creek,0,,True,False
-OPLF1,Old Pass Lagoon at Destin (in MHHW),0,,True,False
-OPLP1,Youghiogheny River at Ohiopyle,2,CLLP1;CNFP1,True,False
-OPSH1,Opaeula Stream near Haleiwa,0,,True,False
-OPTF1,Tide Gauge at Old Port Tampa (in MHHW),0,,True,False
-OPTN4,Shrewsbury River at Gooseneck,0,,True,False
-OPYA1,Yellow River (AL) above Opp,0,,True,False
-OQGN6,Oquaga Creek at McLure,0,,True,False
-OQUI2,Henderson Creek near Oquawka,0,,True,False
-ORAF1,Central Drainage Ditch at Orange Avenue,0,,True,False
-ORAI3,Tippecanoe River near Ora,4,BCHI3;MAXI3;OWGI3;WMCI3,True,False
-ORAL1,Old River Iflow/Outflow Channel at Auxiliary Inflow,0,,True,False
-ORAM6,Escatawpa River above Orange Grove,0,,True,False
-ORBC1,Old River at Byron,0,,True,False
-ORBS1,N. Fork Edisto River at Orangeburg,2,EBRS1;NFES1,True,False
-ORBT2,West Bouldin Creek above Oltorf Road at Austin,0,,True,False
-ORCF1,Tide Gauge at Orange River Bridge (in MHHW),0,,True,False
-ORCI1,East Fork Owyhee River at Crutcher Crossing,2,OMCN2;ROMO3,True,False
-ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
-ORCO3,Willamette River below Falls at Oregon City,2,OCUO3;PRTO3,True,False
-ORCT2,Little Cypress Creek near Ore City,1,JFFT2,True,False
-ORDN1,North Loup River at Ord,2,SPUN1;TYLN1,True,False
-ORDS2,Elm River at Ordway,1,WESS2,True,False
-OREC1,Orestimba Creek near Newman,0,,True,False
-OREI4,Ocheyedan River near Everly,2,MAYI4;SPOI4,True,False
 ORFC1,Sacramento River at Ord Ferry,2,BTCC1;HAMC1,True,False
 ORFI1,Clearwater River at Orofino,0,,True,False
 ORFT2,Cow Bayou at FM 1442,3,BCVT2;COWT2;MCVT2,True,False
@@ -49,7 +24,7 @@ OROI1,Orofino Creek near Orofino,0,,True,False
 OROL1,Old River Iflow/Outflow Channel at Outflow Channel below Hydropower,0,,True,False
 OROP4,Lago Matrullas,0,,True,False
 ORQC1,Old River at Quimby Island NR Bethel Island Ca,0,,True,False
-ORRF1,Orange River Near Buckingham,0,,True,False
+ORRF1,Orange River Near Buckingham,1,ORCF1,True,False
 ORSF1,Ochlockonee River at Ochlockonee River State Park (in MHHW),0,,True,False
 ORTM5,Minnesota River at Ortonville,3,BSLM5;MVOM5;ODAM5,True,False
 ORTW1,Puyallup River near Orting,2,ELEW1;PUYW1,True,False

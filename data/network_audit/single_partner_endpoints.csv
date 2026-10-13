@@ -1,11 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
-ORCT2,Little Cypress Creek near Ore City,1,JFFT2,True,False
-ORDS2,Elm River at Ordway,1,WESS2,True,False
 ORGN4,Pequannock River at Oak Ridge,1,CHAN4,True,False
 ORII2,Edwards River near Orion,1,NWBI2,True,False
 ORLO1,Ottawa River at Lima,1,KALO1,True,False
 ORNT2,Sabine River at Orange,1,TMYT2,True,False
+ORRF1,Orange River Near Buckingham,1,ORCF1,True,False
 OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
 OSYM6,Tangipahoa River at Osyka,1,KENL1,True,False
 OTQV1,Ottauquechee River near West Bridgewater,1,NHDV1,True,False
