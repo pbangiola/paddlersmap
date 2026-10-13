@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SNFM6,Quiver River near Sunflower,2,DODM6;LCGM6,True,False
-SNFW2,Sand Run near Buckhannon,0,,True,False
-SNGW1,NF Skykomish R at Galena,0,,True,False
-SNHN7,Contentnea Creek at Snow Hill,0,,True,False
-SNIC1,Santa Anita Dam,0,,True,False
-SNIW1,NF Skykomish River at Index,0,,True,False
-SNKA2,Snake River near Nome,0,,True,False
-SNKG1,Snake Creek near Whitesburg,0,,True,False
-SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
-SNKV2,Stony Creek near DINWIDDIE,0,,True,False
-SNLO1,Seneca Fork at Senecaville Dam Pool,1,SNCO1,True,False
-SNMC2,San Miguel River Brooks Bridge near Nucla,2,SMPC2;SMUC2,True,False
-SNMI1,Snake River at McDuff Rapids,0,,True,False
-SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
-SNNP1,Sinnemahoning Creek at Sinnemahoning,0,,True,False
-SNOA1,Pine Barren Creek near Snow Hill,0,,True,False
-SNOA2,Snow River near Seward,1,COOA2,True,False
-SNOC2,Snowmass Creek near Snowmass,0,,True,False
-SNPP1,Dunkard Creek at Shannopin,0,,True,False
-SNPT2,San Antonio River at Loop 410,2,ELMT2;MTST2,True,False
-SNQW1,North Fork Snoqualmie River near Snoqualmie Falls,0,,True,False
-SNRC1,San Antonio Reservoir near Bradley,0,,True,False
-SNRL1,New River (SE LA) near Sorrento,0,,True,False
-SNRO3,Silver Creek near Riley,0,,True,False
-SNRS1,Santee River near Russellville,2,JAMS1;PNVS1,True,False
 SNSN7,Atlantic Coast at Sunset Beach,0,,True,False
 SNTN7,Cheoah river above SANTEETLAH DAM,0,,True,False
 SNWF1,New River near Sumatra (CR 22),0,,True,False
@@ -164,7 +139,7 @@ SPYN7,Symphony Lake near Cary,0,,True,False
 SPYT1,Loosahatchie River at Singleton Parkway,0,,True,False
 SQKO3,Whychus Creek near Sisters,0,,True,False
 SQUI1,Squaw Creek (ID) below Bruno Creek,0,,True,False
-SQUW1,Snoqualmie River at Snoqualmie Falls,3,CRNW1;GARW1;TANW1,True,False
+SQUW1,Snoqualmie River at Snoqualmie Falls,4,CRNW1;GARW1;SNQW1;TANW1,True,False
 SQWI1,Squaw Creek near Sweet,0,,True,False
 SRAA2,Swanson River at Oil Field Service Road Bridge near Kenai,0,,True,False
 SRAG1,Savannah River at Jefferson Davis Bridge in Augusta,2,AUGG1;EVSG1,True,False
@@ -1594,7 +1569,7 @@ WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHEI2,Buffalo Creek (IL) at Wheeling,0,,True,False
 WHEW2,Wheeling Creek WV at Elm Grove,0,,True,False
 WHEW3,Hay River at Wheeler,1,MENW3,True,False
-WHGG1,Snake Creek  downstream Snake Creek Reservoir near Whitesburg,0,,True,False
+WHGG1,Snake Creek  downstream Snake Creek Reservoir near Whitesburg,1,SNKG1,True,False
 WHGM7,Missouri River at Washington,2,HRNM7;SCLM7,True,False
 WHIA1,Tennessee River at Whitesburg,2,DECA1;GVDA1,True,False
 WHIC2,White River below Meeker,0,,True,False

@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
-SNLO1,Seneca Fork at Senecaville Dam Pool,1,SNCO1,True,False
-SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
-SNOA2,Snow River near Seward,1,COOA2,True,False
 SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SOGM5,Little Cannon River at Sogn,1,CNFM5,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
@@ -223,6 +219,7 @@ WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
 WHBI1,Salmon River at White Bird,1,SMNI1,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHEW3,Hay River at Wheeler,1,MENW3,True,False
+WHGG1,Snake Creek  downstream Snake Creek Reservoir near Whitesburg,1,SNKG1,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
 WHMV2,N Fork Holston River at White Mills 2N,1,SALV2,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
