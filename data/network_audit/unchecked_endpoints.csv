@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WCLN3,Sugar River (NH) at West Claremont,1,SCFN3,True,False
-WCLO1,Wills Creek at Wills Creek Dam Pool,2,CDIO1;WLLO1,True,False
-WCLO3,Winberry Creek at Winberry Creek,0,,True,False
-WCMM7,Wilson Creek near Brookline,0,,True,False
-WCMW3,Sleighton Creek near Wilton - County Road M,0,,True,False
-WCNI4,Wolf Creek near Conrad G Ave--IFC,1,DYSI4,True,False
-WCNN6,Canisteo River near West Cameron,0,,True,False
-WCNW1,Wind River near Carson,0,,True,False
-WCOM7,Spring River  near Waco,4,BXTK1;CHTM7;NFSM7;QUAO2,True,False
-WCPC1,Walnut Creek,0,,True,False
-WCPN1,Willow Creek near Pierce,1,FSTN1,True,False
-WCRC2,Willow Creek (CO) at Willow Creek Reservoir,0,,True,False
-WCRI3,Williams Creek at 96th Street on the Hamilton-Marion County Line,0,,True,False
-WCRM7,Wilson Creek near Springfield,0,,True,False
-WCRN6,Canisteo River at West Cameron,2,ASTN6;HORN6,True,False
-WCRT1,Whites Creek near Whites Creek,1,BORT1,True,False
-WCSA2,West Creek near Skagway,1,TYAA2,True,False
-WCSG1,Whitewater Creek near Southwest Fayetteville,1,WCEG1,True,False
-WCSI4,Willow Creek near Soldier,0,,True,False
-WCTC1,Wildcat Creek at Vale Rd Bridge,0,,True,False
-WCTO3,Wagner Creek at Talent,0,,True,False
-WCWI4,Little Walnut Creek near Clive 156th St--IFC,0,,True,False
-WCXF1,Suwannee River near Wilcox - US 19 (in NAVD88),3,HSGF1;MTSF1;RCKF1,True,False
-WCXP1,West Branch Clarion River at Wilcox,0,,True,False
-WDAF1,Withlacoochee River near Dade City (in NAVD88),2,CUMF1;TRBF1,True,False
 WDBC1,Walnut Creek at Diamond Blvd Bridge,0,,True,False
 WDCA2,Jack Wade Creek at MP 85 Taylor Hwy near Chicken,1,WADA2,True,False
 WDCF1,Tide Gauge at Weedon Island (in MHHW),0,,True,False
