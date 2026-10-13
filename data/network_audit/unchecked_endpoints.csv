@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OMRC1,Sacramento-San Joaquin Delta above Old And Middle Rivers Tidally Filtered Est,0,,True,False
-OMWT2,White Oak Creek near Omaha at Interstate 30,0,,True,False
-ONAV2,South Branch Onancock Creek at Onancock,0,,True,False
-ONCN4,Great Egg Harbor Bay at Ocean City (IN MLLW),0,,True,False
-ONCN6,Onondaga Creek above Inner Harbor,0,,True,False
-ONDN6,Onondaga Creek near Nedrow,1,LVRN6,True,False
-ONFN6,Onondaga Creek at Onondaga Flood Control Dam,0,,True,False
-ONGF1,Orange Creek at Orange Springs,0,,True,False
-ONGM2," RED RUN NEAR OWINGS MILLS, MD",0,,True,False
-ONIM5,Rum River near Onamia,1,MCAM5,True,False
-ONIT2,Onion Creek at Twin Creeks near Manchaca,2,ATIT2;BDUT2,True,False
-ONLC2,Laramie River near Glendevey,0,,True,False
-ONMW1,Ninemile Creek near Oroville,0,,True,False
-ONOM5,North Branch Middle Fork Zumbro River near Oronoco 1W,2,LKZM5;PNLM5,True,False
-ONSC1,Klamath River at Orleans,2,KLMC1;SEIC1,True,False
-ONTW3,Kickapoo River at Ontario,2,LAFW3;OCYW3,True,False
-ONYK2,Tradewater River above Olney,0,,True,False
-OOAI4,South Skunk River near Oskaloosa,2,MERI4;RSSI4,True,False
-OOBT1,Oostanaula Creek at Sanford 1SE,0,,True,False
-OOLO2,Eastern Oklahoma Lakes at Oologah Lake,0,,True,False
-OOST2,Oso Creek near Corpus Christi,0,,True,False
-OPAH1,Opaeula Stream near Wahiawa,0,,True,False
-OPCN2,Ophir Creek near Steamboat,0,,True,False
-OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
-OPDU1,Ogden River below Pineview Reservoir,0,,True,False
 OPKC1,Copeland Creek at Copeland Creek,0,,True,False
 OPLF1,Old Pass Lagoon at Destin (in MHHW),0,,True,False
 OPLP1,Youghiogheny River at Ohiopyle,2,CLLP1;CNFP1,True,False
@@ -462,7 +437,7 @@ PIKP1,Chartiers Run at Pike Street,2,CNBP1;WAHP1,True,False
 PIKT2,Pin Oak Creek at S. Elizabeth Ave. Kirbyville,0,,True,False
 PILC1,Pilarcitos Lake  ,0,,True,False
 PILL1,Tide Station (LIX) at Pilottown near Venice,0,,True,False
-PILM5,North Branch Middle Fork Zumbro River at Pine Island Main Street,0,,True,False
+PILM5,North Branch Middle Fork Zumbro River at Pine Island Main Street,2,ONOM5;RCOM5,True,False
 PILW1,Pilchuck River near Snohomish,0,,True,False
 PINF1,Withlacoochee River near Pinetta - CR 150 (in NAVD88),3,BLSF1;OKAG1;QUTG1,True,False
 PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
@@ -1072,7 +1047,7 @@ RCNF1,Tide Station at Raccoon Key on Boca Chica Channel (in MHHW),0,,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCNO1,Raccoon Creek at Newark below Wilson St.,2,GRNO1;NEAO1,True,False
 RCOI4,Rock Creek near Orchard (IFC),0,,True,False
-RCOM5,North Branch Middle Fork Zumbro River at Roscoe - Cty Rd 27,0,,True,False
+RCOM5,North Branch Middle Fork Zumbro River at Roscoe - Cty Rd 27,1,PILM5,True,False
 RCPK2,Green River (KY) above Rockport,2,LVMK2;PRDK2,True,False
 RCPT2,Tide Gauge at Rockport,0,,True,False
 RCRF1,Reedy Creek above SR531 Nr Poinciana,0,,True,False
@@ -3301,7 +3276,7 @@ TWLW4,Coney Creek below Twin Lakes,0,,True,False
 TWMF1,Atlantic Ocean Tide Gauge at Town Marina Palm Beach (in MHHW),0,,True,False
 TWNM8,Beaverhead River near Twin Bridges,2,DILM8;TWBM8,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
-TWPK2,Tradewater River above Providence,0,,True,False
+TWPK2,Tradewater River above Providence,1,ONYK2,True,False
 TWRN2,S Twin River nr Round Mountain,0,,True,False
 TWRO2,Washita River near Tishomingo,2,CWRO2;DURO2,True,False
 TWVA3,Truxton Wash near Valentine,0,,True,False
@@ -3816,7 +3791,7 @@ WELW2,Ohio River at Wellsburg,2,SBVO1;WHLW2,True,False
 WENM1,Penobscot River at West Enfield,4,EDDM1;GRNM1;MFDM1;WLDM1,True,False
 WENN7,Dan River near Wentworth,3,DEDN7;DROV2;PNHN7,True,False
 WEOC1,Bull Creek near Weott,0,,True,False
-WEOT2,Oso Creek at Merrett Road,0,,True,False
+WEOT2,Oso Creek at Merrett Road,1,OOST2,True,False
 WEPS1,Saluda River at West Pelzer,3,CHAS1;GSLS1;WLSS1,True,False
 WERN7,East Prong Roaring River at S.R. 1002,0,,True,False
 WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
@@ -4099,7 +4074,7 @@ WNTP1,Lehigh River at Walnutport,2,BETP1;LHTP1,True,False
 WNWS2,Whitewood Creek near Whitewood,2,VAES2;WTWS2,True,False
 WNYM7,Niangua River near Windyville,0,,True,False
 WNYN6,Hackensack River at West Nyack,0,,True,False
-WOCT2,White Oak Creek near Talco,0,,True,False
+WOCT2,White Oak Creek near Talco,1,OMWT2,True,False
 WODG1,Little River at GA 5 near Woodstock,0,,True,False
 WODI1,Little Wood River near Carey,1,LWRI1,True,False
 WODK1,S F Solomon River at Woodston,2,OSBK1;STCK1,True,False

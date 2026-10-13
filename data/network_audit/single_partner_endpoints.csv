@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ONDN6,Onondaga Creek near Nedrow,1,LVRN6,True,False
-ONIM5,Rum River near Onamia,1,MCAM5,True,False
-OPDK1,Indian Creek at Overland Park,1,ICLK1,True,False
 ORCM4,Cisco Branch Ontonagon River at Cisco Lake,1,EWNM4,True,False
 ORCT2,Little Cypress Creek near Ore City,1,JFFT2,True,False
 ORDS2,Elm River at Ordway,1,WESS2,True,False
@@ -144,6 +141,7 @@ RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
 RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
 RCMM4,Kalamazoo River near New Richmond,1,CMSM4,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
+RCOM5,North Branch Middle Fork Zumbro River at Roscoe - Cty Rd 27,1,PILM5,True,False
 RCSN6,Erie Canal above Rochester,1,MCDN6,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
@@ -428,6 +426,7 @@ TUKW1,Green River (WA) at Tukwila,1,GRKW1,True,False
 TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
+TWPK2,Tradewater River above Providence,1,ONYK2,True,False
 TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
 TYLN1,North Loup River at Taylor,1,ORDN1,True,False
 TYTM6,Bogue Chitto River near Tylertown,1,FRNL1,True,False
@@ -496,6 +495,7 @@ WDRW4,Wind River at Riverton,1,KINW4,True,False
 WDVO1,Portage River at Woodville,1,EOMO1,True,False
 WEAM5,Mustinka River at Wheaton,1,MSKM5,True,False
 WEJO1,Little Darby Creek near West Jefferson,1,DBVO1,True,False
+WEOT2,Oso Creek at Merrett Road,1,OOST2,True,False
 WERW3,Chippewa River (WI) near Winter,1,BRUW3,True,False
 WESN7,Roanoke River near Westover,1,JAMN7,True,False
 WETA1,Coosa River at Wetumpka,1,WPKA1,True,False
@@ -538,6 +538,7 @@ WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
 WMYF1,Cow Pen Slough at WM-49,1,KGAF1,True,False
 WNBM5,Lake Winnibigoshish,1,KNUM5,True,False
 WNCW3,Wolf River (WI) near Lake Poygan,1,NEWW3,True,False
+WOCT2,White Oak Creek near Talco,1,OMWT2,True,False
 WODI1,Little Wood River near Carey,1,LWRI1,True,False
 WODW4,Laramie River near Woods Landing,1,LLRW4,True,False
 WOOM2,Patapsco River at Woodstock,1,PRHM2,True,False
