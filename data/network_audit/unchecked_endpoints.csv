@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPNW2,Bluestone River near Spanishburg,2,BRVV2;PIPW2,True,False
-SPOF1,Tide Station at Saprito Pier,0,,True,False
-SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
-SPOO1,Unnamed Tributary to WB Rocky River near Berea,2,BRRO1;CSNO1,True,False
-SPOW1,Spokane River at Spokane,2,LLKW1;SGRW1,True,False
-SPPA3,San Pedro River near Palominas,1,SAPA3,True,False
-SPPC1,Santa Paula Creek near Santa Paula,0,,True,False
-SPQC1,Tule River near Springville,0,,True,False
-SPRA3,San Pedro River near Redington,1,SPTA3,True,False
-SPRC1,Salinas River near Spreckels,2,CHLC1;SLGC1,True,False
-SPRO3,Mohawk River (OR) near Springfield,0,,True,False
-SPRS2,Spearfish Creek below Spearfish,2,RWRS2;SFHS2,True,False
-SPRT2,Palo Duro Creek at Palo Duro Reservoir,1,SPMT2,True,False
-SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
-SPRW3,Eau Galle River above Spring Valley,0,,True,False
-SPSI1,Spring Creek (Eastern ID) near Fort Hall,0,,True,False
-SPSM1,Little Androscoggin River near South Paris,0,,True,False
-SPTA3,San Pedro River near Tombstone,3,BABA3;SAPA3;SPRA3,True,False
-SPTC2,South Platte River at South Platte,3,DKRC2;GRNC2;WATC2,True,False
-SPTF1,St Lucie River at Steele Point (in MHHW),0,,True,False
-SPTG1,Spirit Creek at U.S. Hwy 1 near Augusta,0,,True,False
-SPTK2,Green River (KY) above Spottsville,3,CALK2;EVVI3;PANK2,True,False
-SPTM5,Minnesota River at St Peter,2,HENM5;MNKM5,True,False
-SPTN4,Manalapan Brook at Spotswood,0,,True,False
-SPTT1,Tennessee River at South Pittsburg,2,NKTT1;SCRA1,True,False
 SPTV2,Po River near Spotsylvania,0,,True,False
 SPUF1,Deep Creek at Spuds (in MHHW),0,,True,False
 SPUN1,North Loup River near St. Paul,2,GELN1;ORDN1,True,False

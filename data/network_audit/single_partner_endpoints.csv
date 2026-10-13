@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
-SPPA3,San Pedro River near Palominas,1,SAPA3,True,False
-SPRA3,San Pedro River near Redington,1,SPTA3,True,False
-SPRT2,Palo Duro Creek at Palo Duro Reservoir,1,SPMT2,True,False
-SPRW2,South Branch Potomac River near Springfield,1,PETW2,True,False
 SPYN6,Canasawacta Creek at South Plymouth,1,CCKN6,True,False
 SRBS1,Salkehatchie River near Barnwell,1,MILS1,True,False
 SRCO2,Rock Creek (OK) at Sulphur,1,ARBO2,True,False
