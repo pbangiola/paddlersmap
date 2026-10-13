@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WSRN6,Susquehanna River at Windsor,2,BAIN6;CKLN6,True,False
-WSSC1,Warm Springs Creek below Strawberry Creek,0,,True,False
-WSSN7,Walnut Creek (NC) at S. State St.,2,WAWN7;WRLN7,True,False
-WSTM2,Georges Creek near Franklin/Westernport,0,,True,False
-WSTM6,Big Black River at West,2,BTAM6;KILM6,True,False
-WSTN7,"Taggart Creek at West Blvd (NC 160), 1 WSW Reid Park",0,,True,False
-WSTN8,Souris River near Westhope,1,BANN8,True,False
-WSTR1,Pawcatuck at Westerly,0,,True,False
-WSTW1,White River near Sumner,2,WPCW1;WRDW1,True,False
-WSVC1,Watsonville Slough at Watsonville Slough,0,,True,False
-WSVC2,Arkansas River near Wellsville,2,PDLC2;SALC2,True,False
-WSVM8,Big Hole River near Wise River,2,BHDM8;MRDM8,True,False
-WSWG1,Chattahoochee River at 0.76 mile upstream McGinnis Ferry near Suwanee,2,BUFG1;NCRG1,True,False
-WSWM6,Pearl River at Walkiah Bluff near Industrial MS,0,,True,False
-WSXC1,Salsipuedes Creek near Lakeview Rd,0,,True,False
-WTBV1,Little River (Vermont) near Waterbury,2,ESSV1;WRSV1,True,False
-WTCN4,Stony Brook at Watchung,0,,True,False
-WTFN6,Hudson River near Waterford,2,FTEN6;TRYN6,True,False
-WTFN8,Little Missouri River near Watford City,1,TRTN8,True,False
-WTGA2,[INACTIVE] Passage Canal at Whittier Tidal Gage,0,,True,False
-WTGM6,Tuscolameta Creek at Walnut Grove,0,,True,False
-WTGT1,Watauga River above Watauga Dam,2,EZBT1;SGWN7,True,False
-WTGW3,Wisconsin River below Whiting Dam,2,BIRW3;STPW3,True,False
-WTHF1,Withlacoochee River near Lee (in NAVD88),2,BLSF1;ELLF1,True,False
-WTHM3,Old Swamp River at Weymouth,0,,True,False
 WTHW1,Methow River at Winthrop,2,MZMW1;PATW1,True,False
 WTIC1,Whitewater River (CA) at Indio,0,,True,False
 WTIN7,Currituck Sound at Walnut Island near Grandy,0,,True,False
