@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PING1,Coosawattee River at Pine Chapel Road near Resaca,1,RDBG1,True,False
-PINM7,Big Piney near Edgar Springs,1,BIGM7,True,False
-PINS1,Lake Moultrie at Pinopolis Dam,1,GOOS1,True,False
-PINW2,Guyandotte River at Pineville,1,BAIW2,True,False
 PIPM5,Pipestone Creek at Pipestone,1,PSTM5,True,False
 PIPW2,Bluestone River near Pipestem,1,SPNW2,True,False
 PITW1,Klickitat River near Pitt,1,KLCW1,True,False
@@ -247,7 +243,6 @@ SMIN1,South Loup River at St. Michael,1,RVNN1,True,False
 SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
 SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
-SNAW1,Snohomish River at Snohomish,1,MROW1,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
 SNDO3,Sandy River near Bull Run,1,RUNO3,True,False
 SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
