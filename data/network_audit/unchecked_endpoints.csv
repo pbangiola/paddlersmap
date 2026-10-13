@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RFKT1,Roaring Fork River above Gatlinburg,0,,True,False
-RFPL1,Lake Pontchartrain 8 miles ESE of Slidell at Rigolets on U S Hwy 90,0,,True,False
-RFRV2,Broad Run at Rollins Ford Road,0,,True,False
-RFSW3,Kinnickinnic River near River Falls,0,,True,False
-RFWN7,Rockfish Creek at Willard Railroad Street,0,,True,False
-RFYN7,Rockfish Creek at Research Dr near Fayetteville,0,,True,False
-RGAC1,Salinas River near Santa Margarita,0,,True,False
-RGAG1,Oostanaula River near Rome,2,CALG1;RTMG1,True,False
-RGAT2,Rio Grande below American Canal Diversion,2,EPRT2;FQGT2,True,False
-RGBT2,Rhodair Gully at Wellspring Dr.,0,,True,False
-RGBV2,Garnand Branch at Garden City in Roanoke,0,,True,False
-RGCN5,Galisteo Creek below Galisteo Dam,0,,True,False
-RGCV2,Glade Creek at Gus Nicks Blvd in Roanoke,0,,True,False
-RGDT2,Rio Grande at Rio Grande City,2,RGLT2;RRGT2,True,False
-RGHV2,Rapidan River at Germanna Highway,0,,True,False
-RGIT2,Rhodair Gully at 5th Street,0,,True,False
-RGIV2,Ragged Island Creek at US 17,0,,True,False
-RGLA1,Coosa River at Neely Henry Dam,2,CCSA1;GAPA1,True,False
-RGLN4,Delaware River at Riegelsville,2,ESTN4;FREN4,True,False
-RGLT2,Rio Grande near Los Ebanos,2,MADT2;RGDT2,True,False
-RGMP4,Rio Grande De Manati near Manati,0,,True,False
-RGRN5,Gila River near Redrock,2,GILN5;GVRN5,True,False
-RGTL1,Lake Pontchartrain near The Rigolets at HWY 90,0,,True,False
-RGUS2,Reno Gulch near Hill City,0,,True,False
-RGVI3,Mississinewa River near Ridgeville,0,,True,False
 RHBN5,Rio Grande at Hayners Bridge near Rincon,2,CAAN5;LBDN5,True,False
 RHBV2,Hortons Branch at Forest Park Elementary in Roanoke,0,,True,False
 RHCC1,Rio Hondo below Whittier Narrows Dam,0,,True,False
@@ -46,7 +21,7 @@ RICQ8,Battle Creek at Richardson Ditch nr Consul 5NNW,0,,True,False
 RICT1,Little Pigeon River at Richardson Cove (Maples Branch),2,LPNT1;POCT1,True,False
 RICV2,James River (VA) at Richmond Locks,3,JPHV2;RMDV2;SWPV2,True,False
 RIDI1,Eastern Idaho Reservoirs at Ririe Dam,0,,True,False
-RIDI3,Mississinewa River at Ridgeville,1,MROI3,True,False
+RIDI3,Mississinewa River at Ridgeville,2,MROI3;RGVI3,True,False
 RIFM7,Gasconade River near Rich Fountain,1,JRMM7,True,False
 RIGA4,Right Hand Chute Little River at Rivervale,3,MDEA4;MTOA4;PNGA4,True,False
 RIGI1,Little Salmon River at Riggins,0,,True,False
@@ -1260,7 +1235,7 @@ SPTT1,Tennessee River at South Pittsburg,2,NKTT1;SCRA1,True,False
 SPTV2,Po River near Spotsylvania,0,,True,False
 SPUF1,Deep Creek at Spuds (in MHHW),0,,True,False
 SPUN1,North Loup River near St. Paul,2,GELN1;ORDN1,True,False
-SPUT1,West Prong Little Pigeon River 2SE Pigeon Forge (Spur),3,GATT1;HJBT1;RDVT1,True,False
+SPUT1,West Prong Little Pigeon River 2SE Pigeon Forge (Spur),4,GATT1;HJBT1;RDVT1;RFKT1,True,False
 SPVI4,Turkey River near Spillville (IFC),2,SPLI4;TCGI4,True,False
 SPWI4,Little Sioux River at Spencer,2,LNNI4;SPII4,True,False
 SPWW4,South Piney Creek below Willow Park Reservior,0,,True,False
