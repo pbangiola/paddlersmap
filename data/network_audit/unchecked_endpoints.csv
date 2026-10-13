@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RSPN7,Little Raft Swamp at Red Springs,0,,True,False
-RSPW3,Baraboo River at Rock Springs,2,BBOW3;RBGW3,True,False
-RSRN7,Raft Creek at SR 1318 McQueen Road,0,,True,False
-RSRT2,Trinity River near Rosser,4,CNLT2;DALT2;DWRT2;TDDT2,True,False
-RSRW3,Fox River at Rochester,2,BRGW3;WKEW3,True,False
-RSSI4,South Skunk River at Reasnor Hwy F62--IFC,3,CFXI4;MGOI4;OOAI4,True,False
-RSSK1,Cross Creek (KS) at Rossville,0,,True,False
-RSSM5,Roseau River at Ross,3,CARM5;RDVM5;ROSM5,True,False
-RSSN6,Kinderhook Creek at Rossman,0,,True,False
-RSSP1,Conewango Creek at Russell,0,,True,False
-RTAT2,Tide Gauge at Port Aransas,0,,True,False
-RTBM8,Ruby River near Twin Bridges,2,RRBM8;TWBM8,True,False
-RTBP1,Raystown Branch Juniata River near Huntingdon at Raystown Lake - Below Dam,0,,True,False
-RTDP1,Central PA Dams  Raystown Dam on Raystown Branch of Juniata River,2,KNZP1;SYDP1,True,False
-RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
-RTRN7,Pigeon River (NC) near (W Fork) nr Retreat,2,CEPN7;LLGN7,True,False
-RTRO3,Middle Fork John Day River at Ritter,0,,True,False
-RTRV2,Trout Run Above 5th St. NW in Roanoke,0,,True,False
-RTSC1,Artesian Slough,0,,True,False
-RTYC1,San Francisco Bay  Redwood City tide gage,0,,True,False
-RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
-RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
-RUDM4,Pine River (E Upper MI) near Rudyard,0,,True,False
-RUFC1,Rubicon River - Foresthill,0,,True,False
-RUHN5,Rio Ruidoso at Hollywood,0,,True,False
 RULN1,Missouri River at Rulo,2,BRON1;SJSM7,True,False
 RUMN3,Baker River at Rumney,0,,True,False
 RUMN4,Shrewsbury River at Oceanic Bridge,0,,True,False
