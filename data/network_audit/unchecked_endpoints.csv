@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WTWS2,Whitewood Creek above Whitewood,2,DWDS2;WNWS2,True,False
-WTXI1,Willow Creek (Eastern ID) below Tex Creek,1,RIDI1,True,False
-WTYT2,North Texas Lakes at Whitney Lake,6,ALAT2;AQLT2;BUMT2;GLRT2;GQQT2;GROT2,True,False
-WULA2,Wulik River below Tutak Creek near Kivalina,0,,True,False
-WUMW2,Meathouse Fork near West Union,0,,True,False
-WUNO1,Ohio Brush Creek near West Union,0,,True,False
-WUOI4,Otter Creek at West Union (IFC),1,BNDI4,True,False
-WURP1,Slippery Rock Creek at Wurtemburg,0,,True,False
-WUUW3,Wisconsin River below Wausau Dam,3,RIBW3;ROTW3;RRLW3,True,False
-WVAA3,Williamson Valley Wash near Paulden,1,BCWA3,True,False
-WVLI4,Cedar River at Waverly,2,JANI4;PFLI4,True,False
-WVQP1,Chillisquaque Creek at Washingtonville,0,,True,False
-WVRN2,Walker River at Weber Reservoir,2,WALN2;WBWN2,True,False
-WVRV1,North Branch Winooski River at Wrightsville Detention Reservoir,1,WRTV1,True,False
-WVYM7,Missouri River near Waverly,2,MIAM7;NAPM7,True,False
-WVYN6,Susquehanna River near Waverly,2,OWGN6;TOWP1,True,False
-WWAF1,Apalachicola River at Mile 35,2,SMAF1;WAHF1,True,False
-WWAN6,West Brook at Walton,0,,True,False
-WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
-WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
-WWBW4,Wind River below Boysen Reservior,0,,True,False
-WWCF1,Chipola River near Wewahitchka (Lands Landing),2,SCTF1;SMAF1,True,False
-WWCG1,Flint River (GA) at Lake Blackshear,2,MNTG1;OKFG1,True,False
-WWCN1,Weeping Water Creek at Weeping Water,0,,True,False
-WWCO2,Wewoka Creek near Wetumka,0,,True,False
 WWCS2,Willow Creek near Watertown,0,,True,False
 WWDA3,Whitewater Draw near Douglas,0,,True,False
 WWDI3,West Fork White Lick Creek at Danville,0,,True,False
