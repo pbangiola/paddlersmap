@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PNDP1,Clarion River at Piney Dam  Tailwater,1,COKP1,True,False
-PNFG1,Oconee River near Penfield,1,WDMG1,True,False
-PNPF1,Tide Gauge at New Port Richey (in MHHW),1,PTHF1,True,False
 PNTI2,Vermilion River  at Pontiac,1,LNRI2,True,False
 PNVN7,"Sugar Creek at Rock Hill-Pineville Rd (NC 51), 1 WNW Pineville",1,AWRN7,True,False
 PNVT2,Salt Fork - Brazos River at Plainview,1,CWRT2,True,False
@@ -437,6 +434,7 @@ WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHEW3,Hay River at Wheeler,1,MENW3,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
+WHPN4,Whippany River near Morristown,1,WHIN4,True,False
 WHRM5,Bois de Sioux River at White Rock Dam,1,DORM5,True,False
 WHSN7,Soules Swamp below Whiteville,1,WODN7,True,False
 WHTK2,North Fork Kentucky River at Whitesburg,1,HAZK2,True,False

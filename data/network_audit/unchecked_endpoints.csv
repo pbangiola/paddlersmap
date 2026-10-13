@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PNBN4,Whippany River at Pine Brook,0,,True,False
-PNBT1,Cumberland River near Penington Bend,2,HTGT1;OMOT1,True,False
-PNCM5,Snake River (MN) near Pine City,2,GSTM5;SUNM5,True,False
-PNCP1,Penns Creek at Penns Creek,0,,True,False
-PNDF1,Tide Gauge at Pond Creek (in MHHW),0,,True,False
-PNDO1,Riley Creek below Pandora,0,,True,False
-PNDP1,Clarion River at Piney Dam  Tailwater,1,COKP1,True,False
-PNEC1,Panoche Creek at I-5,0,,True,False
-PNEM5,Pine Creek (MN) near Cannon Falls 2NW,0,,True,False
-PNEP1,Pine Creek at Etna,0,,True,False
-PNFG1,Oconee River near Penfield,1,WDMG1,True,False
-PNGA4,St. Francis River at Parkin,4,CDGA4;MSNA4;MTOA4;RIGA4,True,False
-PNGN7,Pungo River near Fairfield (in MLLW),0,,True,False
-PNHC1,Piner Creek at Hopper Ave,0,,True,False
-PNHN7,Dan River at Pine Hall,2,FRNN7;WENN7,True,False
-PNJC1,Pinole Creek at San Pablo Avenue,0,,True,False
-PNKC1,Piner Creek  Piner Creek Dam,0,,True,False
-PNKI1,"Portneuf River at Inkom, ID",2,PIHI1;TOPI1,True,False
-PNLF1,Withlacoochee River at Pineola (in NAVD88),2,NOBF1;WFLF1,True,False
-PNLI4,Lake Panorama at Panora,3,BAYI4;PANI4;PNBI4,True,False
-PNLM5,Middle Fork Zumbro River at Pine Island,2,BNEM5;ONOM5,True,False
-PNLM6,Tide Station (LIX) at Pascagoula NOAA Lab (IN MHHW),0,,True,False
-PNNC2,Fountain Creek near Piñon,2,FCHC2;FHAC2,True,False
-PNPF1,Tide Gauge at New Port Richey (in MHHW),1,PTHF1,True,False
-PNPT2,Neches River at Lee Avenue,0,,True,False
 PNRF1,Panacoochee Retreats (in NAVD88),0,,True,False
 PNSH1,Punaluu Stream near Punaluu ,0,,True,False
 PNSM5,Middle Fork Zumbro River near Pine Island,0,,True,False
@@ -3281,7 +3256,7 @@ WHGG1,Snake Creek  downstream Snake Creek Reservoir near Whitesburg,0,,True,Fals
 WHGM7,Missouri River at Washington,2,HRNM7;SCLM7,True,False
 WHIA1,Tennessee River at Whitesburg,2,DECA1;GVDA1,True,False
 WHIC2,White River below Meeker,0,,True,False
-WHIN4,Whippany River at Morristown,0,,True,False
+WHIN4,Whippany River at Morristown,2,PNBN4;WHPN4,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False
 WHIW1,White River near Plain,0,,True,False
 WHIW3,Trempealeau River at Whitehall,3,IDPW3;PIGW3;TBLW3,True,False
@@ -3300,7 +3275,7 @@ WHNN8,Red River of the North at Wahpeton,4,BROM5;BTWM5;DORM5;ENLN8,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
 WHOT2,Sandies Creek near Westhoff,0,,True,False
 WHPM5,Rainy River near Boat Landing at Wheelers Point,2,CLEM5;MNUM5,True,False
-WHPN4,Whippany River near Morristown,0,,True,False
+WHPN4,Whippany River near Morristown,1,WHIN4,True,False
 WHPO1,Duck Creek below Whipple,2,MACO1;MTAO1,True,False
 WHRH1,Waihee River at Dam,0,,True,False
 WHRI1,Wildhorse River at Brownlee,0,,True,False
