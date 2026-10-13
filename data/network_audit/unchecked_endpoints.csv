@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
-SLGN7,Currituck Sound near Buckskin Creek at NC 168 near Sligo,0,,True,False
-SLHT2,Slaughter Creek at FM 2304 near Manchaca 2NNE,0,,True,False
-SLIC2,Dolores River near Slick Rock,2,DOBC2;DRMC2,True,False
-SLIM2,Patuxent River at Solomons Island (IN MLLW),1,BRIM2,True,False
-SLKI4,Spirit Lake near Orleans,0,,True,False
-SLKM7,Reservoirs  Smithville Reservoir,1,LNZM7,True,False
-SLKP4,Rio Cayaguas at at Cerro Gordo,0,,True,False
-SLKW1,Sultan River at Spada Lk,0,,True,False
-SLLA1,Double Bridges Creek near Sellersville (CR 40),2,GNVA1;LDBA1,True,False
-SLLF1,St Lucie Canal at St Lucie Lock and Dam,0,,True,False
-SLLM7,Meramec River near Sullivan,2,PCFM7;SEEM7,True,False
-SLLP4,Rio Grande De Loiza at Quebrada Arenas,0,,True,False
-SLLT1,Salt Lick Creek near Red Boiling Springs,0,,True,False
-SLMA2,Salmon River near Hyder,0,,True,False
-SLMN6,Allegheny River at Salamanca,2,OLNN6;WRRP1,True,False
-SLMO3,Willamette River at Salem,4,ALBO3;JFFO3;NEBO3;PRGO3,True,False
-SLNK1,Mulberry Creek (KS) near Salina,0,,True,False
-SLNP4,Rio Grande De Loiza at HWY 183,1,CAGP4,True,False
-SLNS2,Spearfish Creek near Lead,1,SFHS2,True,False
-SLNT2,Brazos River at US 59,2,RMOT2;ROST2,True,False
-SLOC1,San Luis Rey River at Oceanside,0,,True,False
-SLOF1,Miami Canal at Lake Harbor,0,,True,False
-SLOV2,Bechner Branch at Buchanan,0,,True,False
-SLOW4,Shoshone River near Lovell,2,BHRM8;NFSW4,True,False
 SLPA3,Salt River at Priest Road-Tempe,2,SFFA3;SLRA3,True,False
 SLQC1,Salsipuedes Creek at Highway 129,0,,True,False
 SLRA3,Salt River near Roosevelt,3,CHRA3;SLCA3;SLPA3,True,False
