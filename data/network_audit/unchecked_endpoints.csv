@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SBNL1,Inner Harbor Navigational Canal near Gentilly Woods,0,,True,False
-SBNN4,South Branch Raritan River at South Branch,0,,True,False
-SBNN7,Atlantic Intracoastal Waterway at Sunset Blvd Bridge ,0,,True,False
-SBNT2,Rio Grande near San Benito,2,LOBT2;PRGT2,True,False
-SBNV2,Dan River at South Boston,1,PCEV2,True,False
-SBPF1,Tide Gauge at Seabreeze Point (In MHHW),0,,True,False
-SBPN3,South Branch Piscataquog River near Goffstown,0,,True,False
-SBPN7,South Buffalo Creek near Pomona,1,SBHN7,True,False
-SBPT2,near Sabine Pass,1,COWT2,True,False
-SBRC1,Salmon River at Somes Bar,0,,True,False
-SBRF1,Carter Creek at Arbuckle Creek Rd Near Sebring,0,,True,False
-SBRN1,North Platte River at Scottsbluff,2,MICN1;MNTN1,True,False
-SBRN4,North Branch Raritan River at South Branch,1,RRTN4,True,False
-SBRN7,Snowbird Creek near Milltown,0,,True,False
-SBRO3,S Fk Bull Run River near Bull Run,0,,True,False
-SBRS1,Sawmill Branch near Summerville,0,,True,False
-SBSC1,San Anselmo Creek at Bridge Street,0,,True,False
-SBSM1,Seboeis River near Shin Pond,0,,True,False
-SBSM6,Steele Bayou at Steele Bayou Structure (Landside),2,HOGM6;VCKM6,True,False
-SBSS2,Stagebarn Canyon Creek near Summerset,0,,True,False
-SBST2,North Floodway Near Sebastian,1,MDET2,True,False
-SBTA2,Silver Bay Tributary at Bear Cove near Sitka,0,,True,False
-SBTM5,"Sand River near Britt, MN",0,,True,False
-SBTN4,Manahawkin Bay at Ship Bottom (IN MLLW),0,,True,False
-SBUI2,Saline Branch above Urbana,0,,True,False
 SBUM8,Swiftcurrent Creek at Sherburne Reservoir near Babb,2,MGGM8;SCSM8,True,False
 SBUT2,Sabinal River at Utopia,2,SALT2;SRMT2,True,False
 SBVI3,Big Blue River (IN) at Shelbyville,3,CARI3;DREI3;LBRI3,True,False
