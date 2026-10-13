@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False
-PPPN4,Pompton River at Pompton Plains,1,MWLN4,True,False
-PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
-PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
 PRAM4,Paint River near Alpha,1,CRYM4,True,False
 PRBL1,Pearl River above Slidell,1,PDLL1,True,False
@@ -395,7 +391,6 @@ WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,False
 WBRW4,Green River (WY-UT-CO) at Warren Bridge,1,LABW4,True,False
-WBYO1,Chagrin River at Willoughby,1,MYFO1,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
 WCBT2,Brazos River near West Columbia,1,ROST2,True,False
 WCCP1,West Conewago Creek at East Berlin,1,MANP1,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-POTG1,Potato Creek at County Line Road near Orchard Hill,0,,True,False
-POTN6,Dodge Creek (NY) above Portville,0,,True,False
-POTN7,Potecasi Creek near Union,0,,True,False
-POTW3,"Potato River at Gurney, WI",0,,True,False
-POUC2,Cache La Poudre River (CO) at Fort Collins,3,FTDC2;GFNC2;GLYC2,True,False
-POUV2,North Fork Pound River Lake,0,,True,False
-POWG1,Powder Springs Creek near Powder Springs,0,,True,False
-POWO1,Ohio River at Powhatan Point,2,HANO1;MOUW2,True,False
-POWO3,South Fk Coquille River at Powers,1,MYPO3,True,False
-POWW3,"Bear River near Manitowish Waters, WI",0,,True,False
-PPAL1,Belle River near Pierre Part,0,,True,False
-PPBL1,Pearl River at Pools Bluff near Bogalusa,0,,True,False
-PPBM7,Black River at Poplar Bluff,2,CRGA4;WLMM7,True,False
-PPCN5,Pecos River 6 miles ESE of Malaga at Pierce Canyon Crossing,2,MLGN5;RBFN5,True,False
-PPDT2,Pinto Creek near Del Rio 17SE,0,,True,False
-PPFK1,Neosho River near Parsons,2,EREK1;OSWK1,True,False
-PPKO1,Unknown Tributary to Chagrin River at Pepper Pike,0,,True,False
-PPLT1,Bradley Creek near Prairie Plains,0,,True,False
-PPPN4,Pompton River at Pompton Plains,1,MWLN4,True,False
-PPPU1,Provo River near Provo,0,,True,False
-PPRM8,Poplar River near Intl Boundary,1,EPRM8,True,False
-PPTN4,Ramapo River at Pompton Lakes,1,PLUN4,True,False
-PPTT2,Buffalo Bayou at Piney Point Village,2,BBST2;WSBT2,True,False
-PPZF1,Popash Creek at Leetana Road,0,,True,False
-PQSM4,Presque Isle River near Tula,0,,True,False
 PQTN4,Pequest River at Pequest,1,HUNN4,True,False
 PRAI2,Illinois River at Peoria Lock and Dam,3,HAVI2;KNGI2;PIAI2,True,False
 PRAI4,Buffalo Creek (IA) at Prairieburg,0,,True,False
@@ -3022,7 +2997,7 @@ WBWS2,Big Sioux River at Watertown Broadway Avenue,2,BSWS2;WBSS2,True,False
 WBXM1,Saco River at West Buxton,2,CNHM1;CNWN3,True,False
 WBYA1,Tide Gauge at Weeks Bay (IN MHHW),0,,True,False
 WBYC1,San Francisquito Creek at West Bayshore (SFWB),0,,True,False
-WBYO1,Chagrin River at Willoughby,1,MYFO1,True,False
+WBYO1,Chagrin River at Willoughby,2,MYFO1;PPKO1,True,False
 WBZT2,Brazos River at Washington,0,,True,False
 WCAN7,Wilson Creek (NC) at Adako Rd 3 SW Collettsville,0,,True,False
 WCAT2,Waller Creek at East 1st Street at Austin,0,,True,False
