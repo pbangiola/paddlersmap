@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SEKU1,Sevier River near Kingston,2,HATU1;SRKU1,True,False
-SELA1,Alabama River at Selma,2,MRFA1;TYLA1,True,False
-SELC2,South Platte River near Lake George,2,CHSC2;HARC2,True,False
-SELF1,Lake Seminole Outlet Near Largo,0,,True,False
-SELI1,Selway River near Lowell,0,,True,False
-SELI2,Fox River at South Elgin Dam,4,ELGI2;EPCI2;ETCI2;MNGI2,True,False
-SELI3,Silver Creek (IN) at Sellersburg,0,,True,False
-SELT2,Cibolo Creek at Selma,3,BVST2;CSVT2;HDWT2,True,False
-SEMI3,West Fork Blue River at Salem,1,FRDI3,True,False
-SEMK1,Emma Creek (KS) above Sedgwick,0,,True,False
-SEMN7,Walnut Creek (NC) above Maynard St in Cary,0,,True,False
-SEOC1,San Simeon Creek near San Simeon,0,,True,False
-SEPF1,Indian River at Sewall Point (in MHHW),0,,True,False
-SEPG1,South River at Springdale Road near East Point,0,,True,False
-SERI3,East Fork White River near Seymour,4,BAKI3;BEDI3;CCCI3;HCEI3,True,False
-SERO3,John Day River at Service Creek,1,JHNO3,True,False
-SESC1,Sespe Creek near Fillmore,0,,True,False
-SESM3,Atlantic Coast at Dennis Sesuit Harbor (IN MLLW),0,,True,False
-SETN4,Shrewsbury River at Highland Bridge,0,,True,False
-SETW4,North Platte River at Seminoe Reservoir,0,,True,False
-SEVI2,Spoon River (W-IL) at Seville,1,LNMI2,True,False
-SEVT1,Little Pigeon River above Sevierville,4,DLYT1;KNOT1;LPNT1;RDVT1,True,False
-SEWF1,Intracoastal Waterway at White City (Gulf County) (In MHHW),0,,True,False
-SEYT2,Wichita River near Seymour,1,SYOT2,True,False
-SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAO1,Scioto River at Columbus 5th Avenue,2,COLO1;DUBO1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
 SFBM8,South Fork Milk River near Babb,0,,True,False
@@ -58,7 +33,7 @@ SFLM7,Des Moines River at St. Francisville,1,KEQI4,True,False
 SFLM8,Smith River (MT) near near Ft Logan,1,SMHM8,True,False
 SFLN2,Salmon Falls Creek near San Jacinto,1,HAGI1,True,False
 SFLS2,Big Sioux River at Sioux Falls I-90,2,DERS2;SFMS2,True,False
-SFMG1,South River at Flakes Mill Road near Snapfinger,0,,True,False
+SFMG1,South River at Flakes Mill Road near Snapfinger,2,SOBG1;SOUG1,True,False
 SFMN5,Santa Fe River (NM) at McClure Dam,0,,True,False
 SFMO3,South Fork Malheur River near Riverside,0,,True,False
 SFMS2,Big Sioux River at Sioux Falls Maple Street,2,SFLS2;WAVS2,True,False
@@ -456,7 +431,7 @@ SNWM4,Sturgeon River near Sidnaw,1,ALSM4,True,False
 SNYI1,Snake River at Nyssa,2,SWAI1;WEII1,True,False
 SNZM7,Grand River near Sumner,2,BRNM7;CHZM7,True,False
 SNZW1,Oso,0,,True,False
-SOBG1,South River at Bouldercrest Road at Atlanta,0,,True,False
+SOBG1,South River at Bouldercrest Road at Atlanta,2,SFMG1;STHG1,True,False
 SOCF1,Fox Branch Near Socrum,0,,True,False
 SOCG1,Stone Mountain Creek at GA 124 near Lithonia,0,,True,False
 SOCS1,Atlantic Intracoastal Waterway above Aiw At Hwy 544 At Socastee,0,,True,False
@@ -491,7 +466,7 @@ SOSW3,Nemadji River near Superior,1,NEMM5,True,False
 SOTC1,San Antonio Creek at Old Creek Road,0,,True,False
 SOTN7,North Toe River at Spruce Pine,0,,True,False
 SOUA2,Soule River near Hyder,0,,True,False
-SOUG1,South River at Klondike Road near Lithonia,0,,True,False
+SOUG1,South River at Klondike Road near Lithonia,2,SFMG1;SPGG1,True,False
 SOUI3,White River at Southport Rd,2,CNTI3;STTI3,True,False
 SOUT2,Brazos River near South Bend,4,ABYT2;HCRT2;PSMT2;SYMT2,True,False
 SOWN7,Southwest Creek near Jacksonville,0,,True,False
@@ -523,7 +498,7 @@ SPFI2,Spring Creek (IL) at Springfield,0,,True,False
 SPFM5,Cottonwood River (MN) above Springfield,3,LMBM5;LVNM5;NWUM5,True,False
 SPFN2,Shoshone Pond Outflow,0,,True,False
 SPFS2,Spearfish Creek above Spearfish,0,,True,False
-SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
+SPGG1,South River at GA 81 at Snapping Shoals,2,JKNG1;SOUG1,True,False
 SPGI2,Spring Brook at Naperville (87th Street),0,,True,False
 SPGM3,Connecticut River at Springfield,2,HLYM3;TMVC3,True,False
 SPGN1,Bluestem Lake,0,,True,False
@@ -711,7 +686,7 @@ SSTC1,San Joaquin River near Stevinson,0,,True,False
 SSTM7,Platte River at Sharps Station,2,AGYM7;PLCM7,True,False
 SSUW1,South Fork Skokomish River near Union,0,,True,False
 SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
-SSWC1,Sespe Creek near Wheeler Springs,0,,True,False
+SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
 SSWU1,Jordan River at 90th South,0,,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STAO3,Strawberry Creek near Prairie City,0,,True,False
@@ -747,7 +722,7 @@ STGM5,Maple River near Sterling Center 2NE,0,,True,False
 STGO1,Chippewa Creek at Sterling,1,RITO1,True,False
 STGS2,Deadman Gulch at Sturgis,0,,True,False
 STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
-STHG1,South River at Forrest Park Road at Atlanta,0,,True,False
+STHG1,South River at Forrest Park Road at Atlanta,2,SEPG1;SOBG1,True,False
 STHI3,"Sugar Creek at West Terre Haute, IN",0,,True,False
 STHM1,Stonington Harbor (MLLW),0,,True,False
 STHN7,Cape Fear River at Southport,2,TCLN7;WLON7,True,False

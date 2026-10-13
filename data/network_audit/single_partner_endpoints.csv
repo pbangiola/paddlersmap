@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SEMI3,West Fork Blue River at Salem,1,FRDI3,True,False
-SERO3,John Day River at Service Creek,1,JHNO3,True,False
-SEVI2,Spoon River (W-IL) at Seville,1,LNMI2,True,False
-SEYT2,Wichita River near Seymour,1,SYOT2,True,False
-SFAK1,"South Fork Republican River 14SW St Francis, Kansas",1,BEKN1,True,False
 SFAS1,South Fork Edisto River below Monetta,1,SAFS1,True,False
 SFCA3,San Francisco River at Clifton,1,GSFN5,True,False
 SFCO3,South Fork McKenzie River above Cougar Dam,1,CGRO3,True,False
@@ -71,7 +66,6 @@ SPAN7,Little River near Sparta,1,LBXN7,True,False
 SPCO2,Polecat Creek near Sapulpa,1,JNKO2,True,False
 SPDI1,Clearwater River at Spalding,1,PEKI1,True,False
 SPDN1,Cedar River near Spalding,1,FULN1,True,False
-SPGG1,South River at GA 81 at Snapping Shoals,1,JKNG1,True,False
 SPGO1,Mill Creek at Kemper,1,MCSO1,True,False
 SPHL1,Bayou Dorcheat near Springhill,1,MNEL1,True,False
 SPOI4,Ocheyedan River near Spencer,1,OREI4,True,False
@@ -100,6 +94,7 @@ SSNS1,Santee River near McClellanville (IN MLLW),1,JAMS1,True,False
 SSQC1,Sisquoc River near Sisquoc,1,GARC1,True,False
 SSSW1,South Fork Skykomish River at Skykomish,1,GLBW1,True,False
 SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
+SSWC1,Sespe Creek near Wheeler Springs,1,SESC1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STCU1,Santa Clara River near Pine Valley,1,SRSU1,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
