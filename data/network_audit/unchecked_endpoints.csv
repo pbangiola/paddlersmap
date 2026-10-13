@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ORRF1,Orange River Near Buckingham,1,ORCF1,True,False
-ORSF1,Ochlockonee River at Ochlockonee River State Park (in MHHW),0,,True,False
-ORTM5,Minnesota River at Ortonville,3,BSLM5;MVOM5;ODAM5,True,False
-ORTW1,Puyallup River near Orting,2,ELEW1;PUYW1,True,False
-ORWM5,Orwell Lake at Orwell Dam near Fergus Falls,3,ELZM5;FFPM5;OTRM5,True,False
-OSAC1,San Antonio Creek near Orcutt,0,,True,False
-OSAO1,Scioto River above O'Shaughnessy Reservoir,2,DUBO1;PRGO1,True,False
-OSAS2,Battle Creek (SD) below Hermosa,2,HERS2;SCNS2,True,False
-OSBK1,S F Solomon River near Osborne,1,WODK1,True,False
-OSCI4,Slough Creek near Orchard (IFC),0,,True,False
-OSGA4,Mississippi River at Osceola,4,CRTM7;DYET1;MEMT1;MGLT1,True,False
-OSGI4,Cedar River near Osage (IFC),2,AGRI4;CROI4,True,False
-OSGN6,Lake America at Oswego (NOS),0,,True,False
-OSHF1,Oldsmar Safety Harbor (In MHHW),0,,True,False
-OSHW3,Fox River (North) at Oshkosh-Lake Winnebago,2,OSSW3;STKW3,True,False
-OSJC1,Old River at Franks Tract NR Terminous Ca,0,,True,False
-OSKW3,Fox River (North) at Little Lake Buttes Des Morts,2,APLW3;MNSW3,True,False
-OSLM5,Red River of the North at Oslo,3,DRTN8;EGFM5;LTRN8,True,False
-OSMK1,Marais Des Cygnes River at Osawatomie,2,LCGK1;OTWK1,True,False
-OSNA2,West Fork Olsen Bay Creek near Cordova,0,,True,False
-OSON6,Oswego River at Oswego,0,,True,False
-OSPI4,Spring Creek near Osage (IFC),0,,True,False
-OSRF1,South Creek at Oscar Scherer Park,0,,True,False
-OSRI4,Rock Creek near Osage (IFC),0,,True,False
-OSSW3,Fox River (North) at Oshkosh,2,BERW3;OSHW3,True,False
 OSTL1,Whiskey Chitto Creek at HWY 399,0,,True,False
 OSWC1,Guadalupe River  Ostwald,0,,True,False
 OSWK1,Neosho River at Oswego,4,COMO2;MCNK1;NSOK1;PPFK1,True,False
@@ -996,7 +971,7 @@ RCMO1,Euclid Creek at Richmond Heights,0,,True,False
 RCNF1,Tide Station at Raccoon Key on Boca Chica Channel (in MHHW),0,,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCNO1,Raccoon Creek at Newark below Wilson St.,2,GRNO1;NEAO1,True,False
-RCOI4,Rock Creek near Orchard (IFC),0,,True,False
+RCOI4,Rock Creek near Orchard (IFC),2,CROI4;OSRI4,True,False
 RCOM5,North Branch Middle Fork Zumbro River at Roscoe - Cty Rd 27,1,PILM5,True,False
 RCPK2,Green River (KY) above Rockport,2,LVMK2;PRDK2,True,False
 RCPT2,Tide Gauge at Rockport,0,,True,False
