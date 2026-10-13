@@ -1,9 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
-UMAO3,Umatilla River at Umatilla,1,YOKO3,True,False
-UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
-UNNM7,Bourbeuse River at Union,1,HTGM7,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
+UPCC1,Upper Penitencia Creek at Piedmont Road,1,UMYC1,True,False
 URVO1,Stillwater Creek at Uhrichsville,1,TPPO1,True,False
 USOI4,Soap Creek near Unionville 313th Ave--IFC,1,DSOI4,True,False
 UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
@@ -38,10 +35,10 @@ WANP1,Antietam Creek near Waynesboro,1,SACM2,True,False
 WATN6,Black River at Watson,1,DADN6,True,False
 WAVI4,West Nishnabotna River near Avoca (IFC),1,IWNI4,True,False
 WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
-WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
 WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
 WBCT1,Browns Creek at Glendale Lane,1,NBCT1,True,False
 WBDI2,West Branch Du Page River near West Chicago,1,WRNI2,True,False
+WBLC1,West Branch Llagas Creek at Cohansey Avenue,1,UMSC1,True,False
 WBNT1,Mill Creek at Woodbine,1,ANTT1,True,False
 WBRN7,West Branch Rocky River NC below mouth of South Prong River,1,IBFN7,True,False
 WBRW4,Green River (WY-UT-CO) at Warren Bridge,1,LABW4,True,False
@@ -145,6 +142,7 @@ WVRV1,North Branch Winooski River at Wrightsville Detention Reservoir,1,WRTV1,Tr
 WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
+XCBC1,Coyote Creek at Berryessa Rd.,1,UMYC1,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
 XSEC1,Sunnyvale East below Caribbean Drive,1,SYQC1,True,False
 YASC2,Yampa River above Stagecoach Reservoir,1,YMSC2,True,False

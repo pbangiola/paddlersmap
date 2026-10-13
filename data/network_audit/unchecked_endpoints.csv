@@ -1,36 +1,11 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ULLM8,Smith River (MT) at Truly,0,,True,False
-ULMM8,Missouri River near Ulm,3,CASM8;EDNM8;GFLM8,True,False
-ULNC1,Paulin Creek at Chanate Rd d/s Piner Reservoir,0,,True,False
-ULRA2,Norton Sound Tide Gauge at Unalakleet (MHHW datum),0,,True,False
-ULRT2,Leona River near Uvalde,0,,True,False
-ULSI4,Upper Iowa River at Lime Springs (IFC),1,UKVI4,True,False
-UMAO3,Umatilla River at Umatilla,1,YOKO3,True,False
-UMBT2,Tierra Blanca Creek 8SW Umbarger,0,,True,False
-UMRT2,Palo Duro Creek 6NNW Umbarger,0,,True,False
-UMSC1,Miller Slough at US Hwy 101,0,,True,False
-UMTW1,Yakima River at Umtanum,2,HLKW1;PARW1,True,False
-UMYC1,Upper Penitencia Creek below Educational Park Drive ,0,,True,False
-UNAA2,Unalakleet River at Unalakleet,0,,True,False
-UNAM2,Jones Falls at Woodberry in Baltimore,0,,True,False
-UNBC2,Uncompahgre River at Uncompahgre Road Bridge,3,CLOC2;DLAC2;URSC2,True,False
-UNDN6,Susquehanna River at Unadilla,1,SIDN6,True,False
-UNDS2,Boxelder Creek at New Underwood,2,BCBS2;WASS2,True,False
-UNDW1,White Salmon River near Underwood,0,,True,False
-UNIG1,Hannahatchee Creek at Union Road at Union,0,,True,False
-UNLA2,Unalaska at Unalaska,0,,True,False
-UNNM7,Bourbeuse River at Union,1,HTGM7,True,False
-UNRA2,Upper Nuka River near Park Boundary near Homer,0,,True,False
-UNRC2,Uncompahgre River below Ridgway Reservoir,3,CLOC2;DCKC2;UCRC2,True,False
-UNVC3,Farmington River at Unionville,2,NBSM3;SIMC3,True,False
-UNVN6,Wallkill at Unionville,0,,True,False
 UNVV1,Ompompanoosuc River at Union Village Dam,0,,True,False
 UNWK2,Ohio River at J.T. Myers Lock and Dam,2,MTVI3;SHNI2,True,False
 UNYO3,Burnt River below Unity Reservoir,2,BBPO3;NFSO3,True,False
 UPAG1,Upatoi Creek near Columbus,0,,True,False
 UPBA1,Sepulga River near Mckenzie,0,,True,False
 UPBA3,Babocomari River near Huachuca City,1,BABA3,True,False
-UPCC1,Upper Penitencia Creek at Piedmont Road,0,,True,False
+UPCC1,Upper Penitencia Creek at Piedmont Road,1,UMYC1,True,False
 UPCN7,Walnut Creek at Clay St,0,,True,False
 UPPO1,Sandusky River near Upper Sandusky,2,BCYO1;TFFO1,True,False
 UPRM2,Western Branch at Upper Marlboro,0,,True,False
@@ -289,7 +264,7 @@ WAVS2,Big Sioux River at Sioux Falls Western Avenue,2,SFMS2;SXFS2,True,False
 WAWN7,Walnut Creek at S. Wilmington St.,2,TRLN7;WSSN7,True,False
 WAWO3,Willamina Creek near Willamina,1,WLAO3,True,False
 WAYI2,Kickapoo Creek at Waynesville,0,,True,False
-WAYT2,Prairie Dog Town Fork of the Red River at Wayside,1,BICT2,True,False
+WAYT2,Prairie Dog Town Fork of the Red River at Wayside,3,BICT2;UMBT2;UMRT2,True,False
 WAYV2,South River at Waynesboro near Lyndhurst Road,1,DOOV2,True,False
 WAYW2,Twelvepole Creek near Wayne,3,BFLW2;ELSW2;LAVW2,True,False
 WBAN7,EF New River at Bamboo Road,0,,True,False
@@ -312,7 +287,7 @@ WBGW4,West Fork Big Goose Creek near Big Horn,0,,True,False
 WBHC1,Matadero Creek at West Bayshore Road,0,,True,False
 WBHL1,White Bayou near Zachary,0,,True,False
 WBHT1,Web Creek at Branam Hollow Rd,0,,True,False
-WBLC1,West Branch Llagas Creek at Cohansey Avenue,0,,True,False
+WBLC1,West Branch Llagas Creek at Cohansey Avenue,1,UMSC1,True,False
 WBLF1,Black Creek at Black Creek Landing (in NAVD88),0,,True,False
 WBLM7,Weaubleau Creek near Weableau,0,,True,False
 WBMM4,Whetstone Brook at Altamont St. at Marquette,0,,True,False
@@ -1013,7 +988,7 @@ XBOC1,Coyote Creek below Ogier Ponds,0,,True,False
 XBRM3,Blackstone River near Uxbridge,0,,True,False
 XBVC1,Kern River at BUENA VISTA CANAL,0,,True,False
 XCAC1,Pescadero Creek at Stage Rd,0,,True,False
-XCBC1,Coyote Creek at Berryessa Rd.,0,,True,False
+XCBC1,Coyote Creek at Berryessa Rd.,1,UMYC1,True,False
 XCHC1,Chabot Canal Below Stonebridge Drive,0,,True,False
 XCMC1,Coyote Creek at Madrone,0,,True,False
 XDSC1,Santa Rosa Creek at Downtown Culverts,0,,True,False
