@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Canonical launch inventory, exact-name OSM retrieval, resumable complete-only publication."""
-import argparse,copy,json,math,re,time,urllib.request,urllib.parse
+import argparse,copy,json,math,re,time,urllib.request,urllib.parse,urllib.error
 from datetime import datetime,timezone
 from pathlib import Path
 # US-area intersection excludes foreign points; AK west/east boxes include Aleutians.
@@ -15,8 +15,13 @@ def atomic(path,data):
 def feature(el,retrieved):
     tags=el.get('tags',{});name=tags.get('name','')
     if 'canoe launch' not in name.casefold():return None
-    xy=[el['lon'],el['lat']] if el['type']=='node' else [el.get('center',{}).get('lon'),el.get('center',{}).get('lat')]
-    if any(v is None for v in xy):raise ValueError('Matching OSM record has no representative coordinates')
+    if el['type']=='node':xy=[el.get('lon'),el.get('lat')]
+    else:
+        center=el.get('center') or {};bounds=el.get('bounds') or {}
+        if center:xy=[center.get('lon'),center.get('lat')]
+        elif all(k in bounds for k in ['minlon','minlat','maxlon','maxlat']):xy=[(bounds['minlon']+bounds['maxlon'])/2,(bounds['minlat']+bounds['maxlat'])/2]
+        else:xy=[None,None]
+    if any(not isinstance(v,(int,float)) or not math.isfinite(v) for v in xy) or not (-180<=xy[0]<=180 and -90<=xy[1]<=90):raise ValueError('Matching OSM record has no representative coordinates')
     return {'type':'Feature','geometry':{'type':'Point','coordinates':xy},'properties':{'name':name,'id':f"osm-{el['type']}-{el['id']}",
         'source':'OpenStreetMap','osm_type':el['type'],'osm_id':el['id'],'tags':tags,'retrieved_at':retrieved,
         'point_method':'original node' if el['type']=='node' else 'Overpass bounding-box center',
@@ -70,10 +75,14 @@ def fetch_cell(bbox,endpoint=ENDPOINT):
             req=urllib.request.Request(endpoint,data=urllib.parse.urlencode({'data':query}).encode(),headers={'User-Agent':'PaddlersMap/1.0 canonical-launch-import'})
             with urllib.request.urlopen(req,timeout=120) as response:data=json.load(response)
             if data.get('remark') or not isinstance(data.get('elements'),list):raise ValueError('Partial or invalid Overpass response')
-            data['_retrieved_at']=datetime.now(timezone.utc).isoformat();return data
-        except Exception:
+            data['_retrieved_at']=datetime.now(timezone.utc).isoformat();time.sleep(1);return data
+        except Exception as error:
+            if isinstance(error,urllib.error.HTTPError) and error.code not in (429,500,502,503,504):raise
             if attempt==2:raise
-            time.sleep(2**attempt*2)
+            retry=error.headers.get('Retry-After') if isinstance(error,urllib.error.HTTPError) else None
+            try:delay=float(retry) if retry is not None else 2**attempt*2
+            except ValueError:delay=2**attempt*2
+            time.sleep(max(0,min(60,delay)))
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source',type=Path);p.add_argument('--retrieve',action='store_true');p.add_argument('--checkpoint',type=Path,default=Path('local/output/canonical-launches'));p.add_argument('--output',type=Path,default=Path('web/nwm/launches/canonical.geojson'));p.add_argument('--report',type=Path,default=Path('docs/nwm/launch-reconciliation.json'));p.add_argument('--max-m',type=float,default=40);a=p.parse_args()
     curated=[]
@@ -92,12 +101,19 @@ def main():
                         if failures>=2 and not path.exists():raise ValueError('Deferred after two source failures; resume later')
                         data=json.loads(path.read_text()) if path.exists() else fetch_cell(b)
                         if data.get('remark') or not isinstance(data.get('elements'),list):raise ValueError('Incomplete checkpoint')
-                        atomic(path,data);coverage[key]={'complete':True,'osm_timestamp':data.get('osm3s',{}).get('timestamp_osm_base'),'retrieved_at':data.get('_retrieved_at')}
+                        atomic(path,data);print(key, 'complete:',len(data['elements']),'source records',flush=True);coverage[key]={'complete':True,'osm_timestamp':data.get('osm3s',{}).get('timestamp_osm_base'),'retrieved_at':data.get('_retrieved_at')}
                         for el in data['elements']:elements[(el['type'],el['id'])]=(el,data.get('_retrieved_at',started))
                     except Exception as e:
-                        failures+=1;coverage[key]={'complete':False,'error':str(e)}
+                        failures+=1;print(key, 'incomplete:',str(e),flush=True);coverage[key]={'complete':False,'error':str(e)}
         complete=all(v['complete'] for v in coverage.values())
-        raw={'type':'FeatureCollection','metadata':{'complete':complete,'coverage':coverage,'domains':DOMAINS,'retrieved_at':started,'filter':'primary name case-insensitive literal canoe launch','attribution':'© OpenStreetMap contributors'},'features':[f for el,retrieved in elements.values() if (f:=feature(el,retrieved))]}
+        features=[];invalid=[]
+        for el,retrieved in elements.values():
+            try:
+                f=feature(el,retrieved)
+                if f:features.append(f)
+            except ValueError as error:invalid.append({'id':f"{el['type']}/{el['id']}",'reason':str(error)})
+        complete=complete and not invalid
+        raw={'type':'FeatureCollection','metadata':{'complete':complete,'invalid_records':invalid,'coverage':coverage,'domains':DOMAINS,'retrieved_at':started,'filter':'primary name case-insensitive literal canoe launch','attribution':'© OpenStreetMap contributors'},'features':features}
         atomic(a.checkpoint/'source.geojson',raw)
         if not complete:
             atomic(a.checkpoint/'incomplete-report.json',raw['metadata']);raise SystemExit('Incomplete national retrieval; active inventory untouched. See checkpoint report.')

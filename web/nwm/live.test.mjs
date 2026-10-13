@@ -36,6 +36,9 @@ test('live cells join exact IDs and reuse separately cached geometry and flow',a
     assert.equal(result.features[1].properties.scale_position,null);
     assert.deepEqual(result.features[0].geometry.coordinates,[[[1,1],[1,2]]]);
     const count=calls.length;await loadCell(cell);assert.equal(calls.length,count);
+    const cacheFetcher=globalThis.fetch;
+    globalThis.fetch=async()=>({ok:true,status:200,json:async()=>({objectIdFieldName:'oid',objectIds:null})});
+    assert.equal((await loadCell({...cell,key:'test-empty'})).features.length,0);globalThis.fetch=cacheFetcher;
     const now=Date.now,initial=now();
     try{Date.now=()=>initial+16*60*1000;await loadCell(cell);}finally{Date.now=now;}
     assert.equal(calls.length,count+1);

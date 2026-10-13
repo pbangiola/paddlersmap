@@ -73,7 +73,9 @@ export async function loadCell(cell,signal){
   let geometry=await cached('geometry:'+cell.key);
   if(!geometry){
     const spatial={geometry:cell.bbox.join(','),geometryType:'esriGeometryEnvelope',inSR:4326,spatialRel:'esriSpatialRelIntersects',where:'strm_order >= '+cell.order};
-    const ids=(await arcgis(STATIC+'/query',{...spatial,returnIdsOnly:true},signal)).objectIds;
+    const idResponse=await arcgis(STATIC+'/query',{...spatial,returnIdsOnly:true},signal);
+    // ArcGIS represents a legitimate empty spatial result with objectIds:null.
+    const ids=idResponse.objectIds===null&&typeof idResponse.objectIdFieldName==='string'?[]:idResponse.objectIds;
     if(!Array.isArray(ids)||ids.length>25000)throw new Error('NOAA cell missing IDs or exceeds the 25,000-reach bound');
     const features=[];
     for(let i=0;i<ids.length;i+=limits.staticLimit){

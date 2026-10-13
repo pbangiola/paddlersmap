@@ -47,3 +47,10 @@ class LaunchProtection(unittest.TestCase):
    for fs in [[],[point('osm-node-1','Boat Ramp',[-87,42])]]:
     with self.assertRaises(ValueError):publish({'metadata':{'complete':True},'features':fs},[],out,Path(tmp)/'report',1)
     self.assertEqual(out.read_text(),'prior complete')
+
+class OsmGeometry(unittest.TestCase):
+ def test_geometry_output_bounds_are_valid_representative_centers(self):
+  e={'type':'way','id':808598909,'bounds':{'minlon':-122.7407709,'maxlon':-122.7406597,'minlat':45.3846876,'maxlat':45.3848592},'geometry':[{'lat':45.3848592,'lon':-122.7406597},{'lat':45.3846876,'lon':-122.7407709}],'tags':{'name':'Browns Ferry Park Kayak and Canoe Launch'}}
+  f=feature(e,'now');self.assertAlmostEqual(f['geometry']['coordinates'][0],-122.7407153);self.assertEqual(f['properties']['original_osm_element'],e)
+  e['type']='relation';self.assertIsNotNone(feature(e,'now'))
+  e.pop('bounds');self.assertRaises(ValueError,feature,e,'now')

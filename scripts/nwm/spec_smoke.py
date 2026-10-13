@@ -11,7 +11,9 @@ async def main():
  async def transport(route):
   requests.append(route.request.url)
   try:
-   async with (api_sem if route.request.method=="POST" else sem):status,body,headers=await asyncio.to_thread(download,route.request.url,route.request.method,route.request.post_data)
+   async with (api_sem if route.request.method=="POST" else sem):
+    if route.request.failure:return
+    status,body,headers=await asyncio.to_thread(download,route.request.url,route.request.method,route.request.post_data)
    if status>=400:failures.append({'url':route.request.url,'status':status})
    await route.fulfill(status=status,body=body,headers=headers)
   except Exception as e:failures.append({'url':route.request.url,'error':str(e)});await route.abort()
@@ -42,7 +44,7 @@ async def main():
   colored=await page.evaluate("m.getSource('nwm-live').serialize().data.features.filter(f=>f.properties.scale_position!==null).length")
   print('Real live colored reaches',colored,flush=True)
   await page.screenshot(path=str(OUT/'chicago-live-colors.png'))
-  pt=await page.evaluate("""()=>{const f=m.queryRenderedFeatures({layers:['nwm-live']}).find(f=>f.properties.scale_position!==null);const coords=f.geometry.type==='MultiLineString'?f.geometry.coordinates[0]:f.geometry.coordinates;const xy=coords[Math.floor(coords.length/2)];const p=m.project(xy),r=m.getCanvas().getBoundingClientRect();return {x:r.x+p.x,y:r.y+p.y};}""")
+  pt=await page.evaluate("""()=>{const r=m.getCanvas().getBoundingClientRect();for(const f of m.queryRenderedFeatures({layers:['nwm-live']})){if(f.properties.scale_position==null)continue;const lines=f.geometry.type==='MultiLineString'?f.geometry.coordinates:[f.geometry.coordinates];for(const line of lines)for(const xy of line){const p=m.project(xy);if(p.x>20&&p.x<r.width-20&&p.y>20&&p.y<r.height-20)return {x:r.x+p.x,y:r.y+p.y};}}throw new Error('No on-screen river vertex');}""")
   await page.mouse.click(pt['x'],pt['y']);await page.wait_for_selector('.maplibregl-popup-content');text=await page.locator('.maplibregl-popup-content').inner_text()
   assert all(label in text for label in ['Color source: Modeled NWM','NWM feature ID:','Current discharge:','Low anchor:','NOAA update:']),text
   await page.locator('.maplibregl-popup-close-button').click()
