@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SKTK1,Bow Creek near Stockton,0,,True,False
-SKVP1,White Clay Creek at Strickersville,1,NEKD1,True,False
-SKVV2,North River near Stokesville,0,,True,False
-SKWA2,Skwentna River at Skwentna,0,,True,False
-SKWM5,South Kawishiwi River above White Iron Lake,3,DRBM5;SKRM5;WTNM5,True,False
-SKYI4,Snake Creek near Yorktown,0,,True,False
-SKYN6,Skaneateles Creek near Skaneateles Jct,0,,True,False
-SLAA2,Slate Creek at Coldfoot,0,,True,False
-SLAC2,Straight Creek (CO) near Dillon,0,,True,False
-SLAI3,Northern Indiana Lakes at Salamonie Lake Dam,2,SALI3;WRNI3,True,False
-SLAM7,Spring River  at LaRussell,1,CHTM7,True,False
-SLAW1,Sprague Lake near Sprague,0,,True,False
-SLBI1,Snake River at Loveridge Bridge near Bruneau,0,,True,False
-SLBI3,Kankakee River at Shelby,2,KTSI3;MOMI2,True,False
-SLBO1,Little Miami River near South Lebanon,3,LLMO1;MLGO1;RCSO1,True,False
-SLCA3,Salt River near Chrysotile -Salt River Canyon,3,CRZA3;EWFA3;SLRA3,True,False
-SLCC1,San Lorenzo Creek (Alameda) at San Lorenzo,2,CVCC1;LRZC1,True,False
-SLCN7,Rocky River  at Siler City,1,CCRN7,True,False
-SLCO3,Schafer Creek near Lacomb,0,,True,False
-SLDK1,Grouse Creek Near Silverdale,0,,True,False
-SLDM8,Shields River near Livingston,0,,True,False
-SLDW1,Conconully Lake at  Conconully - Salmon Lake Dam,0,,True,False
-SLEC2,St. Louis Creek (CO) above Fraser,0,,True,False
-SLFC2,Little Snake River above Slater,0,,True,False
-SLGA2,Swan Lake above Swan Lake Dam near Ketchikan,0,,True,False
 SLGC1,Salinas River Lagoon  ,1,SPRC1,True,False
 SLGN7,Currituck Sound near Buckskin Creek at NC 168 near Sligo,0,,True,False
 SLHT2,Slaughter Creek at FM 2304 near Manchaca 2NNE,0,,True,False
@@ -2291,7 +2266,7 @@ YJCG1,Yellow Jacket Creek at Hammett Road below Hogansville,0,,True,False
 YKTV2,Chesapeake Bay near Yorktown (IN MLLW),0,,True,False
 YKVI2,Fox River at Yorkville (Palmer Dam),2,DAYI2;MNGI2,True,False
 YLEC1,Arroyo Valle below Lang Canyon near Livermore,0,,True,False
-YLKA2,Yentna River near Lake Creek,2,CLKA2;YSTA2,True,False
+YLKA2,Yentna River near Lake Creek,3,CLKA2;SKWA2;YSTA2,True,False
 YLLU1,Yellowstone River Utah near Altonah,0,,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
