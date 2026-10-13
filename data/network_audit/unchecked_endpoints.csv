@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WEWS2,Keyapaha River at Wewala,2,NPRN1;PAHS2,True,False
-WFAM1,Presumpscot River above West Falmouth,0,,True,False
-WFBM8,West Fork Bitterroot River near Conner,0,,True,False
-WFBO1,Wolf Creek (Summit) above Barberton,0,,True,False
-WFCT1,Wolftever Creek near Ooltewah,0,,True,False
-WFDC2,Williams Fork (CO) at Williams Fork Reservoir,0,,True,False
-WFDK1,Walnut River at Winfield,2,AGAK1;ARKK1,True,False
-WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
-WFDR1,Blackstone River at Woonsocket Falls Dam,0,,True,False
-WFDT2,Cypress Creek near Westfield,2,CCGT2;HMMT2,True,False
-WFEA2,West Fork Eklutna River near Palmer,0,,True,False
-WFGN5,West Fork Gila River at Cliff Dwellings,0,,True,False
-WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
-WFHT2,Holliday Creek at Wichita Falls,0,,True,False
-WFLC2,Williams Fork (CO) near Leal,0,,True,False
-WFLF1,Withlacoochee River at Floral City (in NAVD88),2,PNLF1;WYSF1,True,False
-WFLN6,Chautauqua Creek near Westfield,0,,True,False
-WFLO2,Eastern Oklahoma Lakes at Webbers Falls Lock and Dam,0,,True,False
-WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
-WFON8,Sheyenne River at West Fargo Diversion,2,HORN8;HWDN8,True,False
-WFPC1,West Fork Permanente Creek below Deer Farm,0,,True,False
-WFRA1,Tide Gauge at West Fowl River Bridge (IN MHHW),0,,True,False
-WFRC2,Williams Fork (CO) below Williams Fork Reservoir,0,,True,False
-WFSW1,West Fork Satsop River near Satsop,0,,True,False
-WFTA2,West Fork Tolovana River near Livengood,0,,True,False
 WFWR1,Blackstone River above Woonsocket,0,,True,False
 WGCM8,Middle Fork Flathead River near West Glacier,0,,True,False
 WGLM1,West Grand Lake at Grand Lake Stream,0,,True,False
