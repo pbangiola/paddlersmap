@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SHRM4,Manistee River near Sherman,2,GYMM4;MSKM4,True,False
-SHRN5,San Juan River at Shiprock,0,,True,False
-SHRP1,Allegheny River at Sharpsburg Lock and Dam,2,ACMP1;PTTP1,True,False
-SHSN7,Shingletree Swamp near Calabash,0,,True,False
-SHTA2,Bering Sea Tide Gauge at Shaktoolik (MHHW datum),0,,True,False
-SHTN1,Platte River near Shelton,0,,True,False
-SHUM3,West Branch Swift River at Shutesbury,0,,True,False
-SHUO1,South Turkeyfoot Creek near Shunk,2,GRRO1;HMLO1,True,False
-SHVK2,Buck Creek near Shopville,0,,True,False
-SHVM3,North River at Shattuckville,0,,True,False
-SHVT1,Duck River near Shelbyville,1,COLT1,True,False
-SHWF1,Tide Station at Big Pine Key on Spanish Harbor Channel (in MHHW),0,,True,False
-SHWN8,Souris River near Sherwood,1,DARN8,True,False
-SHYI1,Snake River near Shelley,3,RIRI1;SIFI1;SNAI1,True,False
-SHYM5,Marsh River near Shelly,0,,True,False
-SHYN1,Platte River near Schuyler,2,DNCN1;NBDN1,True,False
-SIBF1,Tide Station at Shired Island Boat Ramp (in MHHW),0,,True,False
-SICF1,Tide Gauge at Sanibel (in MHHW),0,,True,False
-SICN4,Ludlum Thorofare at Sea Isle City (IN MLLW),0,,True,False
-SIDM1,Kennebec River at North Sidney,2,ASTM1;SKOM1,True,False
-SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
-SIDN6,Susquehanna River at Sidney,2,BAIN6;UNDN6,True,False
-SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
-SIFF1,Homosassa River at Shell Island Near Homosassa,0,,True,False
-SIFI1,Snake River near Idaho Falls,2,MENI1;SHYI1,True,False
 SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
 SIGI4,North Skunk River near Sigourney,3,KLGI4;LCYI4;MERI4,True,False
 SIGN4,Passaic River at Singac,2,LTFN4;PINN4,True,False
@@ -1113,7 +1088,7 @@ TPJF1,Tiger Point (in MHHW),0,,True,False
 TPKN6,Tremper Kill near Andes,0,,True,False
 TPLI4,Wapsipinicon River near Tripoli,2,DKTI4;NWSI4,True,False
 TPLO1,Little Stillwater Creek at Tappan Dam Tailwater,0,,True,False
-TPNN8,Red River of the North near Thompson,4,CLXM5;EGFM5;HGRN8;HILN8,True,False
+TPNN8,Red River of the North near Thompson,5,CLXM5;EGFM5;HGRN8;HILN8;SHYM5,True,False
 TPOK1,Marais Des Cygnes River near Trading Post,1,LCGK1,True,False
 TPOM6,Town Creek at Tupelo,0,,True,False
 TPPF1,Tide Gauge at Tropical Point Park (In MHHW),0,,True,False
@@ -1958,7 +1933,7 @@ WLBN3,Connecticut River at West Lebanon,3,WEHV1;WELV1;WLPN3,True,False
 WLBN6,Boquet River above Willsboro,0,,True,False
 WLBO1,Mad River at West Liberty,1,UBNO1,True,False
 WLCA2,Wolverine Creek near Lawing,0,,True,False
-WLCK2,Cumberland River at Lake Cumberland,7,BLWK2;BRKK2;CFAK2;CLAT1;CORK2;MTCK2;STRK2,True,False
+WLCK2,Cumberland River at Lake Cumberland,8,BLWK2;BRKK2;CFAK2;CLAT1;CORK2;MTCK2;SHVK2;STRK2,True,False
 WLCM5,Cannon River at Welch,4,CFLM5;CNFM5;NRFM5;REDM5,True,False
 WLCN8,Willow Creek (ND) near Willow City,0,,True,False
 WLCT2,Waller Creek at Koenig Lane,0,,True,False

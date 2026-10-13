@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SHVT1,Duck River near Shelbyville,1,COLT1,True,False
-SHWN8,Souris River near Sherwood,1,DARN8,True,False
-SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False
-SIDO1,Great Miami River at Sidney,1,PIQO1,True,False
 SIFS2,Skunk Creek at Sioux Falls,1,HTFS2,True,False
 SILO3,Siletz River at Siletz,1,SCVO3,True,False
 SIOI4,Perry Creek at Sioux City,1,PCHI4,True,False
