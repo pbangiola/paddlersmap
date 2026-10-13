@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-VICV1,Moose River at Victory,0,,True,False
-VIDO3,McKenzie River near Vida,3,CGRO3;MKLO3;TRBO3,True,False
-VILP4,Lago El Guineo at Damsite,0,,True,False
-VIMT2,Village Creek near Village Mills,1,KOUT2,True,False
-VINA1,Kelly Creek,0,,True,False
-VINF1,Reedy Creek near Vineland,0,,True,False
-VING1,Chattahoochee River at Atlanta,3,CHAG1;FBNG1;VIXG1,True,False
-VINI4,Cedar River at Vinton,3,ALOI4;LAPI4;PLOI4,True,False
-VIOW3,Kickapoo River at Viola,2,LAFW3;REAW3,True,False
-VIRU1,Virgin River near Virgin,1,HURU1,True,False
-VISN2,Truckee River at Vista,4,SCRN2;SCWN2;TNTN2;TRRN2,True,False
-VIVW4,Reservoirs at Viva Naughton Reservoir,0,,True,False
-VIXG1,Chattahoochee River at US 41 at Atlanta,2,VING1;VNPG1,True,False
-VLBP1,Brush Creek at Valley Brook,0,,True,False
-VLCM4,Menominee River at Vulcan,2,NIAW3;PBIW3,True,False
-VLGC1,Green Valley Creek at Green Valley,0,,True,False
-VLIK2,Licking River above Visalia,1,BTLK2,True,False
-VLLM7,Meramec River at Valley Park,2,ERKM7;FNNM7,True,False
-VLPI4,Volga River at Littleport,2,GRBI4;VGAI4,True,False
-VLPN1,North Oak Creek at Valparaiso,2,LOKN1;THYN1,True,False
-VLSL1,Vermilion River at Lafayette - Surrey Street,2,VRLL1;VRPL1,True,False
-VLTA3,Virgin River at Littlefield,1,MVSA3,True,False
-VLVK2,Kentucky River at Valley View,2,CPNK2;FODK2,True,False
-VLVN8,Souris River at Velva,2,SWRN8;TOWN8,True,False
-VLYM7,Blackwater River near Valley City,1,BLVM7,True,False
 VLYW2,Tygart Valley River at Valley Head,1,MLLW2,True,False
 VLYW4,South Fork Shoshone River near Valley,1,BBRW4,True,False
 VMAT2,North Bosque River at Valley Mills,2,ACTT2;CTNT2,True,False
