@@ -1,31 +1,6 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SARO3,Sardine Creek near Niagra,0,,True,False
-SASC2,South Platte River above Spinney Mountain Reservoir,2,ANTC2;SPYC2,True,False
-SASI3,St. Marys River near Fort Wayne,2,DCRI3;FWAI3,True,False
-SASO2,Little River (OK) near Sasakwa,1,TCMO2,True,False
-SATA1,Satilpa Creek near Coffeeville,0,,True,False
-SATA2,Norton Sound at St Michael,0,,True,False
-SATI1,St Maries River near Santa,0,,True,False
-SATW1,Satsop River near Satsop,0,,True,False
-SAVM2,Little Patuxent River near Savage,2,BOWM2;LPGM2,True,False
-SAVM5,Minnesota River at Savage,2,FSNM5;JDNM5,True,False
-SAVT1,Tennessee River at Savannah,3,CLNT1;PICT1;SALT1,True,False
-SAXM3,Sudbury River at Saxonville,0,,True,False
-SAXV2,Chesapeake Bay near Starling Creek at Saxis (IN MLLW),0,,True,False
-SAYA1,Locust Fork at Sayre,1,CLEA1,True,False
-SAYI4,Des Moines River at Saylorville Reservoir,4,BODI4;PLKI4;PMDI4;SDTI4,True,False
-SAYK2,Licking River near Salyersville,1,CRLK2,True,False
-SAYN6,Great South Bay at West Sayville (IN MLLW),0,,True,False
-SAYO2,North Fork of the Red River near Sayre,2,CARO2;SHAT2,True,False
-SAZM7,St. Francis River near Saco,2,MLCM7;PAZM7,True,False
-SBAM6,Steele Bayou above Steele Bayou  Near Glen Alan,0,,True,False
-SBBF1,South Branch Brooker Creek Near Oldsmar (in NGVD29),0,,True,False
-SBBI3,School Branch (IN) near Brownsburg,0,,True,False
-SBBL1,Inner Harbor Navigational Canal near Seabrook Bridge,0,,True,False
-SBBV2,Swift Creek at Bradley Bridge Rd near The Highlands,0,,True,False
-SBCA3,Sabino Creek near Sabino Dam,0,,True,False
 SBCF1,Brushy Creek at Ehrlich Rd Near Sulfur Springs,1,CTPF1,True,False
-SBCI3,School Branch (IN) near Brownsburg,0,,True,False
+SBCI3,School Branch (IN) near Brownsburg,2,SBBI3;SBMI3,True,False
 SBCL1,Inner Harbor Navigational Canal at Seabrook Control Structure,0,,True,False
 SBCM8,Soda Butte Creek near Silver Gate,0,,True,False
 SBCN1,South Blackbird Creek near Macy,0,,True,False
@@ -44,7 +19,7 @@ SBIN4,Shrewsbury River at Sea Bright (IN MLLW),0,,True,False
 SBLM6,Steele Bayou above at Low Water Bridge,0,,True,False
 SBMC2,St Charles River at Burnt Mill,0,,True,False
 SBMF1,Mickler at 16th Street Culvert in St Augustine Beach (in NAVD88),0,,True,False
-SBMI3,School Branch (IN) near Brownsburg,0,,True,False
+SBMI3,School Branch (IN) near Brownsburg,1,SBCI3,True,False
 SBMT2,Navidad River at Sublime,1,SPAT2,True,False
 SBNF1,Suwannee River near Benton (in NAVD88),2,FGOG1;WSPF1,True,False
 SBNG1,Brunswick River at Brunswick,0,,True,False
@@ -99,7 +74,7 @@ SCCN2,Sloan Channel at Charleston Blvd,0,,True,False
 SCCN7,Soco Creek at Wolfetown Road,0,,True,False
 SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
 SCCT2,Concho River at San Angelo,1,PRKT2,True,False
-SCCV2,Swift Creek at Colonial Heights,0,,True,False
+SCCV2,Swift Creek at Colonial Heights,1,SBBV2,True,False
 SCCW1,West Fork Salmon Creek near Conconully,0,,True,False
 SCCW4,South Cottonwood Creek near Big Piney,0,,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
@@ -1675,7 +1650,7 @@ TURF1,Turner River near Chokoloskee,0,,True,False
 TURI4,Little Sioux River near Turin,2,CRRI4;HOKI4,True,False
 TURK1,Turkey Creek (KC) at Southwest Boulevard,0,,True,False
 TUSW2,Tuscarora Creek above Martinsburg,0,,True,False
-TVCA3,Tanque Verde Creek near Sabino Canyon Rd.,0,,True,False
+TVCA3,Tanque Verde Creek near Sabino Canyon Rd.,2,RILA3;SBCA3,True,False
 TVCM7,Tavern Creek near St. Elizabeth,0,,True,False
 TVLK2,Salt River (KY) at Taylorsville Lake,2,GNBK2;SHPK2,True,False
 TVLT2,Guadalupe River above Tivoli,0,,True,False

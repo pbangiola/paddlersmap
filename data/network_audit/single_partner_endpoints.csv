@@ -1,9 +1,7 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SASO2,Little River (OK) near Sasakwa,1,TCMO2,True,False
-SAYA1,Locust Fork at Sayre,1,CLEA1,True,False
-SAYK2,Licking River near Salyersville,1,CRLK2,True,False
 SBCF1,Brushy Creek at Ehrlich Rd Near Sulfur Springs,1,CTPF1,True,False
 SBDW4,Reservoirs at Boysen Reservoir,1,WHRW4,True,False
+SBMI3,School Branch (IN) near Brownsburg,1,SBCI3,True,False
 SBMT2,Navidad River at Sublime,1,SPAT2,True,False
 SBNV2,Dan River at South Boston,1,PCEV2,True,False
 SBPT2,near Sabine Pass,1,COWT2,True,False
@@ -13,6 +11,7 @@ SBYN6,Oak Orchard Creek near Shelby,1,KNVN6,True,False
 SBYO1,Big Walnut Creek at Sunbury,1,HOOO1,True,False
 SCCS2,Skunk Creek near Chester,1,HTFS2,True,False
 SCCT2,Concho River at San Angelo,1,PRKT2,True,False
+SCCV2,Swift Creek at Colonial Heights,1,SBBV2,True,False
 SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
 SCKG1,South Chickamauga Creek at Ringgold,1,CHKT1,True,False
 SCLM7,Missouri River at St. Charles,1,WHGM7,True,False
