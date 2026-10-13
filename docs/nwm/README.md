@@ -12,7 +12,7 @@ python3 -m venv .venv
 .venv/bin/python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open the standalone page on that server. Use **Contiguous US** for the national color overview, then zoom into an area for finer flow colors. The bundled overview contains 32,209 actual NWM reaches of stream order 7+, with 22,400 usable color records. NOAA source update: `2026-10-13 00:50:51 UTC`. The remaining overview reaches lack a retrieved matching anomaly record or have invalid anchors and remain gray.
+Open the standalone page on that server. The page opens at the contiguous-US color overview; zoom into an area for finer flow colors. Region buttons return to CONUS, Chicago, Alaska, Hawaii, or Puerto Rico/USVI. The bundled overview contains 32,209 actual NWM reaches of stream order 7+, with 22,400 usable color records. NOAA source update: `2026-10-13 00:50:51 UTC`. The remaining overview reaches lack a retrieved matching anomaly record or have invalid anchors and remain gray.
 
 All 1,553 existing launch records retain their original coordinates and metadata. Green/yellow markers use the existing verification registry. No launch discovery, fuzzy matching, snapping or verification writes occur.
 

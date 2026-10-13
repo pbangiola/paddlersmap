@@ -51,6 +51,8 @@ async def main():
         await page.goto(args.url)
         await page.wait_for_function("document.querySelector('#status').textContent.includes('NOAA reaches')", timeout=60000)
         await page.evaluate("async()=>{window.__nwmMap=(await import('/web/nwm/map.mjs')).map;}")
+        await page.locator('#chicago').click()
+        await page.wait_for_function("!window.__nwmMap.isMoving()&&window.__nwmMap.isSourceLoaded('nwm')",timeout=60000)
         await page.wait_for_function("()=>{const map=window.__nwmMap;return map.queryRenderedFeatures({layers:['nwm']}).length>0;}")
         result = await page.evaluate("""async()=>{const {map}=await import('/web/nwm/map.mjs');
             return {lines:map.queryRenderedFeatures({layers:['nwm']}).length,
@@ -66,10 +68,12 @@ async def main():
         # Click an actual rendered river, then verify the numerical popup.
         point = await page.evaluate("""async()=>{const {map}=await import('/web/nwm/map.mjs');
             const feature=map.queryRenderedFeatures({layers:['nwm']}).find(f=>f.properties.scale_position!==null);
-            const coordinates=feature.geometry.type==='MultiLineString'?feature.geometry.coordinates[0]:feature.geometry.coordinates;
+            const original=map.getSource('nwm').serialize().data.features.find(f=>f.properties.feature_id===feature.properties.feature_id);
+            const coordinates=original.geometry.type==='MultiLineString'?original.geometry.coordinates[0]:original.geometry.coordinates;
             const xy=coordinates[Math.floor(coordinates.length/2)];map.setCenter(xy);map.setZoom(12);
             const rect=map.getCanvas().getBoundingClientRect();const pixel=map.project(xy);
             return {x:rect.x+pixel.x,y:rect.y+pixel.y};}""")
+        await page.wait_for_function("window.__nwmMap.isSourceLoaded('nwm')",timeout=60000)
         await page.wait_for_timeout(400)
         await page.mouse.click(point['x'], point['y'])
         await page.wait_for_selector('.maplibregl-popup-content')

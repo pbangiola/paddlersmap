@@ -1,12 +1,12 @@
 import {attachLiveColors} from './live.mjs';
 import {rivers} from './scale.mjs';
-import {addNationalGeometry,DOMAINS} from './national.mjs';
+import {addNationalGeometry,DOMAINS,NATIONAL_BOUNDS} from './national.mjs';
 const bounds=[[-88.5,41.2],[-87.0,42.5]];
 let basemapAvailable=true;
 const basemap=await fetch('https://tiles.openfreemap.org/styles/liberty',{signal:AbortSignal.timeout(15000)}).then(response=>{
   if(!response.ok)throw new Error('Basemap unavailable');return response.json();
 }).catch(()=>{basemapAvailable=false;return {version:8,sources:{},layers:[{id:'background',type:'background',paint:{'background-color':'#f4f5f1'}}]};});
-export const map=new maplibregl.Map({container:'map',style:basemap,bounds,fitBoundsOptions:{padding:25}});
+export const map=new maplibregl.Map({container:'map',style:basemap,bounds:NATIONAL_BOUNDS,fitBoundsOptions:{padding:25}});
 if(!basemapAvailable)document.getElementById('basemap-note').hidden=false;
 map.addControl(new maplibregl.NavigationControl());
 map.on('error',event=>{if(event.sourceId?.startsWith('national-'))document.getElementById('national-error').hidden=false;});
