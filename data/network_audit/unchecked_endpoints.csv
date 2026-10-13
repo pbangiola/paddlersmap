@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-USVC1,Upper San Leandro Reservoir  ,0,,True,False
-USYC1,Upper Silver Creek at Yerba Buena Rd,0,,True,False
-UTBF1,Upper Tampa Bay Park (In MHHW),0,,True,False
-UTCO1,North Fork Licking River (OH) at Utica,1,NEPO1,True,False
-UTCP1,French Creek at Utica,2,FRKP1;MEDP1,True,False
-UTEN5,Canadian River at Ute Lake,0,,True,False
-UTFV2,Flat Branch near Unnamed Tributary At Amherst Drive,0,,True,False
-UTHC1,Upper Truckee River above Meyers,0,,True,False
-UTHP4,Rio Tanama near Utuado,0,,True,False
-UTOO1,Ottawa River at University of Toledo,1,TCSO1,True,False
-UTQA2,Utqiagvik tide gage,0,,True,False
-UTRC1,Upper Truckee River at South Lake Tahoe,0,,True,False
-UTRS1,Upper Three Runs near New Ellenton,0,,True,False
-UTUP4,Rio Grande De Arecibo above Utuado,0,,True,False
-UTXP4,Rio Grande De Arecibo below Utuado,1,ARGP4,True,False
-UTYG1,Utoy Creek at Great Southwest Parkway near Atlanta,0,,True,False
-UUUK1,Marmaton River near Uniontown,0,,True,False
-UVAT2,Nueces River at Laguna,4,BTVT2;NMOT2;NUCT2;UVLT2,True,False
-UVBC1,Uvas Creek below Uvas Reservoir,1,LUVC1,True,False
-UVGC1,Uvas Creek above W Luchessa Ave.,0,,True,False
-UVHC1,Uvas Creek at Heritage Way,0,,True,False
-UVLT2,Nueces River below Uvalde,3,ASRT2;NUCT2;UVAT2,True,False
-UVMC1,Uvas Creek at Miller Avenue,0,,True,False
-UVXC1,Uvas Creek at HWY 152,0,,True,False
-UWMF1,Tide Station at the Southern Tip of Upper Matecumbe Key (in MHHW),0,,True,False
 UXBM3,West River Below West Hill Dam near Uxbridge,0,,True,False
 VAAN7,Swift Creek at Vanceboro,0,,True,False
 VAES2,Whitewood Creek above Vale,2,SBFS2;WNWS2,True,False
