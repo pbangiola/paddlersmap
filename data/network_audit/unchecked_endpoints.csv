@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WLAC1,West Little Llagas Creek below Edmundson,0,,True,False
-WLAF1,Little Charlie Creek at Mouth Near Wauchula,0,,True,False
-WLAO3,South Yamhill River near Willamina,2,MCMO3;WAWO3,True,False
-WLBK2,Cumberland River at Williamsburg,3,BBVK2;CFAK2;SXTK2,True,False
-WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
-WLBN3,Connecticut River at West Lebanon,4,UNVV1;WEHV1;WELV1;WLPN3,True,False
-WLBN6,Boquet River above Willsboro,0,,True,False
-WLBO1,Mad River at West Liberty,1,UBNO1,True,False
-WLCA2,Wolverine Creek near Lawing,0,,True,False
-WLCK2,Cumberland River at Lake Cumberland,8,BLWK2;BRKK2;CFAK2;CLAT1;CORK2;MTCK2;SHVK2;STRK2,True,False
-WLCM5,Cannon River at Welch,4,CFLM5;CNFM5;NRFM5;REDM5,True,False
-WLCN8,Willow Creek (ND) near Willow City,0,,True,False
-WLCT2,Waller Creek at Koenig Lane,0,,True,False
-WLCV2,Wallen Creek at Pennington Gap,0,,True,False
-WLCW2,Tug Fork River at Welch,1,BRSW2,True,False
-WLDA1,Black Warrior River below Selden Dam,2,DLDA1;TODA1,True,False
-WLDA2,Whitman Creek above Whitman Lake Dam near Ketchikan,0,,True,False
-WLDG1,Wildcat Creek (GA) near Lawrenceville,0,,True,False
-WLDI3,William Locke Drain near Durbin,0,,True,False
-WLDM1,Weldon Dam Discharge,2,DLBM1;WENM1,True,False
-WLDW2,Little Kanawha River near Wildcat,1,BRNW2,True,False
-WLFA1,Wolf Creek (Baldwin) near Elberta,0,,True,False
-WLFG1,Wolf Creek Tributary at Dean Road near Suwanee,0,,True,False
-WLFM6,Wolf Lake at Wolf Lake at Highway 149,0,,True,False
-WLFO1,Massies Creek at Wilberforce,0,,True,False
 WLFS2,Wolf Creek (SD) near Freeman,0,,True,False
 WLFW4,Wolf Creek near Sheridan,0,,True,False
 WLGT2,Salt Fork of the Red River at Wellington,2,GRET2;MGMO2,True,False
@@ -493,7 +468,7 @@ ZCCC1,Zaca Creek near Buelton,0,,True,False
 ZCRM7,Castor River above Zalma,0,,True,False
 ZEEM4,Macatawa River near Zeeland,0,,True,False
 ZENK1,Rattlesnake Creek (KS) near Zenith,1,MACK1,True,False
-ZFSF1,Peace River at Zolfo Springs,2,ARCF1;PWAF1,True,False
+ZFSF1,Peace River at Zolfo Springs,3,ARCF1;PWAF1;WLAF1,True,False
 ZKAF1,Gulf Tide Station Near Chassahowitzka,0,,True,False
 ZLGC1,Line G1 - Dublin Blvd,0,,True,False
 ZLJC1,Line J1 below Dublin Blvd,0,,True,False
