@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MUGT2,Mustang Bayou at SH 6 near Alvin,0,,True,False
-MUKW3,Mukwonago River at Mukwonago,0,,True,False
-MULK1,Arkansas River near Mulvane,2,DRBK1;OXFK1,True,False
-MULM4,Cheboygan River at Mullet Lake Outlet near Cheboygan,0,,True,False
-MUPC1,Middle Creek near Upper Lake,0,,True,False
-MURI2,Big Muddy River at Murphysboro,0,,True,False
-MURS1,Saluda River below Lake Murray Dam,2,IRMS1;SLUS1,True,False
-MURV2,Buffalo Creek at Murat,0,,True,False
-MUSI4,Mississippi River at Muscatine,2,ILNI2;NBOI2,True,False
-MUSM5,Mustinka River near Wheaton,0,,True,False
-MUSM8,Musselshell River at Musselshell,2,MSBM8;RUPM8,True,False
-MUSO3,McKenzie River near Belknap Springs,2,MOCO3;TRBO3,True,False
-MUSW3,Wisconsin River at Muscoda,2,GTTI4;PDSW3,True,False
-MUSW4,Muddy Creek near Shoshoni,0,,True,False
-MUTC1,Murrieta Creek at Temecula,0,,True,False
-MUVV2,Beaverdam Creek near Mountville,0,,True,False
-MVCN8,Sheyenne River near McVille,2,CPPN8;WRWN8,True,False
-MVCO3,Malheur River at Vines Canyon,0,,True,False
-MVCS1,Stevens Creek near Murphy Village,1,MODS1,True,False
-MVEN2,Meadow Valley Wash near Ursine,0,,True,False
-MVEO1,Kokosing River at Mt Vernon,2,FTNO1;MHWO1,True,False
-MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
-MVGN6,Mongaup River near Mongaup,0,,True,False
-MVHC1,Mojave River at Helendale,0,,True,False
-MVLO1,Lake Fork Mohican River above Mohicanville Dam,1,MCHO1,True,False
 MVNC1,Los Gatos Creek at Montevina,0,,True,False
 MVOM5,Minnesota River at Montevideo,6,APPM5;GTEM5;LQPM5;LQRM5;MLNM5;ORTM5,True,False
 MVRA3,Cerbat Wash at State Route 68 nr Verde Rd,0,,True,False
@@ -98,7 +73,7 @@ NAHN7,Nahunta Swamp near Shine,0,,True,False
 NAKA2,[INACTIVE] Naknek River at Lake Camp,0,,True,False
 NALF1,North Prong Alafia River Near Nichols,1,KEYF1,True,False
 NALW2,Meadow River at Nallen,1,HNEW2,True,False
-NAMO3,Malheur River at Namorf,0,,True,False
+NAMO3,Malheur River at Namorf,1,MVCO3,True,False
 NAMP4,Rio Guadiana near Guadiana,0,,True,False
 NANA1,Tombigbee River near Nanafalia,2,CLDA1;DLDA1,True,False
 NANG1,Nancy Creek at West Wesley Road at Atlanta,0,,True,False
@@ -1291,7 +1266,7 @@ PLLP1,Pennypack Creek at Philadelphia,0,,True,False
 PLLQ3,Pembina River above Lorne Lake,2,BLNQ3;RLGQ3,True,False
 PLMC2,East Plum Creek (CO) below Castle Rock,2,EPOC2;LOVC2,True,False
 PLMF1,Fisheating Creek at Palmdale,2,FCKF1;FCRF1,True,False
-PLMI2,Big Muddy River at Plumfield,0,,True,False
+PLMI2,Big Muddy River at Plumfield,2,MURI2;RNDI2,True,False
 PLMI3,St. Marys River at Pleasant Mills,2,DCRI3;WILO1,True,False
 PLMI4,Mud Creek near Pleasant Hill IA 163--IFC,0,,True,False
 PLMN3,Pemigewasset River at Plymouth,1,WOON3,True,False
@@ -2057,7 +2032,7 @@ RMSN7,Deep River at Ramseur,1,MONN7,True,False
 RMYT2,Trinity River near Romayor,2,GRIT2;LBYT2,True,False
 RMZG1,Reed Creek near Martinez,0,,True,False
 RNBF1,Rainbow River near Dunnellon (in NAVD88),0,,True,False
-RNDI2,Big Muddy River at Rend Lake Pool,0,,True,False
+RNDI2,Big Muddy River at Rend Lake Pool,1,PLMI2,True,False
 RNDI4,Volga River near Randalia (IFC),0,,True,False
 RNDO2,Deep Red Creek near Randlett,0,,True,False
 RNDV2,Roanoke River at Randolph,2,BROV2;KERV2,True,False
@@ -4188,7 +4163,7 @@ VAES2,Whitewood Creek above Vale,2,SBFS2;WNWS2,True,False
 VAKF1,Atlantic Ocean Tide Gauge at Virginia Key (in MHHW),0,,True,False
 VALA1,Valley Creek (AL) at Center Street,0,,True,False
 VALI2,Illinois River at Valley City,2,HARI2;MROI2,True,False
-VALO3,Malheur River at Vale,4,BEUO3;BYCO3;MAOO3;WARO3,True,False
+VALO3,Malheur River at Vale,5,BEUO3;BYCO3;MAOO3;MVCO3;WARO3,True,False
 VALP4,Rio Valenciano near Juncos,0,,True,False
 VALW1,Skookumchuck River near Vail,1,SKRW1,True,False
 VANI4,Raccoon River at Van Meter Hwy R16--IFC,0,,True,False
@@ -4513,7 +4488,7 @@ WDCF1,Tide Gauge at Weedon Island (in MHHW),0,,True,False
 WDCG1,Woodall Creek at Defoors Ferry Road at Atlanta,0,,True,False
 WDCN7,Dutch Creek at Broadstone Road ,0,,True,False
 WDEM3,Deerfield River at West Deerfield,0,,True,False
-WDEW3,Wisconsin River at Wisconsin Dells,2,PORW3;WRMW3,True,False
+WDEW3,Wisconsin River at Wisconsin Dells,3,CROW3;PORW3;WRMW3,True,False
 WDGO2,North Canadian River near Woodward,2,SEIO2;WDWO2,True,False
 WDHK2,Green River (KY) above Woodbury,3,BNWK2;BWGK2;RCHK2,True,False
 WDHN2,Owyhee River at Wildhorse Dam,0,,True,False

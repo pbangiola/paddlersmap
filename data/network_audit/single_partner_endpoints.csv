@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MVCS1,Stevens Creek near Murphy Village,1,MODS1,True,False
-MVEW1,Skagit River near Mt Vernon,1,CONW1,True,False
-MVLO1,Lake Fork Mohican River above Mohicanville Dam,1,MCHO1,True,False
 MVRS2,East Fork Vermillion River above Montrose,1,EVMS2,True,False
 MWRM5,Wild Rice River (MN) near Mahnomen (CSAH25),1,TWVM5,True,False
 MXKM1,Meduxnekeag River above South Branch near Houlton,1,MXLM1,True,False
@@ -15,6 +12,7 @@ NACW1,Naches River near Naches,1,CLFW1,True,False
 NADA4,Little Missouri River (AR) at Narrows Dam,1,BHTA4,True,False
 NALF1,North Prong Alafia River Near Nichols,1,KEYF1,True,False
 NALW2,Meadow River at Nallen,1,HNEW2,True,False
+NAMO3,Malheur River at Namorf,1,MVCO3,True,False
 NBCI2,Chicago River at Chicago (Columbus Dr),1,NBGI2,True,False
 NBGO1,Cuyahoga River at Harvard Avenue near Newburgh Heights,1,INDO1,True,False
 NBWN7,North Buffalo Creek at Westover Terrace,1,NBUN7,True,False
@@ -267,6 +265,7 @@ RIPO2,Cimarron River near Ripley,1,PRKO2,True,False
 RKLM4,Ontonagon River near Rockland,1,EWNM4,True,False
 RLTT1,Hatchie River at Rialto,1,BVRT1,True,False
 RMSN7,Deep River at Ramseur,1,MONN7,True,False
+RNDI2,Big Muddy River at Rend Lake Pool,1,PLMI2,True,False
 RNTW1,Cedar River (WA) at Renton,1,LNDW1,True,False
 ROBL1,Tangipahoa River at Robert,1,AMIL1,True,False
 ROBS2,Elk Creek near Roubaix,1,EKCS2,True,False
