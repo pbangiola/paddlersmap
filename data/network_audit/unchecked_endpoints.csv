@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OCAM8,Otter Creek at Ashland (Closed),0,,True,False
-OCAN7,Pamlico Sound at Ocracoke (in MLLW),0,,True,False
-OCAT1,Ocoee Dam #1 Pool Benton 5S,1,OCET1,True,False
-OCAW4,Owl Creek at Arapahoe Ranch,0,,True,False
-OCBA1,Little Claybank Creek near Ozark (US 231),1,DALA1,True,False
-OCBF1,Outer Clam Bay (in MHHW),0,,True,False
-OCCN7,Roanoke River above Occoneechee Creek at NC158,0,,True,False
-OCCO2,Crutcho Creek at SE 50th Street at Oklahoma City,1,MWCO2,True,False
-OCCT1,Ocoee River above Ocoee Dam #3,2,CPHT1;OCET1,True,False
-OCET1,Toccoa River (GA) / Ocoee River (TN) near Emf (Archville 3S),2,OCAT1;OCCT1,True,False
-OCHO3,Ochoco Creek below Ochoco Reservoir,0,,True,False
-OCIC1,Old River at Coney Island,0,,True,False
-OCIM2,Atlantic Coast near OCEAN CITY INLET (IN MLLW),0,,True,False
-OCLC1,Lower Silver Creek at Ocala Avenue,0,,True,False
-OCLF1,Ochlockonee River near Smith Creek (CR 366),2,BLXF1;CTMF1,True,False
-OCMW4,Owl Creek above McManus Ditch,0,,True,False
-OCNG1,Oconee River below Oconee,3,DBNG1;MLGG1;OCOG1,True,False
-OCNT2,San Bernard River near Old Ocean,1,BOLT2,True,False
-OCOG1,Oconee River at Avant Mine near Oconee,2,MLGG1;OCNG1,True,False
-OCOM5,South Branch Middle Fork Zumbro River at Oronoco,0,,True,False
-OCOT2,Coon Bayou at Lane of the Oaks,0,,True,False
-OCPN4,Shrewsbury River at Patton,0,,True,False
-OCRC1,Belmont Creek at Harbor Blvd at Old County Road,0,,True,False
-OCRQ9,Old Crow River near the Mouth-Yukon Territory,0,,True,False
-OCRV2,Occoquan River at VA-123,0,,True,False
 OCTT1,Ocoee Dam #1 Tailwater at Parksville,0,,True,False
 OCTW3,Oconto River near Oconto,1,GILW3,True,False
 OCUO3,Willamette River above Falls at Oregon City,2,ORCO3;WCFO3,True,False
