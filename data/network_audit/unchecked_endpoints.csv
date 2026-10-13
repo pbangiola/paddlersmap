@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-THRM8,Thompson River near Thompson Falls,0,,True,False
-THRN4,Third River at Bloomfield,0,,True,False
-THRO1,Lake Erie near Toledo,0,,True,False
-THRV2,Thornton River at Rudasill Mill Road,0,,True,False
-THSI1,Thousand Springs Creek near Chilly,0,,True,False
-THTC1,Mokelumne River at Benson's Ferry,0,,True,False
-THYM2,Deep Creek Lake near Thayerville,0,,True,False
-THYN1,North Oak Creek near Touhy,0,,True,False
-THYS1,Thicketty Creek near Gaffney,0,,True,False
-TICW1,Tieton River at Tieton Headworks,0,,True,False
-TIDO3,Alsea River near Tidewater,0,,True,False
-TIDT2,Frio River at Tilden,2,CHOT2;DBYT2,True,False
-TIFM7,Elk River (MO) near Tiff City,1,INCM7,True,False
-TIGG1,Tallulah River at BURTON DAM,1,NACG1,True,False
-TIGT1,Waldens Creek 2NW Pigeon Forge (Tiger Drive),0,,True,False
-TIJC1,Tijuana River at International Border,0,,True,False
-TIKV2,Orchard Lake Outflow at Glebe Mills,0,,True,False
-TILO3,South Umpqua River near Tiller,1,SURO3,True,False
-TILT2,Nueces River near Tilden,2,COTT2;THET2,True,False
-TILW1,Tilton River near Cinebar,0,,True,False
-TIMC1,San Timoteo Creek near Loma Linda,0,,True,False
-TINB3,Aroostook River below Tinker Dam,2,LMRM1;WSHM1,True,False
-TIOP1,Tionesta Creek at Tionesta Dam Pool,2,LYNP1;TNTP1,True,False
-TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
-TISC1,Sacramento River at Tisdale Weir,2,CLUC1;FMWC1,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TJAC1,Tijuana River near San Ysidro,0,,True,False
 TJBC1,Tassajara Creek Below Interstate 580,0,,True,False
@@ -543,7 +518,7 @@ VLGC1,Green Valley Creek at Green Valley,0,,True,False
 VLIK2,Licking River above Visalia,1,BTLK2,True,False
 VLLM7,Meramec River at Valley Park,2,ERKM7;FNNM7,True,False
 VLPI4,Volga River at Littleport,2,GRBI4;VGAI4,True,False
-VLPN1,North Oak Creek at Valparaiso,0,,True,False
+VLPN1,North Oak Creek at Valparaiso,2,LOKN1;THYN1,True,False
 VLSL1,Vermilion River at Lafayette - Surrey Street,2,VRLL1;VRPL1,True,False
 VLTA3,Virgin River at Littlefield,1,MVSA3,True,False
 VLVK2,Kentucky River at Valley View,2,CPNK2;FODK2,True,False
@@ -624,7 +599,7 @@ WALM6,Tallahala Creek near Waldrup,1,SANM6,True,False
 WALN2,Walker River near Wabuska,2,WBMN2;WVRN2,True,False
 WALN6,West Branch Delaware River at Walton,2,CNNN6;DELN6,True,False
 WALN7,Walnut Creek at Sunnybrook Dr in Raleigh,1,WRLN7,True,False
-WALT1,Waldens Creek 4W Pigeon Forge (Old Valley),0,,True,False
+WALT1,Waldens Creek 4W Pigeon Forge (Old Valley),2,TIGT1;WLVT1,True,False
 WANM4,Wanadoga Creek near Battle Creek,0,,True,False
 WANO1,Sandy Creek at Waynesburg,0,,True,False
 WANO2,Cimarron River near Waynoka,2,AMCO2;BFFO2,True,False
@@ -1069,7 +1044,7 @@ WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
 WLTP1,Redstone Creek at Waltersburg,0,,True,False
 WLUH1,Wailuku River at Piihonoua,0,,True,False
 WLVO1,Ohio River at Wellsville,2,MGYP1;NCUW2,True,False
-WLVT1,Waldens Creek 6WSW Pigeon Forge (Little Valley),0,,True,False
+WLVT1,Waldens Creek 6WSW Pigeon Forge (Little Valley),1,WALT1,True,False
 WLWA2,Willow Creek near Willow,0,,True,False
 WLWI1,Willow Creek (Eastern ID) near Spring Crk Ranch Nr Bellevue,0,,True,False
 WLWK2,Kentucky River at Lock 13 near Willow,2,HLDK2;RAVK2,True,False

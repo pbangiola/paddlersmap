@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TIFM7,Elk River (MO) near Tiff City,1,INCM7,True,False
-TIGG1,Tallulah River at BURTON DAM,1,NACG1,True,False
-TILO3,South Umpqua River near Tiller,1,SURO3,True,False
-TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TJLO1,Sunday Creek at Tom Jenkins Dam,1,SUNO1,True,False
 TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
@@ -160,6 +156,7 @@ WLLO1,Wills Creek at Wills Creek Dam Tailwater,1,WCLO1,True,False
 WLMC1,Los Gatos Creek at Williams Reservoir,1,LESC1,True,False
 WLTM3,Charles River at Waltham,1,DDHM3,True,False
 WLTO2,East Cache Creek near Walters,1,ELWO2,True,False
+WLVT1,Waldens Creek 6WSW Pigeon Forge (Little Valley),1,WALT1,True,False
 WMND1,Brandywine Creek at Wilmington,1,CDFP1,True,False
 WMSM4,Red Cedar River near Williamston,1,ELNM4,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
