@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-MTVS2,Firesteel Creek near Mt. Vernon,0,,True,False
-MTVV2,Smith River at Martinsville Hydroelectic Dam,0,,True,False
-MTWI4,Timber Creek near Marshalltown,0,,True,False
-MTWW3,Manitowoc River at Manitowoc,0,,True,False
-MTXA3,Truxton Wash at State Route 66,0,,True,False
-MTXV2,Appomattox River at Mattoax,4,FRMV2;MNBV2;MTCV2;SPMV2,True,False
-MTZF1,Tide Gauge at Matanzas Pass Bridgfe (in MHHW),0,,True,False
-MTZI3,Wabash River at Montezuma,4,CLNI3;CRWI3;CVGI3;TERI3,True,False
-MTZN5,Gallinas Creek above Montezuma,0,,True,False
-MUBN7,Mulberry Creek at Collettsville,0,,True,False
-MUCF1,Tide Gauge at Mullock Creek (in MHHW),0,,True,False
-MUCG1,Muckalee Creek at Highway 30 near Americus,1,MCKG1,True,False
-MUCN7,Mud Creek (NC) at Erkwood Dr. 1 S Hendersonville,1,MNMN7,True,False
-MUCO3,Murderers Creek near Dayville,0,,True,False
-MUCP1,Muddy Creek (PA) near Castle Fin,0,,True,False
-MUCW4,Muddy Creek above Olson Creek near Dad,1,MCYW4,True,False
-MUDI1,Camas Creek (Eastern ID) at Mud Lake,1,CCCI1,True,False
-MUDI4,Mud Creek at Henderson (IFC),0,,True,False
-MUDK2,Beech Fork at Maud,1,BTDK2,True,False
-MUDM3,Muddy River at Brookline,0,,True,False
-MUDN2,Muddy River near Glendale,2,MOAN2;MRGN2,True,False
-MUDV2,Muddy Creek at Mount Clinton,0,,True,False
-MUDW1,Muddy River below Clear Creek,0,,True,False
-MUFG1,Muckalee Creek at Forrester Parkway Bridge,2,ABNG1;MCKG1,True,False
-MUGT1,W. Fk. Stones River near Murfreesboro,0,,True,False
 MUGT2,Mustang Bayou at SH 6 near Alvin,0,,True,False
 MUKW3,Mukwonago River at Mukwonago,0,,True,False
 MULK1,Arkansas River near Mulvane,2,DRBK1;OXFK1,True,False
@@ -3014,7 +2989,7 @@ SMLN7,Great Dismal Swamp Canal near Joyce Creek near South Mills,0,,True,False
 SMML1,Atchafalaya River at Simmesport,2,AEXL1;MLVL1,True,False
 SMMM3,Ipswich River at South Middleton,0,,True,False
 SMMT2,Medina River near Somerset,0,,True,False
-SMMV2,Smith River at Martinsville,2,BASV2;EDSN7,True,False
+SMMV2,Smith River at Martinsville,3,BASV2;EDSN7;MTVV2,True,False
 SMNA2,[INACTIVE] Salmon Creek (Alaska) at Salmon Creek Road,0,,True,False
 SMNI1,Salmon River at Salmon,0,,True,False
 SMOF1,Shell Mound Observation Deck (In MHHW),0,,True,False
@@ -3835,7 +3810,7 @@ TLTN3,Winnipesaukee River at Tilton,0,,True,False
 TLUG1,Tallulah River at TALLULAH FALLS DAM,0,,True,False
 TLVA2,Tolovana River near Livengood,0,,True,False
 TLYO3,Clackamas River above Three Lynx Creek,1,ESTO3,True,False
-TMAI4,Iowa River near Tama Hwy E49,2,MIWI4;TAMI4,True,False
+TMAI4,Iowa River near Tama Hwy E49,3,MIWI4;MTWI4;TAMI4,True,False
 TMBI4,Bennett Creek near Tama G Ave--IFC,0,,True,False
 TMBT2,Spring Creek at Tomball,0,,True,False
 TMCC2,Tomichi Creek at Sargents,0,,True,False
