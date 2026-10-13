@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SCCV2,Swift Creek at Colonial Heights,1,SBBV2,True,False
-SCCW1,West Fork Salmon Creek near Conconully,0,,True,False
-SCCW4,South Cottonwood Creek near Big Piney,0,,True,False
-SCDT2,Coleto Creek at Arnold Road Crossing,1,CCVT2,True,False
-SCDV2,Swift Creek Lake Dam near Chesterfield,0,,True,False
-SCEA1,Shades Creek at Elder Street,0,,True,False
-SCEI3,Sugar Creek (central) at Eden,0,,True,False
-SCEV2,Stony Creek at Edinburg,0,,True,False
-SCFI3,Stony Creek (IN) at Fishersburg,0,,True,False
-SCFN3,Sugar River below Lake Sunapee ,0,,True,False
-SCFS2,Spring Creek near Flandreau,0,,True,False
-SCFW3,St. Croix River at St Croix Falls,3,GTBW3;SANM5;STLM5,True,False
-SCGN7,Stony Creek at Bus US 70,0,,True,False
-SCGO3,Sain Creek near Gaston,0,,True,False
-SCGT2,Sandies Creek at FM 108 near Smiley,0,,True,False
-SCGU1,near Gunlock,0,,True,False
-SCHA1,Shades Creek near Homewood,0,,True,False
-SCHA4,White River at St. Charles,2,BSGA4;CLDA4,True,False
-SCHI2,Ferson Creek near St Charles,0,,True,False
-SCHL1,Barataria Bay and Waterway at Sellers Canal at Hwy 90,0,,True,False
-SCHN6,Mohawk River at Schenectady (Freeman's Bridge),2,COHN6;LTLN6,True,False
-SCHV2,Siebert Creek at Harrisonburg,0,,True,False
-SCIM8,Saint Mary Canal near Babb,2,SCCM8;SMYM8,True,False
-SCIR1,North Branch Pawtuxet River at Scituate Reservoir,0,,True,False
-SCJA2,Salmon Creek near Juneau,0,,True,False
 SCJO3,Succor Creek near Jordan Valley,0,,True,False
 SCJU1,Silver Creek near Silver Creek Junction,0,,True,False
 SCKA2,Staney Creek near Klawock,0,,True,False
@@ -44,7 +19,7 @@ SCMO1,Swan Creek below Monclova,1,OKOO1,True,False
 SCMS1,Skrine Creek near McClellanville (IN MLLW),0,,True,False
 SCNA2,Salmon Creek at Nash Road near Seward,1,KCSA2,True,False
 SCNA3,Santa Cruz River near Nogales,1,STBA3,True,False
-SCNI3,Stony Creek (IN) near Noblesville,0,,True,False
+SCNI3,Stony Creek (IN) near Noblesville,2,SCFI3;WHNI3,True,False
 SCNK1,Smoky Hill River above Schoenchen,2,ELSK1;SCSK1,True,False
 SCNM5,St. Louis River at Scanlon,2,CQRM5;FDWM5,True,False
 SCNO3,Sycan River near Beatty,0,,True,False
@@ -813,7 +788,7 @@ SRRT2,San Antonio River at SH 72 near Runge,3,FACT2;FCTT2;GLIT2,True,False
 SRSA1,Styx River at Styx River at Seminole,0,,True,False
 SRSI2,Sangamon River near Springfield,0,,True,False
 SRSN7,Shallotte River at Shallotte,0,,True,False
-SRSU1,Santa Clara River near St. George,0,,True,False
+SRSU1,Santa Clara River near St. George,2,SCGU1;STCU1,True,False
 SRTM2,Jones Falls at Sorrento,0,,True,False
 SRTM5,Swan River near Taconite,1,JACM5,True,False
 SRTO3,Silvies River near Trout Creek,2,BUSO3;SVSO3,True,False
@@ -874,7 +849,7 @@ STCI2,Stony Creek at Worth,0,,True,False
 STCI4,Keigley Branch near Story City,0,,True,False
 STCK1,S F Solomon River at Webster Reservoir,2,DMRK1;WODK1,True,False
 STCM5,Sauk River at St. Cloud,0,,True,False
-STCU1,Santa Clara River near Pine Valley,0,,True,False
+STCU1,Santa Clara River near Pine Valley,1,SRSU1,True,False
 STCW1,Stearns Creek near Claquato,0,,True,False
 STCW3,Stillwell Creek at Sixteenth Court Near Tomah,0,,True,False
 STDC1,Stevens Creek  Stevens Creek Reservoir,0,,True,False
@@ -983,7 +958,7 @@ SUDA2,Susitna River near Denali,1,SCTA2,True,False
 SUFN6,Mahwah River at Suffern,0,,True,False
 SUGI1,Sugar Creek near Stibnite,0,,True,False
 SUGI2,Sugar Creek (W-Central IL) near Springfield,0,,True,False
-SUGI3,Sugar Creek (central) near Eden,0,,True,False
+SUGI3,Sugar Creek (central) near Eden,2,NPLI3;SCEI3,True,False
 SUGS1,Sugar Creek NC near Fort Mill,0,,True,False
 SUGW2,Brushy Fork near Sugar Grove,0,,True,False
 SUKF1,"Tide Station at Sunset Cove, Key Largo on Buttonwood Sound (in MHHW)",0,,True,False
@@ -2024,7 +1999,7 @@ WCKO3,Willow Creek (SE Oregon) near Vale,0,,True,False
 WCKV2,Piankatank River above Wharf Creek near Hudgins VA (IN MLLW),0,,True,False
 WCLA3,West Clear Creek near Camp Verde,2,VCVA3;WBVA3,True,False
 WCLF1,Wacissa River near Wacissa,0,,True,False
-WCLN3,Sugar River (NH) at West Claremont,0,,True,False
+WCLN3,Sugar River (NH) at West Claremont,1,SCFN3,True,False
 WCLO1,Wills Creek at Wills Creek Dam Pool,2,CDIO1;WLLO1,True,False
 WCLO3,Winberry Creek at Winberry Creek,0,,True,False
 WCMM7,Wilson Creek near Brookline,0,,True,False
@@ -2187,10 +2162,10 @@ WHMK2,Nolin River at White Mills,2,HGVK2;NOLK2,True,False
 WHMM2,Whitemarsh Run at White Marsh,0,,True,False
 WHMS1,Enoree River at Whitmire,0,,True,False
 WHMV2,N Fork Holston River at White Mills 2N,1,SALV2,True,False
-WHNI3,White River (IN) at 146th Street near Noblesville,4,CCNI3;NBLI3;NMSI3;NORI3,True,False
+WHNI3,White River (IN) at 146th Street near Noblesville,5,CCNI3;NBLI3;NMSI3;NORI3;SCNI3,True,False
 WHNN8,Red River of the North at Wahpeton,4,BROM5;BTWM5;DORM5;ENLN8,True,False
 WHNP1,Lehigh River near F.E. Walter Dam,1,WHTP1,True,False
-WHOT2,Sandies Creek near Westhoff,0,,True,False
+WHOT2,Sandies Creek near Westhoff,1,SCGT2,True,False
 WHPM5,Rainy River near Boat Landing at Wheelers Point,2,CLEM5;MNUM5,True,False
 WHPN4,Whippany River near Morristown,1,WHIN4,True,False
 WHPO1,Duck Creek below Whipple,2,MACO1;MTAO1,True,False
