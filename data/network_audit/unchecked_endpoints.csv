@@ -1,30 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SWDN1,Lincoln Creek near Seward,0,,True,False
-SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
-SWDP1,Conemaugh River at Seward,2,CNMP1;JHSP1,True,False
-SWEG1,Suwanee Creek at Suwanee,0,,True,False
-SWEM8,Sweet Grass Creek near Big Timber,0,,True,False
-SWEW4,Sweetwater River near Alcova,0,,True,False
-SWFN7,Swift Creek above Streets Ferry,0,,True,False
-SWLA2,Seward at Seward Tide Gage,0,,True,False
-SWLA3,Sacramento Wash above Topock,0,,True,False
-SWLQ3,Pembina River near Outlet of Swan Lake,2,PCCQ3;PLRQ3,True,False
-SWMA2,Sawmill Creek below Upper Tailrace near Sitka,1,SCSA2,True,False
-SWMC3,Peat Swamp Reservoir above Peat Swamp Reservoir,0,,True,False
-SWMS2,South Fork Whetstone River near Milbank,0,,True,False
-SWNI4,Des Moines River near Swan,7,AKWI4;CSLI4;DESI4;MTCI4;PELI4;PLHI4;PLMI4,True,False
-SWNM2,Swan Creek at Swan Creek,0,,True,False
-SWNM6,Tallahatchie River near Swan Lake,2,LOGM6;MOGM6,True,False
-SWNO2,North Canadian River near Shawnee,2,HRHO2;SNCO2,True,False
-SWOG1,Ohoopee River at GA 297 near Swainsboro,1,REDG1,True,False
-SWPN2,Stillwater Slough at Stillwater Point Reservoir,0,,True,False
-SWPV2,James River (VA) at Sewell's Point (IN MLLW),3,JLMV2;JSFV2;RICV2,True,False
-SWRM8,Swan River near Bigfork,0,,True,False
-SWRN1,Big Blue River at Seward,2,CRTN1;SAPN1,True,False
-SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
-SWRN8,Souris River at Sawyer,2,LGNN8;VLVN8,True,False
-SWRW4,West Fork Big Goose Creek at Sawmill Reservoir near Big Horn,0,,True,False
-SWSW4,Sweetwater River near Sweetwater Station,0,,True,False
+SWSW4,Sweetwater River near Sweetwater Station,1,SWEW4,True,False
 SWTN1,Mud Creek at Sweetwater,0,,True,False
 SWTN7,"Soco Creek at Wolfetown Rd (US 19), 5 E Cherokee",0,,True,False
 SWTO2,Sweetwater Creek near Sweetwater,0,,True,False

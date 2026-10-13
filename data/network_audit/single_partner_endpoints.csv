@@ -1,8 +1,5 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
-SWMA2,Sawmill Creek below Upper Tailrace near Sitka,1,SCSA2,True,False
-SWOG1,Ohoopee River at GA 297 near Swainsboro,1,REDG1,True,False
-SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
+SWSW4,Sweetwater River near Sweetwater Station,1,SWEW4,True,False
 SWZF1,Sweetwater Creek at Gunn Hwy Near Sulphur Springs ,1,SCKF1,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False
