@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NRSI4,Shell Rock River near Nora Springs 277th St--IFC,2,MANI4;RKFI4,True,False
-NRSL1,Amite River Basin at New River Canal near Sorrento,0,,True,False
-NRSP1,Schuylkill River at Norristown,2,PADP1;PTNP1,True,False
-NRST1,Clinch River above Norris Dam,2,NRTT1;TAZT1,True,False
-NRSV2,Nansemond River at Sleepy Hole Park (IN MLLW),1,NMDV2,True,False
-NRTT1,Clinch River below Norris Dam,2,CCLT1;NRST1,True,False
-NRVG1,New River at GA 100 near Franklin,0,,True,False
-NRVT1,New River near New River,1,LTWT1,True,False
-NRWA2,Nenana River near Windy,0,,True,False
-NRWC1,Santa Ynez River at Narrows,1,LLYC1,True,False
-NRWI4,North River near Norwalk,1,CSLI4,True,False
-NRWM3,Neponset River at Norwood,1,CANM3,True,False
-NRWN7,Rocky River NC near Norwood,0,,True,False
-NRXC1,Napa River at Yountville Cross Road,0,,True,False
-NSBN1,Niobrara River above Soldier Creek near Niobrara,2,NRBN1;VRDN1,True,False
-NSBT2,Neches River at Saltwater Barrier,4,BEAT2;BIPT2;EVDT2;KOUT2,True,False
-NSEC1,Nathanson Creek at 2nd Street East,0,,True,False
-NSEC2,North Fork Cache La Poudre River below Seaman Reservoir,2,FTDC2;NCHC2,True,False
-NSFN7,South Fork New River at US Hwy 221,1,WRON7,True,False
-NSFO3,Nestucca River Near Ferndale,0,,True,False
-NSFW1,South Fork Nooksack River at Potter Rd,1,HUTW1,True,False
-NSGO3,N Santiam River at Greens Bridge near Jefferson,2,JFFO3;MEHO3,True,False
-NSHA2,[INACTIVE] Nushagak River at Ekwok,0,,True,False
-NSHM8,Milk River at Nashua,1,GLWM8,True,False
-NSHN3,Merrimack River at Nashua,2,GOFN3;LOWM3,True,False
 NSLN3,Spicket River at North Salem,0,,True,False
 NSNN4,South Branch Raritan River at Neshanic Station,0,,True,False
 NSNS1,North Santee River near North Santee,0,,True,False
