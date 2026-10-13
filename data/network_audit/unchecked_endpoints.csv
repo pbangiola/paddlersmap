@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RRUV2,Rapidan River At U.S. 15,0,,True,False
-RRVA2,Robe River near Valdez,0,,True,False
-RRVI1,Raft River above One Mile Creek,0,,True,False
-RRVL1,Mississippi River at Reserve,2,BCNL1;DONL1,True,False
-RRVW3,Tomahawk River above Rice Reservoir,2,JERW3;WILW3,True,False
-RRWL1,Red River 6.5 Miles Below the Confluence of the Black,0,,True,False
-RRZF1,Santa Fe River at River Rise near High Springs (in NAVD88),2,HSPF1;OLPF1,True,False
-RSAM6,Homochitto River at Rosetta,1,EDDM6,True,False
-RSBC1,San Joaquin River below HWY 145,0,,True,False
-RSBO3,South Umpqua River at Roseburg,0,,True,False
-RSBS2,Little White River near Rosebud,2,LWRS2;VTLS2,True,False
-RSCC1,Ross Creek at Cherry Avenue,0,,True,False
-RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
-RSDM7,102 River at Rosendale,1,MYVM7,True,False
-RSFM5,Root River (MN) above Rushford,3,HOUM5;LNSM5;RPMM5,True,False
-RSFN5,San Francisco River at Reserve,0,,True,False
-RSGN2,Pine Creek nr Palisade,1,PCKN2,True,False
-RSHI3,Flatrock River at Rushville,2,RALI3;STPI3,True,False
-RSIS2,Rapid Creek at Silver City,3,DFBS2;PACS2;RHOS2,True,False
-RSKF1,Rattlesnake Creek at Belleair,0,,True,False
-RSLC1,Rock Slough above Contra Costa Canal ,0,,True,False
-RSLK1,Smoky Hill River below Russell,0,,True,False
-RSON1,South Platte River at Roscoe,2,JULC2;NPSN1,True,False
-RSPF1,Caloosahatchee River at Shell Point (in MHHW),0,,True,False
-RSPM2,Deer Creek (MD) at Rocks State Park,0,,True,False
 RSPN7,Little Raft Swamp at Red Springs,0,,True,False
 RSPW3,Baraboo River at Rock Springs,2,BBOW3;RBGW3,True,False
 RSRN7,Raft Creek at SR 1318 McQueen Road,0,,True,False
@@ -1287,7 +1262,7 @@ SUNV2,Back Creek (Bath Co. VA) at Sunrise (blw PSS),2,BKCV2;BKSV2,True,False
 SUPA3,Havasu Creek at Supai,2,CCHA3;HNSA3,True,False
 SUPF1,Courtney Campbell Sunset Point (in MHHW),0,,True,False
 SUPT2,Cibolo Creek at Sutherland Springs,2,FCTT2;HDWT2,True,False
-SURO3,South Umpqua River near Riddle,0,,True,False
+SURO3,South Umpqua River near Riddle,2,TILO3;WSNO3,True,False
 SUSA2,[INACTIVE] Susitna River at Susitna Station,2,SUNA2;YSSA2,True,False
 SUSC1,Susan River at Susanville,0,,True,False
 SUSO3,Smith River (OR) above Belknap Springs,0,,True,False
@@ -1574,7 +1549,7 @@ TIGG1,Tallulah River at BURTON DAM,1,NACG1,True,False
 TIGT1,Waldens Creek 2NW Pigeon Forge (Tiger Drive),0,,True,False
 TIJC1,Tijuana River at International Border,0,,True,False
 TIKV2,Orchard Lake Outflow at Glebe Mills,0,,True,False
-TILO3,South Umpqua River near Tiller,0,,True,False
+TILO3,South Umpqua River near Tiller,1,SURO3,True,False
 TILT2,Nueces River near Tilden,2,COTT2;THET2,True,False
 TILW1,Tilton River near Cinebar,0,,True,False
 TIMC1,San Timoteo Creek near Loma Linda,0,,True,False
@@ -1590,7 +1565,7 @@ TJCC1,Big Tujunga Creek below Hansen Dam,0,,True,False
 TJDO1,Sunday Creek at Tom Jenkins Dam (Burr Oak Lake),0,,True,False
 TJLO1,Sunday Creek at Tom Jenkins Dam,0,,True,False
 TJOO2,Joe Creek at Tulsa 6SSE / 61st St.,0,,True,False
-TKDW3,Wisconsin River below Tomahawk Dam,3,GRFW3;JERW3;KNGW3,True,False
+TKDW3,Wisconsin River below Tomahawk Dam,4,GRFW3;JERW3;KNGW3;RRVW3,True,False
 TKLT2,Spring Creek (Concho River Basin) above Tankersley,0,,True,False
 TKMM2,Northwest Branch Anacostia River at Adelphi Mill,0,,True,False
 TKPM2,Sligo Creek near Takoma Park,0,,True,False
@@ -2826,7 +2801,7 @@ WSLO2,Eastern Oklahoma Lakes at Wister Lake,0,,True,False
 WSLO3,Tualatin River at West Linn,1,TUAO3,True,False
 WSLT2,Main Floodway South of Weslaco,1,MITT2,True,False
 WSNN7,Hominy Swamp at Forest Hills Rd near Wilson,0,,True,False
-WSNO3,South Umpqua River near Winston,0,,True,False
+WSNO3,South Umpqua River near Winston,2,RSBO3;SURO3,True,False
 WSPF1,Suwannee River at White Springs (in NAVD88),2,LIKF1;SBNF1,True,False
 WSPI2,Salt Creek (IL) at Western Springs,2,OBKI2;RVRI2,True,False
 WSPM5,Middle Fork Whitewater River near Whitewater State Park,0,,True,False

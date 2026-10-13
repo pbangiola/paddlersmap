@@ -1,8 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RSAM6,Homochitto River at Rosetta,1,EDDM6,True,False
-RSCG1,Oostanaula River at Resaca,1,CALG1,True,False
-RSDM7,102 River at Rosendale,1,MYVM7,True,False
-RSGN2,Pine Creek nr Palisade,1,PCKN2,True,False
 RTMG1,Oostanaula River at US 27 at Rome,1,RGAG1,True,False
 RUCV2,Rapidan River near Ruckersville,1,CLPV2,True,False
 RUDC2,Frying Pan River below Ruedi Resv.,1,FYPC2,True,False
@@ -205,6 +201,7 @@ TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
 THLC1,Lake Tahoe at Tahoe City,1,TRTC1,True,False
 TIFM7,Elk River (MO) near Tiff City,1,INCM7,True,False
 TIGG1,Tallulah River at BURTON DAM,1,NACG1,True,False
+TILO3,South Umpqua River near Tiller,1,SURO3,True,False
 TIPO2,North Fork of the Red River near Tipton,1,HEAO2,True,False
 TIVT2,Guadalupe River near Tivoli,1,DUPT2,True,False
 TKRN7,Tuckasegee River at sr1172 nr Cullowhee,1,SCTN7,True,False
