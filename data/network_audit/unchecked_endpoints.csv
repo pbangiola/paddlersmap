@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RRDI4,Des Moines River at Red Rock Tail,2,PELI4;TRCI4,True,False
-RRDM5,Red Lake River near Red Lake,2,HIGM5;RLDM5,True,False
-RRDN7,Roanoke River at Roanoke Rapids,2,GASN7;HFXN7,True,False
-RRGC2,Rifle Creek below Rifle Gap Resv.,0,,True,False
-RRGT2,Rio Grande at Roma,2,BFAT2;RGDT2,True,False
-RRHC1,Russian River at Digger Bend NR Healdsburg,0,,True,False
-RRHM8,Ruby River near Harrington,0,,True,False
-RRHW1,Columbia River at Rocky Reach Dam,2,RISW1;WELW1,True,False
-RRIC1,Rough and Ready Island,0,,True,False
-RRLK2,Rough River at Rough River Lake,0,,True,False
-RRLL1,Mississippi River at Red River Landing,2,KLML1;STFL1,True,False
-RRLM7,Mississippi River above Red Rock Landing,2,CHSI2;GDTI2,True,False
-RRLM8,Red Rock Creek above Lakes near Lakeview,1,LRRM8,True,False
-RRLN4,at Ryerson,0,,True,False
-RRLT2,North Texas Lakes at Lake Ray Roberts,2,GLLT2;LEWT2,True,False
-RRLV2,Rappahannock River At  Lee Highway,0,,True,False
-RRLW3,Wisconsin River at Merrill,3,ALXW3;MRLW3;WUUW3,True,False
-RRMN6,Irondequoit Creek at Railroad Mills,0,,True,False
-RROC1,Russian River at Hwy 1 Bridge,0,,True,False
-RROV2,Robinson River at Quaker Run Road,0,,True,False
-RRPI3,White River (IN) at Rocky Ripple,2,BBDI3;IMAI3,True,False
-RRRM8,Ruby River above Ruby Reservoir near Alder,1,ALRM8,True,False
-RRRN5,Rio Hondo at Diamond A Dam,0,,True,False
-RRSM7,Roaring River near Roaring River State Park,0,,True,False
-RRTN4,North Branch Raritan River near Raritan,2,NBAN4;SBRN4,True,False
 RRUV2,Rapidan River At U.S. 15,0,,True,False
 RRVA2,Robe River near Valdez,0,,True,False
 RRVI1,Raft River above One Mile Creek,0,,True,False
