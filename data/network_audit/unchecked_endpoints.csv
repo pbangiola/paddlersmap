@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ROLI4,Bear Creek near Roland 150th St--IFC,0,,True,False
-ROLW2,Cheat River at Rowlesburg,2,PSNW2;ROWW2,True,False
-ROMI2,Chicago Sanitary and Ship Canal at Romeoville,3,JRSI2;LCSI2;LOKI2,True,False
-ROMO3,Owyhee River at Rome,2,ORCI1;OWYO3,True,False
-ROMT1,Big Creek near Rosemark,1,MLLT1,True,False
-ROMW3,Bark River at Rome,0,,True,False
-RONN6,Rondout Creek at Rondout Rsvr,0,,True,False
-RONP1,Pequea Creek near Ronks,2,MFGP1;PRDP1,True,False
-RONV2,Roanoke River at Roanoke,2,GNVV2;NIAV2,True,False
-RONW2,Greenbrier River at Ronceverte,2,ALDW2;CALW2,True,False
-ROOI3,St. Joseph River (OH/IN) near Fort Wayne,3,CDRI3;NVLI3;SJRI3,True,False
-ROPN7,Kendrick Creek at Roper,0,,True,False
-RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
-RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
-RORV2,Roanoke River at Roanoke River at Route 117 at Roanoke,0,,True,False
-ROSM5,Roseau River at Roseau,2,MALM5;RSSM5,True,False
-ROSM6,Mississippi River at Rosedale,3,ARSA4;FRPM6;HEEA4,True,False
-ROSN6,Rondout Creek at Rosendale,0,,True,False
-ROSN7,French Broad River at Rosman,1,BLAN7,True,False
-ROSP1,Oil Creek at Rouseville,0,,True,False
-ROST1,Wolf River at Rossville,3,COTT1;GERT1;LGRT1,True,False
-ROST2,Brazos River near Rosharon,3,BCNT2;SLNT2;WCBT2,True,False
-ROTW3,Wisconsin River at Rothschild,3,DUBW3;KELW3;WUUW3,True,False
-ROUN6,Lake Champlain at Rouses Point,6,AUSN6;BURV1;CHZN6;LPHN6;NUTQ7;PHBQ7,True,False
-ROVP1,West Branch Susquehanna River at Renovo,2,KARP1;LHVP1,True,False
 ROWI4,Iowa River near Rowan,2,BTDI4;IFAI4,True,False
 ROWP1,Lackawaxen River at Rowland,1,HWYP1,True,False
 ROWW2,Cheat River at Rowlesburg,2,ABRW2;ROLW2,True,False
