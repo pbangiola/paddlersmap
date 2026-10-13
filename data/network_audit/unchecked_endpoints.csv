@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-TELT2,Rio Grande at Johnson Ranch,2,BOQT2;CSTT2,True,False
-TENC1,Tenaya Creek at Yosemite NP At Tenaya Bridge,0,,True,False
-TENF1,Tenmile Canal at Control Near Estero,0,,True,False
-TENI4,Turkey River near Elgin (IFC),3,CMTI4;EGNI4;EKDI4,True,False
-TENN6,Tenmile River near Gaylordsville,0,,True,False
-TENO2,Eastern Oklahoma Lakes at Tenkiller Lake,0,,True,False
-TERC2,Alamosa River above Terrace Reservoir,0,,True,False
-TERG1,Tallulah River at MATHIS-TERRORA DAM,2,NACG1;TLUG1,True,False
-TERI3,Wabash River at Terre Haute...US Hwy 150 Eastbound,4,CLNI3;HUFI3;HUTI2;MTZI3,True,False
-TERN6,Shelter Island Sound at Shelter Island (IN MLLW),0,,True,False
-TESC1,Tres Pinos Creek near Tres Pinos,0,,True,False
-TEST9,18 miles NNE of Test Site 8,0,,True,False
-TEXA1,Choctawhatchee River near Texasville (SR 131),1,EFKA1,True,False
-TFAI1,Rock Creek at Twin Falls,0,,True,False
-TFDM7,Little North Fork River at Thornfield,0,,True,False
-TFFO1,Sandusky River at Tiffin,4,CWFO1;FFMO1;MLMO1;UPPO1,True,False
-TFKM8,Jefferson River near Three Forks,3,BLDM8;PBRM8;TOSM8,True,False
-TFLG1,Tallulah River above TALLULAH FALLS PWR HOUSE,2,TLUG1;TUGG1,True,False
-TFLW4,Lamar River near Tower Falls,0,,True,False
-TFMN7,Third Fork Creek at ML King Pkwy in Durham,0,,True,False
-TFPV2,Tract Fork near Pulaski,0,,True,False
-TFRN7,Third Fork Creek at Woodcroft Park,0,,True,False
-TGAO2,Canadian River near Taloga,2,BRIO2;CDNT2,True,False
-TGAP1,Central PA Dams  Tioga-Hammond Dam on Tioga River,4,MFDP1;STVP1;TGRP1;YGBP1,True,False
-TGAW1,Touchet River at Gallaher Road,0,,True,False
 TGCO3,Tualatin River above Golf Course Rd near Cornelius,2,DLLO3;TRRO3,True,False
 TGJP1,Tioga River at Tioga Junction,3,LDYN6;LLYN6;TGRP1,True,False
 TGLW2,Tygart Valley River at Tygart Lake,0,,True,False
