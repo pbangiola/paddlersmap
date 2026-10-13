@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PRLO2,Walnut Creek (OK) at Purcell,0,,True,False
-PRLT2,Clear Creek above Telephone Road,1,HCCT2,True,False
-PRLU1,Parleys Creek near Parleys,0,,True,False
-PRMI4,South Fork Chariton River near Promise City,0,,True,False
-PRMO1,West Creek above Parma,1,PARO1,True,False
-PRMP1,West Branch Lackawaxen River at Prompton,0,,True,False
-PRNA2,Prince Creek near Umiat,0,,True,False
-PRNM2,Patuxent River at 9th Street in Laurel,2,LPRM2;PRLM2,True,False
-PRNM4,Middle Branch Escanaba River near Princeton,1,HUMM4,True,False
-PRNM5,West Branch Rum River near Princeton 2WNW,0,,True,False
-PRNP4,Rio Portugues at Parque Ceremonial,0,,True,False
-PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
-PROI4,North Raccoon River near Perry,3,DAWI4;GJTI4;MBNI4,True,False
-PROM4,Prairie River (MI) at US 12 Near Burr Oak MI,0,,True,False
-PROQ9,Porcupine River below Old Crow River-Yukon Territory,0,,True,False
-PROS1,Bush River near Prosperity,0,,True,False
-PRPC3,Tenmile River above Prospect Reservoir,0,,True,False
-PRPI1,Payette River at Payette,1,PLEI1,True,False
-PRPK2,Mill Creek (KY) near Pleasure Ridge Park,0,,True,False
-PRPM6,Pascagoula River at Mile 1 at Pascagoula,0,,True,False
-PRPV2,Rocky Run near Tysons Corner (Pulte/McLean Regional Pond),0,,True,False
-PRRK1,Delaware River (KS) at Perry Lake,0,,True,False
-PRRM5,Straight River near Park Rapids (CR115),1,PRKM5,True,False
-PRRO3,Powder River (OR) near Richland,1,THFO3,True,False
-PRRP1,Pohopoco Creek below Beltzville Lake at Parryville,0,,True,False
 PRRW2,Price Run above Smithfield,0,,True,False
 PRRW4,East Fork Big Goose Creek at Park Reservoir near Big Horn,0,,True,False
 PRSG1,Kinchafoonee Creek at Preston (SR 41),1,DSNG1,True,False
@@ -55,7 +30,7 @@ PRXC1,Sacramento-San Joaquin Delta at Prisoners Point Near Terminous - San Joaqu
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
 PRYC1,Pacific Ocean  Point Reyes Tide gage,0,,True,False
 PRYI2,Kishwaukee River near Perryville,3,BVDI2;BYRI2;FDLI2,True,False
-PRYP1,Pohopoco Creek at Beltzville Dam,0,,True,False
+PRYP1,Pohopoco Creek at Beltzville Dam,1,PRRP1,True,False
 PRZU1,Little Bear River at Paradise,0,,True,False
 PSAS1,Polk Swamp above St. George,0,,True,False
 PSBC2,Piney River near State Bridge,0,,True,False
@@ -223,7 +198,7 @@ RACI1,Rainey Creek at Swan Valley,0,,True,False
 RACW2,Ohio River at Racine Lock,2,BEVW2;POMO1,True,False
 RACW3,Root River at Racine,2,FAKW3;FRKW3,True,False
 RADF1,Lake Ocklawaha near Kirkpatrick Dam (in NAVD88),0,,True,False
-RADI4,Chariton River at Rathbun Reservoir,2,CHTI4;RABI4,True,False
+RADI4,Chariton River at Rathbun Reservoir,3,CHTI4;PRMI4;RABI4,True,False
 RAIN7,Nantahala River near Rainbow Springs,1,NANN7,True,False
 RALI3,Flatrock River near Raleigh,1,RSHI3,True,False
 RAMN6,Ramapo River at Ramapo,1,SFFN6,True,False
@@ -1846,7 +1821,7 @@ STEW3,Kickapoo River at Steuben,2,GMIW3;GTTI4,True,False
 STFB3,St. Francis River near Connors,0,,True,False
 STFI1,Snake River near Twin Falls,2,CBMI1;SRPI1,True,False
 STFL1,Mississippi River near St. Francisville,2,BTRL1;RRLL1,True,False
-STFM5,Rum River near St. Francis 4 South,1,MCAM5,True,False
+STFM5,Rum River near St. Francis 4 South,2,MCAM5;PRNM5,True,False
 STFN4,Westecunk Creek at Stafford Forge,0,,True,False
 STFN7,Fisher River at S.R. 1100 (Turkey Ford Road),0,,True,False
 STFT2,California Creek (Clear Fk Brazos) near Stamford,0,,True,False

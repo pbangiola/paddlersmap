@@ -1,17 +1,11 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-PRLT2,Clear Creek above Telephone Road,1,HCCT2,True,False
-PRMO1,West Creek above Parma,1,PARO1,True,False
-PRNM4,Middle Branch Escanaba River near Princeton,1,HUMM4,True,False
-PRNS2,Beaver Creek (SD) near Pringle,1,BEAS2,True,False
-PRPI1,Payette River at Payette,1,PLEI1,True,False
-PRRM5,Straight River near Park Rapids (CR115),1,PRKM5,True,False
-PRRO3,Powder River (OR) near Richland,1,THFO3,True,False
 PRSG1,Kinchafoonee Creek at Preston (SR 41),1,DSNG1,True,False
 PRSK2,Stoner Creek at Paris,1,CYNK2,True,False
 PRTN8,Goose River near Portland,1,HGRN8,True,False
 PRUM2,Patuxent River near Unity,1,BGHM2,True,False
 PRVO3,Crooked River (OR) near Prineville,1,CRPO3,True,False
 PRXQ9,Pelly River at Pelly Crossing-Yukon Territory,1,YWRQ9,True,False
+PRYP1,Pohopoco Creek at Beltzville Dam,1,PRRP1,True,False
 PSFC1,Piru Creek below Santa Felicia Dam,1,PCPC1,True,False
 PSPT1,Elk River near Prospect,1,FYTT1,True,False
 PTIK1,N F Solomon River at Portis,1,KRWK1,True,False
@@ -243,7 +237,6 @@ SSVW1,South Fork Stillaguamish River above Verlot,1,GFLW1,True,False
 STAK1,Blue River near Stanley,1,KBRM7,True,False
 STEN1,"North Fork Republican River at 8WNW Haigler, Nebraska",1,BENN1,True,False
 STEN7,Stewart Creek at State St.,1,SMON7,True,False
-STFM5,Rum River near St. Francis 4 South,1,MCAM5,True,False
 STGV2,North Fork Shenandoah River near Strasburg,1,MILW2,True,False
 STHW1,Stehekin River at Stehekin,1,STKW1,True,False
 STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
