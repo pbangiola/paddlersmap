@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
-REEO3,Umpqua River at Reedsport,1,EKTO3,True,False
 REGN8,Cannonball River at Regent,1,BREN8,True,False
 RENV2,Rappahannock River at Remington,1,FDBV2,True,False
 RERC2,Eagle River at Red Cliff,1,EAMC2,True,False
@@ -222,6 +220,7 @@ SVSO3,Silvies River below Soda Spring,1,SRTO3,True,False
 SWAN3,Ashuelot River above West Swanzey,1,KNEN3,True,False
 SWAV1,Missisquoi River at Swanton,1,EBKV1,True,False
 SWDO2,Cottonwood Creek (OK) near Seward,1,GUCO2,True,False
+SWOG1,Ohoopee River at GA 297 near Swainsboro,1,REDG1,True,False
 SWRN6,Beaver River (NY) at Stillwater Reservoir,1,CGHN6,True,False
 SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
 SYLI3,North Branch Elkhart River at Sylvan Lake,1,CPEI3,True,False

@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RDRP1,Schuylkill River at Reading,2,BREP1;PTNP1,True,False
-RDSC1,Reclamation Ditch near Salinas,0,,True,False
-RDTA4,Ouachita River at Remmel Dam above Jones Mill,2,AKDA4;BMDA4,True,False
-RDTN6,Rondout Creek at Rondout,0,,True,False
-RDVM5,Roseau River at Roseau Diversion,0,,True,False
-RDVT1,West Prong Little Pigeon River 3NW Pigeon Forge (River Divide),2,SEVT1;SPUT1,True,False
-RDWM5,Mississippi River below Lock and Dam 3 - Red Wing,3,EMPM5;PREW3;REDM5,True,False
-RDWS2,Redwater Creek (WY) at Wyoming-South Dakota State Line,0,,True,False
-RDYD1,Delaware Bay at Reedy Point (IN MLLW),1,DELD1,True,False
-RDYP1,Clarion River at Ridgway,2,COKP1;JHNP1,True,False
-RDZM8,Missouri River at Great Falls Central Ave Bridge,0,,True,False
-REAN4,Neshanic River at Reaville,0,,True,False
-REAP1,Cocalico Creek at Ephrata,0,,True,False
-REAW3,Kickapoo River at Readstown,2,SOGW3;VIOW3,True,False
-RECN1,Franklin Canal near Republican City,0,,True,False
-REDG1,Ohoopee River near Reidsville,0,,True,False
-REDI4,South Raccoon River at Redfield,3,EFDI4;RDFI4;VNMI4,True,False
-REDM5,Mississippi River at Red Wing,3,LKCM5;RDWM5;WLCM5,True,False
-REDN6,North Branch Salmon River at Redfield,0,,True,False
-REDN7,Reddies River at N. Wilkesboro,0,,True,False
-REDS1,Reedy River at SC 76,0,,True,False
-REEC1,Deer Creek @ Foothill,0,,True,False
-REEO1,Big Walnut Creek at Rees,2,CLMO1;CSCO1,True,False
-REEO3,Umpqua River at Reedsport,1,EKTO3,True,False
-REEP1,Kishacoquillas Creek at Reedsville,0,,True,False
 REFN7,Reedy Fork at Old NC-87,0,,True,False
 REFT2,Mission River at Refugio,0,,True,False
 REGN8,Cannonball River at Regent,1,BREN8,True,False
@@ -331,7 +306,7 @@ RSRT2,Trinity River near Rosser,4,CNLT2;DALT2;DWRT2;TDDT2,True,False
 RSRW3,Fox River at Rochester,2,BRGW3;WKEW3,True,False
 RSSI4,South Skunk River at Reasnor Hwy F62--IFC,3,CFXI4;MGOI4;OOAI4,True,False
 RSSK1,Cross Creek (KS) at Rossville,0,,True,False
-RSSM5,Roseau River at Ross,2,CARM5;ROSM5,True,False
+RSSM5,Roseau River at Ross,3,CARM5;RDVM5;ROSM5,True,False
 RSSN6,Kinderhook Creek at Rossman,0,,True,False
 RSSP1,Conewango Creek at Russell,0,,True,False
 RTAT2,Tide Gauge at Port Aransas,0,,True,False
@@ -395,7 +370,7 @@ RWGC2,Rio Grande at Wagon Wheel Gap,0,,True,False
 RWHV2,Rapidan River at Wolftown-Hood Road,0,,True,False
 RWLG1,Chattahoochee River above Roswell,2,MGFG1;NCRG1,True,False
 RWRN5,Rio Hondo at Rocky Arroyo Reservoir,0,,True,False
-RWRS2,Redwater River (SD) above Belle Fourche,2,FRUS2;SPRS2,True,False
+RWRS2,Redwater River (SD) above Belle Fourche,3,FRUS2;RDWS2;SPRS2,True,False
 RWSG1,Big Creek below Hog Wallow at Roswell,1,APHG1,True,False
 RWYN4,Rahway River at Rahway,0,,True,False
 RWYN6,Jamaica Bay at Rockaway Inlet (IN MLLW),0,,True,False
@@ -1310,7 +1285,7 @@ SPTT1,Tennessee River at South Pittsburg,2,NKTT1;SCRA1,True,False
 SPTV2,Po River near Spotsylvania,0,,True,False
 SPUF1,Deep Creek at Spuds (in MHHW),0,,True,False
 SPUN1,North Loup River near St. Paul,2,GELN1;ORDN1,True,False
-SPUT1,West Prong Little Pigeon River 2SE Pigeon Forge (Spur),2,HJBT1;RDVT1,True,False
+SPUT1,West Prong Little Pigeon River 2SE Pigeon Forge (Spur),3,GATT1;HJBT1;RDVT1,True,False
 SPVI4,Turkey River near Spillville (IFC),2,SPLI4;TCGI4,True,False
 SPWI4,Little Sioux River at Spencer,2,LNNI4;SPII4,True,False
 SPWW4,South Piney Creek below Willow Park Reservior,0,,True,False
@@ -1649,7 +1624,7 @@ SWNI4,Des Moines River near Swan,7,AKWI4;CSLI4;DESI4;MTCI4;PELI4;PLHI4;PLMI4,Tru
 SWNM2,Swan Creek at Swan Creek,0,,True,False
 SWNM6,Tallahatchie River near Swan Lake,2,LOGM6;MOGM6,True,False
 SWNO2,North Canadian River near Shawnee,2,HRHO2;SNCO2,True,False
-SWOG1,Ohoopee River at GA 297 near Swainsboro,0,,True,False
+SWOG1,Ohoopee River at GA 297 near Swainsboro,1,REDG1,True,False
 SWPN2,Stillwater Slough at Stillwater Point Reservoir,0,,True,False
 SWPV2,James River (VA) at Sewell's Point (IN MLLW),3,JLMV2;JSFV2;RICV2,True,False
 SWRM8,Swan River near Bigfork,0,,True,False
