@@ -1,10 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
-RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
 RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
 RCMM4,Kalamazoo River near New Richmond,1,CMSM4,True,False
 RCNK1,Walnut Creek (KS) at Nekoma,1,ALBK1,True,False
 RCOM5,North Branch Middle Fork Zumbro River at Roscoe - Cty Rd 27,1,PILM5,True,False
+RCRM5,Cascade Creek near Rochester,1,RCCM5,True,False
 RCSN6,Erie Canal above Rochester,1,MCDN6,True,False
 RCWI3,East Fork Whitewater River at Richmond,1,ABTI3,True,False
 RDLN4,Pequannock River at Riverdale,1,MCPN4,True,False
