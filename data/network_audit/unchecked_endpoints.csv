@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SWSW4,Sweetwater River near Sweetwater Station,1,SWEW4,True,False
-SWTN1,Mud Creek at Sweetwater,0,,True,False
-SWTN7,"Soco Creek at Wolfetown Rd (US 19), 5 E Cherokee",0,,True,False
-SWTO2,Sweetwater Creek near Sweetwater,0,,True,False
-SWVP1,East Branch Perkiomen Creek at Schwenksville,0,,True,False
-SWYA3,Sacramento Wash near Yucca,0,,True,False
-SWYF1,Tide Gauge at South Spreader Waterway (In MHHW),0,,True,False
-SWZF1,Sweetwater Creek at Gunn Hwy Near Sulphur Springs ,1,SCKF1,True,False
-SXCC1,San Antonio Creek at Camp Comfort,0,,True,False
-SXCI4,Big Sioux River at Sioux City,1,BSJS2,True,False
-SXFS2,Big Sioux River at Sioux Falls N. Cliff Avenue,2,BBSS2;WAVS2,True,False
-SXGC1,San Gregorio Creek at San Gregorio,0,,True,False
-SXLA1,Styx River near Loxley at Smith's Landing,0,,True,False
-SXMN6,Sixmile Creek at Bethel Grove,0,,True,False
-SXPC1,San Pedro Creek at Goleta,0,,True,False
-SXRA2,Kenai River at Soldotna,2,KEYA2;KRKA2,True,False
-SXSC1,Sinbad Creek - Sunol Glen Elementary,0,,True,False
-SXTK2,Clear Fork at Saxton,0,,True,False
-SXTP1,Raystown Branch Juniata River at Saxton,0,,True,False
-SXVM8,Bighorn River at ST. Xavier Bridge,2,STXM8;TLBM8,True,False
-SXZF1,Sixmile Creek Near Bartow,0,,True,False
-SYCA3,Sycamore Creek near Ft McDowell,0,,True,False
-SYCF1,Sandy Creek at Sandy Creek Boat Ramp (in NAVD88),0,,True,False
-SYCO3,Johnson Creek near Sycamore,3,GREO3;KCPO3;MIWO3,True,False
-SYCT2,Sycamore Creek near Del Rio 12SE,0,,True,False
 SYDO2,Otter Creek (OK) near Snyder,0,,True,False
 SYDP1,Central PA Dams  Sayers Dam on Bald Eagle Creek,4,BCHP1;MSBP1;RTDP1;STVP1,True,False
 SYIC1,Sleepy Hollow Creek at RVFD Fire Station 20,0,,True,False
@@ -1202,7 +1177,7 @@ WKWA3,Weekes Wash at Apache Junction,0,,True,False
 WLAC1,West Little Llagas Creek below Edmundson,0,,True,False
 WLAF1,Little Charlie Creek at Mouth Near Wauchula,0,,True,False
 WLAO3,South Yamhill River near Willamina,2,MCMO3;WAWO3,True,False
-WLBK2,Cumberland River at Williamsburg,2,BBVK2;CFAK2,True,False
+WLBK2,Cumberland River at Williamsburg,3,BBVK2;CFAK2;SXTK2,True,False
 WLBN1,Turkey Creek near Wilber,1,DEWN1,True,False
 WLBN3,Connecticut River at West Lebanon,3,WEHV1;WELV1;WLPN3,True,False
 WLBN6,Boquet River above Willsboro,0,,True,False
