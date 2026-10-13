@@ -1,6 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
-SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SNCC2,Surface Creek near Cedaredge,1,SCCC2,True,False
 SNCP1,Red Bank Creek at St Charles,1,BKLP1,True,False
@@ -224,6 +222,7 @@ WETO2,North Canadian River near Wetumka,1,SNCO2,True,False
 WFDP1,Cowanesque River at Westfield,1,ELKP1,True,False
 WFHO3,West Fork Hood River near Dee,1,HODO3,True,False
 WFMI4,West Fork Ditch at Moville,1,HOKI4,True,False
+WHBI1,Salmon River at White Bird,1,SMNI1,True,False
 WHDO1,Walhonding River at Walhonding,1,NLLO1,True,False
 WHEW3,Hay River at Wheeler,1,MENW3,True,False
 WHIS2,Moreau River (SD) near Whitehorse,1,FTHS2,True,False

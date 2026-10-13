@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SMKA4,Smackover Creek near Smackover,0,,True,False
-SMKT2,Millers Creek at Millers Creek Reservoir near Bomarton,0,,True,False
-SMLI2,Ohio River at Smithland Lock and Dam,3,BARK2;GOLI2;PAHK2,True,False
-SMLN7,Great Dismal Swamp Canal near Joyce Creek near South Mills,0,,True,False
-SMML1,Atchafalaya River at Simmesport,2,AEXL1;MLVL1,True,False
-SMMM3,Ipswich River at South Middleton,0,,True,False
-SMMT2,Medina River near Somerset,0,,True,False
-SMMV2,Smith River at Martinsville,3,BASV2;EDSN7;MTVV2,True,False
-SMNA2,[INACTIVE] Salmon Creek (Alaska) at Salmon Creek Road,0,,True,False
-SMNI1,Salmon River at Salmon,0,,True,False
-SMOF1,Shell Mound Observation Deck (In MHHW),0,,True,False
-SMON7,"Stewart Creek at W Morehead St (US 29), in Wesley Heights",2,IRWN7;STEN7,True,False
-SMPC2,San Miguel River near Placerville,0,,True,False
-SMPM2,Little Patuxent River at Allview,2,CTNM2;LPGM2,True,False
-SMRC2,Shadow Mountain Reservoir,1,CSHC2,True,False
-SMRN7,Briar Creek at Shamrock Drive,1,IBRN7,True,False
-SMRT2,San Marcos River near Martindale,3,BSMT2;LLGT2;SRUT2,True,False
-SMRW1,Samish River near Burlington,0,,True,False
-SMSA1,Hamilton Creek near Semmes,0,,True,False
-SMSV2,Pagan River at Smithfield Station (IN MLLW),0,,True,False
-SMTG1,St. Marys River at Traders Hill,0,,True,False
-SMTW4,Little Laramie River near Filmore,0,,True,False
-SMUC2,San Miguel River at Uravan,0,,True,False
-SMVN4,Peters Brook at Somerville,0,,True,False
-SMVT2,"Yegua Creek near Somerville, TX",0,,True,False
 SMWV2,Smith River at Smith River Church near Woolwine,1,PTTV2,True,False
 SMYM4,Flat River at Smyrna,0,,True,False
 SMYM8,Saint Mary River near Babb,3,SCIM8;SCSM8;SMBM8,True,False
@@ -60,7 +35,7 @@ SNKG1,Snake Creek near Whitesburg,0,,True,False
 SNKS2,Snake Creek near Ashton,1,SCAS2,True,False
 SNKV2,Stony Creek near DINWIDDIE,0,,True,False
 SNLO1,Seneca Fork at Senecaville Dam Pool,0,,True,False
-SNMC2,San Miguel River Brooks Bridge near Nucla,0,,True,False
+SNMC2,San Miguel River Brooks Bridge near Nucla,2,SMPC2;SMUC2,True,False
 SNMI1,Snake River at McDuff Rapids,0,,True,False
 SNMM4,Dowagiac River at Sumnerville,1,DOWM4,True,False
 SNNP1,Sinnemahoning Creek at Sinnemahoning,0,,True,False
@@ -99,7 +74,7 @@ SOMC1,San Antonio Dam,0,,True,False
 SOMC2,Gunnison River near Somerset,2,ACSC2;MDCC2,True,False
 SOMN1,Medicine Creek near Somerset,1,MECN1,True,False
 SOMT1,Loosahatchie River near Sommerville 1N,0,,True,False
-SOMT2,Yegua Creek at Lake Somerville,3,DEYT2;DMYT2;HPDT2,True,False
+SOMT2,Yegua Creek at Lake Somerville,4,DEYT2;DMYT2;HPDT2;SMVT2,True,False
 SOMW3,Apple River (WI) at Somerset,0,,True,False
 SONP1,Muncy Creek near Sonestown,1,GLMP1,True,False
 SOPC1,Soda Creek near Napa,0,,True,False
@@ -1465,7 +1440,7 @@ WBXM1,Saco River at West Buxton,2,CNHM1;CNWN3,True,False
 WBYA1,Tide Gauge at Weeks Bay (IN MHHW),0,,True,False
 WBYC1,San Francisquito Creek at West Bayshore (SFWB),0,,True,False
 WBYO1,Chagrin River at Willoughby,2,MYFO1;PPKO1,True,False
-WBZT2,Brazos River at Washington,0,,True,False
+WBZT2,Brazos River at Washington,2,HPDT2;SMVT2,True,False
 WCAN7,Wilson Creek (NC) at Adako Rd 3 SW Collettsville,0,,True,False
 WCAT2,Waller Creek at East 1st Street at Austin,0,,True,False
 WCBI4,Walnut Creek near Waukee 156th St,1,UBWI4,True,False
@@ -1634,7 +1609,7 @@ WGRT2,Willis Creek near Granger,0,,True,False
 WGTM3,Squannacook River at West Groton,0,,True,False
 WHAT2,Colorado River (TX) at Wharton,2,BACT2;CBST2,True,False
 WHBC2,White River near Rangely,0,,True,False
-WHBI1,Salmon River at White Bird,0,,True,False
+WHBI1,Salmon River at White Bird,1,SMNI1,True,False
 WHBN6,Sauquoit Creek at Whitesboro,0,,True,False
 WHCI2,Whitley Creek near Allenville,0,,True,False
 WHCI3,Blue River (IN) at White Cloud,2,FRDI3;MGOI3,True,False
