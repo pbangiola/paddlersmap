@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ROCI2,South Fork Sangamon River near Rochester,0,,True,False
-ROCM4,Rogue River at Rockford,0,,True,False
-ROCM5,Silver Creek (MN) near Rochester,0,,True,False
-ROCM6,Pearl River at Rockport,3,HPWM6;MTCM6;SRRM6,True,False
-ROCN1,Salt Creek at Roca,1,LUSN1,True,False
-ROCN2,Rock Creek above Battle Mountain,0,,True,False
-ROCO1,Rock Creek at Tiffin,0,,True,False
-ROCW2,Big Sandy Creek at Rockville,0,,True,False
-RODF1,Ocklawaha River below Kirkpatrick Dam (in NAVD88),0,,True,False
-RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
-RODW1,Skagit River  Ross Reservoir,0,,True,False
-ROEF1,Upper Blackwater River,1,HARF1,True,False
-ROEG1,Etowah River at GA 1 Loop near Rome,2,ERRG1;KGTG1,True,False
-ROFN7,Pamlico Sound at Rodanthe Ferry Terminal (in MLLW),0,,True,False
-ROHC1,Copeland Creek at Rohnert Park,1,CTIC1,True,False
-ROHN6,Genesee River at Ford Street Rochester,0,,True,False
-ROKF1,Rocky Creek Near Sulphur Springs,4,BDKF1;CPKF1;CTPF1;DBBF1,True,False
-ROKI2,Rock River at Rockton,3,AFTW3;LATI2;SIRI2,True,False
-ROKM8,Rock Creek (South Central MT) near Red Lodge MT,0,,True,False
-ROKN7,Tar River at NC97 In Rocky Mount,2,LOUN7;TARN7,True,False
-ROKO3,Rock Creek (OR) near Haines,0,,True,False
-ROKT2,Neches River at Rockland,2,DIBT2;TBLT2,True,False
-ROKU1,Rock Creek near Mountain Home,0,,True,False
-ROKW4,Rock Creek near Buffalo,0,,True,False
-ROLI2,Salt Creek (IL) at Rolling Meadows,1,EVGI2,True,False
 ROLI4,Bear Creek near Roland 150th St--IFC,0,,True,False
 ROLW2,Cheat River at Rowlesburg,2,PSNW2;ROWW2,True,False
 ROMI2,Chicago Sanitary and Ship Canal at Romeoville,3,JRSI2;LCSI2;LOKI2,True,False

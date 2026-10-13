@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-ROCN1,Salt Creek at Roca,1,LUSN1,True,False
-RODN6,Oneida Lake at Brewerton,1,ECLN6,True,False
-ROEF1,Upper Blackwater River,1,HARF1,True,False
-ROHC1,Copeland Creek at Rohnert Park,1,CTIC1,True,False
-ROLI2,Salt Creek (IL) at Rolling Meadows,1,EVGI2,True,False
 ROMT1,Big Creek near Rosemark,1,MLLT1,True,False
 RORC2,Roaring Fork River above Aspen,1,APNC2,True,False
 RORP1,Lycoming Creek at Roaring Branch Town,1,DRXP1,True,False
