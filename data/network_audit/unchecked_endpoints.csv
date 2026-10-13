@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RBBT2,Tide Station (LCH) at Rainbow Bridge,0,,True,False
-RBCM5,Bear Creek (MN) near Rochester,0,,True,False
-RBDM8,Rosebud Creek near Rosebud (Closed Gauge),0,,True,False
-RBDN7,Trent River near River Bend (in MLLW),0,,True,False
-RBDS1,Russell Lake near Savannah River,2,CHDS1;HRTG1,True,False
-RBFN5,Pecos River 10 miles S of Malaga,2,PPCN5;RLAT2,True,False
-RBFT2,Red Bluff Creek at FM 1283 near Pipe Creek,0,,True,False
-RBGF1,Red Bug Slough at Proctor Rd,0,,True,False
-RBGW3,Baraboo River at Reedsburg,2,LAVW3;RSPW3,True,False
-RBHC1,Ross Creek at Blossom Hill Road,0,,True,False
-RBIF1,Tide Station at Rookery Bay Island SW (in MHHW),0,,True,False
-RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
-RBNM4,Grand River at Robinson Township,1,EASM4,True,False
-RBOC1,Rubio Wash at Glendon,0,,True,False
-RBPC2,Rio Blanco Near Blanco Dam,0,,True,False
-RBPF1,Braden Point (in MHHW),1,LWDF1,True,False
-RBPS1,Rocky  Branch (SC) at Pickens Street,0,,True,False
-RBRN7,Rocky Branch at Pullen Park in Raleigh,0,,True,False
-RBRU1,Red Butte Creek above 16th East,0,,True,False
-RBRV2,Robinson River at US 29,0,,True,False
-RBUM7,Roubidoux Creek near Plato 7N,0,,True,False
-RBUT2,Ricon Bayou Channel near Calallen,0,,True,False
-RBWS1,Rocky  Branch (SC) at Whaley Street,0,,True,False
-RBXM7,Roubidoux Creek near Waynesville,0,,True,False
-RBYA1,Bear Creek (AL) near Red Bay,0,,True,False
 RBYA2,Yukon River at Ruby,2,GYRA2;TALA2,True,False
 RCAN5,Rio Chama above Abiquiu,2,AICN5;RCEN5,True,False
 RCBA2,Russell Creek near Cold Bay,0,,True,False
@@ -47,7 +22,7 @@ RCET2,Chambers Creek near Rice,2,BDWT2;FFLT2,True,False
 RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
 RCHK1,Wakarusa River near Richland,2,CLIK1;WRWK1,True,False
 RCHK2,Green River (KY) at Rochester,2,PRDK2;WDHK2,True,False
-RCHM5,South Fork Zumbro River at Rochester,2,ALZM5;RCSM5,True,False
+RCHM5,South Fork Zumbro River at Rochester,3,ALZM5;RBCM5;RCSM5,True,False
 RCHM7,Big River at Richwoods,2,BYRM7;IRNM7,True,False
 RCHV1,Ranch Brook at Ranch Camp near Stowe 5NW,0,,True,False
 RCJD2,Rock Creek at Joyce Road in Washington,0,,True,False
@@ -2306,7 +2281,7 @@ TWRN2,S Twin River nr Round Mountain,0,,True,False
 TWRO2,Washita River near Tishomingo,2,CWRO2;DURO2,True,False
 TWVA3,Truxton Wash near Valentine,0,,True,False
 TWVM5,Wild Rice River (MN) at Twin Valley,2,ADSM5;MWRM5,True,False
-TXPT2,Tide Station (LCH) at Texas Point,0,,True,False
+TXPT2,Tide Station (LCH) at Texas Point,1,RBBT2,True,False
 TYAA2,Taiya River near Skagway,0,,True,False
 TYCO3,Tryon Creek near Lake Oswego,0,,True,False
 TYDM8,Tongue River at T & Y Diversion Dam near Miles City (Closed Gauge),0,,True,False

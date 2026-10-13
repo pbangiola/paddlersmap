@@ -1,7 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-RBNC1,Robinson Creek (CA) at Twin Lakes,1,BPRC1,True,False
-RBNM4,Grand River at Robinson Township,1,EASM4,True,False
-RBPF1,Braden Point (in MHHW),1,LWDF1,True,False
 RCEN5,Rio Chama below El Vado Dam,1,RCAN5,True,False
 RCHI3,Big Walnut Creek (IN) near Roachdale,1,RLVI3,True,False
 RCKN7,Pee Dee River near Rockingham,1,CHES1,True,False
@@ -297,6 +294,7 @@ TULP1,Tulpehocken Creek near Reading,1,BMRP1,True,False
 TWCG1,Little River (SW Georgia) near Tifton,1,ADLG1,True,False
 TWNT1,Little River (TN) at Townsend,1,MYVT1,True,False
 TWPK2,Tradewater River above Providence,1,ONYK2,True,False
+TXPT2,Tide Station (LCH) at Texas Point,1,RBBT2,True,False
 TYGK2,Tygarts Creek near Greenup,1,OVHK2,True,False
 TYGS1,Middle Tyger River near Gramling,1,MTLS1,True,False
 TYLN1,North Loup River at Taylor,1,ORDN1,True,False
