@@ -1,17 +1,9 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-STHW1,Stehekin River at Stehekin,1,STKW1,True,False
-STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
-STJI2,Salt Fork (IL) near St. Joseph,1,SSJI2,True,False
-STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
-STKA2,Stikine River near Wrangell,1,ISKQ2,True,False
-STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
-STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
-STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
-STND1,Red Clay Creek at Stanton,1,RCCD1,True,False
 STRN7,"S Toe River below Whiteoak Ck, 2 SSE Celo",1,EMBT1,True,False
 STRW3,Big Eau Pleine River near Stratford,1,EPLW3,True,False
 STSP1,Youghiogheny River at Sutersville,1,CLLP1,True,False
 STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
+STTQ2,Stikine River at Telegraph Creek-British Columbia,1,STKA2,True,False
 STVC3,Housatonic River at Stevenson,1,LLIC3,True,False
 STVW1,Columbia River at Stevenson,1,LWWW1,True,False
 STWW1,Stillaguamish River near Stanwood,1,SPHW1,True,False
@@ -248,6 +240,7 @@ WWBC1,West Walker River near Coleville (Upper Gage),1,CLEC1,True,False
 WWBF1,Weeki Wachee Springs Near Brooksville,1,BPGF1,True,False
 WWTW3,Menomonee River at Wauwatosa,1,MFSW3,True,False
 XNGC1,San Benito River at Clear Creek Crossing,1,HNZC1,True,False
+YASC2,Yampa River above Stagecoach Reservoir,1,YMSC2,True,False
 YDRC1,Santa Margarita River at Ysidora,1,SMHC1,True,False
 YELA1,Yellow River (AL) at Florala,1,MLGF1,True,False
 YGBP1,Central PA Dams  Youghiogheny Dam - Buttonhook,1,TGAP1,True,False

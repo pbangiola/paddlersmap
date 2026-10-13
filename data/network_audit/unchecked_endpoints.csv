@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-STHM1,Stonington Harbor (MLLW),0,,True,False
-STHN7,Cape Fear River at Southport,2,TCLN7;WLON7,True,False
-STHW1,Stehekin River at Stehekin,1,STKW1,True,False
-STIF1,Steinhatchee River at Steinhatchee (in MHHW),0,,True,False
-STII1,South Fork Clearwater River at Stites,0,,True,False
-STII2,Chicago Sanitary and Ship Canal at Stickney,2,CSWI2;LCSI2,True,False
-STIP1,Lackawanna River at Stillwater Dam,1,FCYP1,True,False
-STIT2,North Texas Lakes at Stillhouse Hollow Lake,2,BSJT2;KEMT2,True,False
-STJI2,Salt Fork (IL) near St. Joseph,1,SSJI2,True,False
-STJQ7,Richelieu River at St. Jeans Shoals,1,NUTQ7,True,False
-STJV1,Sleepers River near St. Johnsbury,0,,True,False
-STJW2,West Fork River below Stonewall Jackson Lake,2,JACW2;WTNW2,True,False
-STKA2,Stikine River near Wrangell,1,ISKQ2,True,False
-STKN4,Delaware River at Stockton,2,FREN4;NHPP1,True,False
-STKN7,Meadow Branch near Stokes,0,,True,False
-STKW1,Lake Chelan at Purple Point near Stehekin,2,CHDW1;STHW1,True,False
-STKW3,Fox River (North) at Stockbridge,2,MNSW3;OSHW3,True,False
-STLM5,St. Croix River at Stillwater,2,PSCW3;SCFW3,True,False
-STLT2,Guadalupe River at Sattler,2,GRTT2;SMCT2,True,False
-STMC2,Yampa River at Steamboat Springs,1,FISC2,True,False
-STMI2,Embarras River (IL) at Ste Marie,2,LAWI2;NTNI2,True,False
-STMK2,Middle Fork Beargrass Creek near St. Matthews,1,CFTK2,True,False
-STMN1,Sappa Creek near Stamford,1,BVSN1,True,False
-STNA1,Sardine Branch near Little Rock,0,,True,False
-STND1,Red Clay Creek at Stanton,1,RCCD1,True,False
 STNG1,Alapaha River at Statenville,2,ALAG1;JNAF1,True,False
 STNN7,Contentnea Creek near Stantonsburg,0,,True,False
 STOM2,Stony Run at Loyola University in Baltimore,0,,True,False
@@ -50,7 +25,7 @@ STTI3,White River (IN) at Stout Power Plant,4,ERSI3;INDI3;PRII3;SOUI3,True,False
 STTM7,Osage River near St. Thomas,3,MOAM7;SCZM7;TSCM7,True,False
 STTN1,Republican River at Stratton,3,BEKN1;BENN1;CULN1,True,False
 STTN4,South Branch Raritan River at Stanton,1,HBRN4,True,False
-STTQ2,Stikine River at Telegraph Creek-British Columbia,0,,True,False
+STTQ2,Stikine River at Telegraph Creek-British Columbia,1,STKA2,True,False
 STTW1,Stetattle Creek at Diablo,0,,True,False
 STUI4,Floyd River near Struble,2,ALTI4;LMRI4,True,False
 STUM5,Stewart River near Two Harbors,0,,True,False
@@ -1791,7 +1766,7 @@ YAHC2,Yampa River near Hayden,2,CGGC2;ENMC2,True,False
 YANS2,Missouri River at Yankton,2,GPDN1;MSJN1,True,False
 YARM1,Royal River at Yarmouth,0,,True,False
 YARW1,Lewis River at Yale Reservoir,2,MERW1;SFRW1,True,False
-YASC2,Yampa River above Stagecoach Reservoir,0,,True,False
+YASC2,Yampa River above Stagecoach Reservoir,1,YMSC2,True,False
 YATA2,Yakutat Bay Tide Gauge at Yakutat (MLLW datum),0,,True,False
 YATK2,Blaine Creek below Yatesville Lake,0,,True,False
 YBUP4,Rio Guayanes at Yabucoa,0,,True,False
@@ -1821,7 +1796,7 @@ YLLU1,Yellowstone River Utah near Altonah,0,,True,False
 YLOC1,Cache Creek at Yolo,1,RMSC1,True,False
 YLOG1,Yellow River at Pleasant Hill Road near Lithonia,1,MYRG1,True,False
 YLOW4,Yellowstone River at Fishing Bridge,1,CORM8,True,False
-YMSC2,Yampa River below Stagecoach Reservoir,0,,True,False
+YMSC2,Yampa River below Stagecoach Reservoir,2,STMC2;YASC2,True,False
 YNHG1,Tugalo River at YONAH DAM,2,HRTG1;TUGG1,True,False
 YNNS2,James River near Yankton,1,SCOS2,True,False
 YNTC1,Redwood Creek (Napa County) at Mt Veeder Road,0,,True,False
