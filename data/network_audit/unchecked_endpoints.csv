@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-WIVF1,Withlacoochee River at Inverness (in NAVD88),2,HLDF1;RUTF1,True,False
-WIWC1,Willow Creek (Russian River) near 3rd Bridge,0,,True,False
-WJCT2,Williamson Creek at Jimmy Clay Road near Austin 6SE,0,,True,False
-WKAO3,Williamson River near Klamath Agency,0,,True,False
-WKAS2,Vermillion River near Wakonda,2,DVSS2;VERS2,True,False
-WKCK1,Wildcat Creek at Keats,1,MWCK1,True,False
-WKEC1,Walker Creek (Marin) near Marshall,0,,True,False
-WKEF1,Wulfert Keys Power line Sanibel (In MHHW),0,,True,False
-WKEW3,Fox River at Waukesha,2,RSRW3;WADW3,True,False
-WKGH1,Waiakeakua Stream at Honolulu,0,,True,False
-WKGR1,Chipuxet River at West Kingston,0,,True,False
-WKLF1,Wakulla River at Wakulla Springs State Park (in NAVD88),0,,True,False
-WKLK2,Mississippi River above Wickliffe,3,BDPM7;CIRI2;HKMK2,True,False
-WKLN7,Winkler Creek at Meadowview Drive in Boone,0,,True,False
-WKLT2,Williamson Creek at Oak Hill,0,,True,False
-WKLW3,Kickapoo River near Wilton,0,,True,False
-WKNH1,Waikane Stream at Waikane,0,,True,False
-WKPA3,Big Sandy River (AZ) near Wikieup,1,BCBA3,True,False
-WKPS2,Oak Creek near Wakpala,0,,True,False
-WKQA1,Fish River (AL) above WEEKS BAY WATER,0,,True,False
-WKRC2,Willow Creek above Taylor Park Reservoir Colorado,0,,True,False
-WKRF1,Wakulla River near Wakulla Springs State Park (in NGVD29),0,,True,False
-WKSH1,Waikele Stream near Waipahu,0,,True,False
-WKSN7,Yadkin River at Wilkesboro,2,ELKN7;PATN7,True,False
-WKWA3,Weekes Wash at Apache Junction,0,,True,False
 WLAC1,West Little Llagas Creek below Edmundson,0,,True,False
 WLAF1,Little Charlie Creek at Mouth Near Wauchula,0,,True,False
 WLAO3,South Yamhill River near Willamina,2,MCMO3;WAWO3,True,False
@@ -111,7 +86,7 @@ WMSH1,Waikamoi Stream above Kailua,0,,True,False
 WMSM4,Red Cedar River near Williamston,1,ELNM4,True,False
 WMSM8,Silver Bow Creek at Warm Springs MT,0,,True,False
 WMSO1,Deer Creek at Williamsport,1,DCRO1,True,False
-WMSO3,Williamson River below Chiloquin,0,,True,False
+WMSO3,Williamson River below Chiloquin,1,WKAO3,True,False
 WMWN7,White Marsh at U.S. 74 near Whiteville,0,,True,False
 WMYF1,Cow Pen Slough at WM-49,1,KGAF1,True,False
 WNAC2,South Platte River near Weldona,2,FOMC2;KERC2,True,False
