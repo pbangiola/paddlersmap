@@ -1,11 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
-SHLO1,Black Fork Mohican River at Shelby,1,CHOO1,True,False
-SHLT2,San Jacinto River near Sheldon,1,HSJT2,True,False
-SHLV2,South Fork Holston River at Riverside nr Chilhowie,1,VSTV2,True,False
-SHNI4,East Nishnabotna River near Shenandoah (IFC),1,COBI4,True,False
-SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
-SHPP1,Shenango River at Shenango Dam Pool,1,SHDP1,True,False
 SHVT1,Duck River near Shelbyville,1,COLT1,True,False
 SHWN8,Souris River near Sherwood,1,DARN8,True,False
 SIDM8,Yellowstone River near Sidney,1,GLNM8,True,False

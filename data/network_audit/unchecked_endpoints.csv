@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-SHLI1,Blackfoot River near Shelley (Wolverine Canyon),2,BKHI1;BLFI1,True,False
-SHLI2,Little Calumet River at South Holland,2,LCMI3;THNI2,True,False
-SHLI3,East Fork White River at Shoals,2,PETI3;WLLI3,True,False
-SHLI4,Floyd River at Sheldon,1,ALTI4,True,False
-SHLM8,Marias River near Shelby,2,SFTM8;TBRM8,True,False
-SHLO1,Black Fork Mohican River at Shelby,1,CHOO1,True,False
-SHLO2,South Deer Creek Tributary at Shawnee Rerservoir near Shawnee,0,,True,False
-SHLT2,San Jacinto River near Sheldon,1,HSJT2,True,False
-SHLV2,South Fork Holston River at Riverside nr Chilhowie,1,VSTV2,True,False
-SHNF1,Tide Gauge at Shamrock Park & Nature Center (In MHHW),0,,True,False
-SHNI2,Ohio River at Shawneetown,3,GOLI2;NHRI3;UNWK2,True,False
-SHNI4,East Nishnabotna River near Shenandoah (IFC),1,COBI4,True,False
-SHNO3,Columbia River at St. Helens,3,KLMW1;PRTO3;VAPW1,True,False
-SHNP1,Oswayo Creek at Shinglehouse,0,,True,False
-SHOG1,Shoal Creek at Columbia Drive near Atlanta,0,,True,False
-SHOP1,Bush Kill at Shoemakers,0,,True,False
-SHOW4,Shoshone River below Buffalo Bill Reservior,1,BBRW4,True,False
-SHPF1,Tide Station at Shell Point Canal (In MHHW),0,,True,False
-SHPG1,Shoal Creek at GA 54 near Sharpsburg,0,,True,False
-SHPK2,Salt River (KY) at Shepherdsville,4,BRCK2;MWTK2;TVLK2;WPTK2,True,False
-SHPM2,School House Pond at Upper Marlboro,0,,True,False
-SHPN7,Contentnea Creek at Sheppard Ferry,0,,True,False
-SHPP1,Shenango River at Shenango Dam Pool,1,SHDP1,True,False
-SHRC2,Bear Creek (CO) at Sheridan,2,BCDC2;DNVC2,True,False
-SHRI4,Shell Rock River at Shell Rock,3,CEDI4;CLRI4;MRBI4,True,False
 SHRM4,Manistee River near Sherman,2,GYMM4;MSKM4,True,False
 SHRN5,San Juan River at Shiprock,0,,True,False
 SHRP1,Allegheny River at Sharpsburg Lock and Dam,2,ACMP1;PTTP1,True,False
