@@ -4282,11 +4282,12 @@
         "source_url": "https://www.openstreetmap.org/node/9742414368",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -32760,11 +32761,12 @@
         "source_url": "https://www.openstreetmap.org/node/14049128151",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -36413,6 +36415,56 @@
         "name": "The Landings of Covenant Cove",
         "source": "OpenStreetMap",
         "source_url": "https://www.openstreetmap.org/node/1633250820",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.07206380000001,
+          42.252019136363636
+        ]
+      },
+      "properties": {
+        "id": "osm-way-230877146",
+        "name": "Prairie Landings Court",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/230877146",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.08347112,
+          42.1995128
+        ]
+      },
+      "properties": {
+        "id": "osm-way-1226879489",
+        "name": "Landings of Lake Zurich",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/1226879489",
         "verification": "candidate_review",
         "access": "unknown",
         "waterway": null,
