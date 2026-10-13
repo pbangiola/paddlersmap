@@ -1,0 +1,164 @@
+[
+  {
+    "url": "https://maps.water.noaa.gov/server/rest/services/reference/static_nwm_flowlines/FeatureServer/0",
+    "fields": [
+      {
+        "name": "feature_id",
+        "alias": "NWM Feature ID",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "name",
+        "alias": "Name",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "strm_order",
+        "alias": "Stream Order",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "huc6",
+        "alias": "USGS HUC6",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "nwm_vers",
+        "alias": "NWM Version",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "high_water_threshold",
+        "alias": "High Water Threshold (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "rf_50_0_17c",
+        "alias": "2% Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "rf_25_0_17c",
+        "alias": "4% Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "rf_10_0_17c",
+        "alias": "10% Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "rf_5_0_17c",
+        "alias": "20% Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "rf_2_0_17c",
+        "alias": "50% Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "oid",
+        "alias": "oid",
+        "type": "esriFieldTypeOID"
+      }
+    ],
+    "maxRecordCount": 2000
+  },
+  {
+    "url": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0",
+    "fields": [
+      {
+        "name": "feature_id",
+        "alias": "NWM Feature ID",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "name",
+        "alias": "Name",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "strm_order",
+        "alias": "Stream Order",
+        "type": "esriFieldTypeSmallInteger"
+      },
+      {
+        "name": "huc6",
+        "alias": "USGS HUC6",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "nwm_vers",
+        "alias": "NWM Version",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "reference_time",
+        "alias": "Reference Time",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "valid_time",
+        "alias": "Valid Time",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "average_flow_7day",
+        "alias": "7-Day Average Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "latest_flow",
+        "alias": "Latest Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "anom_cat_7day",
+        "alias": "Current Anomaly Category",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "prcntle_95",
+        "alias": "95th Percentile Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "prcntle_90",
+        "alias": "90th Percentile Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "prcntle_75",
+        "alias": "75th Percentile Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "prcntle_25",
+        "alias": "25th Percentile Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "prcntle_10",
+        "alias": "10th Percentile Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "prcntle_5",
+        "alias": "5th Percentile Streamflow (cfs)",
+        "type": "esriFieldTypeDouble"
+      },
+      {
+        "name": "update_time",
+        "alias": "Update Time",
+        "type": "esriFieldTypeString"
+      },
+      {
+        "name": "oid",
+        "alias": "oid",
+        "type": "esriFieldTypeOID"
+      }
+    ],
+    "maxRecordCount": 2000
+  }
+]

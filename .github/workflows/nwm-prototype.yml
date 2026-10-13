@@ -1,0 +1,25 @@
+name: NWM prototype tests
+on:
+  pull_request:
+    paths:
+      - 'web/nwm/**'
+      - 'scripts/nwm/**'
+      - 'scripts/test_nwm_retrieve.py'
+      - 'nwm-prototype.html'
+      - '.github/workflows/nwm-prototype.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt -r requirements-offline.txt -r requirements-watershed.txt pyproj numpy ijson
+      - run: node --test web/nwm/scale.test.mjs
+      - run: python -m unittest discover -s scripts -p 'test_*.py' -v
