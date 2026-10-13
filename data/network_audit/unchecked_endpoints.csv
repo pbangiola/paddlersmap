@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
-NRBS1,North Rabon Creek near Hickory Tavern,0,,True,False
-NRCA2,Niukluk River above Melsing Creek at Council,0,,True,False
-NRCN1,North Fork Elkhorn River at Norfolk,0,,True,False
-NRCO2,Canadian River at Norman,2,PRCO2;TUCO2,True,False
-NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
-NRDA2,Nuyakuk River near Dillingham,0,,True,False
-NREW1,Nooksack River at Everson,2,NKSW1;NRKW1,True,False
-NREX1,Experimental Everson,0,,True,False
-NRFA3,New River Maricopa near New River,0,,True,False
-NRFF1,New River at Riverwalk Fort Lauderdale (in MHHW),0,,True,False
-NRFM5,Cannon River at Northfield,4,CFLM5;FRBM5;FRLM5;WLCM5,True,False
-NRGC1,Coyote Creek near Gilroy,0,,True,False
-NRGN1,Niobrara River near Gordon 11S,2,NRHN1;NZNN1,True,False
-NRHF1,Nassau River at US-17 (in MHHW),0,,True,False
-NRHN1,Niobrara River near Hay Springs 14S,2,BOXN1;NRGN1,True,False
-NRHS1,New River near Hardeeville (IN MLLW),0,,True,False
-NRKW1,Nooksack River at North Cedarvillle,4,MFNW1;NFNW1;NREW1;NSSW1,True,False
-NRMO2,Little River (OK) at Lake Thunderbird,1,NLRO2,True,False
-NRMT1,Duck River at Normandy Dam,0,,True,False
-NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
-NRNV2,Nottoway River at Nottoway Falls Reservoir,1,RAWV2,True,False
-NROV2,N. F. Roanoke River near Ellett,0,,True,False
-NRRA3,Cline Creek near New River,0,,True,False
-NRSF1,New River Sound near East Las Olas Blvd (in MHHW),0,,True,False
 NRSI4,Shell Rock River near Nora Springs 277th St--IFC,2,MANI4;RKFI4,True,False
 NRSL1,Amite River Basin at New River Canal near Sorrento,0,,True,False
 NRSP1,Schuylkill River at Norristown,2,PADP1;PTNP1,True,False
@@ -3858,7 +3833,7 @@ VQIC1,Los Gatos Creek above Vasona Reservoir,2,LGLC1;LRKC1,True,False
 VRBA1,Coosa River at Mitchell Dam,2,CLTA1;WPKA1,True,False
 VRBU1,Virgin River near Bloomington,0,,True,False
 VRCS2,Vermillion River near Chancellor,3,DVSS2;PKRS2;VRPS2,True,False
-VRDN1,Niobrara River near Verdel,3,NSBN1;SPCN1;SPKN1,True,False
+VRDN1,Niobrara River near Verdel,4,NIBN1;NSBN1;SPCN1;SPKN1,True,False
 VRGM8,Missouri River at Virgelle,3,FBNM8;LDKM8;LTRM8,True,False
 VRIL1,Vermilion River above I-10 at Lafayette,0,,True,False
 VRLL1,Vermilion River at Lake Martin Road,2,BVCL1;VLSL1,True,False

@@ -1,9 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-NRBN1,Niobrara River at Niobrara,1,NSBN1,True,False
-NRCT1,Richland Creek at Charlotte Avenue in Nashville,1,BMDT1,True,False
-NRMO2,Little River (OK) at Lake Thunderbird,1,NLRO2,True,False
-NRNO3,Nehalem River at Nehalem,1,JWNO3,True,False
-NRNV2,Nottoway River at Nottoway Falls Reservoir,1,RAWV2,True,False
 NRSV2,Nansemond River at Sleepy Hole Park (IN MLLW),1,NMDV2,True,False
 NRVT1,New River near New River,1,LTWT1,True,False
 NRWC1,Santa Ynez River at Narrows,1,LLYC1,True,False
