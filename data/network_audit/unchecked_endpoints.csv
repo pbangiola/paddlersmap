@@ -1,29 +1,4 @@
 noaa_lid,name,partner_count,partner_ids,in_pending_queue,checked
-OWYO3,Owyhee River at Owyhee Dam,1,ROMO3,True,False
-OXDM6,Yocona River near Oxford,1,ENDM6,True,False
-OXDT2,Sandy Creek near Willow City,0,,True,False
-OXFI4,Clear Creek (IA) near Oxford,1,CRAI4,True,False
-OXFK1,Arkansas River at Oxford,2,ARCK1;MULK1,True,False
-OXFN7,Catawba River at Lake Hickory/Oxford Dam,2,LKSN7;RHON7,True,False
-OXJI4,Wapsipinicon River at Oxford Mills,2,ANSI4;DEWI4,True,False
-OYEI4,Willow Creek (NW IA) near Oyens,0,,True,False
-OYSN3,Oyster River near Durham,0,,True,False
-OYTC1,Arroyo Tapo,0,,True,False
-OZCN1,North Fork Elkhorn River near Osmond,0,,True,False
-OZGA4,Arkansas River at Ozark L/D Tailwater,2,DARA4;VBUA4,True,False
-PABC1,Adobe Creek at Sartori Drive,0,,True,False
-PABN4,Arthur Kill at Perth Amboy (IN MLLW),0,,True,False
-PACF1,Tide Station at Panama City Marina (in MHHW),1,BRUF1,True,False
-PACG1,Parks Creek at Lyle Field Road near Jefferson,0,,True,False
-PACI1,Paradise Creek at HWY8 Near Moscow,0,,True,False
-PACS2,Pactola Reservoir,2,RCBS2;RSIS2,True,False
-PACT2,Tide Gauge at Packery Channel,0,,True,False
-PACW1,Cowlitz River at Packwood,1,RAWW1,True,False
-PACW4,Pacific Creek near Moran,0,,True,False
-PADF1,Parker City Pier at Dupont Bridge (in MHHW),0,,True,False
-PADP1,Schuylkill River at Philadelphia,2,NRSP1;PHDP1,True,False
-PAGH1,Paauau Gulch near Pahala,0,,True,False
-PAHC1,Pacheco Reservoir above Pacheco Reservoir,0,,True,False
 PAHI1,Pahsimeroi River at Ellis,0,,True,False
 PAHK2,Ohio River at Paducah,4,BIGT1;KYDK2;OLMI2;SMLI2,True,False
 PAHS2,Keyapaha River near Keyapaha,3,ANTS2;HTBS2;WEWS2,True,False
