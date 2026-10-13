@@ -28,11 +28,14 @@ def feature(el,retrieved):
         'point_method':'original node' if el['type']=='node' else 'Overpass bounding-box center',
         'original_osm_element':el,'verification':'unverified'}}
 def reconcile(osm,curated,verified=(),max_m=40):
-    unique={};groups=[];ambiguous=[]
+    unique={};groups=[];ambiguous=[];coordinate_changes=[]
     for f in curated+osm:
         sid=f['properties']['id']
         if sid in unique:
-            if unique[sid]['geometry']!=f['geometry']:raise ValueError('Conflicting geometry for stable source ID '+sid)
+            unique[sid]['properties'].setdefault('stable_id_versions',[]).append(copy.deepcopy(f))
+            if unique[sid]['geometry']!=f['geometry']:
+                coordinate_changes.append({'id':sid,'kept_geometry':unique[sid]['geometry'],'alternate_geometry':f['geometry'],'decision':'Retain original primary coordinates; review source update'})
+                unique[sid]['properties']['source_coordinate_review_required']=True
             continue
         unique[sid]=copy.deepcopy(f)
     curated_ids={f['properties']['id'] for f in curated};result=[unique[sid] for sid in unique if sid in curated_ids]
@@ -58,9 +61,11 @@ def reconcile(osm,curated,verified=(),max_m=40):
             if near:ambiguous.append({'ids':[sid]+[c['properties']['id'] for c in near],'reason':'Proximity or ambiguous name is insufficient'})
             result.append(f)
     return result,{'osm_input':len(osm),'curated_input':len(curated),'stable_unique':len(unique),'output':len(result),
-        'duplicate_groups':groups,'ambiguous_groups':ambiguous,'preserved_curated_ids':sorted(curated_ids),'distance_threshold_m':max_m}
+        'duplicate_groups':groups,'ambiguous_groups':ambiguous,'stable_id_coordinate_changes':coordinate_changes,'preserved_curated_ids':sorted(curated_ids),'distance_threshold_m':max_m}
 def publish(source,curated,output,report,legacy_count,verified=(),max_m=40,legacy_ids=None):
     if source.get('metadata',{}).get('complete') is not True:raise ValueError('Incomplete retrieval; active dataset untouched')
+    coverage=source['metadata'].get('coverage',{})
+    if any(not isinstance(cell,dict) or cell.get('complete') is not True for cell in coverage.values()):raise ValueError('Incomplete coverage; active dataset untouched')
     if not source.get('features'):raise ValueError('Empty national OSM inventory; active dataset untouched')
     if any('canoe launch' not in f.get('properties',{}).get('name','').casefold() for f in source['features']):raise ValueError('OSM source contains out-of-scope records')
     fs,r=reconcile(source['features'],curated,verified,max_m);r.update({'coverage':source['metadata'],'legacy_records_removed':len(set(legacy_ids)-{f['properties']['id'] for f in fs}) if legacy_ids is not None else legacy_count,
@@ -84,10 +89,21 @@ def fetch_cell(bbox,endpoint=ENDPOINT):
             try:delay=float(retry) if retry is not None else 2**attempt*2
             except ValueError:delay=2**attempt*2
             time.sleep(max(0,min(60,delay)))
+def curated_inputs(root=Path('.')):
+    curated=[]
+    for name in ['regional_launches.geojson','putins.geojson']:
+        curated+=json.loads((root/'data'/name).read_text())['features']
+    verified=set(json.loads((root/'data/verified_launches.json').read_text()).get('verified_ids',[]))
+    present={f['properties']['id'] for f in curated}
+    for original in json.loads((root/'data/putins_osm_candidates.geojson').read_text())['features']:
+        if original['properties']['id'] in verified and original['properties']['id'] not in present:
+            f=copy.deepcopy(original);f['properties']['curation_source']='Explicit reviewed ID in data/verified_launches.json';curated.append(f);present.add(f['properties']['id'])
+    return curated,sorted(verified-present)
+
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source',type=Path);p.add_argument('--retrieve',action='store_true');p.add_argument('--provider',choices=PROVIDERS,default='de');p.add_argument('--checkpoint',type=Path,default=Path('local/output/canonical-launches'));p.add_argument('--output',type=Path,default=Path('web/nwm/launches/canonical.geojson'));p.add_argument('--report',type=Path,default=Path('docs/nwm/launch-reconciliation.json'));p.add_argument('--max-m',type=float,default=40);a=p.parse_args()
-    curated=[]
-    for name in ['regional_launches.geojson','putins.geojson']:curated+=json.loads((Path('data')/name).read_text())['features']
+    curated,missing_verified=curated_inputs()
+    if missing_verified:raise SystemExit('Reviewed identities lack original coordinates: '+', '.join(missing_verified))
     registry=json.loads(Path('data/verified_launches.json').read_text()).get('verified_ids',[])
     legacy_features=json.loads(Path('data/putins_consolidated.geojson').read_text())['features'];legacy=len(legacy_features)
     if a.retrieve:

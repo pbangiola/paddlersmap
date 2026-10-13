@@ -1,8 +1,8 @@
 {
   "osm_input": 0,
-  "curated_input": 89,
-  "stable_unique": 89,
-  "output": 89,
+  "curated_input": 101,
+  "stable_unique": 101,
+  "output": 101,
   "duplicate_groups": [],
   "ambiguous_groups": [],
   "preserved_curated_ids": [
@@ -20,6 +20,18 @@
     "kml-037",
     "kml-039",
     "kml-047",
+    "osm-node-12096138040",
+    "osm-node-12099691982",
+    "osm-node-12107026033",
+    "osm-node-12175378118",
+    "osm-node-12364765067",
+    "osm-node-12396073908",
+    "osm-node-12396353833",
+    "osm-node-1887768201",
+    "osm-node-4330284526",
+    "osm-node-4346138933",
+    "osm-node-4532869181",
+    "osm-node-802883669",
     "regional-001",
     "regional-002",
     "regional-003",
@@ -99,23 +111,19 @@
   "distance_threshold_m": 40,
   "coverage": {
     "complete": false,
-    "source": "Explicit owner regional CSV and resolved Google catalogue records only",
+    "source": "75 regional CSV records, 14 resolved Google catalogue records, 12 explicitly reviewed OSM identities",
     "filter": "OSM primary name contains literal canoe launch, case insensitive",
     "national_osm_status": "unavailable",
     "failures": [
       "No complete national snapshot exists in main; latest national import workflows failed/cancelled.",
       "Overpass private.coffee timed out for national and Chicago queries; nchc proxy denied; overpass-api.de returned HTTP504 and HTTP406."
     ],
-    "territories": "Retrieval command covers Puerto Rico/USVI, Guam/CNMI, American Samoa; uninhabited US Minor Outlying Islands excluded.",
+    "territories": "US/PR/VI/GU/MP/AS area union; US Minor Outlying Islands not comprehensively covered.",
     "point_method": "Curated coordinates unchanged. OSM nodes original coordinate; ways/relations bounding-box center with raw geometry retained."
   },
   "legacy_input_count": 1553,
-  "legacy_records_removed": 1478,
+  "legacy_records_removed": 1466,
   "verified_ids_preserved": [
-    "regional-027",
-    "regional-061"
-  ],
-  "verified_ids_excluded_pending_review": [
     "osm-node-12096138040",
     "osm-node-12099691982",
     "osm-node-12107026033",
@@ -127,8 +135,11 @@
     "osm-node-4330284526",
     "osm-node-4346138933",
     "osm-node-4532869181",
-    "osm-node-802883669"
+    "osm-node-802883669",
+    "regional-027",
+    "regional-061"
   ],
+  "verified_ids_excluded_pending_review": [],
   "curated_unresolved_catalogue": [
     {
       "id": "kml-001",
@@ -310,5 +321,523 @@
       "name": "Stony Ford Canoe Landing",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Stony%20Ford%20Canoe%20Landing"
     }
-  ]
+  ],
+  "partial_source_retrieval": {
+    "complete": false,
+    "invalid_records": [],
+    "coverage": {
+      "conus-0-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:54:21Z",
+        "retrieved_at": "2026-10-13T13:56:32.865999+00:00"
+      },
+      "conus-0-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:55:21Z",
+        "retrieved_at": "2026-10-13T13:58:11.301519+00:00"
+      },
+      "conus-0-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:56:21Z",
+        "retrieved_at": "2026-10-13T13:59:34.023376+00:00"
+      },
+      "conus-1-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:07:36Z",
+        "retrieved_at": "2026-10-13T14:09:57.075167+00:00"
+      },
+      "conus-1-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:08:35Z",
+        "retrieved_at": "2026-10-13T14:11:22.978882+00:00"
+      },
+      "conus-1-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:09:36Z",
+        "retrieved_at": "2026-10-13T14:12:33.762786+00:00"
+      },
+      "conus-2-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:11:35Z",
+        "retrieved_at": "2026-10-13T14:13:57.986524+00:00"
+      },
+      "conus-2-1": {
+        "complete": false,
+        "error": "HTTP Error 504: Gateway Timeout"
+      },
+      "conus-2-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:12:41Z",
+        "retrieved_at": "2026-10-13T14:15:35.161463+00:00"
+      },
+      "conus-3-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:13:44Z",
+        "retrieved_at": "2026-10-13T14:16:44.829639+00:00"
+      },
+      "conus-3-1": {
+        "complete": false,
+        "error": "HTTP Error 504: Gateway Timeout"
+      },
+      "conus-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "puerto-rico-usvi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "guam-cnmi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "american-samoa-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      }
+    },
+    "domains": {
+      "conus": [
+        -125,
+        24,
+        -66,
+        50
+      ],
+      "alaska-west": [
+        -180,
+        50,
+        -129,
+        72
+      ],
+      "alaska-east": [
+        172,
+        50,
+        180,
+        72
+      ],
+      "hawaii": [
+        -179,
+        18,
+        -154,
+        29
+      ],
+      "puerto-rico-usvi": [
+        -68.1,
+        17.6,
+        -64.4,
+        18.6
+      ],
+      "guam-cnmi": [
+        144,
+        13,
+        146.5,
+        21
+      ],
+      "american-samoa": [
+        -172,
+        -15,
+        -168,
+        -10
+      ]
+    },
+    "retrieved_at": "2026-10-13T14:08:47.476979+00:00",
+    "filter": "primary name case-insensitive literal canoe launch",
+    "attribution": "\u00a9 OpenStreetMap contributors",
+    "review_run": "https://github.com/pbangiola/paddlersmap/actions/runs/38410739041",
+    "retrieved_source_records": 21,
+    "completed_cells": 9,
+    "total_cells": 48
+  },
+  "alternate_provider_retrieval": {
+    "complete": false,
+    "invalid_records": [],
+    "coverage": {
+      "conus-0-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:54:21Z",
+        "retrieved_at": "2026-10-13T13:56:32.865999+00:00"
+      },
+      "conus-0-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:55:21Z",
+        "retrieved_at": "2026-10-13T13:58:11.301519+00:00"
+      },
+      "conus-0-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T13:56:21Z",
+        "retrieved_at": "2026-10-13T13:59:34.023376+00:00"
+      },
+      "conus-1-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:07:36Z",
+        "retrieved_at": "2026-10-13T14:09:57.075167+00:00"
+      },
+      "conus-1-1": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:08:35Z",
+        "retrieved_at": "2026-10-13T14:11:22.978882+00:00"
+      },
+      "conus-1-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:09:36Z",
+        "retrieved_at": "2026-10-13T14:12:33.762786+00:00"
+      },
+      "conus-2-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:11:35Z",
+        "retrieved_at": "2026-10-13T14:13:57.986524+00:00"
+      },
+      "conus-2-1": {
+        "complete": false,
+        "error": "The read operation timed out"
+      },
+      "conus-2-2": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:12:41Z",
+        "retrieved_at": "2026-10-13T14:15:35.161463+00:00"
+      },
+      "conus-3-0": {
+        "complete": true,
+        "osm_timestamp": "2026-10-13T14:13:44Z",
+        "retrieved_at": "2026-10-13T14:16:44.829639+00:00"
+      },
+      "conus-3-1": {
+        "complete": false,
+        "error": "The read operation timed out"
+      },
+      "conus-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "conus-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-1-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-2-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-3-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-4-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-west-5-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "alaska-east-0-2": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-0-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-1-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "hawaii-2-1": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "puerto-rico-usvi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "guam-cnmi-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      },
+      "american-samoa-0-0": {
+        "complete": false,
+        "error": "Deferred after two source failures; resume later"
+      }
+    },
+    "domains": {
+      "conus": [
+        -125,
+        24,
+        -66,
+        50
+      ],
+      "alaska-west": [
+        -180,
+        50,
+        -129,
+        72
+      ],
+      "alaska-east": [
+        172,
+        50,
+        180,
+        72
+      ],
+      "hawaii": [
+        -179,
+        18,
+        -154,
+        29
+      ],
+      "puerto-rico-usvi": [
+        -68.1,
+        17.6,
+        -64.4,
+        18.6
+      ],
+      "guam-cnmi": [
+        144,
+        13,
+        146.5,
+        21
+      ],
+      "american-samoa": [
+        -172,
+        -15,
+        -168,
+        -10
+      ]
+    },
+    "retrieved_at": "2026-10-13T14:31:33.215519+00:00",
+    "filter": "primary name case-insensitive literal canoe launch",
+    "attribution": "\u00a9 OpenStreetMap contributors",
+    "area_scope": "US|PR|VI|GU|MP|AS administrative-area union",
+    "minor_outlying_islands": "Not comprehensively covered; records inside listed bounding boxes may be included",
+    "review_run": "https://github.com/pbangiola/paddlersmap/actions/runs/38414020073",
+    "retrieved_source_records": 21,
+    "completed_cells": 9,
+    "total_cells": 48
+  }
 }

@@ -29,6 +29,8 @@ async def main():
    canonical=json.loads((ROOT/'web/nwm/launches/canonical.geojson').read_text())['features']
    actual=await page.evaluate("m.getSource('launches').serialize().data.features.map(f=>[f.properties.id,f.geometry])")
    assert actual==[[f['properties']['id'],f['geometry']] for f in canonical]
+   verified=await page.evaluate("m.getSource('launches').serialize().data.features.filter(f=>f.properties.atlas_verified).map(f=>f.properties.id)")
+   registry=json.loads((ROOT/'data/verified_launches.json').read_text())['verified_ids'];assert set(verified)==set(registry)
    assert not await page.evaluate("!!m.getSource('nwm')")
    await page.locator('#launches').uncheck();await page.locator('#gauge-colors').uncheck()
    assert await page.evaluate("m.getLayoutProperty('launches','visibility')")=='none'
@@ -36,6 +38,7 @@ async def main():
     await page.evaluate('([xy,z])=>{m.jumpTo({center:xy,zoom:z});}',[xy,zoom]);await page.wait_for_timeout(6000)
     state=await page.evaluate("""async()=>{const {zoomPolicy}=await import('/web/nwm/policy.mjs');return {zoom:m.getZoom(),order:zoomPolicy(m.getZoom()).order,filters:['nwm-live','nwm-national-colors'].map(id=>m.getFilter(id)),liveCount:m.queryRenderedFeatures({layers:['nwm-live']}).length,overviewCount:m.queryRenderedFeatures({layers:['nwm-national-colors']}).length,liveStatus:document.querySelector('#live-status').textContent,activeGray:m.getStyle().layers.filter(l=>l.id.startsWith('national-')&&l.minzoom<=m.getZoom()&&l.maxzoom>m.getZoom()).map(l=>l.id)};}""")
     assert all(f[-1]==state['order'] for f in state['filters']);assert state['overviewCount']==0 or zoom<5
+    if zoom<5:assert state['overviewCount']>0
     assert all(id.endswith('-'+str(state['order'])) for id in state['activeGray'])
     assert await page.evaluate("m.getLayoutProperty('launches','visibility')")=='none'
     print('Validated view',name,state['liveStatus'],flush=True);await page.screenshot(timeout=90000,path=str(OUT/(name+'.png')));results.append({'view':name,**state})
@@ -72,7 +75,7 @@ async def main():
    assert await page.evaluate("m.getSource('nwm-live').serialize().data.features.length") ==0
    assert not any('/web/nwm/data/' in u for u in requests)
    assert not errors,errors
-   (OUT/'results.json').write_text(json.dumps({'views':results,'real_live_colored_reaches':colored,'console_warnings':warnings,'page_errors':errors,'external_failures':failures,'launch_count':len(canonical),'no_regional_dependency':True,'gauge_real_data_sections':0},indent=2)+'\n')
+   (OUT/'results.json').write_text(json.dumps({'views':results,'real_live_colored_reaches':colored,'console_warnings':warnings,'page_errors':errors,'external_failures':failures,'launch_count':len(canonical),'verified_launch_count':len(verified),'no_regional_dependency':True,'gauge_real_data_sections':0},indent=2)+'\n')
    print(json.dumps({'views':len(results),'page_errors':errors,'external_failures':len(failures),'launch_count':len(canonical)},indent=2))
   finally:
    await browser.close()

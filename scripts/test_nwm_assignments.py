@@ -54,3 +54,28 @@ class OsmGeometry(unittest.TestCase):
   f=feature(e,'now');self.assertAlmostEqual(f['geometry']['coordinates'][0],-122.7407153);self.assertEqual(f['properties']['original_osm_element'],e)
   e['type']='relation';self.assertIsNotNone(feature(e,'now'))
   e.pop('bounds');self.assertRaises(ValueError,feature,e,'now')
+
+class CoverageConsistency(unittest.TestCase):
+ def test_false_cell_cannot_be_overridden_by_top_level_complete_flag(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   out=Path(tmp)/'active';out.write_text('prior complete')
+   source={'metadata':{'complete':True,'coverage':{'alaska':{'complete':False}}},'features':[point('osm-node-1','Canoe Launch',[-150,60])]}
+   with self.assertRaises(ValueError):publish(source,[],out,Path(tmp)/'report',1)
+   self.assertEqual(out.read_text(),'prior complete')
+
+class CuratedProvenance(unittest.TestCase):
+ def test_only_reviewed_osm_whitelist_is_preserved_as_curated(self):
+  from nwm.launch_inventory import curated_inputs
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);(root/'data').mkdir()
+   for name in ['regional_launches.geojson','putins.geojson']:(root/'data'/name).write_text(json.dumps({'features':[]}))
+   (root/'data/verified_launches.json').write_text(json.dumps({'verified_ids':['osm-node-1']}))
+   original=point('osm-node-1','Owner-reviewed boat ramp',[-87,42]);other=point('osm-node-2','Unreviewed generic ramp',[-87,42])
+   (root/'data/putins_osm_candidates.geojson').write_text(json.dumps({'features':[original,other]}))
+   fs,missing=curated_inputs(root);self.assertEqual([f['properties']['id'] for f in fs],['osm-node-1']);self.assertEqual(fs[0]['geometry'],original['geometry']);self.assertEqual(missing,[])
+
+class StableIdentityUpdates(unittest.TestCase):
+ def test_same_id_keeps_curated_coordinates_and_updated_source_geometry(self):
+  owner=point('osm-node-1','Owner reviewed access',[-87,42]);latest=point('osm-node-1','Renamed Canoe Launch',[-87.001,42])
+  fs,r=reconcile([latest],[owner],['osm-node-1'])
+  self.assertEqual(len(fs),1);self.assertEqual(fs[0]['geometry'],owner['geometry']);self.assertEqual(fs[0]['properties']['stable_id_versions'][0]['geometry'],latest['geometry']);self.assertTrue(r['stable_id_coordinate_changes'])
