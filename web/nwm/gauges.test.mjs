@@ -14,7 +14,7 @@ test('shared density tier boundaries and width targets',()=>{
 });
 test('observed stage policy validates units, actual anchors and freshness',()=>{
  assert.equal(observedPosition(gauge,now),.2);
- for(const override of [{units:'m'},{low:null},{flood:0},{stage:NaN},{reference_source:null},{timestamp:'invalid'},{timestamp:'2026-10-10T12:00:00Z'},{timestamp:'2026-10-14T12:00:00Z'}])assert.equal(observedPosition({...gauge,...override},now),null);
+ for(const override of [{units:'m'},{low_units:'m'},{flood_units:'m'},{low:null},{flood:0},{stage:NaN},{reference_source:null},{timestamp:'invalid'},{timestamp:'2026-10-10T12:00:00Z'},{timestamp:'2026-10-14T12:00:00Z'}])assert.equal(observedPosition({...gauge,...override},now),null);
  assert.equal(observedPosition({...gauge,stage:0},now),0);
 });
 test('average normalized endpoints on matched actual reaches; toggles and invalid endpoint restore modeled colors',()=>{
@@ -28,4 +28,20 @@ test('average normalized endpoints on matched actual reaches; toggles and invali
  for(const [assignments,readings,enabled] of [[{sections:[section]},obs,false],[{sections:[section]},{...obs,down:{...obs.down,units:'cfs'}},true],[{sections:[{...section,confidence:'candidate'}]},obs,true],[{sections:[section,section]},obs,true]]){
   assert.equal(applyObserved(data,assignments,readings,enabled,now).features[1].properties.color,'#123456');
  }
+});
+
+// Recorded from NOAA and rendered by connections_smoke.py; fixed observation time keeps this reproducible.
+test('real Des Plaines bracket uses published IDs, unchanged geometry and actual endpoint numbers',async()=>{
+ const fs=await import('node:fs/promises');
+ const captured=JSON.parse(await fs.readFile(new URL('../../docs/nwm/connection-validation/browser.json',import.meta.url)));
+ const f=captured.feature,section=JSON.parse(f.properties.gauge_provenance);
+ const a=section.upstream_observation,b=section.downstream_observation;
+ const data={type:'FeatureCollection',features:[{...f,properties:captured.fallback}]};
+ const now=Math.max(Date.parse(a.timestamp),Date.parse(b.timestamp))+1000;
+ const result=applyObserved(data,{sections:[section]},{[a.id]:a,[b.id]:b},true,now);
+ assert.equal(a.id,'DSPI2');assert.equal(b.id,'DMPI2');
+ assert.equal(result.features[0].properties.observed_position,captured.expected_position);
+ assert.equal(result.features[0].properties.color,color(captured.expected_position));
+ assert.deepEqual(result.features[0].geometry,f.geometry);
+ assert.equal(applyObserved(data,{sections:[section]},{[a.id]:a,[b.id]:b},true,now+37*3600000).features[0].properties.color_source,'Modeled NWM');
 });

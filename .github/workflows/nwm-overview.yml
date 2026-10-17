@@ -1,0 +1,41 @@
+name: Refresh NWM national modeled colors
+on:
+  schedule:
+    - cron: '20 5 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: refresh-nwm-overview
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests
+      - uses: actions/cache@v4
+        with:
+          path: local/output/nwm-overview/**/geometry-*.geojson
+          key: nwm-overview-static-v1-${{ hashFiles('web/nwm/services.json') }}
+      - name: Refresh bounded order-7+ snapshot with separately cached geometry
+        run: python -u scripts/nwm/overview.py
+      - name: Commit prototype snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A web/nwm/overview
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh NWM national modeled colors"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            # GITHUB_TOKEN pushes do not trigger the Pages push workflow.
+            gh workflow run deploy-pages.yml --ref main
+          fi

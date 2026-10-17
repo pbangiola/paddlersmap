@@ -1,6 +1,8 @@
 # Prototype revision: coordinated rendering, observed sections, canonical launches
 
-This branch implements rendering and reproducible data pipelines for the supplied specification without merging or deploying it. Real observed routing and complete national OSM coverage remain subject to the source gaps below. The production homepage, broad legacy datasets, and verification registry remain unchanged. `nwm-prototype.html` now loads only its canonical launch dataset.
+**Historical October 13 implementation record:** the routing and units limitations described below were resolved for bounded verified paths in the subsequent connection update. See [current guide](README.md) and [connection validation](connection-validation/README.md). Launch limitations remain.
+
+This branch implemented rendering and reproducible data pipelines for the supplied specification without merging or deploying it. Real observed routing and complete national OSM coverage remain subject to the source gaps below. The production homepage, broad legacy datasets, and verification registry remain unchanged. `nwm-prototype.html` now loads only its canonical launch dataset.
 
 ## Rendering
 

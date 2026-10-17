@@ -116,7 +116,7 @@ export function attachLiveColors(map,onStatus,onData=()=>{},loader=loadCell){
     if(map.getZoom()<5){onStatus('National major-river snapshot. Zoom in for more flow colors.');return;}
     const b=map.getBounds();let cells;
     try{cells=cellsForBounds([b.getWest(),b.getSouth(),b.getEast(),b.getNorth()],map.getZoom());}catch(error){onStatus(error.message);return;}
-    if(!cells.length){onStatus('NOAA percentile anchors are unavailable for this region; river geometry remains gray.');return;}
+    if(!cells.length){onStatus('NOAA percentile anchors are unavailable for this region; only eligible observed sections can override gray geometry.');return;}
     const features=new Map(),dates=new Set();let next=0,completed=0,failed=0;
     onStatus('Loading NOAA flow colors for this view…');
     async function worker(){

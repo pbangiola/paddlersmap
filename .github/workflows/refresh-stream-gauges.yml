@@ -36,7 +36,7 @@ jobs:
           print(f'Validated {len(features)} gauge features')
           PY
       - name: Refresh prototype observations independently of topology
-        run: python scripts/nwm/gauge_assignments.py --observations-only
+        run: python scripts/nwm/connections.py --observations-only
       - name: Commit readings
         run: |
           git config user.name "github-actions[bot]"
