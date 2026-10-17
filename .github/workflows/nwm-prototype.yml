@@ -6,6 +6,9 @@ on:
       - 'scripts/nwm/**'
       - 'scripts/test_nwm_*.py'
       - '.github/workflows/named-canoe-launches.yml'
+      - '.github/workflows/nwm-observations.yml'
+      - '.github/workflows/nwm-overview.yml'
+      - 'docs/nwm/connection-validation/browser.json'
       - 'nwm-prototype.html'
       - '.github/workflows/nwm-prototype.yml'
 permissions:

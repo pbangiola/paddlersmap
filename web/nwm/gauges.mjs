@@ -3,6 +3,7 @@ export const MAX_AGE_HOURS=36; // Existing atlas report freshness policy.
 const numeric=v=>typeof v==='number'&&Number.isFinite(v);
 export function observedPosition(gauge,now=Date.now(),maxAgeHours=MAX_AGE_HOURS){
   if(!gauge||gauge.units!=='ft'||!gauge.reference_source)return null;
+  if((gauge.low_units!==undefined&&gauge.low_units!=='ft')||(gauge.flood_units!==undefined&&gauge.flood_units!=='ft'))return null;
   const {stage,low,flood,timestamp}=gauge;
   const time=Date.parse(timestamp),age=now-time;
   if(!numeric(stage)||!numeric(low)||!numeric(flood)||flood<=0||flood<=low||!Number.isFinite(time)||age<0||age>maxAgeHours*3600000)return null;

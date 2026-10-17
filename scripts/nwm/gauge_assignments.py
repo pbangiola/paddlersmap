@@ -65,7 +65,7 @@ def observations(root):
         for f in json.loads((root/'data'/filename).read_text())['features']:
             p=f['properties'];gid=str(p.get('noaa_lid') or p.get('site'))
             lo=p.get('low_water_stage_ft');ref='NOAA NWPS published low-water and flood-stage thresholds'
-            if lo is None:rec=minima.get(gid,{});lo=rec.get('minimum_ft') if rec.get('observed_adequate_75pct_distributed') or rec.get('daily_adequate_75pct_distributed') else None;ref='Repository stage_minima atlas and official flood stage'
+            if lo is None:rec=minima.get(str(p.get('site') or gid),{});lo=rec.get('minimum_ft') if rec.get('observed_adequate_75pct_distributed') or rec.get('daily_adequate_75pct_distributed') else None;ref='Repository stage_minima atlas and official flood stage'
             records[gid]={'id':gid,'name':p.get('name'),'stage':p.get('stage'),'timestamp':p.get('stage_time'),
                 'low':lo,'flood':p.get('flood_stage_ft') or flood.get(gid,{}).get('flood_stage_ft'),
                 'units':'ft' if filename=='gauges.geojson' else p.get('stage_units'),'reference_source':ref}
@@ -75,6 +75,13 @@ def observations(root):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--topology',type=Path);p.add_argument('--observations-only',action='store_true');p.add_argument('--output',type=Path,default=Path('web/nwm/gauges'));a=p.parse_args()
+    active=a.output/'assignments.json'
+    if not a.topology and active.exists() and json.loads(active.read_text()).get('sections'):
+        if a.observations_only:
+            try:from .connections import fetch_observations
+            except ImportError:from connections import fetch_observations
+            fetch_observations(a.output,Path('.'),Path('local/output/nwm-connections'));return
+        raise ValueError('Confirmed paths already exist; use connections.py to expand them, not an empty topology rebuild')
     obs,candidates=observations(Path('.'));a.output.mkdir(parents=True,exist_ok=True)
     if a.observations_only:
         atomic_obs=a.output/'observations.json';temp=atomic_obs.with_suffix('.tmp');temp.write_text(json.dumps(obs,separators=(',',':'))+'\n');temp.replace(atomic_obs);return

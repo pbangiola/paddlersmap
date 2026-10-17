@@ -1,0 +1,315 @@
+{
+  "validated_at": "2026-10-17T20:18:46.645Z",
+  "sections": 105,
+  "interior_reaches": 1193,
+  "eligible_sections": 41,
+  "eligible_reaches": 383,
+  "states": [
+    "AL",
+    "AR",
+    "CA",
+    "CO",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "NE",
+    "NJ",
+    "NM",
+    "NV",
+    "OH",
+    "OK",
+    "PA",
+    "PR",
+    "RI",
+    "SC",
+    "TX",
+    "UT",
+    "VA",
+    "WA",
+    "WI",
+    "WV"
+  ],
+  "eligible_states": [
+    "AL",
+    "AR",
+    "CA",
+    "FL",
+    "GA",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "MO",
+    "MS",
+    "NC",
+    "NE",
+    "NJ",
+    "PA",
+    "PR",
+    "SC",
+    "TX",
+    "WI"
+  ],
+  "endpoint_gauges": 201,
+  "refresh_errors": [],
+  "national_complete": false,
+  "verified_topology_nodes": 3257,
+  "new_requests_last_pass": 1500,
+  "coverage_errors": [
+    {
+      "reach": "17847166",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "18016548",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "18695555",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "19487272",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "19606859",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "2135274",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "21923547",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "21980833",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "2210456",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "22904555",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "23004249",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "23935813",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "23940193",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "23940601",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "24084388",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "24228191",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "24293526",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "2723145",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "3322526",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "371263",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "3728943",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "3750712",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "4035004",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "448428",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "6170702",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "618498",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "6369448",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "6395541",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "6712363",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "6713283",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "6713623",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "6731393",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "7517603",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "7551067",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "8209141",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "8547947",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "932040186",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "9415910",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "9613947",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "10294950",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "1049637",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "1152349",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "11617301",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "11833798",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "11834956",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "12745397",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "13852321",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "14190047",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "14642591",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "15182013",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "15285374",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "1530663",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "16812517",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "17038683",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "17219456",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "17246468",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "17324389",
+      "reason": "Request budget exhausted"
+    },
+    {
+      "reach": "7151284",
+      "reason": "Request budget exhausted"
+    }
+  ],
+  "overview": {
+    "noaa_update": "2026-10-17 00:50:22 UTC",
+    "reaches": 32209,
+    "valid_colors": 22703
+  },
+  "tests": {
+    "node": 15,
+    "python": 41
+  }
+}

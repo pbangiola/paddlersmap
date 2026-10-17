@@ -1,0 +1,386 @@
+{
+  "feature": {
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -87.890484,
+            42.076859
+          ],
+          [
+            -87.8903,
+            42.076471
+          ],
+          [
+            -87.889716,
+            42.075784
+          ],
+          [
+            -87.887966,
+            42.074343
+          ],
+          [
+            -87.887597,
+            42.073909
+          ],
+          [
+            -87.887444,
+            42.073703
+          ],
+          [
+            -87.887321,
+            42.073108
+          ],
+          [
+            -87.887658,
+            42.072285
+          ],
+          [
+            -87.887934,
+            42.071942
+          ],
+          [
+            -87.888825,
+            42.071278
+          ],
+          [
+            -87.89082,
+            42.070225
+          ],
+          [
+            -87.891066,
+            42.069997
+          ],
+          [
+            -87.890943,
+            42.069699
+          ],
+          [
+            -87.890666,
+            42.069494
+          ],
+          [
+            -87.8891,
+            42.069265
+          ],
+          [
+            -87.888517,
+            42.069105
+          ],
+          [
+            -87.887934,
+            42.068853
+          ],
+          [
+            -87.887442,
+            42.068213
+          ],
+          [
+            -87.88735,
+            42.067939
+          ],
+          [
+            -87.887196,
+            42.067778
+          ],
+          [
+            -87.887166,
+            42.066475
+          ],
+          [
+            -87.887227,
+            42.065354
+          ],
+          [
+            -87.88692,
+            42.064553
+          ],
+          [
+            -87.885476,
+            42.062403
+          ],
+          [
+            -87.884709,
+            42.061877
+          ],
+          [
+            -87.883481,
+            42.061214
+          ],
+          [
+            -87.882928,
+            42.060642
+          ],
+          [
+            -87.882529,
+            42.06007
+          ],
+          [
+            -87.882314,
+            42.059338
+          ],
+          [
+            -87.882314,
+            42.05856
+          ],
+          [
+            -87.882529,
+            42.058194
+          ],
+          [
+            -87.88305,
+            42.057783
+          ],
+          [
+            -87.883818,
+            42.057417
+          ],
+          [
+            -87.886427,
+            42.056913
+          ],
+          [
+            -87.887654,
+            42.056524
+          ],
+          [
+            -87.887746,
+            42.056433
+          ],
+          [
+            -87.887777,
+            42.056158
+          ],
+          [
+            -87.887439,
+            42.054694
+          ],
+          [
+            -87.887193,
+            42.054236
+          ],
+          [
+            -87.88704,
+            42.054076
+          ],
+          [
+            -87.88618,
+            42.053596
+          ],
+          [
+            -87.885137,
+            42.053436
+          ],
+          [
+            -87.884369,
+            42.053551
+          ],
+          [
+            -87.883479,
+            42.053985
+          ],
+          [
+            -87.882927,
+            42.054031
+          ],
+          [
+            -87.882374,
+            42.053711
+          ],
+          [
+            -87.882129,
+            42.053253
+          ],
+          [
+            -87.880962,
+            42.049891
+          ],
+          [
+            -87.88044,
+            42.049273
+          ],
+          [
+            -87.880041,
+            42.048976
+          ],
+          [
+            -87.879304,
+            42.048656
+          ],
+          [
+            -87.878138,
+            42.048381
+          ],
+          [
+            -87.877217,
+            42.048496
+          ],
+          [
+            -87.876235,
+            42.048747
+          ],
+          [
+            -87.873841,
+            42.049754
+          ],
+          [
+            -87.87332,
+            42.049754
+          ],
+          [
+            -87.873136,
+            42.049548
+          ],
+          [
+            -87.873135,
+            42.049251
+          ],
+          [
+            -87.873749,
+            42.048702
+          ],
+          [
+            -87.874854,
+            42.047855
+          ],
+          [
+            -87.877033,
+            42.046551
+          ],
+          [
+            -87.877892,
+            42.04559
+          ],
+          [
+            -87.878261,
+            42.044904
+          ],
+          [
+            -87.878598,
+            42.043943
+          ],
+          [
+            -87.87869,
+            42.0428
+          ],
+          [
+            -87.878352,
+            42.041656
+          ],
+          [
+            -87.878352,
+            42.040695
+          ],
+          [
+            -87.878444,
+            42.040192
+          ],
+          [
+            -87.878628,
+            42.039918
+          ],
+          [
+            -87.878935,
+            42.039803
+          ],
+          [
+            -87.881728,
+            42.039666
+          ],
+          [
+            -87.882127,
+            42.039574
+          ],
+          [
+            -87.882403,
+            42.039277
+          ],
+          [
+            -87.882618,
+            42.038888
+          ],
+          [
+            -87.882617,
+            42.038316
+          ],
+          [
+            -87.882525,
+            42.037813
+          ],
+          [
+            -87.882372,
+            42.037607
+          ],
+          [
+            -87.882341,
+            42.037264
+          ],
+          [
+            -87.882096,
+            42.036829
+          ],
+          [
+            -87.88185,
+            42.035891
+          ],
+          [
+            -87.881697,
+            42.035663
+          ],
+          [
+            -87.881574,
+            42.035182
+          ],
+          [
+            -87.880745,
+            42.03413
+          ],
+          [
+            -87.880039,
+            42.033512
+          ],
+          [
+            -87.879794,
+            42.033421
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "feature_id": "14784631",
+      "name": "Des Plaines River",
+      "order": 4,
+      "version": 3,
+      "flood": 4223.87,
+      "scale_position": null,
+      "color": "#2775c2",
+      "color_source": "Observed gauge-to-gauge",
+      "observed_position": 0.30033333333333334,
+      "gauge_provenance": "{\"upstream\":\"DSPI2\",\"downstream\":\"DMPI2\",\"reach_ids\":[\"14784631\"],\"confidence\":\"confirmed\",\"method\":\"explicit-id-directed-topology\",\"topology_source\":\"https://api.water.noaa.gov/nwps/v1/reaches/{reachId} route.downstream.reachId; https://api.water.noaa.gov/nwps/v1/docs/\",\"upstream_reach\":\"14784677\",\"downstream_reach\":\"14784647\",\"match_evidence\":[\"NOAA NWPS reachId in data/noaa_gauges.geojson\",\"NOAA NWPS reachId in data/noaa_gauges.geojson\"],\"upstream_observation\":{\"id\":\"DSPI2\",\"name\":\"Des Plaines River near Des Plaines\",\"stage\":9.38,\"timestamp\":\"2026-10-17T19:45:00Z\",\"units\":\"ft\",\"low\":7.5,\"flood\":15,\"reference_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DSPI2#lowThreshold\",\"low_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DSPI2#lowThreshold\",\"flood_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DSPI2#flood.categories.minor\",\"low_units\":\"ft\",\"flood_units\":\"ft\",\"source_url\":\"https://api.water.noaa.gov/nwps/v1/gauges/DSPI2\",\"usgs_id\":\"05529000\",\"reach_id\":\"14784677\",\"retrieved_at\":\"2026-10-17T20:18:13.199702+00:00\",\"position\":0.25066666666666676},\"downstream_observation\":{\"id\":\"DMPI2\",\"name\":\"Des Plaines River at Des Plaines (Algonquin Road)\",\"stage\":9.1,\"timestamp\":\"2026-10-17T19:00:00Z\",\"units\":\"ft\",\"low\":7,\"flood\":13,\"reference_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#lowThreshold\",\"low_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#lowThreshold\",\"flood_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#flood.categories.minor\",\"low_units\":\"ft\",\"flood_units\":\"ft\",\"source_url\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2\",\"usgs_id\":\"05530100\",\"reach_id\":\"14784647\",\"retrieved_at\":\"2026-10-17T20:18:13.033134+00:00\",\"position\":0.3499999999999999}}"
+    }
+  },
+  "expected_position": 0.30033333333333334,
+  "fallback": {
+    "feature_id": "14784631",
+    "name": "Des Plaines River",
+    "order": 4,
+    "version": 3,
+    "flood": 4223.87,
+    "scale_position": null,
+    "color": "#88929b",
+    "color_source": "Modeled NWM"
+  },
+  "popup": "Color source: Observed gauge-to-gauge\nNWM feature ID: 14784631\nObserved section position: 0.30033333333333334\nPath confidence: confirmed\nMethod: explicit-id-directed-topology\nCovered reach IDs: 14784631\nDes Plaines River near Des Plaines (DSPI2): 9.38 ft \u00b7 low 7.5 ft \u00b7 flood 15 ft \u00b7 position 0.25066666666666676 \u00b7 2026-10-17T19:45:00Z \u00b7 https://api.water.noaa.gov/nwps/v1/gauges/DSPI2#lowThreshold\nDes Plaines River at Des Plaines (Algonquin Road) (DMPI2): 9.1 ft \u00b7 low 7 ft \u00b7 flood 13 ft \u00b7 position 0.3499999999999999 \u00b7 2026-10-17T19:00:00Z \u00b7 https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#lowThreshold\nCurrent discharge: unavailable\nLow anchor: unavailable\nCentral anchor: unavailable\nUpper anchor: 4223.87 ft\u00b3/s\nModeled scale position: unavailable\nNOAA update: unavailable\n\u00d7",
+  "page_errors": [],
+  "external_failures": [],
+  "checks": [
+    "Actual NOAA geometry rendered",
+    "Mean of independently normalized endpoint stages",
+    "Clickable observed provenance",
+    "Toggle restores modeled colors with unchanged geometry",
+    "NOAA comparison hides custom lines",
+    "Launches above rivers"
+  ]
+}
