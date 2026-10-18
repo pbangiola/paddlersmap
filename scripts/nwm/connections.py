@@ -108,27 +108,35 @@ def parse_gauge(detail, expected_id, root=ROOT):
     minor = flood.get('categories', {}).get('minor') or {}
     upper = number(minor.get('stage')) if flood.get('stageUnits') == 'ft' else None
     # Explicit unit metadata for both stage and thresholds; never infer primaryUnit.
-    return {'id': expected_id, 'name': detail.get('name'), 'stage': number(status.get('primary')),
+    in_service = (detail.get('inService') or {}).get('enabled') is not False
+    return {'id': expected_id, 'name': detail.get('name'), 'stage': number(status.get('primary')) if in_service else None,
+            'in_service': in_service,
             'timestamp': status.get('validTime'), 'units': status.get('primaryUnit'),
             'low': lo, 'flood': upper, 'reference_source': low_source,
             'low_source': low_source, 'flood_source': BASE + '/gauges/' + expected_id + '#flood.categories.minor',
             'low_units': 'ft' if lo is not None else None, 'flood_units': flood.get('stageUnits'),
+            'coordinates': [number(detail.get('longitude')), number(detail.get('latitude'))],
             'source_url': BASE + '/gauges/' + expected_id, 'usgs_id': site,
             'reach_id': str(detail.get('reachId') or ''), 'retrieved_at': datetime.now(timezone.utc).isoformat()}
 
 
-def fetch_observations(out, root, cache, max_gauges=500):
+def fetch_observations(out, root, cache, max_gauges=500, cache_minutes=0):
     a = json.loads((out / 'assignments.json').read_text())
     ids = sorted({s[k] for s in a['sections'] for k in ('upstream', 'downstream')})
     if len(ids) > max_gauges:
         raise ValueError(f'Observation refresh exceeds {max_gauges}-gauge bound; explicitly increase --max-gauges for expanded coverage')
     existing = json.loads((out / 'observations.json').read_text()) if (out / 'observations.json').exists() else {'records': {}, 'max_age_hours': 36}
     existing['records'] = {gid: existing['records'][gid] for gid in ids if gid in existing['records']}
-    errors = []
+    errors = []; completed = 0
     def fetch(gid):
-        d = get('/gauges/' + gid)
+        checkpoint = cache / 'gauges' / (gid + '.json')
+        reuse = cache_minutes > 0 and checkpoint.exists() and 0 <= time.time()-checkpoint.stat().st_mtime < cache_minutes*60
+        d = json.loads(checkpoint.read_text()) if reuse else get('/gauges/' + gid)
         record = parse_gauge(d, gid, root)
-        write(cache / 'gauges' / (gid + '.json'), d)
+        if reuse:
+            record['retrieved_at'] = datetime.fromtimestamp(checkpoint.stat().st_mtime,timezone.utc).isoformat()
+        else:
+            write(checkpoint, d)
         return gid, record
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         futures = {pool.submit(fetch, gid): gid for gid in ids}
@@ -144,6 +152,8 @@ def fetch_observations(out, root, cache, max_gauges=500):
                 existing['records'][gid] = record
             except (OSError, ValueError, KeyError) as exc:
                 errors.append({'gauge': gid, 'error': str(exc)})
+            completed += 1
+            if completed % 100 == 0:print('Endpoint observations', completed, '/', len(ids), 'errors', len(errors), flush=True)
     # Retain prior successful readings on errors; their own timestamps still expire.
     existing.update({'refreshed_at': datetime.now(timezone.utc).isoformat(), 'refresh_errors': errors, 'requested_gauges': len(ids)})
     write(out / 'observations.json', existing)
@@ -175,13 +185,24 @@ def build(args):
     groups = {}
     for g in seeds:
         groups.setdefault(by_id[g['id']]['properties'].get('state') or '', []).append(g)
-    seeds = [g for i in range(max(map(len, groups.values()), default=0)) for state in sorted(groups) for g in groups[state][i:i+1]][:args.seed_limit]
+    all_seeds = [g for i in range(max(map(len, groups.values()), default=0)) for state in sorted(groups) for g in groups[state][i:i+1]]
+    seeds = all_seeds[getattr(args,'seed_offset',0):getattr(args,'seed_offset',0)+args.seed_limit]
     if not seeds:
         raise ValueError('No gauge seeds with real reference anchors in selection')
     gauge_reaches = {g['reach_id'] for g in candidates}
     reaches = {}; errors = []; requests = 0; pending = {g['reach_id'] for g in seeds}; seen = set()
     cache = args.cache / 'reaches'
+    previous = args.output / 'topology.json'
+    prior_nodes = {}
+    source = BASE + '/reaches/{reachId} route.downstream.reachId; ' + DOCS
+    if previous.exists():
+        prior = json.loads(previous.read_text())
+        if prior.get('source') != source or prior.get('method') != 'published-directed-nwm':
+            raise ValueError('Cannot combine topology from different sources')
+        prior_nodes = {rid: node for rid,node in prior['reaches'].items() if not node.get('endpoint_only')}
     def fetch(rid):
+        if rid in prior_nodes:
+            return rid, prior_nodes[rid]
         path = cache / (rid + '.json')
         if path.exists():
             raw = json.loads(path.read_text())
@@ -204,7 +225,7 @@ def build(args):
             pending = set()
             available = []
             for rid in batch:
-                if not (cache / (rid + '.json')).exists():
+                if rid not in prior_nodes and not (cache / (rid + '.json')).exists():
                     if requests >= args.max_requests:
                         errors.append({'reach': rid, 'reason': 'Request budget exhausted'}); continue
                     requests += 1
@@ -238,10 +259,13 @@ def build(args):
             if not node.get('endpoint_only') or rid not in combined:
                 combined[rid] = node
         topology['reaches'] = combined
+    previous_assignments = args.output / 'assignments.json'
+    previous_result = json.loads(previous_assignments.read_text()) if previous_assignments.exists() else {}
+    attempted = set(previous_result.get('attempted_seed_ids', previous_result.get('seed_ids', []))) | {g['id'] for g in seeds}
     result = assignments(topology, candidates)
-    result.update({'built_at': topology['retrieved_at'], 'candidate_count': len(candidates), 'seed_ids': [g['id'] for g in seeds],
+    result.update({'built_at': topology['retrieved_at'], 'candidate_count': len(candidates), 'attempted_seed_ids': sorted(attempted), 'seed_ids': [g['id'] for g in seeds],
                    'coverage': {'national_complete': False, 'states': args.states, 'bbox': args.bbox,
-                                'reaches_retrieved': len(reaches), 'total_verified_nodes': len(topology['reaches']), 'new_requests': requests, 'max_depth': args.max_depth, 'errors': errors},
+                                'reaches_retrieved': len(reaches), 'total_verified_nodes': len(topology['reaches']), 'new_requests': requests, 'seed_total': len(all_seeds), 'seed_offset': getattr(args,'seed_offset',0), 'max_depth': args.max_depth, 'errors': errors},
                    'limitation': 'Bounded verified NWPS paths only. Endpoint reaches, unbracketed tributaries, ambiguous paths and unavailable readings retain modeled colors.'})
     if not result['sections']:
         write(args.cache / 'last-routing-report.json', result)
@@ -251,7 +275,8 @@ def build(args):
     if not (args.output / 'observations.json').exists():
         write(args.output / 'observations.json', obs)
     print('Confirmed', len(result['sections']), 'sections;', sum(len(s['reach_ids']) for s in result['sections']), 'interior reaches', flush=True)
-    fetch_observations(args.output, args.root, args.cache, getattr(args, 'max_gauges', 500))
+    if not getattr(args, 'skip_observations', False):
+        fetch_observations(args.output, args.root, args.cache, getattr(args, 'max_gauges', 500), getattr(args, 'observation_cache_minutes', 0))
 
 
 def main():
@@ -261,13 +286,20 @@ def main():
     p.add_argument('--cache', type=Path, default=ROOT / 'local/output/nwm-connections')
     p.add_argument('--states', nargs='+')
     p.add_argument('--bbox', nargs=4, type=float)
+    p.add_argument('--seed-offset', type=int, default=0)
+    p.add_argument('--skip-observations', action='store_true')
     p.add_argument('--seed-limit', type=int, default=80)
     p.add_argument('--max-requests', type=int, default=1000)
     p.add_argument('--max-depth', type=int, default=100)
+    p.add_argument('--observation-cache-minutes', type=int, default=0)
     p.add_argument('--max-gauges', type=int, default=500)
     p.add_argument('--max-seconds', type=int, default=600)
     p.add_argument('--observations-only', action='store_true')
     args = p.parse_args()
+    if not 0 <= args.observation_cache_minutes <= 60:
+        p.error('Observation cache age must be 0–60 minutes')
+    if args.seed_offset < 0:
+        p.error('Seed offset must be nonnegative')
     if not 1 <= args.seed_limit <= 500 or not 1 <= args.max_requests <= 5000 or not 1 <= args.max_depth <= 500:
         p.error('Bounds: seeds 1–500, requests 1–5000, depth 1–500')
     if not 1 <= args.max_gauges <= 5000:
@@ -277,7 +309,7 @@ def main():
     if args.bbox and not (-180 <= args.bbox[0] < args.bbox[2] <= 180 and -90 <= args.bbox[1] < args.bbox[3] <= 90):
         p.error('Invalid bbox')
     if args.observations_only:
-        fetch_observations(args.output, args.root, args.cache, getattr(args, 'max_gauges', 500))
+        fetch_observations(args.output, args.root, args.cache, getattr(args, 'max_gauges', 500), getattr(args, 'observation_cache_minutes', 0))
     else:
         build(args)
 

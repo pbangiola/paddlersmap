@@ -1,6 +1,6 @@
 import {attachLiveColors} from './live.mjs';
 import {lineLayer,zoomPolicy} from './policy.mjs';
-import {applyObserved,observedPosition} from './gauges.mjs';
+import {applyObserved,eligibleSections,connectedGauges,mergeConnected} from './gauges.mjs';
 import {rivers} from './scale.mjs';
 import {addNationalGeometry,DOMAINS,NATIONAL_BOUNDS} from './national.mjs';
 const bounds=[[-88.5,41.2],[-87.0,42.5]];
@@ -21,36 +21,49 @@ async function get(path){const r=await fetch(path);if(!r.ok)throw new Error(path
 function popup(lines,xy){const node=document.createElement('div');node.textContent=lines.join('\n');new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);}
 map.once('style.load',async()=>{
   const nationalIds=addNationalGeometry(map);
-  let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36;
-  const modeled=new Map();
+  let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36,connectedGeometry=null;
+  const modeled=new Map();let geometryById=new Map();
+  map.addSource('connected-gauges',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
+  map.addLayer({id:'connected-gauges',type:'circle',source:'connected-gauges',paint:{'circle-color':['get','color'],'circle-radius':['interpolate',['linear'],['zoom'],3,3,11,6],'circle-stroke-color':'#17252c','circle-stroke-width':1.5}});
+  map.on('click','connected-gauges',e=>{if(map.getLayer('launches')&&map.queryRenderedFeatures(e.point,{layers:['launches']}).length)return;const p=e.features[0].properties;popup([p.name+' ('+p.id+')','Stage: '+p.stage+' ft','Low: '+p.low+' ft · flood: '+p.flood+' ft','Scale position: '+p.position,'Observation: '+p.timestamp,'Verified connected sections: '+p.sections,'Reference: '+p.reference_source],e.features[0].geometry.coordinates);});
   function sync(){
     const comparing=document.getElementById('noaa-comparison').checked;
     const order=zoomPolicy(map.getZoom()).order;
-    const usable=(assignments.sections||[]).filter(s=>[s.upstream,s.downstream].every(id=>observedPosition(observations[id],Date.now(),freshnessHours)!==null)).length;
-    document.getElementById('gauge-status').textContent=usable+' usable observed sections / '+(assignments.sections||[]).length+' confirmed paths. Missing, stale or incompatible endpoints use modeled colors. '+(assignments.limitation||'');
+    const usable=eligibleSections(assignments,observations,Date.now(),freshnessHours).length;
+    document.getElementById('gauge-status').textContent=usable+' usable observed sections / '+(assignments.sections||[]).length+' confirmed paths. Gauges with missing or incompatible data are hidden; other rivers use modeled colors.';
     for(const id of nationalIds)map.setLayoutProperty(id,'visibility',!comparing&&document.getElementById('national-geometry').checked?'visible':'none');
     for(const [id,data] of modeled){
       if(!map.getLayer(id))continue;
       map.setFilter(id,['>=',['to-number',['get','order'],0],order]);
       map.setLayoutProperty(id,'visibility',comparing?'none':'visible');
-      map.getSource(id).setData(applyObserved(data,assignments,observations,document.getElementById('gauge-colors').checked,Date.now(),freshnessHours));
+      const merged=mergeConnected(data,connectedGeometry,assignments,observations,!comparing&&document.getElementById('gauge-colors').checked,Date.now(),freshnessHours);
+      map.getSource(id).setData(applyObserved(merged,assignments,observations,document.getElementById('gauge-colors').checked,Date.now(),freshnessHours));
     }
     if(map.getLayer('noaa-comparison'))map.setLayoutProperty('noaa-comparison','visibility',comparing?'visible':'none');
+    const visibleAssignments={...assignments,sections:(assignments.sections||[]).filter(s=>[...s.reach_ids,s.upstream_reach,s.downstream_reach].every(id=>geometryById.has(String(id))))};
+    const gauges=connectedGauges(visibleAssignments,observations,Date.now(),freshnessHours);
+    for(const f of gauges.features)f.properties.connection_order=geometryById.get(String(f.properties.reach_id))?.properties.order||0;
+    map.getSource('connected-gauges').setData(gauges);
+    map.setFilter('connected-gauges',['>=',['get','connection_order'],order]);
+    map.setLayoutProperty('connected-gauges','visibility',!comparing&&document.getElementById('show-gauges').checked?'visible':'none');
+    map.moveLayer('connected-gauges');
     if(map.getLayer('launches'))map.moveLayer('launches');
     if(map.getLayer('launches'))map.setLayoutProperty('launches','visibility',document.getElementById('launches').checked?'visible':'none');
     document.getElementById('legend').style.display=comparing?'none':'flex';
     document.getElementById('comparison-note').hidden=!comparing;
   }
-  for(const id of ['national-geometry','gauge-colors','noaa-comparison','launches'])document.getElementById(id).addEventListener('change',sync);
-  map.on('zoom',()=>{for(const id of modeled.keys())if(map.getLayer(id))map.setFilter(id,['>=',['to-number',['get','order'],0],zoomPolicy(map.getZoom()).order]);});
+  for(const id of ['national-geometry','gauge-colors','noaa-comparison','launches','show-gauges'])document.getElementById(id).addEventListener('change',sync);
+  map.on('zoom',()=>{for(const id of modeled.keys())if(map.getLayer(id))map.setFilter(id,['>=',['to-number',['get','order'],0],zoomPolicy(map.getZoom()).order]);map.setFilter('connected-gauges',['>=',['get','connection_order'],zoomPolicy(map.getZoom()).order]);});
   // Stage observations refresh without reconstructing topology. Recheck freshness each minute.
   const gaugeReady=Promise.all([get('web/nwm/gauges/assignments.json'),get('web/nwm/gauges/observations.json')]).then(([a,o])=>{
     assignments=a;observations=o.records||{};freshnessHours=Number.isFinite(o.max_age_hours)&&o.max_age_hours>0?o.max_age_hours:36;
     document.getElementById('gauge-status').textContent=(a.sections||[]).length+' confirmed gauge sections. '+(a.limitation||'');sync();
   }).catch(error=>{document.getElementById('gauge-status').textContent='Observed assignments unavailable; modeled colors retained.';});
+  get('web/nwm/gauges/geometry.geojson').then(g=>{connectedGeometry=g;geometryById=new Map(g.features.map(f=>[String(f.properties.feature_id),f]));sync();}).catch(()=>{});
   setInterval(sync,60000);
   setInterval(()=>get('web/nwm/gauges/observations.json?time='+Date.now()).then(o=>{observations=o.records||{};freshnessHours=Number.isFinite(o.max_age_hours)&&o.max_age_hours>0?o.max_age_hours:36;sync();}).catch(()=>{}),15*60000);
   map.on('click',event=>{
+    if(map.queryRenderedFeatures(event.point,{layers:['connected-gauges']}).length)return;
     if(map.getLayer('launches')&&map.queryRenderedFeatures(event.point,{layers:['launches']}).length)return;
     for(const id of ['nwm-live','nwm-national-colors']){
       if(!map.getLayer(id))continue;

@@ -11,7 +11,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,7 +36,7 @@ jobs:
           print(f'Validated {len(features)} gauge features')
           PY
       - name: Refresh prototype observations independently of topology
-        run: python scripts/nwm/connections.py --observations-only
+        run: python scripts/nwm/connections.py --observations-only --max-gauges 5000
       - name: Commit readings
         run: |
           git config user.name "github-actions[bot]"
