@@ -17,6 +17,8 @@ def main():
     parser.add_argument('--output',type=Path,default=ROOT/'web/nwm/overview')
     parser.add_argument('--cache',type=Path,default=ROOT/'local/output/nwm-overview')
     args=parser.parse_args()
+    previous_manifest=args.output/'manifest.json'
+    previous_flow=json.loads(previous_manifest.read_text()).get('flow') if previous_manifest.exists() else None
     geometries={}
     records={}
     updates=set()
@@ -46,6 +48,9 @@ def main():
     write(args.output/'manifest.json',{'geometry':geometry_name,'flow':flow_name,'bbox':[-125,24,-66,50],
                                      'units':'ft³/s','min_order':7,'geometry_offset':0.02,
                                      'sources':json.loads((ROOT/'web/nwm/services.json').read_text())})
+    # Keep one prior snapshot for clients that fetched the old manifest during publication.
+    for old in args.output.glob('flow-*.json'):
+        if old.name not in {flow_name,previous_flow}:old.unlink()
     print(f'National overview: {len(geometries)} actual NWM reaches; no full-network download',flush=True)
 
 

@@ -1,0 +1,303 @@
+{
+  "views": [
+    {
+      "view": "national",
+      "zoom": 4,
+      "order": 7,
+      "filters": [
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          7
+        ],
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          7
+        ]
+      ],
+      "liveCount": 0,
+      "overviewCount": 9280,
+      "liveStatus": "National major-river snapshot. Zoom in for more flow colors.",
+      "activeGray": [
+        "national-conus-7",
+        "national-alaska-7",
+        "national-hawaii-7",
+        "national-prvi-7"
+      ]
+    },
+    {
+      "view": "chicago-region",
+      "zoom": 6,
+      "order": 6,
+      "filters": [
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          6
+        ],
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          6
+        ]
+      ],
+      "liveCount": 0,
+      "overviewCount": 0,
+      "liveStatus": "Loading NOAA flow colors for this view\u2026",
+      "activeGray": [
+        "national-conus-6",
+        "national-alaska-6",
+        "national-hawaii-6",
+        "national-prvi-6"
+      ]
+    },
+    {
+      "view": "chicago-city",
+      "zoom": 8,
+      "order": 5,
+      "filters": [
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          5
+        ],
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          5
+        ]
+      ],
+      "liveCount": 177,
+      "overviewCount": 0,
+      "liveStatus": "3/6 cells \u00b7 610 colored reaches \u00b7 0 unavailable cells \u00b7 NOAA update: 2026-10-17 00:50:22 UTC",
+      "activeGray": [
+        "national-conus-5",
+        "national-alaska-5",
+        "national-hawaii-5",
+        "national-prvi-5"
+      ]
+    },
+    {
+      "view": "chicago-neighborhood",
+      "zoom": 13,
+      "order": 1,
+      "filters": [
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          1
+        ],
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          1
+        ]
+      ],
+      "liveCount": 3,
+      "overviewCount": 0,
+      "liveStatus": "2/2 cells \u00b7 0 colored reaches \u00b7 0 unavailable cells \u00b7 NOAA update: unavailable",
+      "activeGray": [
+        "national-conus-1",
+        "national-alaska-1",
+        "national-hawaii-1",
+        "national-prvi-1"
+      ]
+    },
+    {
+      "view": "other-mainland",
+      "zoom": 9,
+      "order": 4,
+      "filters": [
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          4
+        ],
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          4
+        ]
+      ],
+      "liveCount": 100,
+      "overviewCount": 0,
+      "liveStatus": "3/6 cells \u00b7 232 colored reaches \u00b7 0 unavailable cells \u00b7 NOAA update: 2026-10-17 00:50:22 UTC",
+      "activeGray": [
+        "national-conus-4",
+        "national-alaska-4",
+        "national-hawaii-4",
+        "national-prvi-4"
+      ]
+    },
+    {
+      "view": "alaska",
+      "zoom": 5,
+      "order": 6,
+      "filters": [
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          6
+        ],
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          6
+        ]
+      ],
+      "liveCount": 0,
+      "overviewCount": 0,
+      "liveStatus": "NOAA percentile anchors are unavailable for this region; river geometry remains gray.",
+      "activeGray": [
+        "national-conus-6",
+        "national-alaska-6",
+        "national-hawaii-6",
+        "national-prvi-6"
+      ]
+    },
+    {
+      "view": "hawaii",
+      "zoom": 12,
+      "order": 3,
+      "filters": [
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          3
+        ],
+        [
+          ">=",
+          [
+            "to-number",
+            [
+              "get",
+              "order"
+            ],
+            0
+          ],
+          3
+        ]
+      ],
+      "liveCount": 0,
+      "overviewCount": 0,
+      "liveStatus": "NOAA percentile anchors are unavailable for this region; river geometry remains gray.",
+      "activeGray": [
+        "national-conus-3",
+        "national-alaska-3",
+        "national-hawaii-3",
+        "national-prvi-3"
+      ]
+    }
+  ],
+  "real_live_colored_reaches": 36,
+  "console_warnings": [
+    "[.WebGL-0x3ccc001b8200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3ccc001b8200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3ccc001b8200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3ccc001b8200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+    "Expected value to be of type number, but found null instead.",
+    "Expected value to be of type number, but found null instead.",
+    "Expected value to be of type number, but found null instead.",
+    "Expected value to be of type number, but found null instead.",
+    "Image \"us-interstate_4\" could not be loaded. Please make sure you have added the image with map.addImage() or a \"sprite\" property in your style. You can provide missing images by listening for the \"styleimagemissing\" map event.",
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+  ],
+  "page_errors": [],
+  "external_failures": [],
+  "launch_count": 101,
+  "verified_launch_count": 14,
+  "no_regional_dependency": true,
+  "gauge_real_data_sections": 105
+}

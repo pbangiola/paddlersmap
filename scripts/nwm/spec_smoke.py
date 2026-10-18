@@ -75,7 +75,7 @@ async def main():
    assert await page.evaluate("m.getSource('nwm-live').serialize().data.features.length") ==0
    assert not any('/web/nwm/data/' in u for u in requests)
    assert not errors,errors
-   (OUT/'results.json').write_text(json.dumps({'views':results,'real_live_colored_reaches':colored,'console_warnings':warnings,'page_errors':errors,'external_failures':failures,'launch_count':len(canonical),'verified_launch_count':len(verified),'no_regional_dependency':True,'gauge_real_data_sections':0},indent=2)+'\n')
+   (OUT/'results.json').write_text(json.dumps({'views':results,'real_live_colored_reaches':colored,'console_warnings':warnings,'page_errors':errors,'external_failures':failures,'launch_count':len(canonical),'verified_launch_count':len(verified),'no_regional_dependency':True,'gauge_real_data_sections':len(json.loads((ROOT/'web/nwm/gauges/assignments.json').read_text())['sections'])},indent=2)+'\n')
    print(json.dumps({'views':len(results),'page_errors':errors,'external_failures':len(failures),'launch_count':len(canonical)},indent=2))
   finally:
    await browser.close()
