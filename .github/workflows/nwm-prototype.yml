@@ -10,6 +10,10 @@ on:
       - '.github/workflows/nwm-overview.yml'
       - 'docs/nwm/connection-validation/browser.json'
       - 'nwm-prototype.html'
+      - 'index.html'
+      - 'about.html'
+      - 'gauge-connections.html'
+      - '.github/workflows/nwm-expand.yml'
       - '.github/workflows/nwm-prototype.yml'
 permissions:
   contents: read

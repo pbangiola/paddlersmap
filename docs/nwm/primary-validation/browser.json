@@ -1,0 +1,266 @@
+{
+  "feature": {
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            -87.854816,
+            41.947166
+          ],
+          [
+            -87.854755,
+            41.946915
+          ],
+          [
+            -87.854173,
+            41.945954
+          ],
+          [
+            -87.854112,
+            41.945771
+          ],
+          [
+            -87.853989,
+            41.945702
+          ],
+          [
+            -87.85353,
+            41.944421
+          ],
+          [
+            -87.853438,
+            41.944352
+          ],
+          [
+            -87.853407,
+            41.944055
+          ],
+          [
+            -87.853193,
+            41.943529
+          ],
+          [
+            -87.852979,
+            41.943117
+          ],
+          [
+            -87.852152,
+            41.94044
+          ],
+          [
+            -87.85206,
+            41.940394
+          ],
+          [
+            -87.851938,
+            41.939823
+          ],
+          [
+            -87.851693,
+            41.939365
+          ],
+          [
+            -87.850927,
+            41.938587
+          ],
+          [
+            -87.849426,
+            41.937191
+          ],
+          [
+            -87.849304,
+            41.936986
+          ],
+          [
+            -87.848875,
+            41.936551
+          ],
+          [
+            -87.84863,
+            41.935979
+          ],
+          [
+            -87.848416,
+            41.93575
+          ],
+          [
+            -87.847987,
+            41.935109
+          ],
+          [
+            -87.84765,
+            41.934446
+          ],
+          [
+            -87.84765,
+            41.934034
+          ],
+          [
+            -87.847957,
+            41.933165
+          ],
+          [
+            -87.847957,
+            41.932685
+          ],
+          [
+            -87.847712,
+            41.93241
+          ],
+          [
+            -87.847682,
+            41.932296
+          ],
+          [
+            -87.846304,
+            41.930831
+          ],
+          [
+            -87.844619,
+            41.928406
+          ],
+          [
+            -87.844344,
+            41.928086
+          ],
+          [
+            -87.84315,
+            41.926072
+          ],
+          [
+            -87.842385,
+            41.924951
+          ],
+          [
+            -87.841619,
+            41.924128
+          ],
+          [
+            -87.839201,
+            41.921748
+          ],
+          [
+            -87.838251,
+            41.920947
+          ],
+          [
+            -87.835404,
+            41.918979
+          ],
+          [
+            -87.834179,
+            41.918566
+          ],
+          [
+            -87.833903,
+            41.91836
+          ],
+          [
+            -87.83375,
+            41.918086
+          ],
+          [
+            -87.833536,
+            41.917514
+          ],
+          [
+            -87.833506,
+            41.917239
+          ],
+          [
+            -87.833383,
+            41.916919
+          ],
+          [
+            -87.833292,
+            41.915318
+          ],
+          [
+            -87.833416,
+            41.914517
+          ],
+          [
+            -87.83363,
+            41.913625
+          ],
+          [
+            -87.833661,
+            41.913236
+          ],
+          [
+            -87.833723,
+            41.913122
+          ],
+          [
+            -87.833754,
+            41.911681
+          ],
+          [
+            -87.833632,
+            41.911429
+          ],
+          [
+            -87.833234,
+            41.910971
+          ],
+          [
+            -87.832468,
+            41.910536
+          ],
+          [
+            -87.831182,
+            41.910376
+          ],
+          [
+            -87.830202,
+            41.910787
+          ],
+          [
+            -87.829405,
+            41.911473
+          ],
+          [
+            -87.829374,
+            41.91161
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "feature_id": "14786171",
+      "name": "Des Plaines River",
+      "order": 4,
+      "version": 3,
+      "flood": 5101.29,
+      "scale_position": null,
+      "color": "#1165cc",
+      "color_source": "Observed gauge-to-gauge",
+      "observed_position": 0.23192307692307693,
+      "gauge_provenance": "{\"upstream\":\"DMPI2\",\"downstream\":\"RVFI2\",\"reach_ids\":[\"14785821\",\"14785833\",\"14785839\",\"14785847\",\"14786171\",\"14785873\",\"14785875\",\"14785877\"],\"confidence\":\"confirmed\",\"method\":\"explicit-id-directed-topology\",\"topology_source\":\"https://api.water.noaa.gov/nwps/v1/reaches/{reachId} route.downstream.reachId; https://api.water.noaa.gov/nwps/v1/docs/\",\"upstream_reach\":\"14784647\",\"downstream_reach\":\"14786177\",\"match_evidence\":[\"NOAA NWPS reachId in data/noaa_gauges.geojson\",\"NOAA NWPS reachId in data/noaa_gauges.geojson\"],\"upstream_observation\":{\"id\":\"DMPI2\",\"name\":\"Des Plaines River at Des Plaines (Algonquin Road)\",\"stage\":8.92,\"in_service\":true,\"timestamp\":\"2026-10-18T19:00:00Z\",\"units\":\"ft\",\"low\":7,\"flood\":13,\"reference_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#lowThreshold\",\"low_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#lowThreshold\",\"flood_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#flood.categories.minor\",\"low_units\":\"ft\",\"flood_units\":\"ft\",\"coordinates\":[-87.8781,42.0317],\"source_url\":\"https://api.water.noaa.gov/nwps/v1/gauges/DMPI2\",\"usgs_id\":\"05530100\",\"reach_id\":\"14784647\",\"retrieved_at\":\"2026-10-18T19:48:03.849995+00:00\",\"position\":0.32},\"downstream_observation\":{\"id\":\"RVFI2\",\"name\":\"Des Plaines River at River Forest\",\"stage\":4.87,\"in_service\":true,\"timestamp\":\"2026-10-18T19:00:00Z\",\"units\":\"ft\",\"low\":3,\"flood\":16,\"reference_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/RVFI2#lowThreshold\",\"low_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/RVFI2#lowThreshold\",\"flood_source\":\"https://api.water.noaa.gov/nwps/v1/gauges/RVFI2#flood.categories.minor\",\"low_units\":\"ft\",\"flood_units\":\"ft\",\"coordinates\":[-87.832777777778,41.888333333333],\"source_url\":\"https://api.water.noaa.gov/nwps/v1/gauges/RVFI2\",\"usgs_id\":\"05530750\",\"reach_id\":\"14786177\",\"retrieved_at\":\"2026-10-18T19:48:23.390584+00:00\",\"position\":0.14384615384615385}}"
+    }
+  },
+  "expected_position": 0.23192307692307693,
+  "fallback": {
+    "feature_id": "14786171",
+    "name": "Des Plaines River",
+    "order": 4,
+    "version": 3,
+    "flood": 5101.29,
+    "scale_position": null,
+    "color": "#88929b",
+    "color_source": "Modeled NWM"
+  },
+  "popup": "Color source: Observed gauge-to-gauge\nNWM feature ID: 14786171\nObserved section position: 0.23192307692307693\nPath confidence: confirmed\nMethod: explicit-id-directed-topology\nCovered reach IDs: 14785821, 14785833, 14785839, 14785847, 14786171, 14785873, 14785875, 14785877\nDes Plaines River at Des Plaines (Algonquin Road) (DMPI2): 8.92 ft \u00b7 low 7 ft \u00b7 flood 13 ft \u00b7 position 0.32 \u00b7 2026-10-18T19:00:00Z \u00b7 https://api.water.noaa.gov/nwps/v1/gauges/DMPI2#lowThreshold\nDes Plaines River at River Forest (RVFI2): 4.87 ft \u00b7 low 3 ft \u00b7 flood 16 ft \u00b7 position 0.14384615384615385 \u00b7 2026-10-18T19:00:00Z \u00b7 https://api.water.noaa.gov/nwps/v1/gauges/RVFI2#lowThreshold\nCurrent discharge: unavailable\nLow anchor: unavailable\nCentral anchor: unavailable\nUpper anchor: 5101.29 ft\u00b3/s\nModeled scale position: unavailable\nNOAA update: unavailable\n\u00d7",
+  "page_errors": [],
+  "external_failures": [],
+  "checks": [
+    "Actual NOAA geometry rendered",
+    "Mean of independently normalized endpoint stages",
+    "Clickable observed provenance",
+    "Toggle restores modeled colors with unchanged geometry",
+    "NOAA comparison hides custom lines",
+    "Launches above rivers"
+  ]
+}

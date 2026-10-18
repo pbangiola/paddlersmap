@@ -33,6 +33,8 @@ class QualifiedObservations(unittest.TestCase):
         self.assertIsNone(parse_gauge(self.detail, 'DSPI2', self.root)['flood'])
         self.detail['status']['observed'].pop('primaryUnit')
         self.assertIsNone(parse_gauge(self.detail, 'DSPI2', self.root)['units'])
+        self.detail['inService']={'enabled':False}
+        self.assertIsNone(parse_gauge(self.detail, 'DSPI2', self.root)['stage'])
 
     def test_low_uses_usgs_identity_and_adequate_coverage(self):
         self.detail['lowThreshold'] = {'value': 1, 'units': 'm'}
@@ -119,3 +121,21 @@ class LegacyRebuildProtection(unittest.TestCase):
             with patch('sys.argv', ['gauge_assignments.py', '--output', str(out)]):
                 with self.assertRaises(ValueError): main()
             self.assertEqual(path.read_bytes(), previous)
+
+
+class ExplicitObservationCache(unittest.TestCase):
+    def test_recent_cache_preserves_source_time_and_does_not_mask_age(self):
+        from datetime import datetime, timezone
+        from nwm.connections import fetch_observations
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);out=root/'out';out.mkdir();cache=root/'cache';(cache/'gauges').mkdir(parents=True)
+            (root/'data').mkdir();(root/'data/stage_minima.json').write_text('{"stations":{}}')
+            (out/'assignments.json').write_text(json.dumps({'sections':[{'upstream':'UP','downstream':'UP','upstream_reach':'1','downstream_reach':'1'}]}))
+            detail={'lid':'UP','reachId':'1','status':{'observed':{'primary':3,'primaryUnit':'ft','validTime':'2026-10-01T00:00:00Z'}},'lowThreshold':{'value':1,'units':'ft'},'flood':{'stageUnits':'ft','categories':{'minor':{'stage':10}}},'longitude':-87,'latitude':42}
+            path=cache/'gauges/UP.json';path.write_text(json.dumps(detail));captured=datetime.fromtimestamp(path.stat().st_mtime,timezone.utc).isoformat()
+            with patch('nwm.connections.get',side_effect=AssertionError('Do not redownload a recent explicitly allowed checkpoint')):
+                fetch_observations(out,root,cache,cache_minutes=15)
+            r=json.loads((out/'observations.json').read_text())['records']['UP']
+            self.assertEqual(r['timestamp'],'2026-10-01T00:00:00Z')
+            self.assertEqual(r['retrieved_at'],captured)
+            self.assertEqual(r['coordinates'],[-87,42])

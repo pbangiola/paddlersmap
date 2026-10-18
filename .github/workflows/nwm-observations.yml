@@ -13,14 +13,14 @@ jobs:
   refresh:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Refresh only endpoints of confirmed paths
-        run: python -u scripts/nwm/connections.py --observations-only
+        run: python -u scripts/nwm/connections.py --observations-only --max-gauges 5000
       - name: Commit prototype observations
         env:
           GH_TOKEN: ${{ github.token }}

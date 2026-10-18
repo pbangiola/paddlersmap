@@ -45,3 +45,35 @@ test('real Des Plaines bracket uses published IDs, unchanged geometry and actual
  assert.deepEqual(result.features[0].geometry,f.geometry);
  assert.equal(applyObserved(data,{sections:[section]},{[a.id]:a,[b.id]:b},true,now+37*3600000).features[0].properties.color_source,'Modeled NWM');
 });
+
+test('show only usable connected gauges, preserving published coordinates',async()=>{
+ const {connectedGauges,mergeConnected}=await import('./gauges.mjs');
+ const section={upstream:'up',downstream:'down',reach_ids:['2'],confidence:'confirmed',method:'explicit-id-directed-topology'};
+ const a={...gauge,coordinates:[-87,42]},b={...a,id:'down',coordinates:[-88,41]};
+ const obs={up:a,down:b,isolated:{...a,id:'isolated'}};
+ const result=connectedGauges({sections:[section]},obs,now);
+ assert.deepEqual(result.features.map(f=>f.properties.id),['up','down']);
+ assert.deepEqual(result.features[0].geometry.coordinates,a.coordinates);
+ assert.equal(connectedGauges({sections:[section]},{...obs,down:{...b,stage:null}},now).features.length,0);
+ assert.equal(connectedGauges({sections:[section]},obs,now+37*3600000).features.length,0);
+ const geometry={type:'FeatureCollection',features:['2','3'].map(id=>({type:'Feature',geometry:{type:'LineString',coordinates:[[1,2],[3,4]]},properties:{feature_id:id,order:4}}))};
+ const empty={type:'FeatureCollection',features:[]};
+ const merged=mergeConnected(empty,geometry,{sections:[section]},obs,true,now);
+ assert.deepEqual(merged.features.map(f=>f.properties.feature_id),['2']);
+ assert.equal(applyObserved(merged,{sections:[section]},obs,true,now).features[0].properties.color_source,'Observed gauge-to-gauge');
+ const modeled={...geometry.features[0],properties:{feature_id:'2',color:'#abc',discharge:25}};
+ assert.deepEqual(mergeConnected({...empty,features:[modeled]},geometry,{sections:[section]},obs,true,now).features[0],modeled);
+ assert.equal(mergeConnected(empty,geometry,{sections:[section]},obs,false,now).features.length,0);
+});
+
+test('cached endpoint channels stay neutral rather than extending observed colors past gauges',async()=>{
+ const {mergeConnected}=await import('./gauges.mjs');
+ const s={upstream:'up',downstream:'down',upstream_reach:'1',downstream_reach:'4',reach_ids:['2'],confidence:'confirmed',method:'explicit-id-directed-topology'};
+ const obs={up:gauge,down:{...gauge,id:'down'}};
+ const g={type:'FeatureCollection',features:['1','2','3','4'].map(id=>({type:'Feature',geometry:{type:'LineString',coordinates:[[1,2],[3,4]]},properties:{feature_id:id,order:4}}))};
+ const merged=mergeConnected({type:'FeatureCollection',features:[]},g,{sections:[s]},obs,true,now);
+ assert.deepEqual(merged.features.map(f=>f.properties.feature_id),['1','2','4']);
+ const result=applyObserved(merged,{sections:[s]},obs,true,now);
+ assert.equal(result.features[1].properties.color_source,'Observed gauge-to-gauge');
+ for(const f of [result.features[0],result.features[2]]){assert.equal(f.properties.color_source,'Modeled NWM');assert.equal(f.properties.color,'#88929b');assert.equal(f.properties.observed_position,undefined);}
+});
