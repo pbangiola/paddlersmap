@@ -41,9 +41,8 @@ map.once('style.load',async()=>{
     }
     if(map.getLayer('noaa-comparison'))map.setLayoutProperty('noaa-comparison','visibility',comparing?'visible':'none');
     const visibleAssignments={...assignments,sections:(assignments.sections||[]).filter(s=>[...s.reach_ids,s.upstream_reach,s.downstream_reach].every(id=>geometryById.has(String(id))))};
-    const gauges=connectedGauges(visibleAssignments,observations,Date.now(),freshnessHours),orders=new Map();
-    for(const s of visibleAssignments.sections){const max=Math.max(...s.reach_ids.map(id=>geometryById.get(String(id)).properties.order||0));for(const id of [s.upstream,s.downstream])orders.set(id,Math.max(orders.get(id)||0,max));}
-    for(const f of gauges.features)f.properties.connection_order=orders.get(f.properties.id)||0;
+    const gauges=connectedGauges(visibleAssignments,observations,Date.now(),freshnessHours);
+    for(const f of gauges.features)f.properties.connection_order=geometryById.get(String(f.properties.reach_id))?.properties.order||0;
     map.getSource('connected-gauges').setData(gauges);
     map.setFilter('connected-gauges',['>=',['get','connection_order'],order]);
     map.setLayoutProperty('connected-gauges','visibility',!comparing&&document.getElementById('show-gauges').checked?'visible':'none');
