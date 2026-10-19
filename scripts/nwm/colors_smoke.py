@@ -62,6 +62,7 @@ async def main():
             const xy=coords[Math.floor(coords.length/2)],p=map.project(xy),r=map.getCanvas().getBoundingClientRect();return {x:p.x+r.x,y:p.y+r.y};}""")
         await page.mouse.click(point['x'],point['y'])
         await page.wait_for_selector('.maplibregl-popup-content')
+        await page.locator('.maplibregl-popup-content summary').click()
         popup=await page.locator('.maplibregl-popup-content').inner_text()
         for label in ['NWM feature ID:','Current discharge:','Low anchor:','Central anchor:','Upper anchor:','Scale position:']:
             assert label in popup,popup
