@@ -13,7 +13,7 @@ jobs:
   refresh:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -23,16 +23,18 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: local/output/nwm-overview/**/geometry-*.geojson
-          key: nwm-overview-static-v1-${{ hashFiles('web/nwm/services.json') }}
-      - name: Refresh bounded order-7+ snapshot with separately cached geometry
-        run: python -u scripts/nwm/overview.py
+          key: nwm-overview-static-v2-${{ hashFiles('web/nwm/services.json') }}
+      - name: Refresh bounded order-6+ snapshot with separately cached geometry
+        run: |
+          python -u scripts/nwm/overview.py
+          python scripts/nwm/anomaly_legend.py
       - name: Commit prototype snapshot
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A web/nwm/overview
+          git add -A web/nwm/overview web/nwm/anomaly-legend.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh NWM national modeled colors"
             git pull --rebase origin main

@@ -1,3 +1,4 @@
+import {fillGaps} from './gaps.mjs';
 import {attachLiveColors} from './live.mjs';
 import {lineLayer,zoomPolicy} from './policy.mjs';
 import {applyObserved,eligibleSections,connectedGauges,mergeConnected} from './gauges.mjs';
@@ -18,10 +19,10 @@ document.getElementById('chicago').onclick=()=>map.fitBounds(bounds,{padding:25}
 for(const domain of DOMAINS)document.getElementById(domain.id).onclick=()=>map.fitBounds(domain.bounds,{padding:25});
 const status=document.getElementById('status');
 async function get(path){const r=await fetch(path);if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
-function popup(lines,xy){const node=document.createElement('div');node.textContent=lines.join('\n');new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);}
+function popup(lines,xy){const node=document.createElement('div'),title=document.createElement('strong'),details=document.createElement('details'),summary=document.createElement('summary'),body=document.createElement('div');title.textContent=lines[0];summary.textContent='Technical details';body.textContent=lines.slice(1).join('\n');details.append(summary,body);node.append(title,details);new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);}
 map.once('style.load',async()=>{
   const nationalIds=addNationalGeometry(map);
-  let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36,connectedGeometry=null;
+  let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36,connectedGeometry=null,topology=null;
   const modeled=new Map();let geometryById=new Map();
   map.addSource('connected-gauges',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
   map.addLayer({id:'connected-gauges',type:'circle',source:'connected-gauges',paint:{'circle-color':['get','color'],'circle-radius':['interpolate',['linear'],['zoom'],3,3,11,6],'circle-stroke-color':'#17252c','circle-stroke-width':1.5}});
@@ -37,7 +38,7 @@ map.once('style.load',async()=>{
       map.setFilter(id,['>=',['to-number',['get','order'],0],order]);
       map.setLayoutProperty(id,'visibility',comparing?'none':'visible');
       const merged=mergeConnected(data,connectedGeometry,assignments,observations,!comparing&&document.getElementById('gauge-colors').checked,Date.now(),freshnessHours);
-      map.getSource(id).setData(applyObserved(merged,assignments,observations,document.getElementById('gauge-colors').checked,Date.now(),freshnessHours));
+      map.getSource(id).setData(fillGaps(applyObserved(merged,assignments,observations,document.getElementById('gauge-colors').checked,Date.now(),freshnessHours),topology));
     }
     if(map.getLayer('noaa-comparison'))map.setLayoutProperty('noaa-comparison','visibility',comparing?'visible':'none');
     const visibleAssignments={...assignments,sections:(assignments.sections||[]).filter(s=>[...s.reach_ids,s.upstream_reach,s.downstream_reach].every(id=>geometryById.has(String(id))))};
@@ -51,6 +52,7 @@ map.once('style.load',async()=>{
     if(map.getLayer('launches'))map.setLayoutProperty('launches','visibility',document.getElementById('launches').checked?'visible':'none');
     document.getElementById('legend').style.display=comparing?'none':'flex';
     document.getElementById('comparison-note').hidden=!comparing;
+    document.getElementById('anomaly-legend').hidden=!comparing;
   }
   for(const id of ['national-geometry','gauge-colors','noaa-comparison','launches','show-gauges'])document.getElementById(id).addEventListener('change',sync);
   map.on('zoom',()=>{for(const id of modeled.keys())if(map.getLayer(id))map.setFilter(id,['>=',['to-number',['get','order'],0],zoomPolicy(map.getZoom()).order]);map.setFilter('connected-gauges',['>=',['get','connection_order'],zoomPolicy(map.getZoom()).order]);});
@@ -59,6 +61,7 @@ map.once('style.load',async()=>{
     assignments=a;observations=o.records||{};freshnessHours=Number.isFinite(o.max_age_hours)&&o.max_age_hours>0?o.max_age_hours:36;
     document.getElementById('gauge-status').textContent=(a.sections||[]).length+' confirmed gauge sections. '+(a.limitation||'');sync();
   }).catch(error=>{document.getElementById('gauge-status').textContent='Observed assignments unavailable; modeled colors retained.';});
+  get('web/nwm/gauges/topology.json').then(t=>{topology=t;sync();}).catch(()=>{});
   get('web/nwm/gauges/geometry.geojson').then(g=>{connectedGeometry=g;geometryById=new Map(g.features.map(f=>[String(f.properties.feature_id),f]));sync();}).catch(()=>{});
   setInterval(sync,60000);
   setInterval(()=>get('web/nwm/gauges/observations.json?time='+Date.now()).then(o=>{observations=o.records||{};freshnessHours=Number.isFinite(o.max_age_hours)&&o.max_age_hours>0?o.max_age_hours:36;sync();}).catch(()=>{}),15*60000);
@@ -68,13 +71,15 @@ map.once('style.load',async()=>{
     for(const id of ['nwm-live','nwm-national-colors']){
       if(!map.getLayer(id))continue;
       const feature=map.queryRenderedFeatures(event.point,{layers:[id]})[0];if(!feature)continue;
-      const p=feature.properties,lines=['Color source: '+p.color_source,'NWM feature ID: '+p.feature_id];
+      const p=feature.properties,lines=[(p.name||'River')+' · '+p.color_source,'NWM feature ID: '+p.feature_id];
+      if(p.inferred_position!==undefined)lines.push('Estimated color position: '+p.inferred_position,'Bracketing reach IDs: '+p.gap_upstream+' → '+p.gap_downstream,'Visual estimate only; no numerical flow values inferred.');
       if(p.gauge_provenance){const g=JSON.parse(p.gauge_provenance);lines.push('Observed section position: '+p.observed_position,'Path confidence: '+g.confidence,'Method: '+g.method,'Covered reach IDs: '+g.reach_ids.join(', '));
         for(const key of ['upstream_observation','downstream_observation']){const o=g[key];lines.push(o.name+' ('+o.id+'): '+o.stage+' ft · low '+o.low+' ft · flood '+o.flood+' ft · position '+o.position+' · '+o.timestamp+' · '+o.reference_source);}}
       lines.push(...[['Current discharge','discharge'],['Low anchor','low'],['Central anchor','average'],['Upper anchor','flood']].map(([label,key])=>label+': '+(p[key]??'unavailable')+(p[key]==null?'':' ft³/s')),'Modeled scale position: '+(p.scale_position??'unavailable'),'NOAA update: '+(p.noaa_updated_at??'unavailable'));
       popup(lines,event.lngLat);break;
     }
   });
+  get('web/nwm/anomaly-legend.json').then(data=>{const node=document.getElementById('anomaly-legend'),heading=document.createElement('strong');heading.textContent=data.layer.layerName;node.append(heading,document.createElement('br'));for(const item of data.layer.legend){const row=document.createElement('span'),img=document.createElement('img');img.alt='';img.src='data:image/png;base64,'+item.imageData;row.append(img,document.createTextNode(item.label));node.append(row);}}).catch(()=>{document.getElementById('anomaly-legend').textContent='NOAA legend unavailable';});
   const anomaly='https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer';
   map.addSource('noaa-comparison',{type:'raster',tileSize:256,tiles:[anomaly+'/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&layers=show:0&format=png32&transparent=true&f=image']});
   map.addLayer({id:'noaa-comparison',type:'raster',source:'noaa-comparison',layout:{visibility:'none'}});
@@ -87,7 +92,7 @@ map.once('style.load',async()=>{
       for(const f of data.features)f.properties={...f.properties,atlas_verified:verified.has(String(f.properties.id))};
       map.addSource('launches',{type:'geojson',data});
       map.addLayer({id:'launches',type:'circle',source:'launches',paint:{'circle-radius':5,'circle-color':['case',['get','atlas_verified'],'#168447','#e0ad24'],'circle-stroke-color':'#fff','circle-stroke-width':1.5}});
-      map.on('click','launches',e=>{const f=e.features[0];popup(Object.entries(f.properties).map(([k,v])=>k+': '+(v&&typeof v==='object'?JSON.stringify(v,null,2):v)),f.geometry.coordinates);});
+      map.on('click','launches',e=>{const f=e.features[0];popup([f.properties.name||'Launch',...Object.entries(f.properties).map(([k,v])=>k+': '+(v&&typeof v==='object'?JSON.stringify(v,null,2):v))],f.geometry.coordinates);});
       status.textContent=data.features.length+' canonical launch records · '+(data.metadata.complete?'Complete source retrieval':'Incomplete national OSM coverage — curated locations retained');sync();
     }catch(error){status.textContent='Launch inventory unavailable: '+error.message;}
   })();

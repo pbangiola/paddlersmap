@@ -41,10 +41,14 @@ jobs:
           gh run download "$RESUME_RUN" --name canonical-launch-review --dir /tmp/launch-resume
           mkdir -p local/output/canonical-launches
           cp -a /tmp/launch-resume/local/output/canonical-launches/. local/output/canonical-launches/
+      - name: Seed historical raw checkpoints when no newer cache exists
+        run: |
+          mkdir -p local/output/canonical-launches
+          cp -n docs/nwm/launch-inputs/partial-checkpoints/conus-*.json local/output/canonical-launches/
       - name: Retrieve complete national inventory and reconcile curated sources
         env:
           OVERPASS_PROVIDER: ${{ inputs.provider }}
-        run: python scripts/nwm/launch_inventory.py --retrieve --provider "$OVERPASS_PROVIDER"
+        run: python scripts/nwm/launch_inventory.py --retrieve --provider "$OVERPASS_PROVIDER" --max-requests 80 --max-seconds 1800
       - name: Upload inventory and coverage for review (never commit partial output)
         if: always()
         uses: actions/upload-artifact@v4

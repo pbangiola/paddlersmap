@@ -22,11 +22,13 @@ Install Python pipeline dependencies into a virtual environment (`requests` is r
 
 ## What the colors mean
 
-Modeled colors use NOAA’s latest discharge and published numerical references: 10th percentile, provisional midpoint of the 25th/75th percentiles, and a provisional two-year recurrence upper anchor. Colors interpolate continuously through brown, blue, yellow and red. Missing or invalid numerical references remain gray.
+Modeled colors use NOAA’s latest discharge and published numerical references: 10th percentile, provisional midpoint of the 25th/75th percentiles, and a provisional two-year recurrence upper anchor. Colors interpolate continuously through brown, blue, yellow and red. Missing or invalid numerical references remain gray unless a short, connected gap can receive an explicitly labeled visual estimate between two valid colors; no numerical flow values are invented.
 
 Observed colors take priority only along verified directed NWM paths with two current, compatible gauge readings and real low/flood references. Each endpoint uses its own normalized stage; the section uses their mean. Only complete interior reaches are colored. Endpoint reaches, ambiguous routing, stale observations and missing references retain modeled fallback. Colors describe relative conditions, not paddling suitability or guaranteed navigability.
 
 Gauge markers show only usable endpoints of verified sections whose actual geometry is available. They obey the river density policy and can be toggled independently. Dataless and isolated gauges are hidden. Launches retain their original curated coordinates and verification identities; national launch coverage remains incomplete.
+
+Technical details start collapsed; full methods are on [About](about.html). NOAA’s seven-day comparison has its own published legend. The shared density policy adds order 6+ at national view and successively includes 5+, 4+, 3+, 2+, 1+ when zooming. See [detail and OSM round](docs/nwm/detail-round.md).
 
 ## Refresh and expansion
 

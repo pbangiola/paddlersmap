@@ -73,22 +73,48 @@ def publish(source,curated,output,report,legacy_count,verified=(),max_m=40,legac
     atomic(report,r);atomic(output,{'type':'FeatureCollection','metadata':source['metadata'],'features':fs})
     return r
 
-def fetch_cell(bbox,endpoint=ENDPOINT):
+def fetch_cell(bbox,endpoint=ENDPOINT,attempts=3):
     w,s,e,n=bbox
-    query=f'[out:json][timeout:90];area["ISO3166-1"~"^(US|PR|VI|GU|MP|AS)$"]["boundary"="administrative"]->.us;nwr["name"~"canoe launch",i](area.us)({s},{w},{n},{e});out body center geom;'
-    for attempt in range(3):
+    query=f'[out:json][timeout:30];area["ISO3166-1"~"^(US|PR|VI|GU|MP|AS)$"]["boundary"="administrative"]->.us;nwr["name"~"canoe launch",i](area.us)({s},{w},{n},{e});out body center geom;'
+    for attempt in range(attempts):
         try:
             req=urllib.request.Request(endpoint,data=urllib.parse.urlencode({'data':query}).encode(),headers={'User-Agent':'PaddlersMap/1.0 canonical-launch-import'})
-            with urllib.request.urlopen(req,timeout=120) as response:data=json.load(response)
+            with urllib.request.urlopen(req,timeout=45) as response:data=json.load(response)
             if data.get('remark') or not isinstance(data.get('elements'),list):raise ValueError('Partial or invalid Overpass response')
             data['_area_scope']='US|PR|VI|GU|MP|AS';data['_retrieved_at']=datetime.now(timezone.utc).isoformat();time.sleep(1);return data
         except Exception as error:
             if isinstance(error,urllib.error.HTTPError) and error.code not in (429,500,502,503,504):raise
-            if attempt==2:raise
+            if attempt==attempts-1:raise
             retry=error.headers.get('Retry-After') if isinstance(error,urllib.error.HTTPError) else None
             try:delay=float(retry) if retry is not None else 2**attempt*2
             except ValueError:delay=2**attempt*2
             time.sleep(max(0,min(60,delay)))
+def retrieve_cell(bbox,path,endpoint,depth=0,budget=None,accept_legacy=False):
+    """Reuse valid checkpoints; subdivide timed-out geographic queries, never partial data."""
+    if path.exists():
+        data=json.loads(path.read_text())
+        if not data.get('remark') and isinstance(data.get('elements'),list) and (data.get('_area_scope')=='US|PR|VI|GU|MP|AS' or accept_legacy and data.get('_retrieved_at') and data.get('osm3s')):return data
+    if budget is not None:
+        if budget['remaining']<=0 or time.monotonic()>budget['deadline']:raise ValueError('Round request/time budget exhausted; resume checkpoints later')
+        budget['remaining']-=1
+    try:
+        data=fetch_cell(bbox,endpoint,attempts=1)
+    except Exception as error:
+        if isinstance(error,urllib.error.HTTPError) and error.code==429 and budget is not None:budget['remaining']=0
+        # Rate limiting is not a reason to multiply requests. Resume a later round.
+        if depth>=2 or isinstance(error,urllib.error.HTTPError) and error.code==429:raise
+        if not (isinstance(error,TimeoutError) or isinstance(error,urllib.error.HTTPError) and error.code==504 or 'timed out' in str(error).lower()):raise
+        print(path.stem, 'timed out; subdividing',bbox,flush=True)
+        w,s,e,n=bbox;x=(w+e)/2;y=(s+n)/2
+        children=[]
+        for i,box in enumerate([[w,s,x,y],[x,s,e,y],[w,y,x,n],[x,y,e,n]]):
+            children.append(retrieve_cell(box,path.with_name(path.stem+f'-{i}.json'),endpoint,depth+1,budget,accept_legacy))
+        elements={(el['type'],el['id']):el for child in children for el in child['elements']}
+        data={'elements':list(elements.values()),'_area_scope':'US|PR|VI|GU|MP|AS','_retrieved_at':datetime.now(timezone.utc).isoformat(),
+              '_subdivision_sources':[{'retrieved_at':c.get('_retrieved_at'),'osm3s':c.get('osm3s'),'children':c.get('_subdivision_sources')} for c in children]}
+    atomic(path,data)
+    return data
+
 def curated_inputs(root=Path('.')):
     curated=[]
     for name in ['regional_launches.geojson','putins.geojson']:
@@ -101,13 +127,13 @@ def curated_inputs(root=Path('.')):
     return curated,sorted(verified-present)
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source',type=Path);p.add_argument('--retrieve',action='store_true');p.add_argument('--provider',choices=PROVIDERS,default='de');p.add_argument('--checkpoint',type=Path,default=Path('local/output/canonical-launches'));p.add_argument('--output',type=Path,default=Path('web/nwm/launches/canonical.geojson'));p.add_argument('--report',type=Path,default=Path('docs/nwm/launch-reconciliation.json'));p.add_argument('--max-m',type=float,default=40);a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--max-requests',type=int,default=24);p.add_argument('--max-seconds',type=int,default=600);p.add_argument('--source',type=Path);p.add_argument('--retrieve',action='store_true');p.add_argument('--provider',choices=PROVIDERS,default='de');p.add_argument('--checkpoint',type=Path,default=Path('local/output/canonical-launches'));p.add_argument('--output',type=Path,default=Path('web/nwm/launches/canonical.geojson'));p.add_argument('--report',type=Path,default=Path('docs/nwm/launch-reconciliation.json'));p.add_argument('--max-m',type=float,default=40);a=p.parse_args()
     curated,missing_verified=curated_inputs()
     if missing_verified:raise SystemExit('Reviewed identities lack original coordinates: '+', '.join(missing_verified))
     registry=json.loads(Path('data/verified_launches.json').read_text()).get('verified_ids',[])
     legacy_features=json.loads(Path('data/putins_consolidated.geojson').read_text())['features'];legacy=len(legacy_features)
     if a.retrieve:
-        coverage={};elements={};failures=0;started=datetime.now(timezone.utc).isoformat()
+        budget={'remaining':max(1,min(a.max_requests,200)), 'deadline':time.monotonic()+max(1,min(a.max_seconds,3600))};coverage={};elements={};failures=0;started=datetime.now(timezone.utc).isoformat()
         for domain,bbox in DOMAINS.items():
             # Subdivide large boxes into 10-degree cells; persisted raw response supports resume.
             for x in range(math.ceil((bbox[2]-bbox[0])/10)):
@@ -116,7 +142,7 @@ def main():
                     b=[bbox[0]+10*x,bbox[1]+10*y,min(bbox[2],bbox[0]+10*(x+1)),min(bbox[3],bbox[1]+10*(y+1))]
                     try:
                         if failures>=2 and not path.exists():raise ValueError('Deferred after two source failures; resume later')
-                        data=json.loads(path.read_text()) if path.exists() else fetch_cell(b,PROVIDERS[a.provider])
+                        data=retrieve_cell(b,path,PROVIDERS[a.provider],budget=budget,accept_legacy=domain in ['conus','alaska-west','alaska-east','hawaii'])
                         if domain in ['puerto-rico-usvi','guam-cnmi','american-samoa'] and data.get('_area_scope')!='US|PR|VI|GU|MP|AS':data=fetch_cell(b,PROVIDERS[a.provider])
                         if data.get('remark') or not isinstance(data.get('elements'),list):raise ValueError('Incomplete checkpoint')
                         atomic(path,data);print(key, 'complete:',len(data['elements']),'source records',flush=True);coverage[key]={'complete':True,'osm_timestamp':data.get('osm3s',{}).get('timestamp_osm_base'),'retrieved_at':data.get('_retrieved_at')}
