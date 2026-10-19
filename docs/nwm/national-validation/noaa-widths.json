@@ -1,0 +1,10 @@
+{
+  "inspected_at": "2026-10-19",
+  "reference": "https://maps.water.noaa.gov/server/rest/services/reference/static_nwm_flowlines/MapServer/0?f=json",
+  "reference_symbol_type": "esriSLS",
+  "reference_width_points": 1,
+  "anomaly": "https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer/0?f=json",
+  "anomaly_unique_value_width_points": [1, 1, 1, 1, 1, 1, 1],
+  "export_dpi": 96,
+  "maplibre_width_css_pixels": 1.3333333333333333
+}

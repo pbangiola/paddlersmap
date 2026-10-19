@@ -93,7 +93,7 @@ def identify(cache):
  groups=membership(list(bodies.values()),lines,invalid,threshold=1e-8)
  return lines,groups,len(bodies),invalid
 
-def topology_for(groups,lines,cache,max_requests=400,max_depth=24):
+def topology_for(groups,lines,cache,max_requests=400,max_depth=24,follow_priority_names=True,budget=None):
  errors={};count=0
  orders={str(f['properties']['feature_id']):f['properties'].get('order',0) for f in lines}
  priorities={}
@@ -108,6 +108,9 @@ def topology_for(groups,lines,cache,max_requests=400,max_depth=24):
    path=cache/'routing'/(rid+'.json')
    if path.exists():detail=json.loads(path.read_text());nodes[rid]=parse_routing(detail,rid)
    else:todo.append(rid)
+  if budget is not None:
+   if time.monotonic()>budget['deadline'] or len(todo)>budget['remaining']:raise ValueError('Shared routing/time budget exhausted; resume checkpoints')
+   budget['remaining']-=len(todo)
   if count+len(todo)>max_requests:raise ValueError('Routing budget exceeded; cached checkpoints retained')
   def fetch(rid):
    try:
@@ -123,8 +126,8 @@ def topology_for(groups,lines,cache,max_requests=400,max_depth=24):
    if rid not in nodes:continue
    for direction in ['upstream','downstream']:
     edges=nodes[rid][direction]
-    eligible=[nxt for nxt in edges if nxt in orders or nodes[rid][direction+'_orders'].get(nxt,0)>=priorities[rid]]
-    if not eligible and direction=='upstream' and (rid in orders or rid in members):
+    eligible=[nxt for nxt in edges if follow_priority_names and nxt in orders or nodes[rid][direction+'_orders'].get(nxt,0)>=priorities[rid]]
+    if not eligible and direction=='upstream' and (follow_priority_names and rid in orders or rid in members):
      largest=max([nodes[rid][direction+'_orders'].get(nxt,0) for nxt in edges],default=0)
      eligible=[nxt for nxt in edges if largest>0 and nodes[rid][direction+'_orders'].get(nxt,0)==largest]
     for nxt in eligible:

@@ -1,4 +1,4 @@
-import {TIERS} from './policy.mjs';
+import {TIERS,NOAA_LINE_POINTS,NOAA_EXPORT_DPI} from './policy.mjs';
 // NOAA renders its own geographic flowlines; no national GeoJSON download.
 export const NATIONAL_BOUNDS=[[-125,24],[-66,50]];
 export const DOMAINS=[
@@ -10,8 +10,8 @@ export const DOMAINS=[
 export function geometryTileUrl(domain,order=7){
   const layer={id:0,source:{type:'mapLayer',mapLayerId:0},minScale:0,maxScale:0,
     definitionExpression:'strm_order >= '+order,
-    drawingInfo:{renderer:{type:'simple',symbol:{type:'esriSLS',style:'esriSLSSolid',color:[136,146,155,255],width:0.9}}}};
-  return 'https://maps.water.noaa.gov/server/rest/services/reference/'+domain.service+'/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&format=png32&transparent=true&f=image&dynamicLayers='+encodeURIComponent(JSON.stringify([layer]));
+    drawingInfo:{renderer:{type:'simple',symbol:{type:'esriSLS',style:'esriSLSSolid',color:[136,146,155,255],width:NOAA_LINE_POINTS}}}};
+  return 'https://maps.water.noaa.gov/server/rest/services/reference/'+domain.service+'/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=256,256&dpi='+NOAA_EXPORT_DPI+'&format=png32&transparent=true&f=image&dynamicLayers='+encodeURIComponent(JSON.stringify([layer]));
 }
 export function addNationalGeometry(map,before){
   const ids=[];

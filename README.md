@@ -32,6 +32,8 @@ Technical details start collapsed; full methods are on [About](about.html). NOAA
 
 The [Mississippi reservoir/lake pass](docs/nwm/reservoirs.md) identifies NOAA waterbody footprints and estimates colors across bracketed main channels, starting with Lake Pepin. Surface tints are labeled visual estimates; they do not create reservoir discharge or operating data.
 
+[National Actions expansion](docs/nwm/national-reservoirs.md) now scans all named and unnamed flows through NOAA waterbodies in bounded, resumable runs. Regional data loads by viewport, and river widths match NOAA’s published 1-point symbols.
+
 ## Refresh and expansion
 
 - Endpoint observations: every three hours; the browser checks freshness each minute.
