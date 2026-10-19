@@ -19,7 +19,7 @@ document.getElementById('chicago').onclick=()=>map.fitBounds(bounds,{padding:25}
 for(const domain of DOMAINS)document.getElementById(domain.id).onclick=()=>map.fitBounds(domain.bounds,{padding:25});
 const status=document.getElementById('status');
 async function get(path){const r=await fetch(path);if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
-function popup(lines,xy){const node=document.createElement('div'),title=document.createElement('strong'),details=document.createElement('details'),summary=document.createElement('summary'),body=document.createElement('div');title.textContent=lines[0];summary.textContent='Technical details';body.textContent=lines.slice(1).join('\n');details.append(summary,body);node.append(title,details);new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);}
+function popup(lines,xy){const node=document.createElement('div'),title=document.createElement('strong'),details=document.createElement('details'),summary=document.createElement('summary'),body=document.createElement('div');title.textContent=lines[0];summary.textContent='Technical details';body.textContent=lines.slice(1).join('\n');details.append(summary,body);node.append(title,details);const instance=new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);details.addEventListener('toggle',()=>instance.setLngLat(xy));}
 map.once('style.load',async()=>{
   const nationalIds=addNationalGeometry(map);
   let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36,connectedGeometry=null,topology=null;
@@ -71,7 +71,7 @@ map.once('style.load',async()=>{
     for(const id of ['nwm-live','nwm-national-colors']){
       if(!map.getLayer(id))continue;
       const feature=map.queryRenderedFeatures(event.point,{layers:[id]})[0];if(!feature)continue;
-      const p=feature.properties,lines=[(p.name||'River')+' · '+p.color_source,'NWM feature ID: '+p.feature_id];
+      const p=feature.properties,lines=[(p.name||'River')+' · '+p.color_source,'Color source: '+p.color_source,'NWM feature ID: '+p.feature_id];
       if(p.inferred_position!==undefined)lines.push('Estimated color position: '+p.inferred_position,'Bracketing reach IDs: '+p.gap_upstream+' → '+p.gap_downstream,'Visual estimate only; no numerical flow values inferred.');
       if(p.gauge_provenance){const g=JSON.parse(p.gauge_provenance);lines.push('Observed section position: '+p.observed_position,'Path confidence: '+g.confidence,'Method: '+g.method,'Covered reach IDs: '+g.reach_ids.join(', '));
         for(const key of ['upstream_observation','downstream_observation']){const o=g[key];lines.push(o.name+' ('+o.id+'): '+o.stage+' ft · low '+o.low+' ft · flood '+o.flood+' ft · position '+o.position+' · '+o.timestamp+' · '+o.reference_source);}}

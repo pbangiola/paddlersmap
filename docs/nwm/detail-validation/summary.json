@@ -1,0 +1,14 @@
+{
+  "overview_reaches": 80718,
+  "order6": 48509,
+  "valid_modeled": 55890,
+  "inferred_reaches": 147,
+  "noaa_updated_at": "2026-10-19 00:50:14 UTC",
+  "cycles": [
+    "2026-10-19 00:50:14 UTC"
+  ],
+  "units": {
+    "node": 20,
+    "python": 50
+  }
+}

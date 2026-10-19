@@ -1,6 +1,6 @@
 # More detail, bracketed color gaps and NOAA legend
 
-The shared stream-order thresholds now show **6+, 5+, 4+, 3+, 2+, 1+** at zoom breaks 0, 5, 7, 9, 11, 13. This adds one tier everywhere except the closest view, which already includes every published stream order. The national snapshot uses order 6+ in 18 bounded geographic cells; each query retains the 25,000-feature guard, exact-ID joins, batch limits and separate static geometry cache. No entire national network is downloaded.
+The shared stream-order thresholds now show **6+, 5+, 4+, 3+, 2+, 1+** at zoom breaks 0, 5, 7, 9, 11, 13. This adds one tier everywhere except the closest view, which already includes every published stream order. The national snapshot uses order 6+ in 18 bounded geographic cells; each query retains the 25,000-feature guard, exact-ID joins, batch limits and separate static geometry cache. No entire national network is downloaded. If a refresh is interrupted, `overview.py --resume-minutes 30` reuses recently completed regional flows with matching service configuration and bounding boxes. NOAA’s explicit `objectIdFieldName` plus null `objectIds` means an empty cell; absent or truncated responses still fail.
 
 `web/nwm/gaps.mjs` applies **visual inference only** after current modeled/observed colors have been calculated. It follows cached published directed reach IDs, never names or nearest geometry. Both endpoint reaches must have finite positions on the same source scale. At most 50 missing reaches are interpolated by reach count; known forks, confluences, cycles, absent geometry/topology, mixed source scales and one-sided paths stop inference. Existing actual colors remain unchanged. Cached topology is partial, so this cannot detect every uncached tributary; the method is a display estimate, not a hydrologic calculation. Missing discharge and reference fields remain missing. Popups identify inferred color, position and bracketing IDs.
 
@@ -20,6 +20,8 @@ The literal primary-name `canoe launch` filter and US/territory administrative-a
 .venv/bin/python scripts/nwm/launch_inventory.py --retrieve --provider de \
   --checkpoint local/output/canonical-launches-round2 --max-requests 24 --max-seconds 600
 ```
+
+The October 19 local and hosted rounds remained incomplete because the providers were unavailable/at capacity. See [OSM round reports](launch-round2/README.md); no new launches were promoted.
 
 Only a complete source snapshot may be reconciled into the active inventory. Original curated coordinates and verification identities remain protected.
 

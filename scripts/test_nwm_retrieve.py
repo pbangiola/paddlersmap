@@ -10,6 +10,13 @@ spec.loader.exec_module(nwm)
 
 
 class NwmRetrievalTests(unittest.TestCase):
+    def test_explicit_empty_arcgis_cell_is_valid_but_missing_response_is_not(self):
+        with patch.object(nwm, 'get', return_value={'objectIdFieldName':'oid','objectIds':None}), patch.object(nwm,'validate_schema',return_value={}):
+            self.assertEqual(nwm.query('https://example.test/0',[-75,24,-66,34],['id'],True),[])
+        for response in [{},{'objectIds':None},{'objectIdFieldName':'oid','objectIds':None,'exceededTransferLimit':True}]:
+            with patch.object(nwm,'get',return_value=response):
+                with self.assertRaises(RuntimeError):nwm.query('https://example.test/0',[-75,24,-66,34],['id'],True)
+
     def test_batches_use_ids_and_honor_service_limit(self):
         calls = []
         def get(url, params):

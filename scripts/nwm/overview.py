@@ -16,6 +16,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',type=Path,default=ROOT/'web/nwm/overview')
     parser.add_argument('--cache',type=Path,default=ROOT/'local/output/nwm-overview')
+    parser.add_argument('--resume-minutes',type=float,default=0,help='Reuse recently completed regional flow snapshots after an interrupted refresh (max 60 minutes)')
     args=parser.parse_args()
     previous_manifest=args.output/'manifest.json'
     previous_flow=json.loads(previous_manifest.read_text()).get('flow') if previous_manifest.exists() else None
@@ -27,9 +28,18 @@ def main():
       for south in range(24,50,10):
         name=f'order6-{west}-{south}';bbox=[west,south,min(west+10,-66),min(south+10,50)]
         part=args.cache/name
-        subprocess.run([sys.executable,str(ROOT/'scripts/nwm/retrieve.py'),'--config',str(ROOT/'web/nwm/services.json'),
-                        '--bbox',*map(str,bbox),'--min-order','6','--geometry-offset','0.02',
-                        '--batch-size','500','--output',str(part)],check=True,cwd=ROOT)
+        cached=part/'manifest.json';reuse=False
+        if cached.exists() and 0<args.resume_minutes<=60:
+            prior=json.loads(cached.read_text())
+            flow_path=part/prior['flow'];geometry_path=part/prior['geometry']
+            if flow_path.exists() and geometry_path.exists() and prior.get('min_order')==6 and prior.get('bbox')==bbox and prior.get('sources')==json.loads((ROOT/'web/nwm/services.json').read_text()):
+                retrieved=datetime.fromisoformat(json.loads(flow_path.read_text())['retrieved_at'])
+                reuse=0<=(datetime.now(timezone.utc)-retrieved).total_seconds()<=args.resume_minutes*60
+        if reuse:print('Reusing recently completed region',name,flush=True)
+        else:
+            subprocess.run([sys.executable,str(ROOT/'scripts/nwm/retrieve.py'),'--config',str(ROOT/'web/nwm/services.json'),
+                            '--bbox',*map(str,bbox),'--min-order','6','--geometry-offset','0.02',
+                            '--batch-size','500','--output',str(part)],check=True,cwd=ROOT)
         manifest=json.loads((part/'manifest.json').read_text())
         geometry=json.loads((part/manifest['geometry']).read_text())
         flow=json.loads((part/manifest['flow']).read_text())

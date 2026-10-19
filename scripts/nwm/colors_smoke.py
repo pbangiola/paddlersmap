@@ -64,7 +64,7 @@ async def main():
         await page.wait_for_selector('.maplibregl-popup-content')
         await page.locator('.maplibregl-popup-content summary').click()
         popup=await page.locator('.maplibregl-popup-content').inner_text()
-        for label in ['NWM feature ID:','Current discharge:','Low anchor:','Central anchor:','Upper anchor:','Scale position:']:
+        for label in ['NWM feature ID:','Current discharge:','Low anchor:','Central anchor:','Upper anchor:','Modeled scale position:']:
             assert label in popup,popup
         assert not errors,errors
         await browser.close()

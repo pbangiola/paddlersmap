@@ -37,15 +37,17 @@ async def main():
             await page.evaluate("async()=>{window.m=(await import('/web/nwm/map.mjs')).map;}")
             assert not await page.locator('#map-details').evaluate('(e)=>e.open')
             await page.wait_for_function("m.getSource('nwm-national-colors')?.serialize().data.features.length>0",timeout=60000)
-            overview=await page.evaluate("()=>{const fs=m.getSource('nwm-national-colors').serialize().data.features;return {reaches:fs.length,order6:fs.filter(f=>Number(f.properties.order)===6).length,rendered:m.queryRenderedFeatures({layers:['nwm-national-colors']}).length,inferred:fs.filter(f=>f.properties.inferred_position!==undefined).length};}")
-            assert overview['order6']>0 and overview['rendered']>0,overview
+            await page.wait_for_function("m.queryRenderedFeatures({layers:['nwm-national-colors']}).some(f=>Number(f.properties.order)===6)",timeout=90000)
+            overview=await page.evaluate("()=>{const fs=m.getSource('nwm-national-colors').serialize().data.features;return {reaches:fs.length,order6:fs.filter(f=>Number(f.properties.order)===6).length,rendered:m.queryRenderedFeatures({layers:['nwm-national-colors']}).length,rendered_order6:m.queryRenderedFeatures({layers:['nwm-national-colors']}).filter(f=>Number(f.properties.order)===6).length,inferred:fs.filter(f=>f.properties.inferred_position!==undefined).length};}")
+            assert overview['order6']>0 and overview['rendered_order6']>0 and overview['inferred']>0,overview
             await page.screenshot(path=str(OUT/'national.png'),timeout=90000)
             canonical=json.loads((ROOT/'web/nwm/launches/canonical.geojson').read_text())['features']
             launches=await page.evaluate("m.getSource('launches').serialize().data.features.map(f=>[f.properties.id,f.geometry])")
             assert launches==[[f['properties']['id'],f['geometry']] for f in canonical]
             await page.locator('#noaa-comparison').check()
-            await page.wait_for_function("document.querySelectorAll('#anomaly-legend img').length===7")
+            await page.wait_for_function("document.querySelectorAll('#anomaly-legend img').length===7&&[...document.querySelectorAll('#anomaly-legend img')].every(i=>i.naturalWidth>0)")
             assert await page.locator('#anomaly-legend').is_visible()
+            await page.wait_for_function("m.isSourceLoaded('noaa-comparison')",timeout=90000)
             await page.screenshot(path=str(OUT/'noaa-legend.png'),timeout=90000)
             await page.locator('#noaa-comparison').uncheck()
             await page.locator('#map-details summary').click()
