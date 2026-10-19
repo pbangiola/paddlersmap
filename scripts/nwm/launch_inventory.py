@@ -85,7 +85,7 @@ def fetch_cell(bbox,endpoint=ENDPOINT,attempts=3):
         except Exception as error:
             if isinstance(error,urllib.error.HTTPError):
                 detail=re.sub(r'<[^>]*>',' ',error.read(1000).decode('utf-8','replace'))
-                error.reason=str(error.reason)+' — '+' '.join(detail.split())[:500]
+                error.msg=str(error.reason)+' — '+' '.join(detail.split())[:500]
             if isinstance(error,urllib.error.HTTPError) and error.code not in (429,500,502,503,504):raise
             if attempt==attempts-1:raise
             retry=error.headers.get('Retry-After') if isinstance(error,urllib.error.HTTPError) else None

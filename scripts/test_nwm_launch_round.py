@@ -4,6 +4,12 @@ from pathlib import Path
 from unittest.mock import patch
 from nwm import launch_inventory as m
 class LaunchRound(unittest.TestCase):
+ def test_http_error_keeps_status_and_public_service_diagnostic(self):
+  import io
+  error=urllib.error.HTTPError('test',500,'Internal Server Error',{},io.BytesIO(b'<p>Service dispatcher unavailable</p>'))
+  with patch.object(m.urllib.request,'urlopen',side_effect=error):
+   with self.assertRaises(urllib.error.HTTPError) as caught:m.fetch_cell([0,0,1,1],attempts=1)
+  self.assertEqual(caught.exception.code,500);self.assertIn('dispatcher unavailable',str(caught.exception))
  def test_split_deduplicate_and_reuse(self):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d)/'cell.json';calls=[]
