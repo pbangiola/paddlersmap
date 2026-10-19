@@ -15,6 +15,7 @@ on:
       - 'gauge-connections.html'
       - '.github/workflows/nwm-expand.yml'
       - '.github/workflows/nwm-prototype.yml'
+      - '.github/workflows/nwm-reservoirs-national.yml'
 permissions:
   contents: read
 jobs:

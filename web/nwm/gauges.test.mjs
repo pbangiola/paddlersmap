@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {observedPosition,applyObserved} from './gauges.mjs';
-import {zoomPolicy,TIERS} from './policy.mjs';
+import {zoomPolicy,TIERS,WIDTH} from './policy.mjs';
 import {color} from './scale.mjs';
 const now=Date.parse('2026-10-13T12:00:00Z');
 const gauge={id:'up',name:'Upstream',stage:2,low:0,flood:10,units:'ft',timestamp:'2026-10-13T11:00:00Z',reference_source:'Published stage thresholds'};
@@ -10,7 +10,7 @@ test('shared density tier boundaries and width targets',()=>{
   assert.equal(zoomPolicy(t.min).order,t.order);assert.equal(zoomPolicy(t.max-.001).order,t.order);
   if(i)assert.equal(zoomPolicy(t.min-.001).order,TIERS[i-1].order);
  }
- assert.deepEqual(TIERS.map(t=>t.width),[2,2.5,3,3.5,4,4.5]);
+ assert.deepEqual(TIERS.map(t=>t.width),Array(6).fill(WIDTH));
 });
 test('observed stage policy validates units, actual anchors and freshness',()=>{
  assert.equal(observedPosition(gauge,now),.2);

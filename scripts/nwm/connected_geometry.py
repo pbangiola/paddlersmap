@@ -16,13 +16,13 @@ SERVICES = ['static_nwm_flowlines', 'static_nwm_flowlines_ak', 'static_nwm_flowl
 BASE = 'https://maps.water.noaa.gov/server/rest/services/reference/'
 
 
-def retrieve(ids, cache, previous=None):
+def retrieve(ids, cache, previous=None, services=None):
     found = {str(f['properties']['feature_id']): f for f in (previous or {}).get('features', []) if str(f['properties']['feature_id']) in ids}
     for rid in ids - found.keys():
         p = cache / (rid + '.json')
         if p.exists(): found[rid] = json.loads(p.read_text())
     missing = sorted(ids - found.keys())
-    for name in SERVICES:
+    for name in (SERVICES if services is None else services):
         if not missing: break
         url = BASE + name + '/FeatureServer/0'
         meta = get(url, {})

@@ -23,6 +23,8 @@ Each endpoint uses its own `(stage-low)/(flood-low)`, clamped to [0,1]. The sect
 
 See the [Mississippi-first waterbody identification and interpolation method](reservoirs.md). Static footprints/routing are separate from current values; gray waterbodies have unsupported brackets. Lake Pepin is the priority browser validation view.
 
+See [national all-flow Actions expansion](national-reservoirs.md) for the hourly worker, daily value refresh, coverage gaps and viewport loading.
+
 ## Refresh and expand
 
 ```sh
