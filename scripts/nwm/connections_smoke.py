@@ -51,6 +51,7 @@ async def main():
             await page.wait_for_timeout(1500)
             await page.mouse.click(point['x'], point['y'])
             await page.wait_for_selector('.maplibregl-popup-content')
+            await page.locator('.maplibregl-popup-content summary').click()
             popup = await page.locator('.maplibregl-popup-content').inner_text()
             assert all(s in popup for s in ['Observed gauge-to-gauge', sample['id'], sample['up'], sample['down'], 'Observed section position:', 'Current discharge:']), popup
             await page.screenshot(path=str(OUT / 'chicago-connected.png'), timeout=90000)

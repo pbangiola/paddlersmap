@@ -4,7 +4,7 @@ import {tier,cellsForBounds,normalize,loadCell,arcgis} from './live.mjs';
 import {position} from './scale.mjs';
 
 test('national tiers and bounded geographic cells avoid unsupported domains',()=>{
-  assert.equal(tier(4).order,7);assert.equal(tier(6).order,6);assert.equal(tier(8).order,5);assert.equal(tier(10).order,4);
+  assert.equal(tier(4).order,6);assert.equal(tier(6).order,5);assert.equal(tier(8).order,4);assert.equal(tier(10).order,3);
   for(const bbox of [[-170,60,-140,70],[-160,19,-155,22],[-68,17,-64,19]])assert.deepEqual(cellsForBounds(bbox,7),[]);
   const cells=cellsForBounds([-123,44,-121,46],7);
   assert.ok(cells.length>0&&cells.length<=24);

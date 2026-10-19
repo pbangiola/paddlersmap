@@ -50,7 +50,7 @@ async def main():
    print('Real live colored reaches',colored,flush=True)
    await page.screenshot(timeout=90000,path=str(OUT/'chicago-live-colors.png'))
    pt=await page.evaluate("""()=>{const r=m.getCanvas().getBoundingClientRect();for(const f of m.queryRenderedFeatures({layers:['nwm-live']})){if(f.properties.scale_position==null)continue;const lines=f.geometry.type==='MultiLineString'?f.geometry.coordinates:[f.geometry.coordinates];for(const line of lines)for(const xy of line){const p=m.project(xy);if(p.x>20&&p.x<r.width-20&&p.y>20&&p.y<r.height-20)return {x:r.x+p.x,y:r.y+p.y};}}throw new Error('No on-screen river vertex');}""")
-   await page.mouse.click(pt['x'],pt['y']);await page.wait_for_selector('.maplibregl-popup-content');text=await page.locator('.maplibregl-popup-content').inner_text()
+   await page.mouse.click(pt['x'],pt['y']);await page.wait_for_selector('.maplibregl-popup-content');await page.locator('.maplibregl-popup-content summary').click();text=await page.locator('.maplibregl-popup-content').inner_text()
    assert all(label in text for label in ['Color source: Modeled NWM','NWM feature ID:','Current discharge:','Low anchor:','NOAA update:']),text
    await page.locator('.maplibregl-popup-close-button').click()
    await page.locator('#noaa-comparison').check()

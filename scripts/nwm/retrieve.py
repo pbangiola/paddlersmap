@@ -47,6 +47,8 @@ def query(service, bbox, fields, geometry, where="1=1", offset=None, batch=200):
                "inSR": 4326, "spatialRel": "esriSpatialRelIntersects", "where": where}
     ids_response = get(service + "/query", {**spatial, "returnIdsOnly": "true"})
     ids = ids_response.get("objectIds")
+    if ids is None and "objectIds" in ids_response and ids_response.get("objectIdFieldName") and not ids_response.get("exceededTransferLimit"):
+        ids = []  # ArcGIS explicitly identifies an empty geographic result.
     if ids is None:
         raise RuntimeError("Service did not return object IDs; refusing an incomplete download")
     if len(ids) > 25000:

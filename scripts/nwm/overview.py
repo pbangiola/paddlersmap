@@ -16,18 +16,30 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',type=Path,default=ROOT/'web/nwm/overview')
     parser.add_argument('--cache',type=Path,default=ROOT/'local/output/nwm-overview')
+    parser.add_argument('--resume-minutes',type=float,default=0,help='Reuse recently completed regional flow snapshots after an interrupted refresh (max 60 minutes)')
     args=parser.parse_args()
     previous_manifest=args.output/'manifest.json'
     previous_flow=json.loads(previous_manifest.read_text()).get('flow') if previous_manifest.exists() else None
     geometries={}
     records={}
     updates=set()
-    # Each half remains below the existing 25,000-reach guard.
-    for name,bbox in [('west',[-125,24,-96,50]),('east',[-96,24,-66,50])]:
+    # Bounded regional cells keep the extra stream-order tier below the 25,000-reach guard.
+    for west in range(-125,-66,10):
+      for south in range(24,50,10):
+        name=f'order6-{west}-{south}';bbox=[west,south,min(west+10,-66),min(south+10,50)]
         part=args.cache/name
-        subprocess.run([sys.executable,str(ROOT/'scripts/nwm/retrieve.py'),'--config',str(ROOT/'web/nwm/services.json'),
-                        '--bbox',*map(str,bbox),'--min-order','7','--geometry-offset','0.02',
-                        '--batch-size','500','--output',str(part)],check=True,cwd=ROOT)
+        cached=part/'manifest.json';reuse=False
+        if cached.exists() and 0<args.resume_minutes<=60:
+            prior=json.loads(cached.read_text())
+            flow_path=part/prior['flow'];geometry_path=part/prior['geometry']
+            if flow_path.exists() and geometry_path.exists() and prior.get('min_order')==6 and prior.get('bbox')==bbox and prior.get('sources')==json.loads((ROOT/'web/nwm/services.json').read_text()):
+                retrieved=datetime.fromisoformat(json.loads(flow_path.read_text())['retrieved_at'])
+                reuse=0<=(datetime.now(timezone.utc)-retrieved).total_seconds()<=args.resume_minutes*60
+        if reuse:print('Reusing recently completed region',name,flush=True)
+        else:
+            subprocess.run([sys.executable,str(ROOT/'scripts/nwm/retrieve.py'),'--config',str(ROOT/'web/nwm/services.json'),
+                            '--bbox',*map(str,bbox),'--min-order','6','--geometry-offset','0.02',
+                            '--batch-size','500','--output',str(part)],check=True,cwd=ROOT)
         manifest=json.loads((part/'manifest.json').read_text())
         geometry=json.loads((part/manifest['geometry']).read_text())
         flow=json.loads((part/manifest['flow']).read_text())
@@ -46,7 +58,7 @@ def main():
     write(args.output/flow_name,{'records':list(records.values()),'noaa_updated_at':next(iter(updates)) if len(updates)==1 else None,
                                'noaa_update_values':sorted(updates),'retrieved_at':now})
     write(args.output/'manifest.json',{'geometry':geometry_name,'flow':flow_name,'bbox':[-125,24,-66,50],
-                                     'units':'ft³/s','min_order':7,'geometry_offset':0.02,
+                                     'units':'ft³/s','min_order':6,'geometry_offset':0.02,
                                      'sources':json.loads((ROOT/'web/nwm/services.json').read_text())})
     # Keep one prior snapshot for clients that fetched the old manifest during publication.
     for old in args.output.glob('flow-*.json'):
