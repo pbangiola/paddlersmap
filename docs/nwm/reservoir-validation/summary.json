@@ -1,0 +1,104 @@
+{
+  "identified_waterbodies": 10,
+  "ready": 5,
+  "inferred_channel_reaches": 20,
+  "context_reaches": 469,
+  "routing_nodes": 469,
+  "noaa_updated_at": "2026-10-19 00:50:14 UTC",
+  "waterbodies": [
+    {
+      "id": "4834380",
+      "name": "Unnamed NOAA waterbody",
+      "available": true,
+      "position": 0.4084266412258942,
+      "upstream": [
+        "4835614"
+      ],
+      "downstream": [
+        "4835626"
+      ]
+    },
+    {
+      "id": "22326997",
+      "name": "Wolf Lake",
+      "available": false,
+      "reason": "No bracket on the main channel at 22329555 upstream"
+    },
+    {
+      "id": "22326037",
+      "name": "Unnamed NOAA waterbody",
+      "available": true,
+      "position": 0.40803746764332893,
+      "upstream": [
+        "22325811"
+      ],
+      "downstream": [
+        "22326519"
+      ]
+    },
+    {
+      "id": "22327031",
+      "name": "Little Winnibigoshish Lake",
+      "available": true,
+      "position": 0.413632191243393,
+      "upstream": [
+        "22327903"
+      ],
+      "downstream": [
+        "22327915"
+      ]
+    },
+    {
+      "id": "22326823",
+      "name": "Andrusia Lake",
+      "available": false,
+      "reason": "No bracket on the main channel at 22329555 upstream"
+    },
+    {
+      "id": "22326861",
+      "name": "Lake Irving",
+      "available": false,
+      "reason": "No bracket on the main channel at 22329555 upstream"
+    },
+    {
+      "id": "167122125",
+      "name": "Lake Bemidji",
+      "available": false,
+      "reason": "No bracket on the main channel at 22329555 upstream"
+    },
+    {
+      "id": "167122137",
+      "name": "Buck Lake",
+      "available": false,
+      "reason": "Boundary search depth limit reached at 22329555"
+    },
+    {
+      "id": "167122141",
+      "name": "Sugar Lake",
+      "available": true,
+      "position": 0.49511120717067547,
+      "upstream": [
+        "22328075"
+      ],
+      "downstream": [
+        "22327903"
+      ]
+    },
+    {
+      "id": "1874843",
+      "name": "Lake Pepin",
+      "available": true,
+      "position": 0.35070326608658114,
+      "upstream": [
+        "1875139"
+      ],
+      "downstream": [
+        "1878125"
+      ]
+    }
+  ],
+  "invalid_footprints": {
+    "13358122": "Unnamed NOAA waterbody",
+    "120051919": "Pool 2"
+  }
+}

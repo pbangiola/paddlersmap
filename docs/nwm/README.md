@@ -19,6 +19,10 @@ NOAA's static flowline service supplies feature IDs, geometry and two-year recur
 
 Each endpoint uses its own `(stage-low)/(flood-low)`, clamped to [0,1]. The section color uses the arithmetic mean of these two positions, not raw stages or RGB colors. Low is NOAA's explicitly unit-qualified `lowThreshold`, or an adequate-coverage annual USGS stage minimum joined by `usgsId`. Flood is NOAA's minor flood stage with explicit stage units. Stage units come from `status.observed.primaryUnit`. Missing references, incompatible units, sentinels, future/stale readings, or a changed gauge-to-reach ID prevent observed coloring. Freshness is 36 hours; observations refresh every three hours (plus the existing gauge refresh) without rebuilding topology. The browser reloads them every 15 minutes and checks freshness every minute. Click rivers and expand technical details to inspect inputs, endpoint times, references and path evidence. These colors describe relative conditions, not navigability.
 
+## Reservoirs and lakes
+
+See the [Mississippi-first waterbody identification and interpolation method](reservoirs.md). Static footprints/routing are separate from current values; gray waterbodies have unsupported brackets. Lake Pepin is the priority browser validation view.
+
 ## Refresh and expand
 
 ```sh

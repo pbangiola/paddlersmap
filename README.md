@@ -30,6 +30,8 @@ Gauge markers show only usable endpoints of verified sections whose actual geome
 
 Technical details start collapsed; full methods are on [About](about.html). NOAA’s seven-day comparison has its own published legend. The shared density policy adds order 6+ at national view and successively includes 5+, 4+, 3+, 2+, 1+ when zooming. See [detail and OSM round](docs/nwm/detail-round.md).
 
+The [Mississippi reservoir/lake pass](docs/nwm/reservoirs.md) identifies NOAA waterbody footprints and estimates colors across bracketed main channels, starting with Lake Pepin. Surface tints are labeled visual estimates; they do not create reservoir discharge or operating data.
+
 ## Refresh and expansion
 
 - Endpoint observations: every three hours; the browser checks freshness each minute.

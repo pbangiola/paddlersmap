@@ -26,6 +26,9 @@ jobs:
           key: nwm-overview-static-v2-${{ hashFiles('web/nwm/services.json') }}
       - name: Refresh bounded order-6+ snapshot with separately cached geometry
         run: python -u scripts/nwm/overview.py
+      - name: Refresh bounded Mississippi reservoir reference values
+        continue-on-error: true
+        run: python scripts/nwm/reservoirs.py --flow-only
       - name: Refresh NOAA comparison legend (retain cache on service failure)
         continue-on-error: true
         run: python scripts/nwm/anomaly_legend.py
@@ -35,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A web/nwm/overview web/nwm/anomaly-legend.json
+          git add -A web/nwm/overview web/nwm/anomaly-legend.json web/nwm/reservoirs/flow.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh NWM national modeled colors"
             git pull --rebase origin main

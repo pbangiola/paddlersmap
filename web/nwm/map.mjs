@@ -1,3 +1,4 @@
+import {mergeReservoirContext,interpolateReservoirs,applyReservoirColors} from './reservoirs.mjs';
 import {fillGaps} from './gaps.mjs';
 import {attachLiveColors} from './live.mjs';
 import {lineLayer,zoomPolicy} from './policy.mjs';
@@ -15,6 +16,7 @@ export const map=new maplibregl.Map({container:'map',style:basemap,bounds:NATION
 if(!basemapAvailable)document.getElementById('basemap-note').hidden=false;
 map.addControl(new maplibregl.NavigationControl());
 map.on('error',event=>{if(event.sourceId?.startsWith('national-'))document.getElementById('national-error').hidden=false;});
+document.getElementById('pepin').onclick=()=>map.fitBounds([[-92.66,44.35],[-92.0,44.68]],{padding:45});
 document.getElementById('chicago').onclick=()=>map.fitBounds(bounds,{padding:25});
 for(const domain of DOMAINS)document.getElementById(domain.id).onclick=()=>map.fitBounds(domain.bounds,{padding:25});
 const status=document.getElementById('status');
@@ -22,8 +24,11 @@ async function get(path){const r=await fetch(path);if(!r.ok)throw new Error(path
 function popup(lines,xy){const node=document.createElement('div'),title=document.createElement('strong'),details=document.createElement('details'),summary=document.createElement('summary'),body=document.createElement('div');title.textContent=lines[0];summary.textContent='Technical details';body.textContent=lines.slice(1).join('\n');details.append(summary,body);node.append(title,details);const instance=new maplibregl.Popup().setLngLat(xy).setDOMContent(node).addTo(map);details.addEventListener('toggle',()=>instance.setLngLat(xy));}
 map.once('style.load',async()=>{
   const nationalIds=addNationalGeometry(map);
-  let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36,connectedGeometry=null,topology=null;
+  let overview=null,live=null,assignments={sections:[]},observations={},freshnessHours=36,connectedGeometry=null,topology=null,reservoirGeometry=null,reservoirBodies=null,reservoirTopology=null,reservoirFlow=[];
   const modeled=new Map();let geometryById=new Map();
+  map.addSource('reservoirs',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
+  map.addLayer({id:'reservoir-fills',type:'fill',source:'reservoirs',paint:{'fill-color':['get','color'],'fill-opacity':['case',['get','available'],.4,.12]}});
+  map.addLayer({id:'reservoir-outlines',type:'line',source:'reservoirs',paint:{'line-color':['get','color'],'line-width':1,'line-dasharray':[3,2]}});
   map.addSource('connected-gauges',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
   map.addLayer({id:'connected-gauges',type:'circle',source:'connected-gauges',paint:{'circle-color':['get','color'],'circle-radius':['interpolate',['linear'],['zoom'],3,3,11,6],'circle-stroke-color':'#17252c','circle-stroke-width':1.5}});
   map.on('click','connected-gauges',e=>{if(map.getLayer('launches')&&map.queryRenderedFeatures(e.point,{layers:['launches']}).length)return;const p=e.features[0].properties;popup([p.name+' ('+p.id+')','Stage: '+p.stage+' ft','Low: '+p.low+' ft · flood: '+p.flood+' ft','Scale position: '+p.position,'Observation: '+p.timestamp,'Verified connected sections: '+p.sections,'Reference: '+p.reference_source],e.features[0].geometry.coordinates);});
@@ -33,13 +38,24 @@ map.once('style.load',async()=>{
     const usable=eligibleSections(assignments,observations,Date.now(),freshnessHours).length;
     document.getElementById('gauge-status').textContent=usable+' usable observed sections / '+(assignments.sections||[]).length+' confirmed paths. Gauges with missing or incompatible data are hidden; other rivers use modeled colors.';
     for(const id of nationalIds)map.setLayoutProperty(id,'visibility',!comparing&&document.getElementById('national-geometry').checked?'visible':'none');
+    const reservoirEnabled=document.getElementById('reservoirs').checked;
+    const prepared=new Map();
     for(const [id,data] of modeled){
       if(!map.getLayer(id))continue;
       map.setFilter(id,['>=',['to-number',['get','order'],0],order]);
       map.setLayoutProperty(id,'visibility',comparing?'none':'visible');
-      const merged=mergeConnected(data,connectedGeometry,assignments,observations,!comparing&&document.getElementById('gauge-colors').checked,Date.now(),freshnessHours);
-      map.getSource(id).setData(fillGaps(applyObserved(merged,assignments,observations,document.getElementById('gauge-colors').checked,Date.now(),freshnessHours),topology));
+      const context=reservoirEnabled?mergeReservoirContext(data,reservoirGeometry,reservoirFlow):data;
+      const merged=mergeConnected(context,connectedGeometry,assignments,observations,!comparing&&document.getElementById('gauge-colors').checked,Date.now(),freshnessHours);
+      prepared.set(id,fillGaps(applyObserved(merged,assignments,observations,document.getElementById('gauge-colors').checked,Date.now(),freshnessHours),topology));
     }
+    // The overview provides offscreen anchors; live exact-ID values override it when present.
+    const all=new Map();for(const id of ['nwm-national-colors','nwm-live'])for(const f of prepared.get(id)?.features||[])all.set(String(f.properties.feature_id),f);
+    const estimated=interpolateReservoirs({features:[...all.values()]},reservoirEnabled?reservoirBodies:null,reservoirTopology);
+    map.getSource('reservoirs').setData(estimated.waterbodies);
+    for(const id of ['reservoir-fills','reservoir-outlines']){map.setLayoutProperty(id,'visibility',reservoirEnabled&&!comparing?'visible':'none');map.setFilter(id,['>=',['get','order'],order]);}
+    for(const [id,data] of prepared)map.getSource(id).setData(applyReservoirColors(data,estimated.estimates));
+    const colored=estimated.waterbodies.features.filter(f=>f.properties.available).length;
+    if(reservoirBodies)document.getElementById('reservoir-status').textContent=colored+' / '+reservoirBodies.features.length+' identified Mississippi waterbodies have bracketed color estimates. Natural-lake/reservoir classification is unavailable. Unsupported boundaries remain gray.';
     if(map.getLayer('noaa-comparison'))map.setLayoutProperty('noaa-comparison','visibility',comparing?'visible':'none');
     const visibleAssignments={...assignments,sections:(assignments.sections||[]).filter(s=>[...s.reach_ids,s.upstream_reach,s.downstream_reach].every(id=>geometryById.has(String(id))))};
     const gauges=connectedGauges(visibleAssignments,observations,Date.now(),freshnessHours);
@@ -54,13 +70,15 @@ map.once('style.load',async()=>{
     document.getElementById('comparison-note').hidden=!comparing;
     document.getElementById('anomaly-legend').hidden=!comparing;
   }
-  for(const id of ['national-geometry','gauge-colors','noaa-comparison','launches','show-gauges'])document.getElementById(id).addEventListener('change',sync);
-  map.on('zoom',()=>{for(const id of modeled.keys())if(map.getLayer(id))map.setFilter(id,['>=',['to-number',['get','order'],0],zoomPolicy(map.getZoom()).order]);map.setFilter('connected-gauges',['>=',['get','connection_order'],zoomPolicy(map.getZoom()).order]);});
+  for(const id of ['reservoirs','national-geometry','gauge-colors','noaa-comparison','launches','show-gauges'])document.getElementById(id).addEventListener('change',sync);
+  map.on('zoom',()=>{for(const id of ['reservoir-fills','reservoir-outlines'])map.setFilter(id,['>=',['get','order'],zoomPolicy(map.getZoom()).order]);for(const id of modeled.keys())if(map.getLayer(id))map.setFilter(id,['>=',['to-number',['get','order'],0],zoomPolicy(map.getZoom()).order]);map.setFilter('connected-gauges',['>=',['get','connection_order'],zoomPolicy(map.getZoom()).order]);});
   // Stage observations refresh without reconstructing topology. Recheck freshness each minute.
   const gaugeReady=Promise.all([get('web/nwm/gauges/assignments.json'),get('web/nwm/gauges/observations.json')]).then(([a,o])=>{
     assignments=a;observations=o.records||{};freshnessHours=Number.isFinite(o.max_age_hours)&&o.max_age_hours>0?o.max_age_hours:36;
     document.getElementById('gauge-status').textContent=(a.sections||[]).length+' confirmed gauge sections. '+(a.limitation||'');sync();
   }).catch(error=>{document.getElementById('gauge-status').textContent='Observed assignments unavailable; modeled colors retained.';});
+  Promise.all(['waterbodies.geojson','context.geojson','topology.json','flow.json'].map(name=>get('web/nwm/reservoirs/'+name).catch(()=>null))).then(([b,g,t,f])=>{if(!b)throw Error('Waterbody geometry unavailable');reservoirBodies=b;reservoirGeometry=g;reservoirTopology=t;reservoirFlow=f?.records||[];sync();}).catch(()=>{document.getElementById('reservoir-status').textContent='Reservoir data unavailable; river colors remain available.';});
+  setInterval(()=>get('web/nwm/reservoirs/flow.json?time='+Date.now()).then(f=>{reservoirFlow=f.records||[];sync();}).catch(()=>{}),15*60000);
   get('web/nwm/gauges/topology.json').then(t=>{topology=t;sync();}).catch(()=>{});
   get('web/nwm/gauges/geometry.geojson').then(g=>{connectedGeometry=g;geometryById=new Map(g.features.map(f=>[String(f.properties.feature_id),f]));sync();}).catch(()=>{});
   setInterval(sync,60000);
@@ -76,8 +94,11 @@ map.once('style.load',async()=>{
       if(p.gauge_provenance){const g=JSON.parse(p.gauge_provenance);lines.push('Observed section position: '+p.observed_position,'Path confidence: '+g.confidence,'Method: '+g.method,'Covered reach IDs: '+g.reach_ids.join(', '));
         for(const key of ['upstream_observation','downstream_observation']){const o=g[key];lines.push(o.name+' ('+o.id+'): '+o.stage+' ft · low '+o.low+' ft · flood '+o.flood+' ft · position '+o.position+' · '+o.timestamp+' · '+o.reference_source);}}
       lines.push(...[['Current discharge','discharge'],['Low anchor','low'],['Central anchor','average'],['Upper anchor','flood']].map(([label,key])=>label+': '+(p[key]??'unavailable')+(p[key]==null?'':' ft³/s')),'Modeled scale position: '+(p.scale_position??'unavailable'),'NOAA update: '+(p.noaa_updated_at??'unavailable'));
-      popup(lines,event.lngLat);break;
+      if(p.reservoir_id)lines.push('Waterbody: '+p.reservoir_name+' ('+p.reservoir_id+')','Method: '+p.inference_method);
+      popup(lines,event.lngLat);return;
     }
+    const body=map.queryRenderedFeatures(event.point,{layers:['reservoir-fills']})[0];
+    if(body){const p=body.properties;popup([p.name+' · '+(p.available?'Estimated reservoir color':'Reservoir estimate unavailable'),'NOAA waterbody ID: '+p.waterbody_id,'Classification: '+p.classification,'Color is a visual estimate, not a reservoir discharge, depth or operating condition.','Estimated scale position: '+(p.inferred_position??'unavailable'),'Anchor scale: '+(p.anchor_mode??'unavailable'),'Upstream reach IDs: '+(p.upstream_anchor_ids??'unavailable'),'Downstream reach IDs: '+(p.downstream_anchor_ids??'unavailable'),'Upstream position: '+(p.upstream_position??'unavailable'),'Downstream position: '+(p.downstream_position??'unavailable'),'Method: '+(p.method??p.unavailable_reason),'Geometry: '+p.geometry_source,'Anchor values and timestamps (modeled discharge/references in ft³/s; observed stages in gauge provenance in ft): '+(p.anchor_provenance??'unavailable')],event.lngLat);}
   });
   get('web/nwm/anomaly-legend.json').then(data=>{const node=document.getElementById('anomaly-legend'),heading=document.createElement('strong');heading.textContent=data.layer.layerName;node.append(heading,document.createElement('br'));for(const item of data.layer.legend){const row=document.createElement('span'),img=document.createElement('img');img.alt='';img.src='data:image/png;base64,'+item.imageData;row.append(img,document.createTextNode(item.label));node.append(row);}}).catch(()=>{document.getElementById('anomaly-legend').textContent='NOAA legend unavailable';});
   const anomaly='https://maps.water.noaa.gov/server/rest/services/nwm/ana_anomaly/MapServer';
