@@ -1,0 +1,422 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "Cook",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "http://water.usgs.gov/"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "05532000",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=05532000"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 617.54
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "RVRI2",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 8
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 12
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 9
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 11
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 1040,
+          "occurredTime": "2010-07-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 13.57
+        },
+        {
+          "flow": 1120,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.16
+        },
+        {
+          "flow": 1120,
+          "occurredTime": "1987-08-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.84
+        },
+        {
+          "flow": 986,
+          "occurredTime": "2015-06-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.32
+        },
+        {
+          "flow": 889,
+          "occurredTime": "2014-08-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.51
+        },
+        {
+          "flow": 727,
+          "occurredTime": "2020-05-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.18
+        },
+        {
+          "flow": 895,
+          "occurredTime": "1990-05-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.13
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1948-03-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 11
+        },
+        {
+          "flow": 833,
+          "occurredTime": "2017-10-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.94
+        },
+        {
+          "flow": 808,
+          "occurredTime": "2008-09-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.33
+        },
+        {
+          "flow": 777,
+          "occurredTime": "2006-10-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.07
+        },
+        {
+          "flow": 753,
+          "occurredTime": "1997-08-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.86
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1954-10-10T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 9.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.19
+        },
+        {
+          "flow": 652,
+          "occurredTime": "2001-10-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.97
+        },
+        {
+          "flow": 543,
+          "occurredTime": "2020-05-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.83
+        }
+      ],
+      "recent": [
+        {
+          "flow": 727,
+          "occurredTime": "2020-05-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.18
+        },
+        {
+          "flow": 543,
+          "occurredTime": "2020-05-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.83
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.19
+        },
+        {
+          "flow": 833,
+          "occurredTime": "2017-10-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.94
+        },
+        {
+          "flow": 986,
+          "occurredTime": "2015-06-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.32
+        },
+        {
+          "flow": 889,
+          "occurredTime": "2014-08-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.51
+        },
+        {
+          "flow": 1120,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.16
+        },
+        {
+          "flow": 1040,
+          "occurredTime": "2010-07-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 13.57
+        },
+        {
+          "flow": 808,
+          "occurredTime": "2008-09-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.33
+        },
+        {
+          "flow": 777,
+          "occurredTime": "2006-10-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.07
+        },
+        {
+          "flow": 652,
+          "occurredTime": "2001-10-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.97
+        },
+        {
+          "flow": 753,
+          "occurredTime": "1997-08-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.86
+        },
+        {
+          "flow": 895,
+          "occurredTime": "1990-05-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.13
+        },
+        {
+          "flow": 1120,
+          "occurredTime": "1987-08-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.84
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1954-10-10T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 9.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1948-03-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 11
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 14,
+        "statement": "Widespread inundation of structures and roadways in the floodplain reaches multiple blocks from the creek in Northlake, Stone Park, Melrose Park, Bellwood, and Westchester. Kindred Hospital Chicago Northlake may be threatened. Northlake Fire Department may be threatened. Union Pacific West railroad tracks are threatened in Bellwood."
+      },
+      {
+        "stage": 13,
+        "statement": "A few residences may be threatened off Cermak Road near the creek in Broadview. North Avenue is threatened in Northlake. Lake Street is threatened in Stone Park. Roosevelt Road is threatened in Westchester."
+      },
+      {
+        "stage": 12.5,
+        "statement": "I-280 (Eisenhower Expressway) is threatened in Bellwood and Westchester. Manheim Road is threatened in Stone Park."
+      },
+      {
+        "stage": 12,
+        "statement": "Numerous residences are threatened at Meadowcreek Mobile Home Park and near Lake Street and Manheim Road in Melrose Park and Stone Park. A few residences are threatened off Harrison Street near the creek in Bellwood. St Charles Road, Washington Boulevard, and Madison Street are threatened in Bellwood."
+      },
+      {
+        "stage": 11,
+        "statement": "Numerous minor roadways are threatened near the creek in Northlake, Stone Park, Melrose Park."
+      },
+      {
+        "stage": 10.5,
+        "statement": "A few roadways are threatened at Meadowcreek Mobile Home Park in Melrose Park and Stone Park. Low-lying sections of Stevenson Park are inundated in Bellwood."
+      },
+      {
+        "stage": 9.5,
+        "statement": "Water begins to be diverted into Addison Creek Reservoir to reduce flood impacts."
+      },
+      {
+        "stage": 8,
+        "statement": "Low-lying trails are threatened near Hansen Park in Northlake."
+      },
+      {
+        "stage": 5,
+        "statement": "Water overtops low-lying banks near Hansen Park in Northlake."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/bwdi2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/bwdi2_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [
+    {
+      "impact": "River nears zero flow.",
+      "value": "1.0"
+    }
+  ],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.881856,
+  "lid": "BWDI2",
+  "longitude": -87.868933,
+  "lowThreshold": {
+    "units": "ft",
+    "value": 1
+  },
+  "name": "Addison Creek at Bellwood",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "",
+    "observed": "HGIRG"
+  },
+  "reachId": "14785903",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 1.76,
+      "primaryUnit": "ft",
+      "secondary": 0.0275,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T14:15:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "",
+  "usgsId": "05532000",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}

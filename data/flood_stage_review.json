@@ -1,0 +1,132 @@
+{
+  "03331040": {
+    "noaa_lid": "PIKI3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "03331440": {
+    "noaa_lid": "MAXI3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04095090": {
+    "noaa_lid": "PBPI3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04095300": {
+    "noaa_lid": "TCRI3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04095380": {
+    "noaa_lid": "MGNI3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04097540": {
+    "noaa_lid": "NOTM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "0409754132": {
+    "noaa_lid": "CTVM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04098980": {
+    "noaa_lid": "MCQM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04101370": {
+    "noaa_lid": "JCRI3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04101535": {
+    "noaa_lid": "DOWM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04102700": {
+    "noaa_lid": "BNRM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04106320": {
+    "noaa_lid": "PCOM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04106400": {
+    "noaa_lid": "WPCM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04106500": {
+    "noaa_lid": "PCKM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04108600": {
+    "noaa_lid": "HOPM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04108800": {
+    "noaa_lid": "ZEEM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04118564": {
+    "noaa_lid": "GNPM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04119055": {
+    "noaa_lid": "GRPM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04119070": {
+    "noaa_lid": "GNDM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "04119400": {
+    "noaa_lid": "EASM4",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "05516665": {
+    "noaa_lid": "OGRI3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "05536890": {
+    "noaa_lid": "LCSI2",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "05540130": {
+    "noaa_lid": "NAWI2",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "05540275": {
+    "noaa_lid": "SPGI2",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "05543010": {
+    "noaa_lid": "SNAI2",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  },
+  "05544348": {
+    "noaa_lid": "WADW3",
+    "reason": "Missing usable minor flood stage",
+    "stage_units": "ft"
+  }
+}

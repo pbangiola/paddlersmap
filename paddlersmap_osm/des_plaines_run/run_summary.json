@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "planned_tiles": 1095,
+  "attempted_tiles": 853,
+  "completed_tiles": 852,
+  "unique_objects": 615491,
+  "canoe_tagged_objects": 130,
+  "error": "HTTPError: HTTP Error 509: Unknown Error",
+  "timestamp_utc": "2026-10-19T19:40:47.626498+00:00"
+}

@@ -1,0 +1,509 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "Du Page",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "https://water.usgs.gov/"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "05540228",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=05540228"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 648.18
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "BOLI2",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 11
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 16
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 13
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 15
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 0,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 17.5
+        },
+        {
+          "flow": 1990,
+          "occurredTime": "2020-05-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.91
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1987-08-14T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 15.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1983-07-02T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 15.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1954-10-10T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 14.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1996-07-18T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 14.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1975-04-18T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 14.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1979-03-04T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 14
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1950-04-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 13.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1978-05-13T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 12.5
+        },
+        {
+          "flow": 1220,
+          "occurredTime": "2020-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.39
+        },
+        {
+          "flow": 1220,
+          "occurredTime": "2022-09-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.38
+        },
+        {
+          "flow": 1180,
+          "occurredTime": "2021-06-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.16
+        },
+        {
+          "flow": 1070,
+          "occurredTime": "2022-05-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.63
+        },
+        {
+          "flow": 1010,
+          "occurredTime": "2024-07-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.37
+        },
+        {
+          "flow": 952,
+          "occurredTime": "2021-10-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.06
+        },
+        {
+          "flow": 944,
+          "occurredTime": "2022-02-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.01
+        }
+      ],
+      "recent": [
+        {
+          "flow": 1010,
+          "occurredTime": "2024-07-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.37
+        },
+        {
+          "flow": 1220,
+          "occurredTime": "2022-09-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.38
+        },
+        {
+          "flow": 1070,
+          "occurredTime": "2022-05-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.63
+        },
+        {
+          "flow": 944,
+          "occurredTime": "2022-02-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.01
+        },
+        {
+          "flow": 952,
+          "occurredTime": "2021-10-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.06
+        },
+        {
+          "flow": 1180,
+          "occurredTime": "2021-06-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.16
+        },
+        {
+          "flow": 1990,
+          "occurredTime": "2020-05-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.91
+        },
+        {
+          "flow": 1220,
+          "occurredTime": "2020-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.39
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 17.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1996-07-18T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 14.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1987-08-14T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 15.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1983-07-02T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 15.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1979-03-04T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 14
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1978-05-13T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 12.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1975-04-18T00:00:00Z",
+          "olddatum": true,
+          "preliminary": "P",
+          "stage": 14.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1954-10-10T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 14.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1950-04-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 13.8
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 20.5,
+        "statement": "Lisle High School is threatened."
+      },
+      {
+        "stage": 19,
+        "statement": "Residences are threatened at Seven Bridges in Woodridge."
+      },
+      {
+        "stage": 18,
+        "statement": "Lisle Police Department is threatened. Numerous residences threatened off Four Lakes Avenue east of the river in Lisle."
+      },
+      {
+        "stage": 17.5,
+        "statement": "US-34 (Ogden Avenue) is threatened near the river in Lisle."
+      },
+      {
+        "stage": 17,
+        "statement": "Numerous roadways off Maple Avenue are threatened west of the river in Lisle. Numerous roadways threatened off Four Lakes Avenue east of the river in Lisle. Roadways threatened at Seven Bridges in Woodridge."
+      },
+      {
+        "stage": 16.5,
+        "statement": "Residences are threatened along Lake Drive near Maple Avenue south of Lisle."
+      },
+      {
+        "stage": 16,
+        "statement": "Water reaches the top of the levee near downtown Lisle. Maple Avenue is threatened east of the river in Lisle. Four Lakes Avenue is threatened east of the river in Lisle."
+      },
+      {
+        "stage": 15.5,
+        "statement": "Without flood protection, IL-53 is threatened near downtown Lisle. Lake Drive and Forest View Road are threatened near Maple Avenue south of Lisle."
+      },
+      {
+        "stage": 15,
+        "statement": "Water reaches the top of levee at Lisle Community Park. Low-lying parking lots are threatened at Lisle High School."
+      },
+      {
+        "stage": 13.5,
+        "statement": "Without flood protection, residences are threatened along Lacey Avenue, River Drive, Dumoulin Avenue, and McKinley Avenue in Lisle. Short Street is threatened west of the river in Lisle. Parking lots are threatened at Lisle Community Park."
+      },
+      {
+        "stage": 12.5,
+        "statement": "Riverview Drive threatened in Lisle. Without flood protection, Lacey Avenue, River Drive, Dumoulin Avenue, and McKinley Avenue are threatened near the river in Lisle."
+      },
+      {
+        "stage": 12,
+        "statement": "Water overtops low-lying banks at Lisle Community Park."
+      },
+      {
+        "stage": 10,
+        "statement": "Water overtops low-lying banks near Seven Bridges in Lisle."
+      }
+    ],
+    "lowWaters": {
+      "historic": [
+        {
+          "flow": 11,
+          "occurredTime": "2021-09-15T00:00:00Z",
+          "stage": 5.15,
+          "statement": ""
+        },
+        {
+          "flow": 17,
+          "occurredTime": "2021-12-05T00:00:00Z",
+          "stage": 5.21,
+          "statement": ""
+        },
+        {
+          "flow": 1,
+          "occurredTime": "2024-10-17T00:00:00Z",
+          "stage": 5.23,
+          "statement": ""
+        },
+        {
+          "flow": 12,
+          "occurredTime": "2023-11-19T00:00:00Z",
+          "stage": 5.24,
+          "statement": ""
+        },
+        {
+          "flow": 10,
+          "occurredTime": "2022-10-10T00:00:00Z",
+          "stage": 5.25,
+          "statement": ""
+        },
+        {
+          "flow": 12,
+          "occurredTime": "2020-09-05T00:00:00Z",
+          "stage": 5.38,
+          "statement": ""
+        }
+      ]
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/ebdi2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/ebdi2_record.png"
+    },
+    "photos": [
+      {
+        "geometry": {
+          "coordinates": [
+            41.7928,
+            -88.0789
+          ],
+          "type": "Point"
+        },
+        "id": "8259406621582692846",
+        "properties": {
+          "caption": "05/18/2020, 13.8ft. Vicinity of gauge, looking east. Credit: Dave Richter, Lisle PD volunteer",
+          "image": "https://water.noaa.gov/resources/photos/ebdi2/8259406621582692846.png"
+        },
+        "type": "Feature"
+      }
+    ],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [
+    {
+      "impact": "Approximate stage of the 1-in-10 annual chance flow (7-day average).",
+      "value": "5.5"
+    },
+    {
+      "impact": "River nears zero flow.",
+      "value": "5.0"
+    }
+  ],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.7928,
+  "lid": "EBDI2",
+  "longitude": -88.0789,
+  "lowThreshold": {
+    "units": "ft",
+    "value": 5.5
+  },
+  "name": "East Branch Du Page River at Lisle",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "",
+    "observed": "HGIRG"
+  },
+  "reachId": "14786951",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 5.82,
+      "primaryUnit": "ft",
+      "secondary": 0.0703,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T13:45:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "DEBI2",
+  "usgsId": "05540228",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}

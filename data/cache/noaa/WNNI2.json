@@ -1,0 +1,402 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "McHenry",
+  "dataAttribution": [
+    {
+      "abbrev": "USGS",
+      "text": "05548105",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=05548105"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 797.54
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "NIPI2",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 8.5
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 13
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 9
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 11
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 0,
+          "occurredTime": "1967-06-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 14.3
+        },
+        {
+          "flow": 3690,
+          "occurredTime": "1999-06-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.63
+        },
+        {
+          "flow": 2180,
+          "occurredTime": "2019-09-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.16
+        },
+        {
+          "flow": 2990,
+          "occurredTime": "2000-06-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.89
+        },
+        {
+          "flow": 2090,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.92
+        },
+        {
+          "flow": 1870,
+          "occurredTime": "2018-02-20T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.67
+        },
+        {
+          "flow": 1400,
+          "occurredTime": "2020-05-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.48
+        },
+        {
+          "flow": 1660,
+          "occurredTime": "1997-02-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.2
+        },
+        {
+          "flow": 1250,
+          "occurredTime": "2015-07-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.72
+        },
+        {
+          "flow": 1090,
+          "occurredTime": "2020-08-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.67
+        },
+        {
+          "flow": 1010,
+          "occurredTime": "2024-04-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.43
+        },
+        {
+          "flow": 912,
+          "occurredTime": "2024-06-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.12
+        },
+        {
+          "flow": 981,
+          "occurredTime": "2001-02-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.08
+        },
+        {
+          "flow": 873,
+          "occurredTime": "2017-07-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.01
+        },
+        {
+          "flow": 919,
+          "occurredTime": "1996-05-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.94
+        }
+      ],
+      "recent": [
+        {
+          "flow": 912,
+          "occurredTime": "2024-06-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.12
+        },
+        {
+          "flow": 1010,
+          "occurredTime": "2024-04-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.43
+        },
+        {
+          "flow": 1090,
+          "occurredTime": "2020-08-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.67
+        },
+        {
+          "flow": 1400,
+          "occurredTime": "2020-05-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.48
+        },
+        {
+          "flow": 2180,
+          "occurredTime": "2019-09-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.16
+        },
+        {
+          "flow": 1870,
+          "occurredTime": "2018-02-20T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.67
+        },
+        {
+          "flow": 873,
+          "occurredTime": "2017-07-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.01
+        },
+        {
+          "flow": 1250,
+          "occurredTime": "2015-07-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.72
+        },
+        {
+          "flow": 2090,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.92
+        },
+        {
+          "flow": 981,
+          "occurredTime": "2001-02-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 8.08
+        },
+        {
+          "flow": 2990,
+          "occurredTime": "2000-06-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 10.89
+        },
+        {
+          "flow": 3690,
+          "occurredTime": "1999-06-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11.63
+        },
+        {
+          "flow": 1660,
+          "occurredTime": "1997-02-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 9.2
+        },
+        {
+          "flow": 919,
+          "occurredTime": "1996-05-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.94
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1967-06-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 14.3
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 16,
+        "statement": "Wonder Lake Road threatened along Wonder Lake."
+      },
+      {
+        "stage": 15,
+        "statement": "Numerous sections of West Lake Shore Drive, East Lake Shore Drive, and nearby side streets threatened in Wonder Lake. Greenwood Road threatened near the creek in Greenwood."
+      },
+      {
+        "stage": 14,
+        "statement": "Water may near the top of Wonder Lake Dam. Numerous residences threatened along Wonder Lake."
+      },
+      {
+        "stage": 13.5,
+        "statement": "A few residences threatened along West Lake Shore Drive near Sunset Drive and near Nundra Drive in Wonder Lake. A few residences threatened along East Lake Shore Drive near Deep Spring Road in Wonder Lake. Thompson Road threatened near the creek in Wonder Lake."
+      },
+      {
+        "stage": 13,
+        "statement": "A few residences threatened along West Lake Shore Drive and Westwood Drive in Wonder Lake. West Lake Shore Drive threatened near Sunset Drive and Nundra Drive in Wonder Lake. East Lake Shore Drive threatened near Nantucket Drive in Wonder Lake."
+      },
+      {
+        "stage": 12.5,
+        "statement": "East Lakeshore Drive threatened near Lakeview Drive in Wonder Lake."
+      },
+      {
+        "stage": 11,
+        "statement": "A few low-lying residences threatened along East Lake Shore Drive near Nantucket Drive in Wonder Lake."
+      },
+      {
+        "stage": 9,
+        "statement": "Water overtops low-lying banks along Wonder Lake. Low-lying portions of Jacobson Park threatened in Wonder Lake."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/wnni2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/wnni2_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [
+    {
+      "impact": "Approximate stage of the 1-in-10 annual chance flow (7-day average).",
+      "value": "4.7"
+    },
+    {
+      "impact": "River reaches crest elevation of Wonder Lake Dam. River nears zero flow.",
+      "value": "4.6"
+    }
+  ],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 42.3853,
+  "lid": "WNNI2",
+  "longitude": -88.3694,
+  "lowThreshold": {
+    "units": "ft",
+    "value": 4.7
+  },
+  "name": "Nippersink Creek at Wonder Lake",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "",
+    "observed": "HGIRG"
+  },
+  "reachId": "",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 4.93,
+      "primaryUnit": "ft",
+      "secondary": 0.034,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T13:45:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "",
+  "usgsId": "05548105",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}

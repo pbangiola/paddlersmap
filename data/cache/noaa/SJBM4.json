@@ -1,0 +1,159 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "Berrien",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey 04102085",
+      "text": "Jump to USGS site",
+      "title": "US Geological Survey 04102085",
+      "url": "https://waterdata.usgs.gov/nwis/dv/?site_no=04102085&agency_cd=USGS&referred_module=sw"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "04102085",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=04102085"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": []
+    }
+  },
+  "description": "St. Joseph River Benton Harbor",
+  "downstreamLid": "",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "major": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 583
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 583.5
+      }
+    },
+    "crests": {
+      "historic": [],
+      "recent": []
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 583.75,
+        "statement": "Water over Business Loop 94. "
+      },
+      {
+        "stage": 583.5,
+        "statement": "Business loop starts flooding as well as Whirlpool Headquarters building. "
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Graphical forecasts are not available during times of high water, forecast crest information can be found in the local WFO web page.",
+  "hydronotes": [
+    {
+      "effective": "0101",
+      "expiration": "1231",
+      "statement": "Gauge readings affected by wave action from Lake Michigan."
+    }
+  ],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/sjbm4_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/sjbm4_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 42.111864,
+  "lid": "SJBM4",
+  "longitude": -86.470614,
+  "lowThreshold": null,
+  "name": "St. Joseph River (MI/IN) at Main Chan. at BL-94 at Benton Harbor",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "",
+    "observed": "HGIRG"
+  },
+  "reachId": "12257106",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "MI",
+    "name": "Michigan"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 579.63,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T14:15:00Z"
+    }
+  },
+  "timeZone": "EST5EDT",
+  "upstreamLid": "NILM4",
+  "usgsId": "04102085",
+  "wfo": {
+    "abbreviation": "IWX",
+    "name": "Syracuse"
+  }
+}

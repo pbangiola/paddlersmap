@@ -1,0 +1,147 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "not_defined",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "St. Joseph",
+  "dataAttribution": [
+    {
+      "abbrev": "OTT Hydromet",
+      "text": "OTT Hydromet",
+      "title": "OTT Hydromet",
+      "url": "https://www.hydrometcloud.com/goesweb/Kankakee/"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": []
+    }
+  },
+  "description": "",
+  "downstreamLid": "DAVI3",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "major": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": -9999
+      }
+    },
+    "crests": {
+      "historic": [],
+      "recent": []
+    },
+    "flowUnits": "cfs",
+    "impacts": [],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/crmi3_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/crmi3_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [
+    {
+      "impact": "Stage needed to inundate designated Gulf Sturgeon critical habitat below Jim Woodruff Lock and Dam.",
+      "value": "5 ft"
+    },
+    {
+      "impact": "Temporary (not sustainable) operating level for of Scholz Power Plant",
+      "value": "3 ft"
+    }
+  ],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.6061014255139,
+  "lid": "CRMI3",
+  "longitude": -86.4136111180909,
+  "lowThreshold": null,
+  "name": "Kankakee River at Crumstown",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "",
+    "observed": "HGIRP"
+  },
+  "reachId": "",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IN",
+    "name": "Indiana"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "not_defined",
+      "primary": 4.8,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T13:00:00Z"
+    }
+  },
+  "timeZone": "EST5EDT",
+  "upstreamLid": "",
+  "usgsId": "",
+  "wfo": {
+    "abbreviation": "IWX",
+    "name": "Syracuse"
+  }
+}

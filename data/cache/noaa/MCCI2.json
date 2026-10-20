@@ -1,0 +1,405 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "Cook",
+  "dataAttribution": [
+    {
+      "abbrev": "MWRD",
+      "text": "Metropolitan Water Reclamation District of Greater Chicago",
+      "title": "MWRD",
+      "url": "https://www.mwrd.org"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 579.2
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "LCSI2",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": -100
+      },
+      "major": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": -30
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": -9999
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 0,
+          "occurredTime": "2026-04-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -33.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-07-06T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -34.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-04-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -35
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-06T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -35.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-08-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -36
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2025-08-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -36.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-20T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-05-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-05-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-05-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-06-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -39.1
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2021-10-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -39.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2024-07-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -40.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-08-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -40.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2023-07-04T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -42.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2021-07-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -44
+        }
+      ],
+      "recent": [
+        {
+          "flow": 0,
+          "occurredTime": "2026-08-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -36
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-08-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -40.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-07-06T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -34.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-06-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -39.1
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-04-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -33.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2026-04-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -35
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2025-08-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -36.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2024-07-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -40.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2023-07-04T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -42.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2021-10-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -39.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2021-07-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -44
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-05-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-05-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-20T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-06T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -35.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-05-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": -38.5
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": -22,
+        "statement": "Lowest rim of McCook Reservoir."
+      },
+      {
+        "stage": -40,
+        "statement": "McCook Reservoir reaches 100 percent of full storage. Combined sewer overflow event likely in central Cook County. Water remains contained within the reservoir."
+      },
+      {
+        "stage": -95,
+        "statement": "McCook Reservoir reaches 75 percent of full storage. Combined sewer overflow event possible in central Cook County."
+      },
+      {
+        "stage": -155,
+        "statement": "McCook Reservoir reaches 50 percent of full storage."
+      },
+      {
+        "stage": -215,
+        "statement": "McCook Reservoir reaches 25 percent of full storage."
+      },
+      {
+        "stage": -280,
+        "statement": "McCook Reservoir is empty, 0 percent of full storage."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are issued as needed during times of high water, but are not routinely available.",
+  "hydronotes": [
+    {
+      "effective": "0101",
+      "expiration": "1212",
+      "statement": "River forecasts for this location take into account past and future precipitation.  The  stages/flows that will occur may be different if future rainfall is different than forecast."
+    }
+  ],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/mcci2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/mcci2_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.7775,
+  "lid": "MCCI2",
+  "longitude": -87.8366,
+  "lowThreshold": null,
+  "name": "Mainstream Deep Tunnel at McCook Reservoir",
+  "normalThreshold": {
+    "units": "ft",
+    "value": -280
+  },
+  "pedts": {
+    "forecast": "HGIFF",
+    "observed": "HGIRP"
+  },
+  "reachId": "",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": -128.58,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-07T18:00:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "",
+  "usgsId": "",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}

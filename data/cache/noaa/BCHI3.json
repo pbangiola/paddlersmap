@@ -1,0 +1,147 @@
+{
+  "ForecastFloodCategory": "out_of_service",
+  "ObservedFloodCategory": "out_of_service",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "Kosciusko",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "03331010",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=03331010"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": []
+    }
+  },
+  "description": "",
+  "downstreamLid": "ORAI3",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "major": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": -9999
+      }
+    },
+    "crests": {
+      "historic": [],
+      "recent": []
+    },
+    "flowUnits": "cfs",
+    "impacts": [],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/bchi3_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/bchi3_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": false,
+    "message": "Gage is currently out of service."
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.281388888889,
+  "lid": "BCHI3",
+  "longitude": -85.779722222222,
+  "lowThreshold": null,
+  "name": "Northern Indiana Lakes at Big Chapman Lake near Warsaw",
+  "normalThreshold": {
+    "units": "ft",
+    "value": 0
+  },
+  "pedts": {
+    "forecast": "HPIFF",
+    "observed": "HPIRG"
+  },
+  "reachId": "18486892",
+  "rfc": {
+    "abbreviation": "OHRFC",
+    "name": "Ohio River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IN",
+    "name": "Indiana"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "out_of_service",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "out_of_service",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    }
+  },
+  "timeZone": "EST5EDT",
+  "upstreamLid": "",
+  "usgsId": "03331010",
+  "wfo": {
+    "abbreviation": "IWX",
+    "name": "Syracuse"
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "start_date": "2025-10-10",
+    "end_date": "2026-10-09",
+    "calculated_at": "2026-10-09T00:35:27.878971+00:00",
+    "method": "USGS daily mean (00003), daily minimum (00002), daily maximum (00001); averages equally weighted by day",
+    "coverage_note": "complete_year means at least 347 of 365 daily means; no raw observations retained"
+  },
+  "stations": {
+    "03328000": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "03330241": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "03330500": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "03331040": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "03331440": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "03331500": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "03331753": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "03332349": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "040869416": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087000": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087030": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087070": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087088": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087119": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087120": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087142": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "040871473": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "040871475": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "040871476": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087159": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087170": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087204": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087214": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087220": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087233": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "040872342": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087240": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087257": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04087440": {
+      "mean_ft": 0.002,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 363,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.995,
+      "complete_year": true
+    },
+    "04092677": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04092750": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04092944": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04092964": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04092977": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04093000": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04093100": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04093176": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04093250": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    },
+    "04093503": {
+      "mean_ft": null,
+      "minimum_ft": null,
+      "maximum_ft": null,
+      "mean_coverage_days": 0,
+      "minimum_coverage_days": 0,
+      "maximum_coverage_days": 0,
+      "coverage_fraction": 0.0,
+      "complete_year": false
+    }
+  },
+  "failures": {}
+}

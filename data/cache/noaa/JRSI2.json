@@ -1,0 +1,367 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "Will",
+  "dataAttribution": [
+    {
+      "abbrev": "USGS",
+      "text": "05537980",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=05537980"
+    },
+    {
+      "abbrev": "COE",
+      "text": "Website",
+      "title": "Observations courtesy of U.S. Army Corps of Engineers",
+      "url": "https://rivergages.mvr.usace.army.mil/WaterControl/stationinfo2.cfm?sid=JRSI2&fid=&dt=S"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": -0.28
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "JOLI2",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 540.5
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 544
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 541
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 543
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 0,
+          "occurredTime": "1957-07-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 542
+        },
+        {
+          "flow": 33100,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 541.22
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1985-03-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 541
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-01T17:15:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 540.97
+        },
+        {
+          "flow": 23500,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.92
+        },
+        {
+          "flow": 27400,
+          "occurredTime": "2007-08-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.64
+        },
+        {
+          "flow": 28300,
+          "occurredTime": "2008-12-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.49
+        },
+        {
+          "flow": 27300,
+          "occurredTime": "2011-06-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.42
+        },
+        {
+          "flow": 20800,
+          "occurredTime": "2015-06-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.37
+        },
+        {
+          "flow": 26400,
+          "occurredTime": "2010-07-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.29
+        },
+        {
+          "flow": 20700,
+          "occurredTime": "2016-05-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.06
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2005-01-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 539.96
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1960-04-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 539.5
+        }
+      ],
+      "recent": [
+        {
+          "flow": 0,
+          "occurredTime": "2019-05-01T17:15:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 540.97
+        },
+        {
+          "flow": 20700,
+          "occurredTime": "2016-05-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.06
+        },
+        {
+          "flow": 20800,
+          "occurredTime": "2015-06-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.37
+        },
+        {
+          "flow": 23500,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.92
+        },
+        {
+          "flow": 27300,
+          "occurredTime": "2011-06-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.42
+        },
+        {
+          "flow": 26400,
+          "occurredTime": "2010-07-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.29
+        },
+        {
+          "flow": 28300,
+          "occurredTime": "2008-12-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.49
+        },
+        {
+          "flow": 33100,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 541.22
+        },
+        {
+          "flow": 27400,
+          "occurredTime": "2007-08-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 540.64
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2005-01-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 539.96
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1985-03-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 541
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1960-04-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 539.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1957-07-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 542
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 545.5,
+        "statement": "Water reaches the top of the flood wall in downtown Joliet."
+      },
+      {
+        "stage": 545,
+        "statement": "Without flood protection, widespread inundation of structures and roadways in the floodplain reaches up to half mile from the river near downtown Joliet."
+      },
+      {
+        "stage": 544,
+        "statement": "Without flood protection, water begins to overtop the embankment upstream of Ruby Street along east bank of the river."
+      },
+      {
+        "stage": 543.5,
+        "statement": "A few structures near the river upstream of Ruby Street are threatened."
+      },
+      {
+        "stage": 542,
+        "statement": "North Bluff Street in threatened. Low-lying property near Ruby Street inundated."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Graphical forecasts are not available during times of high water, forecast crest information can be found in the local WFO web page.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/jrsi2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/jrsi2_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [
+    {
+      "impact": "Low water levels begin to impact shipping interests along the river.",
+      "value": "536.5"
+    }
+  ],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.536472,
+  "lid": "JRSI2",
+  "longitude": -88.083694,
+  "lowThreshold": {
+    "units": "ft",
+    "value": 536.5
+  },
+  "name": "Des Plaines River at Joliet",
+  "normalThreshold": {
+    "units": "ft",
+    "value": 539
+  },
+  "pedts": {
+    "forecast": "HGIFF",
+    "observed": "HGIRA"
+  },
+  "reachId": "14787569",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 538.96,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T13:45:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "LEMI2",
+  "usgsId": "05537980",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}

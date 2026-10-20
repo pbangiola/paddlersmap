@@ -1,0 +1,251 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "not_defined",
+  "TruncateFcst": "0",
+  "TruncateObs": "-1",
+  "county": "Kent",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "http://water.usgs.gov/"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "04119070",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=04119070"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 579.99
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "EASM4",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "major": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": -9999
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 30300,
+          "occurredTime": "2020-05-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.19
+        },
+        {
+          "flow": 28800,
+          "occurredTime": "2023-04-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.74
+        },
+        {
+          "flow": 16900,
+          "occurredTime": "2024-02-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.64
+        },
+        {
+          "flow": 16800,
+          "occurredTime": "2021-07-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.63
+        },
+        {
+          "flow": 14600,
+          "occurredTime": "2022-02-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.7
+        }
+      ],
+      "recent": [
+        {
+          "flow": 16900,
+          "occurredTime": "2024-02-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.64
+        },
+        {
+          "flow": 28800,
+          "occurredTime": "2023-04-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.74
+        },
+        {
+          "flow": 14600,
+          "occurredTime": "2022-02-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.7
+        },
+        {
+          "flow": 16800,
+          "occurredTime": "2021-07-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.63
+        },
+        {
+          "flow": 30300,
+          "occurredTime": "2020-05-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.19
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 19.5,
+        "statement": "Approximate level at which water starts to cover the I-196 ramps in Grandville"
+      },
+      {
+        "stage": 17,
+        "statement": "Multiple sections of the Kent Trails, Veterans Memorial Drive, and Indian Mounds are flooded."
+      },
+      {
+        "stage": 14.5,
+        "statement": "At this level, water starts to cover multiple sections of Indian Mounds Drive."
+      },
+      {
+        "stage": 14,
+        "statement": "Water starts to cover a section of Veterans Memorial Drive between Butterworth Street and Riverbend Drive."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [
+    {
+      "effective": "0101",
+      "expiration": "1231",
+      "statement": "No forecasts are available for this location"
+    },
+    {
+      "effective": "0101",
+      "expiration": "1231",
+      "statement": "Stage may be affected by ice."
+    }
+  ],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/gndm4_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/gndm4_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 42.9153038,
+  "lid": "GNDM4",
+  "longitude": -85.7672555,
+  "lowThreshold": null,
+  "name": "Grand River at Grandville",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "HGIFE",
+    "observed": "HGIRG"
+  },
+  "reachId": "9008449",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "MI",
+    "name": "Michigan"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "not_defined",
+      "primary": 4.53,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T13:45:00Z"
+    }
+  },
+  "timeZone": "EST5EDT",
+  "upstreamLid": "GDRM4",
+  "usgsId": "04119070",
+  "wfo": {
+    "abbreviation": "GRR",
+    "name": "Grand Rapids"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "0",
+  "TruncateObs": "-1",
+  "county": "Racine",
+  "dataAttribution": [
+    {
+      "abbrev": "USGS",
+      "text": "05544475",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-05544475/#dataTypeId=continuous-00065-0&period=P7D&showFieldMeasurements=true"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 760
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "BRGW3",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 5
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 8
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 6
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 7
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 0,
+          "occurredTime": "2026-04-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.29
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.75
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-10-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.62
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2011-04-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-12-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.47
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-05-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2014-04-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.22
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2015-03-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.19
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2025-07-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.18
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2025-08-10T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.03
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2014-08-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.02
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2015-07-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.97
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2011-10-04T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.79
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2015-10-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.52
+        }
+      ],
+      "recent": [
+        {
+          "flow": 0,
+          "occurredTime": "2026-04-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.29
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2025-08-10T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.03
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2025-07-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.18
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-10-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.62
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-12-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.47
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-05-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2015-10-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.52
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2015-07-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.97
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2015-03-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.19
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2014-08-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.02
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2014-04-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.22
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.75
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2011-10-04T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.79
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2011-04-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.5
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 8,
+        "statement": "Floodwaters are well into Whitford Athletic Park upstream in Waterford.  Floodwaters are well into the back yards of homes in the Rochester and Waterford areas.  Floodwaters start to affect some roads in the Rochester and Waterford areas."
+      },
+      {
+        "stage": 6.5,
+        "statement": "Many back yards of homes in the Rochester and Waterford areas are flooded.  Floodwaters affect parts of Whitford Athletic Park in Waterford."
+      },
+      {
+        "stage": 5.25,
+        "statement": "Floodwaters affect back yards and water approaches some homes in the Rochester and Waterford areas."
+      },
+      {
+        "stage": 5,
+        "statement": "There is general overflow of the lowest river banks in the Rochester and Waterford areas resulting in minor lowland flooding."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/rsrw3_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/rsrw3_record.png"
+    },
+    "photos": [
+      {
+        "geometry": {
+          "coordinates": [
+            42.74112,
+            -88.22418
+          ],
+          "type": "Point"
+        },
+        "id": "11089402092366074350",
+        "properties": {
+          "caption": "Fox River near Rochester, WI near bankfull stage",
+          "image": "https://water.noaa.gov/resources/photos/rsrw3/11089402092366074350.jpeg"
+        },
+        "type": "Feature"
+      }
+    ],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 42.74112,
+  "lid": "RSRW3",
+  "longitude": -88.22418,
+  "lowThreshold": null,
+  "name": "Fox River at Rochester",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "HGIFF",
+    "observed": "HGIRA"
+  },
+  "reachId": "14769360",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "WI",
+    "name": "Wisconsin"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 4.28,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T14:00:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "WKEW3",
+  "usgsId": "05544475",
+  "wfo": {
+    "abbreviation": "MKX",
+    "name": "Dousman"
+  }
+}

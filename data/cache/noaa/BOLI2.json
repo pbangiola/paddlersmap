@@ -1,0 +1,796 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "7",
+  "TruncateObs": "-1",
+  "county": "Will",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "05540250",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=05540250"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 624.93
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "NDRI2",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 18
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 24
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 20
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 22
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 4600,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 25.54
+        },
+        {
+          "flow": 2250,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 24.04
+        },
+        {
+          "flow": 3980,
+          "occurredTime": "1996-07-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 23.75
+        },
+        {
+          "flow": 1720,
+          "occurredTime": "2017-10-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.92
+        },
+        {
+          "flow": 1950,
+          "occurredTime": "1997-02-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.5
+        },
+        {
+          "flow": 2870,
+          "occurredTime": "2020-05-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.32
+        },
+        {
+          "flow": 1670,
+          "occurredTime": "2001-10-14T13:35:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.11
+        },
+        {
+          "flow": 1300,
+          "occurredTime": "2015-06-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1954-10-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 21.9
+        },
+        {
+          "flow": 1380,
+          "occurredTime": "2017-05-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.89
+        },
+        {
+          "flow": 1920,
+          "occurredTime": "2019-05-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.52
+        },
+        {
+          "flow": 1950,
+          "occurredTime": "2018-02-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.5
+        },
+        {
+          "flow": 1380,
+          "occurredTime": "2005-01-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.42
+        },
+        {
+          "flow": 1200,
+          "occurredTime": "1999-01-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.94
+        },
+        {
+          "flow": 1110,
+          "occurredTime": "2017-03-31T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.86
+        },
+        {
+          "flow": 1090,
+          "occurredTime": "1998-05-08T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.61
+        },
+        {
+          "flow": 1210,
+          "occurredTime": "2019-05-29T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.47
+        },
+        {
+          "flow": 989,
+          "occurredTime": "2004-08-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.32
+        },
+        {
+          "flow": 961,
+          "occurredTime": "2017-05-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.21
+        },
+        {
+          "flow": 938,
+          "occurredTime": "2000-04-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.16
+        },
+        {
+          "flow": 892,
+          "occurredTime": "2020-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.94
+        },
+        {
+          "flow": 877,
+          "occurredTime": "2017-03-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.8
+        },
+        {
+          "flow": 505,
+          "occurredTime": "2003-05-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.39
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1950-04-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 19.3
+        },
+        {
+          "flow": 573,
+          "occurredTime": "2006-06-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.16
+        },
+        {
+          "flow": 1010,
+          "occurredTime": "2022-05-04T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.12
+        },
+        {
+          "flow": 935,
+          "occurredTime": "2021-06-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.11
+        },
+        {
+          "flow": 1000,
+          "occurredTime": "2022-03-31T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.98
+        },
+        {
+          "flow": 986,
+          "occurredTime": "2022-02-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.94
+        },
+        {
+          "flow": 849,
+          "occurredTime": "2021-10-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.88
+        },
+        {
+          "flow": 906,
+          "occurredTime": "2022-09-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.87
+        },
+        {
+          "flow": 873,
+          "occurredTime": "2024-07-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.74
+        },
+        {
+          "flow": 896,
+          "occurredTime": "2020-10-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.74
+        },
+        {
+          "flow": 897,
+          "occurredTime": "2024-01-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.71
+        },
+        {
+          "flow": 892,
+          "occurredTime": "2023-02-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.71
+        },
+        {
+          "flow": 520,
+          "occurredTime": "2002-08-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.67
+        },
+        {
+          "flow": 822,
+          "occurredTime": "2020-12-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.52
+        },
+        {
+          "flow": 751,
+          "occurredTime": "2022-12-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.33
+        },
+        {
+          "flow": 739,
+          "occurredTime": "2023-07-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.28
+        },
+        {
+          "flow": 730,
+          "occurredTime": "2023-03-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.25
+        },
+        {
+          "flow": 685,
+          "occurredTime": "2022-07-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.23
+        }
+      ],
+      "recent": [
+        {
+          "flow": 873,
+          "occurredTime": "2024-07-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.74
+        },
+        {
+          "flow": 897,
+          "occurredTime": "2024-01-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.71
+        },
+        {
+          "flow": 739,
+          "occurredTime": "2023-07-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.28
+        },
+        {
+          "flow": 730,
+          "occurredTime": "2023-03-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.25
+        },
+        {
+          "flow": 892,
+          "occurredTime": "2023-02-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.71
+        },
+        {
+          "flow": 751,
+          "occurredTime": "2022-12-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.33
+        },
+        {
+          "flow": 906,
+          "occurredTime": "2022-09-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.87
+        },
+        {
+          "flow": 685,
+          "occurredTime": "2022-07-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.23
+        },
+        {
+          "flow": 1010,
+          "occurredTime": "2022-05-04T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.12
+        },
+        {
+          "flow": 1000,
+          "occurredTime": "2022-03-31T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.98
+        },
+        {
+          "flow": 986,
+          "occurredTime": "2022-02-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.94
+        },
+        {
+          "flow": 849,
+          "occurredTime": "2021-10-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.88
+        },
+        {
+          "flow": 935,
+          "occurredTime": "2021-06-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.11
+        },
+        {
+          "flow": 822,
+          "occurredTime": "2020-12-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.52
+        },
+        {
+          "flow": 896,
+          "occurredTime": "2020-10-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.74
+        },
+        {
+          "flow": 2870,
+          "occurredTime": "2020-05-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.32
+        },
+        {
+          "flow": 892,
+          "occurredTime": "2020-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.94
+        },
+        {
+          "flow": 1210,
+          "occurredTime": "2019-05-29T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.47
+        },
+        {
+          "flow": 1920,
+          "occurredTime": "2019-05-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.52
+        },
+        {
+          "flow": 1950,
+          "occurredTime": "2018-02-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.5
+        },
+        {
+          "flow": 1720,
+          "occurredTime": "2017-10-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.92
+        },
+        {
+          "flow": 961,
+          "occurredTime": "2017-05-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.21
+        },
+        {
+          "flow": 1380,
+          "occurredTime": "2017-05-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.89
+        },
+        {
+          "flow": 1110,
+          "occurredTime": "2017-03-31T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.86
+        },
+        {
+          "flow": 877,
+          "occurredTime": "2017-03-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.8
+        },
+        {
+          "flow": 1300,
+          "occurredTime": "2015-06-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.9
+        },
+        {
+          "flow": 4600,
+          "occurredTime": "2013-04-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 25.54
+        },
+        {
+          "flow": 2250,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 24.04
+        },
+        {
+          "flow": 573,
+          "occurredTime": "2006-06-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.16
+        },
+        {
+          "flow": 1380,
+          "occurredTime": "2005-01-13T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 21.42
+        },
+        {
+          "flow": 989,
+          "occurredTime": "2004-08-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.32
+        },
+        {
+          "flow": 505,
+          "occurredTime": "2003-05-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 19.39
+        },
+        {
+          "flow": 520,
+          "occurredTime": "2002-08-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18.67
+        },
+        {
+          "flow": 1670,
+          "occurredTime": "2001-10-14T13:35:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.11
+        },
+        {
+          "flow": 938,
+          "occurredTime": "2000-04-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.16
+        },
+        {
+          "flow": 1200,
+          "occurredTime": "1999-01-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.94
+        },
+        {
+          "flow": 1090,
+          "occurredTime": "1998-05-08T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.61
+        },
+        {
+          "flow": 1950,
+          "occurredTime": "1997-02-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 22.5
+        },
+        {
+          "flow": 3980,
+          "occurredTime": "1996-07-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 23.75
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1954-10-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 21.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1950-04-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 19.3
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 29,
+        "statement": "Water treatment plant property is threatened at Indian Boundary Park in Bolingbrook."
+      },
+      {
+        "stage": 27.5,
+        "statement": "IL-53 threatened north of Royce Road in Bolingbrook."
+      },
+      {
+        "stage": 26,
+        "statement": "Residential structures threatened at Seven Bridges in Woodridge."
+      },
+      {
+        "stage": 25.5,
+        "statement": "Roadways and parking lots threatened in Trout Farm Park in Bolingbrook."
+      },
+      {
+        "stage": 25,
+        "statement": "Athletic fields are threatened at Indian Boundary Park in Bolingbrook."
+      },
+      {
+        "stage": 24.5,
+        "statement": "Hobson Road threatened in Woodridge."
+      },
+      {
+        "stage": 24,
+        "statement": "Structures threatened at the Royce Road Water Reclamation Facility and the Animal Control and Care Facility in Bolingbrook."
+      },
+      {
+        "stage": 23,
+        "statement": "Royce Road is threatened east of the River near Bolingbrook. Weber Road/Washington Street is threatened between Bolingbrook and Naperville."
+      },
+      {
+        "stage": 22,
+        "statement": "Low-lying trails of Trout Farm Park are inundated in Bolingbrook."
+      },
+      {
+        "stage": 20,
+        "statement": "DuPage River Greenway Trail is threatened east of the river near Royce Road in Bolingbrook. Trails threatened at Green Valley Forest Preserve near Woodridge."
+      },
+      {
+        "stage": 18,
+        "statement": "Low-lying areas of the DuPage River Greenway are inundated along the river near Royce Road in Bolingbrook. Low-lying property inundated at the Royce Road Water Reclamation Facility in Bolingbrook."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": {
+      "interval": "OND",
+      "majorCS": "< 0.05",
+      "minorCS": "0.08",
+      "moderateCS": "< 0.05",
+      "producedTime": "2026-09-25T01:08:43Z"
+    },
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are issued as needed during times of high water, but are not routinely available.",
+  "hydronotes": [
+    {
+      "effective": "0101",
+      "expiration": "1231",
+      "statement": "River forecasts for this location take into account past and future precipitation.  The  stages/flows that will occur may be different if future rainfall is different than forecast."
+    }
+  ],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/boli2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/boli2_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "https://water.noaa.gov/resources/probabilistic/exceedance/BOLI2.QINE.exceed.90day.gif",
+        "stage": "https://water.noaa.gov/resources/probabilistic/exceedance/BOLI2.SSTG.exceed.90day.gif",
+        "volume": "https://water.noaa.gov/resources/probabilistic/exceedance/BOLI2.volume.exceed.90day.gif"
+      },
+      "shortrange": "https://water.noaa.gov/resources/probabilistic/short_term/BOLI2.shortrange.hefs.png",
+      "weekint": {
+        "flow": "https://water.noaa.gov/resources/probabilistic/exceedance/BOLI2.QINE.prob.weekint.gif",
+        "stage": "https://water.noaa.gov/resources/probabilistic/exceedance/BOLI2.SSTG.prob.weekint.gif",
+        "volume": "https://water.noaa.gov/resources/probabilistic/exceedance/BOLI2.volume.prob.weekint.gif"
+      }
+    }
+  },
+  "impactsLowWaters": [
+    {
+      "impact": "Approximate stage of the 1-in-10 annual chance flow (7-day average).",
+      "value": "14.5"
+    },
+    {
+      "impact": "River nears zero flow.",
+      "value": "13.5"
+    }
+  ],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.718055555556,
+  "lid": "BOLI2",
+  "longitude": -88.070555555556,
+  "lowThreshold": {
+    "units": "ft",
+    "value": 14.5
+  },
+  "name": "East Branch Du Page River at Bolingbrook",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "HGIFF",
+    "observed": "HGIRG"
+  },
+  "reachId": "14787007",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 15.12,
+      "primaryUnit": "ft",
+      "secondary": 0.128,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T13:40:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "DEBI2",
+  "usgsId": "05540250",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}

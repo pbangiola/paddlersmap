@@ -1,0 +1,456 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "not_defined",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "La Porte",
+  "dataAttribution": [
+    {
+      "abbrev": "the USGS (04095380)",
+      "text": "Jump to USGS site",
+      "title": "the USGS (04095380)",
+      "url": "https://waterdata.usgs.gov/in/nwis/uv/?site_no=04095380&PARAmeter_cd=00065,00060,62614,00010"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "04095380",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=04095380"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 573.6
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "major": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": -9999
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 3970,
+          "occurredTime": "2019-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.61
+        },
+        {
+          "flow": 3040,
+          "occurredTime": "1998-07-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.25
+        },
+        {
+          "flow": 3350,
+          "occurredTime": "2009-06-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.22
+        },
+        {
+          "flow": 3750,
+          "occurredTime": "2018-05-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.01
+        },
+        {
+          "flow": 3320,
+          "occurredTime": "2002-06-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.97
+        },
+        {
+          "flow": 4310,
+          "occurredTime": "2007-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.8
+        },
+        {
+          "flow": 4330,
+          "occurredTime": "2017-05-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.72
+        },
+        {
+          "flow": 3110,
+          "occurredTime": "2016-07-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.46
+        },
+        {
+          "flow": 4180,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.3
+        },
+        {
+          "flow": 2740,
+          "occurredTime": "1995-04-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.02
+        },
+        {
+          "flow": 3340,
+          "occurredTime": "2004-05-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.62
+        },
+        {
+          "flow": 2360,
+          "occurredTime": "1999-07-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.53
+        },
+        {
+          "flow": 3460,
+          "occurredTime": "2014-06-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.24
+        },
+        {
+          "flow": 2370,
+          "occurredTime": "2005-07-20T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.2
+        },
+        {
+          "flow": 3910,
+          "occurredTime": "2003-07-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.88
+        },
+        {
+          "flow": 3910,
+          "occurredTime": "2006-08-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.6
+        },
+        {
+          "flow": 4040,
+          "occurredTime": "2010-06-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.56
+        },
+        {
+          "flow": 3240,
+          "occurredTime": "2011-03-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.5
+        },
+        {
+          "flow": 3030,
+          "occurredTime": "2001-06-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.9
+        },
+        {
+          "flow": 4120,
+          "occurredTime": "2012-07-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.71
+        },
+        {
+          "flow": 3610,
+          "occurredTime": "2000-06-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.54
+        }
+      ],
+      "recent": [
+        {
+          "flow": 3970,
+          "occurredTime": "2019-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.61
+        },
+        {
+          "flow": 3750,
+          "occurredTime": "2018-05-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.01
+        },
+        {
+          "flow": 4330,
+          "occurredTime": "2017-05-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.72
+        },
+        {
+          "flow": 3110,
+          "occurredTime": "2016-07-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.46
+        },
+        {
+          "flow": 3460,
+          "occurredTime": "2014-06-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.24
+        },
+        {
+          "flow": 4120,
+          "occurredTime": "2012-07-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.71
+        },
+        {
+          "flow": 3240,
+          "occurredTime": "2011-03-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.5
+        },
+        {
+          "flow": 4040,
+          "occurredTime": "2010-06-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.56
+        },
+        {
+          "flow": 3350,
+          "occurredTime": "2009-06-19T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.22
+        },
+        {
+          "flow": 4180,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.3
+        },
+        {
+          "flow": 4310,
+          "occurredTime": "2007-04-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.8
+        },
+        {
+          "flow": 3910,
+          "occurredTime": "2006-08-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.6
+        },
+        {
+          "flow": 2370,
+          "occurredTime": "2005-07-20T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.2
+        },
+        {
+          "flow": 3340,
+          "occurredTime": "2004-05-30T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.62
+        },
+        {
+          "flow": 3910,
+          "occurredTime": "2003-07-05T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4.88
+        },
+        {
+          "flow": 3320,
+          "occurredTime": "2002-06-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.97
+        },
+        {
+          "flow": 3030,
+          "occurredTime": "2001-06-12T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.9
+        },
+        {
+          "flow": 3610,
+          "occurredTime": "2000-06-01T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.54
+        },
+        {
+          "flow": 2360,
+          "occurredTime": "1999-07-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 5.53
+        },
+        {
+          "flow": 3040,
+          "occurredTime": "1998-07-03T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 7.25
+        },
+        {
+          "flow": 2740,
+          "occurredTime": "1995-04-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.02
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [
+    {
+      "effective": "0101",
+      "expiration": "1231",
+      "statement": "Gauge readings affected by wave action from Lake Michigan."
+    }
+  ],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/mgni3_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/mgni3_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.7227777777778,
+  "lid": "MGNI3",
+  "longitude": -86.9041666666667,
+  "lowThreshold": null,
+  "name": "Trail Creek at Michigan City Harbor",
+  "normalThreshold": {
+    "units": "ft",
+    "value": 0
+  },
+  "pedts": {
+    "forecast": "HGIFF",
+    "observed": "HGIRG"
+  },
+  "reachId": "3396774",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IN",
+    "name": "Indiana"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "not_defined",
+      "primary": 5.99,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T13:40:00Z"
+    }
+  },
+  "timeZone": "EST5EDT",
+  "upstreamLid": "TCRI3",
+  "usgsId": "04095380",
+  "wfo": {
+    "abbreviation": "IWX",
+    "name": "Syracuse"
+  }
+}

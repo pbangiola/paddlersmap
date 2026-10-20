@@ -1,0 +1,193 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "obs_not_current",
+  "TruncateFcst": "7",
+  "TruncateObs": "-1",
+  "county": "Cook",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "http://water.usgs.gov/"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "414745087484901",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=414745087484901"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": []
+    }
+  },
+  "description": "",
+  "downstreamLid": "",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 7
+      },
+      "major": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": -9999
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": -9999
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 334,
+          "occurredTime": "2021-06-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.47
+        },
+        {
+          "flow": 139,
+          "occurredTime": "2021-10-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4
+        },
+        {
+          "flow": 95,
+          "occurredTime": "2022-09-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.7
+        }
+      ],
+      "recent": [
+        {
+          "flow": 95,
+          "occurredTime": "2022-09-11T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 3.7
+        },
+        {
+          "flow": 139,
+          "occurredTime": "2021-10-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 4
+        },
+        {
+          "flow": 334,
+          "occurredTime": "2021-06-26T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 6.47
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 7,
+        "statement": "Summit Conduit reaches capacity. Water may overtop low-lying banks along McCook Ditch upstream of Summit Conduit."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/scoi2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/scoi2_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 41.795833,
+  "lid": "SCOI2",
+  "longitude": -87.813611,
+  "lowThreshold": null,
+  "name": "Summit Conduit at Summit",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "",
+    "observed": "HGIRP"
+  },
+  "reachId": "",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "obs_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "",
+  "usgsId": "414745087484901",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}

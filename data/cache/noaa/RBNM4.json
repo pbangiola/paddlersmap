@@ -1,0 +1,1113 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "obs_not_current",
+  "TruncateFcst": "7",
+  "TruncateObs": "-1",
+  "county": "Ottawa",
+  "dataAttribution": [],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 570
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": 12560,
+        "stage": 13
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 18
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 13.3
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 15
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 0,
+          "occurredTime": "2005-01-21T19:51:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 18.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1994-02-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2013-04-19T15:43:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 17
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2004-05-28T19:53:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 16.2
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-02-26T12:38:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 16.08
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-05-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1997-03-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2013-02-08T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.1
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2008-12-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2017-04-12T08:04:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.85
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2000-05-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2009-05-02T15:40:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.62
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1997-01-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-01-19T13:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.35
+        },
+        {
+          "flow": -9999,
+          "occurredTime": "2016-01-16T09:25:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.2
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2016-01-16T14:25:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.2
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1996-12-31T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.92
+        },
+        {
+          "flow": -9999,
+          "occurredTime": "2017-01-19T21:21:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-01-05T04:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-04-30T11:30:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.85
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2001-05-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2001-02-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2006-03-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-02-28T16:30:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2009-03-14T19:45:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-03-16T08:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2011-05-03T11:05:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1999-04-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2009-02-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-11-05T12:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2004-03-09T21:31:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-10-06T16:50:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.35
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-06-25T12:05:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.33
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-12-02T13:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1998-03-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2006-02-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-02-13T01:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-02-08T13:35:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2007-03-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2021-07-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.85
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2010-04-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11
+        }
+      ],
+      "recent": [
+        {
+          "flow": 0,
+          "occurredTime": "2021-07-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 12.85
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-05-23T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-04-30T11:30:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.85
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-01-19T13:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.35
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2020-01-05T04:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-12-02T13:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-11-05T12:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-10-06T16:50:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.35
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-06-25T12:05:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.33
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-03-16T08:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-02-28T16:30:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.7
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-02-13T01:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2019-02-08T13:35:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2018-02-26T12:38:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 16.08
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2017-04-12T08:04:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.85
+        },
+        {
+          "flow": -9999,
+          "occurredTime": "2017-01-19T21:21:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.9
+        },
+        {
+          "flow": -9999,
+          "occurredTime": "2016-01-16T09:25:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.2
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2016-01-16T14:25:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.2
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2013-04-19T15:43:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 17
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2013-02-08T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.1
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2011-05-03T11:05:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2010-04-09T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 11
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2009-05-02T15:40:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.62
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2009-03-14T19:45:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2009-02-16T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2008-12-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.9
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2007-03-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2006-03-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2006-02-21T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2005-01-21T19:51:00Z",
+          "olddatum": false,
+          "preliminary": "R",
+          "stage": 18.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2004-05-28T19:53:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 16.2
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2004-03-09T21:31:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.4
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2001-05-17T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2001-02-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2000-05-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.8
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1999-04-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1998-03-24T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.3
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1997-03-28T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.6
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1997-01-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.5
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1996-12-31T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 13.92
+        },
+        {
+          "flow": 0,
+          "occurredTime": "1994-02-25T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 18
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 18.3,
+        "statement": "Flood of record. Major flooding of homes along Vanlopik Road and homes along Limberlost Road are flooded. Vanlopik Road is under 4 to 5 feet of water. Water reaches seat-cushion level in several homes."
+      },
+      {
+        "stage": 17,
+        "statement": "Vanlopik Road is 3 to 4 feet under water. Moderate flooding of several homes in Vanlopik subdivision occurs."
+      },
+      {
+        "stage": 16,
+        "statement": "Vanlopik Road is 2 to 3 feet under water. Moderate flooding of several homes on the east end of Vanlopik subdivision occurs."
+      },
+      {
+        "stage": 15,
+        "statement": "Vanlopik Road is 1 to 2 feet under water. Moderate flooding of several homes on the east end of Vanlopik subdivision occurs."
+      },
+      {
+        "stage": 13.92,
+        "statement": "Several homes in Vanlopik subdivision are surrounded by water."
+      },
+      {
+        "stage": 13.7,
+        "statement": "Two houses in the Vanlopik subdivision begin to be surrounded by water."
+      },
+      {
+        "stage": 13.6,
+        "statement": "Eastern edge of Vanlopik and the western edge of Limberlost Roads begin to flood. Flooding begins to occur in low lying areas in Deer Creek Park."
+      },
+      {
+        "stage": 13.3,
+        "statement": "Minor flooding begins in low areas."
+      },
+      {
+        "stage": 13,
+        "statement": "River is bankfull."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are issued as needed during times of high water, but are not routinely available.",
+  "hydronotes": [
+    {
+      "effective": "0401",
+      "expiration": "0930",
+      "statement": "River forecasts for this location take into account past precipitation and the precipitation amounts expected approximately 24 hours into the future from the forecast issuance time."
+    },
+    {
+      "effective": "1001",
+      "expiration": "0331",
+      "statement": "River forecasts for this location take into account past precipitation and the precipitation amounts expected approximately 48 hours into the future from the forecast issuance time."
+    },
+    {
+      "effective": "0101",
+      "expiration": "1231",
+      "statement": "Data is unavailable, forecasts will continue to be displayed."
+    }
+  ],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/rbnm4_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/rbnm4_record.png"
+    },
+    "photos": [
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9467410416040612334",
+        "properties": {
+          "caption": "Grand River Overflowing VanLopik Street",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9467410416040612334.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9474977628725121518",
+        "properties": {
+          "caption": "Grand River Overflowing in Robinson Township",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9474977628725121518.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9481827689245381102",
+        "properties": {
+          "caption": "Grand River Overflowing into Limberlost Subdivision",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9481827689245381102.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9488136957548499438",
+        "properties": {
+          "caption": "Staff Gages on the Grand River in Robinson Township",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9488136957548499438.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9494719561865302510",
+        "properties": {
+          "caption": "Aerial View Looking South",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9494719561865302510.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9500843399250383342",
+        "properties": {
+          "caption": "Staff Gage on the Grand River in Robinson Township",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9500843399250383342.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9508410856748028398",
+        "properties": {
+          "caption": "Another Photo of the Staff Gage on the Grand River in Robinson Township",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9508410856748028398.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "9515585444997173742",
+        "properties": {
+          "caption": "Aerial View Looking Upstream",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/9515585444997173742.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2551651434616590830",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2551651434616590830.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2568509035224502766",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2568509035224502766.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2586613859975434734",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2586613859975434734.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2600984614389420526",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2600984614389420526.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2615777254850957806",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2615777254850957806.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2629807280919417326",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2629807280919417326.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2637226325822149102",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2637226325822149102.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2657155974802969070",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2657155974802969070.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "2685327331017363950",
+        "properties": {
+          "caption": "Ice Jam Flooding - January 2005",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/2685327331017363950.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "14854021346277724654",
+        "properties": {
+          "caption": "April 2013 Flooding - Eastmanville",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/14854021346277724654.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "14930216917967049198",
+        "properties": {
+          "caption": "April 2013 Flooding - Robinson Township",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/14930216917967049198.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "14941039565538071022",
+        "properties": {
+          "caption": "April 2013 Flooding - Robinson Township, 118th Avenue",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/14941039565538071022.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "14953289628310049262",
+        "properties": {
+          "caption": "April 2013 Flooding - Robinson Township, Limberlost Subdivision",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/14953289628310049262.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "14964901381632430574",
+        "properties": {
+          "caption": "April 2013 Flooding - Robinson Township, Van Lopik Subdivision",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/14964901381632430574.jpeg"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
+            43.03962,
+            -86.08633
+          ],
+          "type": "Point"
+        },
+        "id": "14976116387350843886",
+        "properties": {
+          "caption": "April 2013 Flooding - Robinson Township, Van Lopik Subdivision",
+          "image": "https://water.noaa.gov/resources/photos/rbnm4/14976116387350843886.jpeg"
+        },
+        "type": "Feature"
+      }
+    ],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 43.03962,
+  "lid": "RBNM4",
+  "longitude": -86.08633,
+  "lowThreshold": null,
+  "name": "Grand River at Robinson Township",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "HGIFE",
+    "observed": "HGIRZ"
+  },
+  "reachId": "9005817",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "MI",
+    "name": "Michigan"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "obs_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    }
+  },
+  "timeZone": "EST5EDT",
+  "upstreamLid": "GDRM4",
+  "usgsId": "",
+  "wfo": {
+    "abbreviation": "GRR",
+    "name": "Grand Rapids"
+  }
+}

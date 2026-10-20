@@ -1,0 +1,308 @@
+{
+  "ForecastFloodCategory": "fcst_not_current",
+  "ObservedFloodCategory": "no_flooding",
+  "TruncateFcst": "-1",
+  "TruncateObs": "-1",
+  "county": "Cook",
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "http://water.usgs.gov/"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "05530100",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=05530100"
+    }
+  ],
+  "datums": {
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    },
+    "vertical": {
+      "value": [
+        {
+          "abbrev": "NAVD88",
+          "description": "A fixed reference for elevations determined by geodetic leveling. The datum was derived from a general adjustment of the first-order terrestrial leveling nets of the United States, Canada, and Mexico. In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 (IGLD 85) local mean sea level height value, at Father Point, Rimouski, Quebec, Canada was held fixed, thus providing minimum constraint. NAVD 88 and IGLD 85 are identical. However, NAVD 88 bench mark values are given in Helmert orthometric height units while IGLD 85 values are in dynamic heights. See International Great Lakes Datum of 1985, National Geodetic Vertical Datum of 1929, and geopotential difference. NAVD 88 should not be used as Mean Sea Level.",
+          "label": "North American Vertical Datum of 1988",
+          "value": 610.24
+        }
+      ]
+    }
+  },
+  "description": "",
+  "downstreamLid": "RVFI2",
+  "flood": {
+    "categories": {
+      "action": {
+        "flow": -9999,
+        "stage": 12.5
+      },
+      "major": {
+        "flow": -9999,
+        "stage": 20
+      },
+      "minor": {
+        "flow": -9999,
+        "stage": 13
+      },
+      "moderate": {
+        "flow": -9999,
+        "stage": 18
+      }
+    },
+    "crests": {
+      "historic": [
+        {
+          "flow": 0,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 21
+        },
+        {
+          "flow": 4840,
+          "occurredTime": "2020-05-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.24
+        },
+        {
+          "flow": 3790,
+          "occurredTime": "2019-09-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 17.92
+        },
+        {
+          "flow": 3210,
+          "occurredTime": "2020-05-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 17.08
+        },
+        {
+          "flow": 2520,
+          "occurredTime": "2020-03-29T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.59
+        },
+        {
+          "flow": 2330,
+          "occurredTime": "2019-07-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.2
+        },
+        {
+          "flow": 1940,
+          "occurredTime": "2019-10-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.38
+        }
+      ],
+      "recent": [
+        {
+          "flow": 4840,
+          "occurredTime": "2020-05-18T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 20.24
+        },
+        {
+          "flow": 3210,
+          "occurredTime": "2020-05-02T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 17.08
+        },
+        {
+          "flow": 2520,
+          "occurredTime": "2020-03-29T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.59
+        },
+        {
+          "flow": 1940,
+          "occurredTime": "2019-10-27T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 14.38
+        },
+        {
+          "flow": 3790,
+          "occurredTime": "2019-09-15T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 17.92
+        },
+        {
+          "flow": 2330,
+          "occurredTime": "2019-07-22T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "O",
+          "stage": 15.2
+        },
+        {
+          "flow": 0,
+          "occurredTime": "2008-09-14T00:00:00Z",
+          "olddatum": false,
+          "preliminary": "P",
+          "stage": 21
+        }
+      ]
+    },
+    "flowUnits": "cfs",
+    "impacts": [
+      {
+        "stage": 25,
+        "statement": "Water reaches the top of the levee near Rand Road and Ballard Road."
+      },
+      {
+        "stage": 24,
+        "statement": "Widespread inundation of structures and roadways in the floodplain may reach Lee Street and Elk Boulevard near downtown Des Plaines."
+      },
+      {
+        "stage": 21.5,
+        "statement": "Inundation of structures and roadways reaches up to 1 block from the river in Des Plaines."
+      },
+      {
+        "stage": 20.5,
+        "statement": "Water reaches the top of the floodwall along Miner Street causing numerous structures and roadways to be threatened near Miner Street and Busse Highway. Structures threatened along Prairie Avenue near South River Road. Algonquin Road threatened east of the river."
+      },
+      {
+        "stage": 19.5,
+        "statement": "Numerous residences threatened along Big Bend Drive and Grove Avenue. A few structures threatened along South River Road."
+      },
+      {
+        "stage": 19,
+        "statement": "Without flood protection, South River Road is threatened near Thacker Street."
+      },
+      {
+        "stage": 18.5,
+        "statement": "Big Bend Drive threatened."
+      },
+      {
+        "stage": 17,
+        "statement": "Central Road is threatened and Golf Road is threatened near College Drive."
+      },
+      {
+        "stage": 15,
+        "statement": "Buildings threatened at Methodist Campground."
+      },
+      {
+        "stage": 14,
+        "statement": "Low-lying Methodist Campground property and forest preserve property threatened near Des Plaines."
+      },
+      {
+        "stage": 13.5,
+        "statement": "Camp Ground Road and Des Plaines River Trail threatened near Miner Street."
+      }
+    ],
+    "lowWaters": {
+      "historic": []
+    },
+    "lro": null,
+    "stageUnits": "ft"
+  },
+  "forecastReliability": "Forecasts are not available. Only observed stages are available for this point.",
+  "hydronotes": [],
+  "images": {
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/dmpi2_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/dmpi2_record.png"
+    },
+    "photos": [],
+    "probability": {
+      "entperiod": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      },
+      "shortrange": "",
+      "weekint": {
+        "flow": "",
+        "stage": "",
+        "volume": ""
+      }
+    }
+  },
+  "impactsLowWaters": [
+    {
+      "impact": "River nears zero flow.",
+      "value": "6.5"
+    },
+    {
+      "impact": "Approximate stage of the 1-in-10 annual chance flow (7-day average).",
+      "value": "7.0"
+    }
+  ],
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "inundation": {
+    "dataAttribution": [],
+    "downloads": null,
+    "enabled": false,
+    "siteSpecificInfo": "",
+    "url": "",
+    "zeroDatum": null
+  },
+  "latitude": 42.0317,
+  "lid": "DMPI2",
+  "longitude": -87.8781,
+  "lowThreshold": {
+    "units": "ft",
+    "value": 7
+  },
+  "name": "Des Plaines River at Des Plaines (Algonquin Road)",
+  "normalThreshold": null,
+  "pedts": {
+    "forecast": "HGIFF",
+    "observed": "HGIRG"
+  },
+  "reachId": "14784647",
+  "rfc": {
+    "abbreviation": "NCRFC",
+    "name": "North Central River Forecast Center"
+  },
+  "state": {
+    "abbreviation": "IL",
+    "name": "Illinois"
+  },
+  "status": {
+    "forecast": {
+      "floodCategory": "fcst_not_current",
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "validTime": "0001-01-01T00:00:00Z"
+    },
+    "observed": {
+      "floodCategory": "no_flooding",
+      "primary": 10.98,
+      "primaryUnit": "ft",
+      "secondary": 0.773,
+      "secondaryUnit": "kcfs",
+      "validTime": "2026-10-08T14:00:00Z"
+    }
+  },
+  "timeZone": "CST6CDT",
+  "upstreamLid": "DSPI2",
+  "usgsId": "05530100",
+  "wfo": {
+    "abbreviation": "LOT",
+    "name": "Romeoville"
+  }
+}
