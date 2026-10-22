@@ -1,10 +1,10 @@
 {
   "layers": {
     "launches": {
-      "next_tile": 10,
+      "next_tile": 13,
       "delay_seconds": 120,
-      "successes": 10,
-      "failures": 14
+      "successes": 13,
+      "failures": 15
     },
     "rivers": {
       "next_tile": 0,
@@ -20,42 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "gauges",
-      "tile": 94,
-      "seconds": 0.39,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 95,
-      "seconds": 0.51,
-      "bytes": 19735,
-      "features": 9,
-      "added": 9,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 96,
-      "seconds": 0.56,
-      "bytes": 53249,
-      "features": 26,
-      "added": 26,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 97,
-      "seconds": 0.46,
-      "bytes": 35542,
-      "features": 17,
-      "added": 17,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 98,
@@ -1099,12 +1063,48 @@
       "features": 0,
       "added": 0,
       "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 10,
+      "seconds": 28.49,
+      "bytes": 3548,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 11,
+      "seconds": 34.65,
+      "bytes": 990,
+      "features": 2,
+      "added": 2,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 12,
+      "seconds": 38.78,
+      "bytes": 1511,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 13,
+      "seconds": 0.41,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "HTTP Error 502: Bad Gateway"
     }
   ],
   "last_run": {
-    "requests": 1,
-    "bytes": 0,
-    "elapsed_seconds": 5.6,
+    "requests": 4,
+    "bytes": 6049,
+    "elapsed_seconds": 122.3,
     "probe": false
   }
 }
