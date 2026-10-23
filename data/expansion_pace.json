@@ -1,10 +1,10 @@
 {
   "layers": {
     "launches": {
-      "next_tile": 13,
+      "next_tile": 14,
       "delay_seconds": 120,
-      "successes": 13,
-      "failures": 15
+      "successes": 14,
+      "failures": 16
     },
     "rivers": {
       "next_tile": 0,
@@ -20,24 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "gauges",
-      "tile": 98,
-      "seconds": 0.5,
-      "bytes": 23668,
-      "features": 11,
-      "added": 11,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 99,
-      "seconds": 0.51,
-      "bytes": 15644,
-      "features": 7,
-      "added": 7,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 100,
@@ -1099,12 +1081,30 @@
       "features": 0,
       "added": 0,
       "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 13,
+      "seconds": 28.53,
+      "bytes": 539,
+      "features": 2,
+      "added": 2,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 14,
+      "seconds": 0.32,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "HTTP Error 502: Bad Gateway"
     }
   ],
   "last_run": {
-    "requests": 4,
-    "bytes": 6049,
-    "elapsed_seconds": 122.3,
+    "requests": 2,
+    "bytes": 539,
+    "elapsed_seconds": 38.9,
     "probe": false
   }
 }
