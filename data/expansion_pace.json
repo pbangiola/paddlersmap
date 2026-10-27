@@ -4,7 +4,7 @@
       "next_tile": 16,
       "delay_seconds": 120,
       "successes": 16,
-      "failures": 19
+      "failures": 20
     },
     "rivers": {
       "next_tile": 0,
@@ -20,15 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "gauges",
-      "tile": 105,
-      "seconds": 0.64,
-      "bytes": 50931,
-      "features": 24,
-      "added": 24,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 106,
@@ -1095,6 +1086,15 @@
       "layer": "launches",
       "tile": 16,
       "seconds": 0.64,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 16,
+      "seconds": 0.56,
       "bytes": 0,
       "features": 0,
       "added": 0,
