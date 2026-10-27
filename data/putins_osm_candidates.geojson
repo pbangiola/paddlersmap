@@ -458,12 +458,13 @@
         "source_url": "https://www.openstreetmap.org/node/287190635",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -891,12 +892,13 @@
         "source_url": "https://www.openstreetmap.org/node/838625028",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -4661,12 +4663,13 @@
         "source_url": "https://www.openstreetmap.org/node/10880458834",
         "verification": "candidate_review",
         "access": "yes",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": "put_in",
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -7293,11 +7296,12 @@
         "source_url": "https://www.openstreetmap.org/way/26227595",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -11312,11 +11316,12 @@
         "source_url": "https://www.openstreetmap.org/way/1307151587",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -29989,11 +29994,12 @@
         "source_url": "https://www.openstreetmap.org/node/1925880053",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -36738,6 +36744,406 @@
         "name": "Tower Road Boat Launch Access Road",
         "source": "OpenStreetMap",
         "source_url": "https://www.openstreetmap.org/way/1174220333",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85883766666666,
+          42.04319103333333
+        ]
+      },
+      "properties": {
+        "id": "osm-way-24107382",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/24107382",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85808673333334,
+          42.042394699999996
+        ]
+      },
+      "properties": {
+        "id": "osm-way-24107384",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/24107384",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8586741,
+          42.041501600000004
+        ]
+      },
+      "properties": {
+        "id": "osm-way-231003199",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/231003199",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85812613333333,
+          42.041351399999996
+        ]
+      },
+      "properties": {
+        "id": "osm-way-231003210",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/231003210",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85849913333334,
+          42.042201166666665
+        ]
+      },
+      "properties": {
+        "id": "osm-way-231003211",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/231003211",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85845435,
+          42.04266545
+        ]
+      },
+      "properties": {
+        "id": "osm-way-357533838",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/357533838",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85884683333332,
+          42.04098
+        ]
+      },
+      "properties": {
+        "id": "osm-way-357533840",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/357533840",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85945408636364,
+          42.039641586363636
+        ]
+      },
+      "properties": {
+        "id": "osm-way-431816076",
+        "name": "Crystal Landings",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/431816076",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85899305000001,
+          42.0426647
+        ]
+      },
+      "properties": {
+        "id": "osm-way-658887992",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/658887992",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.859224,
+          42.042461325
+        ]
+      },
+      "properties": {
+        "id": "osm-way-658887993",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/658887993",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.858828,
+          42.04288595
+        ]
+      },
+      "properties": {
+        "id": "osm-way-658887994",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/658887994",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85922815,
+          42.0418553
+        ]
+      },
+      "properties": {
+        "id": "osm-way-871177737",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/871177737",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85921794999999,
+          42.0413354
+        ]
+      },
+      "properties": {
+        "id": "osm-way-989369511",
+        "name": "Landings Lane",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/989369511",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.87344046,
+          42.07167104
+        ]
+      },
+      "properties": {
+        "id": "osm-way-378374520",
+        "name": "Beck Lake Boat Launch",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/378374520",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.11367676,
+          42.10280772333333
+        ]
+      },
+      "properties": {
+        "id": "osm-way-1329678376",
+        "name": "Harper's Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/1329678376",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.119631375,
+          42.106437905
+        ]
+      },
+      "properties": {
+        "id": "osm-way-1329678379",
+        "name": "Harper's Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/1329678379",
         "verification": "candidate_review",
         "access": "unknown",
         "waterway": null,
