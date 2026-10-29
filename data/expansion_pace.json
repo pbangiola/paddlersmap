@@ -1,9 +1,9 @@
 {
   "layers": {
     "launches": {
-      "next_tile": 16,
-      "delay_seconds": 120,
-      "successes": 16,
+      "next_tile": 21,
+      "delay_seconds": 76.8,
+      "successes": 21,
       "failures": 21
     },
     "rivers": {
@@ -20,51 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "launches",
-      "tile": 8,
-      "seconds": 7.18,
-      "bytes": 0,
-      "features": 0,
-      "added": 0,
-      "result": "HTTP Error 504: Gateway Timeout"
-    },
-    {
-      "layer": "gauges",
-      "tile": 107,
-      "seconds": 0.33,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 108,
-      "seconds": 0.26,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 109,
-      "seconds": 0.28,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 110,
-      "seconds": 0.23,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 111,
@@ -1099,12 +1054,57 @@
       "features": 0,
       "added": 0,
       "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 16,
+      "seconds": 30.95,
+      "bytes": 287,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 17,
+      "seconds": 44.82,
+      "bytes": 4120,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 18,
+      "seconds": 31.05,
+      "bytes": 287,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 19,
+      "seconds": 27.88,
+      "bytes": 5690,
+      "features": 12,
+      "added": 12,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 20,
+      "seconds": 33.54,
+      "bytes": 1440,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
     }
   ],
   "last_run": {
-    "requests": 1,
-    "bytes": 0,
-    "elapsed_seconds": 5.6,
+    "requests": 5,
+    "bytes": 11824,
+    "elapsed_seconds": 188.3,
     "probe": false
   }
 }
