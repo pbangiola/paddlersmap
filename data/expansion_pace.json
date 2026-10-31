@@ -1,9 +1,9 @@
 {
   "layers": {
     "launches": {
-      "next_tile": 21,
-      "delay_seconds": 120,
-      "successes": 21,
+      "next_tile": 26,
+      "delay_seconds": 96.0,
+      "successes": 26,
       "failures": 22
     },
     "rivers": {
@@ -20,51 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "gauges",
-      "tile": 112,
-      "seconds": 0.25,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 113,
-      "seconds": 0.29,
-      "bytes": 34201,
-      "features": 16,
-      "added": 16,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 114,
-      "seconds": 0.3,
-      "bytes": 33456,
-      "features": 16,
-      "added": 16,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 115,
-      "seconds": 0.36,
-      "bytes": 41404,
-      "features": 20,
-      "added": 20,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 116,
-      "seconds": 0.3,
-      "bytes": 41694,
-      "features": 20,
-      "added": 20,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 117,
@@ -1099,12 +1054,57 @@
       "features": 0,
       "added": 0,
       "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 21,
+      "seconds": 30.09,
+      "bytes": 4984,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 22,
+      "seconds": 36.46,
+      "bytes": 704,
+      "features": 2,
+      "added": 2,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 23,
+      "seconds": 29.26,
+      "bytes": 413,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 24,
+      "seconds": 36.79,
+      "bytes": 287,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 25,
+      "seconds": 27.79,
+      "bytes": 734,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
     }
   ],
   "last_run": {
-    "requests": 1,
-    "bytes": 0,
-    "elapsed_seconds": 5.7,
+    "requests": 5,
+    "bytes": 7122,
+    "elapsed_seconds": 180.4,
     "probe": false
   }
 }
