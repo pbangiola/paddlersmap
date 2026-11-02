@@ -4,7 +4,7 @@
       "next_tile": 28,
       "delay_seconds": 120,
       "successes": 28,
-      "failures": 23
+      "failures": 24
     },
     "rivers": {
       "next_tile": 0,
@@ -20,15 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "gauges",
-      "tile": 120,
-      "seconds": 0.35,
-      "bytes": 48710,
-      "features": 23,
-      "added": 23,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 121,
@@ -1099,12 +1090,21 @@
       "features": 0,
       "added": 0,
       "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 28,
+      "seconds": 55.5,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "The read operation timed out"
     }
   ],
   "last_run": {
-    "requests": 3,
-    "bytes": 1628,
-    "elapsed_seconds": 81.7,
+    "requests": 1,
+    "bytes": 0,
+    "elapsed_seconds": 60.5,
     "probe": false
   }
 }
