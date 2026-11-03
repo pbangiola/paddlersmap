@@ -1377,11 +1377,12 @@
         "source_url": "https://www.openstreetmap.org/node/1946103894",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -1786,11 +1787,12 @@
         "source_url": "https://www.openstreetmap.org/node/3031075527",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -10195,12 +10197,13 @@
         "source_url": "https://www.openstreetmap.org/way/1169199275",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -10219,12 +10222,13 @@
         "source_url": "https://www.openstreetmap.org/way/1169199276",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -10243,12 +10247,13 @@
         "source_url": "https://www.openstreetmap.org/way/1169199277",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -10267,12 +10272,13 @@
         "source_url": "https://www.openstreetmap.org/way/1169199278",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -30293,11 +30299,12 @@
         "source_url": "https://www.openstreetmap.org/node/3411270620",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -30750,12 +30757,13 @@
         "source_url": "https://www.openstreetmap.org/node/5016956500",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -30774,12 +30782,13 @@
         "source_url": "https://www.openstreetmap.org/node/5016956501",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -31895,11 +31904,12 @@
         "source_url": "https://www.openstreetmap.org/node/9882122188",
         "verification": "candidate_review",
         "access": "yes",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
