@@ -1,10 +1,10 @@
 {
   "layers": {
     "launches": {
-      "next_tile": 29,
+      "next_tile": 32,
       "delay_seconds": 120,
-      "successes": 29,
-      "failures": 25
+      "successes": 32,
+      "failures": 26
     },
     "rivers": {
       "next_tile": 0,
@@ -20,42 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "gauges",
-      "tile": 123,
-      "seconds": 0.29,
-      "bytes": 15428,
-      "features": 7,
-      "added": 7,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 124,
-      "seconds": 0.44,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 125,
-      "seconds": 0.27,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 126,
-      "seconds": 0.32,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 127,
@@ -1099,12 +1063,48 @@
       "features": 0,
       "added": 0,
       "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 29,
+      "seconds": 36.18,
+      "bytes": 419,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 30,
+      "seconds": 41.87,
+      "bytes": 464,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 31,
+      "seconds": 25.77,
+      "bytes": 1799,
+      "features": 5,
+      "added": 5,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 32,
+      "seconds": 0.42,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "HTTP Error 502: Bad Gateway"
     }
   ],
   "last_run": {
-    "requests": 2,
-    "bytes": 287,
-    "elapsed_seconds": 39.3,
+    "requests": 4,
+    "bytes": 2682,
+    "elapsed_seconds": 124.2,
     "probe": false
   }
 }
