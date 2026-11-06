@@ -3139,12 +3139,13 @@
         "source_url": "https://www.openstreetmap.org/node/5251008906",
         "verification": "candidate_review",
         "access": "yes",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -4382,11 +4383,12 @@
         "source_url": "https://www.openstreetmap.org/node/9953186729",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -8943,11 +8945,12 @@
         "source_url": "https://www.openstreetmap.org/way/485676017",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -37205,6 +37208,106 @@
         "access": "unknown",
         "waterway": null,
         "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.67580604375,
+          42.06422773125
+        ]
+      },
+      "properties": {
+        "id": "osm-way-182583842",
+        "name": "Light House Landing Park",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/182583842",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": "park",
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7910955,
+          42.0066998
+        ]
+      },
+      "properties": {
+        "id": "osm-node-10920935610",
+        "name": "Bunker Hill Canoe Launch",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/node/10920935610",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": "put_in",
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.29279672,
+          42.430421439999996
+        ]
+      },
+      "properties": {
+        "id": "osm-way-543179089",
+        "name": "Pioneer Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/543179089",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.29293944,
+          42.35535796
+        ]
+      },
+      "properties": {
+        "id": "osm-way-485676016",
+        "name": "Lakeland Park Boat Launch",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/485676016",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": "park",
         "canoe": null,
         "kayak": null,
         "sport": null,
