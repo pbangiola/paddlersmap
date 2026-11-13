@@ -1764,11 +1764,12 @@
         "source_url": "https://www.openstreetmap.org/node/3026380246",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -4339,12 +4340,13 @@
         "source_url": "https://www.openstreetmap.org/node/9858323055",
         "verification": "candidate_review",
         "access": "yes",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -4781,12 +4783,13 @@
         "source_url": "https://www.openstreetmap.org/node/10920941539",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -5193,12 +5196,13 @@
         "source_url": "https://www.openstreetmap.org/node/12107026033",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": "put_in",
         "kayak": null,
-        "state_extract": "illinois",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -5992,11 +5996,12 @@
         "source_url": "https://www.openstreetmap.org/node/13734961098",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": null,
         "waterway": "access_point",
+        "leisure": null,
         "canoe": "yes",
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -30670,12 +30675,13 @@
         "source_url": "https://www.openstreetmap.org/node/5008548865",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -30694,11 +30700,12 @@
         "source_url": "https://www.openstreetmap.org/node/5008548866",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": null,
         "waterway": "access_point",
+        "leisure": null,
         "canoe": "permissive",
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -30718,12 +30725,13 @@
         "source_url": "https://www.openstreetmap.org/node/5008548941",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
-        "match_type": "access_tag"
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
       }
     },
     {
@@ -32491,11 +32499,12 @@
         "source_url": "https://www.openstreetmap.org/node/13735905375",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -32539,11 +32548,12 @@
         "source_url": "https://www.openstreetmap.org/node/13735932978",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": null,
         "waterway": "access_point",
+        "leisure": null,
         "canoe": "permissive",
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -37340,6 +37350,56 @@
         "waterway": null,
         "leisure": null,
         "canoe": "put_in",
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8567371,
+          41.9540915
+        ]
+      },
+      "properties": {
+        "id": "osm-node-12134689725",
+        "name": "Irving Park Road Canoe Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/node/12134689725",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": "nature_reserve",
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.85650247142857,
+          41.95410294285715
+        ]
+      },
+      "properties": {
+        "id": "osm-way-207402502",
+        "name": "Irving Park Road Canoe Landing Access Road",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/207402502",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
         "kayak": null,
         "sport": null,
         "description": null,

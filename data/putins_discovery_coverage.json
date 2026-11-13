@@ -1,43 +1,22 @@
 {
   "method": "OSM map API stream corridor rectangles",
   "total_rectangles": 3292,
-  "completed_rectangles": 230,
-  "remaining_rectangles": 3062,
+  "completed_rectangles": 249,
+  "remaining_rectangles": 3043,
   "attempted_this_run": 21,
   "failed_this_run": [
     {
       "rectangle": [
-        -2200,
-        1070
-      ],
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "rectangle": [
-        -2207,
-        1053
-      ],
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "rectangle": [
-        -2202,
-        1049
-      ],
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "rectangle": [
-        -2203,
-        1069
+        -2196,
+        1048
       ],
       "error": "HTTP Error 429: Too Many Requests"
     }
   ],
-  "unresolved_failures": 4,
+  "unresolved_failures": 1,
   "gowe_found_in_current_run": true,
-  "bytes_downloaded": 307627297,
-  "candidate_count": 1549,
+  "bytes_downloaded": 267076002,
+  "candidate_count": 1551,
   "complete_region": false,
   "warning": "Unverified OSM access candidates; river navigability and public access not established"
 }
