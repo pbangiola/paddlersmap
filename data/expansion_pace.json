@@ -1,10 +1,10 @@
 {
   "layers": {
     "launches": {
-      "next_tile": 37,
+      "next_tile": 40,
       "delay_seconds": 120,
-      "successes": 37,
-      "failures": 35
+      "successes": 40,
+      "failures": 36
     },
     "rivers": {
       "next_tile": 0,
@@ -20,42 +20,6 @@
     }
   },
   "history": [
-    {
-      "layer": "gauges",
-      "tile": 140,
-      "seconds": 0.53,
-      "bytes": 15908,
-      "features": 7,
-      "added": 7,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 141,
-      "seconds": 0.42,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 142,
-      "seconds": 0.41,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
-    {
-      "layer": "gauges",
-      "tile": 143,
-      "seconds": 1.08,
-      "bytes": 1506,
-      "features": 0,
-      "added": 0,
-      "result": "ok"
-    },
     {
       "layer": "gauges",
       "tile": 144,
@@ -1099,12 +1063,48 @@
       "features": 0,
       "added": 0,
       "result": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "layer": "launches",
+      "tile": 37,
+      "seconds": 23.53,
+      "bytes": 287,
+      "features": 0,
+      "added": 0,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 38,
+      "seconds": 35.6,
+      "bytes": 706,
+      "features": 2,
+      "added": 2,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 39,
+      "seconds": 35.6,
+      "bytes": 558,
+      "features": 1,
+      "added": 1,
+      "result": "ok"
+    },
+    {
+      "layer": "launches",
+      "tile": 40,
+      "seconds": 0.53,
+      "bytes": 0,
+      "features": 0,
+      "added": 0,
+      "result": "HTTP Error 502: Bad Gateway"
     }
   ],
   "last_run": {
-    "requests": 1,
-    "bytes": 0,
-    "elapsed_seconds": 5.6,
+    "requests": 4,
+    "bytes": 1551,
+    "elapsed_seconds": 115.3,
     "probe": false
   }
 }
