@@ -5011,11 +5011,12 @@
         "source_url": "https://www.openstreetmap.org/node/11999872742",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "illinois",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -30358,11 +30359,12 @@
         "source_url": "https://www.openstreetmap.org/node/3417246277",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -30625,11 +30627,12 @@
         "source_url": "https://www.openstreetmap.org/node/4974504851",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -31048,11 +31051,12 @@
         "source_url": "https://www.openstreetmap.org/node/5059441253",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -31466,11 +31470,12 @@
         "source_url": "https://www.openstreetmap.org/node/6913357493",
         "verification": "candidate_review",
         "access": "unknown",
-        "leisure": "slipway",
         "waterway": null,
+        "leisure": "slipway",
         "canoe": null,
         "kayak": null,
-        "state_extract": "wisconsin",
+        "sport": null,
+        "description": null,
         "match_type": "access_tag"
       }
     },
@@ -37529,6 +37534,81 @@
         "access": "unknown",
         "waterway": null,
         "leisure": "nature_reserve",
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2185717,
+          42.78161856666667
+        ]
+      },
+      "properties": {
+        "id": "osm-way-540225688",
+        "name": "Bayview Canoe Launch",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/540225688",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": "park",
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.20600311000001,
+          42.77644574
+        ]
+      },
+      "properties": {
+        "id": "osm-way-1456134622",
+        "name": "Trailside Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/1456134622",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
+        "canoe": null,
+        "kayak": null,
+        "sport": null,
+        "description": null,
+        "match_type": "launch_name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65110038,
+          41.94708394
+        ]
+      },
+      "properties": {
+        "id": "osm-way-1318570897",
+        "name": "Lakeview Landing",
+        "source": "OpenStreetMap",
+        "source_url": "https://www.openstreetmap.org/way/1318570897",
+        "verification": "candidate_review",
+        "access": "unknown",
+        "waterway": null,
+        "leisure": null,
         "canoe": null,
         "kayak": null,
         "sport": null,

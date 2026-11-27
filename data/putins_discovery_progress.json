@@ -2,6 +2,10 @@
   "completed": [
     [
       -2210,
+      1055
+    ],
+    [
+      -2210,
       1056
     ],
     [
@@ -23,6 +27,10 @@
     [
       -2210,
       1062
+    ],
+    [
+      -2210,
+      1063
     ],
     [
       -2209,
@@ -183,6 +191,10 @@
     [
       -2207,
       1067
+    ],
+    [
+      -2207,
+      1068
     ],
     [
       -2206,
@@ -259,6 +271,10 @@
     [
       -2206,
       1068
+    ],
+    [
+      -2206,
+      1069
     ],
     [
       -2205,
@@ -335,6 +351,14 @@
     [
       -2205,
       1069
+    ],
+    [
+      -2205,
+      1070
+    ],
+    [
+      -2204,
+      1048
     ],
     [
       -2204,
@@ -591,6 +615,10 @@
     [
       -2202,
       1071
+    ],
+    [
+      -2201,
+      1047
     ],
     [
       -2201,
@@ -973,6 +1001,10 @@
       1071
     ],
     [
+      -2198,
+      1072
+    ],
+    [
       -2197,
       1047
     ],
@@ -1118,6 +1150,10 @@
     ],
     [
       -2195,
+      1047
+    ],
+    [
+      -2195,
       1048
     ],
     [
@@ -1187,15 +1223,23 @@
     [
       -2193,
       1051
+    ],
+    [
+      -2192,
+      1048
     ]
   ],
   "failures": {
-    "-2195,1047": "HTTP Error 429: Too Many Requests",
-    "-2201,1047": "HTTP Error 429: Too Many Requests",
-    "-2207,1068": "HTTP Error 429: Too Many Requests",
-    "-2210,1063": "HTTP Error 429: Too Many Requests",
-    "-2206,1069": "HTTP Error 429: Too Many Requests",
-    "-2192,1048": "HTTP Error 429: Too Many Requests"
+    "-2197,1072": "HTTP Error 429: Too Many Requests",
+    "-2203,1071": "HTTP Error 429: Too Many Requests",
+    "-2199,1072": "HTTP Error 429: Too Many Requests",
+    "-2194,1047": "HTTP Error 429: Too Many Requests",
+    "-2202,1047": "HTTP Error 429: Too Many Requests",
+    "-2207,1050": "HTTP Error 429: Too Many Requests",
+    "-2200,1072": "HTTP Error 429: Too Many Requests",
+    "-2210,1064": "HTTP Error 429: Too Many Requests",
+    "-2209,1066": "HTTP Error 429: Too Many Requests",
+    "-2208,1051": "HTTP Error 429: Too Many Requests"
   },
   "total_rectangles": 3292
 }
